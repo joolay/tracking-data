@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T12:46:54.385Z",
+  "at": "2026-11-20T12:47:54.435Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -218,7 +218,7 @@
         "key": "umbrel:joolay-portal",
         "kind": "umbrel",
         "id": "joolay-portal",
-        "name": "JoolzApp Portal",
+        "name": "JoolzApp Store",
         "state": "ready",
         "busy": false,
         "on": true,
@@ -228,11 +228,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "19da97fd2147",
+            "id": "b99812c5f99a",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.35.0",
+            "image": "ghcr.io/joolay/portal-admin:0.35.1",
             "state": "running",
-            "status": "Up 2 hours (healthy)",
+            "status": "Up 4 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -313,7 +313,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.0.0",
             "state": "running",
-            "status": "Up 32 minutes (healthy)",
+            "status": "Up 33 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -529,7 +529,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.4.0",
             "state": "running",
-            "status": "Up 13 minutes",
+            "status": "Up 14 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -553,7 +553,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.0.0",
             "state": "running",
-            "status": "Up 33 minutes (healthy)",
+            "status": "Up 34 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -802,11 +802,27 @@
     ],
     "containers": [
       {
+        "id": "b99812c5f99a",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.35.1",
+        "state": "running",
+        "status": "Up 4 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-20T12:47:49.726376761Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "2bf8fe5d8bb1",
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.4.0",
         "state": "running",
-        "status": "Up 13 minutes",
+        "status": "Up 14 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -821,7 +837,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.0.0",
         "state": "running",
-        "status": "Up 32 minutes (healthy)",
+        "status": "Up 33 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -837,7 +853,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.0.0",
         "state": "running",
-        "status": "Up 33 minutes (healthy)",
+        "status": "Up 34 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -860,22 +876,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-20T10:52:54.770774961Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "19da97fd2147",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.35.0",
-        "state": "running",
-        "status": "Up 2 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-20T10:52:43.045103953Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
