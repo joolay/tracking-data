@@ -1,0 +1,1247 @@
+{
+  "app": "services-manager",
+  "at": "2026-11-20T06:17:49.101Z",
+  "data": {
+    "umbrel": {
+      "connected": true,
+      "base": "http://host.docker.internal",
+      "error": null
+    },
+    "summary": {
+      "containers": 32,
+      "running": 31,
+      "problems": []
+    },
+    "services": [
+      {
+        "key": "umbrel:adguard-home",
+        "kind": "umbrel",
+        "id": "adguard-home",
+        "name": "AdGuard Home",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "f4b5d78d553d",
+            "name": "adguard-home_server_1",
+            "image": "adguard/adguardhome:v1.0.0-b.1@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-app-updater",
+        "kind": "umbrel",
+        "id": "joolay-app-updater",
+        "name": "App Updater",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "5d94649426c9",
+            "name": "joolay-app-updater_web_1",
+            "image": "ghcr.io/joolay/app-updater:1.5.0",
+            "state": "running",
+            "status": "Up 19 minutes (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-atvloadly",
+        "kind": "umbrel",
+        "id": "joolay-atvloadly",
+        "name": "atvloadly",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "3b58a099c68f",
+            "name": "joolay-atvloadly_web_1",
+            "image": "bitxeno/atvloadly:v0.3.7",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:cloudflared",
+        "kind": "umbrel",
+        "id": "cloudflared",
+        "name": "Cloudflare Tunnel",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "cf1699429d27",
+            "name": "cloudflared_web_1",
+            "image": "ghcr.io/radiokot/umbrel-cloudflared:1.1.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          },
+          {
+            "id": "d5028e9f099c",
+            "name": "cloudflared_connector_1",
+            "image": "ghcr.io/radiokot/umbrel-cloudflared-connector:1.1.0-cf.2026.10.4@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-diner-bell",
+        "kind": "umbrel",
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "b20dcf3aa703",
+            "name": "joolay-diner-bell_web_1",
+            "image": "ghcr.io/joolay/diner-bell:2.0.11",
+            "state": "running",
+            "status": "Up 42 hours",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:glasshome",
+        "kind": "umbrel",
+        "id": "glasshome",
+        "name": "GlassHome",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "126cc54d8b5a",
+            "name": "glasshome_server_1",
+            "image": "ghcr.io/glasshome/dash:1.4.5@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:home-assistant",
+        "kind": "umbrel",
+        "id": "home-assistant",
+        "name": "Home Assistant",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "no",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "ffe121cd51a1",
+            "name": "home-assistant_server_1",
+            "image": "homeassistant/home-assistant:2026.11.2@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "no",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-jolly-grocer",
+        "kind": "umbrel",
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "4ee38d1e9b61",
+            "name": "joolay-jolly-grocer_web_1",
+            "image": "ghcr.io/joolay/jolly-grocer:1.0.12",
+            "state": "running",
+            "status": "Up 45 hours",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-portal",
+        "kind": "umbrel",
+        "id": "joolay-portal",
+        "name": "JoolzApp Portal",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "0220974d7fed",
+            "name": "joolay-portal_web_1",
+            "image": "ghcr.io/joolay/portal-admin:0.33.1",
+            "state": "running",
+            "status": "Up 21 seconds (health: starting)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-cctv",
+        "kind": "umbrel",
+        "id": "joolay-cctv",
+        "name": "JoolzCCTV",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "52f7a67648d6",
+            "name": "joolay-cctv_web_1",
+            "image": "ghcr.io/joolay/cctv:1.0.1",
+            "state": "running",
+            "status": "Up 24 hours",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-joolztv",
+        "kind": "umbrel",
+        "id": "joolay-joolztv",
+        "name": "JoolzTV",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "73ed0d15530a",
+            "name": "joolay-joolztv_server_1",
+            "image": "tsaridas/stremio-docker:latest",
+            "state": "running",
+            "status": "Up 26 hours",
+            "policy": "on-failure",
+            "self": false
+          },
+          {
+            "id": "f61bd7dc593e",
+            "name": "joolay-joolztv_web_1",
+            "image": "ghcr.io/joolay/joolztv:1.17.0",
+            "state": "running",
+            "status": "Up 26 hours",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:kokoro",
+        "kind": "umbrel",
+        "id": "kokoro",
+        "name": "Kokoro",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "d582aafd1172",
+            "name": "kokoro_web_1",
+            "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-listify",
+        "kind": "umbrel",
+        "id": "joolay-listify",
+        "name": "Listify",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "672ef06e2840",
+            "name": "joolay-listify_web_1",
+            "image": "ghcr.io/joolay/listify:1.0.16",
+            "state": "running",
+            "status": "Up 45 hours",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:ollama",
+        "kind": "umbrel",
+        "id": "ollama",
+        "name": "Ollama",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "93db0e5a6ffa",
+            "name": "ollama_ollama_1",
+            "image": "ollama/ollama:0.40.16@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:open-webui",
+        "kind": "umbrel",
+        "id": "open-webui",
+        "name": "Open WebUI",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "9d08436f817c",
+            "name": "open-webui_web_1",
+            "image": "ghcr.io/open-webui/open-webui:v0.13.4@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:openclaw",
+        "kind": "umbrel",
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "9e95d5866de5",
+            "name": "openclaw_gateway_1",
+            "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:paperclip",
+        "kind": "umbrel",
+        "id": "paperclip",
+        "name": "Paperclip",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "181305614cd1",
+            "name": "paperclip_server_1",
+            "image": "ghcr.io/paperclipai/paperclip:2026.1106.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:pocketbase",
+        "kind": "umbrel",
+        "id": "pocketbase",
+        "name": "PocketBase",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "3f742eff2717",
+            "name": "pocketbase_app_1",
+            "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-portal-admin",
+        "kind": "umbrel",
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "99291cb9b0d2",
+            "name": "joolay-portal-admin_web_1",
+            "image": "ghcr.io/joolay/portal-admin:0.33.1",
+            "state": "running",
+            "status": "Up 9 seconds (health: starting)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-project-tracker",
+        "kind": "umbrel",
+        "id": "joolay-project-tracker",
+        "name": "Project Tracker",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "b324ce423a0f",
+            "name": "joolay-project-tracker_web_1",
+            "image": "ghcr.io/joolay/project-tracker:1.2.1",
+            "state": "running",
+            "status": "Up About an hour",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-services-manager",
+        "kind": "umbrel",
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": true,
+        "containers": [
+          {
+            "id": "b0243f3b1bbf",
+            "name": "joolay-services-manager_web_1",
+            "image": "ghcr.io/joolay/services-manager:1.1.0",
+            "state": "running",
+            "status": "Up 20 minutes (healthy)",
+            "policy": "on-failure",
+            "self": true
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-shutterworth",
+        "kind": "umbrel",
+        "id": "joolay-shutterworth",
+        "name": "ShutterWorth",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "9183f24a6462",
+            "name": "joolay-shutterworth_web_1",
+            "image": "ghcr.io/joolay/shutterworth:1.7.19",
+            "state": "running",
+            "status": "Up 42 hours",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:tailscale",
+        "kind": "umbrel",
+        "id": "tailscale",
+        "name": "Tailscale",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "2b8bfd6d3804",
+            "name": "tailscale_web_1",
+            "image": "tailscale/tailscale:v1.104.7@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:joolay-tv-remote",
+        "kind": "umbrel",
+        "id": "joolay-tv-remote",
+        "name": "TV Remote",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "45ca2da928c0",
+            "name": "joolay-tv-remote_web_1",
+            "image": "ghcr.io/joolay/tv-remote:0.1.0",
+            "state": "running",
+            "status": "Up 14 hours (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:wallos",
+        "kind": "umbrel",
+        "id": "wallos",
+        "name": "Wallos",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "06782f1b0329",
+            "name": "wallos_server_1",
+            "image": "bellamy/wallos:5.11.2@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 26 hours (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:webcheck",
+        "kind": "umbrel",
+        "id": "webcheck",
+        "name": "WebCheck",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "404de50cea2f",
+            "name": "webcheck_server_1",
+            "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "umbrel:yuvomi",
+        "kind": "umbrel",
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "502da13863a2",
+            "name": "yuvomi_web_1",
+            "image": "ghcr.io/ulsklyc/yuvomi:2.93.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 26 hours",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "docker:app-proxy",
+        "kind": "docker",
+        "id": "app-proxy",
+        "name": "app-proxy",
+        "state": "stopped",
+        "busy": false,
+        "on": false,
+        "autoStart": null,
+        "policy": "unless-stopped",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "48722d3d569d",
+            "name": "app-proxy",
+            "image": "caddy:2",
+            "state": "exited",
+            "status": "Exited (0) 10 days ago",
+            "policy": "unless-stopped",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "docker:tsdproxy",
+        "kind": "docker",
+        "id": "tsdproxy",
+        "name": "tsdproxy",
+        "state": "running",
+        "busy": false,
+        "on": true,
+        "autoStart": null,
+        "policy": "unless-stopped",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "71e36be74fe7",
+            "name": "tsdproxy-tsdproxy-1",
+            "image": "almeidapaulopt/tsdproxy:2",
+            "state": "running",
+            "status": "Up 40 hours (healthy)",
+            "policy": "unless-stopped",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "docker:umbrel",
+        "kind": "docker",
+        "id": "umbrel",
+        "name": "umbrel",
+        "state": "running",
+        "busy": false,
+        "on": true,
+        "autoStart": null,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "9496cccad953",
+            "name": "tor_proxy",
+            "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 2 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      }
+    ],
+    "containers": [
+      {
+        "id": "99291cb9b0d2",
+        "name": "joolay-portal-admin_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.33.1",
+        "state": "running",
+        "status": "Up 9 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-20T06:17:39.3094469Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "0220974d7fed",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.33.1",
+        "state": "running",
+        "status": "Up 21 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-20T06:17:27.846776679Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "5d94649426c9",
+        "name": "joolay-app-updater_web_1",
+        "image": "ghcr.io/joolay/app-updater:1.5.0",
+        "state": "running",
+        "status": "Up 19 minutes (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-20T05:58:11.226368649Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "b0243f3b1bbf",
+        "name": "joolay-services-manager_web_1",
+        "image": "ghcr.io/joolay/services-manager:1.1.0",
+        "state": "running",
+        "status": "Up 20 minutes (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-20T05:57:48.042526988Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "b324ce423a0f",
+        "name": "joolay-project-tracker_web_1",
+        "image": "ghcr.io/joolay/project-tracker:1.2.1",
+        "state": "running",
+        "status": "Up About an hour",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-20T05:13:50.41876692Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "45ca2da928c0",
+        "name": "joolay-tv-remote_web_1",
+        "image": "ghcr.io/joolay/tv-remote:0.1.0",
+        "state": "running",
+        "status": "Up 14 hours (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-19T16:28:15.758892308Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "52f7a67648d6",
+        "name": "joolay-cctv_web_1",
+        "image": "ghcr.io/joolay/cctv:1.0.1",
+        "state": "running",
+        "status": "Up 24 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-19T06:27:45.130841801Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "502da13863a2",
+        "name": "yuvomi_web_1",
+        "image": "ghcr.io/ulsklyc/yuvomi:2.93.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 26 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-19T04:41:40.877506864Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "06782f1b0329",
+        "name": "wallos_server_1",
+        "image": "bellamy/wallos:5.11.2@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 26 hours (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-19T04:40:09.461068109Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "73ed0d15530a",
+        "name": "joolay-joolztv_server_1",
+        "image": "tsaridas/stremio-docker:latest",
+        "state": "running",
+        "status": "Up 26 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-19T04:22:52.045222915Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "f61bd7dc593e",
+        "name": "joolay-joolztv_web_1",
+        "image": "ghcr.io/joolay/joolztv:1.17.0",
+        "state": "running",
+        "status": "Up 26 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-19T04:22:51.567832641Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "b20dcf3aa703",
+        "name": "joolay-diner-bell_web_1",
+        "image": "ghcr.io/joolay/diner-bell:2.0.11",
+        "state": "running",
+        "status": "Up 42 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T12:02:02.048703328Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "9183f24a6462",
+        "name": "joolay-shutterworth_web_1",
+        "image": "ghcr.io/joolay/shutterworth:1.7.19",
+        "state": "running",
+        "status": "Up 42 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T12:01:07.160303625Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "672ef06e2840",
+        "name": "joolay-listify_web_1",
+        "image": "ghcr.io/joolay/listify:1.0.16",
+        "state": "running",
+        "status": "Up 45 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T09:19:21.156110693Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "4ee38d1e9b61",
+        "name": "joolay-jolly-grocer_web_1",
+        "image": "ghcr.io/joolay/jolly-grocer:1.0.12",
+        "state": "running",
+        "status": "Up 45 hours",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T09:18:08.633444183Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "9d08436f817c",
+        "name": "open-webui_web_1",
+        "image": "ghcr.io/open-webui/open-webui:v0.13.4@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-18T06:14:10.973867654Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "181305614cd1",
+        "name": "paperclip_server_1",
+        "image": "ghcr.io/paperclipai/paperclip:2026.1106.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:57:01.697655626Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "9e95d5866de5",
+        "name": "openclaw_gateway_1",
+        "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:34.397121679Z",
+        "finishedAt": "2026-11-18T05:55:12.690195235Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "ffe121cd51a1",
+        "name": "home-assistant_server_1",
+        "image": "homeassistant/home-assistant:2026.11.2@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "no",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:56:52.589924632Z",
+        "finishedAt": "2026-11-18T05:55:12.748721614Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "71e36be74fe7",
+        "name": "tsdproxy-tsdproxy-1",
+        "image": "almeidapaulopt/tsdproxy:2",
+        "state": "running",
+        "status": "Up 40 hours (healthy)",
+        "restartPolicy": "unless-stopped",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-18T14:31:14.242731334Z",
+        "finishedAt": "2026-11-18T14:31:13.734089982Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "126cc54d8b5a",
+        "name": "glasshome_server_1",
+        "image": "ghcr.io/glasshome/dash:1.4.5@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:42.013474014Z",
+        "finishedAt": "2026-11-18T05:55:12.690465355Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "3b58a099c68f",
+        "name": "joolay-atvloadly_web_1",
+        "image": "bitxeno/atvloadly:v0.3.7",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:39.697930667Z",
+        "finishedAt": "2026-11-18T05:55:12.749846634Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "2b8bfd6d3804",
+        "name": "tailscale_web_1",
+        "image": "tailscale/tailscale:v1.104.7@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:41.492475289Z",
+        "finishedAt": "2026-11-18T05:55:12.690143405Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "93db0e5a6ffa",
+        "name": "ollama_ollama_1",
+        "image": "ollama/ollama:0.40.16@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:24.339743358Z",
+        "finishedAt": "2026-11-18T05:55:12.663662071Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "cf1699429d27",
+        "name": "cloudflared_web_1",
+        "image": "ghcr.io/radiokot/umbrel-cloudflared:1.1.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:25.008084473Z",
+        "finishedAt": "2026-11-18T05:55:12.676158195Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "d5028e9f099c",
+        "name": "cloudflared_connector_1",
+        "image": "ghcr.io/radiokot/umbrel-cloudflared-connector:1.1.0-cf.2026.10.4@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:33.974046649Z",
+        "finishedAt": "2026-11-18T05:55:12.663627907Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "404de50cea2f",
+        "name": "webcheck_server_1",
+        "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-18T05:55:43.622550547Z",
+        "finishedAt": "2026-11-18T05:55:12.750203137Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "d582aafd1172",
+        "name": "kokoro_web_1",
+        "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:40.442161806Z",
+        "finishedAt": "2026-11-18T05:55:12.690466532Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "48722d3d569d",
+        "name": "app-proxy",
+        "image": "caddy:2",
+        "state": "exited",
+        "status": "Exited (0) 10 days ago",
+        "restartPolicy": "unless-stopped",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-07T21:40:55.90279181Z",
+        "finishedAt": "2026-11-09T18:55:53.13122644Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "3f742eff2717",
+        "name": "pocketbase_app_1",
+        "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:34.709789845Z",
+        "finishedAt": "2026-11-18T05:55:12.690791465Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "f4b5d78d553d",
+        "name": "adguard-home_server_1",
+        "image": "adguard/adguardhome:v1.0.0-b.1@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:44.434733525Z",
+        "finishedAt": "2026-11-18T05:55:12.676158759Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "9496cccad953",
+        "name": "tor_proxy",
+        "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 days",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-18T05:55:29.632311196Z",
+        "finishedAt": "2026-11-18T05:55:12.663628812Z",
+        "error": "",
+        "problem": false
+      }
+    ]
+  }
+}
