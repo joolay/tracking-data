@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T14:33:56.047Z",
+  "at": "2026-11-20T14:34:56.069Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -232,7 +232,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.35.2",
             "state": "running",
-            "status": "Up About a minute (healthy)",
+            "status": "Up 2 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -505,7 +505,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.1.0",
             "state": "running",
-            "status": "Up 27 minutes (healthy)",
+            "status": "Up 28 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -529,7 +529,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.35.2",
             "state": "running",
-            "status": "Up 59 seconds (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -540,8 +540,8 @@
         "kind": "umbrel",
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -549,11 +549,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "2bf8fe5d8bb1",
+            "id": "f52536d290d0",
             "name": "joolay-project-tracker_web_1",
-            "image": "ghcr.io/joolay/project-tracker:1.4.0",
+            "image": "ghcr.io/joolay/project-tracker:1.4.1",
             "state": "running",
-            "status": "Up 2 hours",
+            "status": "Up 45 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -802,11 +802,26 @@
     ],
     "containers": [
       {
+        "id": "f52536d290d0",
+        "name": "joolay-project-tracker_web_1",
+        "image": "ghcr.io/joolay/project-tracker:1.4.1",
+        "state": "running",
+        "status": "Up 45 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-20T14:34:10.832112313Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "5184b26a5160",
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.35.2",
         "state": "running",
-        "status": "Up 59 seconds (healthy)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -822,7 +837,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.35.2",
         "state": "running",
-        "status": "Up About a minute (healthy)",
+        "status": "Up 2 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -838,28 +853,13 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.1.0",
         "state": "running",
-        "status": "Up 27 minutes (healthy)",
+        "status": "Up 28 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-20T14:06:10.370456664Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "2bf8fe5d8bb1",
-        "name": "joolay-project-tracker_web_1",
-        "image": "ghcr.io/joolay/project-tracker:1.4.0",
-        "state": "running",
-        "status": "Up 2 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-20T12:33:37.539028489Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
