@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T19:42:00.094Z",
+  "at": "2026-11-20T19:43:00.607Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -9,7 +9,7 @@
     },
     "summary": {
       "containers": 34,
-      "running": 32,
+      "running": 33,
       "problems": [
         "joolay-routing-reporter_web_1"
       ]
@@ -506,8 +506,8 @@
             "id": "d35347ccd3ff",
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.2.0",
-            "state": "running",
-            "status": "Up Less than a second (health: starting)",
+            "state": "restarting",
+            "status": "Restarting (1) 59 seconds ago",
             "policy": "on-failure",
             "self": false
           }
@@ -807,15 +807,15 @@
         "id": "d35347ccd3ff",
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.2.0",
-        "state": "restarting",
-        "status": "Restarting (1) Less than a second ago",
+        "state": "running",
+        "status": "Up Less than a second (health: starting)",
         "restartPolicy": "on-failure",
-        "restarts": 187,
+        "restarts": 188,
         "exitCode": 1,
         "oomKilled": false,
         "health": "unhealthy",
-        "startedAt": "2026-11-20T19:41:59.3340376Z",
-        "finishedAt": "2026-11-20T19:41:59.972621779Z",
+        "startedAt": "2026-11-20T19:42:59.884299507Z",
+        "finishedAt": "2026-11-20T19:43:00.547964563Z",
         "error": "",
         "problem": true,
         "logTail": [
