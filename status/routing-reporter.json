@@ -1,6 +1,6 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-20T14:37:18.519Z",
+  "at": "2026-11-20T14:42:58.651Z",
   "data": {
     "intervalMin": 5,
     "config": {
@@ -10,7 +10,22 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "tailscale",
+        "route": "lan",
+        "url": "http://host.docker.internal:8240/",
+        "error": "connection reset",
+        "since": 1795185725563
+      },
+      {
+        "app": "tailscale",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:8240/",
+        "error": "connection reset",
+        "since": 1795185725564
+      }
+    ],
     "apps": [
       {
         "id": "adguard-home",
@@ -676,19 +691,19 @@
         "routes": [
           {
             "key": "lan",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795185424854
+            "since": 1795185725563
           },
           {
             "key": "tailscale",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795185424855
+            "since": 1795185725564
           }
         ]
       },
