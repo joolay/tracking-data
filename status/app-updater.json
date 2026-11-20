@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T16:32:11.644Z",
+  "at": "2026-11-20T16:32:42.667Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -393,7 +393,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -572,12 +572,18 @@
       }
     ],
     "check": {
-      "at": 1795192331637,
+      "at": 1795192362420,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795192333690,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (2 s)"
+      },
       {
         "t": 1795192331440,
         "level": "ok",
@@ -931,12 +937,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Updating Project Tracker (detected, updating straight away)…"
-      },
-      {
-        "t": 1795162964039,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Tracker 1.2.1 → 1.3.0"
       }
     ],
     "diagnose": [
