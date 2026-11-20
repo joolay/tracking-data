@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T14:31:56.020Z",
+  "at": "2026-11-20T14:33:56.047Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -228,11 +228,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "b99812c5f99a",
+            "id": "8c93c32db705",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.35.1",
+            "image": "ghcr.io/joolay/portal-admin:0.35.2",
             "state": "running",
-            "status": "Up 2 hours (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -505,7 +505,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.1.0",
             "state": "running",
-            "status": "Up 25 minutes (healthy)",
+            "status": "Up 27 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -525,11 +525,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "5f00958d8218",
+            "id": "5184b26a5160",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.35.1",
+            "image": "ghcr.io/joolay/portal-admin:0.35.2",
             "state": "running",
-            "status": "Up 2 hours (healthy)",
+            "status": "Up 59 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -540,8 +540,8 @@
         "kind": "umbrel",
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -802,49 +802,49 @@
     ],
     "containers": [
       {
+        "id": "5184b26a5160",
+        "name": "joolay-portal-admin_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.35.2",
+        "state": "running",
+        "status": "Up 59 seconds (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-20T14:32:56.429051059Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "8c93c32db705",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.35.2",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-20T14:32:43.974127082Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "66402e11998d",
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.1.0",
         "state": "running",
-        "status": "Up 25 minutes (healthy)",
+        "status": "Up 27 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-20T14:06:10.370456664Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "5f00958d8218",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.35.1",
-        "state": "running",
-        "status": "Up 2 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-20T12:48:02.147683666Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "b99812c5f99a",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.35.1",
-        "state": "running",
-        "status": "Up 2 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-20T12:47:49.726376761Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
