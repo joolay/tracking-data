@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T14:34:16.804Z",
+  "at": "2026-11-20T14:37:16.808Z",
   "data": {
     "version": "1.5.0",
     "umbrel": {
@@ -23,7 +23,7 @@
       "groupOpen": {
         "other": true,
         "umbrel": false,
-        "joolzapp": false
+        "joolzapp": true
       },
       "ticker": {
         "enabled": false,
@@ -47,44 +47,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-kiosk-manager",
-        "name": "Kiosk Manager",
-        "version": "1.0.0",
-        "latest": "1.0.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795185157151,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.1.0",
-        "latest": "1.1.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795185157152,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -277,6 +239,25 @@
         "waiting": false
       },
       {
+        "id": "joolay-kiosk-manager",
+        "name": "Kiosk Manager",
+        "version": "1.0.1",
+        "latest": "1.0.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
         "id": "kokoro",
         "name": "Kokoro",
         "version": "0.10.0",
@@ -397,6 +378,25 @@
           "name": "Umbrel"
         },
         "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.1.1",
+        "latest": "1.1.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -582,7 +582,7 @@
       }
     ],
     "check": {
-      "at": 1795185252179,
+      "at": 1795185433141,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
