@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T16:30:56.764Z",
+  "at": "2026-11-20T16:31:56.765Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -55,7 +55,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.5.1",
             "state": "running",
-            "status": "Up 28 minutes (healthy)",
+            "status": "Up 29 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -492,8 +492,8 @@
         "kind": "umbrel",
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -806,7 +806,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.5.1",
         "state": "running",
-        "status": "Up 28 minutes (healthy)",
+        "status": "Up 29 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
