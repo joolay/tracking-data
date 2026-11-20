@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T12:11:53.741Z",
+  "at": "2026-11-20T12:13:53.781Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -8,8 +8,8 @@
       "error": null
     },
     "summary": {
-      "containers": 32,
-      "running": 31,
+      "containers": 33,
+      "running": 32,
       "problems": []
     },
     "services": [
@@ -512,6 +512,30 @@
         ]
       },
       {
+        "key": "umbrel:joolay-routing-reporter",
+        "kind": "umbrel",
+        "id": "joolay-routing-reporter",
+        "name": "Routing Reporter",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "f27f544ab0e2",
+            "name": "joolay-routing-reporter_web_1",
+            "image": "ghcr.io/joolay/routing-reporter:1.0.0",
+            "state": "running",
+            "status": "Up 25 seconds (health: starting)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
         "key": "umbrel:joolay-services-manager",
         "kind": "umbrel",
         "id": "joolay-services-manager",
@@ -753,6 +777,22 @@
       }
     ],
     "containers": [
+      {
+        "id": "f27f544ab0e2",
+        "name": "joolay-routing-reporter_web_1",
+        "image": "ghcr.io/joolay/routing-reporter:1.0.0",
+        "state": "running",
+        "status": "Up 25 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-20T12:13:27.835579301Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "6af048229253",
         "name": "joolay-portal-admin_web_1",
