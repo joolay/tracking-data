@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T16:42:35.255Z",
+  "at": "2026-11-20T16:43:12.190Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -393,7 +393,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -572,12 +572,18 @@
       }
     ],
     "check": {
-      "at": 1795192955252,
+      "at": 1795192986184,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795192957181,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (2 s)"
+      },
       {
         "t": 1795192955027,
         "level": "ok",
@@ -931,12 +937,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Update available: Portal Admin 0.33.2 → 0.34.0"
-      },
-      {
-        "t": 1795164721569,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Portal 0.33.2 → 0.34.0"
       }
     ],
     "diagnose": [
