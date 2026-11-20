@@ -1,8 +1,8 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T15:55:17.132Z",
+  "at": "2026-11-20T16:03:02.225Z",
   "data": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "umbrel": {
       "connected": true,
       "signedIn": true,
@@ -33,16 +33,16 @@
       }
     },
     "self": {
-      "version": "1.5.0",
-      "latest": "1.5.0",
+      "version": "1.5.1",
+      "latest": "1.5.1",
       "update": false,
       "phase": "idle",
       "enabled": true,
       "result": {
         "ok": true,
-        "at": 1795154291590,
-        "from": "1.4.1",
-        "to": "1.5.0"
+        "at": 1795190562015,
+        "from": "1.5.0",
+        "to": "1.5.1"
       },
       "retryAt": null
     },
@@ -192,12 +192,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795188156264,
-          "from": "0.35.2",
-          "to": "0.35.3"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -400,12 +395,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795188180655,
-          "from": "1.1.1",
-          "to": "1.1.2"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -424,12 +414,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795188193077,
-          "from": "0.35.2",
-          "to": "0.35.3"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -448,12 +433,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795185251776,
-          "from": "1.4.0",
-          "to": "1.4.1"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -587,12 +567,24 @@
       }
     ],
     "check": {
-      "at": 1795190062920,
+      "at": 1795190565374,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795190562015,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.5.0 → 1.5.1. Checking has resumed."
+      },
+      {
+        "t": 1795190545414,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.5.0 → 1.5.1…"
+      },
       {
         "t": 1795188193077,
         "level": "ok",
@@ -940,18 +932,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795157822427,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Portal updated to 0.33.2 (state: ready)"
-      },
-      {
-        "t": 1795157814323,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
       }
     ],
     "diagnose": [
