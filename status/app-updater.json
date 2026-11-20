@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T12:34:15.722Z",
+  "at": "2026-11-20T12:48:16.117Z",
   "data": {
     "version": "1.5.0",
     "umbrel": {
@@ -47,6 +47,25 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Routing Reporter",
+        "version": "1.0.0",
+        "latest": "1.1.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795178863229,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -178,9 +197,9 @@
       },
       {
         "id": "joolay-portal",
-        "name": "JoolzApp Portal",
-        "version": "0.35.0",
-        "latest": "0.35.0",
+        "name": "JoolzApp Store",
+        "version": "0.35.1",
+        "latest": "0.35.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -194,9 +213,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795171964003,
-          "from": "0.34.1",
-          "to": "0.35.0"
+          "at": 1795178870635,
+          "from": "0.35.0",
+          "to": "0.35.1"
         },
         "waiting": false
       },
@@ -387,8 +406,8 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.35.0",
-        "latest": "0.35.0",
+        "version": "0.35.1",
+        "latest": "0.35.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -402,9 +421,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795171975709,
-          "from": "0.34.1",
-          "to": "0.35.0"
+          "at": 1795178883132,
+          "from": "0.35.0",
+          "to": "0.35.1"
         },
         "waiting": false
       },
@@ -430,25 +449,6 @@
           "from": "1.3.1",
           "to": "1.4.0"
         },
-        "waiting": false
-      },
-      {
-        "id": "joolay-routing-reporter",
-        "name": "Routing Reporter",
-        "version": "1.0.0",
-        "latest": "1.0.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
         "waiting": false
       },
       {
@@ -582,12 +582,54 @@
       }
     ],
     "check": {
-      "at": 1795178018933,
+      "at": 1795178883452,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795178883132,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.35.1 (state: ready)"
+      },
+      {
+        "t": 1795178870839,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795178870635,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.35.1 (state: ready)"
+      },
+      {
+        "t": 1795178863230,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795178863229,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Routing Reporter 1.0.0 → 1.1.0"
+      },
+      {
+        "t": 1795178863229,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.35.0 → 0.35.1"
+      },
+      {
+        "t": 1795178863228,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.35.0 → 0.35.1"
+      },
       {
         "t": 1795178018462,
         "level": "ok",
@@ -905,48 +947,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Update available: JoolzApp Portal 0.32.0 → 0.33.0"
-      },
-      {
-        "t": 1795151631445,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Tracker updated to 1.2.1 (state: ready)"
-      },
-      {
-        "t": 1795151564474,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Tracker (detected, updating straight away)…"
-      },
-      {
-        "t": 1795151564474,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Tracker 1.2.0 → 1.2.1"
-      },
-      {
-        "t": 1795147459478,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Tracker updated to 1.2.0 (state: ready)"
-      },
-      {
-        "t": 1795147385808,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Tracker (detected, updating straight away)…"
-      },
-      {
-        "t": 1795147385618,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.32.0 (state: ready)"
-      },
-      {
-        "t": 1795147374015,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
       }
     ],
     "diagnose": [
