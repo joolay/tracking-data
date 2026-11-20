@@ -1,16 +1,24 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-20T12:14:28.265Z",
+  "at": "2026-11-20T12:16:28.211Z",
   "data": {
     "intervalMin": 5,
     "config": {
       "lanHost": "host.docker.internal",
-      "tailscaleIp": "",
-      "tailnet": ""
+      "tailscaleIp": "100.118.10.62",
+      "tailnet": "macaw-chroma.ts.net"
     },
-    "reportedToPortalAdmin": false,
-    "reportError": "Not linked to Portal Admin yet: sign in to Portal Admin once and it links this app.",
-    "routesDown": [],
+    "reportedToPortalAdmin": true,
+    "reportError": "",
+    "routesDown": [
+      {
+        "app": "tailscale",
+        "route": "lan",
+        "url": "http://host.docker.internal:8240/",
+        "error": "connection reset",
+        "since": 1795176953320
+      }
+    ],
     "apps": [
       {
         "id": "adguard-home",
@@ -24,6 +32,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813304
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176951283
           }
         ]
       },
@@ -39,6 +54,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813266
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176951279
           }
         ]
       },
@@ -54,6 +76,13 @@
             "status": 200,
             "error": "",
             "since": 1795176813334
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951286
           }
         ]
       },
@@ -69,6 +98,13 @@
             "status": 200,
             "error": "",
             "since": 1795176813312
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951289
           }
         ]
       },
@@ -84,6 +120,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813268
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176951291
           }
         ]
       },
@@ -99,6 +142,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813269
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176951300
           }
         ]
       },
@@ -114,6 +164,20 @@
             "status": 200,
             "error": "",
             "since": 1795176813284
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951306
+          },
+          {
+            "key": "public",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953194
           }
         ]
       },
@@ -129,6 +193,20 @@
             "status": 200,
             "error": "",
             "since": 1795176813282
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951309
+          },
+          {
+            "key": "public",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953186
           }
         ]
       },
@@ -144,6 +222,13 @@
             "status": 200,
             "error": "",
             "since": 1795176813284
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951312
           }
         ]
       },
@@ -159,6 +244,42 @@
             "status": 200,
             "error": "",
             "since": 1795176813290
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951313
+          },
+          {
+            "key": "public",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953349
+          }
+        ]
+      },
+      {
+        "id": "joolay-kiosk-manager",
+        "version": "1.0.0",
+        "port": 3920,
+        "published": "",
+        "routes": [
+          {
+            "key": "lan",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176951486
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176951494
           }
         ]
       },
@@ -174,6 +295,20 @@
             "status": 200,
             "error": "",
             "since": 1795176813291
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951498
+          },
+          {
+            "key": "public",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953379
           }
         ]
       },
@@ -189,6 +324,20 @@
             "status": 200,
             "error": "",
             "since": 1795176813300
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951504
+          },
+          {
+            "key": "public",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953230
           }
         ]
       },
@@ -204,6 +353,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813304
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176951681
           }
         ]
       },
@@ -219,6 +375,20 @@
             "status": 200,
             "error": "",
             "since": 1795176813312
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176951692
+          },
+          {
+            "key": "public",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953283
           }
         ]
       },
@@ -234,6 +404,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813307
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176953195
           }
         ]
       },
@@ -249,6 +426,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813311
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176953199
           }
         ]
       },
@@ -264,6 +448,20 @@
             "status": 200,
             "error": "",
             "since": 1795176813317
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953209
+          },
+          {
+            "key": "public",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176955317
           }
         ]
       },
@@ -279,6 +477,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813315
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176953216
           }
         ]
       },
@@ -294,6 +499,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813320
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176953222
           }
         ]
       },
@@ -309,6 +521,13 @@
             "status": 200,
             "error": "",
             "since": 1795176813333
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953230
           }
         ]
       },
@@ -324,6 +543,13 @@
             "status": 200,
             "error": "",
             "since": 1795176813467
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953244
           }
         ]
       },
@@ -339,6 +565,13 @@
             "status": 200,
             "error": "",
             "since": 1795176814541
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953287
           }
         ]
       },
@@ -354,6 +587,13 @@
             "status": 403,
             "error": "",
             "since": 1795176813378
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 200,
+            "error": "",
+            "since": 1795176953381
           }
         ]
       },
@@ -369,6 +609,13 @@
             "status": 404,
             "error": "",
             "since": 1795176813338
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 404,
+            "error": "",
+            "since": 1795176953318
           }
         ]
       },
@@ -380,10 +627,17 @@
         "routes": [
           {
             "key": "lan",
+            "state": "down",
+            "status": 0,
+            "error": "connection reset",
+            "since": 1795176953320
+          },
+          {
+            "key": "tailscale",
             "state": "checking",
             "status": 0,
             "error": "connection reset",
-            "since": 1795176813341
+            "since": 1795176953322
           }
         ]
       },
@@ -399,6 +653,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813343
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176953327
           }
         ]
       },
@@ -414,6 +675,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813343
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176953334
           }
         ]
       },
@@ -429,6 +697,13 @@
             "status": 302,
             "error": "",
             "since": 1795176813345
+          },
+          {
+            "key": "tailscale",
+            "state": "up",
+            "status": 302,
+            "error": "",
+            "since": 1795176953343
           }
         ]
       }
