@@ -1,0 +1,937 @@
+{
+  "app": "app-updater",
+  "at": "2026-11-20T06:18:12.037Z",
+  "data": {
+    "version": "1.5.0",
+    "umbrel": {
+      "connected": true,
+      "signedIn": true,
+      "remember": true,
+      "base": "http://host.docker.internal",
+      "error": null
+    },
+    "settings": {
+      "nightlyTime": "03:00",
+      "timezone": "Africa/Johannesburg",
+      "quiet": {
+        "enabled": false,
+        "start": "22:00",
+        "end": "06:00"
+      },
+      "paused": false,
+      "pollSeconds": 60,
+      "groupOpen": {
+        "other": true,
+        "umbrel": false,
+        "joolzapp": false
+      },
+      "ticker": {
+        "enabled": false,
+        "linked": true,
+        "at": null,
+        "error": null
+      }
+    },
+    "self": {
+      "version": "1.5.0",
+      "latest": "1.5.0",
+      "update": false,
+      "phase": "idle",
+      "enabled": true,
+      "result": {
+        "ok": true,
+        "at": 1795154291590,
+        "from": "1.4.1",
+        "to": "1.5.0"
+      },
+      "retryAt": null
+    },
+    "apps": [
+      {
+        "id": "adguard-home",
+        "name": "AdGuard Home",
+        "version": "1.0.0-b.1",
+        "latest": "1.0.0-b.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-atvloadly",
+        "name": "atvloadly",
+        "version": "0.3.7",
+        "latest": "0.3.7",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "cloudflared",
+        "name": "Cloudflare Tunnel",
+        "version": "2026.10.4",
+        "latest": "2026.10.4",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.0.11",
+        "latest": "2.0.11",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "glasshome",
+        "name": "GlassHome",
+        "version": "1.4.5",
+        "latest": "1.4.5",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "home-assistant",
+        "name": "Home Assistant",
+        "version": "2026.11.2",
+        "latest": "2026.11.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.0.12",
+        "latest": "1.0.12",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal",
+        "name": "JoolzApp Portal",
+        "version": "0.33.1",
+        "latest": "0.33.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795155448730,
+          "from": "0.33.0",
+          "to": "0.33.1"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-cctv",
+        "name": "JoolzCCTV",
+        "version": "1.0.1",
+        "latest": "1.0.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-joolztv",
+        "name": "JoolzTV",
+        "version": "1.17.0",
+        "latest": "1.17.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "kokoro",
+        "name": "Kokoro",
+        "version": "0.10.0",
+        "latest": "0.10.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-listify",
+        "name": "Listify",
+        "version": "1.0.16",
+        "latest": "1.0.16",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "ollama",
+        "name": "Ollama",
+        "version": "0.40.16",
+        "latest": "0.40.16",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "open-webui",
+        "name": "Open WebUI",
+        "version": "0.13.4",
+        "latest": "0.13.4",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "version": "2026.11.4",
+        "latest": "2026.11.4",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "paperclip",
+        "name": "Paperclip",
+        "version": "2026.1106.0",
+        "latest": "2026.1106.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "pocketbase",
+        "name": "PocketBase",
+        "version": "0.40.6",
+        "latest": "0.40.6",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.33.1",
+        "latest": "0.33.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795155460705,
+          "from": "0.33.0",
+          "to": "0.33.1"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Tracker",
+        "version": "1.2.1",
+        "latest": "1.2.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.1.0",
+        "latest": "1.1.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-shutterworth",
+        "name": "ShutterWorth",
+        "version": "1.7.19",
+        "latest": "1.7.19",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "tailscale",
+        "name": "Tailscale",
+        "version": "v1.104.7",
+        "latest": "v1.104.7",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-tv-remote",
+        "name": "TV Remote",
+        "version": "0.1.0",
+        "latest": "0.1.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "wallos",
+        "name": "Wallos",
+        "version": "5.11.2",
+        "latest": "5.11.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "webcheck",
+        "name": "WebCheck",
+        "version": "2.4.0",
+        "latest": "2.4.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "version": "2.93.0",
+        "latest": "2.93.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      }
+    ],
+    "check": {
+      "at": 1795155461058,
+      "error": null,
+      "registryProc": "appStore.registry",
+      "registryCount": 389
+    },
+    "log": [
+      {
+        "t": 1795155460705,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.33.1 (state: ready)"
+      },
+      {
+        "t": 1795155449026,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795155448730,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.33.1 (state: ready)"
+      },
+      {
+        "t": 1795155441640,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795155441638,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.33.0 → 0.33.1"
+      },
+      {
+        "t": 1795155441638,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.33.0 → 0.33.1"
+      },
+      {
+        "t": 1795154291591,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.4.1 → 1.5.0. Checking has resumed."
+      },
+      {
+        "t": 1795154269373,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.4.1 → 1.5.0…"
+      },
+      {
+        "t": 1795154268981,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "Services Manager updated to 1.1.0 (state: ready)"
+      },
+      {
+        "t": 1795154245837,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Updating Services Manager (detected, updating straight away)…"
+      },
+      {
+        "t": 1795154245634,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.33.0 (state: ready)"
+      },
+      {
+        "t": 1795154234907,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795154234713,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.33.0 (state: ready)"
+      },
+      {
+        "t": 1795154226527,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795154226526,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Update available: Services Manager 1.0.5 → 1.1.0"
+      },
+      {
+        "t": 1795154226526,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.32.0 → 0.33.0"
+      },
+      {
+        "t": 1795154226526,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.32.0 → 0.33.0"
+      },
+      {
+        "t": 1795151631445,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Tracker updated to 1.2.1 (state: ready)"
+      },
+      {
+        "t": 1795151564474,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Tracker (detected, updating straight away)…"
+      },
+      {
+        "t": 1795151564474,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Tracker 1.2.0 → 1.2.1"
+      },
+      {
+        "t": 1795147459478,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Tracker updated to 1.2.0 (state: ready)"
+      },
+      {
+        "t": 1795147385808,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Tracker (detected, updating straight away)…"
+      },
+      {
+        "t": 1795147385618,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.32.0 (state: ready)"
+      },
+      {
+        "t": 1795147374015,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795147373791,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.32.0 (state: ready)"
+      },
+      {
+        "t": 1795147366651,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795147366650,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Tracker 1.1.0 → 1.2.0"
+      },
+      {
+        "t": 1795147366649,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.31.0 → 0.32.0"
+      },
+      {
+        "t": 1795147366645,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.31.0 → 0.32.0"
+      },
+      {
+        "t": 1795144710672,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Tracker updated to 1.1.0 (state: ready)"
+      },
+      {
+        "t": 1795144642470,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Tracker (detected, updating straight away)…"
+      },
+      {
+        "t": 1795144642469,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Tracker 1.0.1 → 1.1.0"
+      },
+      {
+        "t": 1795116760096,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Tracker 1.0.0 → 1.0.1"
+      },
+      {
+        "t": 1795114647354,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.31.0 (state: ready)"
+      },
+      {
+        "t": 1795114633459,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795114633235,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.31.0 (state: ready)"
+      },
+      {
+        "t": 1795114626065,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795114626064,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.30.0 → 0.31.0"
+      },
+      {
+        "t": 1795114626063,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.30.0 → 0.31.0"
+      },
+      {
+        "t": 1795110157296,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.4.0 → 1.4.1. Checking has resumed."
+      },
+      {
+        "t": 1795110141151,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.4.0 → 1.4.1…"
+      },
+      {
+        "t": 1795107747220,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.3.0 → 1.4.0. Checking has resumed."
+      },
+      {
+        "t": 1795107730936,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.3.0 → 1.4.0…"
+      },
+      {
+        "t": 1795069666377,
+        "level": "ok",
+        "appId": "joolay-cctv",
+        "message": "JoolzCCTV updated to 1.0.1 (state: ready)"
+      },
+      {
+        "t": 1795069643915,
+        "level": "info",
+        "appId": "joolay-cctv",
+        "message": "Updating JoolzCCTV (detected, updating straight away)…"
+      },
+      {
+        "t": 1795069643915,
+        "level": "info",
+        "appId": "joolay-cctv",
+        "message": "Update available: JoolzCCTV 1.0.0 → 1.0.1"
+      },
+      {
+        "t": 1795067228604,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.2.0 → 1.3.0. Checking has resumed."
+      },
+      {
+        "t": 1795067212196,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.2.0 → 1.3.0…"
+      },
+      {
+        "t": 1795066967487,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.1.0 → 1.2.0. Checking has resumed."
+      },
+      {
+        "t": 1795066951431,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.1.0 → 1.2.0…"
+      },
+      {
+        "t": 1795063303000,
+        "level": "ok",
+        "appId": "yuvomi",
+        "message": "Yuvomi updated to 2.93.0 (state: ready)"
+      },
+      {
+        "t": 1795063277423,
+        "level": "info",
+        "appId": "yuvomi",
+        "message": "Updating Yuvomi (you asked for it now)…"
+      },
+      {
+        "t": 1795063277242,
+        "level": "ok",
+        "appId": "yuvomi",
+        "message": "Yuvomi updated to 2.93.0 (state: ready)"
+      },
+      {
+        "t": 1795063210809,
+        "level": "info",
+        "appId": "yuvomi",
+        "message": "Updating Yuvomi (you asked for it now)…"
+      },
+      {
+        "t": 1795063210588,
+        "level": "ok",
+        "appId": "wallos",
+        "message": "Wallos updated to 5.11.2 (state: ready)"
+      },
+      {
+        "t": 1795063185990,
+        "level": "info",
+        "appId": "wallos",
+        "message": "Updating Wallos (you asked for it now)…"
+      },
+      {
+        "t": 1795062183975,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.30.0 (state: ready)"
+      },
+      {
+        "t": 1795062173423,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795062172898,
+        "level": "ok",
+        "appId": "joolay-joolztv",
+        "message": "JoolzTV updated to 1.17.0 (state: ready)"
+      },
+      {
+        "t": 1795062129162,
+        "level": "info",
+        "appId": "joolay-joolztv",
+        "message": "Updating JoolzTV (detected, updating straight away)…"
+      }
+    ],
+    "diagnose": [
+      {
+        "proc": "apps.list",
+        "ok": true,
+        "shape": "array(27)"
+      },
+      {
+        "proc": "apps.list item fields",
+        "ok": true,
+        "shape": "id, name, version, icon, port, path, state, progress, autoStart, credentials, hiddenService, dependencies, selectedDependencies, appProxyAuth, storage, environment, requiresHttps"
+      },
+      {
+        "proc": "appStore.registry",
+        "ok": true,
+        "shape": "array(2)"
+      },
+      {
+        "proc": "registry top-level fields",
+        "ok": true,
+        "shape": "meta, apps"
+      },
+      {
+        "proc": "versions found in registry",
+        "ok": true,
+        "shape": "389"
+      }
+    ]
+  }
+}
