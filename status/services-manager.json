@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T14:05:55.696Z",
+  "at": "2026-11-20T14:06:55.709Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -488,6 +488,30 @@
         ]
       },
       {
+        "key": "umbrel:joolay-routing-reporter",
+        "kind": "umbrel",
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "66402e11998d",
+            "name": "joolay-routing-reporter_web_1",
+            "image": "ghcr.io/joolay/routing-reporter:1.1.0",
+            "state": "running",
+            "status": "Up 45 seconds (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
         "key": "umbrel:joolay-portal-admin",
         "kind": "umbrel",
         "id": "joolay-portal-admin",
@@ -530,30 +554,6 @@
             "image": "ghcr.io/joolay/project-tracker:1.4.0",
             "state": "running",
             "status": "Up 2 hours",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
-      },
-      {
-        "key": "umbrel:joolay-routing-reporter",
-        "kind": "umbrel",
-        "id": "joolay-routing-reporter",
-        "name": "Routing Reporter",
-        "state": "updating",
-        "busy": true,
-        "on": true,
-        "autoStart": true,
-        "policy": "on-failure",
-        "pinned": null,
-        "protected": false,
-        "containers": [
-          {
-            "id": "f27f544ab0e2",
-            "name": "joolay-routing-reporter_web_1",
-            "image": "ghcr.io/joolay/routing-reporter:1.0.0",
-            "state": "running",
-            "status": "Up 2 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -802,6 +802,22 @@
     ],
     "containers": [
       {
+        "id": "66402e11998d",
+        "name": "joolay-routing-reporter_web_1",
+        "image": "ghcr.io/joolay/routing-reporter:1.1.0",
+        "state": "running",
+        "status": "Up 45 seconds (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-20T14:06:10.370456664Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "5f00958d8218",
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.35.1",
@@ -860,22 +876,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-20T12:14:09.187476392Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "f27f544ab0e2",
-        "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.0.0",
-        "state": "running",
-        "status": "Up 2 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-20T12:13:27.835579301Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
