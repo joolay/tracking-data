@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T14:07:16.532Z",
+  "at": "2026-11-20T14:33:16.802Z",
   "data": {
     "version": "1.5.0",
     "umbrel": {
@@ -47,6 +47,68 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-kiosk-manager",
+        "name": "Kiosk Manager",
+        "version": "1.0.0",
+        "latest": "1.0.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795185157151,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.1.0",
+        "latest": "1.1.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795185157152,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.4.0",
+        "latest": "1.4.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795185157152,
+        "result": {
+          "ok": true,
+          "at": 1795178018462,
+          "from": "1.3.1",
+          "to": "1.4.0"
+        },
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -179,8 +241,8 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Store",
-        "version": "0.35.1",
-        "latest": "0.35.1",
+        "version": "0.35.2",
+        "latest": "0.35.2",
         "update": false,
         "state": "ready",
         "store": {
@@ -194,9 +256,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795178870635,
-          "from": "0.35.0",
-          "to": "0.35.1"
+          "at": 1795185164930,
+          "from": "0.35.1",
+          "to": "0.35.2"
         },
         "waiting": false
       },
@@ -232,25 +294,6 @@
           "raw": "joolay"
         },
         "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-kiosk-manager",
-        "name": "Kiosk Manager",
-        "version": "1.0.0",
-        "latest": "1.0.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "off",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -385,29 +428,10 @@
         "waiting": false
       },
       {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.1.0",
-        "latest": "1.1.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.35.1",
-        "latest": "0.35.1",
+        "version": "0.35.2",
+        "latest": "0.35.2",
         "update": false,
         "state": "ready",
         "store": {
@@ -421,33 +445,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795178883132,
-          "from": "0.35.0",
-          "to": "0.35.1"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.4.0",
-        "latest": "1.4.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795178018462,
-          "from": "1.3.1",
-          "to": "1.4.0"
+          "at": 1795185177447,
+          "from": "0.35.1",
+          "to": "0.35.2"
         },
         "waiting": false
       },
@@ -582,12 +582,72 @@
       }
     ],
     "check": {
-      "at": 1795183588456,
+      "at": 1795185177627,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795185177627,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
+      {
+        "t": 1795185177447,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.35.2 (state: ready)"
+      },
+      {
+        "t": 1795185165127,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795185164930,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Store updated to 0.35.2 (state: ready)"
+      },
+      {
+        "t": 1795185157154,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Store (detected, updating straight away)…"
+      },
+      {
+        "t": 1795185157152,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Pilot 1.4.0 → 1.4.1"
+      },
+      {
+        "t": 1795185157152,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.35.1 → 0.35.2"
+      },
+      {
+        "t": 1795185157152,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.1.0 → 1.1.1"
+      },
+      {
+        "t": 1795185157151,
+        "level": "info",
+        "appId": "joolay-kiosk-manager",
+        "message": "Update available: Kiosk Manager 1.0.0 → 1.0.1"
+      },
+      {
+        "t": 1795185157151,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Store 0.35.1 → 0.35.2"
+      },
       {
         "t": 1795178883132,
         "level": "ok",
@@ -887,66 +947,6 @@
         "level": "ok",
         "appId": "joolay-app-updater",
         "message": "App Updater updated itself: 1.4.1 → 1.5.0. Checking has resumed."
-      },
-      {
-        "t": 1795154269373,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.4.1 → 1.5.0…"
-      },
-      {
-        "t": 1795154268981,
-        "level": "ok",
-        "appId": "joolay-services-manager",
-        "message": "Services Manager updated to 1.1.0 (state: ready)"
-      },
-      {
-        "t": 1795154245837,
-        "level": "info",
-        "appId": "joolay-services-manager",
-        "message": "Updating Services Manager (detected, updating straight away)…"
-      },
-      {
-        "t": 1795154245634,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.33.0 (state: ready)"
-      },
-      {
-        "t": 1795154234907,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795154234713,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Portal updated to 0.33.0 (state: ready)"
-      },
-      {
-        "t": 1795154226527,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
-      },
-      {
-        "t": 1795154226526,
-        "level": "info",
-        "appId": "joolay-services-manager",
-        "message": "Update available: Services Manager 1.0.5 → 1.1.0"
-      },
-      {
-        "t": 1795154226526,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.32.0 → 0.33.0"
-      },
-      {
-        "t": 1795154226526,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Portal 0.32.0 → 0.33.0"
       }
     ],
     "diagnose": [
