@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T09:22:14.242Z",
+  "at": "2026-11-20T09:23:14.368Z",
   "data": {
     "version": "1.5.0",
     "umbrel": {
@@ -179,8 +179,8 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Portal",
-        "version": "0.34.0",
-        "latest": "0.34.0",
+        "version": "0.34.1",
+        "latest": "0.34.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -194,9 +194,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795164729499,
-          "from": "0.33.2",
-          "to": "0.34.0"
+          "at": 1795166572683,
+          "from": "0.34.0",
+          "to": "0.34.1"
         },
         "waiting": false
       },
@@ -368,8 +368,8 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.34.0",
-        "latest": "0.34.0",
+        "version": "0.34.1",
+        "latest": "0.34.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -383,9 +383,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795164740876,
-          "from": "0.33.2",
-          "to": "0.34.0"
+          "at": 1795166583854,
+          "from": "0.34.0",
+          "to": "0.34.1"
         },
         "waiting": false
       },
@@ -544,12 +544,48 @@
       }
     ],
     "check": {
-      "at": 1795166504833,
+      "at": 1795166584163,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 389
     },
     "log": [
+      {
+        "t": 1795166583854,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.34.1 (state: ready)"
+      },
+      {
+        "t": 1795166572940,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795166572683,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.34.1 (state: ready)"
+      },
+      {
+        "t": 1795166565047,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795166565047,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.34.0 → 0.34.1"
+      },
+      {
+        "t": 1795166565046,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.34.0 → 0.34.1"
+      },
       {
         "t": 1795164814462,
         "level": "ok",
@@ -873,42 +909,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Update available: Project Tracker 1.0.0 → 1.0.1"
-      },
-      {
-        "t": 1795114647354,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.31.0 (state: ready)"
-      },
-      {
-        "t": 1795114633459,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795114633235,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Portal updated to 0.31.0 (state: ready)"
-      },
-      {
-        "t": 1795114626065,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
-      },
-      {
-        "t": 1795114626064,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.30.0 → 0.31.0"
-      },
-      {
-        "t": 1795114626063,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Portal 0.30.0 → 0.31.0"
       }
     ],
     "diagnose": [
