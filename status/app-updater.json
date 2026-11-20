@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T16:03:02.225Z",
+  "at": "2026-11-20T16:32:11.644Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -382,8 +382,8 @@
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.1.2",
-        "latest": "1.1.2",
+        "version": "1.1.3",
+        "latest": "1.1.3",
         "update": false,
         "state": "ready",
         "store": {
@@ -393,9 +393,14 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": null,
-        "result": null,
+        "result": {
+          "ok": true,
+          "at": 1795192331440,
+          "from": "1.1.2",
+          "to": "1.1.3"
+        },
         "waiting": false
       },
       {
@@ -567,12 +572,30 @@
       }
     ],
     "check": {
-      "at": 1795190565374,
+      "at": 1795192331637,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795192331440,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.1.3 (state: ready)"
+      },
+      {
+        "t": 1795192314504,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
+      {
+        "t": 1795192314502,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.1.2 → 1.1.3"
+      },
       {
         "t": 1795190562015,
         "level": "ok",
@@ -914,24 +937,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Update available: Project Tracker 1.2.1 → 1.3.0"
-      },
-      {
-        "t": 1795160533482,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub refused the token (it needs write access to this repo)."
-      },
-      {
-        "t": 1795157833847,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.33.2 (state: ready)"
-      },
-      {
-        "t": 1795157822635,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
       }
     ],
     "diagnose": [
