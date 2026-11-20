@@ -260,10 +260,10 @@
       "id": "stremio",
       "name": "Stremio",
       "category": "Umbrel apps",
-      "desc": "Stremio web UI plus streaming server. Replaced by JoolzTV.",
-      "status": "closed",
-      "closedAs": "abandoned",
-      "closedAt": "2026-11-19T15:30:00.000Z",
+      "desc": "Stremio web UI plus streaming server. Superseded by JoolzTV for now; to be revived as the homebrew app for the legacy webOS 4.x (Chromium 53) TV.",
+      "status": "hiatus",
+      "closedAs": "",
+      "closedAt": "",
       "statusAt": "",
       "auto": "",
       "lastWorked": "",
@@ -279,7 +279,7 @@
       "rank": 100,
       "state": "live",
       "binnedAt": "",
-      "updatedAt": "2026-11-19T15:30:00.000Z"
+      "updatedAt": "2026-11-20T18:02:47.000Z"
     },
     {
       "id": "services-manager",
@@ -431,9 +431,9 @@
     {
       "id": "joolzbrowser",
       "name": "JoolzBrowser",
-      "category": "LG TV (webOS 4.0, rooted)",
-      "desc": "Proxy plus TV shell that makes modern pages work in Chromium 53. Code written, never run.",
-      "status": "active",
+      "category": "Ideas",
+      "desc": "Idea only, work not started: proxy plus TV shell to make modern pages work in Chromium 53.",
+      "status": "hiatus",
       "closedAs": "",
       "closedAt": "",
       "statusAt": "",
@@ -444,7 +444,7 @@
       "rank": 10,
       "state": "live",
       "binnedAt": "",
-      "updatedAt": "2026-11-19T15:30:00.000Z"
+      "updatedAt": "2026-11-20T18:02:47.000Z"
     },
     {
       "id": "findmy",
@@ -678,7 +678,38 @@
       "state": "live",
       "binnedAt": "",
       "updatedAt": "2026-11-20T11:30:41.786Z"
+    },
+    {
+      "id": "tvremote",
+      "name": "TV Remote",
+      "category": "LG TV (webOS 4.0, rooted)",
+      "desc": "See and control the LG TV from anywhere through the Umbrel: TV app (homebrew) plus Umbrel server app.",
+      "status": "active",
+      "closedAs": "",
+      "closedAt": "",
+      "statusAt": "",
+      "auto": "",
+      "lastWorked": "",
+      "paths": [
+        {
+          "repo": "joolay/homebrew",
+          "path": "app-remote"
+        },
+        {
+          "repo": "joolay/umbrel-apps",
+          "path": "src/tv-remote"
+        },
+        {
+          "repo": "joolay/umbrel-apps",
+          "path": "joolay-tv-remote"
+        }
+      ],
+      "notes": [],
+      "rank": 45,
+      "state": "live",
+      "binnedAt": "",
+      "updatedAt": "2026-11-20T18:02:47.000Z"
     }
   ],
-  "updatedAt": "2026-11-20T11:30:41.786Z"
+  "updatedAt": "2026-11-20T18:02:47.000Z"
 }
