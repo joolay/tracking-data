@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T06:42:12.281Z",
+  "at": "2026-11-20T09:16:14.190Z",
   "data": {
     "version": "1.5.0",
     "umbrel": {
@@ -179,8 +179,8 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Portal",
-        "version": "0.33.1",
-        "latest": "0.33.1",
+        "version": "0.34.0",
+        "latest": "0.34.0",
         "update": false,
         "state": "ready",
         "store": {
@@ -194,9 +194,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795155448730,
-          "from": "0.33.0",
-          "to": "0.33.1"
+          "at": 1795164729499,
+          "from": "0.33.2",
+          "to": "0.34.0"
         },
         "waiting": false
       },
@@ -368,8 +368,8 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.33.1",
-        "latest": "0.33.1",
+        "version": "0.34.0",
+        "latest": "0.34.0",
         "update": false,
         "state": "ready",
         "store": {
@@ -383,17 +383,17 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795155460705,
-          "from": "0.33.0",
-          "to": "0.33.1"
+          "at": 1795164740876,
+          "from": "0.33.2",
+          "to": "0.34.0"
         },
         "waiting": false
       },
       {
         "id": "joolay-project-tracker",
         "name": "Project Tracker",
-        "version": "1.2.1",
-        "latest": "1.2.1",
+        "version": "1.3.1",
+        "latest": "1.3.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -405,7 +405,12 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": null,
+        "result": {
+          "ok": true,
+          "at": 1795164814462,
+          "from": "1.3.0",
+          "to": "1.3.1"
+        },
         "waiting": false
       },
       {
@@ -539,12 +544,138 @@
       }
     ],
     "check": {
-      "at": 1795156909332,
+      "at": 1795166142636,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 389
     },
     "log": [
+      {
+        "t": 1795164814462,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Tracker updated to 1.3.1 (state: ready)"
+      },
+      {
+        "t": 1795164741090,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Tracker (detected, updating straight away)…"
+      },
+      {
+        "t": 1795164740876,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.34.0 (state: ready)"
+      },
+      {
+        "t": 1795164729725,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795164729499,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.34.0 (state: ready)"
+      },
+      {
+        "t": 1795164721571,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795164721570,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Tracker 1.3.0 → 1.3.1"
+      },
+      {
+        "t": 1795164721570,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.33.2 → 0.34.0"
+      },
+      {
+        "t": 1795164721569,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.33.2 → 0.34.0"
+      },
+      {
+        "t": 1795164134220,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: GitHub refused the token (it needs write access to this repo)."
+      },
+      {
+        "t": 1795163031192,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Tracker updated to 1.3.0 (state: ready)"
+      },
+      {
+        "t": 1795162964040,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Tracker (detected, updating straight away)…"
+      },
+      {
+        "t": 1795162964039,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Tracker 1.2.1 → 1.3.0"
+      },
+      {
+        "t": 1795160533482,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: GitHub refused the token (it needs write access to this repo)."
+      },
+      {
+        "t": 1795157833847,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.33.2 (state: ready)"
+      },
+      {
+        "t": 1795157822635,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795157822427,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.33.2 (state: ready)"
+      },
+      {
+        "t": 1795157814323,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795157814322,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.33.1 → 0.33.2"
+      },
+      {
+        "t": 1795157814322,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.33.1 → 0.33.2"
+      },
+      {
+        "t": 1795156992599,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: GitHub refused the token (it needs write access to this repo)."
+      },
       {
         "t": 1795155460705,
         "level": "ok",
@@ -778,132 +909,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Update available: JoolzApp Portal 0.30.0 → 0.31.0"
-      },
-      {
-        "t": 1795110157296,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.4.0 → 1.4.1. Checking has resumed."
-      },
-      {
-        "t": 1795110141151,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.4.0 → 1.4.1…"
-      },
-      {
-        "t": 1795107747220,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.3.0 → 1.4.0. Checking has resumed."
-      },
-      {
-        "t": 1795107730936,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.3.0 → 1.4.0…"
-      },
-      {
-        "t": 1795069666377,
-        "level": "ok",
-        "appId": "joolay-cctv",
-        "message": "JoolzCCTV updated to 1.0.1 (state: ready)"
-      },
-      {
-        "t": 1795069643915,
-        "level": "info",
-        "appId": "joolay-cctv",
-        "message": "Updating JoolzCCTV (detected, updating straight away)…"
-      },
-      {
-        "t": 1795069643915,
-        "level": "info",
-        "appId": "joolay-cctv",
-        "message": "Update available: JoolzCCTV 1.0.0 → 1.0.1"
-      },
-      {
-        "t": 1795067228604,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.2.0 → 1.3.0. Checking has resumed."
-      },
-      {
-        "t": 1795067212196,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.2.0 → 1.3.0…"
-      },
-      {
-        "t": 1795066967487,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.1.0 → 1.2.0. Checking has resumed."
-      },
-      {
-        "t": 1795066951431,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.1.0 → 1.2.0…"
-      },
-      {
-        "t": 1795063303000,
-        "level": "ok",
-        "appId": "yuvomi",
-        "message": "Yuvomi updated to 2.93.0 (state: ready)"
-      },
-      {
-        "t": 1795063277423,
-        "level": "info",
-        "appId": "yuvomi",
-        "message": "Updating Yuvomi (you asked for it now)…"
-      },
-      {
-        "t": 1795063277242,
-        "level": "ok",
-        "appId": "yuvomi",
-        "message": "Yuvomi updated to 2.93.0 (state: ready)"
-      },
-      {
-        "t": 1795063210809,
-        "level": "info",
-        "appId": "yuvomi",
-        "message": "Updating Yuvomi (you asked for it now)…"
-      },
-      {
-        "t": 1795063210588,
-        "level": "ok",
-        "appId": "wallos",
-        "message": "Wallos updated to 5.11.2 (state: ready)"
-      },
-      {
-        "t": 1795063185990,
-        "level": "info",
-        "appId": "wallos",
-        "message": "Updating Wallos (you asked for it now)…"
-      },
-      {
-        "t": 1795062183975,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.30.0 (state: ready)"
-      },
-      {
-        "t": 1795062173423,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795062172898,
-        "level": "ok",
-        "appId": "joolay-joolztv",
-        "message": "JoolzTV updated to 1.17.0 (state: ready)"
-      },
-      {
-        "t": 1795062129162,
-        "level": "info",
-        "appId": "joolay-joolztv",
-        "message": "Updating JoolzTV (detected, updating straight away)…"
       }
     ],
     "diagnose": [
