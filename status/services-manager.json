@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T17:51:58.859Z",
+  "at": "2026-11-20T17:52:58.217Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -9,7 +9,7 @@
     },
     "summary": {
       "containers": 34,
-      "running": 33,
+      "running": 32,
       "problems": [
         "joolay-routing-reporter_web_1"
       ]
@@ -234,7 +234,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.35.3",
             "state": "running",
-            "status": "Up 2 hours (healthy)",
+            "status": "Up 3 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -282,7 +282,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 37 hours",
+            "status": "Up 38 hours",
             "policy": "on-failure",
             "self": false
           },
@@ -291,7 +291,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.17.0",
             "state": "running",
-            "status": "Up 37 hours",
+            "status": "Up 38 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -807,8 +807,8 @@
         "id": "d35347ccd3ff",
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.2.0",
-        "state": "running",
-        "status": "Up Less than a second (health: starting)",
+        "state": "restarting",
+        "status": "Restarting (1) 59 seconds ago",
         "restartPolicy": "on-failure",
         "restarts": 78,
         "exitCode": 1,
@@ -880,7 +880,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.35.3",
         "state": "running",
-        "status": "Up 2 hours (healthy)",
+        "status": "Up 3 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1020,7 +1020,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 37 hours",
+        "status": "Up 38 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1035,7 +1035,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.17.0",
         "state": "running",
-        "status": "Up 37 hours",
+        "status": "Up 38 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
