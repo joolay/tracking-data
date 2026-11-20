@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T16:41:56.786Z",
+  "at": "2026-11-20T16:42:56.783Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -9,8 +9,10 @@
     },
     "summary": {
       "containers": 34,
-      "running": 33,
-      "problems": []
+      "running": 32,
+      "problems": [
+        "joolay-routing-reporter_web_1"
+      ]
     },
     "services": [
       {
@@ -55,7 +57,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.5.1",
             "state": "running",
-            "status": "Up 39 minutes (healthy)",
+            "status": "Up 40 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -501,11 +503,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "d8153b5b3ec0",
+            "id": "d35347ccd3ff",
             "name": "joolay-routing-reporter_web_1",
-            "image": "ghcr.io/joolay/routing-reporter:1.1.3",
-            "state": "running",
-            "status": "Up 9 minutes (healthy)",
+            "image": "ghcr.io/joolay/routing-reporter:1.2.0",
+            "state": "restarting",
+            "status": "Restarting (1) 5 seconds ago",
             "policy": "on-failure",
             "self": false
           }
@@ -802,27 +804,51 @@
     ],
     "containers": [
       {
-        "id": "d8153b5b3ec0",
+        "id": "d35347ccd3ff",
         "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.1.3",
-        "state": "running",
-        "status": "Up 9 minutes (healthy)",
+        "image": "ghcr.io/joolay/routing-reporter:1.2.0",
+        "state": "restarting",
+        "status": "Restarting (1) 5 seconds ago",
         "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
+        "restarts": 8,
+        "exitCode": 1,
         "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-20T16:32:10.52376573Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
+        "health": "unhealthy",
+        "startedAt": "2026-11-20T16:42:50.375170381Z",
+        "finishedAt": "2026-11-20T16:42:50.995636576Z",
         "error": "",
-        "problem": false
+        "problem": true,
+        "logTail": [
+          "}",
+          "Node.js v22.23.5",
+          "node:internal/modules/cjs/loader:1433",
+          "  throw err;",
+          "  ^",
+          "Error: Cannot find module './official'",
+          "Require stack:",
+          "- /app/server.js",
+          "    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)",
+          "    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)",
+          "    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)",
+          "    at Function._load (node:internal/modules/cjs/loader:1216:25)",
+          "    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)",
+          "    at Module.require (node:internal/modules/cjs/loader:1527:12)",
+          "    at require (node:internal/modules/helpers:147:16)",
+          "    at Object.<anonymous> (/app/server.js:6:66)",
+          "    at Module._compile (node:internal/modules/cjs/loader:1781:14)",
+          "    at Object..js (node:internal/modules/cjs/loader:1913:10) {",
+          "  code: 'MODULE_NOT_FOUND',",
+          "  requireStack: [ '/app/server.js' ]",
+          "}",
+          "Node.js v22.23.5"
+        ]
       },
       {
         "id": "a9f0cb8100be",
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.5.1",
         "state": "running",
-        "status": "Up 39 minutes (healthy)",
+        "status": "Up 40 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
