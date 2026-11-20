@@ -1,6 +1,6 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-20T12:16:28.211Z",
+  "at": "2026-11-20T12:21:28.321Z",
   "data": {
     "intervalMin": 5,
     "config": {
@@ -17,6 +17,13 @@
         "url": "http://host.docker.internal:8240/",
         "error": "connection reset",
         "since": 1795176953320
+      },
+      {
+        "app": "tailscale",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:8240/",
+        "error": "connection reset",
+        "since": 1795177255416
       }
     ],
     "apps": [
@@ -634,10 +641,10 @@
           },
           {
             "key": "tailscale",
-            "state": "checking",
+            "state": "down",
             "status": 0,
             "error": "connection reset",
-            "since": 1795176953322
+            "since": 1795177255416
           }
         ]
       },
