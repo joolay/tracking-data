@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-20T12:13:53.781Z",
+  "at": "2026-11-20T12:14:53.795Z",
   "data": {
     "umbrel": {
       "connected": true,
@@ -8,8 +8,8 @@
       "error": null
     },
     "summary": {
-      "containers": 33,
-      "running": 32,
+      "containers": 34,
+      "running": 33,
       "problems": []
     },
     "services": [
@@ -296,6 +296,30 @@
         ]
       },
       {
+        "key": "umbrel:joolay-kiosk-manager",
+        "kind": "umbrel",
+        "id": "joolay-kiosk-manager",
+        "name": "Kiosk Manager",
+        "state": "ready",
+        "busy": false,
+        "on": true,
+        "autoStart": true,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "d9a82a4ab53b",
+            "name": "joolay-kiosk-manager_web_1",
+            "image": "ghcr.io/joolay/kiosk-manager:1.0.0",
+            "state": "running",
+            "status": "Up 44 seconds (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
         "key": "umbrel:kokoro",
         "kind": "umbrel",
         "id": "kokoro",
@@ -529,7 +553,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.0.0",
             "state": "running",
-            "status": "Up 25 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -778,16 +802,32 @@
     ],
     "containers": [
       {
-        "id": "f27f544ab0e2",
-        "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.0.0",
+        "id": "d9a82a4ab53b",
+        "name": "joolay-kiosk-manager_web_1",
+        "image": "ghcr.io/joolay/kiosk-manager:1.0.0",
         "state": "running",
-        "status": "Up 25 seconds (health: starting)",
+        "status": "Up 44 seconds (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
+        "startedAt": "2026-11-20T12:14:09.187476392Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "f27f544ab0e2",
+        "name": "joolay-routing-reporter_web_1",
+        "image": "ghcr.io/joolay/routing-reporter:1.0.0",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
         "startedAt": "2026-11-20T12:13:27.835579301Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
