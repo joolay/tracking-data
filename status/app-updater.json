@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-20T10:24:14.464Z",
+  "at": "2026-11-20T10:53:14.684Z",
   "data": {
     "version": "1.5.0",
     "umbrel": {
@@ -179,8 +179,8 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Portal",
-        "version": "0.34.1",
-        "latest": "0.34.1",
+        "version": "0.35.0",
+        "latest": "0.35.0",
         "update": false,
         "state": "ready",
         "store": {
@@ -194,9 +194,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795166572683,
-          "from": "0.34.0",
-          "to": "0.34.1"
+          "at": 1795171964003,
+          "from": "0.34.1",
+          "to": "0.35.0"
         },
         "waiting": false
       },
@@ -368,8 +368,8 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.34.1",
-        "latest": "0.34.1",
+        "version": "0.35.0",
+        "latest": "0.35.0",
         "update": false,
         "state": "ready",
         "store": {
@@ -383,9 +383,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795166583854,
-          "from": "0.34.0",
-          "to": "0.34.1"
+          "at": 1795171975709,
+          "from": "0.34.1",
+          "to": "0.35.0"
         },
         "waiting": false
       },
@@ -544,12 +544,48 @@
       }
     ],
     "check": {
-      "at": 1795170205446,
+      "at": 1795171976020,
       "error": null,
       "registryProc": "appStore.registry",
-      "registryCount": 389
+      "registryCount": 390
     },
     "log": [
+      {
+        "t": 1795171975709,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.35.0 (state: ready)"
+      },
+      {
+        "t": 1795171964212,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795171964003,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Portal updated to 0.35.0 (state: ready)"
+      },
+      {
+        "t": 1795171956065,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
+      },
+      {
+        "t": 1795171956064,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.34.1 → 0.35.0"
+      },
+      {
+        "t": 1795171956064,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Portal 0.34.1 → 0.35.0"
+      },
       {
         "t": 1795166583854,
         "level": "ok",
@@ -873,42 +909,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Update available: Project Tracker 1.1.0 → 1.2.0"
-      },
-      {
-        "t": 1795147366649,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.31.0 → 0.32.0"
-      },
-      {
-        "t": 1795147366645,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Portal 0.31.0 → 0.32.0"
-      },
-      {
-        "t": 1795144710672,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Tracker updated to 1.1.0 (state: ready)"
-      },
-      {
-        "t": 1795144642470,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Tracker (detected, updating straight away)…"
-      },
-      {
-        "t": 1795144642469,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Tracker 1.0.1 → 1.1.0"
-      },
-      {
-        "t": 1795116760096,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Tracker 1.0.0 → 1.0.1"
       }
     ],
     "diagnose": [
