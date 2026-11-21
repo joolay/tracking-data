@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:42:08.126Z",
-  "changedAt": "2026-11-21T15:42:08.126Z",
-  "rev": 5,
-  "sig": "8d590e8caabce01ff14f3f94fb29a5c6ded1940d121b14125f9aa6ba3674396b",
+  "at": "2026-11-21T15:42:45.436Z",
+  "changedAt": "2026-11-21T15:42:45.436Z",
+  "rev": 6,
+  "sig": "dbaf645625f03bf032c1b6ad8b83c5e5d9b2cad8a000e1e1b79628df693dc008",
   "seenClaude": 0,
   "data": {
     "version": "1.6.0",
@@ -397,7 +397,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -576,12 +576,18 @@
       }
     ],
     "check": {
-      "at": 1795275728110,
+      "at": 1795275759182,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795275730424,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (2 s)"
+      },
       {
         "t": 1795275727867,
         "level": "ok",
@@ -935,12 +941,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Diner Bell (2 s)"
-      },
-      {
-        "t": 1795259017102,
-        "level": "ok",
-        "appId": "joolay-diner-bell",
-        "message": "Diner Bell updated to 2.0.13 (state: ready)"
       }
     ],
     "diagnose": [
