@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:37:27.565Z",
-  "changedAt": "2026-11-21T15:37:27.565Z",
-  "rev": 1,
-  "sig": "cefa19ac14d1dd035b96b73030fc79501575c41f1d95eee70a1c04651f88f75e",
+  "at": "2026-11-21T15:38:36.492Z",
+  "changedAt": "2026-11-21T15:38:36.492Z",
+  "rev": 2,
+  "sig": "7f29cf0db896434e1e5b74ea8b951a914a84bfbca2a3246e518006ea354179fa",
   "seenClaude": 0,
   "data": {
     "version": "1.5.1",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.5.0",
-        "latest": "1.6.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795275120288,
-        "result": {
-          "ok": true,
-          "at": 1795266516928,
-          "from": "1.4.1",
-          "to": "1.5.0"
-        },
-        "waiting": false
-      },
       {
         "id": "joolay-services-manager",
         "name": "Services Manager",
@@ -548,6 +524,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.6.0",
+        "latest": "1.6.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795275516236,
+          "from": "1.5.0",
+          "to": "1.6.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "tailscale",
         "name": "Tailscale",
         "version": "v1.104.7",
@@ -621,12 +621,18 @@
       }
     ],
     "check": {
-      "at": 1795275441173,
+      "at": 1795275516476,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795275516236,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.6.0 (state: ready)"
+      },
       {
         "t": 1795275441173,
         "level": "info",
@@ -980,12 +986,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating JoolzApp Store (0 s)"
-      },
-      {
-        "t": 1795245176943,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
       }
     ],
     "diagnose": [
