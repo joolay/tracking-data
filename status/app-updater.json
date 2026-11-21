@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:35:55.119Z",
+  "at": "2026-11-21T15:36:50.598Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,25 +47,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-listify",
-        "name": "Listify",
-        "version": "1.0.16",
-        "latest": "1.0.17",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795275120286,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
@@ -449,6 +430,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-listify",
+        "name": "Listify",
+        "version": "1.0.17",
+        "latest": "1.0.17",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795275410349,
+          "from": "1.0.16",
+          "to": "1.0.17"
+        },
+        "waiting": false
+      },
+      {
         "id": "ollama",
         "name": "Ollama",
         "version": "0.40.16",
@@ -612,12 +617,18 @@
       }
     ],
     "check": {
-      "at": 1795275334742,
+      "at": 1795275410577,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795275410349,
+        "level": "ok",
+        "appId": "joolay-listify",
+        "message": "Listify updated to 1.0.17 (state: ready)"
+      },
       {
         "t": 1795275334742,
         "level": "info",
@@ -971,12 +982,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Update available: JoolzApp Store 0.35.3 → 0.35.4"
-      },
-      {
-        "t": 1795235266514,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Port Master (2 s)"
       }
     ],
     "diagnose": [
