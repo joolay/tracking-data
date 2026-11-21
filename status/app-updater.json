@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T14:02:08.960Z",
+  "at": "2026-11-21T14:02:46.189Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,30 +47,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.35.4",
-        "latest": "0.36.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795269720747,
-        "result": {
-          "ok": true,
-          "at": 1795245204147,
-          "from": "0.35.3",
-          "to": "0.35.4"
-        },
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -219,7 +195,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -438,6 +414,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.36.0",
+        "latest": "0.36.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795269741238,
+          "from": "0.35.4",
+          "to": "0.36.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.5.0",
@@ -597,12 +597,30 @@
       }
     ],
     "check": {
-      "at": 1795269728952,
+      "at": 1795269756925,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795269741238,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.36.0 (state: ready)"
+      },
+      {
+        "t": 1795269731163,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzApp Store (2 s)"
+      },
+      {
+        "t": 1795269728953,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
       {
         "t": 1795269728725,
         "level": "ok",
@@ -944,24 +962,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795185164930,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Store updated to 0.35.2 (state: ready)"
-      },
-      {
-        "t": 1795185157154,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Store (detected, updating straight away)…"
-      },
-      {
-        "t": 1795185157152,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Pilot 1.4.0 → 1.4.1"
       }
     ],
     "diagnose": [
