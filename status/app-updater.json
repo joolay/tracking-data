@@ -1,12 +1,12 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T16:22:58.249Z",
-  "changedAt": "2026-11-21T16:22:58.249Z",
-  "rev": 10,
-  "sig": "710bfacb1acff7ea15862bfdce50e795e86c899ab5dc7ee6464522de04ebd21d",
+  "at": "2026-11-21T16:23:40.396Z",
+  "changedAt": "2026-11-21T16:23:40.396Z",
+  "rev": 11,
+  "sig": "8e55b4ccc6244d1862ab7a4899cad69f9540c88f98409fde39211acb9c51aad3",
   "seenClaude": 0,
   "data": {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "umbrel": {
       "connected": true,
       "signedIn": true,
@@ -37,16 +37,16 @@
       }
     },
     "self": {
-      "version": "1.6.0",
+      "version": "1.7.0",
       "latest": "1.7.0",
-      "update": true,
-      "phase": "updating",
+      "update": false,
+      "phase": "idle",
       "enabled": true,
       "result": {
         "ok": true,
-        "at": 1795275597362,
-        "from": "1.5.1",
-        "to": "1.6.0"
+        "at": 1795278200225,
+        "from": "1.6.0",
+        "to": "1.7.0"
       },
       "retryAt": null
     },
@@ -196,12 +196,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795278163113,
-          "from": "0.37.0",
-          "to": "0.38.0"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -404,12 +399,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795276945141,
-          "from": "1.5.0",
-          "to": "1.5.1"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -428,12 +418,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795278175684,
-          "from": "0.37.0",
-          "to": "0.38.0"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -585,13 +570,27 @@
         "waiting": false
       }
     ],
+    "install": {
+      "enabled": true,
+      "queue": [],
+      "waiting": {},
+      "last": [],
+      "error": null,
+      "at": 1795278203653
+    },
     "check": {
-      "at": 1795278176154,
+      "at": 1795278203854,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795278200225,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.6.0 → 1.7.0. Checking has resumed."
+      },
       {
         "t": 1795278176155,
         "level": "info",
@@ -945,12 +944,6 @@
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Update available: Jolly Grocer 1.0.12 → 1.0.13"
-      },
-      {
-        "t": 1795275120283,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Update available: Diner Bell 2.0.13 → 2.0.14"
       }
     ],
     "diagnose": [
