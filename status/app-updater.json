@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T10:12:52.938Z",
+  "at": "2026-11-21T10:13:43.320Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,25 +47,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-diner-bell",
-        "name": "Diner Bell",
-        "version": "2.0.11",
-        "latest": "2.0.12",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795255920232,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -119,6 +100,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.0.12",
+        "latest": "2.0.12",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795255987945,
+          "from": "2.0.11",
+          "to": "2.0.12"
+        },
         "waiting": false
       },
       {
@@ -587,12 +592,24 @@
       }
     ],
     "check": {
-      "at": 1795255920233,
+      "at": 1795256019717,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795255988311,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Diner Bell (0 s)"
+      },
+      {
+        "t": 1795255987945,
+        "level": "ok",
+        "appId": "joolay-diner-bell",
+        "message": "Diner Bell updated to 2.0.12 (state: ready)"
+      },
       {
         "t": 1795255920233,
         "level": "info",
@@ -940,18 +957,6 @@
         "level": "ok",
         "appId": "joolay-project-tracker",
         "message": "Project Tracker updated to 1.4.0 (state: ready)"
-      },
-      {
-        "t": 1795177950862,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Tracker (detected, updating straight away)…"
-      },
-      {
-        "t": 1795177950862,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Tracker 1.3.1 → 1.4.0"
       }
     ],
     "diagnose": [
