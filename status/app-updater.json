@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T13:04:54.160Z",
+  "at": "2026-11-21T13:07:54.189Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,6 +47,25 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.4.1",
+        "latest": "1.5.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795266448845,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -438,25 +457,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.4.1",
-        "latest": "1.4.1",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.1.1",
@@ -592,12 +592,24 @@
       }
     ],
     "check": {
-      "at": 1795266268016,
+      "at": 1795266448846,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795266448847,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
+      {
+        "t": 1795266448845,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Pilot 1.4.1 → 1.5.0"
+      },
       {
         "t": 1795259019160,
         "level": "info",
@@ -945,18 +957,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795178870635,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Portal updated to 0.35.1 (state: ready)"
-      },
-      {
-        "t": 1795178863230,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
       }
     ],
     "diagnose": [
