@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T07:13:32.182Z",
+  "at": "2026-11-21T07:14:25.350Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,25 +47,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.1.0",
-        "latest": "1.1.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795245168559,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -471,6 +452,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.1.1",
+        "latest": "1.1.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795245230115,
+          "from": "1.1.0",
+          "to": "1.1.1"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-shutterworth",
         "name": "ShutterWorth",
         "version": "1.7.19",
@@ -582,12 +587,24 @@
       }
     ],
     "check": {
-      "at": 1795245204348,
+      "at": 1795245261072,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795245230340,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Services Manager (0 s)"
+      },
+      {
+        "t": 1795245230115,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "Services Manager updated to 1.1.1 (state: ready)"
+      },
       {
         "t": 1795245204348,
         "level": "info",
@@ -935,18 +952,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795171964003,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Portal updated to 0.35.0 (state: ready)"
-      },
-      {
-        "t": 1795171956065,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Portal (detected, updating straight away)…"
       }
     ],
     "diagnose": [
