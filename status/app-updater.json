@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T11:02:53.419Z",
+  "at": "2026-11-21T11:03:37.305Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,30 +47,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-diner-bell",
-        "name": "Diner Bell",
-        "version": "2.0.12",
-        "latest": "2.0.13",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795258950064,
-        "result": {
-          "ok": true,
-          "at": 1795255987945,
-          "from": "2.0.11",
-          "to": "2.0.12"
-        },
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -124,6 +100,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.0.13",
+        "latest": "2.0.13",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795259017102,
+          "from": "2.0.12",
+          "to": "2.0.13"
+        },
         "waiting": false
       },
       {
@@ -592,12 +592,18 @@
       }
     ],
     "check": {
-      "at": 1795258950066,
+      "at": 1795259017296,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795259017102,
+        "level": "ok",
+        "appId": "joolay-diner-bell",
+        "message": "Diner Bell updated to 2.0.13 (state: ready)"
+      },
       {
         "t": 1795258950067,
         "level": "info",
@@ -951,12 +957,6 @@
         "level": "info",
         "appId": "joolay-routing-reporter",
         "message": "Update available: Routing Reporter 1.0.0 → 1.1.0"
-      },
-      {
-        "t": 1795178863229,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.35.0 → 0.35.1"
       }
     ],
     "diagnose": [
