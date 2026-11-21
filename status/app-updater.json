@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:34:23.092Z",
+  "at": "2026-11-21T15:34:55.114Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -48,30 +48,6 @@
     },
     "apps": [
       {
-        "id": "joolay-portal",
-        "name": "JoolzApp Store",
-        "version": "0.36.0",
-        "latest": "0.37.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795275120285,
-        "result": {
-          "ok": true,
-          "at": 1795269728725,
-          "from": "0.35.4",
-          "to": "0.36.0"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-cctv",
         "name": "JoolzCCTV",
         "version": "1.0.1",
@@ -85,7 +61,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795275120285,
         "result": null,
         "waiting": false
@@ -391,13 +367,37 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
           "at": 1795275262839,
           "from": "1.0.12",
           "to": "1.0.13"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal",
+        "name": "JoolzApp Store",
+        "version": "0.37.0",
+        "latest": "0.37.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795275278792,
+          "from": "0.36.0",
+          "to": "0.37.0"
         },
         "waiting": false
       },
@@ -602,12 +602,36 @@
       }
     ],
     "check": {
-      "at": 1795275263087,
+      "at": 1795275279095,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795275279095,
+        "level": "info",
+        "appId": "joolay-cctv",
+        "message": "Updating JoolzCCTV (detected, updating straight away)…"
+      },
+      {
+        "t": 1795275278792,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Store updated to 0.37.0 (state: ready)"
+      },
+      {
+        "t": 1795275264878,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
+      {
+        "t": 1795275263087,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Store (detected, updating straight away)…"
+      },
       {
         "t": 1795275262839,
         "level": "ok",
@@ -943,30 +967,6 @@
         "level": "ok",
         "appId": "joolay-routing-reporter",
         "message": "Port Master updated to 1.2.0 (state: ready)"
-      },
-      {
-        "t": 1795192937767,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
-      },
-      {
-        "t": 1795192937766,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Port Master 1.1.3 → 1.2.0"
-      },
-      {
-        "t": 1795192333690,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Port Master (2 s)"
-      },
-      {
-        "t": 1795192331440,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "Port Master updated to 1.1.3 (state: ready)"
       }
     ],
     "diagnose": [
