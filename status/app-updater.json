@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:33:43.199Z",
+  "at": "2026-11-21T15:34:23.092Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,25 +47,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.0.12",
-        "latest": "1.0.13",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795275120284,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "joolay-portal",
         "name": "JoolzApp Store",
@@ -397,6 +378,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.0.13",
+        "latest": "1.0.13",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795275262839,
+          "from": "1.0.12",
+          "to": "1.0.13"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-joolztv",
         "name": "JoolzTV",
         "version": "1.17.0",
@@ -597,12 +602,18 @@
       }
     ],
     "check": {
-      "at": 1795275188171,
+      "at": 1795275263087,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795275262839,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "Jolly Grocer updated to 1.0.13 (state: ready)"
+      },
       {
         "t": 1795275188178,
         "level": "info",
@@ -956,12 +967,6 @@
         "level": "ok",
         "appId": "joolay-routing-reporter",
         "message": "Port Master updated to 1.1.3 (state: ready)"
-      },
-      {
-        "t": 1795192314504,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
       }
     ],
     "diagnose": [
