@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T10:43:53.404Z",
+  "at": "2026-11-21T11:02:53.419Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -47,6 +47,30 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.0.12",
+        "latest": "2.0.13",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795258950064,
+        "result": {
+          "ok": true,
+          "at": 1795255987945,
+          "from": "2.0.11",
+          "to": "2.0.12"
+        },
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -100,30 +124,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-diner-bell",
-        "name": "Diner Bell",
-        "version": "2.0.12",
-        "latest": "2.0.12",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795255987945,
-          "from": "2.0.11",
-          "to": "2.0.12"
-        },
         "waiting": false
       },
       {
@@ -592,12 +592,24 @@
       }
     ],
     "check": {
-      "at": 1795257803599,
+      "at": 1795258950066,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795258950067,
+        "level": "info",
+        "appId": "joolay-diner-bell",
+        "message": "Updating Diner Bell (detected, updating straight away)…"
+      },
+      {
+        "t": 1795258950066,
+        "level": "info",
+        "appId": "joolay-diner-bell",
+        "message": "Update available: Diner Bell 2.0.12 → 2.0.13"
+      },
       {
         "t": 1795255988311,
         "level": "info",
@@ -945,18 +957,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Update available: Portal Admin 0.35.0 → 0.35.1"
-      },
-      {
-        "t": 1795178863228,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Portal 0.35.0 → 0.35.1"
-      },
-      {
-        "t": 1795178018462,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Tracker updated to 1.4.0 (state: ready)"
       }
     ],
     "diagnose": [
