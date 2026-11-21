@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T11:03:37.305Z",
+  "at": "2026-11-21T11:04:14.168Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -116,7 +116,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -592,12 +592,18 @@
       }
     ],
     "check": {
-      "at": 1795259017296,
+      "at": 1795259048272,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795259019160,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Diner Bell (2 s)"
+      },
       {
         "t": 1795259017102,
         "level": "ok",
@@ -951,12 +957,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Updating JoolzApp Portal (detected, updating straight away)…"
-      },
-      {
-        "t": 1795178863229,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Routing Reporter 1.0.0 → 1.1.0"
       }
     ],
     "diagnose": [
