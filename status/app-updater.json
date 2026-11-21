@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:32:55.116Z",
+  "at": "2026-11-21T15:33:43.199Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -48,30 +48,6 @@
     },
     "apps": [
       {
-        "id": "joolay-diner-bell",
-        "name": "Diner Bell",
-        "version": "2.0.13",
-        "latest": "2.0.14",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795275120283,
-        "result": {
-          "ok": true,
-          "at": 1795259017102,
-          "from": "2.0.12",
-          "to": "2.0.13"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "version": "1.0.12",
@@ -85,7 +61,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795275120284,
         "result": null,
         "waiting": false
@@ -361,6 +337,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.0.14",
+        "latest": "2.0.14",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795275187908,
+          "from": "2.0.13",
+          "to": "2.0.14"
+        },
+        "waiting": false
+      },
+      {
         "id": "glasshome",
         "name": "GlassHome",
         "version": "1.4.5",
@@ -597,12 +597,30 @@
       }
     ],
     "check": {
-      "at": 1795275120290,
+      "at": 1795275188171,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795275188178,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Diner Bell (0 s)"
+      },
+      {
+        "t": 1795275188172,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Updating Jolly Grocer (detected, updating straight away)…"
+      },
+      {
+        "t": 1795275187908,
+        "level": "ok",
+        "appId": "joolay-diner-bell",
+        "message": "Diner Bell updated to 2.0.14 (state: ready)"
+      },
       {
         "t": 1795275120290,
         "level": "info",
@@ -944,24 +962,6 @@
         "level": "info",
         "appId": "joolay-routing-reporter",
         "message": "Updating Port Master (detected, updating straight away)…"
-      },
-      {
-        "t": 1795192314502,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Port Master 1.1.2 → 1.1.3"
-      },
-      {
-        "t": 1795190562015,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.5.0 → 1.5.1. Checking has resumed."
-      },
-      {
-        "t": 1795190545414,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.5.0 → 1.5.1…"
       }
     ],
     "diagnose": [
