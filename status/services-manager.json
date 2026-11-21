@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-21T05:25:07.554Z",
+  "at": "2026-11-21T05:26:07.567Z",
   "data": {
     "umbrel": {
       "connected": false,
@@ -33,7 +33,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0-b.1@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -81,7 +81,7 @@
             "name": "cloudflared_web_1",
             "image": "ghcr.io/radiokot/umbrel-cloudflared:1.1.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           },
@@ -90,7 +90,7 @@
             "name": "cloudflared_connector_1",
             "image": "ghcr.io/radiokot/umbrel-cloudflared-connector:1.1.0-cf.2026.10.4@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -114,7 +114,7 @@
             "name": "glasshome_server_1",
             "image": "ghcr.io/glasshome/dash:1.4.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -186,7 +186,7 @@
             "name": "joolay-atvloadly_web_1",
             "image": "bitxeno/atvloadly:v0.3.7",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -435,7 +435,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.2.1",
             "state": "restarting",
-            "status": "Restarting (1) 2 seconds ago",
+            "status": "Restarting (1) 1 second ago",
             "policy": "on-failure",
             "self": false
           }
@@ -531,7 +531,7 @@
             "name": "kokoro_web_1",
             "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -555,7 +555,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.16@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -603,7 +603,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -651,7 +651,7 @@
             "name": "pocketbase_app_1",
             "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -723,7 +723,7 @@
             "name": "tor_proxy",
             "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -771,7 +771,7 @@
             "name": "webcheck_server_1",
             "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days (healthy)",
+            "status": "Up 3 days (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -808,14 +808,14 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.2.1",
         "state": "restarting",
-        "status": "Restarting (1) 2 seconds ago",
+        "status": "Restarting (1) 1 second ago",
         "restartPolicy": "on-failure",
-        "restarts": 66,
+        "restarts": 67,
         "exitCode": 1,
         "oomKilled": false,
         "health": "unhealthy",
-        "startedAt": "2026-11-21T05:25:04.295400089Z",
-        "finishedAt": "2026-11-21T05:25:05.033662548Z",
+        "startedAt": "2026-11-21T05:26:04.844802235Z",
+        "finishedAt": "2026-11-21T05:26:05.836019476Z",
         "error": "",
         "problem": true,
         "logTail": [
@@ -1141,7 +1141,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1187,7 +1187,7 @@
         "name": "glasshome_server_1",
         "image": "ghcr.io/glasshome/dash:1.4.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1202,7 +1202,7 @@
         "name": "joolay-atvloadly_web_1",
         "image": "bitxeno/atvloadly:v0.3.7",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1217,7 +1217,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.16@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1232,7 +1232,7 @@
         "name": "cloudflared_web_1",
         "image": "ghcr.io/radiokot/umbrel-cloudflared:1.1.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1247,7 +1247,7 @@
         "name": "cloudflared_connector_1",
         "image": "ghcr.io/radiokot/umbrel-cloudflared-connector:1.1.0-cf.2026.10.4@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1262,7 +1262,7 @@
         "name": "webcheck_server_1",
         "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days (healthy)",
+        "status": "Up 3 days (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1278,7 +1278,7 @@
         "name": "kokoro_web_1",
         "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1308,7 +1308,7 @@
         "name": "pocketbase_app_1",
         "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1323,7 +1323,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0-b.1@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1338,7 +1338,7 @@
         "name": "tor_proxy",
         "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
