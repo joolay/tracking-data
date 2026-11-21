@@ -1,6 +1,6 @@
 {
   "app": "services-manager",
-  "at": "2026-11-21T07:12:08.834Z",
+  "at": "2026-11-21T07:13:08.862Z",
   "data": {
     "umbrel": {
       "connected": false,
@@ -8,11 +8,9 @@
       "error": "Invalid token"
     },
     "summary": {
-      "containers": 34,
+      "containers": 33,
       "running": 32,
-      "problems": [
-        "joolay-routing-reporter_web_1"
-      ]
+      "problems": []
     },
     "services": [
       {
@@ -359,11 +357,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "dddbc2b5a989",
+            "id": "320f27caa001",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.35.3",
+            "image": "ghcr.io/joolay/portal-admin:0.35.4",
             "state": "running",
-            "status": "Up 16 hours (healthy)",
+            "status": "Up 13 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -412,30 +410,6 @@
             "image": "ghcr.io/joolay/project-tracker:1.4.1",
             "state": "running",
             "status": "Up 17 hours",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
-      },
-      {
-        "key": "docker:joolay-routing-reporter",
-        "kind": "docker",
-        "id": "joolay-routing-reporter",
-        "name": "joolay-routing-reporter",
-        "state": "restarting",
-        "busy": true,
-        "on": true,
-        "autoStart": null,
-        "policy": "on-failure",
-        "pinned": null,
-        "protected": false,
-        "containers": [
-          {
-            "id": "f535aa5ea495",
-            "name": "joolay-routing-reporter_web_1",
-            "image": "ghcr.io/joolay/routing-reporter:1.2.1",
-            "state": "restarting",
-            "status": "Restarting (1) 1 second ago",
             "policy": "on-failure",
             "self": false
           }
@@ -804,44 +778,20 @@
     ],
     "containers": [
       {
-        "id": "f535aa5ea495",
-        "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.2.1",
-        "state": "restarting",
-        "status": "Restarting (1) 1 second ago",
+        "id": "320f27caa001",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.35.4",
+        "state": "running",
+        "status": "Up 13 seconds (health: starting)",
         "restartPolicy": "on-failure",
-        "restarts": 172,
-        "exitCode": 1,
+        "restarts": 0,
+        "exitCode": 0,
         "oomKilled": false,
-        "health": "unhealthy",
-        "startedAt": "2026-11-21T07:12:06.584420397Z",
-        "finishedAt": "2026-11-21T07:12:07.276622904Z",
+        "health": "starting",
+        "startedAt": "2026-11-21T07:12:55.641087198Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
-        "problem": true,
-        "logTail": [
-          "}",
-          "Node.js v22.23.5",
-          "node:internal/modules/cjs/loader:1433",
-          "  throw err;",
-          "  ^",
-          "Error: Cannot find module './official'",
-          "Require stack:",
-          "- /app/server.js",
-          "    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)",
-          "    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)",
-          "    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)",
-          "    at Function._load (node:internal/modules/cjs/loader:1216:25)",
-          "    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)",
-          "    at Module.require (node:internal/modules/cjs/loader:1527:12)",
-          "    at require (node:internal/modules/helpers:147:16)",
-          "    at Object.<anonymous> (/app/server.js:6:66)",
-          "    at Module._compile (node:internal/modules/cjs/loader:1781:14)",
-          "    at Object..js (node:internal/modules/cjs/loader:1913:10) {",
-          "  code: 'MODULE_NOT_FOUND',",
-          "  requireStack: [ '/app/server.js' ]",
-          "}",
-          "Node.js v22.23.5"
-        ]
+        "problem": false
       },
       {
         "id": "a9f0cb8100be",
@@ -871,22 +821,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-20T15:23:12.135914557Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "dddbc2b5a989",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.35.3",
-        "state": "running",
-        "status": "Up 16 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-20T15:22:35.343797803Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
