@@ -1,6 +1,6 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T13:08:37.152Z",
+  "at": "2026-11-21T13:09:14.116Z",
   "data": {
     "version": "1.5.1",
     "umbrel": {
@@ -451,7 +451,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -597,12 +597,18 @@
       }
     ],
     "check": {
-      "at": 1795266517149,
+      "at": 1795266548316,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 391
     },
     "log": [
+      {
+        "t": 1795266519099,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Project Pilot (2 s)"
+      },
       {
         "t": 1795266516928,
         "level": "ok",
@@ -956,12 +962,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Update available: JoolzApp Store 0.35.1 → 0.35.2"
-      },
-      {
-        "t": 1795178883132,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.35.1 (state: ready)"
       }
     ],
     "diagnose": [
