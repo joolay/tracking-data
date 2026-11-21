@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T16:02:25.435Z",
-  "changedAt": "2026-11-21T16:02:25.435Z",
-  "rev": 7,
-  "sig": "455f518e292865d9c70d7c3958625cfa2d01dd64acd3cb6b78f070470824b778",
+  "at": "2026-11-21T16:02:57.844Z",
+  "changedAt": "2026-11-21T16:02:57.844Z",
+  "rev": 8,
+  "sig": "8dd646d5aa4a0f6e1939cc4c0cba497d6ae6662d39bbda464c4066fe5cf6a96b",
   "seenClaude": 0,
   "data": {
     "version": "1.6.0",
@@ -397,7 +397,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -576,12 +576,18 @@
       }
     ],
     "check": {
-      "at": 1795276945408,
+      "at": 1795276976237,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795276947566,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (2 s)"
+      },
       {
         "t": 1795276945141,
         "level": "ok",
@@ -935,12 +941,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Project Pilot (2 s)"
-      },
-      {
-        "t": 1795266516928,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Pilot updated to 1.5.0 (state: ready)"
       }
     ],
     "diagnose": [
