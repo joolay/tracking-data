@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:38:36.492Z",
-  "changedAt": "2026-11-21T15:38:36.492Z",
-  "rev": 2,
-  "sig": "7f29cf0db896434e1e5b74ea8b951a914a84bfbca2a3246e518006ea354179fa",
+  "at": "2026-11-21T15:39:13.702Z",
+  "changedAt": "2026-11-21T15:39:13.702Z",
+  "rev": 3,
+  "sig": "b9bb56d24a1b276345658f972589eec2ea762b2b94786eb265571f7db0d15a76",
   "seenClaude": 0,
   "data": {
     "version": "1.5.1",
@@ -52,49 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.1.1",
-        "latest": "1.2.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795275120289,
-        "result": {
-          "ok": true,
-          "at": 1795245230115,
-          "from": "1.1.0",
-          "to": "1.1.1"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-shutterworth",
-        "name": "ShutterWorth",
-        "version": "1.7.19",
-        "latest": "1.7.20",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795275120289,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-tv-remote",
         "name": "TV Remote",
         "version": "0.1.0",
@@ -108,7 +65,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795275120289,
         "result": null,
         "waiting": false
@@ -537,13 +494,61 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
           "at": 1795275516236,
           "from": "1.5.0",
           "to": "1.6.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.2.0",
+        "latest": "1.2.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795275531727,
+          "from": "1.1.1",
+          "to": "1.2.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-shutterworth",
+        "name": "ShutterWorth",
+        "version": "1.7.20",
+        "latest": "1.7.20",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795275547554,
+          "from": "1.7.19",
+          "to": "1.7.20"
         },
         "waiting": false
       },
@@ -621,12 +626,48 @@
       }
     ],
     "check": {
-      "at": 1795275516476,
+      "at": 1795275547762,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795275547762,
+        "level": "info",
+        "appId": "joolay-tv-remote",
+        "message": "Updating TV Remote (detected, updating straight away)…"
+      },
+      {
+        "t": 1795275547554,
+        "level": "ok",
+        "appId": "joolay-shutterworth",
+        "message": "ShutterWorth updated to 1.7.20 (state: ready)"
+      },
+      {
+        "t": 1795275531934,
+        "level": "info",
+        "appId": "joolay-shutterworth",
+        "message": "Updating ShutterWorth (detected, updating straight away)…"
+      },
+      {
+        "t": 1795275531727,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "Services Manager updated to 1.2.0 (state: ready)"
+      },
+      {
+        "t": 1795275518697,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Project Pilot (2 s)"
+      },
+      {
+        "t": 1795275516477,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Updating Services Manager (detected, updating straight away)…"
+      },
       {
         "t": 1795275516236,
         "level": "ok",
@@ -950,42 +991,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Services Manager (0 s)"
-      },
-      {
-        "t": 1795245230115,
-        "level": "ok",
-        "appId": "joolay-services-manager",
-        "message": "Services Manager updated to 1.1.1 (state: ready)"
-      },
-      {
-        "t": 1795245204348,
-        "level": "info",
-        "appId": "joolay-services-manager",
-        "message": "Updating Services Manager (detected, updating straight away)…"
-      },
-      {
-        "t": 1795245204147,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.35.4 (state: ready)"
-      },
-      {
-        "t": 1795245191224,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795245191018,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "Port Master updated to 1.3.0 (state: ready)"
-      },
-      {
-        "t": 1795245176956,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Store (0 s)"
       }
     ],
     "diagnose": [
