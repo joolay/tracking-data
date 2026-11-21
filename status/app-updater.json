@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-21T15:42:45.436Z",
-  "changedAt": "2026-11-21T15:42:45.436Z",
-  "rev": 6,
-  "sig": "dbaf645625f03bf032c1b6ad8b83c5e5d9b2cad8a000e1e1b79628df693dc008",
+  "at": "2026-11-21T16:02:25.435Z",
+  "changedAt": "2026-11-21T16:02:25.435Z",
+  "rev": 7,
+  "sig": "455f518e292865d9c70d7c3958625cfa2d01dd64acd3cb6b78f070470824b778",
   "seenClaude": 0,
   "data": {
     "version": "1.6.0",
@@ -386,8 +386,8 @@
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.5.0",
-        "latest": "1.5.0",
+        "version": "1.5.1",
+        "latest": "1.5.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -397,13 +397,13 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795275727867,
-          "from": "1.4.0",
-          "to": "1.5.0"
+          "at": 1795276945141,
+          "from": "1.5.0",
+          "to": "1.5.1"
         },
         "waiting": false
       },
@@ -576,12 +576,30 @@
       }
     ],
     "check": {
-      "at": 1795275759182,
+      "at": 1795276945408,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795276945141,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.5.1 (state: ready)"
+      },
+      {
+        "t": 1795276938294,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
+      {
+        "t": 1795276938294,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.5.0 → 1.5.1"
+      },
       {
         "t": 1795275730424,
         "level": "info",
@@ -923,24 +941,6 @@
         "level": "ok",
         "appId": "joolay-project-tracker",
         "message": "Project Pilot updated to 1.5.0 (state: ready)"
-      },
-      {
-        "t": 1795266448847,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Pilot (detected, updating straight away)…"
-      },
-      {
-        "t": 1795266448845,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Pilot 1.4.1 → 1.5.0"
-      },
-      {
-        "t": 1795259019160,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Diner Bell (2 s)"
       }
     ],
     "diagnose": [
