@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T05:59:00.099Z",
-  "changedAt": "2026-11-22T05:28:19.498Z",
-  "rev": 16,
-  "sig": "a6f6acf4699886090d4549533288c43368c627fd84119bda9e8f330e98c02cac",
+  "at": "2026-11-22T06:11:00.034Z",
+  "changedAt": "2026-11-22T06:11:00.034Z",
+  "rev": 17,
+  "sig": "cbe55ade279b6b9151ca0fc3f2b97d88c85b36e93fffafe9fbdaa12f8014fb02",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -576,20 +576,34 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795327103947
+      "at": 1795327832115
     },
     "check": {
-      "at": 1795327104195,
+      "at": 1795327832333,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795327103929,
+      "at": 1795327832068,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-jolly-grocer",
+          "name": "Jolly Grocer",
+          "repo": "1.2.0",
+          "umbrel": "1.1.0",
+          "kind": "update"
+        }
+      ]
     },
     "log": [
+      {
+        "t": 1795327832069,
+        "level": "warn",
+        "appId": "joolay-jolly-grocer",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.2.0 (umbrelOS lists 1.1.0)"
+      },
       {
         "t": 1795325279255,
         "level": "ok",
@@ -943,12 +957,6 @@
         "level": "info",
         "appId": "joolay-diner-bell",
         "message": "Updating Diner Bell (detected, updating straight away)…"
-      },
-      {
-        "t": 1795275120290,
-        "level": "info",
-        "appId": "joolay-tv-remote",
-        "message": "Update available: TV Remote 0.1.0 → 0.2.0"
       }
     ],
     "diagnose": [
