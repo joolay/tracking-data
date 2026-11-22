@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T07:03:39.020Z",
-  "changedAt": "2026-11-22T07:03:39.020Z",
-  "rev": 25,
-  "sig": "ba5325f5a7aab6940209b8e1172fd9c3efaaa8b6d10e11ad18f8f033d3985d74",
+  "at": "2026-11-22T07:04:15.878Z",
+  "changedAt": "2026-11-22T07:04:15.878Z",
+  "rev": 26,
+  "sig": "98ef026341e4098b576673f627d77f748b9d7ca072e1b52ccdb28c67fae01cc8",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -175,7 +175,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -581,10 +581,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795330890513
+      "at": 1795331049979
     },
     "check": {
-      "at": 1795331019015,
+      "at": 1795331050099,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -595,6 +595,12 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795331020849,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
       {
         "t": 1795331018339,
         "level": "ok",
@@ -948,12 +954,6 @@
         "level": "info",
         "appId": "joolay-routing-reporter",
         "message": "Updating Port Master (detected, updating straight away)…"
-      },
-      {
-        "t": 1795275410349,
-        "level": "ok",
-        "appId": "joolay-listify",
-        "message": "Listify updated to 1.0.17 (state: ready)"
       }
     ],
     "diagnose": [
