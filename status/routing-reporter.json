@@ -1,6 +1,10 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-20T16:32:30.915Z",
+  "at": "2026-11-22T16:27:31.205Z",
+  "changedAt": "2026-11-22T16:27:31.205Z",
+  "rev": 1,
+  "sig": "067c6d791f432b9cde017735b1d0f7df83ef79f6f87695cc44c98598a90fe153",
+  "seenClaude": 0,
   "data": {
     "intervalMin": 5,
     "config": {
@@ -13,6 +17,12 @@
     "reportError": "",
     "routesDown": [],
     "portConflicts": [],
+    "portClashes": [],
+    "officialPorts": {
+      "count": 403,
+      "at": 1795364848235,
+      "error": ""
+    },
     "ports": [
       {
         "port": 2876,
@@ -82,7 +92,7 @@
         "app": "joolay-services-manager",
         "name": "Services Manager",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3892,
@@ -180,7 +190,14 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
+      },
+      {
+        "port": 3907,
+        "app": "joolay-routing-reporter",
+        "name": "Port Master",
+        "kind": "published",
+        "state": "checking"
       },
       {
         "port": 3915,
@@ -305,7 +322,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335943
+            "since": 1795364836238
           },
           {
             "key": "local",
@@ -314,7 +331,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335953
+            "since": 1795364836236
           },
           {
             "key": "tailscale",
@@ -323,7 +340,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335942
+            "since": 1795364836232
           }
         ]
       },
@@ -343,7 +360,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335944
+            "since": 1795364836240
           },
           {
             "key": "local",
@@ -352,7 +369,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335956
+            "since": 1795364836243
           },
           {
             "key": "tailscale",
@@ -361,7 +378,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335943
+            "since": 1795364836236
           }
         ]
       },
@@ -381,7 +398,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335962
+            "since": 1795364836256
           },
           {
             "key": "local",
@@ -390,7 +407,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335961
+            "since": 1795364836260
           },
           {
             "key": "tailscale",
@@ -399,7 +416,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335960
+            "since": 1795364836251
           }
         ]
       },
@@ -419,7 +436,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335955
+            "since": 1795364836246
           },
           {
             "key": "local",
@@ -428,7 +445,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335963
+            "since": 1795364836260
           },
           {
             "key": "tailscale",
@@ -437,14 +454,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335959
+            "since": 1795364836255
           }
         ]
       },
       {
         "id": "joolay-app-updater",
         "name": "App Updater",
-        "version": "1.5.1",
+        "version": "1.8.0",
         "joolzapp": true,
         "port": 3898,
         "hostPorts": [],
@@ -457,7 +474,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335962
+            "since": 1795364836262
           },
           {
             "key": "local",
@@ -466,7 +483,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335988
+            "since": 1795364836342
           },
           {
             "key": "tailscale",
@@ -475,7 +492,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335965
+            "since": 1795364836264
           }
         ]
       },
@@ -495,7 +512,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335967
+            "since": 1795364836313
           },
           {
             "key": "local",
@@ -504,7 +521,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335991
+            "since": 1795364836343
           },
           {
             "key": "tailscale",
@@ -513,14 +530,14 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192335966
+            "since": 1795364836318
           }
         ]
       },
       {
         "id": "joolay-cctv",
         "name": "JoolzCCTV",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "joolzapp": true,
         "port": 3902,
         "hostPorts": [
@@ -535,7 +552,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335986
+            "since": 1795364836343
           },
           {
             "key": "local",
@@ -544,7 +561,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336000
+            "since": 1795364836344
           },
           {
             "key": "tailscale",
@@ -553,7 +570,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335990
+            "since": 1795364836348
           },
           {
             "key": "public",
@@ -562,14 +579,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337715
+            "since": 1795364838160
           }
         ]
       },
       {
         "id": "joolay-diner-bell",
         "name": "Diner Bell",
-        "version": "2.0.11",
+        "version": "2.0.14",
         "joolzapp": true,
         "port": 3893,
         "hostPorts": [
@@ -584,7 +601,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192335999
+            "since": 1795364836357
           },
           {
             "key": "local",
@@ -593,7 +610,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336003
+            "since": 1795364836359
           },
           {
             "key": "tailscale",
@@ -602,7 +619,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336002
+            "since": 1795364836356
           },
           {
             "key": "public",
@@ -611,14 +628,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337902
+            "since": 1795364838189
           }
         ]
       },
       {
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
-        "version": "1.0.12",
+        "version": "1.3.1",
         "joolzapp": true,
         "port": 3897,
         "hostPorts": [],
@@ -631,7 +648,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336004
+            "since": 1795364836548
           },
           {
             "key": "local",
@@ -640,7 +657,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336011
+            "since": 1795364836607
           },
           {
             "key": "tailscale",
@@ -649,7 +666,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336006
+            "since": 1795364836429
           }
         ]
       },
@@ -671,7 +688,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336010
+            "since": 1795364836566
           },
           {
             "key": "local",
@@ -680,7 +697,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336013
+            "since": 1795364836607
           },
           {
             "key": "tailscale",
@@ -689,7 +706,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336011
+            "since": 1795364836608
           },
           {
             "key": "public",
@@ -698,14 +715,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337699
+            "since": 1795364838642
           }
         ]
       },
       {
         "id": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
-        "version": "1.0.1",
+        "version": "1.1.0",
         "joolzapp": true,
         "port": 3920,
         "hostPorts": [],
@@ -718,7 +735,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192336016
+            "since": 1795364836610
           },
           {
             "key": "local",
@@ -727,7 +744,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192336021
+            "since": 1795364836623
           },
           {
             "key": "tailscale",
@@ -736,14 +753,14 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192336015
+            "since": 1795364836622
           }
         ]
       },
       {
         "id": "joolay-listify",
         "name": "Listify",
-        "version": "1.0.16",
+        "version": "1.0.17",
         "joolzapp": true,
         "port": 3895,
         "hostPorts": [
@@ -758,7 +775,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336022
+            "since": 1795364836626
           },
           {
             "key": "local",
@@ -767,7 +784,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336027
+            "since": 1795364836631
           },
           {
             "key": "tailscale",
@@ -776,7 +793,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336025
+            "since": 1795364836628
           },
           {
             "key": "public",
@@ -785,14 +802,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337767
+            "since": 1795364838213
           }
         ]
       },
       {
         "id": "joolay-portal",
         "name": "JoolzApp Store",
-        "version": "0.35.3",
+        "version": "0.38.0",
         "joolzapp": true,
         "port": 3885,
         "hostPorts": [
@@ -807,7 +824,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336030
+            "since": 1795364836863
           },
           {
             "key": "local",
@@ -816,7 +833,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336039
+            "since": 1795364836864
           },
           {
             "key": "tailscale",
@@ -825,7 +842,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336033
+            "since": 1795364836867
           },
           {
             "key": "public",
@@ -834,14 +851,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337427
+            "since": 1795364838487
           }
         ]
       },
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.35.3",
+        "version": "0.38.0",
         "joolzapp": true,
         "port": 3890,
         "hostPorts": [
@@ -857,7 +874,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192336041
+            "since": 1795364836939
           },
           {
             "key": "local",
@@ -866,7 +883,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192336047
+            "since": 1795364836946
           },
           {
             "key": "tailscale",
@@ -875,14 +892,14 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192336048
+            "since": 1795364836947
           }
         ]
       },
       {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
-        "version": "1.4.1",
+        "version": "1.7.0",
         "joolzapp": true,
         "port": 3915,
         "hostPorts": [
@@ -897,7 +914,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336052
+            "since": 1795364836950
           },
           {
             "key": "local",
@@ -906,7 +923,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336059
+            "since": 1795364836957
           },
           {
             "key": "tailscale",
@@ -915,7 +932,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192336061
+            "since": 1795364836959
           },
           {
             "key": "public",
@@ -924,18 +941,20 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337457
+            "since": 1795364838650
           }
         ]
       },
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.1.3",
+        "version": "1.5.2",
         "joolzapp": true,
         "port": 3906,
-        "hostPorts": [],
-        "published": "",
+        "hostPorts": [
+          3907
+        ],
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -944,7 +963,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337432
+            "since": 1795364838163
           },
           {
             "key": "local",
@@ -953,7 +972,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337445
+            "since": 1795364838222
           },
           {
             "key": "tailscale",
@@ -962,14 +981,23 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337447
+            "since": 1795364838224
+          },
+          {
+            "key": "name",
+            "url": "https://port-master.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795364838414
           }
         ]
       },
       {
         "id": "joolay-services-manager",
         "name": "Services Manager",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "joolzapp": true,
         "port": 3891,
         "hostPorts": [],
@@ -978,36 +1006,36 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:3891/",
-            "state": "up",
+            "state": "checking",
             "ignored": false,
-            "status": 302,
-            "error": "",
-            "since": 1795192337449
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795364838223
           },
           {
             "key": "local",
             "url": "http://umbrel.local:3891/",
-            "state": "up",
+            "state": "checking",
             "ignored": false,
-            "status": 302,
-            "error": "",
-            "since": 1795192337456
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795364838228
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:3891/",
-            "state": "up",
+            "state": "checking",
             "ignored": false,
-            "status": 302,
-            "error": "",
-            "since": 1795192337458
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795364838224
           }
         ]
       },
       {
         "id": "joolay-shutterworth",
         "name": "ShutterWorth",
-        "version": "1.7.19",
+        "version": "1.7.20",
         "joolzapp": true,
         "port": 3881,
         "hostPorts": [
@@ -1022,7 +1050,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337460
+            "since": 1795364838239
           },
           {
             "key": "local",
@@ -1031,7 +1059,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337466
+            "since": 1795364838240
           },
           {
             "key": "tailscale",
@@ -1040,7 +1068,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337463
+            "since": 1795364838244
           },
           {
             "key": "public",
@@ -1049,14 +1077,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192339160
+            "since": 1795364839835
           }
         ]
       },
       {
         "id": "joolay-tv-remote",
         "name": "TV Remote",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "joolzapp": true,
         "port": 3904,
         "hostPorts": [
@@ -1071,7 +1099,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337468
+            "since": 1795364838416
           },
           {
             "key": "local",
@@ -1080,7 +1108,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337474
+            "since": 1795364838420
           },
           {
             "key": "tailscale",
@@ -1089,7 +1117,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337476
+            "since": 1795364838419
           }
         ]
       },
@@ -1109,7 +1137,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337477
+            "since": 1795364838422
           },
           {
             "key": "local",
@@ -1118,7 +1146,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337483
+            "since": 1795364838427
           },
           {
             "key": "tailscale",
@@ -1127,7 +1155,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337485
+            "since": 1795364838424
           }
         ]
       },
@@ -1147,7 +1175,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337487
+            "since": 1795364838434
           },
           {
             "key": "local",
@@ -1156,7 +1184,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337496
+            "since": 1795364838439
           },
           {
             "key": "tailscale",
@@ -1165,7 +1193,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337499
+            "since": 1795364838440
           }
         ]
       },
@@ -1185,7 +1213,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337504
+            "since": 1795364838447
           },
           {
             "key": "local",
@@ -1194,7 +1222,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337513
+            "since": 1795364838455
           },
           {
             "key": "tailscale",
@@ -1203,7 +1231,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337517
+            "since": 1795364838503
           }
         ]
       },
@@ -1223,7 +1251,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337537
+            "since": 1795364839807
           },
           {
             "key": "local",
@@ -1232,7 +1260,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337558
+            "since": 1795364839832
           },
           {
             "key": "tailscale",
@@ -1241,7 +1269,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337575
+            "since": 1795364839811
           }
         ]
       },
@@ -1261,7 +1289,7 @@
             "ignored": false,
             "status": 403,
             "error": "",
-            "since": 1795192337579
+            "since": 1795364838652
           },
           {
             "key": "local",
@@ -1270,7 +1298,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337591
+            "since": 1795364838664
           },
           {
             "key": "tailscale",
@@ -1279,7 +1307,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337596
+            "since": 1795364838660
           }
         ]
       },
@@ -1299,7 +1327,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795192337598
+            "since": 1795364838670
           },
           {
             "key": "local",
@@ -1308,7 +1336,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795192337606
+            "since": 1795364838674
           },
           {
             "key": "tailscale",
@@ -1317,7 +1345,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795192337608
+            "since": 1795364838674
           }
         ]
       },
@@ -1337,7 +1365,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337611
+            "since": 1795364838676
           },
           {
             "key": "local",
@@ -1346,7 +1374,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337618
+            "since": 1795364838684
           },
           {
             "key": "tailscale",
@@ -1355,7 +1383,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795192337624
+            "since": 1795364838678
           }
         ]
       },
@@ -1375,7 +1403,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337674
+            "since": 1795364838682
           },
           {
             "key": "local",
@@ -1384,7 +1412,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337684
+            "since": 1795364838689
           },
           {
             "key": "tailscale",
@@ -1393,7 +1421,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337686
+            "since": 1795364838686
           }
         ]
       },
@@ -1413,7 +1441,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337698
+            "since": 1795364838690
           },
           {
             "key": "local",
@@ -1422,7 +1450,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337706
+            "since": 1795364838700
           },
           {
             "key": "tailscale",
@@ -1431,7 +1459,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337701
+            "since": 1795364838694
           }
         ]
       },
@@ -1451,7 +1479,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337703
+            "since": 1795364838699
           },
           {
             "key": "local",
@@ -1460,7 +1488,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337713
+            "since": 1795364838706
           },
           {
             "key": "tailscale",
@@ -1469,7 +1497,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795192337708
+            "since": 1795364838702
           }
         ]
       }
