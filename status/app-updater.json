@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T17:12:04.499Z",
-  "changedAt": "2026-11-22T17:12:04.499Z",
-  "rev": 47,
-  "sig": "635a09be16f8faec9fef97db2dc2f60c976777177f9d0e00f516d0ede1cf5eb8",
+  "at": "2026-11-22T17:12:57.896Z",
+  "changedAt": "2026-11-22T17:12:57.896Z",
+  "rev": 48,
+  "sig": "e3dfaf602aef7a6992c93c9100850beb78679bbba5540b268cdd2b04c611fee2",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.5.2",
-        "latest": "1.6.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795367524082,
-        "result": {
-          "ok": true,
-          "at": 1795364831828,
-          "from": "1.5.1",
-          "to": "1.5.2"
-        },
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -413,6 +389,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.6.0",
+        "latest": "1.6.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795367542679,
+          "from": "1.5.2",
+          "to": "1.6.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.38.0",
@@ -595,10 +595,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795367463297
+      "at": 1795367573708
     },
     "check": {
-      "at": 1795367524123,
+      "at": 1795367573922,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -609,6 +609,18 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795367542888,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (0 s)"
+      },
+      {
+        "t": 1795367542679,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.6.0 (state: ready)"
+      },
       {
         "t": 1795367524124,
         "level": "info",
@@ -956,18 +968,6 @@
         "level": "info",
         "appId": "joolay-app-updater",
         "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.7.0 → 1.8.0…"
-      },
-      {
-        "t": 1795324715969,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Jolly Grocer (0 s)"
-      },
-      {
-        "t": 1795324715757,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "Jolly Grocer updated to 1.1.0 (state: ready)"
       }
     ],
     "diagnose": [
