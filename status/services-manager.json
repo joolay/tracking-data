@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T19:01:53.968Z",
-  "changedAt": "2026-11-22T19:01:53.968Z",
-  "rev": 156,
-  "sig": "559b020a6e1d05b53b541b191c6086643e453eb38db47b94b83e0676e910330b",
+  "at": "2026-11-22T19:02:53.957Z",
+  "changedAt": "2026-11-22T19:02:53.957Z",
+  "rev": 157,
+  "sig": "e9508f31209f7fab73065039d19eadbac9315c17cd2d62ef9da03684579d9d25",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795374098981,
+      "at": 1795374158985,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,21 @@
       },
       "proxies": [
         {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "cctv",
           "status": "Running",
           "paused": false
@@ -59,21 +74,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -248,7 +248,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 38 minutes (healthy)",
+            "status": "Up 39 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -521,7 +521,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.7.0",
             "state": "running",
-            "status": "Up 39 minutes (healthy)",
+            "status": "Up 40 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -545,7 +545,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.3.0",
             "state": "running",
-            "status": "Up 39 minutes (healthy)",
+            "status": "Up 40 minutes (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -785,7 +785,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 38 minutes (healthy)",
+            "status": "Up 39 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 38 minutes (healthy)",
+        "status": "Up 39 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -910,7 +910,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.3.0",
         "state": "running",
-        "status": "Up 39 minutes (healthy)",
+        "status": "Up 40 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -926,7 +926,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.7.0",
         "state": "running",
-        "status": "Up 39 minutes (healthy)",
+        "status": "Up 40 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1233,7 +1233,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 38 minutes (healthy)",
+        "status": "Up 39 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
