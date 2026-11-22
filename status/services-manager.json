@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T19:45:54.076Z",
-  "changedAt": "2026-11-22T19:45:54.076Z",
-  "rev": 199,
-  "sig": "0969324ac341090e1ef0f84672af4af76e4e9087246f0a66a35d5ff8d6022cf4",
+  "at": "2026-11-22T19:46:54.078Z",
+  "changedAt": "2026-11-22T19:46:54.078Z",
+  "rev": 200,
+  "sig": "faacfaaa73403b727a191e3a6ef7e7749b33d4f1599167c5679dd291ff168c5a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795376739217,
+      "at": 1795376799225,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -74,6 +64,16 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -449,7 +449,7 @@
             "name": "joolay-portal_web_1",
             "image": "sha256:[hidden]",
             "state": "running",
-            "status": "Up 18 minutes (healthy)",
+            "status": "Up 19 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -473,7 +473,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.39.0",
             "state": "running",
-            "status": "Up 18 minutes (healthy)",
+            "status": "Up 19 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -521,7 +521,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up 18 minutes (healthy)",
+            "status": "Up 19 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.39.0",
         "state": "running",
-        "status": "Up 18 minutes (healthy)",
+        "status": "Up 19 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -910,7 +910,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.8.0",
         "state": "running",
-        "status": "Up 18 minutes (healthy)",
+        "status": "Up 19 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -926,7 +926,7 @@
         "name": "joolay-portal_web_1",
         "image": "sha256:[hidden]",
         "state": "running",
-        "status": "Up 18 minutes (healthy)",
+        "status": "Up 19 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
