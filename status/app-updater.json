@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T17:43:54.550Z",
-  "changedAt": "2026-11-22T17:43:54.550Z",
-  "rev": 50,
-  "sig": "ef624618682c11ea455d5a0f6c29b072879b873bc52949824f1ecbfe87f6a4d6",
+  "at": "2026-11-22T17:44:31.627Z",
+  "changedAt": "2026-11-22T17:44:31.627Z",
+  "rev": 51,
+  "sig": "1aa310f30e8cfb1deb53138628b303315ebdc243725c7009e6fc9cb43e0806ae",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -52,30 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.6.0",
-        "latest": "1.6.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795369366062,
-        "result": {
-          "ok": true,
-          "at": 1795367542679,
-          "from": "1.5.2",
-          "to": "1.6.0"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.7.1",
@@ -89,7 +65,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795369366063,
         "result": {
           "ok": false,
@@ -222,7 +198,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -436,6 +412,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.6.1",
+        "latest": "1.6.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795369459564,
+          "from": "1.6.0",
+          "to": "1.6.1"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.38.0",
@@ -598,7 +598,7 @@
       "at": 1795369305184
     },
     "check": {
-      "at": 1795369434535,
+      "at": 1795369459929,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -609,6 +609,30 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795369459929,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
+      {
+        "t": 1795369459564,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.6.1 (state: ready)"
+      },
+      {
+        "t": 1795369436613,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
+      {
+        "t": 1795369434538,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
       {
         "t": 1795369434093,
         "level": "ok",
@@ -941,30 +965,6 @@
       },
       {
         "t": 1795330030651,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Updating Jolly Grocer (detected, updating straight away)…"
-      },
-      {
-        "t": 1795330030617,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Update available: Jolly Grocer 1.2.0 → 1.2.2"
-      },
-      {
-        "t": 1795328023551,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Jolly Grocer (2 s)"
-      },
-      {
-        "t": 1795328020894,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "Jolly Grocer updated to 1.2.0 (state: ready)"
-      },
-      {
-        "t": 1795327953257,
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Updating Jolly Grocer (detected, updating straight away)…"
