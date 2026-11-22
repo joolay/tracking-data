@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T18:17:04.807Z",
-  "changedAt": "2026-11-22T17:46:15.749Z",
-  "rev": 53,
-  "sig": "c86722d55442fadd4061daefafc00f7017dc768677fd5f58833e33e6b7a4ae1a",
+  "at": "2026-11-22T18:22:26.927Z",
+  "changedAt": "2026-11-22T18:22:26.927Z",
+  "rev": 54,
+  "sig": "3758162f959b5f988f8d14b9dec5a57dacfa5349338a67ae49289db430f308cc",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -38,8 +38,8 @@
     },
     "self": {
       "version": "1.8.0",
-      "latest": "1.8.0",
-      "update": false,
+      "latest": "1.9.0",
+      "update": true,
       "phase": "idle",
       "enabled": true,
       "result": {
@@ -51,6 +51,30 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.2.1",
+        "latest": "1.3.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795371728101,
+        "result": {
+          "ok": true,
+          "at": 1795364847639,
+          "from": "1.2.0",
+          "to": "1.2.1"
+        },
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -391,8 +415,8 @@
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.6.1",
-        "latest": "1.6.1",
+        "version": "1.7.0",
+        "latest": "1.7.0",
         "update": false,
         "state": "ready",
         "store": {
@@ -402,13 +426,13 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795369459564,
-          "from": "1.6.0",
-          "to": "1.6.1"
+          "at": 1795371746523,
+          "from": "1.6.1",
+          "to": "1.7.0"
         },
         "waiting": false
       },
@@ -452,30 +476,6 @@
           "at": 1795369537484,
           "from": "1.7.1",
           "to": "1.7.2"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.2.1",
-        "latest": "1.2.1",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795364847639,
-          "from": "1.2.0",
-          "to": "1.2.1"
         },
         "waiting": false
       },
@@ -596,20 +596,44 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795371424098
+      "at": 1795371666909
     },
     "check": {
-      "at": 1795371424258,
+      "at": 1795371746914,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795371363733,
+      "at": 1795371728059,
       "error": null,
       "pending": []
     },
     "log": [
+      {
+        "t": 1795371746523,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.7.0 (state: ready)"
+      },
+      {
+        "t": 1795371728104,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
+      {
+        "t": 1795371728102,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Update available: Services Manager 1.2.1 → 1.3.0"
+      },
+      {
+        "t": 1795371728060,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.6.1 → 1.7.0"
+      },
       {
         "t": 1795369540742,
         "level": "info",
@@ -945,30 +969,6 @@
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Updating Jolly Grocer (detected, updating straight away)…"
-      },
-      {
-        "t": 1795330950800,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Update available: Jolly Grocer 1.2.2 → 1.2.3"
-      },
-      {
-        "t": 1795330950799,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "umbrelOS now sees Jolly Grocer 1.2.3"
-      },
-      {
-        "t": 1795330769302,
-        "level": "warn",
-        "appId": "joolay-jolly-grocer",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.2.3 (umbrelOS lists 1.2.2)"
-      },
-      {
-        "t": 1795330098461,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Jolly Grocer (0 s)"
       }
     ],
     "diagnose": [
