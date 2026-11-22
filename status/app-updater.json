@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T17:43:04.700Z",
-  "changedAt": "2026-11-22T17:43:04.700Z",
-  "rev": 49,
-  "sig": "a27707718d6c28e8799f84ea29d04009ff5c2511471f783ea242ae7721be724a",
+  "at": "2026-11-22T17:43:54.550Z",
+  "changedAt": "2026-11-22T17:43:54.550Z",
+  "rev": 50,
+  "sig": "ef624618682c11ea455d5a0f6c29b072879b873bc52949824f1ecbfe87f6a4d6",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.3.1",
-        "latest": "1.3.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795369366036,
-        "result": {
-          "ok": true,
-          "at": 1795361600553,
-          "from": "1.3.0",
-          "to": "1.3.1"
-        },
-        "waiting": false
-      },
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
@@ -230,6 +206,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.3.2",
+        "latest": "1.3.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795369434093,
+          "from": "1.3.1",
+          "to": "1.3.2"
+        },
         "waiting": false
       },
       {
@@ -598,7 +598,7 @@
       "at": 1795369305184
     },
     "check": {
-      "at": 1795369366063,
+      "at": 1795369434535,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -609,6 +609,12 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795369434093,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "Jolly Grocer updated to 1.3.2 (state: ready)"
+      },
       {
         "t": 1795369366064,
         "level": "info",
@@ -962,12 +968,6 @@
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Updating Jolly Grocer (detected, updating straight away)…"
-      },
-      {
-        "t": 1795327953255,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Update available: Jolly Grocer 1.1.0 → 1.2.0"
       }
     ],
     "diagnose": [
