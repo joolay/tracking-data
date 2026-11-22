@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-22T16:27:31.205Z",
-  "changedAt": "2026-11-22T16:27:31.205Z",
-  "rev": 1,
-  "sig": "067c6d791f432b9cde017735b1d0f7df83ef79f6f87695cc44c98598a90fe153",
+  "at": "2026-11-22T16:33:11.324Z",
+  "changedAt": "2026-11-22T16:33:11.324Z",
+  "rev": 2,
+  "sig": "46ec1598eeeb2224cc9c0834876e2177ba2eb377581e6582b384aff70422b2f6",
   "seenClaude": 0,
   "data": {
     "intervalMin": 5,
@@ -15,7 +15,15 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-routing-reporter",
+        "route": "name",
+        "url": "https://port-master.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795365138087
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -92,7 +100,7 @@
         "app": "joolay-services-manager",
         "name": "Services Manager",
         "kind": "app",
-        "state": "checking"
+        "state": "up"
       },
       {
         "port": 3892,
@@ -190,14 +198,14 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3907,
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3915,
@@ -986,18 +994,18 @@
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795364838414
+            "since": 1795365138087
           }
         ]
       },
       {
         "id": "joolay-services-manager",
         "name": "Services Manager",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "joolzapp": true,
         "port": 3891,
         "hostPorts": [],
@@ -1006,29 +1014,29 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:3891/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795364838223
+            "status": 302,
+            "error": "",
+            "since": 1795365137903
           },
           {
             "key": "local",
             "url": "http://umbrel.local:3891/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795364838228
+            "status": 302,
+            "error": "",
+            "since": 1795365137909
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:3891/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795364838224
+            "status": 302,
+            "error": "",
+            "since": 1795365137912
           }
         ]
       },
