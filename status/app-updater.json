@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T06:11:00.034Z",
-  "changedAt": "2026-11-22T06:11:00.034Z",
-  "rev": 17,
-  "sig": "cbe55ade279b6b9151ca0fc3f2b97d88c85b36e93fffafe9fbdaa12f8014fb02",
+  "at": "2026-11-22T06:13:00.052Z",
+  "changedAt": "2026-11-22T06:13:00.052Z",
+  "rev": 18,
+  "sig": "19c30274aebdb48788b448949b309f98ae0a647899cb50f4cd77a31baff0de0e",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,6 +51,25 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.1.0",
+        "latest": "1.2.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795327953255,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -155,25 +174,6 @@
           "name": "Umbrel"
         },
         "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.1.0",
-        "latest": "1.1.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -576,28 +576,38 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795327832115
+      "at": 1795327892505
     },
     "check": {
-      "at": 1795327832333,
+      "at": 1795327953257,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795327832068,
+      "at": 1795327953254,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-jolly-grocer",
-          "name": "Jolly Grocer",
-          "repo": "1.2.0",
-          "umbrel": "1.1.0",
-          "kind": "update"
-        }
-      ]
+      "pending": []
     },
     "log": [
+      {
+        "t": 1795327953257,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Updating Jolly Grocer (detected, updating straight away)…"
+      },
+      {
+        "t": 1795327953255,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Update available: Jolly Grocer 1.1.0 → 1.2.0"
+      },
+      {
+        "t": 1795327953254,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "umbrelOS now sees Jolly Grocer 1.2.0"
+      },
       {
         "t": 1795327832069,
         "level": "warn",
@@ -939,24 +949,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Diner Bell (0 s)"
-      },
-      {
-        "t": 1795275188172,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Updating Jolly Grocer (detected, updating straight away)…"
-      },
-      {
-        "t": 1795275187908,
-        "level": "ok",
-        "appId": "joolay-diner-bell",
-        "message": "Diner Bell updated to 2.0.14 (state: ready)"
-      },
-      {
-        "t": 1795275120290,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Updating Diner Bell (detected, updating straight away)…"
       }
     ],
     "diagnose": [
