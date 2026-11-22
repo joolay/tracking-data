@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T06:48:53.468Z",
-  "changedAt": "2026-11-22T06:48:53.468Z",
-  "rev": 22,
-  "sig": "06611a01663d6bb57e4e19dfb7bf64d6919247371b439dd27442b2528e93f87c",
+  "at": "2026-11-22T07:00:00.490Z",
+  "changedAt": "2026-11-22T07:00:00.490Z",
+  "rev": 23,
+  "sig": "36fbdde1cfe232e193288762fe2cc9b08b42d19f39d020ceb3554e827b4f11bf",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -581,20 +581,34 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795330129132
+      "at": 1795330769341
     },
     "check": {
-      "at": 1795330129270,
+      "at": 1795330769513,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795330030616,
+      "at": 1795330769302,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-jolly-grocer",
+          "name": "Jolly Grocer",
+          "repo": "1.2.3",
+          "umbrel": "1.2.2",
+          "kind": "update"
+        }
+      ]
     },
     "log": [
+      {
+        "t": 1795330769302,
+        "level": "warn",
+        "appId": "joolay-jolly-grocer",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.2.3 (umbrelOS lists 1.2.2)"
+      },
       {
         "t": 1795330098461,
         "level": "info",
@@ -948,12 +962,6 @@
         "level": "info",
         "appId": "joolay-kiosk-manager",
         "message": "Updating Kiosk Manager (detected, updating straight away)…"
-      },
-      {
-        "t": 1795275319079,
-        "level": "ok",
-        "appId": "joolay-cctv",
-        "message": "JoolzCCTV updated to 1.0.2 (state: ready)"
       }
     ],
     "diagnose": [
