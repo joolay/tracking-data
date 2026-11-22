@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T19:22:54.003Z",
-  "changedAt": "2026-11-22T19:22:54.003Z",
-  "rev": 177,
-  "sig": "938765d8580b511dc6dc4dc0ff1ee48982fd7948f179c11edb4dcfb5e0a8f194",
+  "at": "2026-11-22T19:23:54.033Z",
+  "changedAt": "2026-11-22T19:23:54.033Z",
+  "rev": 178,
+  "sig": "edc62f7cc80ddb9810bb2b5891b37f0bb03254346d6e5dc5548c6d5df5dd39cb",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795375359097,
+      "at": 1795375419101,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,21 @@
       },
       "proxies": [
         {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "listify",
           "status": "Running",
           "paused": false
@@ -59,21 +74,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -248,7 +248,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 59 minutes (healthy)",
+            "status": "Up About an hour (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -785,7 +785,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 59 minutes (healthy)",
+            "status": "Up About an hour (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 59 minutes (healthy)",
+        "status": "Up About an hour (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1233,7 +1233,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 59 minutes (healthy)",
+        "status": "Up About an hour (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
