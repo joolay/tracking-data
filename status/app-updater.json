@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T17:44:31.627Z",
-  "changedAt": "2026-11-22T17:44:31.627Z",
-  "rev": 51,
-  "sig": "1aa310f30e8cfb1deb53138628b303315ebdc243725c7009e6fc9cb43e0806ae",
+  "at": "2026-11-22T17:45:38.455Z",
+  "changedAt": "2026-11-22T17:45:38.455Z",
+  "rev": 52,
+  "sig": "62049647b6271fbb59c07e6512c8ffd9e689973e369e8344b93228799f274ed1",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,29 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.7.1",
-        "latest": "1.7.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795369366063,
-        "result": {
-          "ok": false,
-          "at": 1795365155899,
-          "error": "[apps-settings-blocked] Cannot change settings for app 'joolay-project-tracker' while it is updating"
-        },
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -455,6 +432,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.7.2",
+        "latest": "1.7.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795369537484,
+          "from": "1.7.1",
+          "to": "1.7.2"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.2.1",
@@ -598,17 +599,23 @@
       "at": 1795369305184
     },
     "check": {
-      "at": 1795369459929,
+      "at": 1795369538450,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795369366036,
+      "at": 1795369538450,
       "error": null,
       "pending": []
     },
     "log": [
+      {
+        "t": 1795369537484,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.7.2 (state: ready)"
+      },
       {
         "t": 1795369459929,
         "level": "info",
@@ -962,12 +969,6 @@
         "level": "ok",
         "appId": "joolay-jolly-grocer",
         "message": "Jolly Grocer updated to 1.2.2 (state: ready)"
-      },
-      {
-        "t": 1795330030651,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Updating Jolly Grocer (detected, updating straight away)…"
       }
     ],
     "diagnose": [
