@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T23:01:24.258Z",
-  "changedAt": "2026-11-22T23:01:24.258Z",
-  "rev": 307,
-  "sig": "9b3e1c514c0e456bf6631631f0907479825de9ac76c1ea31494b49f97aab7ea5",
+  "at": "2026-11-22T23:03:24.258Z",
+  "changedAt": "2026-11-22T23:03:24.258Z",
+  "rev": 308,
+  "sig": "ad0de13617aa15c45de791956aa680bde289e7a436f658a7d6f5520af1717fbd",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -591,23 +591,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795388464974
+      "at": 1795388586024
     },
     "check": {
-      "at": 1795388465114,
+      "at": 1795388586159,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795388464965,
+      "at": 1795388586019,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795388469901,
+        "at": 1795388589913,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -631,6 +631,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "project-tracker",
             "status": "Running",
@@ -660,16 +670,6 @@
             "name": "port-master",
             "status": "Paused",
             "paused": true
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -696,6 +696,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795388544893,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795375678398,
         "level": "info",
