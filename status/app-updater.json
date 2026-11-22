@@ -1,12 +1,12 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T05:19:10.979Z",
-  "changedAt": "2026-11-22T05:19:10.979Z",
-  "rev": 15,
-  "sig": "6e0c6c06535900f917046c1f6d487266e9680ed4c87001b760852ef2c2ac7eab",
+  "at": "2026-11-22T05:28:19.498Z",
+  "changedAt": "2026-11-22T05:28:19.498Z",
+  "rev": 16,
+  "sig": "a6f6acf4699886090d4549533288c43368c627fd84119bda9e8f330e98c02cac",
   "seenClaude": 0,
   "data": {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "umbrel": {
       "connected": true,
       "signedIn": true,
@@ -37,16 +37,16 @@
       }
     },
     "self": {
-      "version": "1.7.0",
-      "latest": "1.7.0",
+      "version": "1.8.0",
+      "latest": "1.8.0",
       "update": false,
       "phase": "idle",
       "enabled": true,
       "result": {
         "ok": true,
-        "at": 1795278200225,
-        "from": "1.6.0",
-        "to": "1.7.0"
+        "at": 1795325279249,
+        "from": "1.7.0",
+        "to": "1.8.0"
       },
       "retryAt": null
     },
@@ -177,12 +177,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795324715757,
-          "from": "1.0.13",
-          "to": "1.1.0"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -442,12 +437,7 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795317218877,
-          "from": "1.6.0",
-          "to": "1.7.0"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -586,15 +576,32 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795324746569
+      "at": 1795325283469
     },
     "check": {
-      "at": 1795324746704,
+      "at": 1795325283657,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
+    "repo": {
+      "at": 1795325283445,
+      "error": null,
+      "pending": []
+    },
     "log": [
+      {
+        "t": 1795325279255,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "App Updater updated itself: 1.7.0 → 1.8.0. Checking has resumed."
+      },
+      {
+        "t": 1795325262066,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.7.0 → 1.8.0…"
+      },
       {
         "t": 1795324715969,
         "level": "info",
@@ -942,18 +949,6 @@
         "level": "info",
         "appId": "joolay-tv-remote",
         "message": "Update available: TV Remote 0.1.0 → 0.2.0"
-      },
-      {
-        "t": 1795275120289,
-        "level": "info",
-        "appId": "joolay-shutterworth",
-        "message": "Update available: ShutterWorth 1.7.19 → 1.7.20"
-      },
-      {
-        "t": 1795275120289,
-        "level": "info",
-        "appId": "joolay-services-manager",
-        "message": "Update available: Services Manager 1.1.1 → 1.2.0"
       }
     ],
     "diagnose": [
