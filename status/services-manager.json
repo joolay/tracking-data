@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T18:21:27.432Z",
-  "changedAt": "2026-11-22T18:21:27.432Z",
-  "rev": 115,
-  "sig": "4ec7dccab41390a6cd1e944fe04b7a1cd68e56fe80b91f61c942070454479846",
+  "at": "2026-11-22T18:22:27.395Z",
+  "changedAt": "2026-11-22T18:22:27.395Z",
+  "rev": 116,
+  "sig": "bd66df5b0983de8f3a1971ff57eea2afc27161923b40ef7adcb515c6245b0b7b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -260,7 +260,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
             "state": "running",
-            "status": "Up 37 minutes",
+            "status": "Up 38 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -413,7 +413,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 35 minutes",
+            "status": "Up 36 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -433,11 +433,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "5a2e4da6732c",
+            "id": "b9f395e5b5df",
             "name": "joolay-routing-reporter_web_1",
-            "image": "ghcr.io/joolay/routing-reporter:1.6.1",
+            "image": "ghcr.io/joolay/routing-reporter:1.7.0",
             "state": "running",
-            "status": "Up 37 minutes (healthy)",
+            "status": "Up 2 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -806,11 +806,27 @@
     ],
     "containers": [
       {
+        "id": "b9f395e5b5df",
+        "name": "joolay-routing-reporter_web_1",
+        "image": "ghcr.io/joolay/routing-reporter:1.7.0",
+        "state": "running",
+        "status": "Up 2 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-22T18:22:24.980690071Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "0633bb13df68",
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 35 minutes",
+        "status": "Up 36 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -821,27 +837,11 @@
         "problem": false
       },
       {
-        "id": "5a2e4da6732c",
-        "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.6.1",
-        "state": "running",
-        "status": "Up 37 minutes (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-22T17:44:18.411488232Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "0621895caae5",
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
         "state": "running",
-        "status": "Up 37 minutes",
+        "status": "Up 38 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
