@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-22T18:26:25.459Z",
-  "changedAt": "2026-11-22T18:26:25.459Z",
-  "rev": 12,
-  "sig": "0c19b323ef757b95e951f7ac4e5dca295718ed40bb2a78bc29d22d2dac803c6c",
+  "at": "2026-11-22T18:27:25.474Z",
+  "changedAt": "2026-11-22T18:27:25.474Z",
+  "rev": 13,
+  "sig": "4ab607a7b6191bf57a64a43c4ea57caa2d49c15bd79d561fb718962d248a6111",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -13,10 +13,19 @@
       "version": "2.3.4",
       "image": "almeidapaulopt/tsdproxy:2",
       "updateAvailable": false,
-      "lastUpdate": null,
+      "lastUpdate": {
+        "at": 1795371998786,
+        "ok": true,
+        "message": "Already up to date",
+        "by": "request"
+      },
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
         {
           "name": "shutterworth",
           "status": "Running"
@@ -43,10 +52,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
           "status": "Running"
         }
       ]
