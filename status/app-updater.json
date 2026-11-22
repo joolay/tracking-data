@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T06:13:41.231Z",
-  "changedAt": "2026-11-22T06:13:41.231Z",
-  "rev": 19,
-  "sig": "de45eb02e3d242cbcbe0b120b1a3da943f45793f08758aba4b11b18a7b90bee1",
+  "at": "2026-11-22T06:14:18.566Z",
+  "changedAt": "2026-11-22T06:14:18.566Z",
+  "rev": 20,
+  "sig": "ab2238bd30b5c97cf5afa6fc04a6956d74f0447e1ad0717bce0ee98467bf3f41",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -175,7 +175,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -581,10 +581,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795327892505
+      "at": 1795328052274
     },
     "check": {
-      "at": 1795328021227,
+      "at": 1795328052397,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -595,6 +595,12 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795328023551,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
       {
         "t": 1795328020894,
         "level": "ok",
@@ -948,12 +954,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Updating JoolzApp Store (detected, updating straight away)…"
-      },
-      {
-        "t": 1795275262839,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "Jolly Grocer updated to 1.0.13 (state: ready)"
       }
     ],
     "diagnose": [
