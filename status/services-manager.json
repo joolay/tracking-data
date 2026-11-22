@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T22:05:54.330Z",
-  "changedAt": "2026-11-22T22:05:54.330Z",
-  "rev": 326,
-  "sig": "9929da536bfbb6538ce9b1c0c54ebc579093214fd80c1f4e78e6b9a4d441794a",
+  "at": "2026-11-22T22:06:54.339Z",
+  "changedAt": "2026-11-22T22:06:54.339Z",
+  "rev": 327,
+  "sig": "477bd399566ec84ac43cecca529ac306da1920c50b57ebc5150decb698ae93f5",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795385139595,
+      "at": 1795385199595,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -76,6 +71,11 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -425,7 +425,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 30 hours",
+            "status": "Up 31 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1035,7 +1035,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 30 hours",
+        "status": "Up 31 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
