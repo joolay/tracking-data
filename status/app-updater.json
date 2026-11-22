@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T08:43:55.613Z",
-  "changedAt": "2026-11-22T08:43:55.613Z",
-  "rev": 28,
-  "sig": "63594e4d45c3ff42e426247461dd5ace18e62a44e91a5ae10f8ec4b613463768",
+  "at": "2026-11-22T08:44:33.273Z",
+  "changedAt": "2026-11-22T08:44:33.273Z",
+  "rev": 29,
+  "sig": "e231e76120a6b16246d8b0bc84e0eca6913d2540363eee8724931b027d28348e",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -175,7 +175,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -581,10 +581,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795336906172
+      "at": 1795337066975
     },
     "check": {
-      "at": 1795337035607,
+      "at": 1795337067099,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -595,6 +595,12 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795337038019,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
       {
         "t": 1795337035294,
         "level": "ok",
@@ -948,12 +954,6 @@
         "level": "ok",
         "appId": "joolay-portal-admin",
         "message": "Portal Admin updated to 0.37.0 (state: ready)"
-      },
-      {
-        "t": 1795275425195,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
       }
     ],
     "diagnose": [
