@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T19:05:53.943Z",
-  "changedAt": "2026-11-22T19:05:53.943Z",
-  "rev": 160,
-  "sig": "343f866226da9944e753581df4505ff98dcc9a05ff0511d3f9cefb68a0584085",
+  "at": "2026-11-22T19:06:53.986Z",
+  "changedAt": "2026-11-22T19:06:53.986Z",
+  "rev": 161,
+  "sig": "f8a8043fe2e10ee1175171c89098b85471490fa10433b98749dac583584dd0b1",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795374339001,
+      "at": 1795374399005,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,21 +38,6 @@
       },
       "proxies": [
         {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "listify",
           "status": "Running",
           "paused": false
@@ -74,6 +59,21 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -248,7 +248,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 42 minutes (healthy)",
+            "status": "Up 43 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -425,7 +425,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 27 hours",
+            "status": "Up 28 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -521,7 +521,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.7.0",
             "state": "running",
-            "status": "Up 43 minutes (healthy)",
+            "status": "Up 44 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -545,7 +545,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.3.0",
             "state": "running",
-            "status": "Up 43 minutes (healthy)",
+            "status": "Up 44 minutes (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -785,7 +785,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 42 minutes (healthy)",
+            "status": "Up 43 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 42 minutes (healthy)",
+        "status": "Up 43 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -910,7 +910,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.3.0",
         "state": "running",
-        "status": "Up 43 minutes (healthy)",
+        "status": "Up 44 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -926,7 +926,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.7.0",
         "state": "running",
-        "status": "Up 43 minutes (healthy)",
+        "status": "Up 44 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1035,7 +1035,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 27 hours",
+        "status": "Up 28 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1233,7 +1233,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 42 minutes (healthy)",
+        "status": "Up 43 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
