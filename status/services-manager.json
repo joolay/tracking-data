@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T17:11:27.196Z",
-  "changedAt": "2026-11-22T17:11:27.196Z",
-  "rev": 45,
-  "sig": "537314e10922b2452ec9d2103c4de42da0cc0e9b59f3a18e4bee6893018f1f10",
+  "at": "2026-11-22T17:12:27.206Z",
+  "changedAt": "2026-11-22T17:12:27.206Z",
+  "rev": 46,
+  "sig": "fa33813250908cb545ad1826c7f774400e2e3097a30fa6af7bda666e88613ea2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -413,7 +413,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.1",
             "state": "running",
-            "status": "Up 38 minutes",
+            "status": "Up 39 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -433,11 +433,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "da1479fb90a2",
+            "id": "41948c9da882",
             "name": "joolay-routing-reporter_web_1",
-            "image": "ghcr.io/joolay/routing-reporter:1.5.2",
+            "image": "ghcr.io/joolay/routing-reporter:1.6.0",
             "state": "running",
-            "status": "Up 44 minutes (healthy)",
+            "status": "Up 5 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -461,7 +461,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.2.1",
             "state": "running",
-            "status": "Up 44 minutes (healthy)",
+            "status": "Up 45 minutes (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -806,11 +806,27 @@
     ],
     "containers": [
       {
+        "id": "41948c9da882",
+        "name": "joolay-routing-reporter_web_1",
+        "image": "ghcr.io/joolay/routing-reporter:1.6.0",
+        "state": "running",
+        "status": "Up 5 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-22T17:12:21.678096655Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "413a83d631b3",
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.1",
         "state": "running",
-        "status": "Up 38 minutes",
+        "status": "Up 39 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -825,29 +841,13 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.2.1",
         "state": "running",
-        "status": "Up 44 minutes (healthy)",
+        "status": "Up 45 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-22T16:27:26.629392765Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "da1479fb90a2",
-        "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.5.2",
-        "state": "running",
-        "status": "Up 44 minutes (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-22T16:27:10.84611239Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
