@@ -1,11 +1,23 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-22T18:20:19.756Z",
-  "changedAt": "2026-11-22T17:50:19.025Z",
-  "rev": 7,
-  "sig": "159287451179a757e87b0c9ccef6c2aa721438ea21345acaf6c5b08ad7a7371a",
+  "at": "2026-11-22T18:22:45.455Z",
+  "changedAt": "2026-11-22T18:22:45.455Z",
+  "rev": 8,
+  "sig": "9c8b42126f3075bcc76d9a83d8227e4f1f75f976790d9220fcedaaf04eee2c4e",
   "seenClaude": 0,
   "data": {
+    "tsdproxy": {
+      "fresh": false,
+      "apiReachable": false,
+      "apiError": "",
+      "version": "",
+      "image": "",
+      "updateAvailable": false,
+      "lastUpdate": null,
+      "pausedByPortMaster": [],
+      "writeError": "",
+      "proxies": []
+    },
     "intervalMin": 5,
     "config": {
       "lanHost": "host.docker.internal",
@@ -15,15 +27,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "joolay-routing-reporter",
-        "route": "name",
-        "url": "https://port-master.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
-        "since": 1795369765712
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -198,14 +202,14 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3907,
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3915,
@@ -330,7 +334,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463890
+            "since": 1795371750426
           },
           {
             "key": "local",
@@ -339,7 +343,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463895
+            "since": 1795371750432
           },
           {
             "key": "tailscale",
@@ -348,7 +352,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463886
+            "since": 1795371750421
           }
         ]
       },
@@ -368,7 +372,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463891
+            "since": 1795371750427
           },
           {
             "key": "local",
@@ -377,7 +381,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463896
+            "since": 1795371750432
           },
           {
             "key": "tailscale",
@@ -386,7 +390,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463888
+            "since": 1795371750423
           }
         ]
       },
@@ -406,7 +410,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463905
+            "since": 1795371750440
           },
           {
             "key": "local",
@@ -415,7 +419,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463909
+            "since": 1795371750442
           },
           {
             "key": "tailscale",
@@ -424,7 +428,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463903
+            "since": 1795371750441
           }
         ]
       },
@@ -444,7 +448,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463900
+            "since": 1795371750435
           },
           {
             "key": "local",
@@ -453,7 +457,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463909
+            "since": 1795371750446
           },
           {
             "key": "tailscale",
@@ -462,7 +466,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463906
+            "since": 1795371750439
           }
         ]
       },
@@ -482,7 +486,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463910
+            "since": 1795371750445
           },
           {
             "key": "local",
@@ -491,7 +495,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463913
+            "since": 1795371750475
           },
           {
             "key": "tailscale",
@@ -500,7 +504,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463911
+            "since": 1795371750447
           }
         ]
       },
@@ -520,7 +524,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463913
+            "since": 1795371750449
           },
           {
             "key": "local",
@@ -529,7 +533,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463944
+            "since": 1795371750476
           },
           {
             "key": "tailscale",
@@ -538,7 +542,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463935
+            "since": 1795371750451
           }
         ]
       },
@@ -560,7 +564,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463936
+            "since": 1795371750476
           },
           {
             "key": "local",
@@ -569,7 +573,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463948
+            "since": 1795371750485
           },
           {
             "key": "tailscale",
@@ -578,7 +582,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463941
+            "since": 1795371750477
           },
           {
             "key": "public",
@@ -587,7 +591,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465387
+            "since": 1795371751696
           }
         ]
       },
@@ -609,7 +613,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463949
+            "since": 1795371750484
           },
           {
             "key": "local",
@@ -618,7 +622,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463949
+            "since": 1795371750486
           },
           {
             "key": "tailscale",
@@ -627,7 +631,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463950
+            "since": 1795371750485
           },
           {
             "key": "public",
@@ -636,7 +640,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465637
+            "since": 1795371751896
           }
         ]
       },
@@ -656,7 +660,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463969
+            "since": 1795371750490
           },
           {
             "key": "local",
@@ -665,7 +669,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463972
+            "since": 1795371750497
           },
           {
             "key": "tailscale",
@@ -674,7 +678,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463967
+            "since": 1795371750493
           }
         ]
       },
@@ -696,7 +700,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463957
+            "since": 1795371750494
           },
           {
             "key": "local",
@@ -705,7 +709,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463966
+            "since": 1795371750503
           },
           {
             "key": "tailscale",
@@ -714,7 +718,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463971
+            "since": 1795371750498
           },
           {
             "key": "public",
@@ -723,7 +727,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465717
+            "since": 1795371752255
           }
         ]
       },
@@ -743,7 +747,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463973
+            "since": 1795371750501
           },
           {
             "key": "local",
@@ -752,7 +756,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463978
+            "since": 1795371750505
           },
           {
             "key": "tailscale",
@@ -761,7 +765,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369463974
+            "since": 1795371750504
           }
         ]
       },
@@ -783,7 +787,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463977
+            "since": 1795371750507
           },
           {
             "key": "local",
@@ -792,7 +796,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463981
+            "since": 1795371750513
           },
           {
             "key": "tailscale",
@@ -801,7 +805,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463982
+            "since": 1795371750509
           },
           {
             "key": "public",
@@ -810,7 +814,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465215
+            "since": 1795371751954
           }
         ]
       },
@@ -832,7 +836,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463985
+            "since": 1795371750514
           },
           {
             "key": "local",
@@ -841,7 +845,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369464000
+            "since": 1795371750522
           },
           {
             "key": "tailscale",
@@ -850,7 +854,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369463988
+            "since": 1795371750517
           },
           {
             "key": "public",
@@ -859,7 +863,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465267
+            "since": 1795371751959
           }
         ]
       },
@@ -882,7 +886,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369464042
+            "since": 1795371750525
           },
           {
             "key": "local",
@@ -891,7 +895,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369464055
+            "since": 1795371750530
           },
           {
             "key": "tailscale",
@@ -900,7 +904,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369464056
+            "since": 1795371750532
           }
         ]
       },
@@ -922,7 +926,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369464060
+            "since": 1795371750536
           },
           {
             "key": "local",
@@ -931,7 +935,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369464067
+            "since": 1795371750544
           },
           {
             "key": "tailscale",
@@ -940,7 +944,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369464070
+            "since": 1795371750546
           },
           {
             "key": "public",
@@ -949,14 +953,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465490
+            "since": 1795371751755
           }
         ]
       },
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.6.1",
+        "version": "1.7.0",
         "joolzapp": true,
         "port": 3906,
         "hostPorts": [
@@ -971,7 +975,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465218
+            "since": 1795371751701
           },
           {
             "key": "local",
@@ -980,7 +984,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465226
+            "since": 1795371751707
           },
           {
             "key": "tailscale",
@@ -989,16 +993,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465228
+            "since": 1795371751709
           },
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795369765712
+            "since": 1795371751715
           }
         ]
       },
@@ -1018,7 +1022,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465236
+            "since": 1795371751718
           },
           {
             "key": "local",
@@ -1027,7 +1031,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465243
+            "since": 1795371751724
           },
           {
             "key": "tailscale",
@@ -1036,7 +1040,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465245
+            "since": 1795371751725
           }
         ]
       },
@@ -1058,7 +1062,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465247
+            "since": 1795371751731
           },
           {
             "key": "local",
@@ -1067,7 +1071,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465254
+            "since": 1795371751739
           },
           {
             "key": "tailscale",
@@ -1076,7 +1080,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465257
+            "since": 1795371751741
           },
           {
             "key": "public",
@@ -1085,7 +1089,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369466874
+            "since": 1795371753171
           }
         ]
       },
@@ -1107,7 +1111,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465269
+            "since": 1795371751757
           },
           {
             "key": "local",
@@ -1116,7 +1120,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465277
+            "since": 1795371751763
           },
           {
             "key": "tailscale",
@@ -1125,7 +1129,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465285
+            "since": 1795371751764
           }
         ]
       },
@@ -1145,7 +1149,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465287
+            "since": 1795371751766
           },
           {
             "key": "local",
@@ -1154,7 +1158,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465293
+            "since": 1795371751773
           },
           {
             "key": "tailscale",
@@ -1163,7 +1167,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465295
+            "since": 1795371751775
           }
         ]
       },
@@ -1183,7 +1187,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465298
+            "since": 1795371751778
           },
           {
             "key": "local",
@@ -1192,7 +1196,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465316
+            "since": 1795371751785
           },
           {
             "key": "tailscale",
@@ -1201,7 +1205,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465319
+            "since": 1795371751788
           }
         ]
       },
@@ -1221,7 +1225,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465327
+            "since": 1795371751796
           },
           {
             "key": "local",
@@ -1230,7 +1234,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465345
+            "since": 1795371751820
           },
           {
             "key": "tailscale",
@@ -1239,7 +1243,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465354
+            "since": 1795371751826
           }
         ]
       },
@@ -1259,7 +1263,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465411
+            "since": 1795371751894
           },
           {
             "key": "local",
@@ -1268,7 +1272,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465429
+            "since": 1795371753717
           },
           {
             "key": "tailscale",
@@ -1277,7 +1281,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465446
+            "since": 1795371751942
           }
         ]
       },
@@ -1297,7 +1301,7 @@
             "ignored": false,
             "status": 403,
             "error": "",
-            "since": 1795369465435
+            "since": 1795371751947
           },
           {
             "key": "local",
@@ -1306,7 +1310,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465445
+            "since": 1795371751970
           },
           {
             "key": "tailscale",
@@ -1315,7 +1319,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465450
+            "since": 1795371751966
           }
         ]
       },
@@ -1335,7 +1339,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795369465452
+            "since": 1795371751967
           },
           {
             "key": "local",
@@ -1344,7 +1348,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795369465459
+            "since": 1795371751974
           },
           {
             "key": "tailscale",
@@ -1353,7 +1357,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795369465454
+            "since": 1795371751971
           }
         ]
       },
@@ -1373,7 +1377,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465457
+            "since": 1795371751974
           },
           {
             "key": "local",
@@ -1382,7 +1386,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465464
+            "since": 1795371751979
           },
           {
             "key": "tailscale",
@@ -1391,7 +1395,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795369465460
+            "since": 1795371751978
           }
         ]
       },
@@ -1411,7 +1415,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465465
+            "since": 1795371751981
           },
           {
             "key": "local",
@@ -1420,7 +1424,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465471
+            "since": 1795371751986
           },
           {
             "key": "tailscale",
@@ -1429,7 +1433,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465467
+            "since": 1795371751984
           }
         ]
       },
@@ -1449,7 +1453,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465470
+            "since": 1795371751985
           },
           {
             "key": "local",
@@ -1458,7 +1462,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465476
+            "since": 1795371751993
           },
           {
             "key": "tailscale",
@@ -1467,7 +1471,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465472
+            "since": 1795371751988
           }
         ]
       },
@@ -1487,7 +1491,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465476
+            "since": 1795371751989
           },
           {
             "key": "local",
@@ -1496,7 +1500,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465481
+            "since": 1795371751997
           },
           {
             "key": "tailscale",
@@ -1505,7 +1509,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795369465478
+            "since": 1795371751991
           }
         ]
       }
