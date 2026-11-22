@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-22T19:37:38.227Z",
-  "changedAt": "2026-11-22T19:37:38.227Z",
-  "rev": 77,
-  "sig": "e5fa8b176c76d348527667a9168dca19114783095f944b8af65386a1043ba303",
+  "at": "2026-11-22T19:38:38.235Z",
+  "changedAt": "2026-11-22T19:38:38.235Z",
+  "rev": 78,
+  "sig": "a4a3d76ecd04c5fdfaf7a1e6852d5093d3915d5c6a832b24b2c48cc107653baf",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,16 +19,22 @@
         "message": "Already up to date",
         "by": "request"
       },
-      "pausedByPortMaster": [],
+      "pausedByPortMaster": [
+        "port-master"
+      ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
         {
           "name": "cctv",
           "status": "Running"
         },
         {
           "name": "port-master",
-          "status": "Running"
+          "status": "Paused"
         },
         {
           "name": "joolzapp",
@@ -49,10 +55,6 @@
         {
           "name": "shutterworth",
           "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
         }
       ]
     },
@@ -65,15 +67,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "joolay-routing-reporter",
-        "route": "name",
-        "url": "https://port-master.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
-        "since": 1795375964855
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -248,14 +242,14 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3907,
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3915,
@@ -1061,7 +1055,7 @@
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
             "state": "down",
-            "ignored": false,
+            "ignored": true,
             "status": 0,
             "error": "name not found (DNS)",
             "since": 1795375964855
