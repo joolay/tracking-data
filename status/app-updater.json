@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T09:48:47.759Z",
-  "changedAt": "2026-11-22T09:48:47.759Z",
-  "rev": 32,
-  "sig": "9dc4e8dcc46bd6582b3e727b43d67db2a7152801ae4aac834bec1382d975e276",
+  "at": "2026-11-22T09:49:25.606Z",
+  "changedAt": "2026-11-22T09:49:25.606Z",
+  "rev": 33,
+  "sig": "5cee4d7cf3aebe5c29952e2513ed308f794a4a6280a252219ffa020ae6326dfa",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -175,7 +175,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -581,10 +581,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795340799008
+      "at": 1795340958788
     },
     "check": {
-      "at": 1795340927755,
+      "at": 1795340958946,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -595,6 +595,12 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795340930599,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (3 s)"
+      },
       {
         "t": 1795340927479,
         "level": "ok",
@@ -948,12 +954,6 @@
         "level": "info",
         "appId": "joolay-shutterworth",
         "message": "Updating ShutterWorth (detected, updating straight away)…"
-      },
-      {
-        "t": 1795275531727,
-        "level": "ok",
-        "appId": "joolay-services-manager",
-        "message": "Services Manager updated to 1.2.0 (state: ready)"
       }
     ],
     "diagnose": [
