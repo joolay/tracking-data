@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-22T17:12:42.052Z",
-  "changedAt": "2026-11-22T17:12:42.052Z",
-  "rev": 4,
-  "sig": "2d84525c5c150bf11331cb0014fbf9abee22e2783b0eabc6fed76c5d1962ba33",
+  "at": "2026-11-22T17:18:22.281Z",
+  "changedAt": "2026-11-22T17:18:22.281Z",
+  "rev": 5,
+  "sig": "ec2b5963f9f64f869fc6ff168f149a417ded3225c4bbad54b2d996cbfda597d1",
   "seenClaude": 0,
   "data": {
     "intervalMin": 5,
@@ -15,7 +15,15 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-routing-reporter",
+        "route": "name",
+        "url": "https://port-master.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795367848878
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -190,14 +198,14 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3907,
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3915,
@@ -986,11 +994,11 @@
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795367548545
+            "since": 1795367848878
           }
         ]
       },
