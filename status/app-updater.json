@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T18:38:22.405Z",
-  "changedAt": "2026-11-22T18:38:22.405Z",
-  "rev": 69,
-  "sig": "e15ae2eb88dae90cba93d613ec5e54194001b5174642131dd8f5095730fa15a1",
+  "at": "2026-11-22T18:39:22.430Z",
+  "changedAt": "2026-11-22T18:39:22.430Z",
+  "rev": 70,
+  "sig": "a5338084518f3eceef34a98acc77f2871c3485e82e8909a765dd60981fb67199",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -576,10 +576,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795372655651
+      "at": 1795372716061
     },
     "check": {
-      "at": 1795372655906,
+      "at": 1795372716263,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -592,7 +592,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795372688853,
+        "at": 1795372748861,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -617,16 +617,6 @@
         },
         "proxies": [
           {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "shutterworth",
             "status": "Running",
             "paused": false
@@ -643,8 +633,8 @@
           },
           {
             "name": "port-master",
-            "status": "Running",
-            "paused": false
+            "status": "Paused",
+            "paused": true
           },
           {
             "name": "joolzapp",
@@ -655,9 +645,21 @@
             "name": "listify",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
           }
         ],
-        "wanted": [],
+        "wanted": [
+          "port-master"
+        ],
         "update": {
           "checkedAt": 1795372001016,
           "latestImage": "33631a10f74b",
