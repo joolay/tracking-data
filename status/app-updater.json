@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T16:27:12.241Z",
-  "changedAt": "2026-11-22T16:27:12.241Z",
-  "rev": 42,
-  "sig": "36b69c0fc8bf5295addc1f105e46873c6cece8a51693b1cfee858acc75cbd548",
+  "at": "2026-11-22T16:27:49.466Z",
+  "changedAt": "2026-11-22T16:27:49.466Z",
+  "rev": 43,
+  "sig": "b99d89222d78e8e2958b9181d152ccd0045b6246062d073e0f489e610134cb89",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,25 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.2.0",
-        "latest": "1.2.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795364824710,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -421,7 +402,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -467,6 +448,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.2.1",
+        "latest": "1.2.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795364847639,
+          "from": "1.2.0",
+          "to": "1.2.1"
+        },
         "waiting": false
       },
       {
@@ -586,10 +591,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795364762946
+      "at": 1795364863705
     },
     "check": {
-      "at": 1795364832236,
+      "at": 1795364863825,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -600,6 +605,24 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795364847639,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "Services Manager updated to 1.2.1 (state: ready)"
+      },
+      {
+        "t": 1795364834462,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (2 s)"
+      },
+      {
+        "t": 1795364832236,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Updating Services Manager (detected, updating straight away)…"
+      },
       {
         "t": 1795364831828,
         "level": "ok",
@@ -941,24 +964,6 @@
         "level": "ok",
         "appId": "joolay-app-updater",
         "message": "App Updater updated itself: 1.6.0 → 1.7.0. Checking has resumed."
-      },
-      {
-        "t": 1795278176155,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.6.0 → 1.7.0…"
-      },
-      {
-        "t": 1795278175684,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.38.0 (state: ready)"
-      },
-      {
-        "t": 1795278165627,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Store (2 s)"
       }
     ],
     "diagnose": [
