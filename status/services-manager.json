@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T19:26:54.023Z",
-  "changedAt": "2026-11-22T19:26:54.023Z",
-  "rev": 181,
-  "sig": "0b1a81c578f24d2522c6afabd8777f740f686f1617ad78f6dbc27698997f1b8f",
+  "at": "2026-11-22T19:28:54.054Z",
+  "changedAt": "2026-11-22T19:28:54.054Z",
+  "rev": 182,
+  "sig": "6c0d1efef6c70d281c06033ba8aadd7744393d1b59514a0da9f815d2fea197aa",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795375599117,
+      "at": 1795375719130,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "listify",
           "status": "Running",
@@ -71,11 +76,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -445,11 +445,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "63ae9ed3c8dc",
+            "id": "d6ca51e50ff4",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.38.0",
+            "image": "sha256:[hidden]",
             "state": "running",
-            "status": "Up 27 hours (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -469,11 +469,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "34fd6e26025c",
+            "id": "152f3fbf008d",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.38.0",
+            "image": "ghcr.io/joolay/portal-admin:0.39.0",
             "state": "running",
-            "status": "Up 27 hours (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -517,11 +517,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "b9f395e5b5df",
+            "id": "8f4f67f80157",
             "name": "joolay-routing-reporter_web_1",
-            "image": "ghcr.io/joolay/routing-reporter:1.7.0",
+            "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up About an hour (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -890,6 +890,54 @@
     ],
     "containers": [
       {
+        "id": "152f3fbf008d",
+        "name": "joolay-portal-admin_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.39.0",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-22T19:27:53.802101199Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "8f4f67f80157",
+        "name": "joolay-routing-reporter_web_1",
+        "image": "ghcr.io/joolay/routing-reporter:1.8.0",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-22T19:27:37.587787348Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "d6ca51e50ff4",
+        "name": "joolay-portal_web_1",
+        "image": "sha256:[hidden]",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-22T19:27:12.84518127Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "48999ef554e3",
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
@@ -922,22 +970,6 @@
         "problem": false
       },
       {
-        "id": "b9f395e5b5df",
-        "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.7.0",
-        "state": "running",
-        "status": "Up About an hour (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-22T18:22:24.980690071Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "0633bb13df68",
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
@@ -963,38 +995,6 @@
         "exitCode": 0,
         "oomKilled": false,
         "startedAt": "2026-11-22T17:43:53.038845284Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "34fd6e26025c",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.38.0",
-        "state": "running",
-        "status": "Up 27 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-21T16:22:54.740975724Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "63ae9ed3c8dc",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.38.0",
-        "state": "running",
-        "status": "Up 27 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-21T16:22:42.068446531Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
