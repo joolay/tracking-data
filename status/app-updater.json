@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T09:48:01.607Z",
-  "changedAt": "2026-11-22T09:48:01.607Z",
-  "rev": 31,
-  "sig": "642b5e8fa73b9b53d50188a8f326ccc7bb7c193d7c0e7c1431b59ec362974ab1",
+  "at": "2026-11-22T09:48:47.759Z",
+  "changedAt": "2026-11-22T09:48:47.759Z",
+  "rev": 32,
+  "sig": "9dc4e8dcc46bd6582b3e727b43d67db2a7152801ae4aac834bec1382d975e276",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.2.4",
-        "latest": "1.2.5",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795340859808,
-        "result": {
-          "ok": true,
-          "at": 1795337035294,
-          "from": "1.2.3",
-          "to": "1.2.4"
-        },
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -183,6 +159,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.2.5",
+        "latest": "1.2.5",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795340927479,
+          "from": "1.2.4",
+          "to": "1.2.5"
+        },
         "waiting": false
       },
       {
@@ -584,7 +584,7 @@
       "at": 1795340799008
     },
     "check": {
-      "at": 1795340859810,
+      "at": 1795340927755,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -595,6 +595,12 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795340927479,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "Jolly Grocer updated to 1.2.5 (state: ready)"
+      },
       {
         "t": 1795340859810,
         "level": "info",
@@ -948,12 +954,6 @@
         "level": "ok",
         "appId": "joolay-services-manager",
         "message": "Services Manager updated to 1.2.0 (state: ready)"
-      },
-      {
-        "t": 1795275518697,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Project Pilot (2 s)"
       }
     ],
     "diagnose": [
