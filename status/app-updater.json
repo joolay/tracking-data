@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T17:12:57.896Z",
-  "changedAt": "2026-11-22T17:12:57.896Z",
-  "rev": 48,
-  "sig": "e3dfaf602aef7a6992c93c9100850beb78679bbba5540b268cdd2b04c611fee2",
+  "at": "2026-11-22T17:43:04.700Z",
+  "changedAt": "2026-11-22T17:43:04.700Z",
+  "rev": 49,
+  "sig": "a27707718d6c28e8799f84ea29d04009ff5c2511471f783ea242ae7721be724a",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,6 +51,77 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.3.1",
+        "latest": "1.3.2",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795369366036,
+        "result": {
+          "ok": true,
+          "at": 1795361600553,
+          "from": "1.3.0",
+          "to": "1.3.1"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.6.0",
+        "latest": "1.6.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795369366062,
+        "result": {
+          "ok": true,
+          "at": 1795367542679,
+          "from": "1.5.2",
+          "to": "1.6.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.7.1",
+        "latest": "1.7.2",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795369366063,
+        "result": {
+          "ok": false,
+          "at": 1795365155899,
+          "error": "[apps-settings-blocked] Cannot change settings for app 'joolay-project-tracker' while it is updating"
+        },
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -159,30 +230,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.3.1",
-        "latest": "1.3.1",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795361600553,
-          "from": "1.3.0",
-          "to": "1.3.1"
-        },
         "waiting": false
       },
       {
@@ -389,30 +436,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.6.0",
-        "latest": "1.6.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795367542679,
-          "from": "1.5.2",
-          "to": "1.6.0"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.38.0",
@@ -429,29 +452,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.7.1",
-        "latest": "1.7.1",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": false,
-          "at": 1795365155899,
-          "error": "[apps-settings-blocked] Cannot change settings for app 'joolay-project-tracker' while it is updating"
-        },
         "waiting": false
       },
       {
@@ -595,20 +595,44 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795367573708
+      "at": 1795369305184
     },
     "check": {
-      "at": 1795367573922,
+      "at": 1795369366063,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795367524082,
+      "at": 1795369366036,
       "error": null,
       "pending": []
     },
     "log": [
+      {
+        "t": 1795369366064,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Updating Jolly Grocer (detected, updating straight away)…"
+      },
+      {
+        "t": 1795369366063,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Pilot 1.7.1 → 1.7.2"
+      },
+      {
+        "t": 1795369366062,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.6.0 → 1.6.1"
+      },
+      {
+        "t": 1795369366037,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Update available: Jolly Grocer 1.3.1 → 1.3.2"
+      },
       {
         "t": 1795367542888,
         "level": "info",
@@ -944,30 +968,6 @@
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Update available: Jolly Grocer 1.1.0 → 1.2.0"
-      },
-      {
-        "t": 1795327953254,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "umbrelOS now sees Jolly Grocer 1.2.0"
-      },
-      {
-        "t": 1795327832069,
-        "level": "warn",
-        "appId": "joolay-jolly-grocer",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.2.0 (umbrelOS lists 1.1.0)"
-      },
-      {
-        "t": 1795325279255,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.7.0 → 1.8.0. Checking has resumed."
-      },
-      {
-        "t": 1795325262066,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.7.0 → 1.8.0…"
       }
     ],
     "diagnose": [
