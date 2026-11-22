@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T21:40:54.309Z",
-  "changedAt": "2026-11-22T21:40:54.309Z",
-  "rev": 305,
-  "sig": "5eeb3c8f5df372ec90a490e2d9a99195b60f611c852dde32f608be466ea86136",
+  "at": "2026-11-22T21:41:54.291Z",
+  "changedAt": "2026-11-22T21:41:54.291Z",
+  "rev": 306,
+  "sig": "f53d71bca81c6eebc38ff1973543b73210ed14819a3b3184d89ede8dbce5cd4c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795383639560,
+      "at": 1795383699562,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -66,16 +76,6 @@
           "name": "diner-bell",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
