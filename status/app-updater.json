@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T08:35:01.281Z",
-  "changedAt": "2026-11-22T07:04:15.878Z",
-  "rev": 26,
-  "sig": "98ef026341e4098b576673f627d77f748b9d7ca072e1b52ccdb28c67fae01cc8",
+  "at": "2026-11-22T08:43:01.308Z",
+  "changedAt": "2026-11-22T08:43:01.308Z",
+  "rev": 27,
+  "sig": "3352eb4bc2cb97ab4e105ea4ec105ff941733e494341f28da32dfa0a47e353ec",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,6 +51,30 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.2.3",
+        "latest": "1.2.4",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795336967229,
+        "result": {
+          "ok": true,
+          "at": 1795331018339,
+          "from": "1.2.2",
+          "to": "1.2.3"
+        },
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -159,30 +183,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.2.3",
-        "latest": "1.2.3",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795331018339,
-          "from": "1.2.2",
-          "to": "1.2.3"
-        },
         "waiting": false
       },
       {
@@ -581,20 +581,32 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795336481986
+      "at": 1795336906172
     },
     "check": {
-      "at": 1795336482216,
+      "at": 1795336967271,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795336481977,
+      "at": 1795336967229,
       "error": null,
       "pending": []
     },
     "log": [
+      {
+        "t": 1795336967272,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Updating Jolly Grocer (detected, updating straight away)…"
+      },
+      {
+        "t": 1795336967230,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Update available: Jolly Grocer 1.2.3 → 1.2.4"
+      },
       {
         "t": 1795331020849,
         "level": "info",
@@ -942,18 +954,6 @@
         "level": "ok",
         "appId": "joolay-routing-reporter",
         "message": "Port Master updated to 1.4.0 (state: ready)"
-      },
-      {
-        "t": 1795275412393,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Listify (2 s)"
-      },
-      {
-        "t": 1795275410579,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
       }
     ],
     "diagnose": [
