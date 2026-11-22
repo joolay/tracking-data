@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T03:13:25.844Z",
-  "changedAt": "2026-11-22T03:13:25.844Z",
-  "rev": 12,
-  "sig": "a7da8d885a5bdddf534defd8392796f451784c50a9102e521c60abf277a81877",
+  "at": "2026-11-22T03:14:14.250Z",
+  "changedAt": "2026-11-22T03:14:14.250Z",
+  "rev": 13,
+  "sig": "52e427380933aa8f3ad22b8e7cc6e293aabfaecd27547b0c74244405d8566a26",
   "seenClaude": 0,
   "data": {
     "version": "1.7.0",
@@ -51,25 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.6.0",
-        "latest": "1.7.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795317151110,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -441,6 +422,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.7.0",
+        "latest": "1.7.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795317218877,
+          "from": "1.6.0",
+          "to": "1.7.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.2.0",
@@ -576,15 +581,27 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795317090697
+      "at": 1795317250238
     },
     "check": {
-      "at": 1795317151112,
+      "at": 1795317250366,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "log": [
+      {
+        "t": 1795317219242,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Project Pilot (0 s)"
+      },
+      {
+        "t": 1795317218877,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.7.0 (state: ready)"
+      },
       {
         "t": 1795317151112,
         "level": "info",
@@ -932,18 +949,6 @@
         "level": "info",
         "appId": "joolay-listify",
         "message": "Update available: Listify 1.0.16 → 1.0.17"
-      },
-      {
-        "t": 1795275120286,
-        "level": "info",
-        "appId": "joolay-kiosk-manager",
-        "message": "Update available: Kiosk Manager 1.0.1 → 1.1.0"
-      },
-      {
-        "t": 1795275120286,
-        "level": "info",
-        "appId": "joolay-cctv",
-        "message": "Update available: JoolzCCTV 1.0.1 → 1.0.2"
       }
     ],
     "diagnose": [
