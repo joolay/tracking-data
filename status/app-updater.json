@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T16:32:04.389Z",
-  "changedAt": "2026-11-22T16:32:04.389Z",
-  "rev": 44,
-  "sig": "2d12e0715865c5f1cd805a70259dc8a618abc9315474de3cb1af8116caa11436",
+  "at": "2026-11-22T16:33:04.394Z",
+  "changedAt": "2026-11-22T16:33:04.394Z",
+  "rev": 45,
+  "sig": "d51f84aed478229d5d9ade107a43de7eca4492db6abc93792421818969c3d8e0",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,6 +51,29 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.7.0",
+        "latest": "1.7.1",
+        "update": true,
+        "state": "updating",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795365155816,
+        "result": {
+          "ok": false,
+          "at": 1795365155899,
+          "error": "[apps-settings-blocked] Cannot change settings for app 'joolay-project-tracker' while it is updating"
+        },
+        "waiting": true
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -432,25 +455,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.7.0",
-        "latest": "1.7.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.2.1",
@@ -591,10 +595,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795365095422
+      "at": 1795365171332
     },
     "check": {
-      "at": 1795365095564,
+      "at": 1795365171528,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -602,17 +606,33 @@
     "repo": {
       "at": 1795365095412,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-project-tracker",
-          "name": "Project Pilot",
-          "repo": "1.7.1",
-          "umbrel": "1.7.0",
-          "kind": "update"
-        }
-      ]
+      "pending": []
     },
     "log": [
+      {
+        "t": 1795365155899,
+        "level": "error",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot update failed: [apps-settings-blocked] Cannot change settings for app 'joolay-project-tracker' while it is updating"
+      },
+      {
+        "t": 1795365155817,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
+      {
+        "t": 1795365155816,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Pilot 1.7.0 → 1.7.1"
+      },
+      {
+        "t": 1795365155804,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "umbrelOS now sees Project Pilot 1.7.1"
+      },
       {
         "t": 1795365095412,
         "level": "warn",
@@ -948,30 +968,6 @@
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Update available: Jolly Grocer 1.0.13 → 1.1.0"
-      },
-      {
-        "t": 1795317219242,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Project Pilot (0 s)"
-      },
-      {
-        "t": 1795317218877,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Pilot updated to 1.7.0 (state: ready)"
-      },
-      {
-        "t": 1795317151112,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Pilot (detected, updating straight away)…"
-      },
-      {
-        "t": 1795317151111,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Pilot 1.6.0 → 1.7.0"
       }
     ],
     "diagnose": [
