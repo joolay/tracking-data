@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T15:20:03.859Z",
-  "changedAt": "2026-11-22T11:49:03.001Z",
-  "rev": 37,
-  "sig": "2a7678535c8a380dd6561e2edd9ebd92c02c72090b6a65c6ed4e73d2ea14adcb",
+  "at": "2026-11-22T15:31:04.068Z",
+  "changedAt": "2026-11-22T15:31:04.068Z",
+  "rev": 38,
+  "sig": "aa612f35f7e3289a2afdb820b1e2abec013a8bb3f9ba246f8e2d0c9aada70d88",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -581,20 +581,34 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795360802975
+      "at": 1795361409945
     },
     "check": {
-      "at": 1795360803211,
+      "at": 1795361410093,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795360802962,
+      "at": 1795361409899,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-jolly-grocer",
+          "name": "Jolly Grocer",
+          "repo": "1.3.1",
+          "umbrel": "1.3.0",
+          "kind": "update"
+        }
+      ]
     },
     "log": [
+      {
+        "t": 1795361409899,
+        "level": "warn",
+        "appId": "joolay-jolly-grocer",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.3.1 (umbrelOS lists 1.3.0)"
+      },
       {
         "t": 1795348115450,
         "level": "info",
@@ -948,12 +962,6 @@
         "level": "info",
         "appId": "joolay-routing-reporter",
         "message": "Update available: Port Master 1.4.0 → 1.5.0"
-      },
-      {
-        "t": 1795275597362,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.5.1 → 1.6.0. Checking has resumed."
       }
     ],
     "diagnose": [
