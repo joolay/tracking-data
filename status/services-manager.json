@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T17:12:27.206Z",
-  "changedAt": "2026-11-22T17:12:27.206Z",
-  "rev": 46,
-  "sig": "fa33813250908cb545ad1826c7f774400e2e3097a30fa6af7bda666e88613ea2",
+  "at": "2026-11-22T17:13:27.220Z",
+  "changedAt": "2026-11-22T17:13:27.220Z",
+  "rev": 47,
+  "sig": "3b24e01f08b7995466fefa8916ecdb55da280e13d3c755c66c4c7c749baaa445",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -413,7 +413,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.1",
             "state": "running",
-            "status": "Up 39 minutes",
+            "status": "Up 40 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -437,7 +437,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.6.0",
             "state": "running",
-            "status": "Up 5 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -461,7 +461,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.2.1",
             "state": "running",
-            "status": "Up 45 minutes (healthy)",
+            "status": "Up 46 minutes (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -810,12 +810,12 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.6.0",
         "state": "running",
-        "status": "Up 5 seconds (health: starting)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
         "startedAt": "2026-11-22T17:12:21.678096655Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
@@ -826,7 +826,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.1",
         "state": "running",
-        "status": "Up 39 minutes",
+        "status": "Up 40 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -841,7 +841,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.2.1",
         "state": "running",
-        "status": "Up 45 minutes (healthy)",
+        "status": "Up 46 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
