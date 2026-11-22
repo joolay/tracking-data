@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T16:25:04.373Z",
-  "changedAt": "2026-11-22T16:25:04.373Z",
-  "rev": 41,
-  "sig": "efe447db47adb3ec3028581b3108cd279925d330045014e625bd6cce040a741c",
+  "at": "2026-11-22T16:27:12.241Z",
+  "changedAt": "2026-11-22T16:27:12.241Z",
+  "rev": 42,
+  "sig": "36b69c0fc8bf5295addc1f105e46873c6cece8a51693b1cfee858acc75cbd548",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,6 +51,25 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.2.0",
+        "latest": "1.2.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795364824710,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -391,8 +410,8 @@
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.5.1",
-        "latest": "1.5.1",
+        "version": "1.5.2",
+        "latest": "1.5.2",
         "update": false,
         "state": "ready",
         "store": {
@@ -402,9 +421,14 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": null,
-        "result": null,
+        "result": {
+          "ok": true,
+          "at": 1795364831828,
+          "from": "1.5.1",
+          "to": "1.5.2"
+        },
         "waiting": false
       },
       {
@@ -431,25 +455,6 @@
         "name": "Project Pilot",
         "version": "1.7.0",
         "latest": "1.7.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.2.0",
-        "latest": "1.2.0",
         "update": false,
         "state": "ready",
         "store": {
@@ -581,35 +586,56 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795364702405
+      "at": 1795364762946
     },
     "check": {
-      "at": 1795364702762,
+      "at": 1795364832236,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795364702354,
+      "at": 1795364824706,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-routing-reporter",
-          "name": "Port Master",
-          "repo": "1.5.2",
-          "umbrel": "1.5.1",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-services-manager",
-          "name": "Services Manager",
-          "repo": "1.2.1",
-          "umbrel": "1.2.0",
-          "kind": "update"
-        }
-      ]
+      "pending": []
     },
     "log": [
+      {
+        "t": 1795364831828,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.5.2 (state: ready)"
+      },
+      {
+        "t": 1795364824711,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
+      {
+        "t": 1795364824710,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Update available: Services Manager 1.2.0 → 1.2.1"
+      },
+      {
+        "t": 1795364824709,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.5.1 → 1.5.2"
+      },
+      {
+        "t": 1795364824707,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "umbrelOS now sees Services Manager 1.2.1"
+      },
+      {
+        "t": 1795364824706,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "umbrelOS now sees Port Master 1.5.2"
+      },
       {
         "t": 1795364702394,
         "level": "warn",
@@ -933,42 +959,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating JoolzApp Store (2 s)"
-      },
-      {
-        "t": 1795278163340,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795278163113,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Store updated to 0.38.0 (state: ready)"
-      },
-      {
-        "t": 1795278155307,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Store (detected, updating straight away)…"
-      },
-      {
-        "t": 1795278155306,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.37.0 → 0.38.0"
-      },
-      {
-        "t": 1795278155304,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Store 0.37.0 → 0.38.0"
-      },
-      {
-        "t": 1795276947566,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Port Master (2 s)"
       }
     ],
     "diagnose": [
