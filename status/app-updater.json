@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T16:04:04.304Z",
-  "changedAt": "2026-11-22T15:33:55.923Z",
-  "rev": 40,
-  "sig": "f58ed602e75f79d80c1e007aa53dfac8df408c57ed9b94f59a90b99b3cb0fd0d",
+  "at": "2026-11-22T16:25:04.373Z",
+  "changedAt": "2026-11-22T16:25:04.373Z",
+  "rev": 41,
+  "sig": "efe447db47adb3ec3028581b3108cd279925d330045014e625bd6cce040a741c",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -581,20 +581,47 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795363427302
+      "at": 1795364702405
     },
     "check": {
-      "at": 1795363427439,
+      "at": 1795364702762,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795363366823,
+      "at": 1795364702354,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-routing-reporter",
+          "name": "Port Master",
+          "repo": "1.5.2",
+          "umbrel": "1.5.1",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-services-manager",
+          "name": "Services Manager",
+          "repo": "1.2.1",
+          "umbrel": "1.2.0",
+          "kind": "update"
+        }
+      ]
     },
     "log": [
+      {
+        "t": 1795364702394,
+        "level": "warn",
+        "appId": "joolay-services-manager",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Services Manager 1.2.1 (umbrelOS lists 1.2.0)"
+      },
+      {
+        "t": 1795364702354,
+        "level": "warn",
+        "appId": "joolay-routing-reporter",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.5.2 (umbrelOS lists 1.5.1)"
+      },
       {
         "t": 1795361600917,
         "level": "info",
@@ -942,18 +969,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Port Master (2 s)"
-      },
-      {
-        "t": 1795276945141,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "Port Master updated to 1.5.1 (state: ready)"
-      },
-      {
-        "t": 1795276938294,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
       }
     ],
     "diagnose": [
