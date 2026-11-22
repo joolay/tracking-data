@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T11:48:32.937Z",
-  "changedAt": "2026-11-22T11:48:32.937Z",
-  "rev": 36,
-  "sig": "ff771c0e0b195ee257534f887dca8158d34b37180a7e2b087edac095282e7f42",
+  "at": "2026-11-22T11:49:03.001Z",
+  "changedAt": "2026-11-22T11:49:03.001Z",
+  "rev": 37,
+  "sig": "2a7678535c8a380dd6561e2edd9ebd92c02c72090b6a65c6ed4e73d2ea14adcb",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -175,7 +175,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -581,10 +581,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795347984035
+      "at": 1795348128859
     },
     "check": {
-      "at": 1795348112928,
+      "at": 1795348128979,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -595,6 +595,12 @@
       "pending": []
     },
     "log": [
+      {
+        "t": 1795348115450,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (3 s)"
+      },
       {
         "t": 1795348112666,
         "level": "ok",
@@ -948,12 +954,6 @@
         "level": "ok",
         "appId": "joolay-app-updater",
         "message": "App Updater updated itself: 1.5.1 → 1.6.0. Checking has resumed."
-      },
-      {
-        "t": 1795275573279,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.5.1 → 1.6.0…"
       }
     ],
     "diagnose": [
