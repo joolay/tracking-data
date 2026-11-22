@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-22T21:05:54.268Z",
-  "changedAt": "2026-11-22T21:05:54.268Z",
-  "rev": 276,
-  "sig": "2e8f68e9cc16f0bd3380dbb3c861dc6e7bb76121059513751f6e8e83ed4b88f8",
+  "at": "2026-11-22T21:06:54.276Z",
+  "changedAt": "2026-11-22T21:06:54.276Z",
+  "rev": 277,
+  "sig": "a8309ec0dced6a38117a155645b2ab648b056baaf9b75408232dcfe036b70040",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795381539483,
+      "at": 1795381599482,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -69,11 +74,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -425,7 +425,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 29 hours",
+            "status": "Up 30 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1035,7 +1035,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 29 hours",
+        "status": "Up 30 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
