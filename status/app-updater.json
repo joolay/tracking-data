@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T09:15:01.502Z",
-  "changedAt": "2026-11-22T08:44:33.273Z",
-  "rev": 29,
-  "sig": "e231e76120a6b16246d8b0bc84e0eca6913d2540363eee8724931b027d28348e",
+  "at": "2026-11-22T09:44:01.594Z",
+  "changedAt": "2026-11-22T09:44:01.594Z",
+  "rev": 30,
+  "sig": "2c3a79f56dfb3432c15980e81fdb62ebd5a99e4332683ba0fcbef68f73d3ec4b",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -581,20 +581,34 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795338858926
+      "at": 1795340617630
     },
     "check": {
-      "at": 1795338859051,
+      "at": 1795340617759,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795338798536,
+      "at": 1795340617623,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-jolly-grocer",
+          "name": "Jolly Grocer",
+          "repo": "1.2.5",
+          "umbrel": "1.2.4",
+          "kind": "update"
+        }
+      ]
     },
     "log": [
+      {
+        "t": 1795340617623,
+        "level": "warn",
+        "appId": "joolay-jolly-grocer",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.2.5 (umbrelOS lists 1.2.4)"
+      },
       {
         "t": 1795337038019,
         "level": "info",
@@ -948,12 +962,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Updating Project Pilot (detected, updating straight away)…"
-      },
-      {
-        "t": 1795275440837,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.37.0 (state: ready)"
       }
     ],
     "diagnose": [
