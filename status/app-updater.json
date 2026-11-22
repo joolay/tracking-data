@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T16:27:49.466Z",
-  "changedAt": "2026-11-22T16:27:49.466Z",
-  "rev": 43,
-  "sig": "b99d89222d78e8e2958b9181d152ccd0045b6246062d073e0f489e610134cb89",
+  "at": "2026-11-22T16:32:04.389Z",
+  "changedAt": "2026-11-22T16:32:04.389Z",
+  "rev": 44,
+  "sig": "2d12e0715865c5f1cd805a70259dc8a618abc9315474de3cb1af8116caa11436",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -591,20 +591,34 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795364863705
+      "at": 1795365095422
     },
     "check": {
-      "at": 1795364863825,
+      "at": 1795365095564,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795364824706,
+      "at": 1795365095412,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-project-tracker",
+          "name": "Project Pilot",
+          "repo": "1.7.1",
+          "umbrel": "1.7.0",
+          "kind": "update"
+        }
+      ]
     },
     "log": [
+      {
+        "t": 1795365095412,
+        "level": "warn",
+        "appId": "joolay-project-tracker",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.7.1 (umbrelOS lists 1.7.0)"
+      },
       {
         "t": 1795364847639,
         "level": "ok",
@@ -958,12 +972,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Update available: Project Pilot 1.6.0 → 1.7.0"
-      },
-      {
-        "t": 1795278200225,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.6.0 → 1.7.0. Checking has resumed."
       }
     ],
     "diagnose": [
