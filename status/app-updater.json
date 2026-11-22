@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-22T16:33:04.394Z",
-  "changedAt": "2026-11-22T16:33:04.394Z",
-  "rev": 45,
-  "sig": "d51f84aed478229d5d9ade107a43de7eca4492db6abc93792421818969c3d8e0",
+  "at": "2026-11-22T16:34:04.402Z",
+  "changedAt": "2026-11-22T16:34:04.402Z",
+  "rev": 46,
+  "sig": "5562f754228cd79cb32142337729dd18bce0ccc213fadae438e0a25e958000a6",
   "seenClaude": 0,
   "data": {
     "version": "1.8.0",
@@ -51,29 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.7.0",
-        "latest": "1.7.1",
-        "update": true,
-        "state": "updating",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795365155816,
-        "result": {
-          "ok": false,
-          "at": 1795365155899,
-          "error": "[apps-settings-blocked] Cannot change settings for app 'joolay-project-tracker' while it is updating"
-        },
-        "waiting": true
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -455,6 +432,29 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.7.1",
+        "latest": "1.7.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": false,
+          "at": 1795365155899,
+          "error": "[apps-settings-blocked] Cannot change settings for app 'joolay-project-tracker' while it is updating"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.2.1",
@@ -595,16 +595,16 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795365171332
+      "at": 1795365233307
     },
     "check": {
-      "at": 1795365171528,
+      "at": 1795365233516,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795365095412,
+      "at": 1795365217907,
       "error": null,
       "pending": []
     },
