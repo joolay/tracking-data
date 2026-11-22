@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-22T18:27:25.474Z",
-  "changedAt": "2026-11-22T18:27:25.474Z",
-  "rev": 13,
-  "sig": "4ab607a7b6191bf57a64a43c4ea57caa2d49c15bd79d561fb718962d248a6111",
+  "at": "2026-11-22T18:28:25.496Z",
+  "changedAt": "2026-11-22T18:28:25.496Z",
+  "rev": 14,
+  "sig": "4136e9ab5e4070a244a525ed401ba4750da403816ae64a28e6d397addecc2d92",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -22,10 +22,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
         {
           "name": "shutterworth",
           "status": "Running"
@@ -53,6 +49,10 @@
         {
           "name": "project-tracker",
           "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
         }
       ]
     },
@@ -65,7 +65,15 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-routing-reporter",
+        "route": "name",
+        "url": "https://port-master.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795372052313
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -240,14 +248,14 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3907,
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3915,
@@ -511,7 +519,7 @@
       {
         "id": "joolay-app-updater",
         "name": "App Updater",
-        "version": "1.8.0",
+        "version": "1.9.0",
         "joolzapp": true,
         "port": 3898,
         "hostPorts": [],
@@ -1036,18 +1044,18 @@
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795371751715
+            "since": 1795372052313
           }
         ]
       },
       {
         "id": "joolay-services-manager",
         "name": "Services Manager",
-        "version": "1.2.1",
+        "version": "1.3.0",
         "joolzapp": true,
         "port": 3891,
         "hostPorts": [],
