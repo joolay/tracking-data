@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T06:14:55.443Z",
-  "changedAt": "2026-11-23T06:14:55.443Z",
-  "rev": 767,
-  "sig": "9182fefe1b8a1d8d9fea6c8232cc56b61a6bec98b11f07da360b13fb05a08312",
+  "at": "2026-11-23T06:15:55.439Z",
+  "changedAt": "2026-11-23T06:15:55.439Z",
+  "rev": 768,
+  "sig": "c2462b87c498794c87a6295fe8bf0c81935b94e31ed50327f902e05f3f2570dc",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795414481615,
+      "at": 1795414541616,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -74,6 +69,11 @@
         },
         {
           "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -497,7 +497,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 12 hours",
+            "status": "Up 13 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -974,7 +974,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 12 hours",
+        "status": "Up 13 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
