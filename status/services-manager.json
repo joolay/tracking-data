@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T22:06:57.355Z",
-  "changedAt": "2026-11-23T22:06:57.355Z",
-  "rev": 1629,
-  "sig": "69f4b014bac2b26118acad44b568a0689ab5763d6354f171d3fc55e72e4f0593",
+  "at": "2026-11-23T22:07:57.329Z",
+  "changedAt": "2026-11-23T22:07:57.329Z",
+  "rev": 1630,
+  "sig": "118ab4b3e77f7f62e830a36aaf9f9aea5b2d05a7d0cff9b25ac5b9e33dcb23aa",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795471606289,
+      "at": 1795471666294,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,26 @@
       },
       "proxies": [
         {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
           "name": "joolztv",
           "status": "Running",
           "paused": false
@@ -61,26 +81,6 @@
           "name": "project-tracker",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -781,7 +781,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 14 hours (healthy)",
+            "status": "Up 15 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -829,7 +829,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 14 hours",
+            "status": "Up 15 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -889,7 +889,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 14 hours (healthy)",
+        "status": "Up 15 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -905,7 +905,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 14 hours",
+        "status": "Up 15 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
