@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-23T07:55:48.281Z",
-  "changedAt": "2026-11-23T07:55:48.281Z",
-  "rev": 720,
-  "sig": "cf2920d013a60630286c1ed3ecbcb8100252ccd8cf1b65dae536ad497408d516",
+  "at": "2026-11-23T07:56:48.283Z",
+  "changedAt": "2026-11-23T07:56:48.283Z",
+  "rev": 721,
+  "sig": "b1f6963f4e21b0789d5f7277a5e6dd48019d69f989ed35dc591f4e925a1b1d9f",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -25,22 +25,6 @@
       "writeError": "",
       "proxies": [
         {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "cctv",
-          "status": "Running"
-        },
-        {
-          "name": "port-master",
-          "status": "Paused"
-        },
-        {
           "name": "joolzapp",
           "status": "Running"
         },
@@ -55,6 +39,22 @@
         {
           "name": "joolztv",
           "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "cctv",
+          "status": "Running"
+        },
+        {
+          "name": "port-master",
+          "status": "Paused"
         }
       ]
     },
@@ -67,29 +67,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "ollama",
-        "route": "lan",
-        "url": "http://host.docker.internal:11434/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795419946002
-      },
-      {
-        "app": "ollama",
-        "route": "local",
-        "url": "http://umbrel.local:11434/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795419946010
-      },
-      {
-        "app": "ollama",
-        "route": "tailscale",
-        "url": "http://100.118.10.62:11434/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795419946004
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -369,7 +347,7 @@
         "app": "ollama",
         "name": "Ollama",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 18789,
@@ -1266,29 +1244,29 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:11434/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795419946002
+            "status": 200,
+            "error": "",
+            "since": 1795420554619
           },
           {
             "key": "local",
             "url": "http://umbrel.local:11434/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795419946010
+            "status": 200,
+            "error": "",
+            "since": 1795420554619
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:11434/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795419946004
+            "status": 200,
+            "error": "",
+            "since": 1795420554619
           }
         ]
       },
