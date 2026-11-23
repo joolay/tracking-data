@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T21:06:57.142Z",
-  "changedAt": "2026-11-23T21:06:57.142Z",
-  "rev": 1575,
-  "sig": "a0aa8cbdc8dc845dd937541507eae7427fee9d61b41cbbcefc52c1510557c356",
+  "at": "2026-11-23T21:07:57.125Z",
+  "changedAt": "2026-11-23T21:07:57.125Z",
+  "rev": 1576,
+  "sig": "e4bb6ebf1a215ca957cac62fa9e6d5a53455d2b4090bce4e62a811efa90092c0",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795468005924,
+      "at": 1795468065933,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -69,16 +79,6 @@
         },
         {
           "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -781,7 +781,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 13 hours (healthy)",
+            "status": "Up 14 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -829,7 +829,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 13 hours",
+            "status": "Up 14 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -889,7 +889,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 13 hours (healthy)",
+        "status": "Up 14 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -905,7 +905,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 13 hours",
+        "status": "Up 14 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
