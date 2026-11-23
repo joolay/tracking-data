@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T06:52:55.537Z",
-  "changedAt": "2026-11-23T06:52:55.537Z",
-  "rev": 800,
-  "sig": "2cd96ab38b590ccaf4c27946d649f74420a4c1d8d2df37ebc690d3dbc681c82b",
+  "at": "2026-11-23T06:53:55.536Z",
+  "changedAt": "2026-11-23T06:53:55.536Z",
+  "rev": 801,
+  "sig": "59dc1eb9b34f1dde9b0127db812a1d4bb099fce0c47d08be89cef50640804077",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795416761793,
+      "at": 1795416821797,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "shutterworth",
           "status": "Running",
           "paused": false
@@ -76,6 +56,26 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -248,7 +248,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 12 hours (healthy)",
+            "status": "Up 13 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -785,7 +785,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 12 hours (healthy)",
+            "status": "Up 13 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -942,7 +942,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 12 hours (healthy)",
+        "status": "Up 13 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1233,7 +1233,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 12 hours (healthy)",
+        "status": "Up 13 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
