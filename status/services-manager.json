@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T14:29:56.447Z",
-  "changedAt": "2026-11-23T14:29:56.447Z",
-  "rev": 1226,
-  "sig": "8f9c2dba79a7a01d6fe2b1826b1498455b68c4b7c43ad6ac0fce77e23ecbfa87",
+  "at": "2026-11-23T14:30:56.525Z",
+  "changedAt": "2026-11-23T14:30:56.525Z",
+  "rev": 1227,
+  "sig": "c01cbfe33dce4a4d4d52c53ca5a6c7c6556dd7172cf0500c7f14b9dd6ac07b36",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795444183721,
+      "at": 1795444243727,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,26 @@
       },
       "proxies": [
         {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "diner-bell",
           "status": "Running",
           "paused": false
@@ -59,26 +79,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -397,7 +397,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 12 minutes (healthy)",
+            "status": "Up 13 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -421,7 +421,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 12 minutes (healthy)",
+            "status": "Up 13 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -733,7 +733,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 5 hours (healthy)",
+            "status": "Up 6 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -842,7 +842,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 12 minutes (healthy)",
+        "status": "Up 13 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -858,7 +858,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 12 minutes (healthy)",
+        "status": "Up 13 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1211,7 +1211,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 5 hours (healthy)",
+        "status": "Up 6 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
