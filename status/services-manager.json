@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T09:06:55.724Z",
-  "changedAt": "2026-11-23T09:06:55.724Z",
-  "rev": 930,
-  "sig": "4ace03fb99d8ae00391394ef182fc633ad776a51c75ccadf506c1ea5fac11688",
+  "at": "2026-11-23T09:07:55.728Z",
+  "changedAt": "2026-11-23T09:07:55.728Z",
+  "rev": 931,
+  "sig": "2584aa4002a97b6a82164cb8739193ee6e81fe9806cac3a3c38cd68bdbc37529",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795424802441,
+      "at": 1795424862447,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -66,21 +81,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -454,7 +454,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.3",
             "state": "running",
-            "status": "Up 24 minutes (healthy)",
+            "status": "Up 25 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -478,7 +478,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.3",
             "state": "running",
-            "status": "Up 23 minutes (healthy)",
+            "status": "Up 24 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -790,7 +790,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 6 minutes (healthy)",
+            "status": "Up 7 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -838,7 +838,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up About an hour (healthy)",
+            "status": "Up 2 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -886,7 +886,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up About an hour",
+            "status": "Up 2 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -899,7 +899,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.3",
         "state": "running",
-        "status": "Up 23 minutes (healthy)",
+        "status": "Up 24 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -915,7 +915,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.3",
         "state": "running",
-        "status": "Up 24 minutes (healthy)",
+        "status": "Up 25 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -946,7 +946,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up About an hour (healthy)",
+        "status": "Up 2 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -962,7 +962,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up About an hour",
+        "status": "Up 2 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1268,7 +1268,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 6 minutes (healthy)",
+        "status": "Up 7 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
