@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-23T09:00:49.123Z",
-  "changedAt": "2026-11-23T09:00:49.123Z",
-  "rev": 777,
-  "sig": "e998e266ac37e121d0c3f72d5fb47a8e387dbbbea5019c68d0e94022eef1cfb0",
+  "at": "2026-11-23T09:01:49.089Z",
+  "changedAt": "2026-11-23T09:01:49.089Z",
+  "rev": 778,
+  "sig": "af584d393d2fc0685260215ac6c6eb91e7c5fd8a4b0c31f1bb043d225c786dd4",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -26,39 +26,39 @@
       "proxies": [
         {
           "name": "port-master",
-          "status": "Initializing"
+          "status": "Paused"
         },
         {
           "name": "joolztv",
-          "status": "Initializing"
+          "status": "Running"
         },
         {
           "name": "joolzapp",
-          "status": "Initializing"
+          "status": "Running"
         },
         {
           "name": "listify",
-          "status": "Initializing"
+          "status": "Running"
         },
         {
           "name": "openclaw",
-          "status": "Error"
+          "status": "Running"
         },
         {
           "name": "project-tracker",
-          "status": "Initializing"
+          "status": "Running"
         },
         {
           "name": "cctv",
-          "status": "Initializing"
+          "status": "Running"
         },
         {
           "name": "shutterworth",
-          "status": "Initializing"
+          "status": "Running"
         },
         {
           "name": "diner-bell",
-          "status": "Initializing"
+          "status": "Running"
         }
       ]
     },
@@ -358,7 +358,7 @@
         "app": "openclaw",
         "name": "OpenClaw",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       }
     ],
     "apps": [
@@ -1321,7 +1321,7 @@
         "portal": "off",
         "port": 18789,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1349,6 +1349,15 @@
             "status": 200,
             "error": "",
             "since": 1795375664633
+          },
+          {
+            "key": "name",
+            "url": "https://openclaw.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795424500737
           }
         ]
       },
