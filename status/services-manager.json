@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T04:56:55.226Z",
-  "changedAt": "2026-11-23T04:56:55.226Z",
-  "rev": 695,
-  "sig": "2d20662c7d2c51f42b26407e576d515e1adc15dda0dece1fa4d178be1ca35f0f",
+  "at": "2026-11-23T04:57:55.223Z",
+  "changedAt": "2026-11-23T04:57:55.223Z",
+  "rev": 696,
+  "sig": "547474b9d4306b08060b53fe2f324fa6a1612bdeed3f8b5a0d6cc06bd954940e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795409801419,
+      "at": 1795409861422,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -74,6 +64,16 @@
         },
         {
           "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -449,7 +449,7 @@
             "name": "joolay-portal_web_1",
             "image": "sha256:[hidden]",
             "state": "running",
-            "status": "Up 9 hours (healthy)",
+            "status": "Up 10 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -473,7 +473,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.39.0",
             "state": "running",
-            "status": "Up 9 hours (healthy)",
+            "status": "Up 10 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -521,7 +521,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up 9 hours (healthy)",
+            "status": "Up 10 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.39.0",
         "state": "running",
-        "status": "Up 9 hours (healthy)",
+        "status": "Up 10 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -910,7 +910,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.8.0",
         "state": "running",
-        "status": "Up 9 hours (healthy)",
+        "status": "Up 10 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -926,7 +926,7 @@
         "name": "joolay-portal_web_1",
         "image": "sha256:[hidden]",
         "state": "running",
-        "status": "Up 9 hours (healthy)",
+        "status": "Up 10 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
