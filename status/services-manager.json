@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T20:54:57.089Z",
-  "changedAt": "2026-11-23T20:54:57.089Z",
-  "rev": 1567,
-  "sig": "78cb1434b25dcd50639e7fe8e94b23f40c4399453677f408c76084281d16301a",
+  "at": "2026-11-23T20:57:57.085Z",
+  "changedAt": "2026-11-23T20:57:57.085Z",
+  "rev": 1568,
+  "sig": "28db94bcf04bfef349641d095b915bfb55fed35d63b5fe1cbd08ad8eb232af5e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795467285843,
+      "at": 1795467465864,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -66,21 +81,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -469,7 +469,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up 25 hours (healthy)",
+            "status": "Up 26 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -935,7 +935,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.8.0",
         "state": "running",
-        "status": "Up 25 hours (healthy)",
+        "status": "Up 26 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
