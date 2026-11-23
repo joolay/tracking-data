@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T17:46:56.862Z",
-  "changedAt": "2026-11-23T17:46:56.862Z",
-  "rev": 1403,
-  "sig": "51ea161b4e0944f7175aaef29d738e3f57bd546f96147bd27eb6b21438ae7578",
+  "at": "2026-11-23T17:47:56.809Z",
+  "changedAt": "2026-11-23T17:47:56.809Z",
+  "rev": 1404,
+  "sig": "32f4995cdc3ac4f8c859a2c9bd3fae5384fdb009c55f11c78e51ee2bcdf77fb4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795456004775,
+      "at": 1795456064778,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -81,6 +76,11 @@
           "name": "diner-bell",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -397,7 +397,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 3 hours (healthy)",
+            "status": "Up 4 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -421,7 +421,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 3 hours (healthy)",
+            "status": "Up 4 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -842,7 +842,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 3 hours (healthy)",
+        "status": "Up 4 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -858,7 +858,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 3 hours (healthy)",
+        "status": "Up 4 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
