@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T13:01:56.247Z",
-  "changedAt": "2026-11-23T13:01:56.247Z",
-  "rev": 1139,
-  "sig": "08dcdcc978f7dfbc11c958f0f9ff204badfd2588e4cb4477615a147ffa844f38",
+  "at": "2026-11-23T13:02:56.244Z",
+  "changedAt": "2026-11-23T13:02:56.244Z",
+  "rev": 1140,
+  "sig": "e483f28da360a970efb16005ef87fe79b8111ea4c05233fb63166429b5dd3ec7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795438903425,
+      "at": 1795438963430,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "openclaw",
           "status": "Running",
           "paused": false
@@ -81,6 +61,26 @@
           "name": "diner-bell",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -101,8 +101,8 @@
       }
     },
     "summary": {
-      "containers": 30,
-      "running": 29,
+      "containers": 31,
+      "running": 30,
       "problems": []
     },
     "services": [
@@ -380,6 +380,30 @@
         ]
       },
       {
+        "key": "docker:joolay-portal",
+        "kind": "docker",
+        "id": "joolay-portal",
+        "name": "joolay-portal",
+        "state": "running",
+        "busy": false,
+        "on": true,
+        "autoStart": null,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "cb929f3ee1cf",
+            "name": "joolay-portal_web_1",
+            "image": "ghcr.io/joolay/portal-admin:0.41.0",
+            "state": "running",
+            "status": "Up 55 seconds (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
         "key": "docker:joolay-portal-admin",
         "kind": "docker",
         "id": "joolay-portal-admin",
@@ -393,11 +417,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "32f3a8b2dece",
+            "id": "6ddff7fcbc88",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.40.3",
+            "image": "ghcr.io/joolay/portal-admin:0.41.0",
             "state": "running",
-            "status": "Up 4 hours (healthy)",
+            "status": "Up 41 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -814,17 +838,33 @@
     ],
     "containers": [
       {
-        "id": "32f3a8b2dece",
+        "id": "6ddff7fcbc88",
         "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.40.3",
+        "image": "ghcr.io/joolay/portal-admin:0.41.0",
         "state": "running",
-        "status": "Up 4 hours (healthy)",
+        "status": "Up 41 seconds (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
-        "startedAt": "2026-11-23T08:43:06.431687141Z",
+        "startedAt": "2026-11-23T13:02:14.25220183Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "cb929f3ee1cf",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.41.0",
+        "state": "running",
+        "status": "Up 55 seconds (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-23T13:02:00.856353406Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
