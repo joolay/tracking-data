@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T19:21:56.938Z",
-  "changedAt": "2026-11-23T19:21:56.938Z",
-  "rev": 1487,
-  "sig": "9e81d3c6d298165b3018b5a11ec01da310eab3e4aa56139af038c1ee8cbee0ad",
+  "at": "2026-11-23T19:22:56.947Z",
+  "changedAt": "2026-11-23T19:22:56.947Z",
+  "rev": 1488,
+  "sig": "e59acd10fa6d9ca083e79f4734bfcb312a1ffca3c314b12ffdfe69a2d509e860",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795461705241,
+      "at": 1795461765249,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -69,16 +79,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -589,7 +589,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 11 hours",
+            "status": "Up 12 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -874,7 +874,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 11 hours",
+        "status": "Up 12 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
