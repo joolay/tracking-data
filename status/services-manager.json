@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T08:39:55.734Z",
-  "changedAt": "2026-11-23T08:39:55.734Z",
-  "rev": 903,
-  "sig": "6138ae211e23fcdbc629fb7990f42f8c5c567e9a65b85dd0f585dc8245993c15",
+  "at": "2026-11-23T08:40:55.727Z",
+  "changedAt": "2026-11-23T08:40:55.727Z",
+  "rev": 904,
+  "sig": "56286549ccf4b4f816049735944986fe2305e168dc33f252d9d31791fa027526",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795423182346,
+      "at": 1795423242349,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -76,6 +71,11 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -449,7 +449,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.2",
             "state": "running",
-            "status": "Up 7 minutes (healthy)",
+            "status": "Up 8 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -473,7 +473,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.2",
             "state": "running",
-            "status": "Up 7 minutes (healthy)",
+            "status": "Up 8 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -641,7 +641,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 47 minutes",
+            "status": "Up 48 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.2",
         "state": "running",
-        "status": "Up 7 minutes (healthy)",
+        "status": "Up 8 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -910,7 +910,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.2",
         "state": "running",
-        "status": "Up 7 minutes (healthy)",
+        "status": "Up 8 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -926,7 +926,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 47 minutes",
+        "status": "Up 48 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
