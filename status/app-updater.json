@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T00:07:25.067Z",
-  "changedAt": "2026-11-23T00:07:25.067Z",
-  "rev": 360,
-  "sig": "4f3b5d7aa19f0addebc2ee7b5bac85db52010b613a7d56bd7d4ba6f7fc95423c",
+  "at": "2026-11-23T00:08:25.071Z",
+  "changedAt": "2026-11-23T00:08:25.071Z",
+  "rev": 361,
+  "sig": "70695fb6b6afaa6de1e64c5a2f499694c1272f9304ef680e7ddc1897f4069bb8",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -55,8 +55,8 @@
         "id": "adguard-home",
         "name": "AdGuard Home",
         "version": "1.0.0-b.1",
-        "latest": "1.0.0-b.1",
-        "update": false,
+        "latest": "1.0.0",
+        "update": true,
         "state": "ready",
         "store": {
           "id": "umbrel",
@@ -65,7 +65,43 @@
         "mode": "off",
         "hidden": false,
         "busy": false,
-        "detectedAt": null,
+        "detectedAt": 1795392465258,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "ollama",
+        "name": "Ollama",
+        "version": "0.40.16",
+        "latest": "0.40.17",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795392465259,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "wallos",
+        "name": "Wallos",
+        "version": "5.11.2",
+        "latest": "5.11.3",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795392465260,
         "result": null,
         "waiting": false
       },
@@ -299,24 +335,6 @@
         "waiting": false
       },
       {
-        "id": "ollama",
-        "name": "Ollama",
-        "version": "0.40.16",
-        "latest": "0.40.16",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "open-webui",
         "name": "Open WebUI",
         "version": "0.13.4",
@@ -531,24 +549,6 @@
         "waiting": false
       },
       {
-        "id": "wallos",
-        "name": "Wallos",
-        "version": "5.11.2",
-        "latest": "5.11.2",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "webcheck",
         "name": "WebCheck",
         "version": "2.4.0",
@@ -591,23 +591,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795392404188
+      "at": 1795392495926
     },
     "check": {
-      "at": 1795392404359,
+      "at": 1795392496120,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795392343821,
+      "at": 1795392465258,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795392430213,
+        "at": 1795392490217,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -631,11 +631,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "shutterworth",
             "status": "Running",
@@ -670,6 +665,11 @@
             "name": "project-tracker",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -696,6 +696,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795392465260,
+        "level": "info",
+        "appId": "wallos",
+        "message": "Update available: Wallos 5.11.2 → 5.11.3"
+      },
+      {
+        "t": 1795392465259,
+        "level": "info",
+        "appId": "ollama",
+        "message": "Update available: Ollama 0.40.16 → 0.40.17"
+      },
+      {
+        "t": 1795392465259,
+        "level": "info",
+        "appId": "adguard-home",
+        "message": "Update available: AdGuard Home 1.0.0-b.1 → 1.0.0"
+      },
       {
         "t": 1795388544893,
         "level": "warn",
