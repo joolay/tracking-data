@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T22:52:57.410Z",
-  "changedAt": "2026-11-23T22:52:57.410Z",
-  "rev": 1663,
-  "sig": "d05063c605c3acd40845aad68291a49bb52af55ea2bf74fce09dc77cd4e41d65",
+  "at": "2026-11-23T22:53:57.514Z",
+  "changedAt": "2026-11-23T22:53:57.514Z",
+  "rev": 1664,
+  "sig": "f5724a74941ed5b54339ba819980b8277dfb8f459545eac78e0f011f2124bb85",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795474366506,
+      "at": 1795474426509,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -81,6 +66,21 @@
           "name": "cctv",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -196,7 +196,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 28 hours (healthy)",
+            "status": "Up 29 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -951,7 +951,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 28 hours (healthy)",
+        "status": "Up 29 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
