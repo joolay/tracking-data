@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T16:56:56.673Z",
-  "changedAt": "2026-11-23T16:56:56.673Z",
-  "rev": 1357,
-  "sig": "4b05e9cb98473164210d8d05a46a119c2cd41a07015706cd88e740ecd388ec54",
+  "at": "2026-11-23T16:57:56.708Z",
+  "changedAt": "2026-11-23T16:57:56.708Z",
+  "rev": 1358,
+  "sig": "d4c1506e3095e6e796fa0f643af7b088c926afbd0aaad8257e61f37da848c8b3",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795453004548,
+      "at": 1795453064549,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -74,11 +79,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -469,7 +469,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up 21 hours (healthy)",
+            "status": "Up 22 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -935,7 +935,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.8.0",
         "state": "running",
-        "status": "Up 21 hours (healthy)",
+        "status": "Up 22 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
