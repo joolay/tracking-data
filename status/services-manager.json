@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T12:02:56.230Z",
-  "changedAt": "2026-11-23T12:02:56.230Z",
-  "rev": 1084,
-  "sig": "bc61848cb1b9d7ef83561e3919f0d422d29854951007594bfba3911230e112a1",
+  "at": "2026-11-23T12:03:56.263Z",
+  "changedAt": "2026-11-23T12:03:56.263Z",
+  "rev": 1085,
+  "sig": "6c4b732106d565c9dd7d093f91f4d681825ea6fded0ebeb0a805a25510c90c8b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795435363148,
+      "at": 1795435423151,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -79,6 +69,16 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -325,7 +325,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.0.14",
             "state": "running",
-            "status": "Up 44 hours",
+            "status": "Up 45 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1147,7 +1147,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.0.14",
         "state": "running",
-        "status": "Up 44 hours",
+        "status": "Up 45 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
