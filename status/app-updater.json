@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T14:13:31.144Z",
-  "changedAt": "2026-11-23T14:13:31.144Z",
-  "rev": 1074,
-  "sig": "edc724efb8bbb80d3b9344d2af5aff7cd7e3788a9c1e137bec262790274517ad",
+  "at": "2026-11-23T14:14:31.143Z",
+  "changedAt": "2026-11-23T14:14:31.143Z",
+  "rev": 1075,
+  "sig": "7753ee0958bbeade6233fbfc4052df01b980a266255ed724f7cd9bc3020aff73",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -555,23 +555,38 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795443187311
+      "at": 1795443248517
     },
     "check": {
-      "at": 1795443187503,
+      "at": 1795443248673,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795443126917,
+      "at": 1795443248482,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-portal",
+          "name": "JoolzApp Dashboard",
+          "repo": "0.41.1",
+          "umbrel": "0.41.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-portal-admin",
+          "name": "Portal Admin",
+          "repo": "0.41.1",
+          "umbrel": "0.41.0",
+          "kind": "update"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795443208620,
+        "at": 1795443268619,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -596,26 +611,6 @@
         },
         "proxies": [
           {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "listify",
             "status": "Running",
             "paused": false
@@ -637,6 +632,26 @@
           },
           {
             "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
             "status": "Running",
             "paused": false
           }
@@ -665,6 +680,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795443248507,
+        "level": "warn",
+        "appId": "joolay-portal-admin",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.41.1 (umbrelOS lists 0.41.0)"
+      },
+      {
+        "t": 1795443248482,
+        "level": "warn",
+        "appId": "joolay-portal",
+        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.41.1 (umbrelOS lists 0.41.0)"
+      },
       {
         "t": 1795438935352,
         "level": "ok",
