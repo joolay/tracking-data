@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T07:34:55.649Z",
-  "changedAt": "2026-11-23T07:34:55.649Z",
-  "rev": 838,
-  "sig": "22ff7618bd6969b69f337571013d4a7c123013d5d8f8055e0594d80fadd5c47b",
+  "at": "2026-11-23T07:35:55.704Z",
+  "changedAt": "2026-11-23T07:35:55.704Z",
+  "rev": 839,
+  "sig": "718913e4cebab85735f94f463cdc081c4dd2047d0534796d4794b2070ea761e3",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795419282025,
+      "at": 1795419342029,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -96,35 +96,11 @@
       }
     },
     "summary": {
-      "containers": 34,
-      "running": 33,
+      "containers": 30,
+      "running": 29,
       "problems": []
     },
     "services": [
-      {
-        "key": "docker:adguard-home",
-        "kind": "docker",
-        "id": "adguard-home",
-        "name": "adguard-home",
-        "state": "running",
-        "busy": false,
-        "on": true,
-        "autoStart": null,
-        "policy": "on-failure",
-        "pinned": null,
-        "protected": false,
-        "containers": [
-          {
-            "id": "f4b5d78d553d",
-            "name": "adguard-home_server_1",
-            "image": "adguard/adguardhome:v1.0.0-b.1@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 5 days",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
-      },
       {
         "key": "docker:app-proxy",
         "kind": "docker",
@@ -624,30 +600,6 @@
         ]
       },
       {
-        "key": "docker:ollama",
-        "kind": "docker",
-        "id": "ollama",
-        "name": "ollama",
-        "state": "running",
-        "busy": false,
-        "on": true,
-        "autoStart": null,
-        "policy": "on-failure",
-        "pinned": null,
-        "protected": false,
-        "containers": [
-          {
-            "id": "93db0e5a6ffa",
-            "name": "ollama_ollama_1",
-            "image": "ollama/ollama:0.40.16@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 5 days",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
-      },
-      {
         "key": "docker:open-webui",
         "kind": "docker",
         "id": "open-webui",
@@ -816,30 +768,6 @@
         ]
       },
       {
-        "key": "docker:wallos",
-        "kind": "docker",
-        "id": "wallos",
-        "name": "wallos",
-        "state": "running",
-        "busy": false,
-        "on": true,
-        "autoStart": null,
-        "policy": "on-failure",
-        "pinned": null,
-        "protected": false,
-        "containers": [
-          {
-            "id": "06782f1b0329",
-            "name": "wallos_server_1",
-            "image": "bellamy/wallos:5.11.2@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 4 days (healthy)",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
-      },
-      {
         "key": "docker:webcheck",
         "kind": "docker",
         "id": "webcheck",
@@ -858,30 +786,6 @@
             "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
             "state": "running",
             "status": "Up 5 days (healthy)",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
-      },
-      {
-        "key": "docker:yuvomi",
-        "kind": "docker",
-        "id": "yuvomi",
-        "name": "yuvomi",
-        "state": "running",
-        "busy": false,
-        "on": true,
-        "autoStart": null,
-        "policy": "on-failure",
-        "pinned": null,
-        "protected": false,
-        "containers": [
-          {
-            "id": "502da13863a2",
-            "name": "yuvomi_web_1",
-            "image": "ghcr.io/ulsklyc/yuvomi:2.93.0@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 4 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1107,37 +1011,6 @@
         "problem": false
       },
       {
-        "id": "502da13863a2",
-        "name": "yuvomi_web_1",
-        "image": "ghcr.io/ulsklyc/yuvomi:2.93.0@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 4 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-19T04:41:40.877506864Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "06782f1b0329",
-        "name": "wallos_server_1",
-        "image": "bellamy/wallos:5.11.2@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 4 days (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-19T04:40:09.461068109Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "73ed0d15530a",
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
@@ -1275,21 +1148,6 @@
         "problem": false
       },
       {
-        "id": "93db0e5a6ffa",
-        "name": "ollama_ollama_1",
-        "image": "ollama/ollama:0.40.16@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 5 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-18T05:55:24.339743358Z",
-        "finishedAt": "2026-11-18T05:55:12.663662071Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "cf1699429d27",
         "name": "cloudflared_web_1",
         "image": "ghcr.io/radiokot/umbrel-cloudflared:1.1.0@sha256:[hidden]",
@@ -1377,21 +1235,6 @@
         "oomKilled": false,
         "startedAt": "2026-11-18T05:55:34.709789845Z",
         "finishedAt": "2026-11-18T05:55:12.690791465Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "f4b5d78d553d",
-        "name": "adguard-home_server_1",
-        "image": "adguard/adguardhome:v1.0.0-b.1@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 5 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-18T05:55:44.434733525Z",
-        "finishedAt": "2026-11-18T05:55:12.676158759Z",
         "error": "",
         "problem": false
       },
