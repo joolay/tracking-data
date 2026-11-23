@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T20:14:57.000Z",
-  "changedAt": "2026-11-23T20:14:57.000Z",
-  "rev": 1533,
-  "sig": "173585544708ad64ec5c91dd6bc7c25079f589721e283de80104d3bea54dc848",
+  "at": "2026-11-23T20:15:56.993Z",
+  "changedAt": "2026-11-23T20:15:56.993Z",
+  "rev": 1534,
+  "sig": "caedae0d26f98d3769defb2466acc358242c1c8c8efb191f7361b0e231a4a31c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795464885622,
+      "at": 1795464945628,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "port-master",
           "status": "Paused",
           "paused": true
@@ -79,6 +59,26 @@
         },
         {
           "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -445,7 +445,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 26 hours",
+            "status": "Up 27 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 26 hours",
+        "status": "Up 27 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
