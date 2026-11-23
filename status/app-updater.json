@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T16:59:32.901Z",
-  "changedAt": "2026-11-23T16:59:32.901Z",
-  "rev": 1208,
-  "sig": "5cb7143c3c0d89f28e001a9864f527d73caee7c27da85ea6991d2103e8c9bee7",
+  "at": "2026-11-23T17:00:32.914Z",
+  "changedAt": "2026-11-23T17:00:32.914Z",
+  "rev": 1209,
+  "sig": "bee562d4708ce2e1ba651043589b77dcefed2197632224f7f07864451d6ae9ff",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -555,10 +555,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795453139037
+      "at": 1795453199887
     },
     "check": {
-      "at": 1795453139183,
+      "at": 1795453200080,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -571,7 +571,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795453169558,
+        "at": 1795453229564,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -596,6 +596,26 @@
         },
         "proxies": [
           {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
             "name": "openclaw",
             "status": "Running",
             "paused": false
@@ -617,26 +637,6 @@
           },
           {
             "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
             "status": "Running",
             "paused": false
           }
@@ -665,6 +665,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795453199715,
+        "level": "info",
+        "appId": null,
+        "message": "Signed in to umbrelOS again automatically"
+      },
       {
         "t": 1795443452299,
         "level": "ok",
@@ -1018,12 +1024,6 @@
         "level": "ok",
         "appId": "joolay-portal-admin",
         "message": "Portal Admin updated to 0.39.0 (state: ready)"
-      },
-      {
-        "t": 1795375671339,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
       }
     ],
     "diagnose": [
