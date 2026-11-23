@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T02:12:54.880Z",
-  "changedAt": "2026-11-23T02:12:54.880Z",
-  "rev": 545,
-  "sig": "dd2f96637b9c7d3080afdacef8d6a4852fddc7e58cf3f29df991d0904181cc59",
+  "at": "2026-11-23T02:13:54.883Z",
+  "changedAt": "2026-11-23T02:13:54.883Z",
+  "rev": 546,
+  "sig": "7db744b7bc2fb755a4b3ed96113f3e3a5eede9f9fd5322fdab53bbae12fe612f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795399960592,
+      "at": 1795400020601,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -74,6 +64,16 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -344,7 +344,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
             "state": "running",
-            "status": "Up 8 hours",
+            "status": "Up 9 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -989,7 +989,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
         "state": "running",
-        "status": "Up 8 hours",
+        "status": "Up 9 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
