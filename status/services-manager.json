@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T09:04:55.721Z",
-  "changedAt": "2026-11-23T09:04:55.721Z",
-  "rev": 928,
-  "sig": "e06917161892cc4d6903aa6c1af5e3e7f6bed93cd6b6392c0047e1ca079b8b23",
+  "at": "2026-11-23T09:05:55.720Z",
+  "changedAt": "2026-11-23T09:05:55.720Z",
+  "rev": 929,
+  "sig": "8640139c496b181f777ff29fa1a8992a73f5fe293147d9f99b30f3a89bb81e39",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795424682434,
+      "at": 1795424742437,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -79,6 +74,11 @@
         },
         {
           "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -301,7 +301,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.2",
             "state": "running",
-            "status": "Up 41 hours",
+            "status": "Up 42 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -406,7 +406,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.1.0",
             "state": "running",
-            "status": "Up 41 hours (healthy)",
+            "status": "Up 42 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -454,7 +454,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.3",
             "state": "running",
-            "status": "Up 22 minutes (healthy)",
+            "status": "Up 23 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -478,7 +478,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.3",
             "state": "running",
-            "status": "Up 21 minutes (healthy)",
+            "status": "Up 22 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -790,7 +790,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 4 minutes (healthy)",
+            "status": "Up 5 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -899,7 +899,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.3",
         "state": "running",
-        "status": "Up 21 minutes (healthy)",
+        "status": "Up 22 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -915,7 +915,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.3",
         "state": "running",
-        "status": "Up 22 minutes (healthy)",
+        "status": "Up 23 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1116,7 +1116,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.1.0",
         "state": "running",
-        "status": "Up 41 hours (healthy)",
+        "status": "Up 42 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1132,7 +1132,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.2",
         "state": "running",
-        "status": "Up 41 hours",
+        "status": "Up 42 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1268,7 +1268,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 4 minutes (healthy)",
+        "status": "Up 5 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
