@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-23T09:05:49.130Z",
-  "changedAt": "2026-11-23T09:05:49.130Z",
-  "rev": 782,
-  "sig": "6f1cba07620ed34e5353b8e7386107117fc768f7722b939c4b23923f7d7752ae",
+  "at": "2026-11-23T09:06:49.125Z",
+  "changedAt": "2026-11-23T09:06:49.125Z",
+  "rev": 783,
+  "sig": "55f0659675e3ea38b932d7f5a94ab3212f07e42fc8432881d23773e14085cfc1",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -71,7 +71,15 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "openclaw",
+        "route": "name",
+        "url": "https://openclaw.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795424804460
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -358,7 +366,7 @@
         "app": "openclaw",
         "name": "OpenClaw",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       }
     ],
     "apps": [
@@ -1353,11 +1361,11 @@
           {
             "key": "name",
             "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795424500737
+            "since": 1795424804460
           }
         ]
       },
