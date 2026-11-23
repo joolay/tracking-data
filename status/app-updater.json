@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T13:02:02.131Z",
-  "changedAt": "2026-11-23T13:02:02.131Z",
-  "rev": 1012,
-  "sig": "267ca6ef8b44436a6409da4304e4c209cb261ad1494f7dbdc7c5ac894e6fa787",
+  "at": "2026-11-23T13:02:31.074Z",
+  "changedAt": "2026-11-23T13:02:31.074Z",
+  "rev": 1013,
+  "sig": "623f6497bd04b786e69a6f2c6ceeb0d6b00acc3036cdd0c632657c4a8392a8da",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.40.3",
-        "latest": "0.41.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795438913464,
-        "result": {
-          "ok": true,
-          "at": 1795423388118,
-          "from": "0.40.2",
-          "to": "0.40.3"
-        },
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -182,7 +158,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -401,6 +377,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.41.0",
+        "latest": "0.41.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795438935352,
+          "from": "0.40.3",
+          "to": "0.41.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.7.2",
@@ -555,10 +555,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795438852857
+      "at": 1795438936041
     },
     "check": {
-      "at": 1795438922127,
+      "at": 1795438936281,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -571,7 +571,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795438918426,
+        "at": 1795438948428,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -595,11 +595,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "openclaw",
             "status": "Running",
@@ -634,6 +629,16 @@
             "name": "joolztv",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -660,6 +665,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795438935352,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.41.0 (state: ready)"
+      },
+      {
+        "t": 1795438924614,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzApp Store (2 s)"
+      },
+      {
+        "t": 1795438922128,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
       {
         "t": 1795438921928,
         "level": "ok",
