@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T07:47:55.663Z",
-  "changedAt": "2026-11-23T07:47:55.663Z",
-  "rev": 851,
-  "sig": "9e74105e3dba4c7c89b0c8cb2a4a4884e2008dcb2f65bd7dd886930ef9efc9a3",
+  "at": "2026-11-23T07:48:56.584Z",
+  "changedAt": "2026-11-23T07:48:56.584Z",
+  "rev": 852,
+  "sig": "04a0edac3d4276d5524d4ee0529befe1cf300c886be3346790b5006d013c1a0c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795420062093,
+      "at": 1795420122098,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -64,16 +74,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -119,7 +119,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 11 minutes",
+            "status": "Up 12 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -809,7 +809,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 10 minutes (healthy)",
+            "status": "Up 11 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -857,7 +857,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 10 minutes",
+            "status": "Up 11 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -870,7 +870,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 10 minutes (healthy)",
+        "status": "Up 11 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -886,7 +886,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 10 minutes",
+        "status": "Up 11 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -901,7 +901,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 11 minutes",
+        "status": "Up 12 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
