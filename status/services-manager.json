@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T08:05:55.689Z",
-  "changedAt": "2026-11-23T08:05:55.689Z",
-  "rev": 869,
-  "sig": "9790f0f9a4e4bb10f402f69b2dcab72a5568d35674ca74e3a18b359ea123a900",
+  "at": "2026-11-23T08:06:55.778Z",
+  "changedAt": "2026-11-23T08:06:55.778Z",
+  "rev": 870,
+  "sig": "8711be7ef94ffae1efd3b4fff6786fd9042793efcf123abb304ad6ff6955cd41",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795421142189,
+      "at": 1795421202192,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -64,16 +74,6 @@
         },
         {
           "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -119,7 +119,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 29 minutes",
+            "status": "Up 30 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -425,7 +425,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 40 hours",
+            "status": "Up 41 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -641,7 +641,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 13 minutes",
+            "status": "Up 14 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -833,7 +833,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 28 minutes (healthy)",
+            "status": "Up 29 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -881,7 +881,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 28 minutes",
+            "status": "Up 29 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 13 minutes",
+        "status": "Up 14 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -909,7 +909,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 28 minutes (healthy)",
+        "status": "Up 29 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -925,7 +925,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 28 minutes",
+        "status": "Up 29 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -940,7 +940,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 29 minutes",
+        "status": "Up 30 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1096,7 +1096,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 40 hours",
+        "status": "Up 41 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
