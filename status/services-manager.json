@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T04:02:55.164Z",
-  "changedAt": "2026-11-23T04:02:55.164Z",
-  "rev": 647,
-  "sig": "648a08fbac84df5dfb65f1a716ad755a3404c6407ead29ffc553bcdfa3c92791",
+  "at": "2026-11-23T04:03:55.156Z",
+  "changedAt": "2026-11-23T04:03:55.156Z",
+  "rev": 648,
+  "sig": "3c8710983e09e46d019987f3e07326ad39fe5651ff89f39b143627a4cd75157d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795406561189,
+      "at": 1795406621192,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,21 @@
       },
       "proxies": [
         {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "port-master",
           "status": "Paused",
           "paused": true
@@ -59,21 +74,6 @@
         },
         {
           "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -320,7 +320,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.0.14",
             "state": "running",
-            "status": "Up 36 hours",
+            "status": "Up 37 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1081,7 +1081,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.0.14",
         "state": "running",
-        "status": "Up 36 hours",
+        "status": "Up 37 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
