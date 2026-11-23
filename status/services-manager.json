@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T06:05:55.421Z",
-  "changedAt": "2026-11-23T06:05:55.421Z",
-  "rev": 759,
-  "sig": "60acddbf07d129057fe06d4adb521c13ce6793fa9c37887b5ea1645c4c1ea82d",
+  "at": "2026-11-23T06:06:55.423Z",
+  "changedAt": "2026-11-23T06:06:55.423Z",
+  "rev": 760,
+  "sig": "b265dea4eb88d5f3be018c62f8b06a30d116f28661db675cf254185e50c9610d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795413941605,
+      "at": 1795414001606,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,21 +38,6 @@
       },
       "proxies": [
         {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "listify",
           "status": "Running",
           "paused": false
@@ -74,6 +59,21 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -425,7 +425,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 38 hours",
+            "status": "Up 39 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1035,7 +1035,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 38 hours",
+        "status": "Up 39 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
