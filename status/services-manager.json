@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T07:51:56.281Z",
-  "changedAt": "2026-11-23T07:51:56.281Z",
-  "rev": 855,
-  "sig": "5dc9dc454aa1efff5116a9d23043a31142c099ee41568d29a63c9949106a917d",
+  "at": "2026-11-23T07:52:55.689Z",
+  "changedAt": "2026-11-23T07:52:55.689Z",
+  "rev": 856,
+  "sig": "f7ba64812a714032beec07bf47817b6ced3fdd3565cc45149c0afb0b296ab70b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795420302113,
+      "at": 1795420362122,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -66,16 +76,6 @@
           "name": "joolzapp",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -96,8 +96,8 @@
       }
     },
     "summary": {
-      "containers": 33,
-      "running": 32,
+      "containers": 34,
+      "running": 33,
       "problems": []
     },
     "services": [
@@ -119,7 +119,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 15 minutes",
+            "status": "Up 16 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -545,7 +545,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.3.0",
             "state": "running",
-            "status": "Up 13 hours (healthy)",
+            "status": "Up 14 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -618,6 +618,30 @@
             "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
             "state": "running",
             "status": "Up 5 days",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
+        "key": "docker:ollama",
+        "kind": "docker",
+        "id": "ollama",
+        "name": "ollama",
+        "state": "running",
+        "busy": false,
+        "on": true,
+        "autoStart": null,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "05f51ad68157",
+            "name": "ollama_ollama_1",
+            "image": "ollama/ollama:0.40.17@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 57 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -809,7 +833,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -857,7 +881,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 14 minutes",
+            "status": "Up 15 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -866,11 +890,26 @@
     ],
     "containers": [
       {
+        "id": "05f51ad68157",
+        "name": "ollama_ollama_1",
+        "image": "ollama/ollama:0.40.17@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 57 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-23T07:51:58.583753907Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "0d55625bdbf7",
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -886,7 +925,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 14 minutes",
+        "status": "Up 15 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -901,7 +940,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 15 minutes",
+        "status": "Up 16 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -980,7 +1019,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.3.0",
         "state": "running",
-        "status": "Up 13 hours (healthy)",
+        "status": "Up 14 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
