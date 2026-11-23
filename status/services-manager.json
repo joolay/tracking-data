@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T04:04:55.169Z",
-  "changedAt": "2026-11-23T04:04:55.169Z",
-  "rev": 649,
-  "sig": "3b85b316b9e972a6ebe58cacd04f8de2b772b7cc01a22fcc0d03c9812f772bd2",
+  "at": "2026-11-23T04:05:55.171Z",
+  "changedAt": "2026-11-23T04:05:55.171Z",
+  "rev": 650,
+  "sig": "b38e5d5afb1ae61dee7b7890abc5497e5825539ee05d9f141a404e7a55de182d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795406681197,
+      "at": 1795406741201,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -71,11 +76,6 @@
           "name": "cctv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -296,7 +296,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.2",
             "state": "running",
-            "status": "Up 36 hours",
+            "status": "Up 37 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -401,7 +401,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.1.0",
             "state": "running",
-            "status": "Up 36 hours (healthy)",
+            "status": "Up 37 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1050,7 +1050,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.1.0",
         "state": "running",
-        "status": "Up 36 hours (healthy)",
+        "status": "Up 37 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1066,7 +1066,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.2",
         "state": "running",
-        "status": "Up 36 hours",
+        "status": "Up 37 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
