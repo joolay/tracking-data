@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T11:51:56.173Z",
-  "changedAt": "2026-11-23T11:51:56.173Z",
-  "rev": 1076,
-  "sig": "8d1f16eb60b50e3e0f1d877d87d7c75268fcf324c31a115d9d225fc54a68476f",
+  "at": "2026-11-23T11:52:56.172Z",
+  "changedAt": "2026-11-23T11:52:56.172Z",
+  "rev": 1077,
+  "sig": "db59bd8841ab4a3e350f8ec06b0fa25668ae2aa903676f8a1661669b5edceb61",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795434703084,
+      "at": 1795434763093,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -79,6 +69,16 @@
         },
         {
           "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -550,7 +550,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.3.0",
             "state": "running",
-            "status": "Up 17 hours (healthy)",
+            "status": "Up 18 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1024,7 +1024,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.3.0",
         "state": "running",
-        "status": "Up 17 hours (healthy)",
+        "status": "Up 18 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
