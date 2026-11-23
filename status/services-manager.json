@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T16:13:56.590Z",
-  "changedAt": "2026-11-23T16:13:56.590Z",
-  "rev": 1320,
-  "sig": "6d1b77683f00da46ac4d94334dae82c78664eb8b08cf3c217ac2b1793e1648b3",
+  "at": "2026-11-23T16:15:56.587Z",
+  "changedAt": "2026-11-23T16:15:56.587Z",
+  "rev": 1321,
+  "sig": "6443842c22a62d4c77a1f1002c597605e55df7dd95bb5ca5b84633f60d0d2d34",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795450424309,
+      "at": 1795450544321,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -74,11 +79,6 @@
         },
         {
           "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -445,7 +445,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 22 hours",
+            "status": "Up 23 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 22 hours",
+        "status": "Up 23 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
