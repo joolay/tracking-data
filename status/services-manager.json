@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T11:52:56.172Z",
-  "changedAt": "2026-11-23T11:52:56.172Z",
-  "rev": 1077,
-  "sig": "db59bd8841ab4a3e350f8ec06b0fa25668ae2aa903676f8a1661669b5edceb61",
+  "at": "2026-11-23T11:53:56.151Z",
+  "changedAt": "2026-11-23T11:53:56.151Z",
+  "rev": 1078,
+  "sig": "7237f48457977be4548f9abee7f81ae2c0528e664b6065dc3f1eabf15ed2dd31",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795434763093,
+      "at": 1795434823097,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -79,6 +74,11 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -253,7 +253,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 17 hours (healthy)",
+            "status": "Up 18 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1008,7 +1008,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 17 hours (healthy)",
+        "status": "Up 18 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
