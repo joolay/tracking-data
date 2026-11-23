@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T20:12:57.006Z",
-  "changedAt": "2026-11-23T20:12:57.006Z",
-  "rev": 1531,
-  "sig": "7169f4bcb335f1b7163aa292233adf1125a92a3cf5ffe96c2eb4a8a44ee61255",
+  "at": "2026-11-23T20:13:57.005Z",
+  "changedAt": "2026-11-23T20:13:57.005Z",
+  "rev": 1532,
+  "sig": "e900100ba0246f1ffece5a5cbbfb02318748c9d30819f810c11ba54afd9dbd9f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795464765612,
+      "at": 1795464825618,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,26 @@
       },
       "proxies": [
         {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "diner-bell",
           "status": "Running",
           "paused": false
@@ -59,26 +79,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -292,7 +292,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
             "state": "running",
-            "status": "Up 26 hours",
+            "status": "Up 27 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -998,7 +998,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
         "state": "running",
-        "status": "Up 26 hours",
+        "status": "Up 27 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
