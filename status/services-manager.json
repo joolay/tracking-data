@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T23:52:57.452Z",
-  "changedAt": "2026-11-23T23:52:57.452Z",
-  "rev": 1715,
-  "sig": "d061ece7a63df195604f47ac7a8134012d634a9c1e117d0f9e81d433084d7332",
+  "at": "2026-11-23T23:53:57.452Z",
+  "changedAt": "2026-11-23T23:53:57.452Z",
+  "rev": 1716,
+  "sig": "b0a967a9353153e11e048476d1aed05113904b7e7813b74821fb62d47880b2e7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795477966785,
+      "at": 1795478026793,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -79,6 +74,11 @@
         },
         {
           "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -196,7 +196,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 29 hours (healthy)",
+            "status": "Up 30 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -951,7 +951,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 29 hours (healthy)",
+        "status": "Up 30 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
