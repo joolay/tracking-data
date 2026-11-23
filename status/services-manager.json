@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T07:08:55.593Z",
-  "changedAt": "2026-11-23T07:08:55.593Z",
-  "rev": 815,
-  "sig": "d5fc1590c305027aadfe9b2e3bef9d08fb21b935292860d8a2f250d783ddd084",
+  "at": "2026-11-23T07:09:55.594Z",
+  "changedAt": "2026-11-23T07:09:55.594Z",
+  "rev": 816,
+  "sig": "a31ea1f1844e771604bbc9aa6d8bdcca8b8884ec9d1ebcfaaea11bc07ceb22fe",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795417721877,
+      "at": 1795417781883,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "listify",
           "status": "Running",
@@ -71,11 +76,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -569,7 +569,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.7.20",
             "state": "running",
-            "status": "Up 39 hours",
+            "status": "Up 40 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -593,7 +593,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.2.0",
             "state": "running",
-            "status": "Up 39 hours (healthy)",
+            "status": "Up 40 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1004,7 +1004,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.2.0",
         "state": "running",
-        "status": "Up 39 hours (healthy)",
+        "status": "Up 40 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1020,7 +1020,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.7.20",
         "state": "running",
-        "status": "Up 39 hours",
+        "status": "Up 40 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
