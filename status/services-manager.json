@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T15:29:56.560Z",
-  "changedAt": "2026-11-23T15:29:56.560Z",
-  "rev": 1283,
-  "sig": "5ac75c5c7791c872065308ba8c116df7d9f0b2072dbb3bacf84a8333cf36e6b0",
+  "at": "2026-11-23T15:30:56.538Z",
+  "changedAt": "2026-11-23T15:30:56.538Z",
+  "rev": 1284,
+  "sig": "0351afdab473991ad06aa6badf08236871fa425b0c90357895fb4de7efcdd801",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795447784123,
+      "at": 1795447844126,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -69,16 +79,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -733,7 +733,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 6 hours (healthy)",
+            "status": "Up 7 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1211,7 +1211,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 6 hours (healthy)",
+        "status": "Up 7 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
