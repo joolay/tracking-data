@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T07:35:28.685Z",
-  "changedAt": "2026-11-23T07:35:28.685Z",
-  "rev": 742,
-  "sig": "aff3ec3e3c072be5053386f35ad1024d5dc3a1f08896153e7db678606224fc1e",
+  "at": "2026-11-23T07:36:28.691Z",
+  "changedAt": "2026-11-23T07:36:28.691Z",
+  "rev": 743,
+  "sig": "61bb5512816316fcff8278ed1aeee851d9f7e3ab86df3717600d38b351520c46",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -54,9 +54,9 @@
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
-        "version": "1.0.0-b.1",
+        "version": "1.0.0",
         "latest": "1.0.0",
-        "update": true,
+        "update": false,
         "state": "ready",
         "store": {
           "id": "umbrel",
@@ -65,61 +65,7 @@
         "mode": "off",
         "hidden": false,
         "busy": false,
-        "detectedAt": 1795392465258,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "ollama",
-        "name": "Ollama",
-        "version": "0.40.16",
-        "latest": "0.40.17",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795392465259,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "wallos",
-        "name": "Wallos",
-        "version": "5.11.2",
-        "latest": "5.11.3",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795392465260,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "yuvomi",
-        "name": "Yuvomi",
-        "version": "2.93.0",
-        "latest": "2.94.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795395437748,
+        "detectedAt": null,
         "result": null,
         "waiting": false
       },
@@ -353,6 +299,24 @@
         "waiting": false
       },
       {
+        "id": "ollama",
+        "name": "Ollama",
+        "version": "0.40.17",
+        "latest": "0.40.17",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
         "id": "open-webui",
         "name": "Open WebUI",
         "version": "0.13.4",
@@ -567,6 +531,24 @@
         "waiting": false
       },
       {
+        "id": "wallos",
+        "name": "Wallos",
+        "version": "5.11.3",
+        "latest": "5.11.3",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
         "id": "webcheck",
         "name": "WebCheck",
         "version": "2.4.0",
@@ -583,6 +565,24 @@
         "detectedAt": null,
         "result": null,
         "waiting": false
+      },
+      {
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "version": "2.94.0",
+        "latest": "2.94.0",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
       }
     ],
     "install": {
@@ -591,23 +591,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795419321248
+      "at": 1795419382347
     },
     "check": {
-      "at": 1795419321386,
+      "at": 1795419382577,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795419260769,
+      "at": 1795419382338,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795419327027,
+        "at": 1795419387033,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
