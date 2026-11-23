@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T12:21:56.200Z",
-  "changedAt": "2026-11-23T12:21:56.200Z",
-  "rev": 1101,
-  "sig": "6c4d882ab9efae854394548214f17592ffe77a790dc9816454924d0e4d1ca17a",
+  "at": "2026-11-23T12:22:56.273Z",
+  "changedAt": "2026-11-23T12:22:56.273Z",
+  "rev": 1102,
+  "sig": "deba8783a125c7d19b57a795f7b9c6c65a6b2fb2d162f7599b39ec540e86ce62",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795436503245,
+      "at": 1795436563249,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -79,6 +74,11 @@
         },
         {
           "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -646,7 +646,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 4 hours",
+            "status": "Up 5 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -931,7 +931,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 4 hours",
+        "status": "Up 5 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
