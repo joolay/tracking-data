@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T01:02:54.718Z",
-  "changedAt": "2026-11-23T01:02:54.718Z",
-  "rev": 481,
-  "sig": "e9748345500ea529d6689b0ba3c127bd28134ed57251848e916699315f791a2f",
+  "at": "2026-11-23T01:03:54.713Z",
+  "changedAt": "2026-11-23T01:03:54.713Z",
+  "rev": 482,
+  "sig": "3e279502112247d41fbcacf9225c3cfd2c1b5a2f452a2e150b13bc2b5a1fd7ce",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795395760412,
+      "at": 1795395820416,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "listify",
           "status": "Running",
           "paused": false
@@ -74,6 +54,26 @@
         },
         {
           "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -320,7 +320,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.0.14",
             "state": "running",
-            "status": "Up 33 hours",
+            "status": "Up 34 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1081,7 +1081,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.0.14",
         "state": "running",
-        "status": "Up 33 hours",
+        "status": "Up 34 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
