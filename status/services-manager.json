@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T20:29:57.002Z",
-  "changedAt": "2026-11-23T20:29:57.002Z",
-  "rev": 1547,
-  "sig": "a50610b32040de39f46ec54f48a13c4ed6e2780586561c7da6529b3cc1b3133d",
+  "at": "2026-11-23T20:30:57.069Z",
+  "changedAt": "2026-11-23T20:30:57.069Z",
+  "rev": 1548,
+  "sig": "4d07945619a381f31dd2eeca4e0ab5f1716b57fbf4857124666a9f7780b08018",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795465785709,
+      "at": 1795465845713,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "openclaw",
           "status": "Running",
           "paused": false
@@ -79,6 +59,26 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -733,7 +733,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 12 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1211,7 +1211,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 11 hours (healthy)",
+        "status": "Up 12 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
