@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T14:14:56.427Z",
-  "changedAt": "2026-11-23T14:14:56.427Z",
-  "rev": 1211,
-  "sig": "b87f92dcba7d48ab570f152ac4dc339985c6dd114f751f318ee0dbd3e5fb2113",
+  "at": "2026-11-23T14:15:56.441Z",
+  "changedAt": "2026-11-23T14:15:56.441Z",
+  "rev": 1212,
+  "sig": "4e9f24cfe9aaf243dcc775734c4ad2492ecf51b4e513dd934825f1f2dd5f817a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795443283620,
+      "at": 1795443343621,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -74,11 +79,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -445,7 +445,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 20 hours",
+            "status": "Up 21 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 20 hours",
+        "status": "Up 21 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
