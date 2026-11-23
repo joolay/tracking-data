@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T11:05:56.108Z",
-  "changedAt": "2026-11-23T11:05:56.108Z",
-  "rev": 1039,
-  "sig": "b5d7ce2caf222fed862639170c2cb92d8baf657c258f53ee22e5178d43e07bb9",
+  "at": "2026-11-23T11:06:56.110Z",
+  "changedAt": "2026-11-23T11:06:56.110Z",
+  "rev": 1040,
+  "sig": "71d268ed1d4234109b61f066ac1a6e8a16768c287ebda6ce136489ac77e3dd76",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795431942835,
+      "at": 1795432002835,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "shutterworth",
           "status": "Running",
           "paused": false
@@ -79,6 +59,26 @@
         },
         {
           "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -124,7 +124,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 3 hours",
+            "status": "Up 4 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -430,7 +430,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 43 hours",
+            "status": "Up 44 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -977,7 +977,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 3 hours",
+        "status": "Up 4 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1101,7 +1101,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 43 hours",
+        "status": "Up 44 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
