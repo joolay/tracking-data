@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T03:04:55.078Z",
-  "changedAt": "2026-11-23T03:04:55.078Z",
-  "rev": 591,
-  "sig": "cf66969a6af7d4075ba865643687d6aa90a364ed83b178a5b70fe4dcbfe6a7dc",
+  "at": "2026-11-23T03:05:55.061Z",
+  "changedAt": "2026-11-23T03:05:55.061Z",
+  "rev": 592,
+  "sig": "439871e068a180f61d0bdce19023941f8920824ca1097d6bfb811c25e366457b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795403080897,
+      "at": 1795403140901,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,21 +38,6 @@
       },
       "proxies": [
         {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "listify",
           "status": "Running",
           "paused": false
@@ -74,6 +59,21 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -296,7 +296,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.2",
             "state": "running",
-            "status": "Up 35 hours",
+            "status": "Up 36 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -401,7 +401,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.1.0",
             "state": "running",
-            "status": "Up 35 hours (healthy)",
+            "status": "Up 36 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1050,7 +1050,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.1.0",
         "state": "running",
-        "status": "Up 35 hours (healthy)",
+        "status": "Up 36 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1066,7 +1066,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.2",
         "state": "running",
-        "status": "Up 35 hours",
+        "status": "Up 36 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
