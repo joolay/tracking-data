@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T13:26:56.272Z",
-  "changedAt": "2026-11-23T13:26:56.272Z",
-  "rev": 1164,
-  "sig": "5e44dd7232188bbf9ade9bcca2b01b26baf8f0a2a900c640a43ef740c9479a81",
+  "at": "2026-11-23T13:27:56.273Z",
+  "changedAt": "2026-11-23T13:27:56.273Z",
+  "rev": 1165,
+  "sig": "4c83750c05eac0cbd0e66d933b1d9236c475fe78b2c555a0f900030b61842b63",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795440403520,
+      "at": 1795440463523,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -79,6 +69,16 @@
         },
         {
           "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -397,7 +397,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.0",
             "state": "running",
-            "status": "Up 24 minutes (healthy)",
+            "status": "Up 25 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -421,7 +421,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.0",
             "state": "running",
-            "status": "Up 24 minutes (healthy)",
+            "status": "Up 25 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -842,7 +842,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.0",
         "state": "running",
-        "status": "Up 24 minutes (healthy)",
+        "status": "Up 25 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -858,7 +858,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.0",
         "state": "running",
-        "status": "Up 24 minutes (healthy)",
+        "status": "Up 25 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
