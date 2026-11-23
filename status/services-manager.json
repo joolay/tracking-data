@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T11:56:56.177Z",
-  "changedAt": "2026-11-23T11:56:56.177Z",
-  "rev": 1080,
-  "sig": "611ea454584ec21517d24233d3b98ef8fc1e94c7df096c6e59ebec3d03e0e3af",
+  "at": "2026-11-23T11:57:56.182Z",
+  "changedAt": "2026-11-23T11:57:56.182Z",
+  "rev": 1081,
+  "sig": "bc61848cb1b9d7ef83561e3919f0d422d29854951007594bfba3911230e112a1",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795435003116,
+      "at": 1795435063120,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -79,6 +64,21 @@
         },
         {
           "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -526,7 +526,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up 16 hours (healthy)",
+            "status": "Up 17 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -992,7 +992,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.8.0",
         "state": "running",
-        "status": "Up 16 hours (healthy)",
+        "status": "Up 17 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
