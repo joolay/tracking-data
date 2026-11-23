@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T22:56:57.406Z",
-  "changedAt": "2026-11-23T22:56:57.406Z",
-  "rev": 1666,
-  "sig": "f5724a74941ed5b54339ba819980b8277dfb8f459545eac78e0f011f2124bb85",
+  "at": "2026-11-23T22:57:57.461Z",
+  "changedAt": "2026-11-23T22:57:57.461Z",
+  "rev": 1667,
+  "sig": "a10873f405f03882909e99516c20e1878445971d9c4432be7d34b76f2db93146",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795474606521,
+      "at": 1795474666523,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -81,6 +76,11 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -469,7 +469,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up 27 hours (healthy)",
+            "status": "Up 28 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -935,7 +935,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.8.0",
         "state": "running",
-        "status": "Up 27 hours (healthy)",
+        "status": "Up 28 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
