@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T07:35:55.704Z",
-  "changedAt": "2026-11-23T07:35:55.704Z",
-  "rev": 839,
-  "sig": "718913e4cebab85735f94f463cdc081c4dd2047d0534796d4794b2070ea761e3",
+  "at": "2026-11-23T07:36:55.673Z",
+  "changedAt": "2026-11-23T07:36:55.673Z",
+  "rev": 840,
+  "sig": "ee0a98313823ccfef47b7b1a46271be8ff9aa93a665f80b078aa505577a47cfe",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795419342029,
+      "at": 1795419402033,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
           "name": "joolzapp",
           "status": "Running",
           "paused": false
@@ -76,6 +56,26 @@
           "name": "joolztv",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -96,11 +96,35 @@
       }
     },
     "summary": {
-      "containers": 30,
-      "running": 29,
+      "containers": 31,
+      "running": 30,
       "problems": []
     },
     "services": [
+      {
+        "key": "docker:adguard-home",
+        "kind": "docker",
+        "id": "adguard-home",
+        "name": "adguard-home",
+        "state": "running",
+        "busy": false,
+        "on": true,
+        "autoStart": null,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "5d2b69105fe2",
+            "name": "adguard-home_server_1",
+            "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 39 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
       {
         "key": "docker:app-proxy",
         "kind": "docker",
@@ -793,6 +817,21 @@
       }
     ],
     "containers": [
+      {
+        "id": "5d2b69105fe2",
+        "name": "adguard-home_server_1",
+        "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 39 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-23T07:36:16.251410147Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "152f3fbf008d",
         "name": "joolay-portal-admin_web_1",
