@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T12:56:56.221Z",
-  "changedAt": "2026-11-23T12:56:56.221Z",
-  "rev": 1134,
-  "sig": "80c2f6c160faaa3f8e46a6780060d6c5c24370513504b8d505f0780cb6a03289",
+  "at": "2026-11-23T12:57:56.226Z",
+  "changedAt": "2026-11-23T12:57:56.226Z",
+  "rev": 1135,
+  "sig": "b0bef0758ce28b4f28fcef7c0d35c10d8071c9f42bcfad077d80a69a86062b13",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795438603405,
+      "at": 1795438663408,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -81,6 +71,16 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -526,7 +526,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.8.0",
             "state": "running",
-            "status": "Up 17 hours (healthy)",
+            "status": "Up 18 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -992,7 +992,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.8.0",
         "state": "running",
-        "status": "Up 17 hours (healthy)",
+        "status": "Up 18 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
