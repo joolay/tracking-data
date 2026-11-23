@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T21:52:57.295Z",
-  "changedAt": "2026-11-23T21:52:57.295Z",
-  "rev": 1618,
-  "sig": "f649ad61d5777fec0366e6f1698eb9b5e8ff109e8484ee75ccf57702bf65b488",
+  "at": "2026-11-23T21:53:57.322Z",
+  "changedAt": "2026-11-23T21:53:57.322Z",
+  "rev": 1619,
+  "sig": "90cb8944c526f4b3b90e571200dd84bb2d149c8e1cabd24ed2e0d8919893e576",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795470766213,
+      "at": 1795470826218,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "port-master",
           "status": "Paused",
           "paused": true
@@ -79,6 +59,26 @@
         },
         {
           "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -196,7 +196,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 27 hours (healthy)",
+            "status": "Up 28 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -951,7 +951,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 27 hours (healthy)",
+        "status": "Up 28 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
