@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-23T13:04:52.121Z",
-  "changedAt": "2026-11-23T13:04:52.121Z",
-  "rev": 978,
-  "sig": "e01f710e1fe4fe220986a983d1670c4bad634d7c5dd26c95917e30e3cbb8e767",
+  "at": "2026-11-23T13:05:52.142Z",
+  "changedAt": "2026-11-23T13:05:52.142Z",
+  "rev": 979,
+  "sig": "0df83c1a8ed8e375719f8b6d714f2f535f88c5333c7c02c05cae3888257aa9ba",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -24,6 +24,10 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Paused"
+        },
         {
           "name": "joolztv",
           "status": "Running"
@@ -55,10 +59,6 @@
         {
           "name": "diner-bell",
           "status": "Running"
-        },
-        {
-          "name": "port-master",
-          "status": "Paused"
         }
       ]
     },
@@ -103,13 +103,6 @@
         "state": "up"
       },
       {
-        "port": 3123,
-        "app": "glasshome",
-        "name": "GlassHome",
-        "kind": "app",
-        "state": "up"
-      },
-      {
         "port": 3881,
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
@@ -126,14 +119,14 @@
       {
         "port": 3885,
         "app": "joolay-portal",
-        "name": "JoolzApp Store",
+        "name": "JoolzApp Dashboard",
         "kind": "app",
         "state": "up"
       },
       {
         "port": 3886,
         "app": "joolay-portal",
-        "name": "JoolzApp Store",
+        "name": "JoolzApp Dashboard",
         "kind": "published",
         "state": "up"
       },
@@ -156,13 +149,6 @@
         "app": "joolay-services-manager",
         "name": "Services Manager",
         "kind": "app",
-        "state": "up"
-      },
-      {
-        "port": 3892,
-        "app": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "kind": "published",
         "state": "up"
       },
       {
@@ -285,13 +271,6 @@
         "state": "up"
       },
       {
-        "port": 4499,
-        "app": "cloudflared",
-        "name": "Cloudflare Tunnel",
-        "kind": "app",
-        "state": "up"
-      },
-      {
         "port": 5400,
         "app": "pocketbase",
         "name": "PocketBase",
@@ -406,84 +385,6 @@
             "status": 302,
             "error": "",
             "since": 1795375663046
-          }
-        ]
-      },
-      {
-        "id": "cloudflared",
-        "name": "Cloudflare Tunnel",
-        "version": "2026.10.4",
-        "joolzapp": false,
-        "portal": "off",
-        "port": 4499,
-        "hostPorts": [],
-        "published": "",
-        "routes": [
-          {
-            "key": "lan",
-            "url": "http://host.docker.internal:4499/",
-            "state": "up",
-            "ignored": false,
-            "status": 302,
-            "error": "",
-            "since": 1795375663049
-          },
-          {
-            "key": "local",
-            "url": "http://umbrel.local:4499/",
-            "state": "up",
-            "ignored": false,
-            "status": 302,
-            "error": "",
-            "since": 1795375663050
-          },
-          {
-            "key": "tailscale",
-            "url": "http://100.118.10.62:4499/",
-            "state": "up",
-            "ignored": false,
-            "status": 302,
-            "error": "",
-            "since": 1795375663047
-          }
-        ]
-      },
-      {
-        "id": "glasshome",
-        "name": "GlassHome",
-        "version": "1.4.5",
-        "joolzapp": false,
-        "portal": "off",
-        "port": 3123,
-        "hostPorts": [],
-        "published": "",
-        "routes": [
-          {
-            "key": "lan",
-            "url": "http://host.docker.internal:3123/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795375663067
-          },
-          {
-            "key": "local",
-            "url": "http://umbrel.local:3123/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795375663065
-          },
-          {
-            "key": "tailscale",
-            "url": "http://100.118.10.62:3123/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795375663065
           }
         ]
       },
@@ -884,8 +785,8 @@
       },
       {
         "id": "joolay-portal",
-        "name": "JoolzApp Store",
-        "version": "0.40.3",
+        "name": "JoolzApp Dashboard",
+        "version": "0.41.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3885,
@@ -935,12 +836,11 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.40.3",
+        "version": "0.41.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3890,
         "hostPorts": [
-          3892,
           3899
         ],
         "published": "",
