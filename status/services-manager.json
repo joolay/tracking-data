@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T04:05:55.171Z",
-  "changedAt": "2026-11-23T04:05:55.171Z",
-  "rev": 650,
-  "sig": "b38e5d5afb1ae61dee7b7890abc5497e5825539ee05d9f141a404e7a55de182d",
+  "at": "2026-11-23T04:06:55.155Z",
+  "changedAt": "2026-11-23T04:06:55.155Z",
+  "rev": 651,
+  "sig": "055f4240ed282afaf6f440ea09aa6fd1c92fb533f077754df40560271574da8f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795406741201,
+      "at": 1795406801204,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -74,6 +64,16 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -425,7 +425,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 36 hours",
+            "status": "Up 37 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1035,7 +1035,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 36 hours",
+        "status": "Up 37 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
