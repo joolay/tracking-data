@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T15:12:56.517Z",
-  "changedAt": "2026-11-23T15:12:56.517Z",
-  "rev": 1269,
-  "sig": "9c457e02fb4dde492c97ffe28d4e0d75eaf743a0cec59873f2789fecc022071e",
+  "at": "2026-11-23T15:13:56.517Z",
+  "changedAt": "2026-11-23T15:13:56.517Z",
+  "rev": 1270,
+  "sig": "68ac813d134e0c94504e587ca80fef2a01317cd2984571c68004285932fb24aa",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795446764018,
+      "at": 1795446824025,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -74,11 +79,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -292,7 +292,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
             "state": "running",
-            "status": "Up 21 hours",
+            "status": "Up 22 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -397,7 +397,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 55 minutes (healthy)",
+            "status": "Up 56 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -421,7 +421,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 55 minutes (healthy)",
+            "status": "Up 56 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -842,7 +842,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 55 minutes (healthy)",
+        "status": "Up 56 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -858,7 +858,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 55 minutes (healthy)",
+        "status": "Up 56 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -998,7 +998,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
         "state": "running",
-        "status": "Up 21 hours",
+        "status": "Up 22 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
