@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T10:12:55.957Z",
-  "changedAt": "2026-11-23T10:12:55.957Z",
-  "rev": 994,
-  "sig": "982994af3c97f9c2a1dc532b4a59f9cad93fa087e53c2f34ddc5ba5247ccd8ad",
+  "at": "2026-11-23T10:13:55.963Z",
+  "changedAt": "2026-11-23T10:13:55.963Z",
+  "rev": 995,
+  "sig": "a480b7a2ae1c004b7374ff135e909a38bb01ac4fcf78cc0033a1fdd8063e9b1a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795428762638,
+      "at": 1795428822639,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "openclaw",
           "status": "Running",
           "paused": false
@@ -79,6 +59,26 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -349,7 +349,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
             "state": "running",
-            "status": "Up 16 hours",
+            "status": "Up 17 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -478,7 +478,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.3",
             "state": "running",
-            "status": "Up About an hour (healthy)",
+            "status": "Up 2 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -899,7 +899,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.3",
         "state": "running",
-        "status": "Up About an hour (healthy)",
+        "status": "Up 2 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1055,7 +1055,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.3.2",
         "state": "running",
-        "status": "Up 16 hours",
+        "status": "Up 17 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
