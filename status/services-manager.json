@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T01:14:54.725Z",
-  "changedAt": "2026-11-23T01:14:54.725Z",
-  "rev": 492,
-  "sig": "b7f09a7c56ac28ebaa8cc845679803d96b13b26a267499ca59176a43287e760b",
+  "at": "2026-11-23T01:15:54.728Z",
+  "changedAt": "2026-11-23T01:15:54.728Z",
+  "rev": 493,
+  "sig": "3a179333b65fc1be88208749c316455a53de9727554c2efa20e846c552d13280",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795396480448,
+      "at": 1795396540451,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,21 @@
       },
       "proxies": [
         {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "joolztv",
           "status": "Running",
           "paused": false
@@ -61,21 +76,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -497,7 +497,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 7 hours",
+            "status": "Up 8 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -974,7 +974,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 7 hours",
+        "status": "Up 8 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
