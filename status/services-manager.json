@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T17:51:56.817Z",
-  "changedAt": "2026-11-23T17:51:56.817Z",
-  "rev": 1408,
-  "sig": "c2e44dd6cb5902cdff6432390df5ff49128effe3a65c6b6b0b0e64d83a945712",
+  "at": "2026-11-23T17:52:56.799Z",
+  "changedAt": "2026-11-23T17:52:56.799Z",
+  "rev": 1409,
+  "sig": "215bc313f80c798195fbeeecffc7f614ef9a60c4169a288447bbd6262551a786",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795456304790,
+      "at": 1795456364793,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,26 +38,6 @@
       },
       "proxies": [
         {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "openclaw",
           "status": "Running",
           "paused": false
@@ -79,6 +59,26 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -493,7 +493,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.3.0",
             "state": "running",
-            "status": "Up 23 hours (healthy)",
+            "status": "Up 24 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -967,7 +967,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.3.0",
         "state": "running",
-        "status": "Up 23 hours (healthy)",
+        "status": "Up 24 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
