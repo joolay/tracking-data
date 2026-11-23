@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T15:02:56.509Z",
-  "changedAt": "2026-11-23T15:02:56.509Z",
-  "rev": 1259,
-  "sig": "574a72a62ac2333d63328f480b8b48218036d1712023f8a3c5914a885adb3f7e",
+  "at": "2026-11-23T15:03:56.512Z",
+  "changedAt": "2026-11-23T15:03:56.512Z",
+  "rev": 1260,
+  "sig": "9655042e58770dacde5c5cb223c13cd79e4a4c63b28bec1fdf7e1ef86652cc94",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795446163951,
+      "at": 1795446223955,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -79,6 +69,16 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -268,7 +268,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.0.14",
             "state": "running",
-            "status": "Up 47 hours",
+            "status": "Up 2 days",
             "policy": "on-failure",
             "self": false
           }
@@ -397,7 +397,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 45 minutes (healthy)",
+            "status": "Up 46 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -421,7 +421,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 45 minutes (healthy)",
+            "status": "Up 46 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -842,7 +842,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 45 minutes (healthy)",
+        "status": "Up 46 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -858,7 +858,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 45 minutes (healthy)",
+        "status": "Up 46 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1090,7 +1090,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.0.14",
         "state": "running",
-        "status": "Up 47 hours",
+        "status": "Up 2 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
