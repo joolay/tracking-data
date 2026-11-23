@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T07:36:55.673Z",
-  "changedAt": "2026-11-23T07:36:55.673Z",
-  "rev": 840,
-  "sig": "ee0a98313823ccfef47b7b1a46271be8ff9aa93a665f80b078aa505577a47cfe",
+  "at": "2026-11-23T07:37:55.955Z",
+  "changedAt": "2026-11-23T07:37:55.955Z",
+  "rev": 841,
+  "sig": "17c27c1d78eff06023ecd1db3e8e03df98adef557a5b3e881faa9ed0c5de173c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795419402033,
+      "at": 1795419462044,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -76,6 +71,11 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -96,8 +96,8 @@
       }
     },
     "summary": {
-      "containers": 31,
-      "running": 30,
+      "containers": 33,
+      "running": 32,
       "problems": []
     },
     "services": [
@@ -119,7 +119,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 39 seconds",
+            "status": "Up About a minute",
             "policy": "on-failure",
             "self": false
           }
@@ -792,6 +792,30 @@
         ]
       },
       {
+        "key": "docker:wallos",
+        "kind": "docker",
+        "id": "wallos",
+        "name": "wallos",
+        "state": "running",
+        "busy": false,
+        "on": true,
+        "autoStart": null,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "0d55625bdbf7",
+            "name": "wallos_server_1",
+            "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 8 seconds (health: starting)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
+      },
+      {
         "key": "docker:webcheck",
         "kind": "docker",
         "id": "webcheck",
@@ -814,15 +838,70 @@
             "self": false
           }
         ]
+      },
+      {
+        "key": "docker:yuvomi",
+        "kind": "docker",
+        "id": "yuvomi",
+        "name": "yuvomi",
+        "state": "running",
+        "busy": false,
+        "on": true,
+        "autoStart": null,
+        "policy": "on-failure",
+        "pinned": null,
+        "protected": false,
+        "containers": [
+          {
+            "id": "c8ad1e9e74dc",
+            "name": "yuvomi_web_1",
+            "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 29 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       }
     ],
     "containers": [
+      {
+        "id": "0d55625bdbf7",
+        "name": "wallos_server_1",
+        "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 8 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-23T07:37:47.296900129Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "c8ad1e9e74dc",
+        "name": "yuvomi_web_1",
+        "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 29 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-23T07:37:26.129473872Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "5d2b69105fe2",
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 39 seconds",
+        "status": "Up About a minute",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
