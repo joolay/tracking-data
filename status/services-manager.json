@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T23:14:57.435Z",
-  "changedAt": "2026-11-23T23:14:57.435Z",
-  "rev": 1680,
-  "sig": "aa0ef101ba96db95cc6dd3faf39f5b941a201f4649c8771801a4e11af3666e4d",
+  "at": "2026-11-23T23:15:57.422Z",
+  "changedAt": "2026-11-23T23:15:57.422Z",
+  "rev": 1681,
+  "sig": "2734eb6684257341947023f8c656b95cd82b81b3dd04b30f4935826d7e8173a8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795475686563,
+      "at": 1795475746565,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -79,6 +69,16 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -445,7 +445,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 29 hours",
+            "status": "Up 30 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 29 hours",
+        "status": "Up 30 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
