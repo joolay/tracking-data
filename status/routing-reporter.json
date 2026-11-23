@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-23T07:39:47.566Z",
-  "changedAt": "2026-11-23T07:39:47.566Z",
-  "rev": 706,
-  "sig": "792c33b053a1dda5537697c966395f9ee564106838e1d0d758d85f63dbe43b49",
+  "at": "2026-11-23T07:40:47.560Z",
+  "changedAt": "2026-11-23T07:40:47.560Z",
+  "rev": 707,
+  "sig": "228fabff9d528949fe4d88b1ad17c3fdf22e7e754f1c3bb9c1e43ae9b475404e",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -25,18 +25,6 @@
       "writeError": "",
       "proxies": [
         {
-          "name": "joolzapp",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
           "name": "joolztv",
           "status": "Running"
         },
@@ -55,6 +43,18 @@
         {
           "name": "port-master",
           "status": "Paused"
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
         }
       ]
     },
@@ -361,7 +361,7 @@
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
-        "version": "1.0.0-b.1",
+        "version": "1.0.0",
         "joolzapp": false,
         "portal": "off",
         "port": 8095,
@@ -1234,7 +1234,7 @@
       {
         "id": "ollama",
         "name": "Ollama",
-        "version": "0.40.16",
+        "version": "0.40.17",
         "joolzapp": false,
         "portal": "off",
         "port": 11434,
@@ -1246,8 +1246,8 @@
             "url": "http://host.docker.internal:11434/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795375664567
           },
           {
@@ -1255,8 +1255,8 @@
             "url": "http://umbrel.local:11434/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795375664575
           },
           {
@@ -1264,8 +1264,8 @@
             "url": "http://100.118.10.62:11434/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795375664571
           }
         ]
@@ -1468,7 +1468,7 @@
       {
         "id": "wallos",
         "name": "Wallos",
-        "version": "5.11.2",
+        "version": "5.11.3",
         "joolzapp": false,
         "portal": "off",
         "port": 8282,
@@ -1546,7 +1546,7 @@
       {
         "id": "yuvomi",
         "name": "Yuvomi",
-        "version": "2.93.0",
+        "version": "2.94.0",
         "joolzapp": false,
         "portal": "off",
         "port": 8180,
