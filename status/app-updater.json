@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T00:56:25.346Z",
-  "changedAt": "2026-11-23T00:56:25.346Z",
-  "rev": 403,
-  "sig": "70695fb6b6afaa6de1e64c5a2f499694c1272f9304ef680e7ddc1897f4069bb8",
+  "at": "2026-11-23T00:57:25.347Z",
+  "changedAt": "2026-11-23T00:57:25.347Z",
+  "rev": 404,
+  "sig": "aff3ec3e3c072be5053386f35ad1024d5dc3a1f08896153e7db678606224fc1e",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -102,6 +102,24 @@
         "hidden": false,
         "busy": false,
         "detectedAt": 1795392465260,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "version": "2.93.0",
+        "latest": "2.94.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795395437748,
         "result": null,
         "waiting": false
       },
@@ -565,24 +583,6 @@
         "detectedAt": null,
         "result": null,
         "waiting": false
-      },
-      {
-        "id": "yuvomi",
-        "name": "Yuvomi",
-        "version": "2.93.0",
-        "latest": "2.93.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
       }
     ],
     "install": {
@@ -591,10 +591,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795395377409
+      "at": 1795395437808
     },
     "check": {
-      "at": 1795395377572,
+      "at": 1795395437952,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
@@ -607,7 +607,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795395370388,
+        "at": 1795395430391,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -631,6 +631,11 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "shutterworth",
             "status": "Running",
@@ -665,11 +670,6 @@
             "name": "project-tracker",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -696,6 +696,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795395437749,
+        "level": "info",
+        "appId": "yuvomi",
+        "message": "Update available: Yuvomi 2.93.0 → 2.94.0"
+      },
       {
         "t": 1795392465260,
         "level": "info",
