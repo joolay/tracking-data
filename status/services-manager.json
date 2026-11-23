@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T08:42:55.796Z",
-  "changedAt": "2026-11-23T08:42:55.796Z",
-  "rev": 906,
-  "sig": "b3b4a155c84f84c6c3425029d21a15a16c51cf2c1779cab87bdd95a30269f7b7",
+  "at": "2026-11-23T08:43:55.789Z",
+  "changedAt": "2026-11-23T08:43:55.789Z",
+  "rev": 907,
+  "sig": "3ca4e9ec4c1eac75e28326eb47ee01319dedd393f7ecebfe1a03c2ebc373180f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795423362355,
+      "at": 1795423422360,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -449,7 +449,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.3",
             "state": "running",
-            "status": "Up 4 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -469,11 +469,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "87d25898d606",
+            "id": "32f3a8b2dece",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.40.2",
+            "image": "ghcr.io/joolay/portal-admin:0.40.3",
             "state": "running",
-            "status": "Up 10 minutes (healthy)",
+            "status": "Up 49 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -641,7 +641,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 50 minutes",
+            "status": "Up 51 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -890,33 +890,33 @@
     ],
     "containers": [
       {
-        "id": "ce8ab65aebae",
-        "name": "joolay-portal_web_1",
+        "id": "32f3a8b2dece",
+        "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.3",
         "state": "running",
-        "status": "Up 4 seconds (health: starting)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "starting",
-        "startedAt": "2026-11-23T08:42:50.846756127Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "87d25898d606",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.40.2",
-        "state": "running",
-        "status": "Up 10 minutes (healthy)",
+        "status": "Up 49 seconds (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
-        "startedAt": "2026-11-23T08:32:29.187837545Z",
+        "startedAt": "2026-11-23T08:43:06.431687141Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "ce8ab65aebae",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.40.3",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-23T08:42:50.846756127Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
@@ -926,7 +926,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 50 minutes",
+        "status": "Up 51 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
