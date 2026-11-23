@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T01:52:54.792Z",
-  "changedAt": "2026-11-23T01:52:54.792Z",
-  "rev": 526,
-  "sig": "9747f148024701098c0a59683d0de7d89df0837d1beaeb5ec4460d18adce3710",
+  "at": "2026-11-23T01:53:54.816Z",
+  "changedAt": "2026-11-23T01:53:54.816Z",
+  "rev": 527,
+  "sig": "f9c426e958ca27c009425d86eb6bcfab6e992b0d5d28d0e784577f5d65daea9e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795398760532,
+      "at": 1795398820534,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,21 @@
       },
       "proxies": [
         {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "shutterworth",
           "status": "Running",
           "paused": false
@@ -59,21 +74,6 @@
         },
         {
           "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -248,7 +248,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -785,7 +785,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -942,7 +942,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1233,7 +1233,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
