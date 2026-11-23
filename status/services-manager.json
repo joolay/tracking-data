@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T05:43:55.320Z",
-  "changedAt": "2026-11-23T05:43:55.320Z",
-  "rev": 737,
-  "sig": "ce2b6994b67bc2785a624a12009d2c46ceae0a21daf66f906617c4913ea976e1",
+  "at": "2026-11-23T05:44:55.328Z",
+  "changedAt": "2026-11-23T05:44:55.328Z",
+  "rev": 738,
+  "sig": "00a6beec11771794854dfc076032cc72d5c2ab34b71ef71cfbe971ae02e6b1c7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795412621571,
+      "at": 1795412681573,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -69,11 +74,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -665,7 +665,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.4@sha256:[hidden]",
             "state": "running",
-            "status": "Up 4 days (healthy)",
+            "status": "Up 5 days (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1172,7 +1172,7 @@
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.4@sha256:[hidden]",
         "state": "running",
-        "status": "Up 4 days (healthy)",
+        "status": "Up 5 days (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
