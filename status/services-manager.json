@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T20:05:56.980Z",
-  "changedAt": "2026-11-23T20:05:56.980Z",
-  "rev": 1525,
-  "sig": "d3e21ccc1dad7e9782207020d22a8048fb5adde38d3a4b3d695763dd1dd9212c",
+  "at": "2026-11-23T20:06:56.975Z",
+  "changedAt": "2026-11-23T20:06:56.975Z",
+  "rev": 1526,
+  "sig": "01bfb077e410ba0e092e7f317263178dca32dc3bf7e54c32c6ef91078ff88b63",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795464345570,
+      "at": 1795464405576,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,26 @@
       },
       "proxies": [
         {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "openclaw",
           "status": "Running",
           "paused": false
@@ -59,26 +79,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -124,7 +124,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 12 hours",
+            "status": "Up 13 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -920,7 +920,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 12 hours",
+        "status": "Up 13 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
