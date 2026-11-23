@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T07:05:55.589Z",
-  "changedAt": "2026-11-23T07:05:55.589Z",
-  "rev": 813,
-  "sig": "a3524689b09f7dc792957ffc49ed8fb8e1005f8d3ffae045bfbdac045a71b460",
+  "at": "2026-11-23T07:06:55.589Z",
+  "changedAt": "2026-11-23T07:06:55.589Z",
+  "rev": 814,
+  "sig": "fc0de2219604f0c0a5426bd12e0590199892b57b4bf1deda5f69006b691f50d2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795417541861,
+      "at": 1795417601866,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -76,6 +66,16 @@
           "name": "diner-bell",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -425,7 +425,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.0.17",
             "state": "running",
-            "status": "Up 39 hours",
+            "status": "Up 40 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1035,7 +1035,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.0.17",
         "state": "running",
-        "status": "Up 39 hours",
+        "status": "Up 40 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
