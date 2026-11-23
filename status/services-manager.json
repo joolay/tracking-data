@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T17:21:56.756Z",
-  "changedAt": "2026-11-23T17:21:56.756Z",
-  "rev": 1380,
-  "sig": "247a27e8bbc871132576060317628583fce37b54b35c4cb6cab47d4e799ac8cd",
+  "at": "2026-11-23T17:22:56.770Z",
+  "changedAt": "2026-11-23T17:22:56.770Z",
+  "rev": 1381,
+  "sig": "e3fdf3453f1bbbe4870fad6f8cf321e323caf277fc8cf99ee7b76fb29a0cf427",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795454504662,
+      "at": 1795454564669,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,26 @@
       },
       "proxies": [
         {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "openclaw",
           "status": "Running",
           "paused": false
@@ -59,26 +79,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -589,7 +589,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 9 hours",
+            "status": "Up 10 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -874,7 +874,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 9 hours",
+        "status": "Up 10 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
