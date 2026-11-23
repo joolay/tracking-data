@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T08:08:55.789Z",
-  "changedAt": "2026-11-23T08:08:55.789Z",
-  "rev": 872,
-  "sig": "368f34c612a175caece996ba168f12edf3be96f98425280ab8d8276ff402c7e8",
+  "at": "2026-11-23T08:09:55.694Z",
+  "changedAt": "2026-11-23T08:09:55.694Z",
+  "rev": 873,
+  "sig": "9e4151bbbb5351c17a895f68d5cc267072d8d0e87a0edee9e071a9db53f09cc2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795421322200,
+      "at": 1795421382204,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,21 @@
       },
       "proxies": [
         {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "cctv",
           "status": "Running",
           "paused": false
@@ -59,21 +74,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -119,7 +119,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 32 minutes",
+            "status": "Up 33 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -449,7 +449,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.0",
             "state": "running",
-            "status": "Up 59 seconds (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -473,7 +473,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.40.0",
             "state": "running",
-            "status": "Up 43 seconds (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -569,7 +569,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.7.20",
             "state": "running",
-            "status": "Up 40 hours",
+            "status": "Up 41 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -593,7 +593,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.2.0",
             "state": "running",
-            "status": "Up 40 hours (healthy)",
+            "status": "Up 41 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -641,7 +641,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 16 minutes",
+            "status": "Up 17 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -833,7 +833,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 31 minutes (healthy)",
+            "status": "Up 32 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -881,7 +881,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 31 minutes",
+            "status": "Up 32 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -894,7 +894,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.0",
         "state": "running",
-        "status": "Up 43 seconds (healthy)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -910,7 +910,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.40.0",
         "state": "running",
-        "status": "Up 59 seconds (healthy)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -926,7 +926,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 16 minutes",
+        "status": "Up 17 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -941,7 +941,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 31 minutes (healthy)",
+        "status": "Up 32 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -957,7 +957,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 31 minutes",
+        "status": "Up 32 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -972,7 +972,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 32 minutes",
+        "status": "Up 33 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1065,7 +1065,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.2.0",
         "state": "running",
-        "status": "Up 40 hours (healthy)",
+        "status": "Up 41 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1081,7 +1081,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.7.20",
         "state": "running",
-        "status": "Up 40 hours",
+        "status": "Up 41 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
