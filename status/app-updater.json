@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T07:52:28.991Z",
-  "changedAt": "2026-11-23T07:52:28.991Z",
-  "rev": 756,
-  "sig": "1f33bd4cff321b1476be58c524d7404cd80f4df8bb4274cb98f1f763fa913c46",
+  "at": "2026-11-23T07:53:28.750Z",
+  "changedAt": "2026-11-23T07:53:28.750Z",
+  "rev": 757,
+  "sig": "7d265e79f5d770f00a4b4d7cec80da017d85ae57c06df17e192170e70efa8d2a",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -304,14 +304,14 @@
         "version": "0.40.17",
         "latest": "0.40.17",
         "update": false,
-        "state": "updating",
+        "state": "ready",
         "store": {
           "id": "umbrel",
           "name": "Umbrel"
         },
         "mode": "off",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": null,
         "waiting": false
@@ -591,23 +591,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795420294282
+      "at": 1795420355165
     },
     "check": {
-      "at": 1795420294482,
+      "at": 1795420355289,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795420232798,
+      "at": 1795420355160,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795420347117,
+        "at": 1795420407124,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -631,16 +631,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "listify",
             "status": "Running",
@@ -668,6 +658,16 @@
           },
           {
             "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "joolzapp",
             "status": "Running",
             "paused": false
           }
