@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T09:43:55.879Z",
-  "changedAt": "2026-11-23T09:43:55.879Z",
-  "rev": 967,
-  "sig": "26c8f39ba9994f31d8e1645840152353e601e16c58fc353bc63d9110a28ad6b9",
+  "at": "2026-11-23T09:44:55.863Z",
+  "changedAt": "2026-11-23T09:44:55.863Z",
+  "rev": 968,
+  "sig": "1a8e74d36659ee6b98f4c88398255812b7b5900758e3cd3a1f705b5ae57d5cfc",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795427022582,
+      "at": 1795427082583,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -69,16 +79,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -790,7 +790,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 43 minutes (healthy)",
+            "status": "Up 44 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1268,7 +1268,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 43 minutes (healthy)",
+        "status": "Up 44 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
