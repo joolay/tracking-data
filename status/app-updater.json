@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-23T12:59:31.035Z",
-  "changedAt": "2026-11-23T12:59:31.035Z",
-  "rev": 1010,
-  "sig": "1cad29bbab05ec7198d73ea5c784328e6d14027d1c22fd051995a9b4c2e22d67",
+  "at": "2026-11-23T13:01:31.115Z",
+  "changedAt": "2026-11-23T13:01:31.115Z",
+  "rev": 1011,
+  "sig": "111c4f2f3d360f86ed1f8793c447c3f2d1be79229845de8207c3588558ccbf48",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -82,24 +82,6 @@
           "raw": "joolay"
         },
         "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "cloudflared",
-        "name": "Cloudflare Tunnel",
-        "version": "2026.10.4",
-        "latest": "2026.10.4",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -591,23 +573,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795438731320
+      "at": 1795438852857
     },
     "check": {
-      "at": 1795438731461,
+      "at": 1795438853000,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 392
     },
     "repo": {
-      "at": 1795438731315,
+      "at": 1795438852847,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795438768413,
+        "at": 1795438888423,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -631,6 +613,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "listify",
             "status": "Running",
@@ -658,21 +655,6 @@
           },
           {
             "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
             "status": "Running",
             "paused": false
           }
