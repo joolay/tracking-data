@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T12:52:56.227Z",
-  "changedAt": "2026-11-23T12:52:56.227Z",
-  "rev": 1130,
-  "sig": "434acee2fba60384b4715309198c84d17931fb3f5b05d0f586866d0c5fe8b7d9",
+  "at": "2026-11-23T12:53:56.225Z",
+  "changedAt": "2026-11-23T12:53:56.225Z",
+  "rev": 1131,
+  "sig": "e3c818fbac89b1a5fc877e34f24719a19cc365caab98255e523a15500f24152b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795438363389,
+      "at": 1795438423393,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -74,11 +79,6 @@
         },
         {
           "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -253,7 +253,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.9.0",
             "state": "running",
-            "status": "Up 18 hours (healthy)",
+            "status": "Up 19 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1008,7 +1008,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.9.0",
         "state": "running",
-        "status": "Up 18 hours (healthy)",
+        "status": "Up 19 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
