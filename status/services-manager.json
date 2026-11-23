@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-23T06:02:55.436Z",
-  "changedAt": "2026-11-23T06:02:55.436Z",
-  "rev": 756,
-  "sig": "bde7ee12a04f18fe9342d4f15a3e6759488cdce1884d9a020f7acbfd110c89d1",
+  "at": "2026-11-23T06:03:55.424Z",
+  "changedAt": "2026-11-23T06:03:55.424Z",
+  "rev": 757,
+  "sig": "51d5f1f787611099f180b055134dbc4f27c4b762498f0105d91e125869b9bd2a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795413761602,
+      "at": 1795413821603,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -64,16 +74,6 @@
         },
         {
           "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -320,7 +320,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.0.14",
             "state": "running",
-            "status": "Up 38 hours",
+            "status": "Up 39 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1081,7 +1081,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.0.14",
         "state": "running",
-        "status": "Up 38 hours",
+        "status": "Up 39 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
