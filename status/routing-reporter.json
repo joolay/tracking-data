@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T22:15:18.831Z",
-  "changedAt": "2026-11-24T22:15:18.831Z",
-  "rev": 2786,
-  "sig": "017ad8f42ceadbc30f2f76d88530223a205704de4a33431b9c375221693b1b51",
+  "at": "2026-11-24T22:33:18.969Z",
+  "changedAt": "2026-11-24T22:33:18.969Z",
+  "rev": 2787,
+  "sig": "2bc5a6624cd897a55089a60a7636e77e909d946dbf8cc9f5d8544207d04c5ad5",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,10 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
         {
           "name": "joolzapp",
           "status": "Running"
@@ -130,6 +126,10 @@
         {
           "name": "tv-remote",
           "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
         }
       ]
     },
@@ -155,140 +155,189 @@
         "app": "adguard-home",
         "route": "name",
         "url": "https://adguard-home.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN adguard-home.macaw-chroma.ts.net",
         "since": 1795485194560
       },
       {
         "app": "home-assistant",
         "route": "name",
         "url": "https://home-assistant.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN home-assistant.macaw-chroma.ts.net",
         "since": 1795485194580
       },
       {
         "app": "joolay-app-updater",
         "route": "name",
         "url": "https://app-updater.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN app-updater.macaw-chroma.ts.net",
         "since": 1795485194753
       },
       {
         "app": "joolay-atvloadly",
         "route": "name",
         "url": "https://atvloadly.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN atvloadly.macaw-chroma.ts.net",
         "since": 1795485194787
+      },
+      {
+        "app": "joolay-cctv",
+        "route": "public",
+        "url": "https://cctv.macaw-chroma.ts.net/",
+        "error": "getaddrinfo EAI_AGAIN cctv.macaw-chroma.ts.net",
+        "since": 1795559117048
+      },
+      {
+        "app": "joolay-diner-bell",
+        "route": "public",
+        "url": "https://diner-bell.macaw-chroma.ts.net/",
+        "error": "getaddrinfo EAI_AGAIN diner-bell.macaw-chroma.ts.net",
+        "since": 1795559119050
       },
       {
         "app": "joolay-gatekeeper",
         "route": "name",
         "url": "https://gatekeeper.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN gatekeeper.macaw-chroma.ts.net",
         "since": 1795487948634
       },
       {
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN jolly-grocer.macaw-chroma.ts.net",
         "since": 1795485195151
+      },
+      {
+        "app": "joolay-joolztv",
+        "route": "public",
+        "url": "https://joolztv.macaw-chroma.ts.net/",
+        "error": "getaddrinfo EAI_AGAIN joolztv.macaw-chroma.ts.net",
+        "since": 1795559125056
       },
       {
         "app": "joolay-kiosk-manager",
         "route": "name",
         "url": "https://kiosk-manager.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN kiosk-manager.macaw-chroma.ts.net",
         "since": 1795485195346
+      },
+      {
+        "app": "joolay-listify",
+        "route": "public",
+        "url": "https://listify.macaw-chroma.ts.net/",
+        "error": "getaddrinfo EAI_AGAIN listify.macaw-chroma.ts.net",
+        "since": 1795559129065
+      },
+      {
+        "app": "joolay-portal",
+        "route": "public",
+        "url": "https://joolzapp.macaw-chroma.ts.net/",
+        "error": "getaddrinfo EAI_AGAIN joolzapp.macaw-chroma.ts.net",
+        "since": 1795559131066
       },
       {
         "app": "joolay-portal-admin",
         "route": "name",
         "url": "https://portaladmin.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN portaladmin.macaw-chroma.ts.net",
         "since": 1795485195583
+      },
+      {
+        "app": "joolay-project-tracker",
+        "route": "public",
+        "url": "https://project-tracker.macaw-chroma.ts.net/",
+        "error": "getaddrinfo EAI_AGAIN project-tracker.macaw-chroma.ts.net",
+        "since": 1795559135071
       },
       {
         "app": "joolay-services-manager",
         "route": "name",
         "url": "https://services-manager.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN services-manager.macaw-chroma.ts.net",
         "since": 1795485196658
+      },
+      {
+        "app": "joolay-shutterworth",
+        "route": "public",
+        "url": "https://shutterworth.macaw-chroma.ts.net/",
+        "error": "getaddrinfo EAI_AGAIN shutterworth.macaw-chroma.ts.net",
+        "since": 1795559141077
       },
       {
         "app": "joolay-tv-remote",
         "route": "name",
         "url": "https://tv-remote.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN tv-remote.macaw-chroma.ts.net",
         "since": 1795485196858
       },
       {
         "app": "kokoro",
         "route": "name",
         "url": "https://kokoro.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN kokoro.macaw-chroma.ts.net",
         "since": 1795485197026
       },
       {
         "app": "ollama",
         "route": "name",
         "url": "https://ollama.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN ollama.macaw-chroma.ts.net",
         "since": 1795485197058
       },
       {
         "app": "open-webui",
         "route": "name",
         "url": "https://open-webui.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN open-webui.macaw-chroma.ts.net",
         "since": 1795485197232
       },
       {
         "app": "openclaw",
         "route": "name",
         "url": "https://openclaw.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN openclaw.macaw-chroma.ts.net",
         "since": 1795484899596
       },
       {
         "app": "paperclip",
         "route": "name",
         "url": "https://paperclip.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN paperclip.macaw-chroma.ts.net",
         "since": 1795485197432
       },
       {
         "app": "pocketbase",
         "route": "name",
         "url": "https://pocketbase.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN pocketbase.macaw-chroma.ts.net",
         "since": 1795485197492
       },
       {
         "app": "tailscale",
         "route": "name",
         "url": "https://tailscale.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN tailscale.macaw-chroma.ts.net",
         "since": 1795485197623
       },
       {
         "app": "wallos",
         "route": "name",
         "url": "https://wallos.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN wallos.macaw-chroma.ts.net",
         "since": 1795485197686
       },
       {
         "app": "webcheck",
         "route": "name",
         "url": "https://webcheck.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN webcheck.macaw-chroma.ts.net",
         "since": 1795485197814
       },
       {
         "app": "yuvomi",
         "route": "name",
         "url": "https://yuvomi.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN yuvomi.macaw-chroma.ts.net",
         "since": 1795485197878
       }
     ],
@@ -319,35 +368,35 @@
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3882,
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3885,
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3886,
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3887,
         "app": "joolay-listify",
         "name": "Listify",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3890,
@@ -368,21 +417,21 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3895,
         "app": "joolay-listify",
         "name": "Listify",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3897,
@@ -410,28 +459,28 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3902,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3904,
@@ -473,14 +522,14 @@
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3916,
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3920,
@@ -618,7 +667,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN adguard-home.macaw-chroma.ts.net",
             "since": 1795485194560
           }
         ]
@@ -666,7 +715,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN home-assistant.macaw-chroma.ts.net",
             "since": 1795485194580
           }
         ]
@@ -714,7 +763,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN app-updater.macaw-chroma.ts.net",
             "since": 1795485194753
           }
         ]
@@ -762,7 +811,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN atvloadly.macaw-chroma.ts.net",
             "since": 1795485194787
           }
         ]
@@ -809,11 +858,11 @@
           {
             "key": "public",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795484895832
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN cctv.macaw-chroma.ts.net",
+            "since": 1795559117048
           }
         ]
       },
@@ -859,11 +908,11 @@
           {
             "key": "public",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795484896108
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN diner-bell.macaw-chroma.ts.net",
+            "since": 1795559119050
           }
         ]
       },
@@ -912,7 +961,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN gatekeeper.macaw-chroma.ts.net",
             "since": 1795487948634
           }
         ]
@@ -960,7 +1009,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN jolly-grocer.macaw-chroma.ts.net",
             "since": 1795485195151
           }
         ]
@@ -1007,11 +1056,11 @@
           {
             "key": "public",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795484895857
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN joolztv.macaw-chroma.ts.net",
+            "since": 1795559125056
           }
         ]
       },
@@ -1058,7 +1107,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN kiosk-manager.macaw-chroma.ts.net",
             "since": 1795485195346
           }
         ]
@@ -1105,11 +1154,11 @@
           {
             "key": "public",
             "url": "https://listify.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795484896173
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN listify.macaw-chroma.ts.net",
+            "since": 1795559129065
           }
         ]
       },
@@ -1155,11 +1204,11 @@
           {
             "key": "public",
             "url": "https://joolzapp.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795484895965
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN joolzapp.macaw-chroma.ts.net",
+            "since": 1795559131066
           }
         ]
       },
@@ -1209,7 +1258,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN portaladmin.macaw-chroma.ts.net",
             "since": 1795485195583
           }
         ]
@@ -1256,11 +1305,11 @@
           {
             "key": "public",
             "url": "https://project-tracker.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795484895985
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN project-tracker.macaw-chroma.ts.net",
+            "since": 1795559135071
           }
         ]
       },
@@ -1309,7 +1358,7 @@
             "state": "down",
             "ignored": true,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN port-master.macaw-chroma.ts.net",
             "since": 1795484898963
           }
         ]
@@ -1357,7 +1406,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN services-manager.macaw-chroma.ts.net",
             "since": 1795485196658
           }
         ]
@@ -1404,11 +1453,11 @@
           {
             "key": "public",
             "url": "https://shutterworth.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795484897332
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN shutterworth.macaw-chroma.ts.net",
+            "since": 1795559141077
           }
         ]
       },
@@ -1457,7 +1506,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN tv-remote.macaw-chroma.ts.net",
             "since": 1795485196858
           }
         ]
@@ -1505,7 +1554,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN kokoro.macaw-chroma.ts.net",
             "since": 1795485197026
           }
         ]
@@ -1553,7 +1602,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN ollama.macaw-chroma.ts.net",
             "since": 1795485197058
           }
         ]
@@ -1601,7 +1650,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN open-webui.macaw-chroma.ts.net",
             "since": 1795485197232
           }
         ]
@@ -1649,7 +1698,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN openclaw.macaw-chroma.ts.net",
             "since": 1795484899596
           }
         ]
@@ -1697,7 +1746,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN paperclip.macaw-chroma.ts.net",
             "since": 1795485197432
           }
         ]
@@ -1745,7 +1794,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN pocketbase.macaw-chroma.ts.net",
             "since": 1795485197492
           }
         ]
@@ -1793,7 +1842,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN tailscale.macaw-chroma.ts.net",
             "since": 1795485197623
           }
         ]
@@ -1841,7 +1890,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN wallos.macaw-chroma.ts.net",
             "since": 1795485197686
           }
         ]
@@ -1889,7 +1938,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN webcheck.macaw-chroma.ts.net",
             "since": 1795485197814
           }
         ]
@@ -1937,7 +1986,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN yuvomi.macaw-chroma.ts.net",
             "since": 1795485197878
           }
         ]
