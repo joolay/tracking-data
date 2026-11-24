@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T15:13:10.516Z",
-  "changedAt": "2026-11-24T15:13:10.516Z",
-  "rev": 2601,
-  "sig": "ee3afa05f07fc6b600a01415c89ef752a9a35c5fa96ddc6c81fcdf697e38bf06",
+  "at": "2026-11-24T15:14:10.444Z",
+  "changedAt": "2026-11-24T15:14:10.444Z",
+  "rev": 2602,
+  "sig": "54ae1135c8c2642fd0ef49795e8b1cfedf0069c14ca4fdd26a6b36c38eb3e840",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795533176471,
+      "at": 1795533236474,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +166,16 @@
           "name": "openclaw",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -703,7 +703,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.1",
             "state": "running",
-            "status": "Up 9 hours",
+            "status": "Up 10 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -751,7 +751,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.8.1",
             "state": "running",
-            "status": "Up 9 hours",
+            "status": "Up 10 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.8.1",
         "state": "running",
-        "status": "Up 9 hours",
+        "status": "Up 10 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.1",
         "state": "running",
-        "status": "Up 9 hours",
+        "status": "Up 10 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
