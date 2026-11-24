@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T05:40:06.839Z",
-  "changedAt": "2026-11-24T05:40:06.839Z",
-  "rev": 1885,
-  "sig": "cc6ba957af241bb5031b90d6c44c71c65cff6e1cb9a6bd6f3c92f0729ec353d2",
+  "at": "2026-11-24T05:40:44.098Z",
+  "changedAt": "2026-11-24T05:40:44.098Z",
+  "rev": 1886,
+  "sig": "8c2816c0a45c1a73eb1ea59bbad07e81be49993c52c62d7870392f2c2b3a44b3",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -52,25 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-portal",
-        "name": "JoolzApp Dashboard",
-        "version": "0.42.1",
-        "latest": "0.42.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795498657472,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-listify",
         "name": "Listify",
         "version": "1.1.0",
@@ -84,7 +65,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795498657473,
         "result": null,
         "waiting": false
@@ -263,13 +244,37 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
           "at": 1795498806195,
           "from": "1.4.0",
           "to": "1.4.1"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal",
+        "name": "JoolzApp Dashboard",
+        "version": "0.42.2",
+        "latest": "0.42.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795498824324,
+          "from": "0.42.1",
+          "to": "0.42.2"
         },
         "waiting": false
       },
@@ -590,7 +595,7 @@
       "at": 1795498596690
     },
     "check": {
-      "at": 1795498806804,
+      "at": 1795498825634,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -603,7 +608,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795498794197,
+        "at": 1795498839198,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -627,6 +632,31 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "listify",
             "status": "Running",
@@ -741,31 +771,6 @@
             "name": "joolztv",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -787,6 +792,30 @@
       }
     },
     "log": [
+      {
+        "t": 1795498825634,
+        "level": "info",
+        "appId": "joolay-listify",
+        "message": "Updating Listify (detected, updating straight away)…"
+      },
+      {
+        "t": 1795498824324,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Dashboard updated to 0.42.2 (state: ready)"
+      },
+      {
+        "t": 1795498809046,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
+      {
+        "t": 1795498806828,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
+      },
       {
         "t": 1795498806195,
         "level": "ok",
@@ -1122,30 +1151,6 @@
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Update available: Jolly Grocer 1.3.2 → 1.4.0"
-      },
-      {
-        "t": 1795485762592,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Update available: Diner Bell 2.0.14 → 2.1.0"
-      },
-      {
-        "t": 1795485762590,
-        "level": "ok",
-        "appId": "joolay-tv-remote",
-        "message": "umbrelOS now sees TV Remote 0.3.0"
-      },
-      {
-        "t": 1795485762590,
-        "level": "ok",
-        "appId": "joolay-theme-editor",
-        "message": "umbrelOS now sees Theme Editor 1.1.0"
-      },
-      {
-        "t": 1795485762590,
-        "level": "ok",
-        "appId": "joolay-shutterworth",
-        "message": "umbrelOS now sees ShutterWorth 1.8.0"
       }
     ],
     "diagnose": [
