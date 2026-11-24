@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:06:36.756Z",
-  "changedAt": "2026-11-24T02:06:36.756Z",
-  "rev": 1677,
-  "sig": "879605786ee9a5761f307b30755e8469e4402d31c1c2699345f0c8b6ada8533b",
+  "at": "2026-11-24T02:07:09.224Z",
+  "changedAt": "2026-11-24T02:07:09.224Z",
+  "rev": 1678,
+  "sig": "fa9859e201f9211a503ed117e6533ab4aab3a0de1ad59acc26104963ae7550b8",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -51,25 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-listify",
-        "name": "Listify",
-        "version": "1.0.17",
-        "latest": "1.1.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795485762595,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
@@ -378,6 +359,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-listify",
+        "name": "Listify",
+        "version": "1.1.0",
+        "latest": "1.1.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795486027609,
+          "from": "1.0.17",
+          "to": "1.1.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "ollama",
         "name": "Ollama",
         "version": "0.40.17",
@@ -573,20 +578,20 @@
       "at": 1795485702105
     },
     "check": {
-      "at": 1795485948363,
+      "at": 1795486029185,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795485833857,
+      "at": 1795486029185,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795485992949,
+        "at": 1795486022950,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -610,6 +615,61 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -684,66 +744,6 @@
             "name": "joolztv",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
@@ -770,6 +770,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795486027609,
+        "level": "ok",
+        "appId": "joolay-listify",
+        "message": "Listify updated to 1.1.0 (state: ready)"
+      },
       {
         "t": 1795485948363,
         "level": "info",
@@ -1123,12 +1129,6 @@
         "level": "warn",
         "appId": "joolay-gatekeeper",
         "message": "New app on the repo, umbrelOS has not seen it yet: Gatekeeper 1.0.0"
-      },
-      {
-        "t": 1795453199715,
-        "level": "info",
-        "appId": null,
-        "message": "Signed in to umbrelOS again automatically"
       }
     ],
     "diagnose": [
