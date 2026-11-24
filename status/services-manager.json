@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T21:08:11.489Z",
-  "changedAt": "2026-11-24T21:08:11.489Z",
-  "rev": 2941,
-  "sig": "58145bdc69ffa13a8be12ef11ce7dc73e6742ad0594573541425b4ca39975a4a",
+  "at": "2026-11-24T21:09:11.016Z",
+  "changedAt": "2026-11-24T21:09:11.016Z",
+  "rev": 2942,
+  "sig": "4cd01a7e290cdb4f517e45d24cff98246c481e0e61232576d425c9b2fe199ceb",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795554478111,
+      "at": 1795554538117,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kokoro",
           "status": "Running",
@@ -161,21 +176,6 @@
           "name": "ollama",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -286,7 +286,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.1",
             "state": "running",
-            "status": "Up 15 hours",
+            "status": "Up 16 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1048,7 +1048,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.1",
         "state": "running",
-        "status": "Up 15 hours",
+        "status": "Up 16 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
