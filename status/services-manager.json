@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T08:06:09.553Z",
-  "changedAt": "2026-11-24T08:06:09.553Z",
-  "rev": 2187,
-  "sig": "f3c365ef63d5f47fd81ba98f4734990c49af48c5a0efedf71f527ae24e3d0702",
+  "at": "2026-11-24T08:07:09.518Z",
+  "changedAt": "2026-11-24T08:07:09.518Z",
+  "rev": 2188,
+  "sig": "eb0172ea26a2a8a02392378b9cc48e0180a15b9d1d206785f74c8f93ce4dd66c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795507554865,
+      "at": 1795507614869,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,61 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "gatekeeper",
           "status": "Running",
@@ -121,61 +176,6 @@
           "name": "joolztv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -214,7 +214,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 24 hours",
+            "status": "Up 25 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 5 hours",
+            "status": "Up 6 hours",
             "policy": "no",
             "self": false
           }
@@ -1063,7 +1063,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 5 hours",
+        "status": "Up 6 hours",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
@@ -1220,7 +1220,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 24 hours",
+        "status": "Up 25 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
