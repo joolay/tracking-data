@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T01:49:58.242Z",
-  "changedAt": "2026-11-24T01:49:58.242Z",
-  "rev": 1814,
-  "sig": "f04eb66523192c20876cd6ed6402a7b3360ea28e29bd1ddccb6aead787fea685",
+  "at": "2026-11-24T01:50:57.912Z",
+  "changedAt": "2026-11-24T01:50:57.912Z",
+  "rev": 1815,
+  "sig": "b7a9edf954144e056eba86ae060c88a54d1fa510c8bbe71de3007490e7549b44",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795484987793,
+      "at": 1795485047801,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,71 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -174,6 +109,71 @@
         },
         {
           "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
           "status": "Running",
           "paused": false
         }
@@ -492,7 +492,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.0",
             "state": "running",
-            "status": "Up 2 minutes (healthy)",
+            "status": "Up 3 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -516,7 +516,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.0",
             "state": "running",
-            "status": "Up About a minute (healthy)",
+            "status": "Up 2 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -564,7 +564,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up About a minute (healthy)",
+            "status": "Up 2 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -828,7 +828,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up About a minute (healthy)",
+            "status": "Up 2 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -937,7 +937,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.0",
         "state": "running",
-        "status": "Up About a minute (healthy)",
+        "status": "Up 2 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -953,7 +953,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up About a minute (healthy)",
+        "status": "Up 2 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -969,7 +969,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.0",
         "state": "running",
-        "status": "Up 2 minutes (healthy)",
+        "status": "Up 3 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1306,7 +1306,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up About a minute (healthy)",
+        "status": "Up 2 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
