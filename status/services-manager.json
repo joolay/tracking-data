@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T07:06:10.041Z",
-  "changedAt": "2026-11-24T07:06:10.041Z",
-  "rev": 2129,
-  "sig": "e693a115d3e8d81b205f13aab71ab913feada4b5b5128ca20cb7de45c6ee926e",
+  "at": "2026-11-24T07:07:09.458Z",
+  "changedAt": "2026-11-24T07:07:09.458Z",
+  "rev": 2130,
+  "sig": "f84d0f0c6203a240573e6840cba36ae27d5732be990e2c2971ba13e822a7c836",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795503969650,
+      "at": 1795504014653,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +161,21 @@
           "name": "pocketbase",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -214,7 +214,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 23 hours",
+            "status": "Up 24 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 4 hours",
+            "status": "Up 5 hours",
             "policy": "no",
             "self": false
           }
@@ -1063,7 +1063,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 4 hours",
+        "status": "Up 5 hours",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
@@ -1220,7 +1220,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 23 hours",
+        "status": "Up 24 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
