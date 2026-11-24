@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T03:52:08.968Z",
-  "changedAt": "2026-11-24T03:52:08.968Z",
-  "rev": 1935,
-  "sig": "481c4c5be1e5f15c6690d781ee97d87589fe677cda4bc6af3571c1e5b02c9804",
+  "at": "2026-11-24T03:53:08.945Z",
+  "changedAt": "2026-11-24T03:53:08.945Z",
+  "rev": 1936,
+  "sig": "869a7d4d1a578a39505c290769b15179a8a8b51f1cdbee92a1a6bad74c4f40d6",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795492314017,
+      "at": 1795492374023,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "gatekeeper",
           "status": "Running",
@@ -174,6 +169,11 @@
         },
         {
           "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 4 days",
+            "status": "Up 5 days",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.17.0",
             "state": "running",
-            "status": "Up 4 days",
+            "status": "Up 5 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1265,7 +1265,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 4 days",
+        "status": "Up 5 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1280,7 +1280,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.17.0",
         "state": "running",
-        "status": "Up 4 days",
+        "status": "Up 5 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
