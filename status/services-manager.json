@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T21:06:11.166Z",
-  "changedAt": "2026-11-24T21:06:11.166Z",
-  "rev": 2939,
-  "sig": "2355dbc5c26d58c78dcd88a2a37f96ae03614f13047b326f98d8f44f482e873e",
+  "at": "2026-11-24T21:07:11.379Z",
+  "changedAt": "2026-11-24T21:07:11.379Z",
+  "rev": 2940,
+  "sig": "2cf71d2d5fa18b98d2f6842643fb992097f8e108d483806d423c34f1d8795c2a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795554358102,
+      "at": 1795554418108,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "paperclip",
           "status": "Running",
@@ -166,16 +176,6 @@
           "name": "ollama",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -214,7 +214,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 37 hours",
+            "status": "Up 38 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 18 hours",
+            "status": "Up 19 hours",
             "policy": "no",
             "self": false
           }
@@ -1063,7 +1063,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 18 hours",
+        "status": "Up 19 hours",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
@@ -1220,7 +1220,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 37 hours",
+        "status": "Up 38 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
