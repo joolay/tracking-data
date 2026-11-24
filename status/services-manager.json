@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T14:39:10.738Z",
-  "changedAt": "2026-11-24T14:39:10.738Z",
-  "rev": 2567,
-  "sig": "7ee9e87009879311577810b9e1e4458284c49f7dd63253cc666de234b1d98c89",
+  "at": "2026-11-24T14:40:10.366Z",
+  "changedAt": "2026-11-24T14:40:10.366Z",
+  "rev": 2568,
+  "sig": "2fa4b2421cb087655ece540cee45d96e12f2df5615e5427c91435d237075a839",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795531136270,
+      "at": 1795531196275,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,41 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -139,41 +174,6 @@
         },
         {
           "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 12 hours (healthy)",
+            "status": "Up 13 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1110,7 +1110,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 12 hours (healthy)",
+        "status": "Up 13 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
