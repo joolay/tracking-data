@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T01:48:26.280Z",
-  "changedAt": "2026-11-24T01:48:26.280Z",
-  "rev": 1657,
-  "sig": "54986b8558eeb5a0775666f4042e3b966b01d4817efd63c2275b4aadf454f360",
+  "at": "2026-11-24T01:49:03.597Z",
+  "changedAt": "2026-11-24T01:49:03.597Z",
+  "rev": 1658,
+  "sig": "f01f4e45ba87c6857caa976f33e13ab0de38d812425490de6959c67546e8b72d",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -390,7 +390,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -555,23 +555,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795484790438
+      "at": 1795484938216
     },
     "check": {
-      "at": 1795484905609,
+      "at": 1795484938416,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795484790338,
+      "at": 1795484922766,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795484897778,
+        "at": 1795484942783,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -590,33 +590,33 @@
           "image": "almeidapaulopt/tsdproxy:2",
           "imageId": "33631a10f74b",
           "running": true,
-          "startedAt": "2026-11-23T09:00:41.273079984Z",
+          "startedAt": "2026-11-24T01:48:49.472003439Z",
           "version": "",
           "created": ""
         },
         "proxies": [
           {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
             "status": "Running",
             "paused": false
           },
@@ -626,7 +626,72 @@
             "paused": false
           },
           {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
             "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
             "status": "Running",
             "paused": false
           },
@@ -636,7 +701,37 @@
             "paused": false
           },
           {
-            "name": "cctv",
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portal-admin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
             "status": "Running",
             "paused": false
           }
@@ -665,6 +760,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795484908590,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Portal Admin (3 s)"
+      },
       {
         "t": 1795484905409,
         "level": "ok",
@@ -1018,12 +1119,6 @@
         "level": "ok",
         "appId": "joolay-portal",
         "message": "JoolzApp Store updated to 0.40.0 (state: ready)"
-      },
-      {
-        "t": 1795421267672,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Store (detected, updating straight away)…"
       }
     ],
     "diagnose": [
