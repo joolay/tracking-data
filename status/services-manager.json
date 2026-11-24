@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T11:59:10.299Z",
-  "changedAt": "2026-11-24T11:59:10.299Z",
-  "rev": 2413,
-  "sig": "bccd553918fd7d3a3ee2712b5d2199114a49bf3d95b11c5142168f49fa8c7cc8",
+  "at": "2026-11-24T12:00:10.111Z",
+  "changedAt": "2026-11-24T12:00:10.111Z",
+  "rev": 2414,
+  "sig": "1ace6488f58e5bd8fcd7858f0369b28ab606b8222ca7d5e1852ff069046c05af",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795521535683,
+      "at": 1795521595686,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +171,11 @@
           "name": "gatekeeper",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 9 hours (healthy)",
+            "status": "Up 10 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1078,7 +1078,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 9 hours (healthy)",
+        "status": "Up 10 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
