@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T15:21:10.697Z",
-  "changedAt": "2026-11-24T15:21:10.697Z",
-  "rev": 2609,
-  "sig": "efd5f4f110b1eb4f22b8fdc04dce0876bd6c327ad55afd88b89a42505a5a2823",
+  "at": "2026-11-24T15:22:10.401Z",
+  "changedAt": "2026-11-24T15:22:10.401Z",
+  "rev": 2610,
+  "sig": "8f4608aeff44987c161ed1f7e3b461f735b0869dc0653739f24d8617a0da95a9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795533656509,
+      "at": 1795533716513,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -144,36 +174,6 @@
         },
         {
           "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -535,7 +535,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 31 hours",
+            "status": "Up 32 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1174,7 +1174,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 31 hours",
+        "status": "Up 32 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
