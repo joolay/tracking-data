@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T05:38:25.011Z",
-  "changedAt": "2026-11-24T05:38:25.011Z",
-  "rev": 1882,
-  "sig": "a6f4c5e455341821e3f4e5bad23f77877aede6d097ebf45471e17b33afe0f135",
+  "at": "2026-11-24T05:39:24.034Z",
+  "changedAt": "2026-11-24T05:39:24.034Z",
+  "rev": 1883,
+  "sig": "ee57595d07b47517e27a1d05379701991f160951b8615d8f10c3676bd794f5c8",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -52,25 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-diner-bell",
-        "name": "Diner Bell",
-        "version": "2.1.0",
-        "latest": "2.1.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795498657457,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "version": "1.4.0",
@@ -84,7 +65,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795498657471,
         "result": null,
         "waiting": false
@@ -224,6 +205,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.1.1",
+        "latest": "2.1.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795498727983,
+          "from": "2.1.0",
+          "to": "2.1.1"
+        },
         "waiting": false
       },
       {
@@ -580,20 +585,20 @@
       "at": 1795498596690
     },
     "check": {
-      "at": 1795498657475,
+      "at": 1795498728919,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795498596647,
+      "at": 1795498728919,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795498704196,
+        "at": 1795498749196,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -617,6 +622,51 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "adguard-home",
             "status": "Running",
@@ -711,51 +761,6 @@
             "name": "diner-bell",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -777,6 +782,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795498728969,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Diner Bell (0 s)"
+      },
+      {
+        "t": 1795498728957,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Updating Jolly Grocer (detected, updating straight away)…"
+      },
+      {
+        "t": 1795498727983,
+        "level": "ok",
+        "appId": "joolay-diner-bell",
+        "message": "Diner Bell updated to 2.1.1 (state: ready)"
+      },
       {
         "t": 1795498657475,
         "level": "info",
@@ -1118,24 +1141,6 @@
         "level": "ok",
         "appId": "joolay-services-manager",
         "message": "umbrelOS now sees Services Manager 1.4.0"
-      },
-      {
-        "t": 1795485762588,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "umbrelOS now sees Project Pilot 1.8.0"
-      },
-      {
-        "t": 1795485762587,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "umbrelOS now sees Portal Admin 0.42.1"
-      },
-      {
-        "t": 1795485762586,
-        "level": "ok",
-        "appId": "joolay-listify",
-        "message": "umbrelOS now sees Listify 1.1.0"
       }
     ],
     "diagnose": [
