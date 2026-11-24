@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T04:53:24.839Z",
-  "changedAt": "2026-11-24T04:53:24.839Z",
-  "rev": 1839,
-  "sig": "7101e65e8f17d8bdb273a8e35e0b5b961694f20413bb1e27310785467fd62b14",
+  "at": "2026-11-24T04:55:24.844Z",
+  "changedAt": "2026-11-24T04:55:24.844Z",
+  "rev": 1840,
+  "sig": "64b8434d6c9dd700e1e0b9c2cde2a3ad03c4c2b900ece7bdca900fd5c35da12c",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -577,23 +577,23 @@
         }
       ],
       "error": null,
-      "at": 1795495980716
+      "at": 1795496102308
     },
     "check": {
-      "at": 1795495980859,
+      "at": 1795496102440,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795495920235,
+      "at": 1795496041843,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795496004141,
+        "at": 1795496124147,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -617,6 +617,11 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -751,11 +756,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
