@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T03:30:09.085Z",
-  "changedAt": "2026-11-24T03:30:09.085Z",
-  "rev": 1915,
-  "sig": "0b1bee07a844a84a47314da0682d97eae82a49aa9d7e1ccdb22a01e566d24364",
+  "at": "2026-11-24T03:31:09.043Z",
+  "changedAt": "2026-11-24T03:31:09.043Z",
+  "rev": 1916,
+  "sig": "2a2e8cc0d7e9d1c16c4d79d261c425a047298295e358bfa71183ec145db54442",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795491008948,
+      "at": 1795491068952,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +171,11 @@
           "name": "gatekeeper",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 53 minutes",
+            "status": "Up 54 minutes",
             "policy": "no",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 53 minutes",
+        "status": "Up 54 minutes",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
