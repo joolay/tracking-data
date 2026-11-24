@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:05:11.848Z",
-  "changedAt": "2026-11-24T02:05:11.848Z",
-  "rev": 1675,
-  "sig": "84e5dec7057478c7d235091a8941d8a5a081ec939cfd0729ed46768fee3c7f0e",
+  "at": "2026-11-24T02:05:49.630Z",
+  "changedAt": "2026-11-24T02:05:49.630Z",
+  "rev": 1676,
+  "sig": "f922681d8f0404547b0ba912c52040c0b957614f752c53a4b96327ca17ddc6af",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -52,49 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-portal",
-        "name": "JoolzApp Dashboard",
-        "version": "0.42.0",
-        "latest": "0.42.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795485762594,
-        "result": {
-          "ok": true,
-          "at": 1795484862375,
-          "from": "0.41.1",
-          "to": "0.42.0"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-kiosk-manager",
-        "name": "Kiosk Manager",
-        "version": "1.1.0",
-        "latest": "1.2.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795485762594,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-listify",
         "name": "Listify",
         "version": "1.0.17",
@@ -108,7 +65,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795485762595,
         "result": null,
         "waiting": false
@@ -306,13 +263,37 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
           "at": 1795485911271,
           "from": "1.3.2",
           "to": "1.4.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal",
+        "name": "JoolzApp Dashboard",
+        "version": "0.42.1",
+        "latest": "0.42.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795485930143,
+          "from": "0.42.0",
+          "to": "0.42.1"
         },
         "waiting": false
       },
@@ -352,6 +333,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-kiosk-manager",
+        "name": "Kiosk Manager",
+        "version": "1.2.0",
+        "latest": "1.2.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795485948166,
+          "from": "1.1.0",
+          "to": "1.2.0"
+        },
         "waiting": false
       },
       {
@@ -568,7 +573,7 @@
       "at": 1795485702105
     },
     "check": {
-      "at": 1795485911841,
+      "at": 1795485948363,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -581,7 +586,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795485902935,
+        "at": 1795485947942,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -605,6 +610,66 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "openclaw",
             "status": "Running",
@@ -671,72 +736,12 @@
             "paused": false
           },
           {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "joolzapp",
             "status": "Running",
             "paused": false
           },
           {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
+            "name": "yuvomi",
             "status": "Running",
             "paused": false
           }
@@ -765,6 +770,42 @@
       }
     },
     "log": [
+      {
+        "t": 1795485948363,
+        "level": "info",
+        "appId": "joolay-listify",
+        "message": "Updating Listify (detected, updating straight away)…"
+      },
+      {
+        "t": 1795485948166,
+        "level": "ok",
+        "appId": "joolay-kiosk-manager",
+        "message": "Kiosk Manager updated to 1.2.0 (state: ready)"
+      },
+      {
+        "t": 1795485930418,
+        "level": "info",
+        "appId": "joolay-kiosk-manager",
+        "message": "Updating Kiosk Manager (detected, updating straight away)…"
+      },
+      {
+        "t": 1795485930143,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Dashboard updated to 0.42.1 (state: ready)"
+      },
+      {
+        "t": 1795485914604,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (3 s)"
+      },
+      {
+        "t": 1795485911842,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
+      },
       {
         "t": 1795485911271,
         "level": "ok",
@@ -1088,42 +1129,6 @@
         "level": "info",
         "appId": null,
         "message": "Signed in to umbrelOS again automatically"
-      },
-      {
-        "t": 1795443452299,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.41.1 (state: ready)"
-      },
-      {
-        "t": 1795443451148,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795443441372,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Dashboard (2 s)"
-      },
-      {
-        "t": 1795443438995,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795443438744,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Dashboard updated to 0.41.1 (state: ready)"
-      },
-      {
-        "t": 1795443429966,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
       }
     ],
     "diagnose": [
