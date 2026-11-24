@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T00:13:57.477Z",
-  "changedAt": "2026-11-24T00:13:57.477Z",
-  "rev": 1732,
-  "sig": "4b780e395bf1c8096cc299a0d2405a40ce0dc43b3b2d0008feb4aa7101dd91e7",
+  "at": "2026-11-24T00:15:57.457Z",
+  "changedAt": "2026-11-24T00:15:57.457Z",
+  "rev": 1733,
+  "sig": "449bf219f7841f8fe7c03620dbc4f6d92469966f71ea28d6396160cbaec1aae7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795479226989,
+      "at": 1795479347006,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -79,6 +74,11 @@
         },
         {
           "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -445,7 +445,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.7.2",
             "state": "running",
-            "status": "Up 30 hours",
+            "status": "Up 31 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.7.2",
         "state": "running",
-        "status": "Up 30 hours",
+        "status": "Up 31 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
