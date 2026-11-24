@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T23:39:11.458Z",
-  "changedAt": "2026-11-24T23:39:11.458Z",
-  "rev": 3072,
-  "sig": "f2738c827926074b76e304e69ed60798fb7eb6431ca3685266e6c4c800dadbbe",
+  "at": "2026-11-24T23:40:11.502Z",
+  "changedAt": "2026-11-24T23:40:11.502Z",
+  "rev": 3073,
+  "sig": "0ca36f505f2e1e1fc94462808a6cd73a4115b63e01e8e5346eb6c73209d04f17",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795563538777,
+      "at": 1795563598784,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "gatekeeper",
           "status": "Running",
@@ -174,6 +159,21 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 21 hours (healthy)",
+            "status": "Up 22 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1140,7 +1140,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 21 hours (healthy)",
+        "status": "Up 22 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
