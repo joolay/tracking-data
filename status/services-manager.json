@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T15:05:10.362Z",
-  "changedAt": "2026-11-24T15:05:10.362Z",
-  "rev": 2593,
-  "sig": "aa7b79a414143a6f84250631119c50522474a49c5624cc87b1e39e2501df0100",
+  "at": "2026-11-24T15:06:10.297Z",
+  "changedAt": "2026-11-24T15:06:10.297Z",
+  "rev": 2594,
+  "sig": "a11bfd2f1d5251b63099e07d9e1c47011e0019ed059bed87a2e070dc1ac7223c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795532696427,
+      "at": 1795532756435,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,46 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -174,6 +134,46 @@
         },
         {
           "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
           "status": "Running",
           "paused": false
         }
@@ -406,7 +406,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.2",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1235,7 +1235,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.2",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
