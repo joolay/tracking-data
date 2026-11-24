@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T02:02:57.946Z",
-  "changedAt": "2026-11-24T02:02:57.946Z",
-  "rev": 1827,
-  "sig": "55e4205d5b8fc2031d3bac3bc92b452c568d39080016a24c1451b0cea0e68f58",
+  "at": "2026-11-24T02:03:57.960Z",
+  "changedAt": "2026-11-24T02:03:57.960Z",
+  "rev": 1828,
+  "sig": "5de968b40876c45fc6d52a2d1a944af6b5a2f4eb44f200cb02f200b82b165079",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795485767913,
+      "at": 1795485827922,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -158,11 +138,6 @@
           "paused": false
         },
         {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "cctv",
           "status": "Running",
           "paused": false
@@ -171,6 +146,26 @@
           "name": "home-assistant",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -354,11 +349,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "fe45bc57712c",
+            "id": "aedf263684a4",
             "name": "joolay-diner-bell_web_1",
-            "image": "ghcr.io/joolay/diner-bell:2.0.14",
+            "image": "ghcr.io/joolay/diner-bell:2.1.0",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 6 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -487,7 +482,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.0",
             "state": "running",
-            "status": "Up 15 minutes (healthy)",
+            "status": "Up 16 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -511,7 +506,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.0",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -559,7 +554,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -823,7 +818,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -928,11 +923,26 @@
     ],
     "containers": [
       {
+        "id": "aedf263684a4",
+        "name": "joolay-diner-bell_web_1",
+        "image": "ghcr.io/joolay/diner-bell:2.1.0",
+        "state": "running",
+        "status": "Up 7 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-24T02:03:50.935690149Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "a7255d2fa88a",
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.0",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -948,7 +958,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -964,7 +974,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.0",
         "state": "running",
-        "status": "Up 15 minutes (healthy)",
+        "status": "Up 16 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1176,21 +1186,6 @@
         "problem": false
       },
       {
-        "id": "fe45bc57712c",
-        "name": "joolay-diner-bell_web_1",
-        "image": "ghcr.io/joolay/diner-bell:2.0.14",
-        "state": "running",
-        "status": "Up 2 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-21T15:33:06.97938863Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "ac90c464aae6",
         "name": "tailscale_web_1",
         "image": "tailscale/tailscale:v1.104.7@sha256:[hidden]",
@@ -1301,7 +1296,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
