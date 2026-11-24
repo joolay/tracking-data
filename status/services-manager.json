@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T21:17:12.059Z",
-  "changedAt": "2026-11-24T21:17:12.059Z",
-  "rev": 2950,
-  "sig": "64de31128daa751ff645e6e243718333853da2496132051e1cf918f504164529",
+  "at": "2026-11-24T21:18:11.501Z",
+  "changedAt": "2026-11-24T21:18:11.501Z",
+  "rev": 2951,
+  "sig": "6e40fed18a524512dbcecc8e4b62d02d075e84b635310a266820bddad6d1426c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795555018151,
+      "at": 1795555078156,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,51 +38,6 @@
       },
       "proxies": [
         {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "tailscale",
           "status": "Running",
           "paused": false
@@ -104,11 +59,6 @@
         },
         {
           "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         },
@@ -176,6 +126,51 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -191,8 +186,8 @@
       }
     },
     "summary": {
-      "containers": 32,
-      "running": 31,
+      "containers": 30,
+      "running": 29,
       "problems": []
     },
     "services": [
@@ -417,33 +412,14 @@
         "kind": "umbrel",
         "id": "joolay-joolztv",
         "name": "JoolzTV",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "73ed0d15530a",
-            "name": "joolay-joolztv_server_1",
-            "image": "tsaridas/stremio-docker:latest",
-            "state": "running",
-            "status": "Up 5 days",
-            "policy": "on-failure",
-            "self": false
-          },
-          {
-            "id": "f61bd7dc593e",
-            "name": "joolay-joolztv_web_1",
-            "image": "ghcr.io/joolay/joolztv:1.17.0",
-            "state": "running",
-            "status": "Up 5 days",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "umbrel:joolay-kiosk-manager",
@@ -655,7 +631,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up 19 hours (healthy)",
+            "status": "Up 20 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1158,7 +1134,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up 19 hours (healthy)",
+        "status": "Up 20 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1256,36 +1232,6 @@
         "exitCode": 0,
         "oomKilled": false,
         "startedAt": "2026-11-20T15:14:28.583291682Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "73ed0d15530a",
-        "name": "joolay-joolztv_server_1",
-        "image": "tsaridas/stremio-docker:latest",
-        "state": "running",
-        "status": "Up 5 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-19T04:22:52.045222915Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "f61bd7dc593e",
-        "name": "joolay-joolztv_web_1",
-        "image": "ghcr.io/joolay/joolztv:1.17.0",
-        "state": "running",
-        "status": "Up 5 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-19T04:22:51.567832641Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
