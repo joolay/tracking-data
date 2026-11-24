@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T17:37:30.242Z",
-  "changedAt": "2026-11-24T17:37:30.242Z",
-  "rev": 2559,
-  "sig": "5719d3289fac887634e11e0323b8b2357ada3ae340f7161c48d29f351b6f68e0",
+  "at": "2026-11-24T17:38:30.267Z",
+  "changedAt": "2026-11-24T17:38:30.267Z",
+  "rev": 2560,
+  "sig": "bc3c319a98a5c064ecea31546b8f134fb7666de198b10dc21a6a2cde3f511ecd",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -607,10 +607,10 @@
         }
       ],
       "error": null,
-      "at": 1795541841698
+      "at": 1795541903532
     },
     "check": {
-      "at": 1795541841827,
+      "at": 1795541903763,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -623,7 +623,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795541847068,
+        "at": 1795541907070,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -647,6 +647,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "webcheck",
             "status": "Running",
@@ -764,26 +784,6 @@
           },
           {
             "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
             "status": "Running",
             "paused": false
           }
