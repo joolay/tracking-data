@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T10:09:10.149Z",
-  "changedAt": "2026-11-24T10:09:10.149Z",
-  "rev": 2307,
-  "sig": "79bf77c58ad420410350d924a6e3295af89d95368c2da24bd10cf993f3586e29",
+  "at": "2026-11-24T10:10:09.829Z",
+  "changedAt": "2026-11-24T10:10:09.829Z",
+  "rev": 2308,
+  "sig": "fbae502cba1b656053a8e35dcd4eacbd748b80ab19d7be583ba27f62268618f1",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795514935205,
+      "at": 1795514995209,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -174,6 +164,16 @@
         },
         {
           "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
           "status": "Running",
           "paused": false
         }
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
             "state": "running",
-            "status": "Up 4 hours",
+            "status": "Up 5 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1033,7 +1033,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
         "state": "running",
-        "status": "Up 4 hours",
+        "status": "Up 5 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
