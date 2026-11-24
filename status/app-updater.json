@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T05:39:25.011Z",
-  "changedAt": "2026-11-24T05:39:25.011Z",
-  "rev": 1884,
-  "sig": "44f401c5371adb4898c4ca230d4738922b9b0cc14d4b258c0bbd3fc0929b6943",
+  "at": "2026-11-24T05:40:06.839Z",
+  "changedAt": "2026-11-24T05:40:06.839Z",
+  "rev": 1885,
+  "sig": "cc6ba957af241bb5031b90d6c44c71c65cff6e1cb9a6bd6f3c92f0729ec353d2",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,25 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.4.0",
-        "latest": "1.4.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795498657471,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
@@ -266,6 +247,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.4.1",
+        "latest": "1.4.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795498806195,
+          "from": "1.4.0",
+          "to": "1.4.1"
+        },
         "waiting": false
       },
       {
@@ -585,7 +590,7 @@
       "at": 1795498596690
     },
     "check": {
-      "at": 1795498728919,
+      "at": 1795498806804,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -598,7 +603,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795498764196,
+        "at": 1795498794197,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -622,11 +627,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "listify",
             "status": "Running",
@@ -761,6 +761,11 @@
             "name": "atvloadly",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -782,6 +787,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795498806195,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "Jolly Grocer updated to 1.4.1 (state: ready)"
+      },
       {
         "t": 1795498728969,
         "level": "info",
@@ -1135,12 +1146,6 @@
         "level": "ok",
         "appId": "joolay-shutterworth",
         "message": "umbrelOS now sees ShutterWorth 1.8.0"
-      },
-      {
-        "t": 1795485762589,
-        "level": "ok",
-        "appId": "joolay-services-manager",
-        "message": "umbrelOS now sees Services Manager 1.4.0"
       }
     ],
     "diagnose": [
