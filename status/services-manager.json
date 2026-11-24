@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T21:18:11.501Z",
-  "changedAt": "2026-11-24T21:18:11.501Z",
-  "rev": 2951,
-  "sig": "6e40fed18a524512dbcecc8e4b62d02d075e84b635310a266820bddad6d1426c",
+  "at": "2026-11-24T21:19:11.387Z",
+  "changedAt": "2026-11-24T21:19:11.387Z",
+  "rev": 2952,
+  "sig": "56c35e66cfbce97c62a9b318d0f87067d09838e59ead6b681e03e1b8b7e26cb2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795555078156,
+      "at": 1795555138160,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,27 +38,17 @@
       },
       "proxies": [
         {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         },
         {
           "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
           "status": "Running",
           "paused": false
         },
@@ -171,6 +161,21 @@
           "name": "tv-remote",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -186,8 +191,8 @@
       }
     },
     "summary": {
-      "containers": 30,
-      "running": 29,
+      "containers": 32,
+      "running": 31,
       "problems": []
     },
     "services": [
@@ -412,14 +417,33 @@
         "kind": "umbrel",
         "id": "joolay-joolztv",
         "name": "JoolzTV",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "1f80b14e0c0b",
+            "name": "joolay-joolztv_server_1",
+            "image": "tsaridas/stremio-docker:latest",
+            "state": "running",
+            "status": "Up 34 seconds",
+            "policy": "on-failure",
+            "self": false
+          },
+          {
+            "id": "d606942b30f4",
+            "name": "joolay-joolztv_web_1",
+            "image": "ghcr.io/joolay/joolztv:1.18.0",
+            "state": "running",
+            "status": "Up 35 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "umbrel:joolay-kiosk-manager",
@@ -895,7 +919,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 19 hours (healthy)",
+            "status": "Up 20 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -927,6 +951,36 @@
       }
     ],
     "containers": [
+      {
+        "id": "1f80b14e0c0b",
+        "name": "joolay-joolztv_server_1",
+        "image": "tsaridas/stremio-docker:latest",
+        "state": "running",
+        "status": "Up 35 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-24T21:18:36.145926599Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "d606942b30f4",
+        "name": "joolay-joolztv_web_1",
+        "image": "ghcr.io/joolay/joolztv:1.18.0",
+        "state": "running",
+        "status": "Up 36 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-24T21:18:35.285184268Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "3eb87f0dd41d",
         "name": "joolay-shutterworth_web_1",
@@ -1287,7 +1341,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 19 hours (healthy)",
+        "status": "Up 20 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
