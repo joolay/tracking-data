@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T07:17:09.614Z",
-  "changedAt": "2026-11-24T07:17:09.614Z",
-  "rev": 2139,
-  "sig": "c4d68b2f007a128251cfd4e0636959fa88591564ee1a660c9c241172e622e813",
+  "at": "2026-11-24T07:18:09.572Z",
+  "changedAt": "2026-11-24T07:18:09.572Z",
+  "rev": 2140,
+  "sig": "8e6dbe3abeba0988d59a297ef308b53c3d0c2f2acfa7c90a172259fe1994ccb5",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795504614692,
+      "at": 1795504674697,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,56 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -126,56 +176,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up 5 hours (healthy)",
+            "status": "Up 6 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1158,7 +1158,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up 5 hours (healthy)",
+        "status": "Up 6 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
