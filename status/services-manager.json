@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T13:08:09.995Z",
-  "changedAt": "2026-11-24T13:08:09.995Z",
-  "rev": 2480,
-  "sig": "be747767477077c2606e6628aeb5fa62d4c36e3c456503f6ef7b7e3b405389fd",
+  "at": "2026-11-24T13:09:10.113Z",
+  "changedAt": "2026-11-24T13:09:10.113Z",
+  "rev": 2481,
+  "sig": "ea7b7c1153e860e83b25f0fe202175edf4222ab0d60204467c521febce89ae19",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795525675887,
+      "at": 1795525735889,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -176,6 +166,16 @@
           "name": "listify",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -286,7 +286,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.1",
             "state": "running",
-            "status": "Up 7 hours",
+            "status": "Up 8 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1048,7 +1048,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.1",
         "state": "running",
-        "status": "Up 7 hours",
+        "status": "Up 8 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
