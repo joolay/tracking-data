@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T12:38:10.119Z",
-  "changedAt": "2026-11-24T12:38:10.119Z",
-  "rev": 2452,
-  "sig": "11206a399944c0a8830d1ae62d1cfe94f28277d1bd1d74ef9d80a12268ece8c9",
+  "at": "2026-11-24T12:39:10.211Z",
+  "changedAt": "2026-11-24T12:39:10.211Z",
+  "rev": 2453,
+  "sig": "2e0ba292e7abf040424950c784b1eaf4a942f8fb08b6263db2e1315e67c0335f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795523875803,
+      "at": 1795523935808,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -166,16 +176,6 @@
           "name": "openclaw",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -727,7 +727,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.0",
             "state": "running",
-            "status": "Up 10 hours (healthy)",
+            "status": "Up 11 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1126,7 +1126,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.0",
         "state": "running",
-        "status": "Up 10 hours (healthy)",
+        "status": "Up 11 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
