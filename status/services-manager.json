@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T23:48:11.567Z",
-  "changedAt": "2026-11-24T23:46:11.480Z",
-  "rev": 3079,
-  "sig": "32e0753387dc027544e0a1e2924dbd047b6d667004d03d187f1a374c8ff54838",
+  "at": "2026-11-24T23:49:11.549Z",
+  "changedAt": "2026-11-24T23:49:11.549Z",
+  "rev": 3080,
+  "sig": "d600ef6c2f7393608d5c589a26928686b83468be34c8e08d9a71db3fa981a172",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795564078825,
+      "at": 1795564138829,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -154,26 +174,6 @@
         },
         {
           "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 2 hours",
+            "status": "Up 3 hours",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.0",
             "state": "running",
-            "status": "Up 2 hours",
+            "status": "Up 3 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 2 hours",
+        "status": "Up 3 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.0",
         "state": "running",
-        "status": "Up 2 hours",
+        "status": "Up 3 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
