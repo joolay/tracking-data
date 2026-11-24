@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T21:13:31.544Z",
-  "changedAt": "2026-11-24T21:13:31.544Z",
-  "rev": 2767,
-  "sig": "bc3c319a98a5c064ecea31546b8f134fb7666de198b10dc21a6a2cde3f511ecd",
+  "at": "2026-11-24T21:14:31.538Z",
+  "changedAt": "2026-11-24T21:14:31.538Z",
+  "rev": 2768,
+  "sig": "5585c64f5601411c17571276b7c3c251c9b91c72a7a19b1dd657829cb45928a1",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -607,23 +607,31 @@
         }
       ],
       "error": null,
-      "at": 1795554783638
+      "at": 1795554846093
     },
     "check": {
-      "at": 1795554783764,
+      "at": 1795554846222,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795554721394,
+      "at": 1795554846045,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-joolztv",
+          "name": "JoolzTV",
+          "repo": "1.18.0",
+          "umbrel": "1.17.0",
+          "kind": "update"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795554808137,
+        "at": 1795554868140,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -647,6 +655,56 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "gatekeeper",
             "status": "Running",
@@ -736,56 +794,6 @@
             "name": "portaladmin",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -807,6 +815,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795554846045,
+        "level": "warn",
+        "appId": "joolay-joolztv",
+        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.0 (umbrelOS lists 1.17.0)"
+      },
       {
         "t": 1795499019783,
         "level": "ok",
@@ -1160,12 +1174,6 @@
         "level": "ok",
         "appId": "joolay-diner-bell",
         "message": "Diner Bell updated to 2.1.0 (state: ready)"
-      },
-      {
-        "t": 1795485762598,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Updating Diner Bell (detected, updating straight away)…"
       }
     ],
     "diagnose": [
