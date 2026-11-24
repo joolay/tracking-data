@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T17:10:10.607Z",
-  "changedAt": "2026-11-24T17:10:10.607Z",
-  "rev": 2711,
-  "sig": "2c48babbdccbce15da5d5ac31f1d4f843bd39cccda6f9fd8b47312be9184cded",
+  "at": "2026-11-24T17:11:10.808Z",
+  "changedAt": "2026-11-24T17:11:10.808Z",
+  "rev": 2712,
+  "sig": "2b1c4498c9ae43f3079a05a13862233bafef49418ac588c2ccae7440fb67db08",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795540196997,
+      "at": 1795540256998,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -382,7 +382,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 12 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1017,7 +1017,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 11 hours (healthy)",
+        "status": "Up 12 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
