@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T22:51:32.404Z",
-  "changedAt": "2026-11-24T22:51:32.404Z",
-  "rev": 2839,
-  "sig": "fa5495696cbdb606ad72ed93e582d5a247e1e3117f5a8c3106236cd7af225bd2",
+  "at": "2026-11-24T22:52:32.407Z",
+  "changedAt": "2026-11-24T22:52:32.407Z",
+  "rev": 2840,
+  "sig": "c8bf064bdd25dcdb8446dfb327b154b82fb340d9a47d37afcc1c7fc15287a978",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795560681949
+      "at": 1795560744355
     },
     "check": {
-      "at": 1795560682110,
+      "at": 1795560744548,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795560620447,
+      "at": 1795560744345,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795560688473,
+        "at": 1795560748485,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,6 +652,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -771,26 +791,6 @@
             "name": "home-assistant",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
