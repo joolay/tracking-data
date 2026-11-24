@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T10:11:09.847Z",
-  "changedAt": "2026-11-24T10:11:09.847Z",
-  "rev": 2309,
-  "sig": "3950fa91c77956e2993e654e0abfbde47fe5326308cb4cd73e2c5b30b89cb264",
+  "at": "2026-11-24T10:12:10.577Z",
+  "changedAt": "2026-11-24T10:12:10.577Z",
+  "rev": 2310,
+  "sig": "f86c81a792c5ae51446abb10d6827737f82947da946793e81a6d43df9bb818b4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795515055214,
+      "at": 1795515130222,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -174,6 +144,36 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
           "status": "Running",
           "paused": false
         }
@@ -511,7 +511,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.1.1",
             "state": "running",
-            "status": "Up 4 hours",
+            "status": "Up 5 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -679,7 +679,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 4 hours (healthy)",
+            "status": "Up 5 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -986,7 +986,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 4 hours (healthy)",
+        "status": "Up 5 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1002,7 +1002,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.1.1",
         "state": "running",
-        "status": "Up 4 hours",
+        "status": "Up 5 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
