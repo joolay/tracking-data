@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T07:07:09.458Z",
-  "changedAt": "2026-11-24T07:07:09.458Z",
-  "rev": 2130,
-  "sig": "f84d0f0c6203a240573e6840cba36ae27d5732be990e2c2971ba13e822a7c836",
+  "at": "2026-11-24T07:08:09.489Z",
+  "changedAt": "2026-11-24T07:08:09.489Z",
+  "rev": 2131,
+  "sig": "177b57a71e277c8833989073c7319deea442cc55d9f5ac941f658cec1db5fce4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795504014653,
+      "at": 1795504074659,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,71 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -111,71 +176,6 @@
           "name": "joolztv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -823,7 +823,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 23 hours (healthy)",
+            "status": "Up 24 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -871,7 +871,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 23 hours",
+            "status": "Up 24 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1189,7 +1189,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 23 hours (healthy)",
+        "status": "Up 24 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1205,7 +1205,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 23 hours",
+        "status": "Up 24 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
