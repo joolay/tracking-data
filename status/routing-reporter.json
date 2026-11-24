@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T01:47:59.768Z",
-  "changedAt": "2026-11-24T01:47:59.768Z",
-  "rev": 1614,
-  "sig": "7c0419a4b1091febadee46135ad6a4b13dc6ca81a6e01bc9c477e70d21f7846b",
+  "at": "2026-11-24T01:48:29.329Z",
+  "changedAt": "2026-11-24T01:48:29.329Z",
+  "rev": 1615,
+  "sig": "1ed702bd51dec2dc3ef493923e3a198ad42dd3315d2a56e0e986219d974a092c",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -24,6 +24,14 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
         {
           "name": "port-master",
           "status": "Paused"
@@ -51,16 +59,107 @@
         {
           "name": "cctv",
           "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
         }
       ]
+    },
+    "names": {
+      "auto": true,
+      "keptByPortMaster": 18,
+      "withoutName": 0,
+      "problems": [
+        {
+          "app": "adguard-home",
+          "name": "adguard-home",
+          "state": "unregistered"
+        },
+        {
+          "app": "home-assistant",
+          "name": "home-assistant",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-app-updater",
+          "name": "app-updater",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-atvloadly",
+          "name": "atvloadly",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-jolly-grocer",
+          "name": "jolly-grocer",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-kiosk-manager",
+          "name": "kiosk-manager",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-portal-admin",
+          "name": "portal-admin",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-services-manager",
+          "name": "services-manager",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-tv-remote",
+          "name": "tv-remote",
+          "state": "unregistered"
+        },
+        {
+          "app": "kokoro",
+          "name": "kokoro",
+          "state": "unregistered"
+        },
+        {
+          "app": "ollama",
+          "name": "ollama",
+          "state": "unregistered"
+        },
+        {
+          "app": "open-webui",
+          "name": "open-webui",
+          "state": "unregistered"
+        },
+        {
+          "app": "paperclip",
+          "name": "paperclip",
+          "state": "unregistered"
+        },
+        {
+          "app": "pocketbase",
+          "name": "pocketbase",
+          "state": "unregistered"
+        },
+        {
+          "app": "tailscale",
+          "name": "tailscale",
+          "state": "unregistered"
+        },
+        {
+          "app": "wallos",
+          "name": "wallos",
+          "state": "unregistered"
+        },
+        {
+          "app": "webcheck",
+          "name": "webcheck",
+          "state": "unregistered"
+        },
+        {
+          "app": "yuvomi",
+          "name": "yuvomi",
+          "state": "unregistered"
+        }
+      ],
+      "lastError": "",
+      "fixed": []
     },
     "intervalMin": 5,
     "config": {
@@ -69,15 +168,15 @@
       "tailscaleIp": "100.118.10.62",
       "tailnet": "macaw-chroma.ts.net"
     },
-    "reportedToPortalAdmin": true,
-    "reportError": "",
+    "reportedToPortalAdmin": false,
+    "reportError": "fetch failed",
     "routesDown": [
       {
         "app": "openclaw",
         "route": "name",
         "url": "https://openclaw.macaw-chroma.ts.net/",
         "error": "name not found (DNS)",
-        "since": 1795424804460
+        "since": 1795484899596
       }
     ],
     "portConflicts": [],
@@ -93,14 +192,14 @@
         "app": "open-webui",
         "name": "Open WebUI",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3093,
         "app": "webcheck",
         "name": "WebCheck",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3881,
@@ -142,14 +241,14 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3891,
         "app": "joolay-services-manager",
         "name": "Services Manager",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3893,
@@ -177,21 +276,21 @@
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3898,
         "app": "joolay-app-updater",
         "name": "App Updater",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3899,
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3900,
@@ -226,14 +325,14 @@
         "app": "joolay-tv-remote",
         "name": "TV Remote",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3905,
         "app": "joolay-tv-remote",
         "name": "TV Remote",
         "kind": "published",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3906,
@@ -268,77 +367,77 @@
         "app": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 5400,
         "app": "pocketbase",
         "name": "PocketBase",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 5533,
         "app": "joolay-atvloadly",
         "name": "atvloadly",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 8095,
         "app": "adguard-home",
         "name": "AdGuard Home",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 8123,
         "app": "home-assistant",
         "name": "Home Assistant",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 8180,
         "app": "yuvomi",
         "name": "Yuvomi",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 8240,
         "app": "tailscale",
         "name": "Tailscale",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 8282,
         "app": "wallos",
         "name": "Wallos",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 8860,
         "app": "paperclip",
         "name": "Paperclip",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 8877,
         "app": "kokoro",
         "name": "Kokoro",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 11434,
         "app": "ollama",
         "name": "Ollama",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 18789,
@@ -357,7 +456,7 @@
         "portal": "off",
         "port": 8095,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -366,7 +465,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663045
+            "since": 1795484894358
           },
           {
             "key": "local",
@@ -375,7 +474,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663048
+            "since": 1795484894364
           },
           {
             "key": "tailscale",
@@ -384,7 +483,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663046
+            "since": 1795484894360
+          },
+          {
+            "key": "name",
+            "url": "https://adguard-home.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484897530
           }
         ]
       },
@@ -396,7 +504,7 @@
         "portal": "off",
         "port": 8123,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -405,7 +513,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663059
+            "since": 1795484894359
           },
           {
             "key": "local",
@@ -414,7 +522,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663061
+            "since": 1795484894365
           },
           {
             "key": "tailscale",
@@ -423,7 +531,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663060
+            "since": 1795484894361
+          },
+          {
+            "key": "name",
+            "url": "https://home-assistant.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484897540
           }
         ]
       },
@@ -435,7 +552,7 @@
         "portal": "locked",
         "port": 3898,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -444,7 +561,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663068
+            "since": 1795484894369
           },
           {
             "key": "local",
@@ -453,7 +570,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663096
+            "since": 1795484894389
           },
           {
             "key": "tailscale",
@@ -462,7 +579,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663069
+            "since": 1795484894367
+          },
+          {
+            "key": "name",
+            "url": "https://app-updater.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484897721
           }
         ]
       },
@@ -474,7 +600,7 @@
         "portal": "auto",
         "port": 5533,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -483,7 +609,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663071
+            "since": 1795484894370
           },
           {
             "key": "local",
@@ -492,7 +618,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663097
+            "since": 1795484894391
           },
           {
             "key": "tailscale",
@@ -501,7 +627,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663072
+            "since": 1795484894372
+          },
+          {
+            "key": "name",
+            "url": "https://atvloadly.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484897746
           }
         ]
       },
@@ -524,7 +659,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663097
+            "since": 1795484894390
           },
           {
             "key": "local",
@@ -533,7 +668,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663106
+            "since": 1795484894400
           },
           {
             "key": "tailscale",
@@ -542,7 +677,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663098
+            "since": 1795484894390
           },
           {
             "key": "public",
@@ -551,7 +686,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664741
+            "since": 1795484895832
           }
         ]
       },
@@ -574,7 +709,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663104
+            "since": 1795484894399
           },
           {
             "key": "local",
@@ -583,7 +718,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663111
+            "since": 1795484894402
           },
           {
             "key": "tailscale",
@@ -592,7 +727,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663106
+            "since": 1795484894401
           },
           {
             "key": "public",
@@ -601,7 +736,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664533
+            "since": 1795484896108
           }
         ]
       },
@@ -613,7 +748,7 @@
         "portal": "auto",
         "port": 3897,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -622,7 +757,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663112
+            "since": 1795484894411
           },
           {
             "key": "local",
@@ -631,7 +766,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663118
+            "since": 1795484894414
           },
           {
             "key": "tailscale",
@@ -640,7 +775,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663115
+            "since": 1795484894411
+          },
+          {
+            "key": "name",
+            "url": "https://jolly-grocer.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484897949
           }
         ]
       },
@@ -663,7 +807,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663121
+            "since": 1795484894412
           },
           {
             "key": "local",
@@ -672,7 +816,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663124
+            "since": 1795484894421
           },
           {
             "key": "tailscale",
@@ -681,7 +825,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663122
+            "since": 1795484894416
           },
           {
             "key": "public",
@@ -690,7 +834,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664529
+            "since": 1795484895857
           }
         ]
       },
@@ -702,7 +846,7 @@
         "portal": "locked",
         "port": 3920,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -711,7 +855,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663125
+            "since": 1795484894418
           },
           {
             "key": "local",
@@ -720,7 +864,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663130
+            "since": 1795484894426
           },
           {
             "key": "tailscale",
@@ -729,7 +873,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663127
+            "since": 1795484894421
+          },
+          {
+            "key": "name",
+            "url": "https://kiosk-manager.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484897962
           }
         ]
       },
@@ -752,7 +905,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663131
+            "since": 1795484894429
           },
           {
             "key": "local",
@@ -761,7 +914,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663141
+            "since": 1795484894431
           },
           {
             "key": "tailscale",
@@ -770,7 +923,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663135
+            "since": 1795484894432
           },
           {
             "key": "public",
@@ -779,14 +932,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664671
+            "since": 1795484896173
           }
         ]
       },
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
-        "version": "0.41.1",
+        "version": "0.42.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3885,
@@ -802,7 +955,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663147
+            "since": 1795484894438
           },
           {
             "key": "local",
@@ -811,7 +964,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663150
+            "since": 1795484894476
           },
           {
             "key": "tailscale",
@@ -820,7 +973,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663152
+            "since": 1795484894498
           },
           {
             "key": "public",
@@ -829,7 +982,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664695
+            "since": 1795484895965
           }
         ]
       },
@@ -843,7 +996,7 @@
         "hostPorts": [
           3899
         ],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -852,7 +1005,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663154
+            "since": 1795484894500
           },
           {
             "key": "local",
@@ -861,7 +1014,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663159
+            "since": 1795484894507
           },
           {
             "key": "tailscale",
@@ -870,7 +1023,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375663161
+            "since": 1795484894509
+          },
+          {
+            "key": "name",
+            "url": "https://portal-admin.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484898172
           }
         ]
       },
@@ -893,7 +1055,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663165
+            "since": 1795484894513
           },
           {
             "key": "local",
@@ -902,7 +1064,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663172
+            "since": 1795484894519
           },
           {
             "key": "tailscale",
@@ -911,7 +1073,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375663175
+            "since": 1795484894521
           },
           {
             "key": "public",
@@ -920,14 +1082,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664554
+            "since": 1795484895985
           }
         ]
       },
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.8.0",
+        "version": "1.9.0",
         "joolzapp": true,
         "portal": "locked",
         "port": 3906,
@@ -943,7 +1105,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664533
+            "since": 1795484895835
           },
           {
             "key": "local",
@@ -952,7 +1114,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664539
+            "since": 1795484895840
           },
           {
             "key": "tailscale",
@@ -961,7 +1123,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664536
+            "since": 1795484895842
           },
           {
             "key": "name",
@@ -970,7 +1132,7 @@
             "ignored": true,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795375964855
+            "since": 1795484898963
           }
         ]
       },
@@ -982,7 +1144,7 @@
         "portal": "locked",
         "port": 3891,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -991,7 +1153,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664541
+            "since": 1795484895850
           },
           {
             "key": "local",
@@ -1000,7 +1162,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664546
+            "since": 1795484895854
           },
           {
             "key": "tailscale",
@@ -1009,7 +1171,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664544
+            "since": 1795484895856
+          },
+          {
+            "key": "name",
+            "url": "https://services-manager.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484899160
           }
         ]
       },
@@ -1032,7 +1203,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664548
+            "since": 1795484895859
           },
           {
             "key": "local",
@@ -1041,7 +1212,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664555
+            "since": 1795484895864
           },
           {
             "key": "tailscale",
@@ -1050,7 +1221,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664551
+            "since": 1795484895862
           },
           {
             "key": "public",
@@ -1059,7 +1230,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375665974
+            "since": 1795484897332
           }
         ]
       },
@@ -1073,7 +1244,7 @@
         "hostPorts": [
           3905
         ],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1082,7 +1253,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664556
+            "since": 1795484895866
           },
           {
             "key": "local",
@@ -1091,7 +1262,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664560
+            "since": 1795484895871
           },
           {
             "key": "tailscale",
@@ -1100,7 +1271,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664558
+            "since": 1795484895872
+          },
+          {
+            "key": "name",
+            "url": "https://tv-remote.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484899359
           }
         ]
       },
@@ -1112,7 +1292,7 @@
         "portal": "off",
         "port": 8877,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1121,7 +1301,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664561
+            "since": 1795484895874
           },
           {
             "key": "local",
@@ -1130,7 +1310,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664567
+            "since": 1795484895880
           },
           {
             "key": "tailscale",
@@ -1139,7 +1319,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664563
+            "since": 1795484895882
+          },
+          {
+            "key": "name",
+            "url": "https://kokoro.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484899364
           }
         ]
       },
@@ -1151,7 +1340,7 @@
         "portal": "off",
         "port": 11434,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1160,7 +1349,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795420554619
+            "since": 1795484895884
           },
           {
             "key": "local",
@@ -1169,7 +1358,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795420554619
+            "since": 1795484895889
           },
           {
             "key": "tailscale",
@@ -1178,7 +1367,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795420554619
+            "since": 1795484895892
+          },
+          {
+            "key": "name",
+            "url": "https://ollama.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484899558
           }
         ]
       },
@@ -1190,7 +1388,7 @@
         "portal": "off",
         "port": 2876,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1199,7 +1397,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664578
+            "since": 1795484895902
           },
           {
             "key": "local",
@@ -1208,7 +1406,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664593
+            "since": 1795484895916
           },
           {
             "key": "tailscale",
@@ -1217,7 +1415,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664583
+            "since": 1795484895922
+          },
+          {
+            "key": "name",
+            "url": "https://open-webui.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484899592
           }
         ]
       },
@@ -1238,7 +1445,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664604
+            "since": 1795484895940
           },
           {
             "key": "local",
@@ -1247,7 +1454,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664622
+            "since": 1795484895963
           },
           {
             "key": "tailscale",
@@ -1256,7 +1463,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664633
+            "since": 1795484895990
           },
           {
             "key": "name",
@@ -1265,7 +1472,7 @@
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795424804460
+            "since": 1795484899596
           }
         ]
       },
@@ -1277,7 +1484,7 @@
         "portal": "off",
         "port": 8860,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1286,7 +1493,7 @@
             "ignored": false,
             "status": 403,
             "error": "",
-            "since": 1795375664628
+            "since": 1795484895980
           },
           {
             "key": "local",
@@ -1295,7 +1502,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664639
+            "since": 1795484895991
           },
           {
             "key": "tailscale",
@@ -1304,7 +1511,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664640
+            "since": 1795484895999
+          },
+          {
+            "key": "name",
+            "url": "https://paperclip.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484899799
           }
         ]
       },
@@ -1316,7 +1532,7 @@
         "portal": "off",
         "port": 5400,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1325,7 +1541,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795375664643
+            "since": 1795484896047
           },
           {
             "key": "local",
@@ -1334,7 +1550,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795375664648
+            "since": 1795484896047
           },
           {
             "key": "tailscale",
@@ -1343,7 +1559,16 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795375664645
+            "since": 1795484896048
+          },
+          {
+            "key": "name",
+            "url": "https://pocketbase.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484899825
           }
         ]
       },
@@ -1355,7 +1580,7 @@
         "portal": "off",
         "port": 8240,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1364,7 +1589,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664647
+            "since": 1795484896061
           },
           {
             "key": "local",
@@ -1373,7 +1598,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664653
+            "since": 1795484896062
           },
           {
             "key": "tailscale",
@@ -1382,7 +1607,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795375664649
+            "since": 1795484896062
+          },
+          {
+            "key": "name",
+            "url": "https://tailscale.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484900015
           }
         ]
       },
@@ -1394,7 +1628,7 @@
         "portal": "off",
         "port": 8282,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1403,7 +1637,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664652
+            "since": 1795484896063
           },
           {
             "key": "local",
@@ -1412,7 +1646,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664662
+            "since": 1795484896069
           },
           {
             "key": "tailscale",
@@ -1421,7 +1655,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664655
+            "since": 1795484896065
+          },
+          {
+            "key": "name",
+            "url": "https://wallos.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484900326
           }
         ]
       },
@@ -1433,7 +1676,7 @@
         "portal": "off",
         "port": 3093,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1442,7 +1685,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664657
+            "since": 1795484896066
           },
           {
             "key": "local",
@@ -1451,7 +1694,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664667
+            "since": 1795484896070
           },
           {
             "key": "tailscale",
@@ -1460,7 +1703,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664666
+            "since": 1795484896068
+          },
+          {
+            "key": "name",
+            "url": "https://webcheck.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484900327
           }
         ]
       },
@@ -1472,7 +1724,7 @@
         "portal": "off",
         "port": 8180,
         "hostPorts": [],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1481,7 +1733,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664669
+            "since": 1795484896071
           },
           {
             "key": "local",
@@ -1490,7 +1742,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664672
+            "since": 1795484896074
           },
           {
             "key": "tailscale",
@@ -1499,7 +1751,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795375664672
+            "since": 1795484896072
+          },
+          {
+            "key": "name",
+            "url": "https://yuvomi.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795484900527
           }
         ]
       }
