@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T22:59:11.780Z",
-  "changedAt": "2026-11-24T22:59:11.780Z",
-  "rev": 3033,
-  "sig": "480038ca7257959bf541050b1c88e363718a4d9babb355660941ab76cb756ce9",
+  "at": "2026-11-24T23:00:11.567Z",
+  "changedAt": "2026-11-24T23:00:11.567Z",
+  "rev": 3034,
+  "sig": "5cf573df26a602c2c5ecb1a6410e675487d196b87a32b2558f87875b42c7b9e3",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795561138527,
+      "at": 1795561198534,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -159,21 +174,6 @@
         },
         {
           "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         }
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 20 hours (healthy)",
+            "status": "Up 21 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1108,7 +1108,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 20 hours (healthy)",
+        "status": "Up 21 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
