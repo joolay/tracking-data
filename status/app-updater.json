@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:09:16.795Z",
-  "changedAt": "2026-11-24T02:09:16.795Z",
-  "rev": 1681,
-  "sig": "409db6dcab3bbcf784fd14d72660c662c8d9bf7fe596376056eee6c9365a764b",
+  "at": "2026-11-24T02:10:02.928Z",
+  "changedAt": "2026-11-24T02:10:02.928Z",
+  "rev": 1682,
+  "sig": "5bef28b174edeb7e0af6aa8c1f6b94c0543890f9201e724e669b262d93cdd17f",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -40,7 +40,7 @@
       "version": "1.9.0",
       "latest": "1.10.0",
       "update": true,
-      "phase": "idle",
+      "phase": "updating",
       "enabled": true,
       "result": {
         "ok": true,
@@ -51,44 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-shutterworth",
-        "name": "ShutterWorth",
-        "version": "1.7.20",
-        "latest": "1.8.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795485762597,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-tv-remote",
-        "name": "TV Remote",
-        "version": "0.2.0",
-        "latest": "0.3.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795485762597,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -507,6 +469,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-shutterworth",
+        "name": "ShutterWorth",
+        "version": "1.8.0",
+        "latest": "1.8.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795486167510,
+          "from": "1.7.20",
+          "to": "1.8.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "tailscale",
         "name": "Tailscale",
         "version": "v1.104.7",
@@ -522,6 +508,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-tv-remote",
+        "name": "TV Remote",
+        "version": "0.3.0",
+        "latest": "0.3.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795486195749,
+          "from": "0.2.0",
+          "to": "0.3.0"
+        },
         "waiting": false
       },
       {
@@ -585,10 +595,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795485702105
+      "at": 1795486197081
     },
     "check": {
-      "at": 1795486149888,
+      "at": 1795486197283,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -601,7 +611,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795486127969,
+        "at": 1795486193468,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -625,6 +635,31 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "ollama",
             "status": "Running",
@@ -734,48 +769,18 @@
             "name": "cctv",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
           "port-master"
         ],
         "update": {
-          "checkedAt": 1795458407069,
+          "checkedAt": 1795486159183,
           "latestImage": "33631a10f74b",
           "latestVersion": "2.3.4",
           "available": false,
           "error": "",
-          "last": {
-            "at": 1795371998786,
-            "ok": true,
-            "message": "Already up to date",
-            "by": "request"
-          }
+          "last": null
         }
       },
       "fresh": true,
@@ -785,6 +790,36 @@
       }
     },
     "log": [
+      {
+        "t": 1795486197284,
+        "level": "info",
+        "appId": "joolay-app-updater",
+        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.9.0 → 1.10.0…"
+      },
+      {
+        "t": 1795486195749,
+        "level": "ok",
+        "appId": "joolay-tv-remote",
+        "message": "TV Remote updated to 0.3.0 (state: ready)"
+      },
+      {
+        "t": 1795486167699,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating ShutterWorth (0 s)"
+      },
+      {
+        "t": 1795486167693,
+        "level": "info",
+        "appId": "joolay-tv-remote",
+        "message": "Updating TV Remote (detected, updating straight away)…"
+      },
+      {
+        "t": 1795486167510,
+        "level": "ok",
+        "appId": "joolay-shutterworth",
+        "message": "ShutterWorth updated to 1.8.0 (state: ready)"
+      },
       {
         "t": 1795486149888,
         "level": "info",
@@ -1114,36 +1149,6 @@
         "level": "warn",
         "appId": "joolay-app-updater",
         "message": "New version on the repo, umbrelOS has not seen it yet: App Updater 1.10.0 (umbrelOS lists 1.9.0)"
-      },
-      {
-        "t": 1795484908590,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Portal Admin (3 s)"
-      },
-      {
-        "t": 1795484905409,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.42.0 (state: ready)"
-      },
-      {
-        "t": 1795484898836,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795484890120,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795484889905,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "Port Master updated to 1.9.0 (state: ready)"
       }
     ],
     "diagnose": [
