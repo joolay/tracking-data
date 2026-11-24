@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T04:51:09.233Z",
-  "changedAt": "2026-11-24T04:51:09.233Z",
-  "rev": 1994,
-  "sig": "7896d4e5ad9d7ad5017031cca46b2492fac7dd81888546307561a4f79881dfa9",
+  "at": "2026-11-24T04:52:09.093Z",
+  "changedAt": "2026-11-24T04:52:09.093Z",
+  "rev": 1995,
+  "sig": "1809613e047484c621004d84e01beae6fbb1a8010b1ae9277c2a7f5f3f41df86",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795495869138,
+      "at": 1795495914138,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         }
@@ -703,7 +703,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.0",
             "state": "running",
-            "status": "Up 42 minutes",
+            "status": "Up 43 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.0",
         "state": "running",
-        "status": "Up 42 minutes",
+        "status": "Up 43 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
