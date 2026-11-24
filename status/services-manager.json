@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T11:06:09.920Z",
-  "changedAt": "2026-11-24T11:06:09.920Z",
-  "rev": 2363,
-  "sig": "dfcfb7ae19b58fe4279dda3891e3636102d14c4318f35c09f1e8774f338ec492",
+  "at": "2026-11-24T11:07:10.897Z",
+  "changedAt": "2026-11-24T11:07:10.897Z",
+  "rev": 2364,
+  "sig": "680ee984e4592ad7553a0d9c7ce8901ce0b467c8ec3c8b216202cb100e3b6c3c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795518355469,
+      "at": 1795518415473,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -146,36 +176,6 @@
           "name": "cctv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -214,7 +214,7 @@
             "name": "adguard-home_server_1",
             "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 27 hours",
+            "status": "Up 28 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 hours",
+            "status": "Up 9 hours",
             "policy": "no",
             "self": false
           }
@@ -1063,7 +1063,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 hours",
+        "status": "Up 9 hours",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
@@ -1220,7 +1220,7 @@
         "name": "adguard-home_server_1",
         "image": "adguard/adguardhome:v1.0.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 27 hours",
+        "status": "Up 28 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
