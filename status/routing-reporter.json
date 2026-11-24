@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T02:08:09.478Z",
-  "changedAt": "2026-11-24T02:08:09.478Z",
-  "rev": 1634,
-  "sig": "56b7c68911d450557a82e2f6a597c501f352ab1b854b6765343de840110409e6",
+  "at": "2026-11-24T02:09:09.496Z",
+  "changedAt": "2026-11-24T02:09:09.496Z",
+  "rev": 1635,
+  "sig": "b73eac4f13b3b03ed97c64a4f4d93e963ca1caa4d4e0860bf68084bd4f3cbf7b",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -24,10 +24,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
         {
           "name": "ollama",
           "status": "Running"
@@ -131,6 +127,10 @@
         {
           "name": "port-master",
           "status": "Paused"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
         }
       ]
     },
@@ -807,7 +807,7 @@
       {
         "id": "joolay-diner-bell",
         "name": "Diner Bell",
-        "version": "2.0.14",
+        "version": "2.1.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3893,
@@ -857,7 +857,7 @@
       {
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
-        "version": "1.3.2",
+        "version": "1.4.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3897,
@@ -955,7 +955,7 @@
       {
         "id": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "joolzapp": true,
         "portal": "locked",
         "port": 3920,
@@ -1003,7 +1003,7 @@
       {
         "id": "joolay-listify",
         "name": "Listify",
-        "version": "1.0.17",
+        "version": "1.1.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3895,
@@ -1053,7 +1053,7 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
-        "version": "0.42.0",
+        "version": "0.42.1",
         "joolzapp": true,
         "portal": "auto",
         "port": 3885,
@@ -1103,7 +1103,7 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.42.0",
+        "version": "0.42.1",
         "joolzapp": true,
         "portal": "auto",
         "port": 3890,
@@ -1168,8 +1168,8 @@
             "url": "http://host.docker.internal:3915/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795484894513
           },
           {
@@ -1177,8 +1177,8 @@
             "url": "http://umbrel.local:3915/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795484894519
           },
           {
@@ -1186,8 +1186,8 @@
             "url": "http://100.118.10.62:3915/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795484894521
           },
           {
