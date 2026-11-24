@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T04:47:09.086Z",
-  "changedAt": "2026-11-24T04:47:09.086Z",
-  "rev": 1990,
-  "sig": "1b3d841316e55aaf762758b6a798cdca62df865aba72370dc96f53067fef7d39",
+  "at": "2026-11-24T04:48:09.092Z",
+  "changedAt": "2026-11-24T04:48:09.092Z",
+  "rev": 1991,
+  "sig": "fa821fd05c9ef8f14a6f2e0badfd299c2fe8fbc31c19d7a0f9596390f542b376",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795495614129,
+      "at": 1795495674131,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
           "status": "Running",
           "paused": false
         }
@@ -703,7 +703,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.0",
             "state": "running",
-            "status": "Up 38 minutes",
+            "status": "Up 39 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.0",
         "state": "running",
-        "status": "Up 38 minutes",
+        "status": "Up 39 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
