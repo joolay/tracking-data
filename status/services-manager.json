@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T18:40:10.921Z",
-  "changedAt": "2026-11-24T18:40:10.921Z",
-  "rev": 2797,
-  "sig": "c049afb298015b1e6f206bfca0f6e94cd7319528b82003d682b604a9c357fb96",
+  "at": "2026-11-24T18:41:11.026Z",
+  "changedAt": "2026-11-24T18:41:11.026Z",
+  "rev": 2798,
+  "sig": "e1189bb57e894b41fecdb8d8992c7d7868c8bacae37f64d55dff4599b6fd438e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795545597320,
+      "at": 1795545657324,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "gatekeeper",
           "status": "Running",
@@ -151,31 +176,6 @@
           "name": "listify",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -238,7 +238,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.0",
             "state": "running",
-            "status": "Up 16 hours (healthy)",
+            "status": "Up 17 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1094,7 +1094,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.0",
         "state": "running",
-        "status": "Up 16 hours (healthy)",
+        "status": "Up 17 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
