@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:31:23.561Z",
-  "changedAt": "2026-11-24T02:31:23.561Z",
-  "rev": 1704,
-  "sig": "7dab545d8e9a721f5e4b83ff5c882c78b46b5831033afc607bb79548f2df4bcf",
+  "at": "2026-11-24T02:32:23.458Z",
+  "changedAt": "2026-11-24T02:32:23.458Z",
+  "rev": 1705,
+  "sig": "ffb1c14470cc626e6ad68ec223747616c01da26b4b2394c59d34e4b504ff58da",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -57,14 +57,14 @@
         "version": "2026.11.2",
         "latest": "2026.11.3",
         "update": true,
-        "state": "ready",
+        "state": "updating",
         "store": {
           "id": "umbrel",
           "name": "Umbrel"
         },
         "mode": "off",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795486960525,
         "result": null,
         "waiting": false
@@ -566,10 +566,10 @@
         }
       ],
       "error": null,
-      "at": 1795487476479
+      "at": 1795487525746
     },
     "check": {
-      "at": 1795487476640,
+      "at": 1795487525905,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -582,7 +582,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795487468577,
+        "at": 1795487528582,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -606,31 +606,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "webcheck",
             "status": "Running",
@@ -743,6 +718,31 @@
           },
           {
             "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
             "status": "Running",
             "paused": false
           }
