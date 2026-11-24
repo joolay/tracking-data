@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T23:10:12.149Z",
-  "changedAt": "2026-11-24T23:10:12.149Z",
-  "rev": 3044,
-  "sig": "0adb28ab0a1ba0eae7f70d577861264eeee8b6a0192b58356f23f58802894456",
+  "at": "2026-11-24T23:11:11.852Z",
+  "changedAt": "2026-11-24T23:11:11.852Z",
+  "rev": 3045,
+  "sig": "16b70eafb98a9ae8b5c7f2ebdfc861379c526a5f36115c1199dda2640682fedd",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795561798589,
+      "at": 1795561858595,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "adguard-home",
           "status": "Running",
@@ -176,6 +161,21 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -382,7 +382,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 17 hours (healthy)",
+            "status": "Up 18 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1047,7 +1047,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 17 hours (healthy)",
+        "status": "Up 18 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
