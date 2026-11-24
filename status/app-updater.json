@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:08:36.807Z",
-  "changedAt": "2026-11-24T02:08:36.807Z",
-  "rev": 1680,
-  "sig": "160f3d92916fd82ecd617b170e02609bfbefb2556e6d3b5bc67c3b465bda642d",
+  "at": "2026-11-24T02:09:16.795Z",
+  "changedAt": "2026-11-24T02:09:16.795Z",
+  "rev": 1681,
+  "sig": "409db6dcab3bbcf784fd14d72660c662c8d9bf7fe596376056eee6c9365a764b",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -52,44 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.7.2",
-        "latest": "1.8.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795485762596,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.3.0",
-        "latest": "1.4.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795485762596,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-shutterworth",
         "name": "ShutterWorth",
         "version": "1.7.20",
@@ -103,7 +65,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795485762597,
         "result": null,
         "waiting": false
@@ -497,6 +459,54 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.8.0",
+        "latest": "1.8.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795486121553,
+          "from": "1.7.2",
+          "to": "1.8.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.4.0",
+        "latest": "1.4.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795486149109,
+          "from": "1.3.0",
+          "to": "1.4.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "tailscale",
         "name": "Tailscale",
         "version": "v1.104.7",
@@ -578,20 +588,20 @@
       "at": 1795485702105
     },
     "check": {
-      "at": 1795486043240,
+      "at": 1795486149888,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795486029185,
+      "at": 1795486149888,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795486112965,
+        "at": 1795486127969,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -615,6 +625,41 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tv-remote",
             "status": "Running",
@@ -714,36 +759,6 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -770,6 +785,36 @@
       }
     },
     "log": [
+      {
+        "t": 1795486149888,
+        "level": "info",
+        "appId": "joolay-shutterworth",
+        "message": "Updating ShutterWorth (detected, updating straight away)…"
+      },
+      {
+        "t": 1795486149109,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "Services Manager updated to 1.4.0 (state: ready)"
+      },
+      {
+        "t": 1795486121784,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Project Pilot (0 s)"
+      },
+      {
+        "t": 1795486121767,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Updating Services Manager (detected, updating straight away)…"
+      },
+      {
+        "t": 1795486121553,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.8.0 (state: ready)"
+      },
       {
         "t": 1795486043240,
         "level": "info",
@@ -1099,36 +1144,6 @@
         "level": "ok",
         "appId": "joolay-routing-reporter",
         "message": "Port Master updated to 1.9.0 (state: ready)"
-      },
-      {
-        "t": 1795484862703,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Dashboard (0 s)"
-      },
-      {
-        "t": 1795484862633,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
-      },
-      {
-        "t": 1795484862375,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Dashboard updated to 0.42.0 (state: ready)"
-      },
-      {
-        "t": 1795484850869,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
-      },
-      {
-        "t": 1795484850869,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.41.1 → 0.42.0"
       }
     ],
     "diagnose": [
