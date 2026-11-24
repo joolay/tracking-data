@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T03:15:08.892Z",
-  "changedAt": "2026-11-24T03:15:08.892Z",
-  "rev": 1900,
-  "sig": "668566b62691cd8c8b9a81ef416ebc0490681ea11a45e8068677f24618a6fd30",
+  "at": "2026-11-24T03:16:08.872Z",
+  "changedAt": "2026-11-24T03:16:08.872Z",
+  "rev": 1901,
+  "sig": "78de297d82e0394ed8740e514efb3870ee90b1c42c8a9244e989ba10494a96d4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795490093877,
+      "at": 1795490153881,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -154,26 +174,6 @@
         },
         {
           "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 45 minutes (healthy)",
+            "status": "Up 46 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 38 minutes",
+            "status": "Up 39 minutes",
             "policy": "no",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 38 minutes",
+        "status": "Up 39 minutes",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 45 minutes (healthy)",
+        "status": "Up 46 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
