@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T14:40:10.366Z",
-  "changedAt": "2026-11-24T14:40:10.366Z",
-  "rev": 2568,
-  "sig": "2fa4b2421cb087655ece540cee45d96e12f2df5615e5427c91435d237075a839",
+  "at": "2026-11-24T14:41:10.561Z",
+  "changedAt": "2026-11-24T14:41:10.561Z",
+  "rev": 2569,
+  "sig": "79a23e9364fe5d4ded44625687415450908e92d6758e93de153580c689c6a10d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795531196275,
+      "at": 1795531256280,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -161,21 +176,6 @@
           "name": "kiosk-manager",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -238,7 +238,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.0",
             "state": "running",
-            "status": "Up 12 hours (healthy)",
+            "status": "Up 13 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1094,7 +1094,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.0",
         "state": "running",
-        "status": "Up 12 hours (healthy)",
+        "status": "Up 13 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
