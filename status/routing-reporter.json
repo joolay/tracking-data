@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T02:39:09.664Z",
-  "changedAt": "2026-11-24T02:39:09.664Z",
-  "rev": 1665,
-  "sig": "ea72f10ebc747d5529a49dbfe284c712f6040f95832193cc83199ee03c9a2c59",
+  "at": "2026-11-24T02:40:09.671Z",
+  "changedAt": "2026-11-24T02:40:09.671Z",
+  "rev": 1666,
+  "sig": "6ad3b3d638af9da7c14646289f490b4e747a57c6bf4ef2c22bcce1cf42686949",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,54 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
-        },
         {
           "name": "joolztv",
           "status": "Running"
@@ -130,6 +82,54 @@
         {
           "name": "ollama",
           "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "app-updater",
+          "status": "Running"
         }
       ]
     },
@@ -178,6 +178,13 @@
         "url": "https://atvloadly.macaw-chroma.ts.net/",
         "error": "name not found (DNS)",
         "since": 1795485194787
+      },
+      {
+        "app": "joolay-gatekeeper",
+        "route": "name",
+        "url": "https://gatekeeper.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795487948634
       },
       {
         "app": "joolay-jolly-grocer",
@@ -487,7 +494,7 @@
         "app": "joolay-gatekeeper",
         "name": "Gatekeeper",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 5400,
@@ -631,8 +638,8 @@
             "url": "http://host.docker.internal:8123/",
             "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
+            "status": 200,
+            "error": "",
             "since": 1795484894359
           },
           {
@@ -640,8 +647,8 @@
             "url": "http://umbrel.local:8123/",
             "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
+            "status": 200,
+            "error": "",
             "since": 1795484894365
           },
           {
@@ -649,8 +656,8 @@
             "url": "http://100.118.10.62:8123/",
             "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
+            "status": 200,
+            "error": "",
             "since": 1795484894361
           },
           {
@@ -902,11 +909,11 @@
           {
             "key": "name",
             "url": "https://gatekeeper.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795487644356
+            "since": 1795487948634
           }
         ]
       },
