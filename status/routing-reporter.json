@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T02:06:09.470Z",
-  "changedAt": "2026-11-24T02:06:09.470Z",
-  "rev": 1632,
-  "sig": "7a1e1ab9584b740d13393aa014ee1ce41f7e3cfd25463073dd9c1adcf51e6cd2",
+  "at": "2026-11-24T02:07:09.460Z",
+  "changedAt": "2026-11-24T02:07:09.460Z",
+  "rev": 1633,
+  "sig": "0a4cb8b9af0cccfb3b9f61a008d450ffc8f23dbfb2096618d16ccea2215df8d5",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -24,6 +24,30 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "cctv",
+          "status": "Running"
+        },
         {
           "name": "home-assistant",
           "status": "Running"
@@ -103,34 +127,6 @@
         {
           "name": "joolztv",
           "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "cctv",
-          "status": "Running"
         }
       ]
     },
@@ -138,7 +134,13 @@
       "auto": true,
       "keptByPortMaster": 17,
       "withoutName": 0,
-      "problems": [],
+      "problems": [
+        {
+          "app": "joolay-listify",
+          "name": "listify",
+          "state": "unregistered"
+        }
+      ],
       "lastError": "",
       "fixed": []
     },
