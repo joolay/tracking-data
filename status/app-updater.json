@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:32:23.458Z",
-  "changedAt": "2026-11-24T02:32:23.458Z",
-  "rev": 1705,
-  "sig": "ffb1c14470cc626e6ad68ec223747616c01da26b4b2394c59d34e4b504ff58da",
+  "at": "2026-11-24T02:33:23.548Z",
+  "changedAt": "2026-11-24T02:33:23.548Z",
+  "rev": 1706,
+  "sig": "55aff476386dbc10e2a7bd5c0afbd75d84848b4c306f645a67f2d306a68a73ff",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,24 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "home-assistant",
-        "name": "Home Assistant",
-        "version": "2026.11.2",
-        "latest": "2026.11.3",
-        "update": true,
-        "state": "updating",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795486960525,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -140,6 +122,24 @@
         "mode": "off",
         "hidden": false,
         "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "home-assistant",
+        "name": "Home Assistant",
+        "version": "2026.11.3",
+        "latest": "2026.11.3",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
         "detectedAt": null,
         "result": null,
         "waiting": false
@@ -562,27 +562,33 @@
           "id": "joolay-gatekeeper",
           "ok": true,
           "note": "Installed",
+          "at": 1795487575120
+        },
+        {
+          "id": "joolay-gatekeeper",
+          "ok": true,
+          "note": "Installed",
           "at": 1795487459653
         }
       ],
       "error": null,
-      "at": 1795487525746
+      "at": 1795487590934
     },
     "check": {
-      "at": 1795487525905,
+      "at": 1795487591077,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795487459537,
+      "at": 1795487590928,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795487528582,
+        "at": 1795487588590,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -606,21 +612,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "kokoro",
             "status": "Running",
@@ -745,6 +736,21 @@
             "name": "ollama",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -766,6 +772,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795487575120,
+        "level": "info",
+        "appId": "joolay-gatekeeper",
+        "message": "Installed joolay-gatekeeper"
+      },
       {
         "t": 1795487459653,
         "level": "info",
@@ -1119,12 +1131,6 @@
         "level": "warn",
         "appId": "joolay-listify",
         "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.1.0 (umbrelOS lists 1.0.17)"
-      },
-      {
-        "t": 1795485702090,
-        "level": "warn",
-        "appId": "joolay-kiosk-manager",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Kiosk Manager 1.2.0 (umbrelOS lists 1.1.0)"
       }
     ],
     "diagnose": [
