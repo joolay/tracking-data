@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T22:09:11.871Z",
-  "changedAt": "2026-11-24T22:09:11.871Z",
-  "rev": 3002,
-  "sig": "84386e0107813006a421e951f5118fa6cfad146761acc13a7267f1dedb2c10f5",
+  "at": "2026-11-24T22:10:11.474Z",
+  "changedAt": "2026-11-24T22:10:11.474Z",
+  "rev": 3003,
+  "sig": "852c289903d289f215d52254b3fe401128f24735d0ecb155ae14b2597e3e3f07",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795558138329,
+      "at": 1795558198333,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -174,6 +159,21 @@
         },
         {
           "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         }
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
             "state": "running",
-            "status": "Up 16 hours",
+            "status": "Up 17 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 50 minutes",
+            "status": "Up 51 minutes",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.0",
             "state": "running",
-            "status": "Up 50 minutes",
+            "status": "Up 51 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 50 minutes",
+        "status": "Up 51 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.0",
         "state": "running",
-        "status": "Up 50 minutes",
+        "status": "Up 51 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1063,7 +1063,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
         "state": "running",
-        "status": "Up 16 hours",
+        "status": "Up 17 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
