@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T04:08:09.014Z",
-  "changedAt": "2026-11-24T04:08:09.014Z",
-  "rev": 1951,
-  "sig": "66dfa6c5ebf00eae49878423a2ac0f278ed3bf3196b99d2e0860f2236e104473",
+  "at": "2026-11-24T04:09:09.003Z",
+  "changedAt": "2026-11-24T04:09:09.003Z",
+  "rev": 1952,
+  "sig": "cdc78c5968d320dacd873b2eeb4603df017c0472ac32e1a0ffa2240fd54cb78e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795493274058,
+      "at": 1795493334059,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -146,36 +176,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -690,8 +690,8 @@
         "kind": "umbrel",
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -699,11 +699,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "8e90314c2127",
+            "id": "9421f5986f7c",
             "name": "joolay-project-tracker_web_1",
-            "image": "ghcr.io/joolay/project-tracker:1.8.0",
+            "image": "ghcr.io/joolay/project-tracker:1.9.0",
             "state": "running",
-            "status": "Up 2 hours",
+            "status": "Up 49 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -952,6 +952,21 @@
     ],
     "containers": [
       {
+        "id": "9421f5986f7c",
+        "name": "joolay-project-tracker_web_1",
+        "image": "ghcr.io/joolay/project-tracker:1.9.0",
+        "state": "running",
+        "status": "Up 49 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-24T04:08:19.613247036Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "ebfe553bead0",
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
@@ -1041,21 +1056,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-24T02:09:07.966759728Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "8e90314c2127",
-        "name": "joolay-project-tracker_web_1",
-        "image": "ghcr.io/joolay/project-tracker:1.8.0",
-        "state": "running",
-        "status": "Up 2 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-24T02:08:39.924801847Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
