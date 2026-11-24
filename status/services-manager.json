@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T10:39:10.078Z",
-  "changedAt": "2026-11-24T10:39:10.078Z",
-  "rev": 2337,
-  "sig": "5b1b032534b3c8ca117519e051cbc0e05f8bfbda9c6b2300889fa279c5bfff1e",
+  "at": "2026-11-24T10:40:10.557Z",
+  "changedAt": "2026-11-24T10:40:10.557Z",
+  "rev": 2338,
+  "sig": "3af0b7cd3290bfd13d62578c5609e6036425fa1ef80358d1999a8055412d02b8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795516735343,
+      "at": 1795516810347,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 8 hours (healthy)",
+            "status": "Up 9 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1110,7 +1110,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 8 hours (healthy)",
+        "status": "Up 9 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
