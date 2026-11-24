@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T14:44:10.364Z",
-  "changedAt": "2026-11-24T14:44:10.364Z",
-  "rev": 2572,
-  "sig": "8790b57e8d0ed051084d9dab0a54b9834ce1e1eafeeee8e66232ead17c74d7fb",
+  "at": "2026-11-24T14:45:10.378Z",
+  "changedAt": "2026-11-24T14:45:10.378Z",
+  "rev": 2573,
+  "sig": "bb02fc97d246d8bc364dd2941823ce5222541459c3622daed9dcb5a1ab7728e4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795531436298,
+      "at": 1795531496310,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -775,7 +775,7 @@
             "name": "tailscale_web_1",
             "image": "tailscale/tailscale:v1.104.7@sha256:[hidden]",
             "state": "running",
-            "status": "Up 3 days",
+            "status": "Up 4 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1250,7 +1250,7 @@
         "name": "tailscale_web_1",
         "image": "tailscale/tailscale:v1.104.7@sha256:[hidden]",
         "state": "running",
-        "status": "Up 3 days",
+        "status": "Up 4 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
