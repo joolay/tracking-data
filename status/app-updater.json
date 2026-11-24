@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T04:08:22.944Z",
-  "changedAt": "2026-11-24T04:08:22.944Z",
-  "rev": 1794,
-  "sig": "b569fc26421b2b37e8c1721e5a9dab05d9275c40e2349b78bb79f8f1d1693209",
+  "at": "2026-11-24T04:08:24.325Z",
+  "changedAt": "2026-11-24T04:08:24.325Z",
+  "rev": 1795,
+  "sig": "02e904eec49ada845b629e5fd85b228a69e9ff9e265554ebb478cffc7f11e40f",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -418,7 +418,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -577,10 +577,10 @@
         }
       ],
       "error": null,
-      "at": 1795493169588
+      "at": 1795493302988
     },
     "check": {
-      "at": 1795493302891,
+      "at": 1795493303128,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -593,7 +593,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795493289057,
+        "at": 1795493304059,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -617,6 +617,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "gatekeeper",
             "status": "Running",
@@ -739,21 +754,6 @@
           },
           {
             "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
             "status": "Running",
             "paused": false
           }
