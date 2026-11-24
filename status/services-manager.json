@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T07:21:09.454Z",
-  "changedAt": "2026-11-24T07:21:09.454Z",
-  "rev": 2143,
-  "sig": "70a247710b82f12cf7c9b67c29802a3bb5719d6fd79bd13fa8e1683419881d8a",
+  "at": "2026-11-24T07:22:09.695Z",
+  "changedAt": "2026-11-24T07:22:09.695Z",
+  "rev": 2144,
+  "sig": "356285169b64d40112bff98bfe7217f4bb228db9f2d75d9cc65c90167173ef6b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795504854709,
+      "at": 1795504914713,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "pocketbase",
           "status": "Running",
@@ -174,6 +169,11 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
           "status": "Running",
           "paused": false
         }
@@ -535,7 +535,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 23 hours",
+            "status": "Up 24 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1174,7 +1174,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 23 hours",
+        "status": "Up 24 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
