@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T21:54:11.496Z",
-  "changedAt": "2026-11-24T21:54:11.496Z",
-  "rev": 2987,
-  "sig": "4bd99da4020a65b6088aeca48abf4b8ab8c21b179f770245c02196dcdc4b6f3e",
+  "at": "2026-11-24T21:55:11.389Z",
+  "changedAt": "2026-11-24T21:55:11.389Z",
+  "rev": 2988,
+  "sig": "561909aee32907d9b0b1ceeb82357db3a4d8a79f9df401794cc2d73dc491064f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795557238292,
+      "at": 1795557298294,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -174,6 +169,11 @@
         },
         {
           "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 35 minutes",
+            "status": "Up 36 minutes",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.0",
             "state": "running",
-            "status": "Up 35 minutes",
+            "status": "Up 36 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 35 minutes",
+        "status": "Up 36 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.0",
         "state": "running",
-        "status": "Up 35 minutes",
+        "status": "Up 36 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
