@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T07:18:09.572Z",
-  "changedAt": "2026-11-24T07:18:09.572Z",
-  "rev": 2140,
-  "sig": "8e6dbe3abeba0988d59a297ef308b53c3d0c2f2acfa7c90a172259fe1994ccb5",
+  "at": "2026-11-24T07:19:09.561Z",
+  "changedAt": "2026-11-24T07:19:09.561Z",
+  "rev": 2141,
+  "sig": "39f54f5e0e34ca73adc16ffdd10f7d784c1612df92ba8eabbac8faecd5db1683",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795504674697,
+      "at": 1795504734698,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -136,46 +176,6 @@
           "name": "wallos",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -919,7 +919,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 5 hours (healthy)",
+            "status": "Up 6 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1341,7 +1341,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 5 hours (healthy)",
+        "status": "Up 6 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
