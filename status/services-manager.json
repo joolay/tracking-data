@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T08:21:09.591Z",
-  "changedAt": "2026-11-24T08:21:09.591Z",
-  "rev": 2202,
-  "sig": "c78c8e9b9b2566c324e3fc27a2dcae83115714cae30218bce208626f1da8d4a8",
+  "at": "2026-11-24T08:22:09.621Z",
+  "changedAt": "2026-11-24T08:22:09.621Z",
+  "rev": 2203,
+  "sig": "45b7cf9ca8840a6776583ada319b41797337aa7897d981916cbf21863b164419",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795508454909,
+      "at": 1795508514911,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -159,21 +174,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
           "status": "Running",
           "paused": false
         }
@@ -535,7 +535,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 24 hours",
+            "status": "Up 25 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1174,7 +1174,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 24 hours",
+        "status": "Up 25 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
