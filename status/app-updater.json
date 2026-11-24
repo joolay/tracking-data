@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:30:23.445Z",
-  "changedAt": "2026-11-24T02:30:23.445Z",
-  "rev": 1703,
-  "sig": "deb8d60398506efe3d46a3346f2f6a68389251b1873a0459414ce00f278982ba",
+  "at": "2026-11-24T02:31:23.561Z",
+  "changedAt": "2026-11-24T02:31:23.561Z",
+  "rev": 1704,
+  "sig": "7dab545d8e9a721f5e4b83ff5c882c78b46b5831033afc607bb79548f2df4bcf",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -119,6 +119,25 @@
           "raw": "joolay"
         },
         "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-gatekeeper",
+        "name": "Gatekeeper",
+        "version": "1.0.0",
+        "latest": "1.0.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "off",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -536,29 +555,34 @@
     ],
     "install": {
       "enabled": true,
-      "queue": [
-        "joolay-gatekeeper"
-      ],
+      "queue": [],
       "waiting": {},
-      "last": [],
+      "last": [
+        {
+          "id": "joolay-gatekeeper",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795487459653
+        }
+      ],
       "error": null,
-      "at": 1795487397405
+      "at": 1795487476479
     },
     "check": {
-      "at": 1795487397665,
+      "at": 1795487476640,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795487336164,
+      "at": 1795487459537,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795487408574,
+        "at": 1795487468577,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -582,6 +606,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "ollama",
             "status": "Running",
@@ -701,26 +745,6 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Starting",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -742,6 +766,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795487459653,
+        "level": "info",
+        "appId": "joolay-gatekeeper",
+        "message": "Installed joolay-gatekeeper"
+      },
       {
         "t": 1795487406966,
         "level": "info",
@@ -1095,19 +1125,13 @@
         "level": "warn",
         "appId": "joolay-kiosk-manager",
         "message": "New version on the repo, umbrelOS has not seen it yet: Kiosk Manager 1.2.0 (umbrelOS lists 1.1.0)"
-      },
-      {
-        "t": 1795485702089,
-        "level": "warn",
-        "appId": "joolay-portal",
-        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.42.1 (umbrelOS lists 0.42.0)"
       }
     ],
     "diagnose": [
       {
         "proc": "apps.list",
         "ok": true,
-        "shape": "array(27)"
+        "shape": "array(28)"
       },
       {
         "proc": "apps.list item fields",
