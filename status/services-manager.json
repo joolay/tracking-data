@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T05:11:09.291Z",
-  "changedAt": "2026-11-24T05:11:09.291Z",
-  "rev": 2014,
-  "sig": "d518b76b752a14f6c58c33a12e526c45cef26049adf820e2df555886be525042",
+  "at": "2026-11-24T05:12:09.344Z",
+  "changedAt": "2026-11-24T05:12:09.344Z",
+  "rev": 2015,
+  "sig": "2d80c4acca9ac8b1f62bdec631b9a1988fa40251a5ad4f090823d0929fd9023a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795497069173,
+      "at": 1795497129174,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -161,21 +176,6 @@
           "name": "pocketbase",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
