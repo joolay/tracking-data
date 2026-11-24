@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T01:58:09.378Z",
-  "changedAt": "2026-11-24T01:58:09.378Z",
-  "rev": 1624,
-  "sig": "3d1687294a1fe6780580fd86225b60e24e7d9483a8009120de8f6f6ca8f36cb3",
+  "at": "2026-11-24T01:59:09.447Z",
+  "changedAt": "2026-11-24T01:59:09.447Z",
+  "rev": 1625,
+  "sig": "0e9e70d1e7402acab9c8b54834646607f17fb711e750ca29693c0e03196d7b74",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -24,6 +24,18 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
+        },
+        {
+          "name": "port-master",
+          "status": "Paused"
+        },
         {
           "name": "open-webui",
           "status": "Running"
@@ -119,18 +131,6 @@
         {
           "name": "pocketbase",
           "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running"
-        },
-        {
-          "name": "port-master",
-          "status": "Paused"
         }
       ]
     },
@@ -140,9 +140,7 @@
       "withoutName": 0,
       "problems": [],
       "lastError": "",
-      "fixed": [
-        "Dropped the name portal-admin: Portal Admin now has its own name (portaladmin)."
-      ]
+      "fixed": []
     },
     "intervalMin": 5,
     "config": {
