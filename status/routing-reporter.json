@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T21:18:18.189Z",
-  "changedAt": "2026-11-24T21:18:18.189Z",
-  "rev": 2731,
-  "sig": "5b6265d30ec79cea1ee7e335bfbf95d56c015cc563750828f30438a8cff029ed",
+  "at": "2026-11-24T21:19:18.053Z",
+  "changedAt": "2026-11-24T21:19:18.053Z",
+  "rev": 2732,
+  "sig": "e08730bf7129be73d825925cb846282faa0fa0e5cbf42d11af52ce753c253d36",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,30 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
         {
           "name": "cctv",
           "status": "Running"
@@ -124,7 +100,35 @@
           "status": "Running"
         },
         {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
           "name": "portaladmin",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
           "status": "Running"
         }
       ]
@@ -133,13 +137,7 @@
       "auto": true,
       "keptByPortMaster": 17,
       "withoutName": 0,
-      "problems": [
-        {
-          "app": "joolay-joolztv",
-          "name": "joolztv",
-          "state": "unregistered"
-        }
-      ],
+      "problems": [],
       "lastError": "",
       "fixed": []
     },
@@ -970,7 +968,7 @@
       {
         "id": "joolay-joolztv",
         "name": "JoolzTV",
-        "version": "1.17.0",
+        "version": "1.18.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3900,
@@ -984,8 +982,8 @@
             "url": "http://host.docker.internal:3900/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795484894412
           },
           {
@@ -993,8 +991,8 @@
             "url": "http://umbrel.local:3900/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795484894421
           },
           {
@@ -1002,8 +1000,8 @@
             "url": "http://100.118.10.62:3900/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795484894416
           },
           {
@@ -1011,8 +1009,8 @@
             "url": "https://joolztv.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "timed out",
             "since": 1795484895857
           }
         ]
