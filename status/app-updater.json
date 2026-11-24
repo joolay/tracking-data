@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T11:29:27.297Z",
-  "changedAt": "2026-11-24T11:29:27.297Z",
-  "rev": 2212,
-  "sig": "e32d6c244ca93f75db054ba21295b4a02df73253a6a4abf84ba3042b1a5b6da8",
+  "at": "2026-11-24T11:30:27.353Z",
+  "changedAt": "2026-11-24T11:30:27.353Z",
+  "rev": 2213,
+  "sig": "e1001c199577c7669ed41d68c30fe0149df7813bd6bcf4d1e8ffd1c396405b0c",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -607,10 +607,10 @@
         }
       ],
       "error": null,
-      "at": 1795519732898
+      "at": 1795519795618
     },
     "check": {
-      "at": 1795519733150,
+      "at": 1795519795752,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -623,7 +623,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795519765577,
+        "at": 1795519825580,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -647,6 +647,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -766,26 +786,6 @@
             "name": "home-assistant",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
