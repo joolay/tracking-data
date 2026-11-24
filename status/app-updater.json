@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:29:23.466Z",
-  "changedAt": "2026-11-24T02:29:23.466Z",
-  "rev": 1702,
-  "sig": "af75a695ae46d9c3bfb1a8657c6568d4996eef35137ec7abceed8be497bd0363",
+  "at": "2026-11-24T02:30:23.445Z",
+  "changedAt": "2026-11-24T02:30:23.445Z",
+  "rev": 1703,
+  "sig": "deb8d60398506efe3d46a3346f2f6a68389251b1873a0459414ce00f278982ba",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -536,14 +536,16 @@
     ],
     "install": {
       "enabled": true,
-      "queue": [],
+      "queue": [
+        "joolay-gatekeeper"
+      ],
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795487336180
+      "at": 1795487397405
     },
     "check": {
-      "at": 1795487336309,
+      "at": 1795487397665,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -556,7 +558,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795487348572,
+        "at": 1795487408574,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -580,6 +582,61 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "kiosk-manager",
             "status": "Running",
@@ -651,67 +708,17 @@
             "paused": false
           },
           {
+            "name": "gatekeeper",
+            "status": "Starting",
+            "paused": false
+          },
+          {
             "name": "port-master",
             "status": "Paused",
             "paused": true
           },
           {
             "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
             "status": "Running",
             "paused": false
           }
@@ -735,6 +742,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795487406966,
+        "level": "info",
+        "appId": "joolay-gatekeeper",
+        "message": "Install started for joolay-gatekeeper"
+      },
       {
         "t": 1795486960538,
         "level": "info",
@@ -1088,12 +1101,6 @@
         "level": "warn",
         "appId": "joolay-portal",
         "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.42.1 (umbrelOS lists 0.42.0)"
-      },
-      {
-        "t": 1795485702089,
-        "level": "warn",
-        "appId": "joolay-jolly-grocer",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.4.0 (umbrelOS lists 1.3.2)"
       }
     ],
     "diagnose": [
