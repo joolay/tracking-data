@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T20:40:11.305Z",
-  "changedAt": "2026-11-24T20:40:11.305Z",
-  "rev": 2915,
-  "sig": "45bdb4b4cccf8abe71cb0aca384eb3e44a84697f55d9db9a028b11633cfa04fe",
+  "at": "2026-11-24T20:41:11.352Z",
+  "changedAt": "2026-11-24T20:41:11.352Z",
+  "rev": 2916,
+  "sig": "100bd7a572292c4487e0b7ef531e632fba71a2bedce96b1165e0f38902bdcfb9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795552797961,
+      "at": 1795552857967,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tv-remote",
           "status": "Running",
@@ -161,21 +176,6 @@
           "name": "paperclip",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -238,7 +238,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.0",
             "state": "running",
-            "status": "Up 18 hours (healthy)",
+            "status": "Up 19 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1094,7 +1094,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.0",
         "state": "running",
-        "status": "Up 18 hours (healthy)",
+        "status": "Up 19 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
