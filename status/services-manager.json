@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T08:39:09.609Z",
-  "changedAt": "2026-11-24T08:39:09.609Z",
-  "rev": 2220,
-  "sig": "5d09aed5f03a554c2847b71ffa773512e01d2c485aa5214e460b6818cd195183",
+  "at": "2026-11-24T08:40:10.253Z",
+  "changedAt": "2026-11-24T08:40:10.253Z",
+  "rev": 2221,
+  "sig": "2e66fda4640cd53c0b34d3737f4d4d4dec1d72d942d3a04008a608e53767f023",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795509534953,
+      "at": 1795509609956,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kokoro",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 6 hours (healthy)",
+            "status": "Up 7 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1110,7 +1110,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 6 hours (healthy)",
+        "status": "Up 7 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
