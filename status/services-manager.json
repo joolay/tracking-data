@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T10:17:10.710Z",
-  "changedAt": "2026-11-24T10:17:10.710Z",
-  "rev": 2315,
-  "sig": "faa4d44f2ac6d76c5629aa7adce206e63287634e8849c74245d5ca9c816b6406",
+  "at": "2026-11-24T10:18:09.865Z",
+  "changedAt": "2026-11-24T10:18:09.865Z",
+  "rev": 2316,
+  "sig": "d9dd8e2a95f860ce10d3d60d2cf2fe9c1b2f87951552357654c3fc6d3b77c893",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795515430246,
+      "at": 1795515475249,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +146,36 @@
           "name": "diner-bell",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up 8 hours (healthy)",
+            "status": "Up 9 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1158,7 +1158,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up 8 hours (healthy)",
+        "status": "Up 9 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
