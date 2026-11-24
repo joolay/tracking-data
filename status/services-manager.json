@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T11:18:09.967Z",
-  "changedAt": "2026-11-24T11:18:09.967Z",
-  "rev": 2374,
-  "sig": "f01fe88caab48740f7d58fe209a5e3e7542208215c0b571b8ad878aec886511c",
+  "at": "2026-11-24T11:19:10.019Z",
+  "changedAt": "2026-11-24T11:19:10.019Z",
+  "rev": 2375,
+  "sig": "406ec3dc46cf9c302a392b278a321a64e6675fd7da198f8a69f7db325beb071e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795519075530,
+      "at": 1795519135533,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -151,31 +176,6 @@
           "name": "cctv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -919,7 +919,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 9 hours (healthy)",
+            "status": "Up 10 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1341,7 +1341,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 9 hours (healthy)",
+        "status": "Up 10 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
