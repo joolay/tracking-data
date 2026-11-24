@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T09:35:10.274Z",
-  "changedAt": "2026-11-24T09:35:10.274Z",
-  "rev": 2273,
-  "sig": "adb811a3c328de08d6ec20cff86434df6a12263bb99c3307c56d92968f101f36",
+  "at": "2026-11-24T09:36:09.707Z",
+  "changedAt": "2026-11-24T09:36:09.707Z",
+  "rev": 2274,
+  "sig": "a6f2f94b6f1d7cb4eb557da66087a275b4ce3c02c0a746d9c35af8fa048c8a0f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795512910039,
+      "at": 1795512955039,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -136,46 +176,6 @@
           "name": "wallos",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -463,7 +463,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1142,7 +1142,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
