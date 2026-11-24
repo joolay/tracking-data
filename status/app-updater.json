@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T04:08:24.325Z",
-  "changedAt": "2026-11-24T04:08:24.325Z",
-  "rev": 1795,
-  "sig": "02e904eec49ada845b629e5fd85b228a69e9ff9e265554ebb478cffc7f11e40f",
+  "at": "2026-11-24T04:09:00.131Z",
+  "changedAt": "2026-11-24T04:09:00.131Z",
+  "rev": 1796,
+  "sig": "7101e65e8f17d8bdb273a8e35e0b5b961694f20413bb1e27310785467fd62b14",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -577,10 +577,10 @@
         }
       ],
       "error": null,
-      "at": 1795493302988
+      "at": 1795493334048
     },
     "check": {
-      "at": 1795493303128,
+      "at": 1795493334174,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -593,7 +593,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795493304059,
+        "at": 1795493334059,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -617,31 +617,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -756,6 +731,31 @@
             "name": "cctv",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
           }
         ],
         "wanted": [
@@ -777,6 +777,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795493305125,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Project Pilot (2 s)"
+      },
       {
         "t": 1795493302600,
         "level": "ok",
@@ -1130,12 +1136,6 @@
         "level": "warn",
         "appId": "joolay-shutterworth",
         "message": "New version on the repo, umbrelOS has not seen it yet: ShutterWorth 1.8.0 (umbrelOS lists 1.7.20)"
-      },
-      {
-        "t": 1795485702092,
-        "level": "warn",
-        "appId": "joolay-services-manager",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Services Manager 1.4.0 (umbrelOS lists 1.3.0)"
       }
     ],
     "diagnose": [
