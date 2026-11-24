@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T23:56:32.830Z",
-  "changedAt": "2026-11-24T23:56:32.830Z",
-  "rev": 2898,
-  "sig": "c621ab0f77a45fc68209acaa56e9065a5d7d795092ec1d61db9dbf7e22564708",
+  "at": "2026-11-24T23:57:32.829Z",
+  "changedAt": "2026-11-24T23:57:32.829Z",
+  "rev": 2899,
+  "sig": "1e13ff8e2c64ef3d913d350f2b6ab354ee8060c64f101250ac477746fb1f6dfe",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,6 +51,24 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "ollama",
+        "name": "Ollama",
+        "version": "0.40.17",
+        "latest": "0.40.18",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795564648897,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -299,24 +317,6 @@
           "from": "1.1.0",
           "to": "1.1.1"
         },
-        "waiting": false
-      },
-      {
-        "id": "ollama",
-        "name": "Ollama",
-        "version": "0.40.17",
-        "latest": "0.40.17",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
         "waiting": false
       },
       {
@@ -612,10 +612,10 @@
         }
       ],
       "error": null,
-      "at": 1795564587303
+      "at": 1795564648942
     },
     "check": {
-      "at": 1795564587479,
+      "at": 1795564649084,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -628,7 +628,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795564588879,
+        "at": 1795564648885,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,31 +652,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "openclaw",
             "status": "Running",
@@ -791,6 +766,31 @@
             "name": "wallos",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795564648898,
+        "level": "info",
+        "appId": "ollama",
+        "message": "Update available: Ollama 0.40.17 → 0.40.18"
+      },
       {
         "t": 1795564055232,
         "level": "warn",
@@ -1165,12 +1171,6 @@
         "level": "info",
         "appId": "joolay-listify",
         "message": "Updating Listify (detected, updating straight away)…"
-      },
-      {
-        "t": 1795485948166,
-        "level": "ok",
-        "appId": "joolay-kiosk-manager",
-        "message": "Kiosk Manager updated to 1.2.0 (state: ready)"
       }
     ],
     "diagnose": [
