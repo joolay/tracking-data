@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T01:21:57.733Z",
-  "changedAt": "2026-11-24T01:21:57.733Z",
-  "rev": 1791,
-  "sig": "2d7e8d2bc260df29a97a5b7661dfa9f0a03711907f27fb680f8c19c0f63fae1d",
+  "at": "2026-11-24T01:22:57.739Z",
+  "changedAt": "2026-11-24T01:22:57.739Z",
+  "rev": 1792,
+  "sig": "9bae62862b04552b4b39955e436d196dda1170f0abf0857c3d6fb2d8a574e48d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795483307586,
+      "at": 1795483367593,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -81,6 +76,11 @@
           "name": "diner-bell",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -589,7 +589,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 17 hours",
+            "status": "Up 18 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -874,7 +874,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 17 hours",
+        "status": "Up 18 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
