@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T02:09:09.496Z",
-  "changedAt": "2026-11-24T02:09:09.496Z",
-  "rev": 1635,
-  "sig": "b73eac4f13b3b03ed97c64a4f4d93e963ca1caa4d4e0860bf68084bd4f3cbf7b",
+  "at": "2026-11-24T02:10:09.515Z",
+  "changedAt": "2026-11-24T02:10:09.515Z",
+  "rev": 1636,
+  "sig": "61ca78c8df0eb1b3149c3979a10db915378ea3195e5c5821f8011959311891d9",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -13,17 +13,16 @@
       "version": "2.3.4",
       "image": "almeidapaulopt/tsdproxy:2",
       "updateAvailable": false,
-      "lastUpdate": {
-        "at": 1795371998786,
-        "ok": true,
-        "message": "Already up to date",
-        "by": "request"
-      },
+      "lastUpdate": null,
       "pausedByPortMaster": [
         "port-master"
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
         {
           "name": "ollama",
           "status": "Running"
@@ -127,10 +126,6 @@
         {
           "name": "port-master",
           "status": "Paused"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
         }
       ]
     },
