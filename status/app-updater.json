@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T05:42:19.770Z",
-  "changedAt": "2026-11-24T05:42:19.770Z",
-  "rev": 1888,
-  "sig": "44e0cb81796ee642b2111de8d98b1acbe4a0e34cb6c05e92bb30dde1165fde6c",
+  "at": "2026-11-24T05:43:20.594Z",
+  "changedAt": "2026-11-24T05:43:20.594Z",
+  "rev": 1889,
+  "sig": "03d708560bcdab15709d908d34f460553441f0f9030dc830c7c08ffc79651608",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.9.0",
-        "latest": "1.9.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795498657474,
-        "result": {
-          "ok": true,
-          "at": 1795493302600,
-          "from": "1.8.0",
-          "to": "1.9.0"
-        },
-        "waiting": false
-      },
       {
         "id": "joolay-shutterworth",
         "name": "ShutterWorth",
@@ -473,6 +449,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.9.1",
+        "latest": "1.9.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795499000034,
+          "from": "1.9.0",
+          "to": "1.9.1"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.4.0",
@@ -605,7 +605,7 @@
       "at": 1795498596690
     },
     "check": {
-      "at": 1795498920799,
+      "at": 1795499000565,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -618,7 +618,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795498929202,
+        "at": 1795498989205,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -642,6 +642,11 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -776,11 +781,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
@@ -802,6 +802,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795499000034,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.9.1 (state: ready)"
+      },
       {
         "t": 1795498920799,
         "level": "info",
@@ -1155,12 +1161,6 @@
         "level": "info",
         "appId": "joolay-services-manager",
         "message": "Update available: Services Manager 1.3.0 → 1.4.0"
-      },
-      {
-        "t": 1795485762596,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Pilot 1.7.2 → 1.8.0"
       }
     ],
     "diagnose": [
