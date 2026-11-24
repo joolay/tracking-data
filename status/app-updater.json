@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:01:36.743Z",
-  "changedAt": "2026-11-24T02:01:36.743Z",
-  "rev": 1671,
-  "sig": "ec1f58ceccaef5a50f4b379c6f82fa5887ba94ace22f6651195a3ce6fc782838",
+  "at": "2026-11-24T02:02:36.802Z",
+  "changedAt": "2026-11-24T02:02:36.802Z",
+  "rev": 1672,
+  "sig": "a752a730d67145dfefd5815a3841e46e7b4639618f2d29d9ad44f7c2465dd2dd",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -555,23 +555,108 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795485640667
+      "at": 1795485702105
     },
     "check": {
-      "at": 1795485640847,
+      "at": 1795485702283,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795485580256,
+      "at": 1795485702048,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-app-updater",
+          "name": "App Updater",
+          "repo": "1.10.0",
+          "umbrel": "1.9.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-diner-bell",
+          "name": "Diner Bell",
+          "repo": "2.1.0",
+          "umbrel": "2.0.14",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-jolly-grocer",
+          "name": "Jolly Grocer",
+          "repo": "1.4.0",
+          "umbrel": "1.3.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-portal",
+          "name": "JoolzApp Dashboard",
+          "repo": "0.42.1",
+          "umbrel": "0.42.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-kiosk-manager",
+          "name": "Kiosk Manager",
+          "repo": "1.2.0",
+          "umbrel": "1.1.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-listify",
+          "name": "Listify",
+          "repo": "1.1.0",
+          "umbrel": "1.0.17",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-portal-admin",
+          "name": "Portal Admin",
+          "repo": "0.42.1",
+          "umbrel": "0.42.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-project-tracker",
+          "name": "Project Pilot",
+          "repo": "1.8.0",
+          "umbrel": "1.7.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-services-manager",
+          "name": "Services Manager",
+          "repo": "1.4.0",
+          "umbrel": "1.3.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-shutterworth",
+          "name": "ShutterWorth",
+          "repo": "1.8.0",
+          "umbrel": "1.7.20",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-theme-editor",
+          "name": "Theme Editor",
+          "repo": "1.1.0",
+          "umbrel": "1.0.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-tv-remote",
+          "name": "TV Remote",
+          "repo": "0.3.0",
+          "umbrel": "0.2.0",
+          "kind": "update"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795485692901,
+        "at": 1795485752909,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -595,6 +680,46 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "yuvomi",
             "status": "Running",
@@ -689,46 +814,6 @@
             "name": "ollama",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -755,6 +840,78 @@
       }
     },
     "log": [
+      {
+        "t": 1795485702093,
+        "level": "warn",
+        "appId": "joolay-tv-remote",
+        "message": "New version on the repo, umbrelOS has not seen it yet: TV Remote 0.3.0 (umbrelOS lists 0.2.0)"
+      },
+      {
+        "t": 1795485702092,
+        "level": "warn",
+        "appId": "joolay-theme-editor",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Theme Editor 1.1.0 (umbrelOS lists 1.0.0)"
+      },
+      {
+        "t": 1795485702092,
+        "level": "warn",
+        "appId": "joolay-shutterworth",
+        "message": "New version on the repo, umbrelOS has not seen it yet: ShutterWorth 1.8.0 (umbrelOS lists 1.7.20)"
+      },
+      {
+        "t": 1795485702092,
+        "level": "warn",
+        "appId": "joolay-services-manager",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Services Manager 1.4.0 (umbrelOS lists 1.3.0)"
+      },
+      {
+        "t": 1795485702091,
+        "level": "warn",
+        "appId": "joolay-project-tracker",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.8.0 (umbrelOS lists 1.7.2)"
+      },
+      {
+        "t": 1795485702091,
+        "level": "warn",
+        "appId": "joolay-portal-admin",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.42.1 (umbrelOS lists 0.42.0)"
+      },
+      {
+        "t": 1795485702090,
+        "level": "warn",
+        "appId": "joolay-listify",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.1.0 (umbrelOS lists 1.0.17)"
+      },
+      {
+        "t": 1795485702090,
+        "level": "warn",
+        "appId": "joolay-kiosk-manager",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Kiosk Manager 1.2.0 (umbrelOS lists 1.1.0)"
+      },
+      {
+        "t": 1795485702089,
+        "level": "warn",
+        "appId": "joolay-portal",
+        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.42.1 (umbrelOS lists 0.42.0)"
+      },
+      {
+        "t": 1795485702089,
+        "level": "warn",
+        "appId": "joolay-jolly-grocer",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.4.0 (umbrelOS lists 1.3.2)"
+      },
+      {
+        "t": 1795485702088,
+        "level": "warn",
+        "appId": "joolay-diner-bell",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Diner Bell 2.1.0 (umbrelOS lists 2.0.14)"
+      },
+      {
+        "t": 1795485702048,
+        "level": "warn",
+        "appId": "joolay-app-updater",
+        "message": "New version on the repo, umbrelOS has not seen it yet: App Updater 1.10.0 (umbrelOS lists 1.9.0)"
+      },
       {
         "t": 1795484908590,
         "level": "info",
@@ -1042,78 +1199,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Update available: Portal Admin 0.40.1 → 0.40.2"
-      },
-      {
-        "t": 1795422725696,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Store 0.40.1 → 0.40.2"
-      },
-      {
-        "t": 1795422173817,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.40.1 (state: ready)"
-      },
-      {
-        "t": 1795422161915,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Store (2 s)"
-      },
-      {
-        "t": 1795422159757,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795422159347,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Store updated to 0.40.1 (state: ready)"
-      },
-      {
-        "t": 1795422149093,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Store (detected, updating straight away)…"
-      },
-      {
-        "t": 1795422149093,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.40.0 → 0.40.1"
-      },
-      {
-        "t": 1795422149092,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Store 0.40.0 → 0.40.1"
-      },
-      {
-        "t": 1795421293541,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.40.0 (state: ready)"
-      },
-      {
-        "t": 1795421278748,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Store (0 s)"
-      },
-      {
-        "t": 1795421278514,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795421278063,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Store updated to 0.40.0 (state: ready)"
       }
     ],
     "diagnose": [
