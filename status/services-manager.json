@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T09:17:09.899Z",
-  "changedAt": "2026-11-24T09:17:09.899Z",
-  "rev": 2255,
-  "sig": "486126ff0812e33c25a6f5ab32a381492bd8a4c374c08ef56efa100eab0f2869",
+  "at": "2026-11-24T09:18:09.626Z",
+  "changedAt": "2026-11-24T09:18:09.626Z",
+  "rev": 2256,
+  "sig": "6488ad731ed94aacd0846728d4d2fb928e60eff57717479e415aa66b09b799e7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795511815025,
+      "at": 1795511875029,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -134,46 +174,6 @@
         },
         {
           "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
           "status": "Running",
           "paused": false
         }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1158,7 +1158,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
