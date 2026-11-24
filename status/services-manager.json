@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T14:11:10.567Z",
-  "changedAt": "2026-11-24T14:11:10.567Z",
-  "rev": 2540,
-  "sig": "88c5ab640d354634897ddf94e8d77cb0a0bb0160b4407330b223b89002db476b",
+  "at": "2026-11-24T14:12:10.325Z",
+  "changedAt": "2026-11-24T14:12:10.325Z",
+  "rev": 2541,
+  "sig": "85824e6472b3002a04d913251d41a5f87047ef0f79a801ccc6fe3a282f52dcbd",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795529456098,
+      "at": 1795529516105,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "adguard-home",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
           "status": "Running",
           "paused": false
         }
@@ -511,7 +511,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.1.1",
             "state": "running",
-            "status": "Up 8 hours",
+            "status": "Up 9 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -679,7 +679,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 8 hours (healthy)",
+            "status": "Up 9 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -986,7 +986,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 8 hours (healthy)",
+        "status": "Up 9 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1002,7 +1002,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.1.1",
         "state": "running",
-        "status": "Up 8 hours",
+        "status": "Up 9 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
