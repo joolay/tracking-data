@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T19:35:10.863Z",
-  "changedAt": "2026-11-24T19:35:10.863Z",
-  "rev": 2851,
-  "sig": "367958d67287a89ce026b4cf6a9535c6fd4b23ab8bfe4fc2441120945a127706",
+  "at": "2026-11-24T19:36:10.974Z",
+  "changedAt": "2026-11-24T19:36:10.974Z",
+  "rev": 2852,
+  "sig": "bfb5aa7a8063147761b273f1496a5392fdf08d984226d1ce2122f797d0c77980",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795548897630,
+      "at": 1795548957637,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
           "status": "Running",
           "paused": false
         }
@@ -463,7 +463,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
             "state": "running",
-            "status": "Up 17 hours (healthy)",
+            "status": "Up 18 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1142,7 +1142,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
         "state": "running",
-        "status": "Up 17 hours (healthy)",
+        "status": "Up 18 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
