@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T04:32:09.286Z",
-  "changedAt": "2026-11-24T04:32:09.286Z",
-  "rev": 1975,
-  "sig": "2f8c496d8d24b89f6f5ac748c615288a4b730ad261c3ad38d50f5a6a1e7da63b",
+  "at": "2026-11-24T04:33:09.026Z",
+  "changedAt": "2026-11-24T04:33:09.026Z",
+  "rev": 1976,
+  "sig": "1713dc215f227b416f15707c1494ad52f74c79b2f6fa2332be9a0b20e12268ee",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795494729097,
+      "at": 1795494774101,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -174,6 +169,11 @@
         },
         {
           "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -703,7 +703,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.0",
             "state": "running",
-            "status": "Up 23 minutes",
+            "status": "Up 24 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.0",
         "state": "running",
-        "status": "Up 23 minutes",
+        "status": "Up 24 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
