@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T01:50:57.912Z",
-  "changedAt": "2026-11-24T01:50:57.912Z",
-  "rev": 1815,
-  "sig": "b7a9edf954144e056eba86ae060c88a54d1fa510c8bbe71de3007490e7549b44",
+  "at": "2026-11-24T01:51:57.947Z",
+  "changedAt": "2026-11-24T01:51:57.947Z",
+  "rev": 1816,
+  "sig": "b5eb29f547dacc4ff17630b57a3f502a537aa433dead5c9b53ae03b097e85e05",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795485047801,
+      "at": 1795485107809,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -174,6 +169,11 @@
         },
         {
           "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -492,7 +492,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.0",
             "state": "running",
-            "status": "Up 3 minutes (healthy)",
+            "status": "Up 4 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -516,7 +516,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.0",
             "state": "running",
-            "status": "Up 2 minutes (healthy)",
+            "status": "Up 3 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -564,7 +564,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up 2 minutes (healthy)",
+            "status": "Up 3 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -828,7 +828,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 2 minutes (healthy)",
+            "status": "Up 3 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -937,7 +937,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.0",
         "state": "running",
-        "status": "Up 2 minutes (healthy)",
+        "status": "Up 3 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -953,7 +953,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up 2 minutes (healthy)",
+        "status": "Up 3 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -969,7 +969,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.0",
         "state": "running",
-        "status": "Up 3 minutes (healthy)",
+        "status": "Up 4 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1306,7 +1306,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 2 minutes (healthy)",
+        "status": "Up 3 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
