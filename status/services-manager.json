@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T20:17:11.075Z",
-  "changedAt": "2026-11-24T20:17:11.075Z",
-  "rev": 2892,
-  "sig": "323b00af59a905fbd5abe649a01d14b64837c1745aaeafedabdcef9bfcd676d6",
+  "at": "2026-11-24T20:18:11.017Z",
+  "changedAt": "2026-11-24T20:18:11.017Z",
+  "rev": 2893,
+  "sig": "3c333036c6c5a741381d990d8c12a2581f5b379184fdc022779d88daac0d9f95",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795551417847,
+      "at": 1795551477853,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tv-remote",
           "status": "Running",
@@ -159,21 +174,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.0",
             "state": "running",
-            "status": "Up 18 hours (healthy)",
+            "status": "Up 19 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1158,7 +1158,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.0",
         "state": "running",
-        "status": "Up 18 hours (healthy)",
+        "status": "Up 19 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
