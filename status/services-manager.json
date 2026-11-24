@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T14:38:10.332Z",
-  "changedAt": "2026-11-24T14:38:10.332Z",
-  "rev": 2566,
-  "sig": "2165c5e3d3a0882672ef548b05b2c8e4cb88cd95270d5fe082e03133137b76d5",
+  "at": "2026-11-24T14:39:10.738Z",
+  "changedAt": "2026-11-24T14:39:10.738Z",
+  "rev": 2567,
+  "sig": "7ee9e87009879311577810b9e1e4458284c49f7dd63253cc666de234b1d98c89",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795531076259,
+      "at": 1795531136270,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,51 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "paperclip",
           "status": "Running",
@@ -129,51 +174,6 @@
         },
         {
           "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
           "status": "Running",
           "paused": false
         }
@@ -727,7 +727,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.0",
             "state": "running",
-            "status": "Up 12 hours (healthy)",
+            "status": "Up 13 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1126,7 +1126,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.0",
         "state": "running",
-        "status": "Up 12 hours (healthy)",
+        "status": "Up 13 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
