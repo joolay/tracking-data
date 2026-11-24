@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T02:33:09.652Z",
-  "changedAt": "2026-11-24T02:33:09.652Z",
-  "rev": 1659,
-  "sig": "a4b4cf97f5495567bb203b45f2a7a16c27c2dd5d232ec3994dc1c2f322920f5e",
+  "at": "2026-11-24T02:34:09.638Z",
+  "changedAt": "2026-11-24T02:34:09.638Z",
+  "rev": 1660,
+  "sig": "b5c140b10e502c9397a436e21e1270d1fca1c7ad7a9e086706f6ca6022df6e0f",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,42 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "pocketbase",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running"
+        },
+        {
+          "name": "port-master",
+          "status": "Paused"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
         {
           "name": "kokoro",
           "status": "Running"
@@ -93,42 +129,6 @@
         },
         {
           "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "port-master",
-          "status": "Paused"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
           "status": "Running"
         }
       ]
@@ -483,6 +483,13 @@
         "state": "down"
       },
       {
+        "port": 3921,
+        "app": "joolay-gatekeeper",
+        "name": "Gatekeeper",
+        "kind": "app",
+        "state": "checking"
+      },
+      {
         "port": 5400,
         "app": "pocketbase",
         "name": "PocketBase",
@@ -612,7 +619,7 @@
       {
         "id": "home-assistant",
         "name": "Home Assistant",
-        "version": "2026.11.2",
+        "version": "2026.11.3",
         "joolzapp": false,
         "portal": "off",
         "port": 8123,
@@ -624,8 +631,8 @@
             "url": "http://host.docker.internal:8123/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795484894359
           },
           {
@@ -633,8 +640,8 @@
             "url": "http://umbrel.local:8123/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795484894365
           },
           {
@@ -642,8 +649,8 @@
             "url": "http://100.118.10.62:8123/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795484894361
           },
           {
@@ -850,6 +857,56 @@
             "status": 200,
             "error": "",
             "since": 1795484896108
+          }
+        ]
+      },
+      {
+        "id": "joolay-gatekeeper",
+        "name": "Gatekeeper",
+        "version": "1.0.0",
+        "joolzapp": true,
+        "portal": "locked",
+        "port": 3921,
+        "hostPorts": [
+          3921
+        ],
+        "published": "tailnet",
+        "routes": [
+          {
+            "key": "lan",
+            "url": "http://host.docker.internal:3921/",
+            "state": "up",
+            "ignored": false,
+            "status": 200,
+            "error": "",
+            "since": 1795487644170
+          },
+          {
+            "key": "local",
+            "url": "http://umbrel.local:3921/",
+            "state": "up",
+            "ignored": false,
+            "status": 200,
+            "error": "",
+            "since": 1795487644175
+          },
+          {
+            "key": "tailscale",
+            "url": "http://100.118.10.62:3921/",
+            "state": "up",
+            "ignored": false,
+            "status": 200,
+            "error": "",
+            "since": 1795487643999
+          },
+          {
+            "key": "name",
+            "url": "https://gatekeeper.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795487644356
           }
         ]
       },
