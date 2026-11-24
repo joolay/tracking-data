@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T22:15:33.512Z",
-  "changedAt": "2026-11-24T22:15:33.512Z",
-  "rev": 2822,
-  "sig": "8abd4eace504aca58803ac3d21c717251d28ecf290441b30636b69f533ce9f2b",
+  "at": "2026-11-24T22:33:32.229Z",
+  "changedAt": "2026-11-24T22:33:32.229Z",
+  "rev": 2823,
+  "sig": "075dc8ed6a6ece71848c94b0f01cf97c8b86c242233da504feded671dd083a10",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795558486377
+      "at": 1795559559360
     },
     "check": {
-      "at": 1795558486518,
+      "at": 1795559559511,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795558486372,
-      "error": null,
+      "at": 1795559496478,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795558528345,
+        "at": 1795559608365,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,6 +652,46 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "atvloadly",
             "status": "Running",
@@ -751,46 +791,6 @@
             "name": "tailscale",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795558596125,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795555128477,
         "level": "info",
@@ -1165,12 +1171,6 @@
         "level": "ok",
         "appId": "joolay-portal",
         "message": "JoolzApp Dashboard updated to 0.42.1 (state: ready)"
-      },
-      {
-        "t": 1795485914604,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Jolly Grocer (3 s)"
       }
     ],
     "diagnose": [
