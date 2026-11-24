@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T04:07:24.325Z",
-  "changedAt": "2026-11-24T04:07:24.325Z",
-  "rev": 1793,
-  "sig": "8559fff9f3951806ea4c8d1ba31c383313e5f503efc29fb809b6191cfaf1b004",
+  "at": "2026-11-24T04:08:22.944Z",
+  "changedAt": "2026-11-24T04:08:22.944Z",
+  "rev": 1794,
+  "sig": "b569fc26421b2b37e8c1721e5a9dab05d9275c40e2349b78bb79f8f1d1693209",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,25 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.8.0",
-        "latest": "1.9.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795493230555,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -424,6 +405,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.9.0",
+        "latest": "1.9.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795493302600,
+          "from": "1.8.0",
+          "to": "1.9.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.4.0",
@@ -575,7 +580,7 @@
       "at": 1795493169588
     },
     "check": {
-      "at": 1795493230597,
+      "at": 1795493302891,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -588,7 +593,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795493244057,
+        "at": 1795493289057,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -612,56 +617,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "gatekeeper",
             "status": "Running",
@@ -751,6 +706,56 @@
             "name": "portaladmin",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -772,6 +777,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795493302600,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.9.0 (state: ready)"
+      },
       {
         "t": 1795493230598,
         "level": "info",
@@ -1125,12 +1136,6 @@
         "level": "warn",
         "appId": "joolay-services-manager",
         "message": "New version on the repo, umbrelOS has not seen it yet: Services Manager 1.4.0 (umbrelOS lists 1.3.0)"
-      },
-      {
-        "t": 1795485702091,
-        "level": "warn",
-        "appId": "joolay-project-tracker",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.8.0 (umbrelOS lists 1.7.2)"
       }
     ],
     "diagnose": [
