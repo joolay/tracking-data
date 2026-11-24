@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-24T01:53:09.365Z",
-  "changedAt": "2026-11-24T01:53:09.365Z",
-  "rev": 1620,
-  "sig": "0ea40a9d66ba2824dda8e8c614e8377ee325d1ccdbc8dbd145de65f371a085c9",
+  "at": "2026-11-24T01:54:09.358Z",
+  "changedAt": "2026-11-24T01:54:09.358Z",
+  "rev": 1621,
+  "sig": "481cede192d4ca73e0bae8400744bdf63a8e6beaaa5efa885795c920fc43be46",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -24,6 +24,34 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
         {
           "name": "joolzapp",
           "status": "Running"
@@ -103,48 +131,18 @@
         {
           "name": "shutterworth",
           "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "portal-admin",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
         }
       ]
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 18,
+      "keptByPortMaster": 17,
       "withoutName": 0,
       "problems": [],
       "lastError": "",
-      "fixed": []
+      "fixed": [
+        "Dropped the name portal-admin: Portal Admin now has its own name (portaladmin)."
+      ]
     },
     "intervalMin": 5,
     "config": {
@@ -153,15 +151,141 @@
       "tailscaleIp": "100.118.10.62",
       "tailnet": "macaw-chroma.ts.net"
     },
-    "reportedToPortalAdmin": false,
-    "reportError": "fetch failed",
+    "reportedToPortalAdmin": true,
+    "reportError": "",
     "routesDown": [
+      {
+        "app": "adguard-home",
+        "route": "name",
+        "url": "https://adguard-home.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485194560
+      },
+      {
+        "app": "home-assistant",
+        "route": "name",
+        "url": "https://home-assistant.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485194580
+      },
+      {
+        "app": "joolay-app-updater",
+        "route": "name",
+        "url": "https://app-updater.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485194753
+      },
+      {
+        "app": "joolay-atvloadly",
+        "route": "name",
+        "url": "https://atvloadly.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485194787
+      },
+      {
+        "app": "joolay-jolly-grocer",
+        "route": "name",
+        "url": "https://jolly-grocer.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485195151
+      },
+      {
+        "app": "joolay-kiosk-manager",
+        "route": "name",
+        "url": "https://kiosk-manager.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485195346
+      },
+      {
+        "app": "joolay-portal-admin",
+        "route": "name",
+        "url": "https://portaladmin.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485195583
+      },
+      {
+        "app": "joolay-services-manager",
+        "route": "name",
+        "url": "https://services-manager.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485196658
+      },
+      {
+        "app": "joolay-tv-remote",
+        "route": "name",
+        "url": "https://tv-remote.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485196858
+      },
+      {
+        "app": "kokoro",
+        "route": "name",
+        "url": "https://kokoro.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197026
+      },
+      {
+        "app": "ollama",
+        "route": "name",
+        "url": "https://ollama.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197058
+      },
+      {
+        "app": "open-webui",
+        "route": "name",
+        "url": "https://open-webui.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197232
+      },
       {
         "app": "openclaw",
         "route": "name",
         "url": "https://openclaw.macaw-chroma.ts.net/",
         "error": "name not found (DNS)",
         "since": 1795484899596
+      },
+      {
+        "app": "paperclip",
+        "route": "name",
+        "url": "https://paperclip.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197432
+      },
+      {
+        "app": "pocketbase",
+        "route": "name",
+        "url": "https://pocketbase.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197492
+      },
+      {
+        "app": "tailscale",
+        "route": "name",
+        "url": "https://tailscale.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197623
+      },
+      {
+        "app": "wallos",
+        "route": "name",
+        "url": "https://wallos.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197686
+      },
+      {
+        "app": "webcheck",
+        "route": "name",
+        "url": "https://webcheck.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197814
+      },
+      {
+        "app": "yuvomi",
+        "route": "name",
+        "url": "https://yuvomi.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795485197878
       }
     ],
     "portConflicts": [],
@@ -177,14 +301,14 @@
         "app": "open-webui",
         "name": "Open WebUI",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3093,
         "app": "webcheck",
         "name": "WebCheck",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3881,
@@ -226,14 +350,14 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3891,
         "app": "joolay-services-manager",
         "name": "Services Manager",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3893,
@@ -261,21 +385,21 @@
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3898,
         "app": "joolay-app-updater",
         "name": "App Updater",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3899,
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3900,
@@ -310,14 +434,14 @@
         "app": "joolay-tv-remote",
         "name": "TV Remote",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3905,
         "app": "joolay-tv-remote",
         "name": "TV Remote",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3906,
@@ -332,6 +456,13 @@
         "name": "Port Master",
         "kind": "published",
         "state": "up"
+      },
+      {
+        "port": 3909,
+        "app": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "kind": "published",
+        "state": "down"
       },
       {
         "port": 3915,
@@ -352,77 +483,77 @@
         "app": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 5400,
         "app": "pocketbase",
         "name": "PocketBase",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 5533,
         "app": "joolay-atvloadly",
         "name": "atvloadly",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8095,
         "app": "adguard-home",
         "name": "AdGuard Home",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8123,
         "app": "home-assistant",
         "name": "Home Assistant",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8180,
         "app": "yuvomi",
         "name": "Yuvomi",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8240,
         "app": "tailscale",
         "name": "Tailscale",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8282,
         "app": "wallos",
         "name": "Wallos",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8860,
         "app": "paperclip",
         "name": "Paperclip",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8877,
         "app": "kokoro",
         "name": "Kokoro",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 11434,
         "app": "ollama",
         "name": "Ollama",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 18789,
@@ -473,11 +604,11 @@
           {
             "key": "name",
             "url": "https://adguard-home.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484897530
+            "since": 1795485194560
           }
         ]
       },
@@ -521,11 +652,11 @@
           {
             "key": "name",
             "url": "https://home-assistant.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484897540
+            "since": 1795485194580
           }
         ]
       },
@@ -569,11 +700,11 @@
           {
             "key": "name",
             "url": "https://app-updater.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484897721
+            "since": 1795485194753
           }
         ]
       },
@@ -617,11 +748,11 @@
           {
             "key": "name",
             "url": "https://atvloadly.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484897746
+            "since": 1795485194787
           }
         ]
       },
@@ -765,11 +896,11 @@
           {
             "key": "name",
             "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484897949
+            "since": 1795485195151
           }
         ]
       },
@@ -863,11 +994,11 @@
           {
             "key": "name",
             "url": "https://kiosk-manager.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484897962
+            "since": 1795485195346
           }
         ]
       },
@@ -974,12 +1105,13 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.41.1",
+        "version": "0.42.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3890,
         "hostPorts": [
-          3899
+          3899,
+          3909
         ],
         "published": "tailnet",
         "routes": [
@@ -1012,12 +1144,12 @@
           },
           {
             "key": "name",
-            "url": "https://portal-admin.macaw-chroma.ts.net/",
-            "state": "checking",
+            "url": "https://portaladmin.macaw-chroma.ts.net/",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484898172
+            "since": 1795485195583
           }
         ]
       },
@@ -1161,11 +1293,11 @@
           {
             "key": "name",
             "url": "https://services-manager.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484899160
+            "since": 1795485196658
           }
         ]
       },
@@ -1261,11 +1393,11 @@
           {
             "key": "name",
             "url": "https://tv-remote.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484899359
+            "since": 1795485196858
           }
         ]
       },
@@ -1309,11 +1441,11 @@
           {
             "key": "name",
             "url": "https://kokoro.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484899364
+            "since": 1795485197026
           }
         ]
       },
@@ -1357,11 +1489,11 @@
           {
             "key": "name",
             "url": "https://ollama.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484899558
+            "since": 1795485197058
           }
         ]
       },
@@ -1405,11 +1537,11 @@
           {
             "key": "name",
             "url": "https://open-webui.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484899592
+            "since": 1795485197232
           }
         ]
       },
@@ -1501,11 +1633,11 @@
           {
             "key": "name",
             "url": "https://paperclip.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484899799
+            "since": 1795485197432
           }
         ]
       },
@@ -1549,11 +1681,11 @@
           {
             "key": "name",
             "url": "https://pocketbase.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484899825
+            "since": 1795485197492
           }
         ]
       },
@@ -1597,11 +1729,11 @@
           {
             "key": "name",
             "url": "https://tailscale.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484900015
+            "since": 1795485197623
           }
         ]
       },
@@ -1645,11 +1777,11 @@
           {
             "key": "name",
             "url": "https://wallos.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484900326
+            "since": 1795485197686
           }
         ]
       },
@@ -1693,11 +1825,11 @@
           {
             "key": "name",
             "url": "https://webcheck.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484900327
+            "since": 1795485197814
           }
         ]
       },
@@ -1741,11 +1873,11 @@
           {
             "key": "name",
             "url": "https://yuvomi.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795484900527
+            "since": 1795485197878
           }
         ]
       }
