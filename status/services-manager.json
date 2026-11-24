@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T05:41:09.320Z",
-  "changedAt": "2026-11-24T05:41:09.320Z",
-  "rev": 2044,
-  "sig": "80f52b03830cad5653eda6e787488b369746226cee753dba125a97d27010518a",
+  "at": "2026-11-24T05:42:09.644Z",
+  "changedAt": "2026-11-24T05:42:09.644Z",
+  "rev": 2045,
+  "sig": "a1692345046a0779bb5bb1f1471b03a35e6da3bbc8d6668840b843ea09fb713d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795498869198,
+      "at": 1795498929202,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +146,36 @@
           "name": "diner-bell",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -286,7 +286,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.1",
             "state": "running",
-            "status": "Up 2 minutes",
+            "status": "Up 3 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
             "state": "running",
-            "status": "Up About a minute",
+            "status": "Up 2 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -382,7 +382,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 45 seconds (healthy)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -498,8 +498,8 @@
         "kind": "umbrel",
         "id": "joolay-listify",
         "name": "Listify",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -507,11 +507,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "2daabe685cf8",
+            "id": "a8be34d4de2c",
             "name": "joolay-listify_web_1",
-            "image": "ghcr.io/joolay/listify:1.1.0",
+            "image": "ghcr.io/joolay/listify:1.1.1",
             "state": "running",
-            "status": "Up 4 hours",
+            "status": "Up 27 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -675,11 +675,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "587b1248479b",
+            "id": "0228bc91f984",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.42.1",
+            "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 4 hours (healthy)",
+            "status": "Up 10 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -952,11 +952,42 @@
     ],
     "containers": [
       {
+        "id": "0228bc91f984",
+        "name": "joolay-portal-admin_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.42.2",
+        "state": "running",
+        "status": "Up 10 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-24T05:41:58.878634552Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "a8be34d4de2c",
+        "name": "joolay-listify_web_1",
+        "image": "ghcr.io/joolay/listify:1.1.1",
+        "state": "running",
+        "status": "Up 27 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-24T05:41:41.936436332Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "44af9c93019b",
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 46 seconds (healthy)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -972,7 +1003,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
         "state": "running",
-        "status": "Up About a minute",
+        "status": "Up 2 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -987,7 +1018,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.1",
         "state": "running",
-        "status": "Up 2 minutes",
+        "status": "Up 3 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1102,37 +1133,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-24T02:09:07.966759728Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "587b1248479b",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.42.1",
-        "state": "running",
-        "status": "Up 4 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-24T02:07:20.792096558Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "2daabe685cf8",
-        "name": "joolay-listify_web_1",
-        "image": "ghcr.io/joolay/listify:1.1.0",
-        "state": "running",
-        "status": "Up 4 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-24T02:07:05.405037998Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
