@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T01:46:57.913Z",
-  "changedAt": "2026-11-24T01:46:57.913Z",
-  "rev": 1811,
-  "sig": "8089171c5f5cce426dcc059ca1573edccbc361a1ba2b97b4505435f076e29921",
+  "at": "2026-11-24T01:47:57.916Z",
+  "changedAt": "2026-11-24T01:47:57.916Z",
+  "rev": 1812,
+  "sig": "bf281603b17b2bb14f450301420135583cc0c7aa0bae60adc85f0d71ece68126",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795484807765,
+      "at": 1795484867773,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -38,6 +38,26 @@
       },
       "proxies": [
         {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
           "name": "openclaw",
           "status": "Running",
           "paused": false
@@ -59,26 +79,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -393,11 +393,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "c1ef66c2731c",
+            "id": "8c8d907a99a8",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.41.1",
+            "image": "ghcr.io/joolay/portal-admin:0.42.0",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 16 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -421,7 +421,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.41.1",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 12 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -838,33 +838,33 @@
     ],
     "containers": [
       {
+        "id": "8c8d907a99a8",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.42.0",
+        "state": "running",
+        "status": "Up 16 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-24T01:47:41.34660062Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "ac0c66ae2abd",
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.41.1",
         "state": "running",
-        "status": "Up 11 hours (healthy)",
+        "status": "Up 12 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-23T14:17:31.175840407Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "c1ef66c2731c",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.41.1",
-        "state": "running",
-        "status": "Up 11 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-23T14:17:17.474061698Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
