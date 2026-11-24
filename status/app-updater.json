@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T04:06:24.320Z",
-  "changedAt": "2026-11-24T04:06:24.320Z",
-  "rev": 1792,
-  "sig": "45e261cd0b4cdcb0512609fefabba3486eadfc48de5994b1b4e80c85456fccbc",
+  "at": "2026-11-24T04:07:24.325Z",
+  "changedAt": "2026-11-24T04:07:24.325Z",
+  "rev": 1793,
+  "sig": "8559fff9f3951806ea4c8d1ba31c383313e5f503efc29fb809b6191cfaf1b004",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,6 +51,25 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.8.0",
+        "latest": "1.9.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795493230555,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -405,25 +424,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.8.0",
-        "latest": "1.8.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.4.0",
@@ -575,20 +575,20 @@
       "at": 1795493169588
     },
     "check": {
-      "at": 1795493169822,
+      "at": 1795493230597,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795493109204,
+      "at": 1795493230555,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795493184055,
+        "at": 1795493244057,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -612,61 +612,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -751,6 +696,61 @@
             "name": "paperclip",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -772,6 +772,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795493230598,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
+      {
+        "t": 1795493230557,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Pilot 1.8.0 → 1.9.0"
+      },
       {
         "t": 1795487575120,
         "level": "info",
@@ -1119,18 +1131,6 @@
         "level": "warn",
         "appId": "joolay-project-tracker",
         "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.8.0 (umbrelOS lists 1.7.2)"
-      },
-      {
-        "t": 1795485702091,
-        "level": "warn",
-        "appId": "joolay-portal-admin",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.42.1 (umbrelOS lists 0.42.0)"
-      },
-      {
-        "t": 1795485702090,
-        "level": "warn",
-        "appId": "joolay-listify",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.1.0 (umbrelOS lists 1.0.17)"
       }
     ],
     "diagnose": [
