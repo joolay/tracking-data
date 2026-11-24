@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T03:35:09.119Z",
-  "changedAt": "2026-11-24T03:35:09.119Z",
-  "rev": 1920,
-  "sig": "6e5806a70e27409b815cbcfb31fab0bc1034f96593a2c3e5a66d102c1b42254e",
+  "at": "2026-11-24T03:36:08.910Z",
+  "changedAt": "2026-11-24T03:36:08.910Z",
+  "rev": 1921,
+  "sig": "51c901eb2cc53375e6b3b4d7dd2baac6ca467b8fbf44c0cf0f6655e7772b8429",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795491308963,
+      "at": 1795491353967,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,71 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -109,71 +174,6 @@
         },
         {
           "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 58 minutes",
+            "status": "Up 59 minutes",
             "policy": "no",
             "self": false
           }
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.0",
             "state": "running",
-            "status": "Up About an hour",
+            "status": "Up 2 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -382,7 +382,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.1",
             "state": "running",
-            "status": "Up About an hour (healthy)",
+            "status": "Up 2 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -463,7 +463,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
             "state": "running",
-            "status": "Up About an hour (healthy)",
+            "status": "Up 2 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 58 minutes",
+        "status": "Up 59 minutes",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
@@ -1096,7 +1096,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
         "state": "running",
-        "status": "Up About an hour (healthy)",
+        "status": "Up 2 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1112,7 +1112,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.1",
         "state": "running",
-        "status": "Up About an hour (healthy)",
+        "status": "Up 2 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1128,7 +1128,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.0",
         "state": "running",
-        "status": "Up About an hour",
+        "status": "Up 2 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
