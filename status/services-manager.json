@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T09:39:09.798Z",
-  "changedAt": "2026-11-24T09:39:09.798Z",
-  "rev": 2277,
-  "sig": "66c9d82bae84776115a5dc8400e269ad020925a29c6072e1ccbdf007cf3e1140",
+  "at": "2026-11-24T09:40:09.761Z",
+  "changedAt": "2026-11-24T09:40:09.761Z",
+  "rev": 2278,
+  "sig": "76c05e5000ad123e57d5ab7f08f92b4c71f3eab823344552e66ce1de082a6ed1",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795513135049,
+      "at": 1795513195053,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1110,7 +1110,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
