@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T12:13:10.311Z",
-  "changedAt": "2026-11-24T12:13:10.311Z",
-  "rev": 2427,
-  "sig": "d16e87568e0efa5f8947ccbce5f48f5ae3752967774379be5185ddd0841fdcae",
+  "at": "2026-11-24T12:14:10.118Z",
+  "changedAt": "2026-11-24T12:14:10.118Z",
+  "rev": 2428,
+  "sig": "87f2cff7f8097caa71080f6f17dba0d423d802b0b2c193a430ef1ce097607064",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795522375733,
+      "at": 1795522435737,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -703,7 +703,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.1",
             "state": "running",
-            "status": "Up 6 hours",
+            "status": "Up 7 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -751,7 +751,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.8.1",
             "state": "running",
-            "status": "Up 6 hours",
+            "status": "Up 7 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.8.1",
         "state": "running",
-        "status": "Up 6 hours",
+        "status": "Up 7 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.1",
         "state": "running",
-        "status": "Up 6 hours",
+        "status": "Up 7 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
