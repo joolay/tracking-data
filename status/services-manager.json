@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T15:38:10.522Z",
-  "changedAt": "2026-11-24T15:38:10.522Z",
-  "rev": 2625,
-  "sig": "2bfcbcdbd82fe01a3fd59051059ab605a4e6e61464647a922b0904a607ad9b6a",
+  "at": "2026-11-24T15:39:10.475Z",
+  "changedAt": "2026-11-24T15:39:10.475Z",
+  "rev": 2626,
+  "sig": "3e0cff9e31143cc8c1c4f8036abf11420627b99e860168018f0eecef3f4d9b4f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795534676604,
+      "at": 1795534736610,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "pocketbase",
           "status": "Running",
@@ -174,6 +164,16 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
           "status": "Running",
           "paused": false
         }
@@ -727,7 +727,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.0",
             "state": "running",
-            "status": "Up 13 hours (healthy)",
+            "status": "Up 14 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1126,7 +1126,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.0",
         "state": "running",
-        "status": "Up 13 hours (healthy)",
+        "status": "Up 14 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
