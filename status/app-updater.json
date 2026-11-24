@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T02:07:09.224Z",
-  "changedAt": "2026-11-24T02:07:09.224Z",
-  "rev": 1678,
-  "sig": "fa9859e201f9211a503ed117e6533ab4aab3a0de1ad59acc26104963ae7550b8",
+  "at": "2026-11-24T02:07:36.982Z",
+  "changedAt": "2026-11-24T02:07:36.982Z",
+  "rev": 1679,
+  "sig": "72c9bc4cedaddb1d431ada554e48329ab0dbce2fce77c6d5280a2e5230d0555d",
   "seenClaude": 0,
   "data": {
     "version": "1.9.0",
@@ -52,30 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.42.0",
-        "latest": "0.42.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795485762595,
-        "result": {
-          "ok": true,
-          "at": 1795484905409,
-          "from": "0.41.1",
-          "to": "0.42.0"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.7.2",
@@ -89,7 +65,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795485762596,
         "result": null,
         "waiting": false
@@ -372,7 +348,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -497,6 +473,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.42.1",
+        "latest": "0.42.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795486042956,
+          "from": "0.42.0",
+          "to": "0.42.1"
+        },
+        "waiting": false
+      },
+      {
         "id": "tailscale",
         "name": "Tailscale",
         "version": "v1.104.7",
@@ -578,7 +578,7 @@
       "at": 1795485702105
     },
     "check": {
-      "at": 1795486029185,
+      "at": 1795486043240,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
@@ -591,7 +591,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795486022950,
+        "at": 1795486052957,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -615,61 +615,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -744,6 +689,66 @@
             "name": "joolztv",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
           }
         ],
         "wanted": [
@@ -770,6 +775,30 @@
       }
     },
     "log": [
+      {
+        "t": 1795486043240,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
+      {
+        "t": 1795486042956,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.42.1 (state: ready)"
+      },
+      {
+        "t": 1795486031689,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Listify (3 s)"
+      },
+      {
+        "t": 1795486029208,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
       {
         "t": 1795486027609,
         "level": "ok",
@@ -1105,30 +1134,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Update available: Portal Admin 0.41.1 → 0.42.0"
-      },
-      {
-        "t": 1795484850868,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Port Master 1.8.0 → 1.9.0"
-      },
-      {
-        "t": 1795484850867,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Dashboard 0.41.1 → 0.42.0"
-      },
-      {
-        "t": 1795484850860,
-        "level": "ok",
-        "appId": "joolay-gatekeeper",
-        "message": "umbrelOS now sees Gatekeeper 1.0.0"
-      },
-      {
-        "t": 1795484790338,
-        "level": "warn",
-        "appId": "joolay-gatekeeper",
-        "message": "New app on the repo, umbrelOS has not seen it yet: Gatekeeper 1.0.0"
       }
     ],
     "diagnose": [
