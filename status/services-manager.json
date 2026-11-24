@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T23:08:11.543Z",
-  "changedAt": "2026-11-24T23:08:11.543Z",
-  "rev": 3042,
-  "sig": "8a80a2c20dd00a1a7d83fa0a068a54a6caaaa938ad123bc0159b0a7bc1e8457f",
+  "at": "2026-11-24T23:09:11.526Z",
+  "changedAt": "2026-11-24T23:09:11.526Z",
+  "rev": 3043,
+  "sig": "d5c9bb7073aa6089c430cb0abcceb47136ffc0c18d8ad83e684826270dd62b4e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795561678578,
+      "at": 1795561738585,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -176,6 +161,21 @@
           "name": "openclaw",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -286,7 +286,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.1",
             "state": "running",
-            "status": "Up 17 hours",
+            "status": "Up 18 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1078,7 +1078,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.1",
         "state": "running",
-        "status": "Up 17 hours",
+        "status": "Up 18 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
