@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T12:40:11.790Z",
-  "changedAt": "2026-11-24T12:40:11.790Z",
-  "rev": 2454,
-  "sig": "33b4d76daa65a43ba53bbf83e5d67db4649c5954ac31e67384b582e6df113423",
+  "at": "2026-11-24T12:41:10.778Z",
+  "changedAt": "2026-11-24T12:41:10.778Z",
+  "rev": 2455,
+  "sig": "f44e95f9e1e0f84cb699852889847d38de09a3db91aaf200b7211943b7bf91b9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795524010813,
+      "at": 1795524055814,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -176,6 +171,11 @@
           "name": "tv-remote",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -238,7 +238,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.0",
             "state": "running",
-            "status": "Up 10 hours (healthy)",
+            "status": "Up 11 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1094,7 +1094,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.0",
         "state": "running",
-        "status": "Up 10 hours (healthy)",
+        "status": "Up 11 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
