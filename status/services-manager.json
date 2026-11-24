@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T15:08:10.391Z",
-  "changedAt": "2026-11-24T15:08:10.391Z",
-  "rev": 2596,
-  "sig": "9e78342d3bfd434584c0aae3938f6aba8da16887215d3583d1390704e7533a98",
+  "at": "2026-11-24T15:09:10.746Z",
+  "changedAt": "2026-11-24T15:09:10.746Z",
+  "rev": 2597,
+  "sig": "8b41c776c01c8b33bd17381644dab789a02c4b7896e1bb53f961d1e63a7e310e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795532876443,
+      "at": 1795532936449,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -166,16 +176,6 @@
           "name": "atvloadly",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -286,7 +286,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.1",
             "state": "running",
-            "status": "Up 9 hours",
+            "status": "Up 10 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1048,7 +1048,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.1",
         "state": "running",
-        "status": "Up 9 hours",
+        "status": "Up 10 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
