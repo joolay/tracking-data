@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-24T22:48:11.380Z",
-  "changedAt": "2026-11-24T22:48:11.380Z",
-  "rev": 3023,
-  "sig": "546de27e61d1f114e0bfb968a8bfa73c30174210183baee4a92d91f597ac282b",
+  "at": "2026-11-24T22:50:11.611Z",
+  "changedAt": "2026-11-24T22:50:11.611Z",
+  "rev": 3024,
+  "sig": "a1b2f50793c8ff188f15548eb973dc84449b323c30fb496f7626d15bc0593aad",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795560478453,
+      "at": 1795560598462,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -174,6 +159,21 @@
         },
         {
           "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up About an hour",
+            "status": "Up 2 hours",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.0",
             "state": "running",
-            "status": "Up About an hour",
+            "status": "Up 2 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up About an hour",
+        "status": "Up 2 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.0",
         "state": "running",
-        "status": "Up About an hour",
+        "status": "Up 2 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
