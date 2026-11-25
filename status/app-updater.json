@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T12:03:37.810Z",
-  "changedAt": "2026-11-25T12:03:37.810Z",
-  "rev": 3578,
-  "sig": "43ca02afc618fd20b1aadadcc072dfab41926af18b3d804c0efc8a978b01af99",
+  "at": "2026-11-25T12:05:37.814Z",
+  "changedAt": "2026-11-25T12:05:37.814Z",
+  "rev": 3579,
+  "sig": "28bb669e82c11f746403b3bdf5834408ef67168bf0a702c3c063829824c52d39",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795608197232
+      "at": 1795608319879
     },
     "check": {
-      "at": 1795608197370,
+      "at": 1795608320040,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795608197222,
-      "error": null,
+      "at": 1795608319871,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795608213419,
+        "at": 1795608333427,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,56 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tailscale",
             "status": "Running",
@@ -751,56 +801,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795608281820,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795608040246,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
-      },
-      {
-        "t": 1795498806195,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "Jolly Grocer updated to 1.4.1 (state: ready)"
       }
     ],
     "diagnose": [
