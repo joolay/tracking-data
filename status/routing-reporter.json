@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T20:46:54.063Z",
-  "changedAt": "2026-11-25T20:46:54.063Z",
-  "rev": 3987,
-  "sig": "23cbc63a5d9f9209a464b84b89071208a5215081e98772949479ebfc3ef6179e",
+  "at": "2026-11-25T20:47:54.018Z",
+  "changedAt": "2026-11-25T20:47:54.018Z",
+  "rev": 3988,
+  "sig": "6bf4a48717b5b7b7f0fce8f062c8a660be03e7513fd50633a9bd4fa655491d5c",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,10 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
         {
           "name": "ollama",
           "status": "Running"
@@ -106,6 +102,10 @@
         {
           "name": "gatekeeper",
           "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
         }
       ]
     },
@@ -176,21 +176,14 @@
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "connection reset",
+        "error": "timed out",
         "since": 1795634009849
-      },
-      {
-        "app": "joolay-joolztv",
-        "route": "name",
-        "url": "https://joolztv.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795634009881
       },
       {
         "app": "joolay-portal",
         "route": "name",
         "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
         "since": 1795633993838
       },
       {
@@ -204,7 +197,7 @@
         "app": "joolay-shutterworth",
         "route": "public",
         "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "connection reset",
+        "error": "timed out",
         "since": 1795634624430
       }
     ],
@@ -333,14 +326,14 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3902,
@@ -885,7 +878,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
+            "error": "timed out",
             "since": 1795634009849
           }
         ]
@@ -932,11 +925,11 @@
           {
             "key": "name",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795634009881
+            "status": 200,
+            "error": "",
+            "since": 1795639600775
           }
         ]
       },
@@ -1083,7 +1076,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
             "since": 1795633993838
           }
         ]
@@ -1332,7 +1325,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
+            "error": "timed out",
             "since": 1795634624430
           }
         ]
