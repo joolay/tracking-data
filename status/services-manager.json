@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T19:24:14.147Z",
-  "changedAt": "2026-11-25T19:24:14.147Z",
-  "rev": 4149,
-  "sig": "a76b43fc555f70bbac48b65a567ab9c5b614c94c3d410f3972e7f9a432d634f1",
+  "at": "2026-11-25T19:25:14.163Z",
+  "changedAt": "2026-11-25T19:25:14.163Z",
+  "rev": 4150,
+  "sig": "3ae42d1cbecc8319ec581bd8c4b5863089e7371ebf25ddd78d9f29e45263509a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795634645969,
+      "at": 1795634705973,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,31 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -144,6 +119,31 @@
         },
         {
           "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -256,7 +256,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.2",
             "state": "running",
-            "status": "Up 15 minutes",
+            "status": "Up 16 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -328,7 +328,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.3",
             "state": "running",
-            "status": "Up 14 minutes",
+            "status": "Up 15 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -352,7 +352,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.3",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -376,7 +376,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 13 minutes",
+            "status": "Up 14 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -400,7 +400,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.2",
             "state": "running",
-            "status": "Up 13 minutes",
+            "status": "Up 14 minutes",
             "policy": "on-failure",
             "self": false
           },
@@ -409,7 +409,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 13 minutes",
+            "status": "Up 14 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -481,7 +481,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.1.2",
             "state": "running",
-            "status": "Up 11 minutes",
+            "status": "Up 12 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -625,7 +625,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.0",
             "state": "running",
-            "status": "Up 11 minutes (healthy)",
+            "status": "Up 12 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -649,7 +649,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.3",
             "state": "running",
-            "status": "Up 11 minutes (healthy)",
+            "status": "Up 12 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -673,7 +673,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.2",
             "state": "running",
-            "status": "Up 9 minutes",
+            "status": "Up 10 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -721,7 +721,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.8.2",
             "state": "running",
-            "status": "Up 9 minutes",
+            "status": "Up 10 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -926,7 +926,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.8.2",
         "state": "running",
-        "status": "Up 9 minutes",
+        "status": "Up 10 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -941,7 +941,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.2",
         "state": "running",
-        "status": "Up 9 minutes",
+        "status": "Up 10 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -956,7 +956,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.3",
         "state": "running",
-        "status": "Up 11 minutes (healthy)",
+        "status": "Up 12 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -972,7 +972,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.0",
         "state": "running",
-        "status": "Up 11 minutes (healthy)",
+        "status": "Up 12 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -988,7 +988,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.1.2",
         "state": "running",
-        "status": "Up 11 minutes",
+        "status": "Up 12 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1003,7 +1003,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.2",
         "state": "running",
-        "status": "Up 13 minutes",
+        "status": "Up 14 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1018,7 +1018,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 13 minutes",
+        "status": "Up 14 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1033,7 +1033,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 13 minutes",
+        "status": "Up 14 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1048,7 +1048,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.3",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1064,7 +1064,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.3",
         "state": "running",
-        "status": "Up 14 minutes",
+        "status": "Up 15 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1079,7 +1079,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.2",
         "state": "running",
-        "status": "Up 15 minutes",
+        "status": "Up 16 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
