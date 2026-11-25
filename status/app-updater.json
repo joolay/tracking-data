@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:38:41.819Z",
-  "changedAt": "2026-11-25T21:38:41.819Z",
-  "rev": 4065,
-  "sig": "5b4acbfbb8bbdb3f0acfd6f36391181e992f0185ae170633602da62a34ba9304",
+  "at": "2026-11-25T21:39:41.824Z",
+  "changedAt": "2026-11-25T21:39:41.824Z",
+  "rev": 4066,
+  "sig": "479f87d987942f79ad0c15297e78d6a53ed9053f61dc1ec5ff6b8c9236750540",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,108 @@
         }
       ],
       "error": null,
-      "at": 1795642701544
+      "at": 1795642762775
     },
     "check": {
-      "at": 1795642701705,
+      "at": 1795642762903,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795642641141,
+      "at": 1795642762745,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-app-updater",
+          "name": "App Updater",
+          "repo": "1.10.1",
+          "umbrel": "1.10.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-diner-bell",
+          "name": "Diner Bell",
+          "repo": "2.2.0",
+          "umbrel": "2.1.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-gatekeeper",
+          "name": "Gatekeeper",
+          "repo": "1.0.2",
+          "umbrel": "1.0.1",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-jolly-grocer",
+          "name": "Jolly Grocer",
+          "repo": "1.5.0",
+          "umbrel": "1.4.3",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-kiosk-manager",
+          "name": "Kiosk Manager",
+          "repo": "1.2.1",
+          "umbrel": "1.2.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-listify",
+          "name": "Listify",
+          "repo": "1.2.0",
+          "umbrel": "1.1.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-routing-reporter",
+          "name": "Port Master",
+          "repo": "1.10.1",
+          "umbrel": "1.10.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-project-tracker",
+          "name": "Project Pilot",
+          "repo": "1.10.0",
+          "umbrel": "1.9.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-services-manager",
+          "name": "Services Manager",
+          "repo": "1.4.1",
+          "umbrel": "1.4.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-shutterworth",
+          "name": "ShutterWorth",
+          "repo": "1.9.0",
+          "umbrel": "1.8.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-theme-editor",
+          "name": "Theme Editor",
+          "repo": "1.1.1",
+          "umbrel": "1.1.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-tv-remote",
+          "name": "TV Remote",
+          "repo": "0.3.1",
+          "umbrel": "0.3.0",
+          "kind": "update"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795642716717,
+        "at": 1795642776721,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,11 +747,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "webcheck",
             "status": "Running",
@@ -771,6 +851,11 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +877,78 @@
       }
     },
     "log": [
+      {
+        "t": 1795642762755,
+        "level": "warn",
+        "appId": "joolay-tv-remote",
+        "message": "New version on the repo, umbrelOS has not seen it yet: TV Remote 0.3.1 (umbrelOS lists 0.3.0)"
+      },
+      {
+        "t": 1795642762754,
+        "level": "warn",
+        "appId": "joolay-theme-editor",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Theme Editor 1.1.1 (umbrelOS lists 1.1.0)"
+      },
+      {
+        "t": 1795642762753,
+        "level": "warn",
+        "appId": "joolay-shutterworth",
+        "message": "New version on the repo, umbrelOS has not seen it yet: ShutterWorth 1.9.0 (umbrelOS lists 1.8.2)"
+      },
+      {
+        "t": 1795642762752,
+        "level": "warn",
+        "appId": "joolay-services-manager",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Services Manager 1.4.1 (umbrelOS lists 1.4.0)"
+      },
+      {
+        "t": 1795642762750,
+        "level": "warn",
+        "appId": "joolay-project-tracker",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.10.0 (umbrelOS lists 1.9.2)"
+      },
+      {
+        "t": 1795642762750,
+        "level": "warn",
+        "appId": "joolay-routing-reporter",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.1 (umbrelOS lists 1.10.0)"
+      },
+      {
+        "t": 1795642762749,
+        "level": "warn",
+        "appId": "joolay-listify",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.2.0 (umbrelOS lists 1.1.2)"
+      },
+      {
+        "t": 1795642762748,
+        "level": "warn",
+        "appId": "joolay-kiosk-manager",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Kiosk Manager 1.2.1 (umbrelOS lists 1.2.0)"
+      },
+      {
+        "t": 1795642762747,
+        "level": "warn",
+        "appId": "joolay-jolly-grocer",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.5.0 (umbrelOS lists 1.4.3)"
+      },
+      {
+        "t": 1795642762746,
+        "level": "warn",
+        "appId": "joolay-gatekeeper",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Gatekeeper 1.0.2 (umbrelOS lists 1.0.1)"
+      },
+      {
+        "t": 1795642762746,
+        "level": "warn",
+        "appId": "joolay-diner-bell",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Diner Bell 2.2.0 (umbrelOS lists 2.1.2)"
+      },
+      {
+        "t": 1795642762745,
+        "level": "warn",
+        "appId": "joolay-app-updater",
+        "message": "New version on the repo, umbrelOS has not seen it yet: App Updater 1.10.1 (umbrelOS lists 1.10.0)"
+      },
       {
         "t": 1795641765763,
         "level": "warn",
@@ -1079,78 +1236,6 @@
         "level": "ok",
         "appId": "joolay-shutterworth",
         "message": "umbrelOS now sees ShutterWorth 1.8.2"
-      },
-      {
-        "t": 1795633633888,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "umbrelOS now sees Project Pilot 1.9.2"
-      },
-      {
-        "t": 1795633633888,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "umbrelOS now sees Portal Admin 0.42.3"
-      },
-      {
-        "t": 1795633633887,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "umbrelOS now sees Port Master 1.10.0"
-      },
-      {
-        "t": 1795633633887,
-        "level": "ok",
-        "appId": "joolay-listify",
-        "message": "umbrelOS now sees Listify 1.1.2"
-      },
-      {
-        "t": 1795633633887,
-        "level": "ok",
-        "appId": "joolay-joolztv",
-        "message": "umbrelOS now sees JoolzTV 1.18.2"
-      },
-      {
-        "t": 1795633633886,
-        "level": "ok",
-        "appId": "joolay-cctv",
-        "message": "umbrelOS now sees JoolzCCTV 1.0.4"
-      },
-      {
-        "t": 1795633633886,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "umbrelOS now sees JoolzApp Dashboard 0.42.3"
-      },
-      {
-        "t": 1795633633885,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "umbrelOS now sees Jolly Grocer 1.4.3"
-      },
-      {
-        "t": 1795633633884,
-        "level": "ok",
-        "appId": "joolay-gatekeeper",
-        "message": "umbrelOS now sees Gatekeeper 1.0.1"
-      },
-      {
-        "t": 1795633633884,
-        "level": "ok",
-        "appId": "joolay-diner-bell",
-        "message": "umbrelOS now sees Diner Bell 2.1.2"
-      },
-      {
-        "t": 1795633452544,
-        "level": "warn",
-        "appId": "joolay-shutterworth",
-        "message": "New version on the repo, umbrelOS has not seen it yet: ShutterWorth 1.8.2 (umbrelOS lists 1.8.1)"
-      },
-      {
-        "t": 1795633452543,
-        "level": "warn",
-        "appId": "joolay-project-tracker",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.9.2 (umbrelOS lists 1.9.1)"
       }
     ],
     "diagnose": [
