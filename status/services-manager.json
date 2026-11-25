@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T05:47:12.056Z",
-  "changedAt": "2026-11-25T05:47:12.056Z",
-  "rev": 3417,
-  "sig": "403dac4b3d721868072d946afc7971ddb6faffd463ae98242df79a7d3f5d11ba",
+  "at": "2026-11-25T05:48:12.063Z",
+  "changedAt": "2026-11-25T05:48:12.063Z",
+  "rev": 3418,
+  "sig": "2a4ddf69117ba07f1e0ee0c705891e1497b6d8d2cbef8c0ca40a0bd643fe9bdf",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795585621035,
+      "at": 1795585681045,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,41 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "wallos",
           "status": "Running",
@@ -139,41 +174,6 @@
         },
         {
           "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
           "status": "Running",
           "paused": false
         }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.1",
             "state": "running",
-            "status": "Up 54 minutes (healthy)",
+            "status": "Up 55 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
         "state": "running",
-        "status": "Up 54 minutes (healthy)",
+        "status": "Up 55 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
