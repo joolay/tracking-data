@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T13:13:13.189Z",
-  "changedAt": "2026-11-25T13:13:13.189Z",
-  "rev": 3838,
-  "sig": "c6dd91ea6959901e3293868065c489b686587c8c03bca190bd179cc1efeec0e5",
+  "at": "2026-11-25T13:14:13.167Z",
+  "changedAt": "2026-11-25T13:14:13.167Z",
+  "rev": 3839,
+  "sig": "801937838474cea9884e2072c26f3ef8d2b253ae71ec71f15f8e9d325ea0312b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795612383749,
+      "at": 1795612443756,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "pocketbase",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
           "status": "Running",
           "paused": false
         }
@@ -703,7 +703,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.1",
             "state": "running",
-            "status": "Up 31 hours",
+            "status": "Up 32 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -751,7 +751,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.8.1",
             "state": "running",
-            "status": "Up 31 hours",
+            "status": "Up 32 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1032,7 +1032,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.8.1",
         "state": "running",
-        "status": "Up 31 hours",
+        "status": "Up 32 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1047,7 +1047,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.1",
         "state": "running",
-        "status": "Up 31 hours",
+        "status": "Up 32 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
