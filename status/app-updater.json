@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T16:29:39.503Z",
-  "changedAt": "2026-11-25T16:29:39.503Z",
-  "rev": 3782,
-  "sig": "7629d90ad39959a7997ed287f82f8088cd22d878b0e58696ebb7c709bf183b7a",
+  "at": "2026-11-25T16:31:39.504Z",
+  "changedAt": "2026-11-25T16:31:39.504Z",
+  "rev": 3783,
+  "sig": "828f3d3784a1a251c77161ca1576f198e6f1b633f54d1e04e236e0787786b720",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795624158045
+      "at": 1795624279156
     },
     "check": {
-      "at": 1795624158197,
+      "at": 1795624279282,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795624097600,
+      "at": 1795624218856,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795624174766,
+        "at": 1795624294779,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,56 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "project-tracker",
             "status": "Running",
@@ -801,6 +751,56 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795624243513,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795623341113,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "yuvomi",
         "message": "Update available: Yuvomi 2.94.0 → 2.95.0"
-      },
-      {
-        "t": 1795571238528,
-        "level": "info",
-        "appId": "openclaw",
-        "message": "Update available: OpenClaw 2026.11.4 → 2026.11.7"
       }
     ],
     "diagnose": [
