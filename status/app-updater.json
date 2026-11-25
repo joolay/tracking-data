@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:12:25.813Z",
-  "changedAt": "2026-11-25T19:12:25.813Z",
-  "rev": 3934,
-  "sig": "2cc71cd022dc1a64e58ebeb5d3c17663a155de2bbe61cb16839d286eb54f1296",
+  "at": "2026-11-25T19:13:07.044Z",
+  "changedAt": "2026-11-25T19:13:07.044Z",
+  "rev": 3935,
+  "sig": "d51dbd4c3a0ef933cb7b77623296a83f11c58ce46f84de73a363382126e74d67",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -104,54 +104,6 @@
         "busy": false,
         "detectedAt": 1795571238527,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.9.1",
-        "latest": "1.10.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795633633893,
-        "result": {
-          "ok": true,
-          "at": 1795582372723,
-          "from": "1.9.0",
-          "to": "1.9.1"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.42.2",
-        "latest": "0.42.3",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795633633893,
-        "result": {
-          "ok": true,
-          "at": 1795498920515,
-          "from": "0.42.1",
-          "to": "0.42.2"
-        },
         "waiting": false
       },
       {
@@ -446,7 +398,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -508,6 +460,54 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.10.0",
+        "latest": "1.10.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795633972971,
+          "from": "1.9.1",
+          "to": "1.10.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.42.3",
+        "latest": "0.42.3",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795633986633,
+          "from": "0.42.2",
+          "to": "0.42.3"
+        },
         "waiting": false
       },
       {
@@ -625,20 +625,20 @@
       "at": 1795633573612
     },
     "check": {
-      "at": 1795633945808,
+      "at": 1795633986835,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795633827581,
+      "at": 1795633973752,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633940887,
+        "at": 1795633985889,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,46 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tv-remote",
             "status": "Running",
@@ -689,11 +729,6 @@
           },
           {
             "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
             "status": "Running",
             "paused": false
           },
@@ -736,51 +771,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -802,6 +792,42 @@
       }
     },
     "log": [
+      {
+        "t": 1795633986633,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.42.3 (state: ready)"
+      },
+      {
+        "t": 1795633983136,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
+      {
+        "t": 1795633973752,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795633972971,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.10.0 (state: ready)"
+      },
+      {
+        "t": 1795633948129,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Listify (2 s)"
+      },
+      {
+        "t": 1795633945809,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
       {
         "t": 1795633945568,
         "level": "ok",
@@ -1125,42 +1151,6 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795628564327,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795625323580,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795624243513,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795623341113,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub answered 500. "
-      },
-      {
-        "t": 1795623221065,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub answered 500. "
-      },
-      {
-        "t": 1795623048900,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub answered 500. "
       }
     ],
     "diagnose": [
