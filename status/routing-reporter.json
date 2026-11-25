@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T22:17:00.137Z",
-  "changedAt": "2026-11-25T22:17:00.137Z",
-  "rev": 4068,
-  "sig": "e4281ba96f34c3f90913d054dda394860e376fb75d4cb8b2894a16422a649eca",
+  "at": "2026-11-25T22:19:00.151Z",
+  "changedAt": "2026-11-25T22:19:00.151Z",
+  "rev": 4069,
+  "sig": "e1c1b822e67035464dd95da554649d4c44785849bdc3f96bb7a501c6d71261b4",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,30 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
         {
           "name": "tv-remote",
           "status": "Running"
@@ -75,30 +99,6 @@
         },
         {
           "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
           "status": "Running"
         }
       ]
@@ -165,13 +165,6 @@
         "since": 1795643533170
       },
       {
-        "app": "joolay-diner-bell",
-        "route": "name",
-        "url": "https://diner-bell.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795643525578
-      },
-      {
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
@@ -179,17 +172,10 @@
         "since": 1795643525739
       },
       {
-        "app": "joolay-joolztv",
-        "route": "name",
-        "url": "https://joolztv.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795644329848
-      },
-      {
         "app": "joolay-portal",
         "route": "name",
         "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
         "since": 1795643525996
       },
       {
@@ -217,7 +203,7 @@
         "app": "joolay-shutterworth",
         "route": "public",
         "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "connection reset",
+        "error": "timed out",
         "since": 1795643526991
       }
     ],
@@ -297,14 +283,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3895,
@@ -346,14 +332,14 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3902,
@@ -795,11 +781,11 @@
           {
             "key": "name",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795643525578
+            "status": 200,
+            "error": "",
+            "since": 1795645082681
           }
         ]
       },
@@ -945,11 +931,11 @@
           {
             "key": "name",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795644329848
+            "status": 200,
+            "error": "",
+            "since": 1795645087878
           }
         ]
       },
@@ -1096,7 +1082,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
             "since": 1795643525996
           }
         ]
@@ -1345,7 +1331,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
+            "error": "timed out",
             "since": 1795643526991
           }
         ]
