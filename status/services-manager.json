@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T09:39:12.502Z",
-  "changedAt": "2026-11-25T09:39:12.502Z",
-  "rev": 3636,
-  "sig": "36b64110d01d0b61f58f482bd96bbb42acb0039b5c7185a37a5b1bac21fea2f1",
+  "at": "2026-11-25T09:40:12.519Z",
+  "changedAt": "2026-11-25T09:40:12.519Z",
+  "rev": 3637,
+  "sig": "fc68fde3337e9ac23afc76fe91fb59156a51bf967afd5165f8b1092b26212f44",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795599542550,
+      "at": 1795599602556,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -151,31 +176,6 @@
           "name": "cctv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 31 hours (healthy)",
+            "status": "Up 32 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1156,7 +1156,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 31 hours (healthy)",
+        "status": "Up 32 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
