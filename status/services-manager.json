@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T20:35:14.220Z",
-  "changedAt": "2026-11-25T20:35:14.220Z",
-  "rev": 4216,
-  "sig": "a19e8d2c2c4ab7e55aef04e88a384987009bb00e5e5f7fa3e0e322c22385417f",
+  "at": "2026-11-25T20:36:14.216Z",
+  "changedAt": "2026-11-25T20:36:14.216Z",
+  "rev": 4217,
+  "sig": "05f079bb9ad0702fd2cc30adee3fc3fc6895169af5003453610d5faefb1f1c65",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795638906392,
+      "at": 1795638966401,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kokoro",
           "status": "Running",
@@ -139,11 +144,6 @@
         },
         {
           "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -433,7 +433,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
             "state": "running",
-            "status": "Up 42 hours (healthy)",
+            "status": "Up 43 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1173,7 +1173,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
         "state": "running",
-        "status": "Up 42 hours (healthy)",
+        "status": "Up 43 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
