@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T11:33:25.981Z",
-  "changedAt": "2026-11-25T11:33:25.981Z",
-  "rev": 3549,
-  "sig": "1c8354e261011ce2654e9f9b66082b81deaa0779f45593c410b6145736360da2",
+  "at": "2026-11-25T11:34:03.423Z",
+  "changedAt": "2026-11-25T11:34:03.423Z",
+  "rev": 3550,
+  "sig": "1ff8f9a58e41c5ddf545ba871e60f2ca7e47c814e168ebed4886a715735bffb3",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,25 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-cctv",
-        "name": "JoolzCCTV",
-        "version": "1.0.2",
-        "latest": "1.0.3",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795606337746,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "ollama",
         "name": "Ollama",
@@ -236,7 +217,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -267,6 +248,30 @@
           "at": 1795498824324,
           "from": "0.42.1",
           "to": "0.42.2"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-cctv",
+        "name": "JoolzCCTV",
+        "version": "1.0.3",
+        "latest": "1.0.3",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795606435180,
+          "from": "1.0.2",
+          "to": "1.0.3"
         },
         "waiting": false
       },
@@ -617,10 +622,10 @@
         }
       ],
       "error": null,
-      "at": 1795606276568
+      "at": 1795606435410
     },
     "check": {
-      "at": 1795606405976,
+      "at": 1795606435538,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -633,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795606398230,
+        "at": 1795606443234,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,6 +662,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "cctv",
             "status": "Running",
@@ -786,16 +801,6 @@
             "name": "wallos",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +822,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795606435180,
+        "level": "ok",
+        "appId": "joolay-cctv",
+        "message": "JoolzCCTV updated to 1.0.3 (state: ready)"
+      },
+      {
+        "t": 1795606408413,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
+      {
+        "t": 1795606405977,
+        "level": "info",
+        "appId": "joolay-cctv",
+        "message": "Updating JoolzCCTV (detected, updating straight away)…"
+      },
       {
         "t": 1795606405784,
         "level": "ok",
@@ -1158,24 +1181,6 @@
         "level": "info",
         "appId": "joolay-jolly-grocer",
         "message": "Updating Jolly Grocer (detected, updating straight away)…"
-      },
-      {
-        "t": 1795498727983,
-        "level": "ok",
-        "appId": "joolay-diner-bell",
-        "message": "Diner Bell updated to 2.1.1 (state: ready)"
-      },
-      {
-        "t": 1795498657475,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Updating Diner Bell (detected, updating straight away)…"
-      },
-      {
-        "t": 1795498657475,
-        "level": "info",
-        "appId": "joolay-shutterworth",
-        "message": "Update available: ShutterWorth 1.8.0 → 1.8.1"
       }
     ],
     "diagnose": [
