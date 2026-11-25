@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T10:35:12.743Z",
-  "changedAt": "2026-11-25T10:35:12.743Z",
-  "rev": 3690,
-  "sig": "92749c6b0af10525988169df77c64b264e401d0c80f427b1b635d9907cc09060",
+  "at": "2026-11-25T10:36:12.743Z",
+  "changedAt": "2026-11-25T10:36:12.743Z",
+  "rev": 3691,
+  "sig": "cd531bc8ecb766e4e6eeda1b07dcc06af70b789b7b8c485c27e5e7068ef89c17",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795602902853,
+      "at": 1795602962862,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -176,6 +146,36 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -463,7 +463,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
             "state": "running",
-            "status": "Up 32 hours (healthy)",
+            "status": "Up 33 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1188,7 +1188,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
         "state": "running",
-        "status": "Up 32 hours (healthy)",
+        "status": "Up 33 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
