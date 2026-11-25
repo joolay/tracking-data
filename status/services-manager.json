@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T03:10:11.761Z",
-  "changedAt": "2026-11-25T03:10:11.761Z",
-  "rev": 3270,
-  "sig": "d165399bcf40817b7a5374bf36c7cf0c9e2bc59c08603df5cdb143fa4a6725f4",
+  "at": "2026-11-25T03:11:11.767Z",
+  "changedAt": "2026-11-25T03:11:11.767Z",
+  "rev": 3271,
+  "sig": "7f96e42a970bb8a28aad03eb07f3762ba25dc3292058b92822ea134b96cf9b30",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795576199701,
+      "at": 1795576259712,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,51 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -129,51 +174,6 @@
         },
         {
           "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
           "status": "Running",
           "paused": false
         }
@@ -382,7 +382,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 21 hours (healthy)",
+            "status": "Up 22 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1047,7 +1047,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 21 hours (healthy)",
+        "status": "Up 22 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
