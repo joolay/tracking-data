@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T04:04:11.910Z",
-  "changedAt": "2026-11-25T04:04:11.910Z",
-  "rev": 3321,
-  "sig": "20ce4f7ad8e907769831dd8b31f15a058f55f7b65f88b56edf667c3aaa14468d",
+  "at": "2026-11-25T04:05:11.851Z",
+  "changedAt": "2026-11-25T04:05:11.851Z",
+  "rev": 3322,
+  "sig": "d295ff8a76a1cd27f9bb42c41c360e14d100cbd43740d563131b5e96cb0e8bae",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795579440201,
+      "at": 1795579500209,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -156,26 +176,6 @@
           "name": "home-assistant",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
