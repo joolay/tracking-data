@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:13:41.055Z",
-  "changedAt": "2026-11-25T19:13:41.055Z",
-  "rev": 3936,
-  "sig": "dc95643de500e6066f77014baefdafbe32f24f12825b839e84767e67dee9f439",
+  "at": "2026-11-25T19:14:22.548Z",
+  "changedAt": "2026-11-25T19:14:22.548Z",
+  "rev": 3937,
+  "sig": "055452422a4fc742706640eb2b99776a12a2f71bc41016f6a67b1f3056f7061f",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -104,30 +104,6 @@
         "busy": false,
         "detectedAt": 1795571238527,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.9.1",
-        "latest": "1.9.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795633633894,
-        "result": {
-          "ok": true,
-          "at": 1795499000034,
-          "from": "1.9.0",
-          "to": "1.9.1"
-        },
         "waiting": false
       },
       {
@@ -511,6 +487,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.9.2",
+        "latest": "1.9.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795634062319,
+          "from": "1.9.1",
+          "to": "1.9.2"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-services-manager",
         "name": "Services Manager",
         "version": "1.4.0",
@@ -625,7 +625,7 @@
       "at": 1795633573612
     },
     "check": {
-      "at": 1795633986835,
+      "at": 1795634062533,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795634015893,
+        "at": 1795634060902,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,51 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "home-assistant",
             "status": "Running",
@@ -718,62 +763,12 @@
             "paused": false
           },
           {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "tv-remote",
             "status": "Running",
             "paused": false
           },
           {
             "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
             "status": "Running",
             "paused": false
           }
@@ -797,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795634062319,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.9.2 (state: ready)"
+      },
       {
         "t": 1795633989897,
         "level": "info",
@@ -1147,12 +1148,6 @@
       },
       {
         "t": 1795632346247,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795631324596,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
