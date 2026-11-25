@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T15:39:13.527Z",
-  "changedAt": "2026-11-25T15:39:13.527Z",
-  "rev": 3966,
-  "sig": "a1f1b37725d77aa8dc2882c8116aaed688b9758f65e41a369d792868d01428a1",
+  "at": "2026-11-25T15:40:13.545Z",
+  "changedAt": "2026-11-25T15:40:13.545Z",
+  "rev": 3967,
+  "sig": "7bc0ac39dc6bd4326a3757e6b4a996c3a3fefb1c5ae1b1611745c6c802b26173",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795621144365,
+      "at": 1795621204370,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Paused",
@@ -174,6 +169,11 @@
         },
         {
           "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 37 hours (healthy)",
+            "status": "Up 38 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1171,7 +1171,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 37 hours (healthy)",
+        "status": "Up 38 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
