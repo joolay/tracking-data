@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T03:45:11.836Z",
-  "changedAt": "2026-11-25T03:45:11.836Z",
-  "rev": 3302,
-  "sig": "e4a208afa7974c60774519b94ad8a0a09ee3d2fa76870ba0dd94d35196025e48",
+  "at": "2026-11-25T03:46:11.831Z",
+  "changedAt": "2026-11-25T03:46:11.831Z",
+  "rev": 3303,
+  "sig": "6c6e8d7a98a303a6663f7cf858ee690cfc1dbf3e2c5c81b25f6cca9d7fb2497d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795578300033,
+      "at": 1795578360041,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -171,11 +176,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
