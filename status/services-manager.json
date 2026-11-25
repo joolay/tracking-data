@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T21:49:16.443Z",
-  "changedAt": "2026-11-25T21:49:16.443Z",
-  "rev": 4279,
-  "sig": "7fcf78d7af0f683949e871c77525d0c5d74b02eb70739aed2ad7a356ad123191",
+  "at": "2026-11-25T21:49:56.743Z",
+  "changedAt": "2026-11-25T21:49:56.743Z",
+  "rev": 4280,
+  "sig": "7e07db0c4cb16288f7b427b73e544c5016fc6c6e128cd732ebd37774eea8620c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795643351278,
+      "at": 1795643396285,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -163,7 +163,9 @@
     "summary": {
       "containers": 32,
       "running": 31,
-      "problems": []
+      "problems": [
+        "joolay-app-updater_web_1"
+      ]
     },
     "services": [
       {
@@ -195,8 +197,8 @@
         "kind": "umbrel",
         "id": "joolay-app-updater",
         "name": "App Updater",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -256,7 +258,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 5 minutes",
+            "status": "Up 6 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -328,7 +330,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 4 minutes",
+            "status": "Up 5 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -433,7 +435,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
             "state": "running",
-            "status": "Up 3 minutes (healthy)",
+            "status": "Up 4 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -481,7 +483,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.2.0",
             "state": "running",
-            "status": "Up 2 minutes",
+            "status": "Up 3 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -673,7 +675,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 47 seconds",
+            "status": "Up About a minute",
             "policy": "on-failure",
             "self": false
           }
@@ -697,7 +699,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 20 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -721,7 +723,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.9.0",
             "state": "running",
-            "status": "Up 5 seconds",
+            "status": "Up 45 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -765,11 +767,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "4928828821ec",
+            "id": "d25aa595ce68",
             "name": "joolay-tv-remote_web_1",
-            "image": "ghcr.io/joolay/tv-remote:0.3.0",
+            "image": "ghcr.io/joolay/tv-remote:0.3.1",
             "state": "running",
-            "status": "Up 44 hours (healthy)",
+            "status": "Up 19 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -922,11 +924,27 @@
     ],
     "containers": [
       {
+        "id": "d25aa595ce68",
+        "name": "joolay-tv-remote_web_1",
+        "image": "ghcr.io/joolay/tv-remote:0.3.1",
+        "state": "running",
+        "status": "Up 20 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-25T21:49:36.340990099Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "baf370c99c1f",
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.9.0",
         "state": "running",
-        "status": "Up 5 seconds",
+        "status": "Up 45 seconds",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -941,12 +959,12 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 20 seconds (health: starting)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
         "startedAt": "2026-11-25T21:48:55.876727211Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
@@ -957,7 +975,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 47 seconds",
+        "status": "Up About a minute",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1004,7 +1022,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.2.0",
         "state": "running",
-        "status": "Up 2 minutes",
+        "status": "Up 3 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1019,7 +1037,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 3 minutes (healthy)",
+        "status": "Up 4 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1051,7 +1069,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 4 minutes",
+        "status": "Up 5 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1066,7 +1084,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 5 minutes",
+        "status": "Up 6 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1160,29 +1178,16 @@
         "status": "Up 44 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
-        "exitCode": 0,
+        "exitCode": 137,
         "oomKilled": false,
-        "health": "healthy",
+        "health": "unhealthy",
         "startedAt": "2026-11-24T02:10:22.684871727Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
+        "finishedAt": "2026-11-25T21:49:56.302222378Z",
         "error": "",
-        "problem": false
-      },
-      {
-        "id": "4928828821ec",
-        "name": "joolay-tv-remote_web_1",
-        "image": "ghcr.io/joolay/tv-remote:0.3.0",
-        "state": "running",
-        "status": "Up 44 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-24T02:09:54.467878452Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
+        "problem": true,
+        "logTail": [
+          "App Updater listening on :3000"
+        ]
       },
       {
         "id": "05f51ad68157",
