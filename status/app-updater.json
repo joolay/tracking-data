@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:11:41.048Z",
-  "changedAt": "2026-11-25T19:11:41.048Z",
-  "rev": 3933,
-  "sig": "354bccebc6631beb695a85a750ff40bf34b843ac10fb1637c09e0d694f478df9",
+  "at": "2026-11-25T19:12:25.813Z",
+  "changedAt": "2026-11-25T19:12:25.813Z",
+  "rev": 3934,
+  "sig": "2cc71cd022dc1a64e58ebeb5d3c17663a155de2bbe61cb16839d286eb54f1296",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -68,30 +68,6 @@
         "busy": false,
         "detectedAt": 1795633633890,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-listify",
-        "name": "Listify",
-        "version": "1.1.1",
-        "latest": "1.1.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795633633892,
-        "result": {
-          "ok": true,
-          "at": 1795498903109,
-          "from": "1.1.0",
-          "to": "1.1.1"
-        },
         "waiting": false
       },
       {
@@ -457,6 +433,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-listify",
+        "name": "Listify",
+        "version": "1.1.2",
+        "latest": "1.1.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795633945568,
+          "from": "1.1.1",
+          "to": "1.1.2"
+        },
+        "waiting": false
+      },
+      {
         "id": "open-webui",
         "name": "Open WebUI",
         "version": "0.13.4",
@@ -625,7 +625,7 @@
       "at": 1795633573612
     },
     "check": {
-      "at": 1795633869284,
+      "at": 1795633945808,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633895878,
+        "at": 1795633940887,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,91 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "ollama",
             "status": "Running",
@@ -696,86 +781,6 @@
             "name": "project-tracker",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -797,6 +802,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795633945568,
+        "level": "ok",
+        "appId": "joolay-listify",
+        "message": "Listify updated to 1.1.2 (state: ready)"
+      },
       {
         "t": 1795633869293,
         "level": "info",
@@ -1147,12 +1158,6 @@
       },
       {
         "t": 1795623048900,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub answered 500. "
-      },
-      {
-        "t": 1795622741947,
         "level": "warn",
         "appId": null,
         "message": "Status feed: GitHub answered 500. "
