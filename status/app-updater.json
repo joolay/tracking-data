@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T09:04:36.832Z",
-  "changedAt": "2026-11-25T09:04:36.832Z",
-  "rev": 3413,
-  "sig": "02e07a129a8209f63e69702fc8cad940d4c6fe7ae36e0ef93eb8ca254d3c20cd",
+  "at": "2026-11-25T09:07:37.003Z",
+  "changedAt": "2026-11-25T09:07:37.003Z",
+  "rev": 3414,
+  "sig": "9628231d96658986db8db8af7b34d2aa78a0380448e39091ffa77a1c7ca114dc",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795597423228
+      "at": 1795597605348
     },
     "check": {
-      "at": 1795597423362,
+      "at": 1795597605480,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795597362932,
+      "at": 1795597605343,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795597472177,
+        "at": 1795597652209,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,26 +657,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "listify",
             "status": "Running",
@@ -796,6 +776,26 @@
             "name": "portaladmin",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795597539269,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795595560064,
         "level": "warn",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Project Pilot (2 s)"
-      },
-      {
-        "t": 1795493302600,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Pilot updated to 1.9.0 (state: ready)"
       }
     ],
     "diagnose": [
