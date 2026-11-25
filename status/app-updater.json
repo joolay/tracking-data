@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T16:12:39.414Z",
-  "changedAt": "2026-11-25T16:12:39.414Z",
-  "rev": 3771,
-  "sig": "3cebed21d62d537238a5de8521c1c865f59ec30fe005585a481536600db3a9ac",
+  "at": "2026-11-25T16:14:39.434Z",
+  "changedAt": "2026-11-25T16:14:39.434Z",
+  "rev": 3772,
+  "sig": "b5db2c89c60be15a127f0e0fc8f87dc7aabfbbd431eeda783d37fd58f182fb67",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795623127773
+      "at": 1795623248825
     },
     "check": {
-      "at": 1795623127913,
+      "at": 1795623248960,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795623127768,
+      "at": 1795623248820,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795623154636,
+        "at": 1795623274646,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,76 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "tv-remote",
             "status": "Running",
@@ -801,6 +731,76 @@
             "name": "diner-bell",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795623221065,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: GitHub answered 500. "
+      },
       {
         "t": 1795623048900,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795564648898,
-        "level": "info",
-        "appId": "ollama",
-        "message": "Update available: Ollama 0.40.17 → 0.40.18"
       }
     ],
     "diagnose": [
