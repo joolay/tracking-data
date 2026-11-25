@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T12:16:37.872Z",
-  "changedAt": "2026-11-25T12:16:37.872Z",
-  "rev": 3589,
-  "sig": "2d3ec2b921e612c537ef9501cff680660d0a642ac52f60c9dc9cf0306f2b5c56",
+  "at": "2026-11-25T12:18:37.878Z",
+  "changedAt": "2026-11-25T12:18:37.878Z",
+  "rev": 3590,
+  "sig": "f0d97af32def73af4fbbedebf7bb44d0bdf141d6a07e6bcdc4eb19d99d0e9846",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795608986570
+      "at": 1795609109151
     },
     "check": {
-      "at": 1795608986692,
+      "at": 1795609109342,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795608926256,
-      "error": null,
+      "at": 1795609048851,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795608993490,
+        "at": 1795609113506,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,56 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "kokoro",
             "status": "Running",
@@ -801,6 +751,56 @@
             "name": "cctv",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795609062039,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795608281820,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Jolly Grocer (2 s)"
-      },
-      {
-        "t": 1795498806828,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
       }
     ],
     "diagnose": [
