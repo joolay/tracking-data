@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T14:08:38.798Z",
-  "changedAt": "2026-11-25T14:08:38.798Z",
-  "rev": 3686,
-  "sig": "a7e6f14fa161c818b9f296bfff235aacec652dd90236b6bf7c69389335dedca9",
+  "at": "2026-11-25T14:10:38.819Z",
+  "changedAt": "2026-11-25T14:10:38.819Z",
+  "rev": 3687,
+  "sig": "e052d6e39865fc6faf99d0597445b23f1f7d7eea03e0e7cb6024bcd26b0c12de",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795615660466
+      "at": 1795615781901
     },
     "check": {
-      "at": 1795615660597,
+      "at": 1795615782136,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795615599697,
-      "error": "fetch failed",
+      "at": 1795615721583,
+      "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795615713984,
+        "at": 1795615833990,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,16 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "portaladmin",
             "status": "Running",
@@ -801,13 +791,23 @@
             "name": "kiosk-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
           "port-master"
         ],
         "update": {
-          "checkedAt": 1795572571854,
+          "checkedAt": 1795615782113,
           "latestImage": "33631a10f74b",
           "latestVersion": "2.3.4",
           "available": false,
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795615782816,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795615602798,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Updating Project Pilot (detected, updating straight away)…"
-      },
-      {
-        "t": 1795498920515,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.42.2 (state: ready)"
       }
     ],
     "diagnose": [
