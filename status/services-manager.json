@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T16:59:13.831Z",
-  "changedAt": "2026-11-25T16:59:13.831Z",
-  "rev": 4016,
-  "sig": "2716f9cd7fc0eef2dbfb4d209649d7046d44baff0f398e2549c748ede264b8e6",
+  "at": "2026-11-25T17:00:13.830Z",
+  "changedAt": "2026-11-25T17:00:13.830Z",
+  "rev": 4017,
+  "sig": "cfeb17303f250f79bbef897b3e75337245b8b84c1f6b5adad2c7776382ad9fcf",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795625944969,
+      "at": 1795626004977,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "portaladmin",
           "status": "Running",
@@ -149,31 +174,6 @@
         },
         {
           "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 38 hours (healthy)",
+            "status": "Up 39 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1139,7 +1139,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 38 hours (healthy)",
+        "status": "Up 39 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
