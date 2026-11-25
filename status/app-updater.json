@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T15:27:39.490Z",
-  "changedAt": "2026-11-25T15:27:39.490Z",
-  "rev": 3752,
-  "sig": "d961a1deb26e646d824a3e7cdb9dc3fa25259446d5aff856714c589794c16b7c",
+  "at": "2026-11-25T15:30:39.241Z",
+  "changedAt": "2026-11-25T15:30:39.241Z",
+  "rev": 3753,
+  "sig": "a995082ddeefd0561156521ac7a8296464d2f200d891092c319bb5823bd46b88",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795620458400
+      "at": 1795620581013
     },
     "check": {
-      "at": 1795620458527,
+      "at": 1795620581151,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795620458394,
-      "error": null,
+      "at": 1795620581005,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795620454283,
+        "at": 1795620634306,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -781,26 +801,6 @@
             "name": "yuvomi",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795620583248,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795620163239,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "joolay-joolztv",
         "message": "Updating JoolzTV (detected, updating straight away)…"
-      },
-      {
-        "t": 1795555031953,
-        "level": "info",
-        "appId": "joolay-joolztv",
-        "message": "Update available: JoolzTV 1.17.0 → 1.18.0"
       }
     ],
     "diagnose": [
