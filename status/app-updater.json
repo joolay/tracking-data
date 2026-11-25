@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:09:01.103Z",
-  "changedAt": "2026-11-25T19:09:01.103Z",
-  "rev": 3929,
-  "sig": "086f72afbb6586084d6922f64534768d3b935f65cdfb27a7c86cc4ee44ecba25",
+  "at": "2026-11-25T19:09:38.326Z",
+  "changedAt": "2026-11-25T19:09:38.326Z",
+  "rev": 3930,
+  "sig": "81c639a5a2b7142c4cf5bae6370a0c8d2e79e116ab6338a2005929d4c5ff84bd",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -68,30 +68,6 @@
         "busy": false,
         "detectedAt": 1795633633890,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.4.2",
-        "latest": "1.4.3",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795633633890,
-        "result": {
-          "ok": true,
-          "at": 1795606405784,
-          "from": "1.4.1",
-          "to": "1.4.2"
-        },
         "waiting": false
       },
       {
@@ -420,6 +396,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.4.3",
+        "latest": "1.4.3",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795633778031,
+          "from": "1.4.2",
+          "to": "1.4.3"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
         "version": "1.2.0",
@@ -625,7 +625,7 @@
       "at": 1795633573612
     },
     "check": {
-      "at": 1795633703687,
+      "at": 1795633778321,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633730857,
+        "at": 1795633775863,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "port-master",
             "status": "Paused",
@@ -753,11 +768,6 @@
             "paused": false
           },
           {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "atvloadly",
             "status": "Running",
             "paused": false
@@ -781,21 +791,6 @@
             "name": "home-assistant",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795633778031,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "Jolly Grocer updated to 1.4.3 (state: ready)"
+      },
       {
         "t": 1795633706092,
         "level": "info",
@@ -1167,12 +1168,6 @@
       },
       {
         "t": 1795617583076,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795616322907,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
