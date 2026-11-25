@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:11:01.968Z",
-  "changedAt": "2026-11-25T19:11:01.968Z",
-  "rev": 3901,
-  "sig": "c144fcbb4dd8d4a962ff5b4a3791e86321c8c1840b4605f60180ac6c1bf3518f",
+  "at": "2026-11-25T19:12:01.974Z",
+  "changedAt": "2026-11-25T19:12:01.974Z",
+  "rev": 3902,
+  "sig": "0de7c4ea64bb824b753fca669db7e16e78379f4eee473340facee883f5a54336",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,26 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running"
+        },
+        {
+          "name": "port-master",
+          "status": "Paused"
+        },
         {
           "name": "open-webui",
           "status": "Running"
@@ -90,60 +110,14 @@
         {
           "name": "listify",
           "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "port-master",
-          "status": "Paused"
         }
       ]
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 16,
-      "withoutName": 0,
-      "problems": [
-        {
-          "app": "joolay-cctv",
-          "name": "cctv",
-          "state": "unregistered"
-        },
-        {
-          "app": "joolay-diner-bell",
-          "name": "diner-bell",
-          "state": "unregistered"
-        },
-        {
-          "app": "joolay-jolly-grocer",
-          "name": "jolly-grocer",
-          "state": "unregistered"
-        },
-        {
-          "app": "joolay-joolztv",
-          "name": "joolztv",
-          "state": "unregistered"
-        },
-        {
-          "app": "joolay-portal",
-          "name": "joolzapp",
-          "state": "unregistered"
-        }
-      ],
+      "keptByPortMaster": 21,
+      "withoutName": 5,
+      "problems": [],
       "lastError": "",
       "fixed": []
     },
@@ -642,14 +616,14 @@
       {
         "id": "joolay-cctv",
         "name": "JoolzCCTV",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "joolzapp": true,
         "portal": "locked",
         "port": 3902,
         "hostPorts": [
           3903
         ],
-        "published": "tailnet",
+        "published": "",
         "routes": [
           {
             "key": "lan",
@@ -677,29 +651,20 @@
             "status": 200,
             "error": "",
             "since": 1795582377163
-          },
-          {
-            "key": "name",
-            "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795628684937
           }
         ]
       },
       {
         "id": "joolay-diner-bell",
         "name": "Diner Bell",
-        "version": "2.1.1",
+        "version": "2.1.2",
         "joolzapp": true,
         "portal": "auto",
         "port": 3893,
         "hostPorts": [
           3894
         ],
-        "published": "public",
+        "published": "",
         "routes": [
           {
             "key": "lan",
@@ -727,15 +692,6 @@
             "status": 200,
             "error": "",
             "since": 1795582377184
-          },
-          {
-            "key": "public",
-            "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795582378597
           }
         ]
       },
@@ -792,14 +748,14 @@
       {
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
-        "version": "1.4.2",
+        "version": "1.4.3",
         "joolzapp": true,
         "portal": "auto",
         "port": 3897,
         "hostPorts": [
           3896
         ],
-        "published": "public",
+        "published": "",
         "routes": [
           {
             "key": "lan",
@@ -827,29 +783,20 @@
             "status": 200,
             "error": "",
             "since": 1795582378774
-          },
-          {
-            "key": "public",
-            "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795606594186
           }
         ]
       },
       {
         "id": "joolay-joolztv",
         "name": "JoolzTV",
-        "version": "1.18.1",
+        "version": "1.18.2",
         "joolzapp": true,
         "portal": "auto",
         "port": 3900,
         "hostPorts": [
           3901
         ],
-        "published": "public",
+        "published": "",
         "routes": [
           {
             "key": "lan",
@@ -877,15 +824,6 @@
             "status": 200,
             "error": "",
             "since": 1795582379213
-          },
-          {
-            "key": "public",
-            "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795582380476
           }
         ]
       },
@@ -990,14 +928,14 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
-        "version": "0.42.2",
+        "version": "0.42.3",
         "joolzapp": true,
         "portal": "auto",
         "port": 3885,
         "hostPorts": [
           3886
         ],
-        "published": "public",
+        "published": "",
         "routes": [
           {
             "key": "lan",
@@ -1025,15 +963,6 @@
             "status": 200,
             "error": "",
             "since": 1795582393182
-          },
-          {
-            "key": "public",
-            "url": "https://joolzapp.macaw-chroma.ts.net/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795582394657
           }
         ]
       },
