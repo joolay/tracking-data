@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:08:23.691Z",
-  "changedAt": "2026-11-25T19:08:23.691Z",
-  "rev": 3928,
-  "sig": "7aa556ebc28cf28a50c3cc50d9fc11096b5217006fb91c462d0ee5255199ffba",
+  "at": "2026-11-25T19:09:01.103Z",
+  "changedAt": "2026-11-25T19:09:01.103Z",
+  "rev": 3929,
+  "sig": "086f72afbb6586084d6922f64534768d3b935f65cdfb27a7c86cc4ee44ecba25",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -84,7 +84,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795633633890,
         "result": {
           "ok": true,
@@ -391,7 +391,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633700854,
+        "at": 1795633730857,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,26 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "port-master",
             "status": "Paused",
@@ -796,6 +776,26 @@
             "name": "cctv",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795633706092,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Diner Bell (2 s)"
+      },
+      {
+        "t": 1795633703688,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Updating Jolly Grocer (detected, updating straight away)…"
+      },
       {
         "t": 1795633703033,
         "level": "ok",
@@ -1161,18 +1173,6 @@
       },
       {
         "t": 1795616322907,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795616082868,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795615782816,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
