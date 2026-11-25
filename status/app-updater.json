@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:35:41.225Z",
-  "changedAt": "2026-11-25T19:35:41.225Z",
-  "rev": 3954,
-  "sig": "755c9b15956eaff25c92eba35fe4fcbde2fc221b2e5e0d3cfe0988f7214f8d31",
+  "at": "2026-11-25T19:37:41.360Z",
+  "changedAt": "2026-11-25T19:37:41.360Z",
+  "rev": 3955,
+  "sig": "2d641c36a708d92b270abc6a14febd6693bbe0d15266cb883f3d85b5c88e4386",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795635297316
+      "at": 1795635418892
     },
     "check": {
-      "at": 1795635297446,
+      "at": 1795635419097,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795635237010,
+      "at": 1795635358567,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795635336039,
+        "at": 1795635456051,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,46 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "kiosk-manager",
             "status": "Running",
@@ -771,6 +731,46 @@
             "name": "webcheck",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795635405228,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795634865318,
         "level": "warn",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-joolztv",
         "message": "New version on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.2 (umbrelOS lists 1.18.1)"
-      },
-      {
-        "t": 1795633452538,
-        "level": "warn",
-        "appId": "joolay-cctv",
-        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzCCTV 1.0.4 (umbrelOS lists 1.0.3)"
       }
     ],
     "diagnose": [
