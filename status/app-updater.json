@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T20:52:41.461Z",
-  "changedAt": "2026-11-25T20:52:41.461Z",
-  "rev": 4024,
-  "sig": "fd743d8af631e740c902c3ea839a541c245e39ee669b0852bdebf2b6440a2f46",
+  "at": "2026-11-25T20:56:41.465Z",
+  "changedAt": "2026-11-25T20:56:41.465Z",
+  "rev": 4025,
+  "sig": "140ef1b794b10c39192c92e00facb8f361cf86fedb4198fb50440138fddfb4c4",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795639907131
+      "at": 1795640151265
     },
     "check": {
-      "at": 1795639907255,
+      "at": 1795640151426,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795639846847,
-      "error": null,
+      "at": 1795640090901,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795639956489,
+        "at": 1795640196505,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,51 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "kokoro",
             "status": "Running",
@@ -771,6 +726,51 @@
             "name": "listify",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795640085471,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795639605464,
         "level": "warn",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-portal-admin",
         "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.42.3 (umbrelOS lists 0.42.2)"
-      },
-      {
-        "t": 1795633452541,
-        "level": "warn",
-        "appId": "joolay-routing-reporter",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.0 (umbrelOS lists 1.9.1)"
       }
     ],
     "diagnose": [
