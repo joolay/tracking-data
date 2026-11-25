@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T11:33:12.929Z",
-  "changedAt": "2026-11-25T11:33:12.929Z",
-  "rev": 3746,
-  "sig": "6739cc18f420c9653735fb389e7ce16f8d32f62c766cb8af696f0d0f035c3b30",
+  "at": "2026-11-25T11:34:12.928Z",
+  "changedAt": "2026-11-25T11:34:12.928Z",
+  "rev": 3747,
+  "sig": "cfc11c45d7348abc82b1b2fbfafafcad6009956510a6a4f12b26383f41d9aead",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795606383229,
+      "at": 1795606443234,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -174,6 +144,36 @@
         },
         {
           "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
           "status": "Running",
           "paused": false
         }
@@ -345,8 +345,8 @@
         "kind": "umbrel",
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -354,11 +354,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "ae565822d1d5",
+            "id": "6f51f532cd87",
             "name": "joolay-jolly-grocer_web_1",
-            "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
+            "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
             "state": "running",
-            "status": "Up 30 hours",
+            "status": "Up 48 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -402,11 +402,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "ef27f388723c",
+            "id": "8e3c3238689b",
             "name": "joolay-cctv_web_1",
-            "image": "ghcr.io/joolay/cctv:1.0.2",
+            "image": "ghcr.io/joolay/cctv:1.0.3",
             "state": "running",
-            "status": "Up 3 days",
+            "status": "Up 19 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -952,6 +952,36 @@
     ],
     "containers": [
       {
+        "id": "8e3c3238689b",
+        "name": "joolay-cctv_web_1",
+        "image": "ghcr.io/joolay/cctv:1.0.3",
+        "state": "running",
+        "status": "Up 19 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-25T11:33:53.535511297Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "6f51f532cd87",
+        "name": "joolay-jolly-grocer_web_1",
+        "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
+        "state": "running",
+        "status": "Up 48 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-25T11:33:24.706418354Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "bb4df4a6878e",
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
@@ -1070,21 +1100,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-24T05:40:23.286556959Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "ae565822d1d5",
-        "name": "joolay-jolly-grocer_web_1",
-        "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
-        "state": "running",
-        "status": "Up 30 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-24T05:40:04.666047188Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
@@ -1256,21 +1271,6 @@
         "exitCode": 0,
         "oomKilled": false,
         "startedAt": "2026-11-23T07:36:16.251410147Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "ef27f388723c",
-        "name": "joolay-cctv_web_1",
-        "image": "ghcr.io/joolay/cctv:1.0.2",
-        "state": "running",
-        "status": "Up 3 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-21T15:35:17.975170503Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
