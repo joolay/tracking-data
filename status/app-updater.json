@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T10:41:37.353Z",
-  "changedAt": "2026-11-25T10:41:37.353Z",
-  "rev": 3500,
-  "sig": "3a53811d86116d2b52190494b2a81d5ef925a6016b2a9573a723d5190ece997a",
+  "at": "2026-11-25T10:42:37.354Z",
+  "changedAt": "2026-11-25T10:42:37.354Z",
+  "rev": 3501,
+  "sig": "96315442b478e489647d608994c8a9e328b84d9fc1035bdc615593f3d202bca6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795603244991
+      "at": 1795603305755
     },
     "check": {
-      "at": 1795603245111,
+      "at": 1795603305913,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795603184684,
+      "at": 1795603305749,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795603292894,
+        "at": 1795603352902,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,6 +657,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -781,21 +796,6 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
