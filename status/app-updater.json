@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T05:58:34.928Z",
-  "changedAt": "2026-11-25T05:58:34.928Z",
-  "rev": 3240,
-  "sig": "f10c4b999ce9febeceff483af1540a7538b9fadb797a65f692fe93ec24919c8d",
+  "at": "2026-11-25T06:01:34.931Z",
+  "changedAt": "2026-11-25T06:01:34.931Z",
+  "rev": 3241,
+  "sig": "659d8f01dc28bca4d68b59453a110bfb9f418b7dfa10d9d9d8d45ddfb48de155",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795586257418
+      "at": 1795586440843
     },
     "check": {
-      "at": 1795586257592,
+      "at": 1795586440968,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795586197056,
-      "error": null,
+      "at": 1795586440838,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795586311125,
+        "at": 1795586491148,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,6 +657,36 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "project-tracker",
             "status": "Running",
@@ -766,36 +796,6 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795586378937,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795585538928,
         "level": "warn",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": "joolay-gatekeeper",
         "message": "Installed joolay-gatekeeper"
-      },
-      {
-        "t": 1795487406966,
-        "level": "info",
-        "appId": "joolay-gatekeeper",
-        "message": "Install started for joolay-gatekeeper"
       }
     ],
     "diagnose": [
