@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:46:35.986Z",
-  "changedAt": "2026-11-25T21:46:35.986Z",
-  "rev": 4073,
-  "sig": "202db96e5a4ac757e902ba42b3b1b9bbce4cedf82e63c9249d22b66161892911",
+  "at": "2026-11-25T21:47:14.040Z",
+  "changedAt": "2026-11-25T21:47:14.040Z",
+  "rev": 4074,
+  "sig": "cc5e1e8f7867585e92eb9129326ab1ac518e6bd8e10d0b0f6c9c76695e57291b",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -107,30 +107,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.10.0",
-        "latest": "1.10.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795642944151,
-        "result": {
-          "ok": true,
-          "at": 1795633972971,
-          "from": "1.9.1",
-          "to": "1.10.0"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.42.3",
@@ -144,7 +120,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795642944152,
         "result": {
           "ok": true,
@@ -489,7 +465,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -551,6 +527,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.10.1",
+        "latest": "1.10.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795643220829,
+          "from": "1.10.0",
+          "to": "1.10.1"
+        },
         "waiting": false
       },
       {
@@ -630,7 +630,7 @@
       "at": 1795642883869
     },
     "check": {
-      "at": 1795643195974,
+      "at": 1795643221036,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -643,7 +643,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795643181748,
+        "at": 1795643226751,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -667,11 +667,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "tailscale",
             "status": "Running",
@@ -776,6 +771,11 @@
             "name": "project-tracker",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -797,6 +797,30 @@
       }
     },
     "log": [
+      {
+        "t": 1795643221036,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795643220829,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.10.1 (state: ready)"
+      },
+      {
+        "t": 1795643198786,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Listify (3 s)"
+      },
+      {
+        "t": 1795643195975,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
       {
         "t": 1795643194798,
         "level": "ok",
@@ -1132,30 +1156,6 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795634078581,
-        "level": "ok",
-        "appId": "joolay-shutterworth",
-        "message": "ShutterWorth updated to 1.8.2 (state: ready)"
-      },
-      {
-        "t": 1795634065235,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Project Pilot (3 s)"
-      },
-      {
-        "t": 1795634062539,
-        "level": "info",
-        "appId": "joolay-shutterworth",
-        "message": "Updating ShutterWorth (detected, updating straight away)…"
-      },
-      {
-        "t": 1795634062319,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Pilot updated to 1.9.2 (state: ready)"
       }
     ],
     "diagnose": [
