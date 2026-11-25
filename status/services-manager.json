@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T15:17:13.492Z",
-  "changedAt": "2026-11-25T15:17:13.492Z",
-  "rev": 3948,
-  "sig": "3c4a7763b6bcbb8776a310e876e9e7a8afafec87882f9fe67a2cc8e9a6c08ebb",
+  "at": "2026-11-25T15:18:13.498Z",
+  "changedAt": "2026-11-25T15:18:13.498Z",
+  "rev": 3949,
+  "sig": "003047576a2b163245cb1614ce526e4ebeef107926ad23ec68df206ab6a0c504",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795619824205,
+      "at": 1795619884213,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -159,21 +174,6 @@
         },
         {
           "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
           "status": "Running",
           "paused": false
         }
