@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T07:08:12.354Z",
-  "changedAt": "2026-11-25T07:08:12.354Z",
-  "rev": 3493,
-  "sig": "41ede2bc2d2301683336c61d834ba96010a07b152fd5799c4d72422ddaf0460b",
+  "at": "2026-11-25T07:09:12.332Z",
+  "changedAt": "2026-11-25T07:09:12.332Z",
+  "rev": 3494,
+  "sig": "ea3141a0ab8844226d5db653dc97bb4807791349f4b8cf428083691096cd178d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795590481575,
+      "at": 1795590541582,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,61 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -121,61 +176,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -286,7 +286,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.1",
             "state": "running",
-            "status": "Up 25 hours",
+            "status": "Up 26 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1094,7 +1094,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.1",
         "state": "running",
-        "status": "Up 25 hours",
+        "status": "Up 26 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
