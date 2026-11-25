@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T07:59:12.432Z",
-  "changedAt": "2026-11-25T07:59:12.432Z",
-  "rev": 3543,
-  "sig": "50c41146af2a5c5a57281ecba386faa3d9c17289cf4efef3e296f7ffe41ab14b",
+  "at": "2026-11-25T08:00:12.449Z",
+  "changedAt": "2026-11-25T08:00:12.449Z",
+  "rev": 3544,
+  "sig": "23be249738c7b72e594de6e760f6f2a8e663e3af14e4daf41405bb0651905156",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795593541800,
+      "at": 1795593601801,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "atvloadly",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 29 hours (healthy)",
+            "status": "Up 30 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1124,7 +1124,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 29 hours (healthy)",
+        "status": "Up 30 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
