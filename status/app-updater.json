@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T01:45:33.454Z",
-  "changedAt": "2026-11-25T01:45:33.454Z",
-  "rev": 3004,
-  "sig": "3b90f7cdf7064647a3aca1e58790b7dd0466a42e5334d7a218daac49b304c2e8",
+  "at": "2026-11-25T01:47:34.880Z",
+  "changedAt": "2026-11-25T01:47:34.880Z",
+  "rev": 3005,
+  "sig": "ca22ef982da8102252d41ffe8d7f82fb17cd97159228d4625163d0e1dd4ebb1e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -66,6 +66,24 @@
         "hidden": false,
         "busy": false,
         "detectedAt": 1795564648897,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "version": "2026.11.4",
+        "latest": "2026.11.7",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795571238527,
         "result": null,
         "waiting": false
       },
@@ -338,24 +356,6 @@
         "waiting": false
       },
       {
-        "id": "openclaw",
-        "name": "OpenClaw",
-        "version": "2026.11.4",
-        "latest": "2026.11.4",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "paperclip",
         "name": "Paperclip",
         "version": "2026.1106.0",
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795571115771
+      "at": 1795571238550
     },
     "check": {
-      "at": 1795571115940,
+      "at": 1795571238704,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795571115746,
+      "at": 1795571238527,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795571129432,
+        "at": 1795571249441,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,76 +652,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "port-master",
             "status": "Paused",
@@ -791,6 +721,76 @@
             "name": "kiosk-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795571238528,
+        "level": "info",
+        "appId": "openclaw",
+        "message": "Update available: OpenClaw 2026.11.4 → 2026.11.7"
+      },
       {
         "t": 1795564836892,
         "level": "warn",
@@ -1165,12 +1171,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795486027609,
-        "level": "ok",
-        "appId": "joolay-listify",
-        "message": "Listify updated to 1.1.0 (state: ready)"
       }
     ],
     "diagnose": [
