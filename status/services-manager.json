@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T05:04:11.887Z",
-  "changedAt": "2026-11-25T05:04:11.887Z",
-  "rev": 3378,
-  "sig": "881d3143b4e096a38cd7c217fe0151c22a40cbd0081d2895d2ae7447bac0251a",
+  "at": "2026-11-25T05:05:11.902Z",
+  "changedAt": "2026-11-25T05:05:11.902Z",
+  "rev": 3379,
+  "sig": "944d16cffe86433cd6a7492ebbe8e0eafa0c44f4895e12336b2c3edc3afae1fb",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795583040721,
+      "at": 1795583100731,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
           "status": "Running",
           "paused": false
         }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 56 minutes",
+            "status": "Up 57 minutes",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.1",
             "state": "running",
-            "status": "Up 56 minutes",
+            "status": "Up 57 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.1",
             "state": "running",
-            "status": "Up 11 minutes (healthy)",
+            "status": "Up 12 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
         "state": "running",
-        "status": "Up 11 minutes (healthy)",
+        "status": "Up 12 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -972,7 +972,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 56 minutes",
+        "status": "Up 57 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -987,7 +987,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.1",
         "state": "running",
-        "status": "Up 56 minutes",
+        "status": "Up 57 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
