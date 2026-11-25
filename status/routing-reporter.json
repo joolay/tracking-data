@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T22:28:00.346Z",
-  "changedAt": "2026-11-25T22:28:00.346Z",
-  "rev": 4074,
-  "sig": "9b38b0b45dcf08f9c23aad34b91d02e17e7cd4b7615d5fa204d71fe3f51676b7",
+  "at": "2026-11-25T22:29:00.350Z",
+  "changedAt": "2026-11-25T22:29:00.350Z",
+  "rev": 4075,
+  "sig": "210e3f3cbf1bc8fd44d75fbb4b1caae8d6cb5ca9193726c80a328f0dbec5de82",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,10 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
         {
           "name": "ollama",
           "status": "Running"
@@ -100,6 +96,10 @@
         {
           "name": "gatekeeper",
           "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
         }
       ]
     },
@@ -165,11 +165,25 @@
         "since": 1795643533170
       },
       {
+        "app": "joolay-diner-bell",
+        "route": "name",
+        "url": "https://diner-bell.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795645722697
+      },
+      {
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
         "error": "connection reset",
         "since": 1795643525739
+      },
+      {
+        "app": "joolay-joolztv",
+        "route": "name",
+        "url": "https://joolztv.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795645723069
       },
       {
         "app": "joolay-portal",
@@ -283,14 +297,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3895,
@@ -332,14 +346,14 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3902,
@@ -781,11 +795,11 @@
           {
             "key": "name",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795645082681
+            "since": 1795645722697
           }
         ]
       },
@@ -931,11 +945,11 @@
           {
             "key": "name",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795645087878
+            "since": 1795645723069
           }
         ]
       },
