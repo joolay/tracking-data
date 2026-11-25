@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T11:18:12.884Z",
-  "changedAt": "2026-11-25T11:18:12.884Z",
-  "rev": 3731,
-  "sig": "888f5463b1704357623acaa514cef723f05cf0e3cfa4032625443e495c6240eb",
+  "at": "2026-11-25T11:19:12.907Z",
+  "changedAt": "2026-11-25T11:19:12.907Z",
+  "rev": 3732,
+  "sig": "08fc10ef51f5b0a9296d83c0ca3cbd99d3a5f24398cae5eab49ce8e0e8110343",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795605483133,
+      "at": 1795605543137,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "tv-remote",
           "status": "Running",
@@ -174,6 +169,11 @@
         },
         {
           "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -919,7 +919,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 33 hours (healthy)",
+            "status": "Up 34 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1341,7 +1341,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 33 hours (healthy)",
+        "status": "Up 34 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
