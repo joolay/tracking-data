@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T14:19:58.547Z",
-  "changedAt": "2026-11-25T14:19:58.547Z",
-  "rev": 3657,
-  "sig": "21ee5c707fc50e3e558f65265b41244b2bf7aa97655fc28fa6fce7977c119ffe",
+  "at": "2026-11-25T14:20:58.554Z",
+  "changedAt": "2026-11-25T14:20:58.554Z",
+  "rev": 3658,
+  "sig": "33c0db0703bb3b5e0eeed16d11dcf118a1217d186dc8536ea8146569c062d698",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,38 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
         {
           "name": "cctv",
           "status": "Running"
@@ -98,38 +130,6 @@
         {
           "name": "app-updater",
           "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
         }
       ]
     },
@@ -150,7 +150,15 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-cctv",
+        "route": "name",
+        "url": "https://cctv.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795616425481
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -290,14 +298,14 @@
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3904,
@@ -675,11 +683,11 @@
           {
             "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795615796518
+            "since": 1795616425481
           }
         ]
       },
