@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T15:31:39.242Z",
-  "changedAt": "2026-11-25T15:31:39.242Z",
-  "rev": 3754,
-  "sig": "ef59bfd9437824a0d91edb242bc33791e5a3463ff185ae1b2eb7ff749b0aa077",
+  "at": "2026-11-25T15:33:39.246Z",
+  "changedAt": "2026-11-25T15:33:39.246Z",
+  "rev": 3755,
+  "sig": "fe4dd176e6554dd57b61ab43f581cf2d2234850a55d6e354515a2514c7141123",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795620641301
+      "at": 1795620762807
     },
     "check": {
-      "at": 1795620641442,
+      "at": 1795620762936,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795620581005,
-      "error": "fetch failed",
+      "at": 1795620702390,
+      "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795620694312,
+        "at": 1795620814328,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,31 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "cctv",
             "status": "Running",
@@ -801,6 +776,31 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795620763255,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795620583248,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "ok",
         "appId": "joolay-joolztv",
         "message": "JoolzTV updated to 1.18.0 (state: ready)"
-      },
-      {
-        "t": 1795555031955,
-        "level": "info",
-        "appId": "joolay-joolztv",
-        "message": "Updating JoolzTV (detected, updating straight away)…"
       }
     ],
     "diagnose": [
