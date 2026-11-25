@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T03:11:34.289Z",
-  "changedAt": "2026-11-25T03:11:34.289Z",
-  "rev": 3087,
-  "sig": "649a250d95623ee1b2ee99dc840bb28d4d6085e28008c6418251d7fac6b1be66",
+  "at": "2026-11-25T03:12:34.294Z",
+  "changedAt": "2026-11-25T03:12:34.294Z",
+  "rev": 3088,
+  "sig": "007dbd61a9b6cde2982523bc6d142280be975fbac5ab169c3401911acadc7668",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -84,6 +84,24 @@
         "hidden": false,
         "busy": false,
         "detectedAt": 1795571238527,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "version": "2.94.0",
+        "latest": "2.95.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795576312049,
         "result": null,
         "waiting": false
       },
@@ -573,24 +591,6 @@
         "detectedAt": null,
         "result": null,
         "waiting": false
-      },
-      {
-        "id": "yuvomi",
-        "name": "Yuvomi",
-        "version": "2.94.0",
-        "latest": "2.94.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
       }
     ],
     "install": {
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795576251219
+      "at": 1795576342650
     },
     "check": {
-      "at": 1795576251334,
+      "at": 1795576342777,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795576190915,
+      "at": 1795576312049,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795576289715,
+        "at": 1795576349725,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,6 +652,56 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "project-tracker",
             "status": "Running",
@@ -741,56 +791,6 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795576312050,
+        "level": "info",
+        "appId": "yuvomi",
+        "message": "Update available: Yuvomi 2.94.0 → 2.95.0"
+      },
       {
         "t": 1795571238528,
         "level": "info",
@@ -1165,12 +1171,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Listify (3 s)"
-      },
-      {
-        "t": 1795486029208,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
       }
     ],
     "diagnose": [
