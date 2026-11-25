@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:21:41.099Z",
-  "changedAt": "2026-11-25T19:21:41.099Z",
-  "rev": 3944,
-  "sig": "53f27b6373b78b883d20499931e00fdd4c687c30ddebe48c7adfc3e11289c844",
+  "at": "2026-11-25T19:23:41.118Z",
+  "changedAt": "2026-11-25T19:23:41.118Z",
+  "rev": 3945,
+  "sig": "88205556945b0230b2b7402f836595a3869e2edbc6291b3889455561808abc30",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795634447167
+      "at": 1795634568446
     },
     "check": {
-      "at": 1795634447306,
+      "at": 1795634568584,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795634386849,
-      "error": "fetch failed",
+      "at": 1795634508125,
+      "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795634495949,
+        "at": 1795634615962,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,61 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "ollama",
             "status": "Running",
@@ -771,6 +716,61 @@
             "name": "kiosk-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795634563478,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795634385095,
         "level": "warn",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-portal",
         "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.42.3 (umbrelOS lists 0.42.2)"
-      },
-      {
-        "t": 1795633452536,
-        "level": "warn",
-        "appId": "joolay-jolly-grocer",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.4.3 (umbrelOS lists 1.4.2)"
       }
     ],
     "diagnose": [
