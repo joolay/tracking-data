@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T18:08:40.434Z",
-  "changedAt": "2026-11-25T18:08:40.434Z",
-  "rev": 3873,
-  "sig": "f500e2218b0241cc5e50852fe9083beb5f576de44732fb3d43251ba66f0b2f79",
+  "at": "2026-11-25T18:10:40.446Z",
+  "changedAt": "2026-11-25T18:10:40.446Z",
+  "rev": 3874,
+  "sig": "2c07e35e7637c25fec19a0f4a5344e83d1bf3007679462ef9b8be9e92425c0e6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795630107594
+      "at": 1795630230346
     },
     "check": {
-      "at": 1795630107863,
+      "at": 1795630230474,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795630047305,
-      "error": null,
+      "at": 1795630170017,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795630115396,
+        "at": 1795630235406,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,66 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -741,66 +801,6 @@
             "name": "portaladmin",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795630184451,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795628564327,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "ok",
         "appId": "joolay-joolztv",
         "message": "JoolzTV updated to 1.18.1 (state: ready)"
-      },
-      {
-        "t": 1795579648598,
-        "level": "info",
-        "appId": "joolay-joolztv",
-        "message": "Updating JoolzTV (detected, updating straight away)…"
       }
     ],
     "diagnose": [
