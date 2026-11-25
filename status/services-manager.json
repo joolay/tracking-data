@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T10:18:12.655Z",
-  "changedAt": "2026-11-25T10:18:12.655Z",
-  "rev": 3673,
-  "sig": "52790d264b3f65687618c5bf3161eeb0464adacdaf839b87c95a084050ee5c83",
+  "at": "2026-11-25T10:19:12.646Z",
+  "changedAt": "2026-11-25T10:19:12.646Z",
+  "rev": 3674,
+  "sig": "919847441f3807ecd33307b218fdadf43181cfb4db688b4b03073d5fa764f72e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795601882764,
+      "at": 1795601942769,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -166,16 +176,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -919,7 +919,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 32 hours (healthy)",
+            "status": "Up 33 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1341,7 +1341,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 32 hours (healthy)",
+        "status": "Up 33 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
