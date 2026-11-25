@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T16:14:39.434Z",
-  "changedAt": "2026-11-25T16:14:39.434Z",
-  "rev": 3772,
-  "sig": "b5db2c89c60be15a127f0e0fc8f87dc7aabfbbd431eeda783d37fd58f182fb67",
+  "at": "2026-11-25T16:20:39.487Z",
+  "changedAt": "2026-11-25T16:20:39.487Z",
+  "rev": 3773,
+  "sig": "4c72716a97c227821ebf07bcab8beb87a603dcc13c0bf7868cb0578279b35b2a",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795623248825
+      "at": 1795623612599
     },
     "check": {
-      "at": 1795623248960,
+      "at": 1795623612759,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795623248820,
+      "at": 1795623612594,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795623274646,
+        "at": 1795623634698,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,11 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tv-remote",
             "status": "Running",
@@ -796,11 +801,6 @@
             "name": "shutterworth",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795623341113,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: GitHub answered 500. "
+      },
       {
         "t": 1795623221065,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "openclaw",
         "message": "Update available: OpenClaw 2026.11.4 → 2026.11.7"
-      },
-      {
-        "t": 1795564836892,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
       }
     ],
     "diagnose": [
