@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T05:25:11.963Z",
-  "changedAt": "2026-11-25T05:25:11.963Z",
-  "rev": 3396,
-  "sig": "a1040d9211150c681d13713f1664d2ba3958575748567fb8795cf6751908f945",
+  "at": "2026-11-25T05:26:11.989Z",
+  "changedAt": "2026-11-25T05:26:11.989Z",
+  "rev": 3397,
+  "sig": "3edbceb9c7eb1831f0221a33a3e03cb5a7e3ba8f7aa8d52286a061febe783f24",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795584300873,
+      "at": 1795584360881,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +166,16 @@
           "name": "openclaw",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -262,7 +262,7 @@
             "name": "joolay-atvloadly_web_1",
             "image": "bitxeno/atvloadly:v0.3.7",
             "state": "running",
-            "status": "Up 6 days",
+            "status": "Up 7 days",
             "policy": "on-failure",
             "self": false
           }
@@ -487,7 +487,7 @@
             "name": "kokoro_web_1",
             "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 6 days",
+            "status": "Up 7 days",
             "policy": "on-failure",
             "self": false
           }
@@ -583,7 +583,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
             "state": "running",
-            "status": "Up 6 days",
+            "status": "Up 7 days",
             "policy": "on-failure",
             "self": false
           }
@@ -631,7 +631,7 @@
             "name": "pocketbase_app_1",
             "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
             "state": "running",
-            "status": "Up 6 days",
+            "status": "Up 7 days",
             "policy": "on-failure",
             "self": false
           }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.1",
             "state": "running",
-            "status": "Up 32 minutes (healthy)",
+            "status": "Up 33 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -847,7 +847,7 @@
             "name": "webcheck_server_1",
             "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 6 days (healthy)",
+            "status": "Up 7 days (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -943,7 +943,7 @@
             "name": "tor_proxy",
             "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
             "state": "running",
-            "status": "Up 6 days",
+            "status": "Up 7 days",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
         "state": "running",
-        "status": "Up 32 minutes (healthy)",
+        "status": "Up 33 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1326,7 +1326,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
         "state": "running",
-        "status": "Up 6 days",
+        "status": "Up 7 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1357,7 +1357,7 @@
         "name": "joolay-atvloadly_web_1",
         "image": "bitxeno/atvloadly:v0.3.7",
         "state": "running",
-        "status": "Up 6 days",
+        "status": "Up 7 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1372,7 +1372,7 @@
         "name": "webcheck_server_1",
         "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 6 days (healthy)",
+        "status": "Up 7 days (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1388,7 +1388,7 @@
         "name": "kokoro_web_1",
         "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 6 days",
+        "status": "Up 7 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1418,7 +1418,7 @@
         "name": "pocketbase_app_1",
         "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
         "state": "running",
-        "status": "Up 6 days",
+        "status": "Up 7 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1433,7 +1433,7 @@
         "name": "tor_proxy",
         "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
         "state": "running",
-        "status": "Up 6 days",
+        "status": "Up 7 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
