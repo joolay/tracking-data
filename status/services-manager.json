@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T14:38:13.309Z",
-  "changedAt": "2026-11-25T14:38:13.309Z",
-  "rev": 3915,
-  "sig": "200d353d69e10f8687f4722346a62aa0efd04daee3e8f0986fc93cb72ee44794",
+  "at": "2026-11-25T14:40:13.295Z",
+  "changedAt": "2026-11-25T14:40:13.295Z",
+  "rev": 3916,
+  "sig": "38b5868f8a5f7e8934acddd008a90e21de808f1dd2d07f66ef685bc8e61a5bc4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795617484055,
+      "at": 1795617604058,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "cctv",
           "status": "Running",
@@ -174,6 +164,16 @@
         },
         {
           "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         }
@@ -727,7 +727,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.0",
             "state": "running",
-            "status": "Up 36 hours (healthy)",
+            "status": "Up 37 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 36 hours (healthy)",
+            "status": "Up 37 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1171,7 +1171,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 36 hours (healthy)",
+        "status": "Up 37 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1187,7 +1187,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.0",
         "state": "running",
-        "status": "Up 36 hours (healthy)",
+        "status": "Up 37 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
