@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T05:14:52.480Z",
-  "changedAt": "2026-11-25T05:14:52.480Z",
-  "rev": 3158,
-  "sig": "9aef621e8324d876b4941dfa9ab21cceacfcb449996238377834596f0b6bd316",
+  "at": "2026-11-25T05:15:52.487Z",
+  "changedAt": "2026-11-25T05:15:52.487Z",
+  "rev": 3159,
+  "sig": "047ba0b594779c156cd0717d2de150540521e45f79884fce8651eadb2798aa91",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,22 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "cctv",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
         {
           "name": "pocketbase",
           "status": "Running"
@@ -130,6 +114,22 @@
         {
           "name": "wallos",
           "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "cctv",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
         }
       ]
     },
@@ -152,52 +152,24 @@
     "reportError": "",
     "routesDown": [
       {
-        "app": "joolay-kiosk-manager",
-        "route": "name",
-        "url": "https://kiosk-manager.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582695677
-      },
-      {
-        "app": "joolay-services-manager",
-        "route": "name",
-        "url": "https://services-manager.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582700457
-      },
-      {
-        "app": "kokoro",
-        "route": "name",
-        "url": "https://kokoro.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582703511
-      },
-      {
-        "app": "ollama",
-        "route": "name",
-        "url": "https://ollama.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582709654
-      },
-      {
         "app": "open-webui",
         "route": "name",
         "url": "https://open-webui.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795582709683
       },
       {
         "app": "paperclip",
         "route": "name",
         "url": "https://paperclip.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795582711392
       },
       {
         "app": "pocketbase",
         "route": "name",
         "url": "https://pocketbase.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795582711967
       },
       {
@@ -298,7 +270,7 @@
         "app": "joolay-services-manager",
         "name": "Services Manager",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3893,
@@ -424,7 +396,7 @@
         "app": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3921,
@@ -494,14 +466,14 @@
         "app": "kokoro",
         "name": "Kokoro",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 11434,
         "app": "ollama",
         "name": "Ollama",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 18789,
@@ -992,11 +964,11 @@
           {
             "key": "name",
             "url": "https://kiosk-manager.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582695677
+            "status": 302,
+            "error": "",
+            "since": 1795583703657
           }
         ]
       },
@@ -1291,11 +1263,11 @@
           {
             "key": "name",
             "url": "https://services-manager.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582700457
+            "status": 302,
+            "error": "",
+            "since": 1795583705032
           }
         ]
       },
@@ -1439,11 +1411,11 @@
           {
             "key": "name",
             "url": "https://kokoro.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582703511
+            "status": 302,
+            "error": "",
+            "since": 1795583705643
           }
         ]
       },
@@ -1487,11 +1459,11 @@
           {
             "key": "name",
             "url": "https://ollama.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582709654
+            "status": 200,
+            "error": "",
+            "since": 1795583706283
           }
         ]
       },
@@ -1538,7 +1510,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795582709683
           }
         ]
@@ -1634,7 +1606,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795582711392
           }
         ]
@@ -1682,7 +1654,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795582711967
           }
         ]
