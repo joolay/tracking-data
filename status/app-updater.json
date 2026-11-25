@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T04:39:34.756Z",
-  "changedAt": "2026-11-25T04:39:34.756Z",
-  "rev": 3170,
-  "sig": "a0887acaef36ede2b8d8ffd80937622affcc304c97d2ff50c6695e05fbfb5eec",
+  "at": "2026-11-25T04:41:34.764Z",
+  "changedAt": "2026-11-25T04:41:34.764Z",
+  "rev": 3171,
+  "sig": "55c5f6ab3fb274e6f3490210f0f24bd9206284bfb3d3ae6023dad12af206b597",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795581565935
+      "at": 1795581687016
     },
     "check": {
-      "at": 1795581566093,
+      "at": 1795581687148,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795581565926,
+      "at": 1795581687011,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795581570505,
+        "at": 1795581690521,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,31 +652,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "cctv",
             "status": "Running",
@@ -791,6 +766,31 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795581638769,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795579778659,
         "level": "warn",
@@ -1165,12 +1171,6 @@
         "level": "ok",
         "appId": "joolay-services-manager",
         "message": "Services Manager updated to 1.4.0 (state: ready)"
-      },
-      {
-        "t": 1795486121784,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Project Pilot (0 s)"
       }
     ],
     "diagnose": [
