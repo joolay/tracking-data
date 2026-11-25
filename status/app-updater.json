@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T22:19:03.567Z",
-  "changedAt": "2026-11-25T22:19:03.567Z",
-  "rev": 4104,
-  "sig": "23e027c98879d90fceeeb1180a8405350e459b809006661617b67587f03ffd80",
+  "at": "2026-11-25T22:21:03.736Z",
+  "changedAt": "2026-11-25T22:21:03.736Z",
+  "rev": 4105,
+  "sig": "cca86fae80b97a7f29c272187b2396d2d9946ddbd74070c8be6d846c3160c583",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -559,23 +559,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795645111369
+      "at": 1795645233970
     },
     "check": {
-      "at": 1795645111520,
+      "at": 1795645234123,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795645111359,
-      "error": null,
+      "at": 1795645233960,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795645136414,
+        "at": 1795645256427,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -722,6 +722,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795645207581,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795645087567,
         "level": "warn",
@@ -1075,12 +1081,6 @@
         "level": "warn",
         "appId": "joolay-services-manager",
         "message": "New version on the repo, umbrelOS has not seen it yet: Services Manager 1.4.1 (umbrelOS lists 1.4.0)"
-      },
-      {
-        "t": 1795642762750,
-        "level": "warn",
-        "appId": "joolay-project-tracker",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.10.0 (umbrelOS lists 1.9.2)"
       }
     ],
     "diagnose": [
