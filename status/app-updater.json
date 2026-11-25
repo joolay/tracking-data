@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:11:02.591Z",
-  "changedAt": "2026-11-25T19:11:02.591Z",
-  "rev": 3932,
-  "sig": "62b906ac4f91229e2ade22f595766903d3d6afb7d945e609c8fef2914b4dc1c4",
+  "at": "2026-11-25T19:11:41.048Z",
+  "changedAt": "2026-11-25T19:11:41.048Z",
+  "rev": 3933,
+  "sig": "354bccebc6631beb695a85a750ff40bf34b843ac10fb1637c09e0d694f478df9",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -71,30 +71,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-joolztv",
-        "name": "JoolzTV",
-        "version": "1.18.1",
-        "latest": "1.18.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795633633892,
-        "result": {
-          "ok": true,
-          "at": 1795579682876,
-          "from": "1.18.0",
-          "to": "1.18.1"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-listify",
         "name": "Listify",
         "version": "1.1.1",
@@ -108,7 +84,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795633633892,
         "result": {
           "ok": true,
@@ -420,6 +396,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-joolztv",
+        "name": "JoolzTV",
+        "version": "1.18.2",
+        "latest": "1.18.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795633869031,
+          "from": "1.18.1",
+          "to": "1.18.2"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
         "version": "1.2.0",
@@ -625,7 +625,7 @@
       "at": 1795633573612
     },
     "check": {
-      "at": 1795633827581,
+      "at": 1795633869284,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633850872,
+        "at": 1795633895878,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,11 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "ollama",
             "status": "Running",
@@ -776,6 +771,11 @@
             "name": "port-master",
             "status": "Paused",
             "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -797,6 +797,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795633869293,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzTV (0 s)"
+      },
+      {
+        "t": 1795633869285,
+        "level": "info",
+        "appId": "joolay-listify",
+        "message": "Updating Listify (detected, updating straight away)…"
+      },
+      {
+        "t": 1795633869031,
+        "level": "ok",
+        "appId": "joolay-joolztv",
+        "message": "JoolzTV updated to 1.18.2 (state: ready)"
+      },
       {
         "t": 1795633827586,
         "level": "info",
@@ -1135,24 +1153,6 @@
       },
       {
         "t": 1795622741947,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub answered 500. "
-      },
-      {
-        "t": 1795622081930,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub answered 500. "
-      },
-      {
-        "t": 1795621780835,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: GitHub answered 500. "
-      },
-      {
-        "t": 1795621426368,
         "level": "warn",
         "appId": null,
         "message": "Status feed: GitHub answered 500. "
