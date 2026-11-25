@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T21:35:14.309Z",
-  "changedAt": "2026-11-25T21:35:14.309Z",
-  "rev": 4265,
-  "sig": "2243661eb80b2def0e3e8010d88baefe3d871f506c3030be8c0d973d4559fd3c",
+  "at": "2026-11-25T21:36:14.306Z",
+  "changedAt": "2026-11-25T21:36:14.306Z",
+  "rev": 4266,
+  "sig": "0913ad03fbc6f92a4db4b1456efc4ab54829ea2e64506c666972f802cd8ca601",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795642506701,
+      "at": 1795642566706,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -144,6 +139,11 @@
         },
         {
           "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -433,7 +433,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
             "state": "running",
-            "status": "Up 43 hours (healthy)",
+            "status": "Up 44 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1173,7 +1173,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
         "state": "running",
-        "status": "Up 43 hours (healthy)",
+        "status": "Up 44 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
