@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T12:54:38.242Z",
-  "changedAt": "2026-11-25T12:54:38.242Z",
-  "rev": 3620,
-  "sig": "b60b5394bfe0038b9b9f75148cc1ca966089e039d49830cdece34924f522e2a8",
+  "at": "2026-11-25T12:56:38.281Z",
+  "changedAt": "2026-11-25T12:56:38.281Z",
+  "rev": 3621,
+  "sig": "2ae5c6ab85e3ee6e8c9fada40e17dcacee4068c29b63031fc4c785cf3746b95e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795611230986
+      "at": 1795611352089
     },
     "check": {
-      "at": 1795611231129,
+      "at": 1795611352287,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795611230980,
+      "at": 1795611352083,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795611273655,
+        "at": 1795611393659,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,66 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -741,66 +801,6 @@
             "name": "adguard-home",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795611342272,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795611042187,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "ok",
         "appId": "joolay-listify",
         "message": "Listify updated to 1.1.1 (state: ready)"
-      },
-      {
-        "t": 1795498825634,
-        "level": "info",
-        "appId": "joolay-listify",
-        "message": "Updating Listify (detected, updating straight away)…"
       }
     ],
     "diagnose": [
