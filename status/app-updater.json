@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T18:49:40.846Z",
-  "changedAt": "2026-11-25T18:49:40.846Z",
-  "rev": 3910,
-  "sig": "42e3425d349e06e61afa682850dafcd71b485eb5065238d216faee1541b35610",
+  "at": "2026-11-25T18:51:40.871Z",
+  "changedAt": "2026-11-25T18:51:40.871Z",
+  "rev": 3911,
+  "sig": "ea9d24450fc7551076d58f7ab420d292dddec55e2b03633c7b2ac24f0a56f0c8",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795632540077
+      "at": 1795632662687
     },
     "check": {
-      "at": 1795632540220,
+      "at": 1795632662814,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795632479760,
-      "error": null,
+      "at": 1795632602374,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795632575708,
+        "at": 1795632695723,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,61 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "atvloadly",
             "status": "Running",
@@ -746,61 +801,6 @@
             "name": "shutterworth",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795632644868,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795632346247,
         "level": "warn",
@@ -1172,12 +1178,6 @@
       },
       {
         "t": 1795581878777,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795581638769,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
