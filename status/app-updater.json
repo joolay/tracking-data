@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T04:51:34.774Z",
-  "changedAt": "2026-11-25T04:51:34.774Z",
-  "rev": 3178,
-  "sig": "a1cfaacbc040cb0739df0477d48ecfe63042b69ddf4450e85b3286f57f1da7d9",
+  "at": "2026-11-25T04:52:34.776Z",
+  "changedAt": "2026-11-25T04:52:34.776Z",
+  "rev": 3179,
+  "sig": "9aaaa628c9fc0d120f16e2114554e17c2d4fd5bcd396ba794d71d36cf0f29432",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -84,6 +84,25 @@
         "hidden": false,
         "busy": false,
         "detectedAt": 1795571238527,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.9.0",
+        "latest": "1.9.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795582354664,
         "result": null,
         "waiting": false
       },
@@ -410,25 +429,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.9.0",
-        "latest": "1.9.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.42.2",
@@ -615,7 +615,7 @@
       "at": 1795582294367
     },
     "check": {
-      "at": 1795582294511,
+      "at": 1795582354664,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -628,7 +628,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795582290605,
+        "at": 1795582350613,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,41 +652,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "kiosk-manager",
             "status": "Running",
@@ -791,6 +756,41 @@
             "name": "paperclip",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795582354664,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
+      {
+        "t": 1795582354664,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.9.0 → 1.9.1"
+      },
       {
         "t": 1795581878777,
         "level": "warn",
@@ -1159,18 +1171,6 @@
         "level": "info",
         "appId": "joolay-tv-remote",
         "message": "Updating TV Remote (detected, updating straight away)…"
-      },
-      {
-        "t": 1795486167510,
-        "level": "ok",
-        "appId": "joolay-shutterworth",
-        "message": "ShutterWorth updated to 1.8.0 (state: ready)"
-      },
-      {
-        "t": 1795486149888,
-        "level": "info",
-        "appId": "joolay-shutterworth",
-        "message": "Updating ShutterWorth (detected, updating straight away)…"
       }
     ],
     "diagnose": [
