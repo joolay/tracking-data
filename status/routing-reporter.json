@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T22:04:59.921Z",
-  "changedAt": "2026-11-25T22:04:59.921Z",
-  "rev": 4056,
-  "sig": "8af1609a8c2fd9ea4ee3ad7ca367c05977755f998ba110ae6ecc6c9057b1f251",
+  "at": "2026-11-25T22:05:59.926Z",
+  "changedAt": "2026-11-25T22:05:59.926Z",
+  "rev": 4057,
+  "sig": "def187ee880d6d1d2e133cc16bb7156c62b96b3ec8d12342638fa13fc0bfbb59",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -181,10 +181,17 @@
         "since": 1795643525739
       },
       {
+        "app": "joolay-joolztv",
+        "route": "name",
+        "url": "https://joolztv.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795644329848
+      },
+      {
         "app": "joolay-portal",
         "route": "name",
         "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
+        "error": "name not found (DNS)",
         "since": 1795643525996
       },
       {
@@ -195,10 +202,17 @@
         "since": 1795643533972
       },
       {
+        "app": "joolay-project-tracker",
+        "route": "public",
+        "url": "https://project-pilot.macaw-chroma.ts.net/",
+        "error": "name not found (DNS)",
+        "since": 1795644303805
+      },
+      {
         "app": "joolay-shutterworth",
         "route": "public",
         "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795643526991
       }
     ],
@@ -327,14 +341,14 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3902,
@@ -390,14 +404,14 @@
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3916,
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3920,
@@ -926,11 +940,11 @@
           {
             "key": "name",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795644259161
+            "status": 0,
+            "error": "connection reset",
+            "since": 1795644329848
           }
         ]
       },
@@ -1077,7 +1091,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
+            "error": "name not found (DNS)",
             "since": 1795643525996
           }
         ]
@@ -1175,11 +1189,11 @@
           {
             "key": "public",
             "url": "https://project-pilot.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "getaddrinfo EAI_AGAIN project-pilot.macaw-chroma.ts.net",
-            "since": 1795643226546
+            "error": "name not found (DNS)",
+            "since": 1795644303805
           }
         ]
       },
@@ -1326,7 +1340,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795643526991
           }
         ]
