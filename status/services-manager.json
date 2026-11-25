@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T05:07:11.911Z",
-  "changedAt": "2026-11-25T05:07:11.911Z",
-  "rev": 3381,
-  "sig": "9de6af898362fc3df32e98c0284ee80b0eaaf4dcc44144c037d6b2641e16abad",
+  "at": "2026-11-25T05:08:11.932Z",
+  "changedAt": "2026-11-25T05:08:11.932Z",
+  "rev": 3382,
+  "sig": "5548dc1535eb37531e04c16e7606f2581bdc8960bfb4153be1ea2ae3c0a9032c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795583220745,
+      "at": 1795583280753,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,51 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -174,6 +129,51 @@
         },
         {
           "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
           "status": "Running",
           "paused": false
         }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 59 minutes",
+            "status": "Up About an hour",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.1",
             "state": "running",
-            "status": "Up 59 minutes",
+            "status": "Up About an hour",
             "policy": "on-failure",
             "self": false
           }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.1",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -823,7 +823,7 @@
             "name": "wallos_server_1",
             "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 45 hours (healthy)",
+            "status": "Up 46 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -871,7 +871,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 45 hours",
+            "status": "Up 46 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -972,7 +972,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 59 minutes",
+        "status": "Up About an hour",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -987,7 +987,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.1",
         "state": "running",
-        "status": "Up 59 minutes",
+        "status": "Up About an hour",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1219,7 +1219,7 @@
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 45 hours (healthy)",
+        "status": "Up 46 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1235,7 +1235,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 45 hours",
+        "status": "Up 46 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
