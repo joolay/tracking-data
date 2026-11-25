@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T05:24:52.614Z",
-  "changedAt": "2026-11-25T05:24:52.614Z",
-  "rev": 3165,
-  "sig": "3b9b81625caa1bce4cac37499ecb2b4f5256b5cb7d77877020aae04fb42254a9",
+  "at": "2026-11-25T05:25:52.625Z",
+  "changedAt": "2026-11-25T05:25:52.625Z",
+  "rev": 3166,
+  "sig": "68e8622811aca62d2b7e052c6e4307edddc38a3b30996a7d56151dbb0aa3eb6a",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,10 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
         {
           "name": "joolztv",
           "status": "Running"
@@ -126,10 +130,6 @@
         {
           "name": "kiosk-manager",
           "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
         }
       ]
     },
@@ -150,15 +150,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "yuvomi",
-        "route": "name",
-        "url": "https://yuvomi.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795582725893
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -396,7 +388,7 @@
         "app": "yuvomi",
         "name": "Yuvomi",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 8240,
@@ -1801,11 +1793,11 @@
           {
             "key": "name",
             "url": "https://yuvomi.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795582725893
+            "status": 302,
+            "error": "",
+            "since": 1795584341901
           }
         ]
       }
