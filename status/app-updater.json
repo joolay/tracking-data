@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:13:41.637Z",
-  "changedAt": "2026-11-25T21:13:41.637Z",
-  "rev": 4041,
-  "sig": "76943f13b69afdda7d81e9326d2bc1774fabdcb428f1802fc5721e8b12366ab9",
+  "at": "2026-11-25T21:14:41.656Z",
+  "changedAt": "2026-11-25T21:14:41.656Z",
+  "rev": 4042,
+  "sig": "1b88a086e86a3cd6d8216bc002123b0595a88f11fa26ff4a359098a499cf3d24",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,10 +622,10 @@
         }
       ],
       "error": null,
-      "at": 1795641184173
+      "at": 1795641244469
     },
     "check": {
-      "at": 1795641184316,
+      "at": 1795641244637,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795641216593,
+        "at": 1795641276599,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -759,16 +769,6 @@
           },
           {
             "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
             "status": "Running",
             "paused": false
           }
