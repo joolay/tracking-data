@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T21:43:14.345Z",
-  "changedAt": "2026-11-25T21:43:14.345Z",
-  "rev": 4273,
-  "sig": "0eda5b3f4c0db4afea82e003990d1c02994c2ac261ecd67def900e36c1e158a4",
+  "at": "2026-11-25T21:44:14.316Z",
+  "changedAt": "2026-11-25T21:44:14.316Z",
+  "rev": 4274,
+  "sig": "60921cd1f14aa7c1e513a90383ab5014dc8491aae22e3b0896c6e570d5803883",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795642986735,
+      "at": 1795643046740,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,31 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -144,6 +119,31 @@
         },
         {
           "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -243,8 +243,8 @@
         "kind": "umbrel",
         "id": "joolay-diner-bell",
         "name": "Diner Bell",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -252,11 +252,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "db507d8250d6",
+            "id": "a8e4b3c8629d",
             "name": "joolay-diner-bell_web_1",
-            "image": "ghcr.io/joolay/diner-bell:2.1.2",
+            "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 3 hours",
+            "status": "Up 43 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -315,8 +315,8 @@
         "kind": "umbrel",
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -922,6 +922,21 @@
     ],
     "containers": [
       {
+        "id": "a8e4b3c8629d",
+        "name": "joolay-diner-bell_web_1",
+        "image": "ghcr.io/joolay/diner-bell:2.2.0",
+        "state": "running",
+        "status": "Up 43 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-25T21:43:30.465822978Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "8805e1d49726",
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.8.2",
@@ -1070,21 +1085,6 @@
         "exitCode": 0,
         "oomKilled": false,
         "startedAt": "2026-11-25T19:09:36.92731902Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "db507d8250d6",
-        "name": "joolay-diner-bell_web_1",
-        "image": "ghcr.io/joolay/diner-bell:2.1.2",
-        "state": "running",
-        "status": "Up 3 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-25T19:08:20.824295418Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
