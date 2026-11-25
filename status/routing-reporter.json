@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T05:18:52.515Z",
-  "changedAt": "2026-11-25T05:18:52.515Z",
-  "rev": 3161,
-  "sig": "d3d2be9f74cffbb5b35652ea59a605a8c28d80caae4fef228ae86707dc1aff63",
+  "at": "2026-11-25T05:20:52.543Z",
+  "changedAt": "2026-11-25T05:20:52.543Z",
+  "rev": 3162,
+  "sig": "f06a35c4d229017f6c15cf16f40f16d034fc3befeeab52f8b5c5e494b7f72ad8",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,58 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
         {
           "name": "app-updater",
           "status": "Running"
@@ -130,6 +78,58 @@
         {
           "name": "port-master",
           "status": "Paused"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
         }
       ]
     },
@@ -152,52 +152,10 @@
     "reportError": "",
     "routesDown": [
       {
-        "app": "open-webui",
-        "route": "name",
-        "url": "https://open-webui.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795582709683
-      },
-      {
-        "app": "paperclip",
-        "route": "name",
-        "url": "https://paperclip.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795582711392
-      },
-      {
-        "app": "pocketbase",
-        "route": "name",
-        "url": "https://pocketbase.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795582711967
-      },
-      {
-        "app": "tailscale",
-        "route": "name",
-        "url": "https://tailscale.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582716650
-      },
-      {
-        "app": "wallos",
-        "route": "name",
-        "url": "https://wallos.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582719709
-      },
-      {
-        "app": "webcheck",
-        "route": "name",
-        "url": "https://webcheck.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582725861
-      },
-      {
         "app": "yuvomi",
         "route": "name",
         "url": "https://yuvomi.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795582725893
       }
     ],
@@ -214,14 +172,14 @@
         "app": "open-webui",
         "name": "Open WebUI",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3093,
         "app": "webcheck",
         "name": "WebCheck",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3881,
@@ -410,7 +368,7 @@
         "app": "pocketbase",
         "name": "PocketBase",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 5533,
@@ -445,21 +403,21 @@
         "app": "tailscale",
         "name": "Tailscale",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 8282,
         "app": "wallos",
         "name": "Wallos",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 8860,
         "app": "paperclip",
         "name": "Paperclip",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 8877,
@@ -1507,11 +1465,11 @@
           {
             "key": "name",
             "url": "https://open-webui.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795582709683
+            "status": 200,
+            "error": "",
+            "since": 1795584030722
           }
         ]
       },
@@ -1603,11 +1561,11 @@
           {
             "key": "name",
             "url": "https://paperclip.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795582711392
+            "status": 403,
+            "error": "",
+            "since": 1795584031356
           }
         ]
       },
@@ -1651,11 +1609,11 @@
           {
             "key": "name",
             "url": "https://pocketbase.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795582711967
+            "status": 404,
+            "error": "",
+            "since": 1795584031956
           }
         ]
       },
@@ -1699,11 +1657,11 @@
           {
             "key": "name",
             "url": "https://tailscale.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582716650
+            "status": 200,
+            "error": "",
+            "since": 1795584032561
           }
         ]
       },
@@ -1747,11 +1705,11 @@
           {
             "key": "name",
             "url": "https://wallos.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582719709
+            "status": 302,
+            "error": "",
+            "since": 1795584033182
           }
         ]
       },
@@ -1795,11 +1753,11 @@
           {
             "key": "name",
             "url": "https://webcheck.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582725861
+            "status": 302,
+            "error": "",
+            "since": 1795584033805
           }
         ]
       },
@@ -1846,7 +1804,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795582725893
           }
         ]
