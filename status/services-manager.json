@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T09:05:12.484Z",
-  "changedAt": "2026-11-25T09:05:12.484Z",
-  "rev": 3604,
-  "sig": "bbf57724ea0142a3b66b0d2433f6c4d6bab6f38a46bf33f5205b9082af3d248b",
+  "at": "2026-11-25T09:07:12.486Z",
+  "changedAt": "2026-11-25T09:07:12.486Z",
+  "rev": 3605,
+  "sig": "e674f6377c55e81ee70a8311b7b50e8e5d2c6cf89a2904b71b8836c01931c991",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795597502187,
+      "at": 1795597622206,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "portaladmin",
           "status": "Running",
@@ -174,6 +169,11 @@
         },
         {
           "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 30 hours",
+            "status": "Up 31 hours",
             "policy": "no",
             "self": false
           }
@@ -1109,7 +1109,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 30 hours",
+        "status": "Up 31 hours",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
