@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T14:13:38.846Z",
-  "changedAt": "2026-11-25T14:13:38.846Z",
-  "rev": 3690,
-  "sig": "71a3d368577291f7fba0e450140304fa4f0d9058e52016f68adc3528c59c7110",
+  "at": "2026-11-25T14:15:38.877Z",
+  "changedAt": "2026-11-25T14:15:38.877Z",
+  "rev": 3691,
+  "sig": "99509e2ced03d96b99cd71a27fe1b4473b7834d752c6cb3e15d9046e5f957993",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795615963961
+      "at": 1795616086555
     },
     "check": {
-      "at": 1795615964082,
+      "at": 1795616086700,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795615963955,
-      "error": null,
+      "at": 1795616086546,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795616013997,
+        "at": 1795616134003,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,71 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "shutterworth",
             "status": "Running",
@@ -801,6 +736,71 @@
             "name": "listify",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795616082868,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795615782816,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "ok",
         "appId": "joolay-project-tracker",
         "message": "Project Pilot updated to 1.9.1 (state: ready)"
-      },
-      {
-        "t": 1795498920799,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Pilot (detected, updating straight away)…"
       }
     ],
     "diagnose": [
