@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:47:14.040Z",
-  "changedAt": "2026-11-25T21:47:14.040Z",
-  "rev": 4074,
-  "sig": "cc5e1e8f7867585e92eb9129326ab1ac518e6bd8e10d0b0f6c9c76695e57291b",
+  "at": "2026-11-25T21:48:30.606Z",
+  "changedAt": "2026-11-25T21:48:30.606Z",
+  "rev": 4075,
+  "sig": "0a6c3b975cd8928457a812ea8e3b0494c00eb54c71080b159a3dc5689c37018b",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -104,54 +104,6 @@
         "busy": false,
         "detectedAt": 1795571238527,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.42.3",
-        "latest": "0.43.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795642944152,
-        "result": {
-          "ok": true,
-          "at": 1795633986633,
-          "from": "0.42.2",
-          "to": "0.42.3"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.9.2",
-        "latest": "1.10.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795642944152,
-        "result": {
-          "ok": true,
-          "at": 1795634062319,
-          "from": "1.9.1",
-          "to": "1.9.2"
-        },
         "waiting": false
       },
       {
@@ -554,6 +506,54 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.43.0",
+        "latest": "0.43.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795643234070,
+          "from": "0.42.3",
+          "to": "0.43.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.10.0",
+        "latest": "1.10.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795643310242,
+          "from": "1.9.2",
+          "to": "1.10.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "tailscale",
         "name": "Tailscale",
         "version": "v1.104.7",
@@ -630,7 +630,7 @@
       "at": 1795642883869
     },
     "check": {
-      "at": 1795643221036,
+      "at": 1795643310596,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -643,7 +643,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795643226751,
+        "at": 1795643301756,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -667,31 +667,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -776,6 +751,31 @@
             "name": "tv-remote",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -797,6 +797,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795643310242,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "Project Pilot updated to 1.10.0 (state: ready)"
+      },
+      {
+        "t": 1795643234297,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
+      {
+        "t": 1795643234070,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.43.0 (state: ready)"
+      },
       {
         "t": 1795643221036,
         "level": "info",
@@ -1135,24 +1153,6 @@
       },
       {
         "t": 1795635405228,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795634865318,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795634563478,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795634385095,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
