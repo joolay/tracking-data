@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T14:05:38.785Z",
-  "changedAt": "2026-11-25T14:05:38.785Z",
-  "rev": 3684,
-  "sig": "40df406cf2d2be6f33b227b57c29b4003e5fa8c4c4219f079c40e9a54d447897",
+  "at": "2026-11-25T14:07:38.952Z",
+  "changedAt": "2026-11-25T14:07:38.952Z",
+  "rev": 3685,
+  "sig": "d932dd750f8f626f57a7a7e67c030b79a41ab1a221fc1b5cee91832d1d9b91ee",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795615537403
+      "at": 1795615599706
     },
     "check": {
-      "at": 1795615537545,
+      "at": 1795615599873,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795615477090,
-      "error": null,
+      "at": 1795615599697,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795615533975,
+        "at": 1795615653982,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,31 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "cctv",
             "status": "Running",
@@ -776,31 +801,6 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795615602798,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795614821156,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "ok",
         "appId": "joolay-portal-admin",
         "message": "Portal Admin updated to 0.42.2 (state: ready)"
-      },
-      {
-        "t": 1795498904712,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Listify (0 s)"
       }
     ],
     "diagnose": [
