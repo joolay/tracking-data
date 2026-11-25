@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T13:11:13.186Z",
-  "changedAt": "2026-11-25T13:11:13.186Z",
-  "rev": 3836,
-  "sig": "0ed019b2554560135bbe75ed9e8ece40b6a6a71d14348d87d45ef5991c616948",
+  "at": "2026-11-25T13:12:13.169Z",
+  "changedAt": "2026-11-25T13:12:13.169Z",
+  "rev": 3837,
+  "sig": "9088ef88a8219a3c1c51e3151b1a34e8efd0f3afdf2bb8f4cc2347b4935d543e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795612263736,
+      "at": 1795612323744,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kokoro",
           "status": "Running",
@@ -159,21 +174,6 @@
         },
         {
           "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -511,7 +511,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.1.1",
             "state": "running",
-            "status": "Up 31 hours",
+            "status": "Up 32 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -679,7 +679,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 31 hours (healthy)",
+            "status": "Up 32 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1062,7 +1062,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 31 hours (healthy)",
+        "status": "Up 32 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1078,7 +1078,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.1.1",
         "state": "running",
-        "status": "Up 31 hours",
+        "status": "Up 32 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
