@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T21:45:14.344Z",
-  "changedAt": "2026-11-25T21:45:14.344Z",
-  "rev": 4275,
-  "sig": "5e7633c347b12db0b77748b870b7b6ff5722d375440684994152329c3a5e3182",
+  "at": "2026-11-25T21:46:14.330Z",
+  "changedAt": "2026-11-25T21:46:14.330Z",
+  "rev": 4276,
+  "sig": "4304817a9fad52104e03d59f5a5a8965915c37032607e5fa57b70e65f82dca00",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795643106743,
+      "at": 1795643166747,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,56 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -146,6 +96,56 @@
           "name": "app-updater",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -161,8 +161,8 @@
       }
     },
     "summary": {
-      "containers": 31,
-      "running": 30,
+      "containers": 32,
+      "running": 31,
       "problems": []
     },
     "services": [
@@ -256,7 +256,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up About a minute",
+            "status": "Up 2 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -328,7 +328,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 27 seconds",
+            "status": "Up About a minute",
             "policy": "on-failure",
             "self": false
           }
@@ -352,7 +352,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.0",
             "state": "running",
-            "status": "Up 11 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -420,14 +420,24 @@
         "kind": "umbrel",
         "id": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "0946d5594baa",
+            "name": "joolay-kiosk-manager_web_1",
+            "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
+            "state": "running",
+            "status": "Up 56 seconds (healthy)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "umbrel:kokoro",
@@ -458,8 +468,8 @@
         "kind": "umbrel",
         "id": "joolay-listify",
         "name": "Listify",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -912,16 +922,32 @@
     ],
     "containers": [
       {
-        "id": "6f4e1104365c",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.0",
+        "id": "0946d5594baa",
+        "name": "joolay-kiosk-manager_web_1",
+        "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 11 seconds (health: starting)",
+        "status": "Up 56 seconds (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
+        "startedAt": "2026-11-25T21:45:17.860643651Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "6f4e1104365c",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.0",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
         "startedAt": "2026-11-25T21:45:02.597221074Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
@@ -932,7 +958,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 27 seconds",
+        "status": "Up About a minute",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -947,7 +973,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up About a minute",
+        "status": "Up 2 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
