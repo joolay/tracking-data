@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:42:41.831Z",
-  "changedAt": "2026-11-25T21:42:41.831Z",
-  "rev": 4068,
-  "sig": "ac24712f59833b1d5873c03ec929ecb84d326955ea924e943ef4de3130f8c946",
+  "at": "2026-11-25T21:43:33.175Z",
+  "changedAt": "2026-11-25T21:43:33.175Z",
+  "rev": 4069,
+  "sig": "12ab840ee48f9a809484ecacc56570d058ba300695b3f02fbddcaea1c118fefa",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-diner-bell",
-        "name": "Diner Bell",
-        "version": "2.1.2",
-        "latest": "2.2.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795642944148,
-        "result": {
-          "ok": true,
-          "at": 1795633703033,
-          "from": "2.1.1",
-          "to": "2.1.2"
-        },
-        "waiting": false
-      },
       {
         "id": "joolay-gatekeeper",
         "name": "Gatekeeper",
@@ -411,6 +387,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.2.0",
+        "latest": "2.2.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795643012101,
+          "from": "2.1.2",
+          "to": "2.2.0"
+        },
+        "waiting": false
+      },
+      {
         "id": "home-assistant",
         "name": "Home Assistant",
         "version": "2026.11.3",
@@ -625,20 +625,20 @@
       "at": 1795642883869
     },
     "check": {
-      "at": 1795642944155,
+      "at": 1795643013170,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795642883863,
+      "at": 1795643013170,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795642956733,
+        "at": 1795643001736,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "paperclip",
             "status": "Running",
@@ -751,26 +771,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795643012101,
+        "level": "ok",
+        "appId": "joolay-diner-bell",
+        "message": "Diner Bell updated to 2.2.0 (state: ready)"
+      },
       {
         "t": 1795642944155,
         "level": "info",
@@ -1145,12 +1151,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating JoolzTV (0 s)"
-      },
-      {
-        "t": 1795633869285,
-        "level": "info",
-        "appId": "joolay-listify",
-        "message": "Updating Listify (detected, updating straight away)…"
       }
     ],
     "diagnose": [
