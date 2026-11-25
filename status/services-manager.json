@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T19:06:14.138Z",
-  "changedAt": "2026-11-25T19:06:14.138Z",
-  "rev": 4133,
-  "sig": "051f91979738c4c0fa9cf36d803cf12d1be3ad4680a632cc1328fd6a2df67b3c",
+  "at": "2026-11-25T19:07:14.217Z",
+  "changedAt": "2026-11-25T19:07:14.217Z",
+  "rev": 4134,
+  "sig": "0c9d90ddd9136613507f28735c01ae862542130f9dfdf7d1fd4301fe867ae2b8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795633565841,
+      "at": 1795633625845,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,41 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kokoro",
           "status": "Running",
@@ -141,41 +176,6 @@
           "name": "openclaw",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -273,8 +273,8 @@
         "kind": "umbrel",
         "id": "joolay-diner-bell",
         "name": "Diner Bell",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
         "policy": "on-failure",
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 40 hours",
+            "status": "Up 41 hours",
             "policy": "no",
             "self": false
           }
@@ -1124,7 +1124,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 40 hours",
+        "status": "Up 41 hours",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
