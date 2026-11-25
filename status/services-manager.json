@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T03:21:11.804Z",
-  "changedAt": "2026-11-25T03:21:11.804Z",
-  "rev": 3281,
-  "sig": "f1e71cb51ab4ed1f5b4cc219a60747835786a63ab5ff63062e6fa706caec4ac3",
+  "at": "2026-11-25T03:22:11.804Z",
+  "changedAt": "2026-11-25T03:22:11.804Z",
+  "rev": 3282,
+  "sig": "facd65ac1c7573ee954442c4a1514f403d653db2263e8b6dc93acc9ac0756451",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795576859809,
+      "at": 1795576919820,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +156,26 @@
           "name": "home-assistant",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -535,7 +535,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 43 hours",
+            "status": "Up 44 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1204,7 +1204,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 43 hours",
+        "status": "Up 44 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
