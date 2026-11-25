@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T04:08:34.639Z",
-  "changedAt": "2026-11-25T04:08:34.639Z",
-  "rev": 3142,
-  "sig": "6d350734f276084a5f0b488149af35b2fa21aeec4be23b87bbef8bf1f25c2a3b",
+  "at": "2026-11-25T04:10:34.655Z",
+  "changedAt": "2026-11-25T04:10:34.655Z",
+  "rev": 3143,
+  "sig": "63bab1b48e0837c0ac3777b8078e0842f40b479cf95113a6af4ae4ce5b6ead37",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795579699064
+      "at": 1795579822306
     },
     "check": {
-      "at": 1795579699189,
+      "at": 1795579822434,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795579588325,
+      "at": 1795579715104,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795579710237,
+        "at": 1795579830253,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,6 +652,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "yuvomi",
             "status": "Running",
@@ -781,16 +791,6 @@
             "name": "tv-remote",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795579778659,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795579683172,
         "level": "info",
@@ -1165,12 +1171,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Project Pilot (0 s)"
-      },
-      {
-        "t": 1795486121767,
-        "level": "info",
-        "appId": "joolay-services-manager",
-        "message": "Updating Services Manager (detected, updating straight away)…"
       }
     ],
     "diagnose": [
