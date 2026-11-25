@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T15:42:39.259Z",
-  "changedAt": "2026-11-25T15:42:39.259Z",
-  "rev": 3764,
-  "sig": "93e30e13f0c177ac4f86ff502851301cde4371b16adce29a5c2d694cca23650c",
+  "at": "2026-11-25T15:48:39.264Z",
+  "changedAt": "2026-11-25T15:48:39.264Z",
+  "rev": 3765,
+  "sig": "7e1c042403d29c3256088a014f97429c0ed65c160bd03c10b94bdf788cd01d65",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795621308253
+      "at": 1795621671866
     },
     "check": {
-      "at": 1795621308437,
+      "at": 1795621671994,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795621308243,
+      "at": 1795621671861,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795621354394,
+        "at": 1795621714436,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,56 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "ollama",
             "status": "Running",
@@ -801,6 +751,56 @@
             "name": "atvloadly",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795621426368,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: GitHub answered 500. "
+      },
       {
         "t": 1795620763255,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating JoolzTV (0 s)"
-      },
-      {
-        "t": 1795555125541,
-        "level": "ok",
-        "appId": "joolay-joolztv",
-        "message": "JoolzTV updated to 1.18.0 (state: ready)"
       }
     ],
     "diagnose": [
