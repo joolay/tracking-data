@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T16:47:39.708Z",
-  "changedAt": "2026-11-25T16:47:39.708Z",
-  "rev": 3797,
-  "sig": "5081c5d5008a9c22fbc827b3cfb5ee5f6c7ea6180a0d856fb2d13f34e3bf4fb3",
+  "at": "2026-11-25T16:49:39.574Z",
+  "changedAt": "2026-11-25T16:49:39.574Z",
+  "rev": 3798,
+  "sig": "3115c2bb1087655308553e5444aa62617685367abbe052a3f8f759714a87fde4",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795625250290
+      "at": 1795625371365
     },
     "check": {
-      "at": 1795625250431,
+      "at": 1795625371485,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795625189795,
+      "at": 1795625311054,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795625254890,
+        "at": 1795625374903,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,21 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -801,6 +786,21 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795625323580,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795624243513,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "joolay-joolztv",
         "message": "Update available: JoolzTV 1.18.0 → 1.18.1"
-      },
-      {
-        "t": 1795576312050,
-        "level": "info",
-        "appId": "yuvomi",
-        "message": "Update available: Yuvomi 2.94.0 → 2.95.0"
       }
     ],
     "diagnose": [
