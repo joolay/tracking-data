@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T10:59:12.831Z",
-  "changedAt": "2026-11-25T10:59:12.831Z",
-  "rev": 3713,
-  "sig": "14c76cc9117be7c2558aeebe5416721a63a6d40df2ab2378779ce3eaad495b20",
+  "at": "2026-11-25T11:00:12.821Z",
+  "changedAt": "2026-11-25T11:00:12.821Z",
+  "rev": 3714,
+  "sig": "6013fae00f3f869161d8bf806104c35bab4a5605ba57d007a409e9c1bece4b6f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795604343013,
+      "at": 1795604403021,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
           "status": "Running",
           "paused": false
         }
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 32 hours (healthy)",
+            "status": "Up 33 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1124,7 +1124,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 32 hours (healthy)",
+        "status": "Up 33 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
