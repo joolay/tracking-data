@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T02:35:11.851Z",
-  "changedAt": "2026-11-25T02:35:11.851Z",
-  "rev": 3239,
-  "sig": "a0ac9b19415b4bb57a7a99080b1981eaaccfdf96495097b80532d559b7008846",
+  "at": "2026-11-25T02:36:11.868Z",
+  "changedAt": "2026-11-25T02:36:11.868Z",
+  "rev": 3240,
+  "sig": "c8b123c3b8cb2f10729a13580b5304a792b8ad4a67f5c0c4581e419761f32e6b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795574099612,
+      "at": 1795574159616,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -166,16 +176,6 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -463,7 +463,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
             "state": "running",
-            "status": "Up 24 hours (healthy)",
+            "status": "Up 25 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1172,7 +1172,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.0",
         "state": "running",
-        "status": "Up 24 hours (healthy)",
+        "status": "Up 25 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
