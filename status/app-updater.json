@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:13:07.044Z",
-  "changedAt": "2026-11-25T19:13:07.044Z",
-  "rev": 3935,
-  "sig": "d51dbd4c3a0ef933cb7b77623296a83f11c58ce46f84de73a363382126e74d67",
+  "at": "2026-11-25T19:13:41.055Z",
+  "changedAt": "2026-11-25T19:13:41.055Z",
+  "rev": 3936,
+  "sig": "dc95643de500e6066f77014baefdafbe32f24f12825b839e84767e67dee9f439",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -120,7 +120,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795633633894,
         "result": {
           "ok": true,
@@ -500,7 +500,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633985889,
+        "at": 1795634015893,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -753,22 +773,7 @@
             "paused": false
           },
           {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
+            "name": "listify",
             "status": "Running",
             "paused": false
           }
@@ -792,6 +797,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795633989897,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Portal Admin (3 s)"
+      },
+      {
+        "t": 1795633986836,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Updating Project Pilot (detected, updating straight away)…"
+      },
       {
         "t": 1795633986633,
         "level": "ok",
@@ -1136,18 +1153,6 @@
       },
       {
         "t": 1795631324596,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795630544467,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795630184451,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
