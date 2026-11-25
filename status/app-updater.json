@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T14:59:39.172Z",
-  "changedAt": "2026-11-25T14:59:39.172Z",
-  "rev": 3728,
-  "sig": "c93825c438c3a9e14eb6a7137dd19030572f94e16048196071d93cbaeaea0a3d",
+  "at": "2026-11-25T15:01:39.175Z",
+  "changedAt": "2026-11-25T15:01:39.175Z",
+  "rev": 3729,
+  "sig": "4462d45a8599de7398a35fd3b3000aebf7e82779634be5f55198a9bef86a7337",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795618758284
+      "at": 1795618879334
     },
     "check": {
-      "at": 1795618758419,
+      "at": 1795618879460,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795618758276,
+      "at": 1795618879328,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795618774118,
+        "at": 1795618894128,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,31 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "joolztv",
             "status": "Running",
@@ -801,6 +776,31 @@
             "name": "tv-remote",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795618843180,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795617763107,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "warn",
         "appId": "joolay-joolztv",
         "message": "New version on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.0 (umbrelOS lists 1.17.0)"
-      },
-      {
-        "t": 1795499019783,
-        "level": "ok",
-        "appId": "joolay-shutterworth",
-        "message": "ShutterWorth updated to 1.8.1 (state: ready)"
       }
     ],
     "diagnose": [
