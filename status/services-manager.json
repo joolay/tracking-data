@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T08:59:12.486Z",
-  "changedAt": "2026-11-25T08:59:12.486Z",
-  "rev": 3599,
-  "sig": "5647a5c3a87e6a599d6cdb3ed7cfc36b95923d23d0210cdf71db92d4cfa596c4",
+  "at": "2026-11-25T09:00:12.485Z",
+  "changedAt": "2026-11-25T09:00:12.485Z",
+  "rev": 3600,
+  "sig": "f7822f4d6f8f80c82ec52588b0adb0bd7747c8e8230408950f15fc7302a08250",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795597142121,
+      "at": 1795597202133,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 30 hours (healthy)",
+            "status": "Up 31 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1124,7 +1124,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 30 hours (healthy)",
+        "status": "Up 31 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
