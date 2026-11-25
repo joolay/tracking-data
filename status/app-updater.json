@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T05:22:34.875Z",
-  "changedAt": "2026-11-25T05:22:34.875Z",
-  "rev": 3207,
-  "sig": "1938dde32a8bfe81c2393988178e628c3ee415a8b89ece4e779373656e9212ce",
+  "at": "2026-11-25T05:24:34.883Z",
+  "changedAt": "2026-11-25T05:24:34.883Z",
+  "rev": 3208,
+  "sig": "158d6d870efc843466d0313e9674de58b6bc9221b414e619acb3ead32ecff9d2",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795584135253
+      "at": 1795584257836
     },
     "check": {
-      "at": 1795584135381,
+      "at": 1795584257994,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795584135248,
-      "error": null,
+      "at": 1795584257827,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795584150858,
+        "at": 1795584270870,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,41 +657,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "home-assistant",
             "status": "Running",
@@ -796,6 +761,41 @@
             "name": "portaladmin",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795584218887,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795583978881,
         "level": "warn",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": "home-assistant",
         "message": "Update available: Home Assistant 2026.11.2 → 2026.11.3"
-      },
-      {
-        "t": 1795486223103,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.9.0 → 1.10.0. Checking has resumed."
       }
     ],
     "diagnose": [
