@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:43:33.175Z",
-  "changedAt": "2026-11-25T21:43:33.175Z",
-  "rev": 4069,
-  "sig": "12ab840ee48f9a809484ecacc56570d058ba300695b3f02fbddcaea1c118fefa",
+  "at": "2026-11-25T21:44:10.565Z",
+  "changedAt": "2026-11-25T21:44:10.565Z",
+  "rev": 4070,
+  "sig": "0a645ceffdcaf0be840d29ecde39148928d320c9b86fb76b8b77d63e2a3c3d3e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -84,7 +84,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795642944149,
         "result": {
           "ok": true,
@@ -400,7 +400,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795643001736,
+        "at": 1795643046740,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -751,26 +771,6 @@
             "name": "listify",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795643015554,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Diner Bell (2 s)"
+      },
+      {
+        "t": 1795643013171,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Updating Jolly Grocer (detected, updating straight away)…"
+      },
       {
         "t": 1795643012101,
         "level": "ok",
@@ -1139,18 +1151,6 @@
         "level": "info",
         "appId": "joolay-routing-reporter",
         "message": "Updating Port Master (detected, updating straight away)…"
-      },
-      {
-        "t": 1795633945568,
-        "level": "ok",
-        "appId": "joolay-listify",
-        "message": "Listify updated to 1.1.2 (state: ready)"
-      },
-      {
-        "t": 1795633869293,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzTV (0 s)"
       }
     ],
     "diagnose": [
