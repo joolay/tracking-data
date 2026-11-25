@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T18:27:40.724Z",
-  "changedAt": "2026-11-25T18:27:40.724Z",
-  "rev": 3890,
-  "sig": "0163ff170d07a982ef43f968ab5502439c47c51fd662339f1d85a403eb6a768c",
+  "at": "2026-11-25T18:29:40.602Z",
+  "changedAt": "2026-11-25T18:29:40.602Z",
+  "rev": 3891,
+  "sig": "1fcc1d725b14adb7d8fba098b9dc5a80ca00c32cd7674ce0c532a31ab0d26627",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795631205500
+      "at": 1795631326210
     },
     "check": {
-      "at": 1795631205624,
+      "at": 1795631326330,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795631145198,
-      "error": null,
+      "at": 1795631265879,
+      "error": "GitHub answered 403",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795631255544,
+        "at": 1795631375559,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,41 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "joolztv",
             "status": "Running",
@@ -766,41 +801,6 @@
             "name": "shutterworth",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795631324596,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795630544467,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795579683172,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzTV (0 s)"
       }
     ],
     "diagnose": [
