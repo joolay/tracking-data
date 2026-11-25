@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T13:52:38.766Z",
-  "changedAt": "2026-11-25T13:52:38.766Z",
-  "rev": 3672,
-  "sig": "3b87b9b40152003ffae4309a9a91d3fe0dc483943015c3bb8aa00dc4ba2e021c",
+  "at": "2026-11-25T13:54:38.775Z",
+  "changedAt": "2026-11-25T13:54:38.775Z",
+  "rev": 3673,
+  "sig": "625e6efe341399dda8cf06bd714005a614e9b4efb8e20f45f339de2247bc7e82",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795614748042
+      "at": 1795614870612
     },
     "check": {
-      "at": 1795614748182,
+      "at": 1795614870778,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795614748036,
-      "error": null,
+      "at": 1795614870606,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795614753926,
+        "at": 1795614873933,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,41 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "joolztv",
             "status": "Running",
@@ -801,6 +766,41 @@
             "name": "shutterworth",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795614821156,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795614042714,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Listify (0 s)"
-      },
-      {
-        "t": 1795498904669,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
       }
     ],
     "diagnose": [
