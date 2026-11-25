@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:17:52.311Z",
-  "changedAt": "2026-11-25T19:17:52.311Z",
-  "rev": 3908,
-  "sig": "06629b10561fb06b8943aa6a90173394114d2dcd89556f3d159449b9dacfc5f1",
+  "at": "2026-11-25T19:18:52.326Z",
+  "changedAt": "2026-11-25T19:18:52.326Z",
+  "rev": 3909,
+  "sig": "354499816faa69497a12311473fade20bf920c25990f4f4a48ed5008c4137f80",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,46 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
         {
           "name": "services-manager",
           "status": "Running"
@@ -66,49 +106,13 @@
         {
           "name": "webcheck",
           "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
         }
       ]
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 23,
-      "withoutName": 1,
+      "keptByPortMaster": 26,
+      "withoutName": 0,
       "problems": [
         {
           "app": "joolay-cctv",
@@ -126,8 +130,8 @@
           "state": "unregistered"
         },
         {
-          "app": "joolay-project-tracker",
-          "name": "project-tracker",
+          "app": "joolay-portal-admin",
+          "name": "portaladmin",
           "state": "unregistered"
         },
         {
@@ -165,21 +169,21 @@
         "app": "joolay-diner-bell",
         "route": "name",
         "url": "https://diner-bell.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795634009830
       },
       {
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795634009849
       },
       {
         "app": "joolay-joolztv",
         "route": "name",
         "url": "https://joolztv.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795634009881
       },
       {
@@ -245,7 +249,7 @@
         "app": "joolay-listify",
         "name": "Listify",
         "kind": "published",
-        "state": "checking"
+        "state": "up"
       },
       {
         "port": 3890,
@@ -280,7 +284,7 @@
         "app": "joolay-listify",
         "name": "Listify",
         "kind": "app",
-        "state": "checking"
+        "state": "up"
       },
       {
         "port": 3896,
@@ -767,7 +771,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795634009830
           }
         ]
@@ -867,7 +871,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795634009849
           }
         ]
@@ -917,7 +921,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795634009881
           }
         ]
@@ -1012,11 +1016,11 @@
           {
             "key": "public",
             "url": "https://listify.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795634009932
+            "status": 200,
+            "error": "",
+            "since": 1795634279770
           }
         ]
       },
@@ -1081,7 +1085,7 @@
           3899,
           3909
         ],
-        "published": "",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -1109,13 +1113,22 @@
             "status": 302,
             "error": "",
             "since": 1795633977457
+          },
+          {
+            "key": "name",
+            "url": "https://portaladmin.macaw-chroma.ts.net/",
+            "state": "up",
+            "ignored": false,
+            "status": 0,
+            "error": "timed out",
+            "since": 1795633977495
           }
         ]
       },
       {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
-        "version": "1.9.1",
+        "version": "1.9.2",
         "joolzapp": true,
         "portal": "auto",
         "port": 3915,
@@ -1204,11 +1217,11 @@
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": true,
             "status": 0,
             "error": "timed out",
-            "since": 1795634003143
+            "since": 1795634286539
           }
         ]
       },
@@ -1263,7 +1276,7 @@
       {
         "id": "joolay-shutterworth",
         "name": "ShutterWorth",
-        "version": "1.8.1",
+        "version": "1.8.2",
         "joolzapp": true,
         "portal": "auto",
         "port": 3881,
@@ -1304,8 +1317,8 @@
             "url": "https://shutterworth.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "timed out",
             "since": 1795633979397
           }
         ]
