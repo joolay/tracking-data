@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T11:36:56.796Z",
-  "changedAt": "2026-11-25T11:36:56.796Z",
-  "rev": 3514,
-  "sig": "6d0810a789b88cbe6ed75c33e5b0a2f020981d37c02dc654b2ffa41cec91984f",
+  "at": "2026-11-25T11:37:56.818Z",
+  "changedAt": "2026-11-25T11:37:56.818Z",
+  "rev": 3515,
+  "sig": "444d057c878e587cb2ef455573aff77be8504d4278db3a02d6c1d1e787d2df0a",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,38 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
-        },
         {
           "name": "joolztv",
           "status": "Running"
@@ -130,6 +98,38 @@
         {
           "name": "kokoro",
           "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "app-updater",
+          "status": "Running"
         }
       ]
     },
@@ -152,7 +152,15 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-cctv",
+        "route": "name",
+        "url": "https://cctv.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795606624945
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -292,14 +300,14 @@
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3904,
@@ -677,11 +685,11 @@
           {
             "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795606608719
+            "since": 1795606624945
           }
         ]
       },
