@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T20:51:54.090Z",
-  "changedAt": "2026-11-25T20:51:54.090Z",
-  "rev": 3992,
-  "sig": "e14eb89ec03c898797e066542f7ab77febe66b0c7b8f78ffcd6ad38276521355",
+  "at": "2026-11-25T20:52:54.110Z",
+  "changedAt": "2026-11-25T20:52:54.110Z",
+  "rev": 3993,
+  "sig": "b6284525e749e041c4944067b4a1f0f8d0b2420111be338117c5be4ffa1aefb8",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,38 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
         {
           "name": "home-assistant",
           "status": "Running"
@@ -73,38 +105,6 @@
         },
         {
           "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
           "status": "Running"
         }
       ]
@@ -176,14 +176,14 @@
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795634009849
       },
       {
         "app": "joolay-portal",
         "route": "name",
         "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
+        "error": "name not found (DNS)",
         "since": 1795633993838
       },
       {
@@ -197,7 +197,7 @@
         "app": "joolay-shutterworth",
         "route": "public",
         "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795634624430
       }
     ],
@@ -878,7 +878,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795634009849
           }
         ]
@@ -927,8 +927,8 @@
             "url": "https://joolztv.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795639600775
           }
         ]
@@ -1076,7 +1076,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
+            "error": "name not found (DNS)",
             "since": 1795633993838
           }
         ]
@@ -1325,7 +1325,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795634624430
           }
         ]
