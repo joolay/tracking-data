@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T13:39:38.698Z",
-  "changedAt": "2026-11-25T13:39:38.698Z",
-  "rev": 3660,
-  "sig": "cca07cd0651bf220ccfe088da49d0795732d89724fd92529a352e243376c7fef",
+  "at": "2026-11-25T13:41:38.703Z",
+  "changedAt": "2026-11-25T13:41:38.703Z",
+  "rev": 3661,
+  "sig": "0a99d68563520299dda5185fc329622e4b990094a2452cd130d27423eafdc500",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795613958514
+      "at": 1795614081184
     },
     "check": {
-      "at": 1795613958653,
+      "at": 1795614081410,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795613898113,
-      "error": null,
+      "at": 1795614020879,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795613973870,
+        "at": 1795614093877,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,46 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "kokoro",
             "status": "Running",
@@ -761,46 +801,6 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795614042714,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795611342272,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795498903109,
-        "level": "ok",
-        "appId": "joolay-listify",
-        "message": "Listify updated to 1.1.1 (state: ready)"
       }
     ],
     "diagnose": [
