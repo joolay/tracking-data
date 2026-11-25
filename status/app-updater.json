@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T22:17:03.541Z",
-  "changedAt": "2026-11-25T22:17:03.541Z",
-  "rev": 4103,
-  "sig": "ba3450d3bf3b95641e4ec55035a2d283bde20f8f79ebb973a6a96b3d3f0a9615",
+  "at": "2026-11-25T22:19:03.567Z",
+  "changedAt": "2026-11-25T22:19:03.567Z",
+  "rev": 4104,
+  "sig": "23e027c98879d90fceeeb1180a8405350e459b809006661617b67587f03ffd80",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -559,23 +559,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795644989999
+      "at": 1795645111369
     },
     "check": {
-      "at": 1795644990134,
+      "at": 1795645111520,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795644989988,
+      "at": 1795645111359,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795645016408,
+        "at": 1795645136414,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,6 +599,36 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tv-remote",
             "status": "Running",
@@ -673,36 +703,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -722,6 +722,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795645087567,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795643647159,
         "level": "warn",
@@ -1075,12 +1081,6 @@
         "level": "warn",
         "appId": "joolay-project-tracker",
         "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.10.0 (umbrelOS lists 1.9.2)"
-      },
-      {
-        "t": 1795642762750,
-        "level": "warn",
-        "appId": "joolay-routing-reporter",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.1 (umbrelOS lists 1.10.0)"
       }
     ],
     "diagnose": [
