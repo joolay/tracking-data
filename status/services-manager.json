@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T02:13:11.823Z",
-  "changedAt": "2026-11-25T02:13:11.823Z",
-  "rev": 3217,
-  "sig": "badfcc754594c71bc4550b137515ee62ceab7ba52d5da8d00b558eb5ca275baf",
+  "at": "2026-11-25T02:14:11.961Z",
+  "changedAt": "2026-11-25T02:14:11.961Z",
+  "rev": 3218,
+  "sig": "727791413e36914fe319d8f7ba33f935be272c6f0ea713e2b4cff2ce6527401f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795572779545,
+      "at": 1795572839549,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,71 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kiosk-manager",
           "status": "Running",
@@ -109,71 +174,6 @@
         },
         {
           "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
           "status": "Running",
           "paused": false
         }
@@ -703,7 +703,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.9.1",
             "state": "running",
-            "status": "Up 20 hours",
+            "status": "Up 21 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -751,7 +751,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.8.1",
             "state": "running",
-            "status": "Up 20 hours",
+            "status": "Up 21 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -986,7 +986,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.8.1",
         "state": "running",
-        "status": "Up 20 hours",
+        "status": "Up 21 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1001,7 +1001,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.9.1",
         "state": "running",
-        "status": "Up 20 hours",
+        "status": "Up 21 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
