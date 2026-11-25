@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T07:36:36.127Z",
-  "changedAt": "2026-11-25T07:36:36.127Z",
-  "rev": 3329,
-  "sig": "9165309b90efec985949c7730a0ffd74774875cb89d55b9c421824acb62e0b5f",
+  "at": "2026-11-25T07:38:36.161Z",
+  "changedAt": "2026-11-25T07:38:36.161Z",
+  "rev": 3330,
+  "sig": "0525130b85e5781dfef688d4e058eb2d204ed1c44ce96fef8043c3211af27ba6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795592148067
+      "at": 1795592270673
     },
     "check": {
-      "at": 1795592148194,
+      "at": 1795592270823,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795592148062,
-      "error": null,
+      "at": 1795592270664,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795592191727,
+        "at": 1795592311734,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,11 +657,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "yuvomi",
             "status": "Running",
@@ -796,6 +791,11 @@
             "name": "tailscale",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795592260286,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795587639338,
         "level": "warn",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Update available: Project Pilot 1.8.0 → 1.9.0"
-      },
-      {
-        "t": 1795487575120,
-        "level": "info",
-        "appId": "joolay-gatekeeper",
-        "message": "Installed joolay-gatekeeper"
       }
     ],
     "diagnose": [
