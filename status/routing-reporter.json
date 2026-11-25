@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T04:57:52.145Z",
-  "changedAt": "2026-11-25T04:57:52.145Z",
-  "rev": 3143,
-  "sig": "ccd52261f1a5c5794e4fe0fdb992bcb0117d0cb7563063a522c8ed88a14cde5a",
+  "at": "2026-11-25T04:58:52.143Z",
+  "changedAt": "2026-11-25T04:58:52.143Z",
+  "rev": 3144,
+  "sig": "ffa979136318873ab26d822df91f8c4d14c3360f49d76fa64a986c4c1c3e3d86",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,42 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "joolzapp",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
         {
           "name": "wallos",
           "status": "Running"
@@ -130,6 +94,42 @@
         {
           "name": "tailscale",
           "status": "Running"
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
         }
       ]
     },
@@ -150,7 +150,113 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "home-assistant",
+        "route": "name",
+        "url": "https://home-assistant.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795582683825
+      },
+      {
+        "app": "joolay-app-updater",
+        "route": "name",
+        "url": "https://app-updater.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582693460
+      },
+      {
+        "app": "joolay-atvloadly",
+        "route": "name",
+        "url": "https://atvloadly.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582693463
+      },
+      {
+        "app": "joolay-jolly-grocer",
+        "route": "name",
+        "url": "https://jolly-grocer.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582694893
+      },
+      {
+        "app": "joolay-kiosk-manager",
+        "route": "name",
+        "url": "https://kiosk-manager.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582695677
+      },
+      {
+        "app": "joolay-services-manager",
+        "route": "name",
+        "url": "https://services-manager.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582700457
+      },
+      {
+        "app": "kokoro",
+        "route": "name",
+        "url": "https://kokoro.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582703511
+      },
+      {
+        "app": "ollama",
+        "route": "name",
+        "url": "https://ollama.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582709654
+      },
+      {
+        "app": "open-webui",
+        "route": "name",
+        "url": "https://open-webui.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582709683
+      },
+      {
+        "app": "paperclip",
+        "route": "name",
+        "url": "https://paperclip.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582711392
+      },
+      {
+        "app": "pocketbase",
+        "route": "name",
+        "url": "https://pocketbase.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582711967
+      },
+      {
+        "app": "tailscale",
+        "route": "name",
+        "url": "https://tailscale.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582716650
+      },
+      {
+        "app": "wallos",
+        "route": "name",
+        "url": "https://wallos.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582719709
+      },
+      {
+        "app": "webcheck",
+        "route": "name",
+        "url": "https://webcheck.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582725861
+      },
+      {
+        "app": "yuvomi",
+        "route": "name",
+        "url": "https://yuvomi.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795582725893
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -164,14 +270,14 @@
         "app": "open-webui",
         "name": "Open WebUI",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3093,
         "app": "webcheck",
         "name": "WebCheck",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3881,
@@ -220,7 +326,7 @@
         "app": "joolay-services-manager",
         "name": "Services Manager",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3893,
@@ -248,14 +354,14 @@
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3898,
         "app": "joolay-app-updater",
         "name": "App Updater",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3899,
@@ -346,7 +452,7 @@
         "app": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3921,
@@ -360,70 +466,70 @@
         "app": "pocketbase",
         "name": "PocketBase",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 5533,
         "app": "joolay-atvloadly",
         "name": "atvloadly",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8095,
         "app": "adguard-home",
         "name": "AdGuard Home",
         "kind": "app",
-        "state": "checking"
+        "state": "up"
       },
       {
         "port": 8123,
         "app": "home-assistant",
         "name": "Home Assistant",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8180,
         "app": "yuvomi",
         "name": "Yuvomi",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8240,
         "app": "tailscale",
         "name": "Tailscale",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8282,
         "app": "wallos",
         "name": "Wallos",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8860,
         "app": "paperclip",
         "name": "Paperclip",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 8877,
         "app": "kokoro",
         "name": "Kokoro",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 11434,
         "app": "ollama",
         "name": "Ollama",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 18789,
@@ -474,11 +580,11 @@
           {
             "key": "name",
             "url": "https://adguard-home.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582393114
+            "status": 302,
+            "error": "",
+            "since": 1795582678449
           }
         ]
       },
@@ -522,11 +628,11 @@
           {
             "key": "name",
             "url": "https://home-assistant.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
-            "since": 1795582393166
+            "error": "connection reset",
+            "since": 1795582683825
           }
         ]
       },
@@ -570,11 +676,11 @@
           {
             "key": "name",
             "url": "https://app-updater.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582393176
+            "since": 1795582693460
           }
         ]
       },
@@ -618,11 +724,11 @@
           {
             "key": "name",
             "url": "https://atvloadly.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582393184
+            "since": 1795582693463
           }
         ]
       },
@@ -816,11 +922,11 @@
           {
             "key": "name",
             "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582394795
+            "since": 1795582694893
           }
         ]
       },
@@ -914,11 +1020,11 @@
           {
             "key": "name",
             "url": "https://kiosk-manager.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582397086
+            "since": 1795582695677
           }
         ]
       },
@@ -1165,11 +1271,11 @@
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": true,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795582393340
+            "since": 1795582684255
           }
         ]
       },
@@ -1213,11 +1319,11 @@
           {
             "key": "name",
             "url": "https://services-manager.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582409378
+            "since": 1795582700457
           }
         ]
       },
@@ -1361,11 +1467,11 @@
           {
             "key": "name",
             "url": "https://kokoro.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582410744
+            "since": 1795582703511
           }
         ]
       },
@@ -1409,11 +1515,11 @@
           {
             "key": "name",
             "url": "https://ollama.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582410837
+            "since": 1795582709654
           }
         ]
       },
@@ -1457,11 +1563,11 @@
           {
             "key": "name",
             "url": "https://open-webui.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582411442
+            "since": 1795582709683
           }
         ]
       },
@@ -1553,11 +1659,11 @@
           {
             "key": "name",
             "url": "https://paperclip.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582412285
+            "since": 1795582711392
           }
         ]
       },
@@ -1601,11 +1707,11 @@
           {
             "key": "name",
             "url": "https://pocketbase.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582413125
+            "since": 1795582711967
           }
         ]
       },
@@ -1649,11 +1755,11 @@
           {
             "key": "name",
             "url": "https://tailscale.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582425422
+            "since": 1795582716650
           }
         ]
       },
@@ -1697,11 +1803,11 @@
           {
             "key": "name",
             "url": "https://wallos.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582426777
+            "since": 1795582719709
           }
         ]
       },
@@ -1745,11 +1851,11 @@
           {
             "key": "name",
             "url": "https://webcheck.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582426869
+            "since": 1795582725861
           }
         ]
       },
@@ -1793,11 +1899,11 @@
           {
             "key": "name",
             "url": "https://yuvomi.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795582427490
+            "since": 1795582725893
           }
         ]
       }
