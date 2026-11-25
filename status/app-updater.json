@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:21:41.743Z",
-  "changedAt": "2026-11-25T21:21:41.743Z",
-  "rev": 4049,
-  "sig": "4903e49a49e91d7ee920801d2ef016c7892e19fd225ffeb4e2389b128c465ac3",
+  "at": "2026-11-25T21:23:41.763Z",
+  "changedAt": "2026-11-25T21:23:41.763Z",
+  "rev": 4050,
+  "sig": "df581d830a572696f3de0bc3c0c11cb80a0de386fe6ae0b7ede62a6c7f5e3f39",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795641669405
+      "at": 1795641791983
     },
     "check": {
-      "at": 1795641669551,
+      "at": 1795641792151,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795641669399,
-      "error": null,
+      "at": 1795641791975,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795641696639,
+        "at": 1795641816647,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,31 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "gatekeeper",
             "status": "Running",
@@ -746,31 +771,6 @@
             "name": "atvloadly",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795641765763,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795640085471,
         "level": "warn",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-project-tracker",
         "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.9.2 (umbrelOS lists 1.9.1)"
-      },
-      {
-        "t": 1795633452542,
-        "level": "warn",
-        "appId": "joolay-portal-admin",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.42.3 (umbrelOS lists 0.42.2)"
       }
     ],
     "diagnose": [
