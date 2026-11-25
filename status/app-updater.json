@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T20:45:41.450Z",
-  "changedAt": "2026-11-25T20:45:41.450Z",
-  "rev": 4018,
-  "sig": "e2cafb5d8fdc5bc42de25bf1771896f1a37b48d5281003199154afa322ffc58e",
+  "at": "2026-11-25T20:47:41.611Z",
+  "changedAt": "2026-11-25T20:47:41.611Z",
+  "rev": 4019,
+  "sig": "81961cc6f2312a60d45e2d7a17f050242c25c5f5d16d1564ed79c2385d9dfdbb",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795639481764
+      "at": 1795639604392
     },
     "check": {
-      "at": 1795639481903,
+      "at": 1795639604540,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795639481754,
-      "error": "GitHub answered 403",
+      "at": 1795639604381,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795639536458,
+        "at": 1795639656465,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -761,16 +771,6 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795639605464,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795639365459,
         "level": "warn",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-routing-reporter",
         "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.0 (umbrelOS lists 1.9.1)"
-      },
-      {
-        "t": 1795633452540,
-        "level": "warn",
-        "appId": "joolay-listify",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.1.2 (umbrelOS lists 1.1.1)"
       }
     ],
     "diagnose": [
