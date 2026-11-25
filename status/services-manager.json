@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T05:38:12.034Z",
-  "changedAt": "2026-11-25T05:38:12.034Z",
-  "rev": 3409,
-  "sig": "bd68a3e4839240ecc544aa831baa0398d89973a071f0f020d72f6cdf2c69aa56",
+  "at": "2026-11-25T05:39:12.021Z",
+  "changedAt": "2026-11-25T05:39:12.021Z",
+  "rev": 3410,
+  "sig": "cf420f131e60d28bb77dcd798da608d79b208bed12785896a799ce092e635d5d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795585080965,
+      "at": 1795585140973,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
           "status": "Running",
           "paused": false
         }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.1",
             "state": "running",
-            "status": "Up 45 minutes (healthy)",
+            "status": "Up 46 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -727,7 +727,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.0",
             "state": "running",
-            "status": "Up 27 hours (healthy)",
+            "status": "Up 28 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -956,7 +956,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
         "state": "running",
-        "status": "Up 45 minutes (healthy)",
+        "status": "Up 46 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1172,7 +1172,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.0",
         "state": "running",
-        "status": "Up 27 hours (healthy)",
+        "status": "Up 28 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
