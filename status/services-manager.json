@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T16:46:13.771Z",
-  "changedAt": "2026-11-25T16:46:13.771Z",
-  "rev": 4005,
-  "sig": "275a6560c581aa0c25a99ecb39dd79b9ed0f9a4c65d0a41be84df352aa36636b",
+  "at": "2026-11-25T16:47:13.800Z",
+  "changedAt": "2026-11-25T16:47:13.800Z",
+  "rev": 4006,
+  "sig": "ec2c82798628f6eb7c21dd85a44d3ab0b7944a26efed4cacf952aa8c3718d38c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795625164881,
+      "at": 1795625224889,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -151,31 +176,6 @@
           "name": "cctv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
