@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T05:10:34.864Z",
-  "changedAt": "2026-11-25T05:10:34.864Z",
-  "rev": 3197,
-  "sig": "4a03859e2023d42d4356ac12fd959fc67751278effab76f9125e36a5b5d128dd",
+  "at": "2026-11-25T05:12:34.850Z",
+  "changedAt": "2026-11-25T05:12:34.850Z",
+  "rev": 3198,
+  "sig": "d6805713dfd881655ec0e7a769a36a5db65d4e1c585ae3acebd7d8de0d3f58d6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795583406360
+      "at": 1795583528907
     },
     "check": {
-      "at": 1795583406484,
+      "at": 1795583529053,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795583406356,
-      "error": null,
+      "at": 1795583528901,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795583430774,
+        "at": 1795583550790,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,11 +657,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "ollama",
             "status": "Running",
@@ -796,6 +791,11 @@
             "name": "port-master",
             "status": "Paused",
             "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795583498213,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795582373031,
         "level": "info",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": "joolay-app-updater",
         "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.9.0 → 1.10.0…"
-      },
-      {
-        "t": 1795486195749,
-        "level": "ok",
-        "appId": "joolay-tv-remote",
-        "message": "TV Remote updated to 0.3.0 (state: ready)"
       }
     ],
     "diagnose": [
