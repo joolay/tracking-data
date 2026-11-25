@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:10:15.803Z",
-  "changedAt": "2026-11-25T19:10:15.803Z",
-  "rev": 3931,
-  "sig": "0db91129611c80e106200c0f54751677b732dc6d339247b4d8938f016862cdb3",
+  "at": "2026-11-25T19:11:02.591Z",
+  "changedAt": "2026-11-25T19:11:02.591Z",
+  "rev": 3932,
+  "sig": "62b906ac4f91229e2ade22f595766903d3d6afb7d945e609c8fef2914b4dc1c4",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -71,30 +71,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-cctv",
-        "name": "JoolzCCTV",
-        "version": "1.0.3",
-        "latest": "1.0.4",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795633633891,
-        "result": {
-          "ok": true,
-          "at": 1795606435180,
-          "from": "1.0.2",
-          "to": "1.0.3"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-joolztv",
         "name": "JoolzTV",
         "version": "1.18.1",
@@ -108,7 +84,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795633633892,
         "result": {
           "ok": true,
@@ -420,6 +396,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-cctv",
+        "name": "JoolzCCTV",
+        "version": "1.0.4",
+        "latest": "1.0.4",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795633826589,
+          "from": "1.0.3",
+          "to": "1.0.4"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
         "version": "1.2.0",
@@ -625,20 +625,20 @@
       "at": 1795633573612
     },
     "check": {
-      "at": 1795633795025,
+      "at": 1795633827581,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795633703687,
+      "at": 1795633827581,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633805865,
+        "at": 1795633850872,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,46 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -768,11 +728,6 @@
             "paused": false
           },
           {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "portaladmin",
             "status": "Running",
             "paused": false
@@ -781,6 +736,46 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
           }
         ],
         "wanted": [
@@ -802,6 +797,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795633827586,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzCCTV (0 s)"
+      },
+      {
+        "t": 1795633827582,
+        "level": "info",
+        "appId": "joolay-joolztv",
+        "message": "Updating JoolzTV (detected, updating straight away)…"
+      },
+      {
+        "t": 1795633826589,
+        "level": "ok",
+        "appId": "joolay-cctv",
+        "message": "JoolzCCTV updated to 1.0.4 (state: ready)"
+      },
       {
         "t": 1795633795025,
         "level": "info",
@@ -1143,24 +1156,6 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: GitHub answered 500. "
-      },
-      {
-        "t": 1795620763255,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795620583248,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795620163239,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
       }
     ],
     "diagnose": [
