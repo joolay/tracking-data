@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:40:41.827Z",
-  "changedAt": "2026-11-25T21:40:41.827Z",
-  "rev": 4067,
-  "sig": "4235c826bcb4d5bc5cfea88f297ff8cb1da540af041a8d09680f0a5b67dc5565",
+  "at": "2026-11-25T21:42:41.831Z",
+  "changedAt": "2026-11-25T21:42:41.831Z",
+  "rev": 4068,
+  "sig": "ac24712f59833b1d5873c03ec929ecb84d326955ea924e943ef4de3130f8c946",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -38,8 +38,8 @@
     },
     "self": {
       "version": "1.10.0",
-      "latest": "1.10.0",
-      "update": false,
+      "latest": "1.10.1",
+      "update": true,
       "phase": "idle",
       "enabled": true,
       "result": {
@@ -52,10 +52,34 @@
     },
     "apps": [
       {
+        "id": "joolay-diner-bell",
+        "name": "Diner Bell",
+        "version": "2.1.2",
+        "latest": "2.2.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795642944148,
+        "result": {
+          "ok": true,
+          "at": 1795633703033,
+          "from": "2.1.1",
+          "to": "2.1.2"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-gatekeeper",
         "name": "Gatekeeper",
         "version": "1.0.0",
-        "latest": "1.0.1",
+        "latest": "1.0.2",
         "update": true,
         "state": "ready",
         "store": {
@@ -66,8 +90,99 @@
         "mode": "off",
         "hidden": false,
         "busy": false,
-        "detectedAt": 1795633633890,
+        "detectedAt": 1795642944149,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.4.3",
+        "latest": "1.5.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944149,
+        "result": {
+          "ok": true,
+          "at": 1795633778031,
+          "from": "1.4.2",
+          "to": "1.4.3"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal",
+        "name": "JoolzApp Dashboard",
+        "version": "0.42.3",
+        "latest": "0.43.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944150,
+        "result": {
+          "ok": true,
+          "at": 1795633794814,
+          "from": "0.42.2",
+          "to": "0.42.3"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-kiosk-manager",
+        "name": "Kiosk Manager",
+        "version": "1.2.0",
+        "latest": "1.2.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944150,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-listify",
+        "name": "Listify",
+        "version": "1.1.2",
+        "latest": "1.2.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944151,
+        "result": {
+          "ok": true,
+          "at": 1795633945568,
+          "from": "1.1.1",
+          "to": "1.1.2"
+        },
         "waiting": false
       },
       {
@@ -103,6 +218,140 @@
         "hidden": false,
         "busy": false,
         "detectedAt": 1795571238527,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.10.0",
+        "latest": "1.10.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944151,
+        "result": {
+          "ok": true,
+          "at": 1795633972971,
+          "from": "1.9.1",
+          "to": "1.10.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.42.3",
+        "latest": "0.43.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944152,
+        "result": {
+          "ok": true,
+          "at": 1795633986633,
+          "from": "0.42.2",
+          "to": "0.42.3"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-project-tracker",
+        "name": "Project Pilot",
+        "version": "1.9.2",
+        "latest": "1.10.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944152,
+        "result": {
+          "ok": true,
+          "at": 1795634062319,
+          "from": "1.9.1",
+          "to": "1.9.2"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.4.0",
+        "latest": "1.4.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944153,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-shutterworth",
+        "name": "ShutterWorth",
+        "version": "1.8.2",
+        "latest": "1.9.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944153,
+        "result": {
+          "ok": true,
+          "at": 1795634078581,
+          "from": "1.8.1",
+          "to": "1.8.2"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-tv-remote",
+        "name": "TV Remote",
+        "version": "0.3.0",
+        "latest": "0.3.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795642944154,
         "result": null,
         "waiting": false
       },
@@ -162,30 +411,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-diner-bell",
-        "name": "Diner Bell",
-        "version": "2.1.2",
-        "latest": "2.1.2",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795633703033,
-          "from": "2.1.1",
-          "to": "2.1.2"
-        },
-        "waiting": false
-      },
-      {
         "id": "home-assistant",
         "name": "Home Assistant",
         "version": "2026.11.3",
@@ -201,54 +426,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.4.3",
-        "latest": "1.4.3",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795633778031,
-          "from": "1.4.2",
-          "to": "1.4.3"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal",
-        "name": "JoolzApp Dashboard",
-        "version": "0.42.3",
-        "latest": "0.42.3",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795633794814,
-          "from": "0.42.2",
-          "to": "0.42.3"
-        },
         "waiting": false
       },
       {
@@ -300,25 +477,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-kiosk-manager",
-        "name": "Kiosk Manager",
-        "version": "1.2.0",
-        "latest": "1.2.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "kokoro",
         "name": "Kokoro",
         "version": "0.10.0",
@@ -334,30 +492,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-listify",
-        "name": "Listify",
-        "version": "1.1.2",
-        "latest": "1.1.2",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795633945568,
-          "from": "1.1.1",
-          "to": "1.1.2"
-        },
         "waiting": false
       },
       {
@@ -415,121 +549,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.10.0",
-        "latest": "1.10.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795633972971,
-          "from": "1.9.1",
-          "to": "1.10.0"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.42.3",
-        "latest": "0.42.3",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795633986633,
-          "from": "0.42.2",
-          "to": "0.42.3"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-project-tracker",
-        "name": "Project Pilot",
-        "version": "1.9.2",
-        "latest": "1.9.2",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795634062319,
-          "from": "1.9.1",
-          "to": "1.9.2"
-        },
-        "waiting": false
-      },
-      {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.4.0",
-        "latest": "1.4.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-shutterworth",
-        "name": "ShutterWorth",
-        "version": "1.8.2",
-        "latest": "1.8.2",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795634078581,
-          "from": "1.8.1",
-          "to": "1.8.2"
-        },
-        "waiting": false
-      },
-      {
         "id": "tailscale",
         "name": "Tailscale",
         "version": "v1.104.7",
@@ -541,25 +560,6 @@
           "name": "Umbrel"
         },
         "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-tv-remote",
-        "name": "TV Remote",
-        "version": "0.3.0",
-        "latest": "0.3.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -622,108 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795642823070
+      "at": 1795642883869
     },
     "check": {
-      "at": 1795642823193,
+      "at": 1795642944155,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795642762745,
+      "at": 1795642883863,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-app-updater",
-          "name": "App Updater",
-          "repo": "1.10.1",
-          "umbrel": "1.10.0",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-diner-bell",
-          "name": "Diner Bell",
-          "repo": "2.2.0",
-          "umbrel": "2.1.2",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-gatekeeper",
-          "name": "Gatekeeper",
-          "repo": "1.0.2",
-          "umbrel": "1.0.1",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-jolly-grocer",
-          "name": "Jolly Grocer",
-          "repo": "1.5.0",
-          "umbrel": "1.4.3",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-kiosk-manager",
-          "name": "Kiosk Manager",
-          "repo": "1.2.1",
-          "umbrel": "1.2.0",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-listify",
-          "name": "Listify",
-          "repo": "1.2.0",
-          "umbrel": "1.1.2",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-routing-reporter",
-          "name": "Port Master",
-          "repo": "1.10.1",
-          "umbrel": "1.10.0",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-project-tracker",
-          "name": "Project Pilot",
-          "repo": "1.10.0",
-          "umbrel": "1.9.2",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-services-manager",
-          "name": "Services Manager",
-          "repo": "1.4.1",
-          "umbrel": "1.4.0",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-shutterworth",
-          "name": "ShutterWorth",
-          "repo": "1.9.0",
-          "umbrel": "1.8.2",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-theme-editor",
-          "name": "Theme Editor",
-          "repo": "1.1.1",
-          "umbrel": "1.1.0",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-tv-remote",
-          "name": "TV Remote",
-          "repo": "0.3.1",
-          "umbrel": "0.3.0",
-          "kind": "update"
-        }
-      ]
+      "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795642836726,
+        "at": 1795642956733,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -747,6 +662,36 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "yuvomi",
             "status": "Running",
@@ -826,36 +771,6 @@
             "name": "adguard-home",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -877,6 +792,156 @@
       }
     },
     "log": [
+      {
+        "t": 1795642944155,
+        "level": "info",
+        "appId": "joolay-diner-bell",
+        "message": "Updating Diner Bell (detected, updating straight away)…"
+      },
+      {
+        "t": 1795642944154,
+        "level": "info",
+        "appId": "joolay-tv-remote",
+        "message": "Update available: TV Remote 0.3.0 → 0.3.1"
+      },
+      {
+        "t": 1795642944153,
+        "level": "info",
+        "appId": "joolay-shutterworth",
+        "message": "Update available: ShutterWorth 1.8.2 → 1.9.0"
+      },
+      {
+        "t": 1795642944153,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Update available: Services Manager 1.4.0 → 1.4.1"
+      },
+      {
+        "t": 1795642944152,
+        "level": "info",
+        "appId": "joolay-project-tracker",
+        "message": "Update available: Project Pilot 1.9.2 → 1.10.0"
+      },
+      {
+        "t": 1795642944152,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.42.3 → 0.43.0"
+      },
+      {
+        "t": 1795642944151,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.10.0 → 1.10.1"
+      },
+      {
+        "t": 1795642944151,
+        "level": "info",
+        "appId": "joolay-listify",
+        "message": "Update available: Listify 1.1.2 → 1.2.0"
+      },
+      {
+        "t": 1795642944150,
+        "level": "info",
+        "appId": "joolay-kiosk-manager",
+        "message": "Update available: Kiosk Manager 1.2.0 → 1.2.1"
+      },
+      {
+        "t": 1795642944150,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Dashboard 0.42.3 → 0.43.0"
+      },
+      {
+        "t": 1795642944149,
+        "level": "info",
+        "appId": "joolay-jolly-grocer",
+        "message": "Update available: Jolly Grocer 1.4.3 → 1.5.0"
+      },
+      {
+        "t": 1795642944149,
+        "level": "info",
+        "appId": "joolay-gatekeeper",
+        "message": "Update available: Gatekeeper 1.0.0 → 1.0.2"
+      },
+      {
+        "t": 1795642944148,
+        "level": "info",
+        "appId": "joolay-diner-bell",
+        "message": "Update available: Diner Bell 2.1.2 → 2.2.0"
+      },
+      {
+        "t": 1795642944147,
+        "level": "ok",
+        "appId": "joolay-tv-remote",
+        "message": "umbrelOS now sees TV Remote 0.3.1"
+      },
+      {
+        "t": 1795642944147,
+        "level": "ok",
+        "appId": "joolay-theme-editor",
+        "message": "umbrelOS now sees Theme Editor 1.1.1"
+      },
+      {
+        "t": 1795642944146,
+        "level": "ok",
+        "appId": "joolay-shutterworth",
+        "message": "umbrelOS now sees ShutterWorth 1.9.0"
+      },
+      {
+        "t": 1795642944146,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "umbrelOS now sees Services Manager 1.4.1"
+      },
+      {
+        "t": 1795642944145,
+        "level": "ok",
+        "appId": "joolay-project-tracker",
+        "message": "umbrelOS now sees Project Pilot 1.10.0"
+      },
+      {
+        "t": 1795642944145,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "umbrelOS now sees Port Master 1.10.1"
+      },
+      {
+        "t": 1795642944145,
+        "level": "ok",
+        "appId": "joolay-listify",
+        "message": "umbrelOS now sees Listify 1.2.0"
+      },
+      {
+        "t": 1795642944144,
+        "level": "ok",
+        "appId": "joolay-kiosk-manager",
+        "message": "umbrelOS now sees Kiosk Manager 1.2.1"
+      },
+      {
+        "t": 1795642944144,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "umbrelOS now sees Jolly Grocer 1.5.0"
+      },
+      {
+        "t": 1795642944143,
+        "level": "ok",
+        "appId": "joolay-gatekeeper",
+        "message": "umbrelOS now sees Gatekeeper 1.0.2"
+      },
+      {
+        "t": 1795642944142,
+        "level": "ok",
+        "appId": "joolay-diner-bell",
+        "message": "umbrelOS now sees Diner Bell 2.2.0"
+      },
+      {
+        "t": 1795642944141,
+        "level": "ok",
+        "appId": "joolay-app-updater",
+        "message": "umbrelOS now sees App Updater 1.10.1"
+      },
       {
         "t": 1795642762755,
         "level": "warn",
@@ -1086,156 +1151,6 @@
         "level": "info",
         "appId": "joolay-listify",
         "message": "Updating Listify (detected, updating straight away)…"
-      },
-      {
-        "t": 1795633869031,
-        "level": "ok",
-        "appId": "joolay-joolztv",
-        "message": "JoolzTV updated to 1.18.2 (state: ready)"
-      },
-      {
-        "t": 1795633827586,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzCCTV (0 s)"
-      },
-      {
-        "t": 1795633827582,
-        "level": "info",
-        "appId": "joolay-joolztv",
-        "message": "Updating JoolzTV (detected, updating straight away)…"
-      },
-      {
-        "t": 1795633826589,
-        "level": "ok",
-        "appId": "joolay-cctv",
-        "message": "JoolzCCTV updated to 1.0.4 (state: ready)"
-      },
-      {
-        "t": 1795633795025,
-        "level": "info",
-        "appId": "joolay-cctv",
-        "message": "Updating JoolzCCTV (detected, updating straight away)…"
-      },
-      {
-        "t": 1795633794814,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Dashboard updated to 0.42.3 (state: ready)"
-      },
-      {
-        "t": 1795633780792,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Jolly Grocer (2 s)"
-      },
-      {
-        "t": 1795633778323,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
-      },
-      {
-        "t": 1795633778031,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "Jolly Grocer updated to 1.4.3 (state: ready)"
-      },
-      {
-        "t": 1795633706092,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Diner Bell (2 s)"
-      },
-      {
-        "t": 1795633703688,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Updating Jolly Grocer (detected, updating straight away)…"
-      },
-      {
-        "t": 1795633703033,
-        "level": "ok",
-        "appId": "joolay-diner-bell",
-        "message": "Diner Bell updated to 2.1.2 (state: ready)"
-      },
-      {
-        "t": 1795633633896,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Updating Diner Bell (detected, updating straight away)…"
-      },
-      {
-        "t": 1795633633895,
-        "level": "info",
-        "appId": "joolay-shutterworth",
-        "message": "Update available: ShutterWorth 1.8.1 → 1.8.2"
-      },
-      {
-        "t": 1795633633894,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Pilot 1.9.1 → 1.9.2"
-      },
-      {
-        "t": 1795633633893,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.42.2 → 0.42.3"
-      },
-      {
-        "t": 1795633633893,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Port Master 1.9.1 → 1.10.0"
-      },
-      {
-        "t": 1795633633892,
-        "level": "info",
-        "appId": "joolay-listify",
-        "message": "Update available: Listify 1.1.1 → 1.1.2"
-      },
-      {
-        "t": 1795633633892,
-        "level": "info",
-        "appId": "joolay-joolztv",
-        "message": "Update available: JoolzTV 1.18.1 → 1.18.2"
-      },
-      {
-        "t": 1795633633891,
-        "level": "info",
-        "appId": "joolay-cctv",
-        "message": "Update available: JoolzCCTV 1.0.3 → 1.0.4"
-      },
-      {
-        "t": 1795633633891,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Dashboard 0.42.2 → 0.42.3"
-      },
-      {
-        "t": 1795633633890,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Update available: Jolly Grocer 1.4.2 → 1.4.3"
-      },
-      {
-        "t": 1795633633890,
-        "level": "info",
-        "appId": "joolay-gatekeeper",
-        "message": "Update available: Gatekeeper 1.0.0 → 1.0.1"
-      },
-      {
-        "t": 1795633633889,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Update available: Diner Bell 2.1.1 → 2.1.2"
-      },
-      {
-        "t": 1795633633889,
-        "level": "ok",
-        "appId": "joolay-shutterworth",
-        "message": "umbrelOS now sees ShutterWorth 1.8.2"
       }
     ],
     "diagnose": [
