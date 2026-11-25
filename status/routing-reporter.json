@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:43:52.838Z",
-  "changedAt": "2026-11-25T19:43:52.838Z",
-  "rev": 3930,
-  "sig": "273fa68bac17c085904414a1a71c6a84fb9a40cb7423aec3a8dbf2ae40b3f398",
+  "at": "2026-11-25T19:44:52.838Z",
+  "changedAt": "2026-11-25T19:44:52.838Z",
+  "rev": 3931,
+  "sig": "bba4d2bf260e8049981e7509baf31caa091b74d1282b59b24367a2c6fe1803a5",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,34 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
         {
           "name": "tv-remote",
           "status": "Running"
@@ -77,34 +105,6 @@
         },
         {
           "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
           "status": "Running"
         }
       ]
@@ -1032,8 +1032,8 @@
             "url": "https://listify.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "timed out",
             "since": 1795634279770
           }
         ]
@@ -1183,8 +1183,8 @@
             "url": "https://project-tracker.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "timed out",
             "since": 1795633978782
           }
         ]
