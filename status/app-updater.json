@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-24T23:59:32.837Z",
-  "changedAt": "2026-11-24T23:59:32.837Z",
-  "rev": 2901,
-  "sig": "ec6175f8563eeaa3360cfd41251584262533ed91c57d6acaeb799b53904562db",
+  "at": "2026-11-25T00:01:32.987Z",
+  "changedAt": "2026-11-25T00:01:32.987Z",
+  "rev": 2902,
+  "sig": "d8434bd3acb0a59c5ce5c910c5a56f967d96b2339713535e5ce43b84018610ae",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795564761791
+      "at": 1795564844184
     },
     "check": {
-      "at": 1795564761934,
+      "at": 1795564844328,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 393
     },
     "repo": {
-      "at": 1795564714264,
-      "error": null,
+      "at": 1795564844066,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795564768898,
+        "at": 1795564888909,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,11 +652,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "adguard-home",
             "status": "Running",
@@ -791,6 +786,11 @@
             "name": "ollama",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795564836892,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795564648898,
         "level": "info",
@@ -1165,12 +1171,6 @@
         "level": "ok",
         "appId": "joolay-listify",
         "message": "Listify updated to 1.1.0 (state: ready)"
-      },
-      {
-        "t": 1795485948363,
-        "level": "info",
-        "appId": "joolay-listify",
-        "message": "Updating Listify (detected, updating straight away)…"
       }
     ],
     "diagnose": [
