@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:18:41.075Z",
-  "changedAt": "2026-11-25T19:18:41.075Z",
-  "rev": 3942,
-  "sig": "ebd3e8c9c5325bd760f375964c01b7f9027c237c03a41d0020c683938374f8b1",
+  "at": "2026-11-25T19:20:41.094Z",
+  "changedAt": "2026-11-25T19:20:41.094Z",
+  "rev": 3943,
+  "sig": "b22be234b434bb445cd577dcdbc6f4fea228dd963b56841c0eaea9b015c55176",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795634264208
+      "at": 1795634386858
     },
     "check": {
-      "at": 1795634264367,
+      "at": 1795634387022,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795634218217,
-      "error": null,
+      "at": 1795634386849,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795634315932,
+        "at": 1795634435942,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "wallos",
             "status": "Running",
@@ -761,16 +771,6 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795634385095,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795634078581,
         "level": "ok",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-jolly-grocer",
         "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.4.3 (umbrelOS lists 1.4.2)"
-      },
-      {
-        "t": 1795633452536,
-        "level": "warn",
-        "appId": "joolay-gatekeeper",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Gatekeeper 1.0.1 (umbrelOS lists 1.0.0)"
       }
     ],
     "diagnose": [
