@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T11:32:37.586Z",
-  "changedAt": "2026-11-25T11:32:37.586Z",
-  "rev": 3548,
-  "sig": "83354f9f4d21f56cf3d84c1677fbb4e52552be54e75ed79202f8ee4c2fbe319c",
+  "at": "2026-11-25T11:33:25.981Z",
+  "changedAt": "2026-11-25T11:33:25.981Z",
+  "rev": 3549,
+  "sig": "1c8354e261011ce2654e9f9b66082b81deaa0779f45593c410b6145736360da2",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-jolly-grocer",
-        "name": "Jolly Grocer",
-        "version": "1.4.1",
-        "latest": "1.4.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795606337745,
-        "result": {
-          "ok": true,
-          "at": 1795498806195,
-          "from": "1.4.0",
-          "to": "1.4.1"
-        },
-        "waiting": false
-      },
       {
         "id": "joolay-cctv",
         "name": "JoolzCCTV",
@@ -244,6 +220,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "version": "1.4.2",
+        "latest": "1.4.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795606405784,
+          "from": "1.4.1",
+          "to": "1.4.2"
+        },
         "waiting": false
       },
       {
@@ -620,7 +620,7 @@
       "at": 1795606276568
     },
     "check": {
-      "at": 1795606337747,
+      "at": 1795606405976,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -633,7 +633,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795606353223,
+        "at": 1795606398230,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,11 +657,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "cctv",
             "status": "Running",
@@ -796,6 +791,11 @@
             "name": "listify",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795606405784,
+        "level": "ok",
+        "appId": "joolay-jolly-grocer",
+        "message": "Jolly Grocer updated to 1.4.2 (state: ready)"
+      },
       {
         "t": 1795606337747,
         "level": "info",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": "joolay-shutterworth",
         "message": "Update available: ShutterWorth 1.8.0 → 1.8.1"
-      },
-      {
-        "t": 1795498657474,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Pilot 1.9.0 → 1.9.1"
       }
     ],
     "diagnose": [
