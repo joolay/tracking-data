@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T16:04:39.324Z",
-  "changedAt": "2026-11-25T16:04:39.324Z",
-  "rev": 3768,
-  "sig": "a42a37625263f7060d3e7d443760b46c2514607752ed1484ae4302f5ab11b7e0",
+  "at": "2026-11-25T16:09:39.384Z",
+  "changedAt": "2026-11-25T16:09:39.384Z",
+  "rev": 3769,
+  "sig": "27189ea6bf15c6bcf9a8ff313f52eea130ec8522c8e720fd72ad6807ae188aed",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795622641699
+      "at": 1795622945656
     },
     "check": {
-      "at": 1795622641826,
+      "at": 1795622945813,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795622641694,
-      "error": null,
+      "at": 1795622885303,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795622674564,
+        "at": 1795622974609,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,71 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "app-updater",
             "status": "Running",
@@ -736,71 +801,6 @@
             "name": "port-master",
             "status": "Paused",
             "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795622741947,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: GitHub answered 500. "
+      },
       {
         "t": 1795622081930,
         "level": "warn",
@@ -1172,12 +1178,6 @@
       },
       {
         "t": 1795564055232,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795560516392,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
