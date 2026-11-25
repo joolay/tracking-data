@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T12:07:37.975Z",
-  "changedAt": "2026-11-25T12:07:37.975Z",
-  "rev": 3581,
-  "sig": "67c2c24b1849dad6fafba556bdcead7f673b1f2c7c1a89d463b2a73c23c69c46",
+  "at": "2026-11-25T12:08:37.820Z",
+  "changedAt": "2026-11-25T12:08:37.820Z",
+  "rev": 3582,
+  "sig": "15e029c2de6a619ec37b334d5b02add841448cb0fdf677e81aba850e6072c4e7",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,10 +622,10 @@
         }
       ],
       "error": null,
-      "at": 1795608441004
+      "at": 1795608501262
     },
     "check": {
-      "at": 1795608441127,
+      "at": 1795608501457,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795608453439,
+        "at": 1795608513446,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "webcheck",
             "status": "Running",
@@ -791,16 +801,6 @@
             "name": "port-master",
             "status": "Paused",
             "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
