@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T04:43:34.766Z",
-  "changedAt": "2026-11-25T04:43:34.766Z",
-  "rev": 3173,
-  "sig": "61b6243e29dc3ee2b0dac781b7b0ed56919a58d392eb69a308a4215b1864cafa",
+  "at": "2026-11-25T04:45:34.769Z",
+  "changedAt": "2026-11-25T04:45:34.769Z",
+  "rev": 3174,
+  "sig": "bc451e05069ed9bac30cf8bf0838f44bf8f2223ff8e609063c87de5677491bf7",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -612,23 +612,23 @@
         }
       ],
       "error": null,
-      "at": 1795581808069
+      "at": 1795581930719
     },
     "check": {
-      "at": 1795581808285,
+      "at": 1795581930842,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795581808059,
-      "error": null,
+      "at": 1795581930713,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795581810537,
+        "at": 1795581930553,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -652,6 +652,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -781,16 +791,6 @@
             "name": "openclaw",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
@@ -812,6 +812,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795581878777,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795581638769,
         "level": "warn",
@@ -1165,12 +1171,6 @@
         "level": "info",
         "appId": "joolay-shutterworth",
         "message": "Updating ShutterWorth (detected, updating straight away)…"
-      },
-      {
-        "t": 1795486149109,
-        "level": "ok",
-        "appId": "joolay-services-manager",
-        "message": "Services Manager updated to 1.4.0 (state: ready)"
       }
     ],
     "diagnose": [
