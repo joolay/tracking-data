@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:48:30.606Z",
-  "changedAt": "2026-11-25T21:48:30.606Z",
-  "rev": 4075,
-  "sig": "0a6c3b975cd8928457a812ea8e3b0494c00eb54c71080b159a3dc5689c37018b",
+  "at": "2026-11-25T21:49:08.460Z",
+  "changedAt": "2026-11-25T21:49:08.460Z",
+  "rev": 4076,
+  "sig": "bf7e890a023e78768b2bc446b3a73a51a69a930b2ec6f659164fff09e25c5d75",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -107,25 +107,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-services-manager",
-        "name": "Services Manager",
-        "version": "1.4.0",
-        "latest": "1.4.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795642944153,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-shutterworth",
         "name": "ShutterWorth",
         "version": "1.8.2",
@@ -139,7 +120,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795642944153,
         "result": {
           "ok": true,
@@ -543,13 +524,37 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
           "at": 1795643310242,
           "from": "1.9.2",
           "to": "1.10.0"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-services-manager",
+        "name": "Services Manager",
+        "version": "1.4.1",
+        "latest": "1.4.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795643336991,
+          "from": "1.4.0",
+          "to": "1.4.1"
         },
         "waiting": false
       },
@@ -630,20 +635,20 @@
       "at": 1795642883869
     },
     "check": {
-      "at": 1795643310596,
+      "at": 1795643337957,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795643195974,
+      "at": 1795643337957,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795643301756,
+        "at": 1795643344278,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -667,31 +672,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "home-assistant",
             "status": "Running",
@@ -776,13 +756,38 @@
             "name": "app-updater",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
           "port-master"
         ],
         "update": {
-          "checkedAt": 1795615782113,
+          "checkedAt": 1795643347271,
           "latestImage": "33631a10f74b",
           "latestVersion": "2.3.4",
           "available": false,
@@ -797,6 +802,30 @@
       }
     },
     "log": [
+      {
+        "t": 1795643337957,
+        "level": "info",
+        "appId": "joolay-shutterworth",
+        "message": "Updating ShutterWorth (detected, updating straight away)…"
+      },
+      {
+        "t": 1795643336991,
+        "level": "ok",
+        "appId": "joolay-services-manager",
+        "message": "Services Manager updated to 1.4.1 (state: ready)"
+      },
+      {
+        "t": 1795643313456,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Project Pilot (3 s)"
+      },
+      {
+        "t": 1795643310597,
+        "level": "info",
+        "appId": "joolay-services-manager",
+        "message": "Updating Services Manager (detected, updating straight away)…"
+      },
       {
         "t": 1795643310242,
         "level": "ok",
@@ -1129,30 +1158,6 @@
       },
       {
         "t": 1795641765763,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795640085471,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795639605464,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795639365459,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795635405228,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
