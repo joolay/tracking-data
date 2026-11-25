@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T11:56:37.793Z",
-  "changedAt": "2026-11-25T11:56:37.793Z",
-  "rev": 3572,
-  "sig": "703c6f89599a0634bb10eabbea701a4eea4710c59656d95ef1d03db927331270",
+  "at": "2026-11-25T11:57:37.955Z",
+  "changedAt": "2026-11-25T11:57:37.955Z",
+  "rev": 3573,
+  "sig": "7bce77415b009b0d0de31c1d83c0a5c14d3f0216e331b99c209823ad05affccd",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795607772565
+      "at": 1795607833652
     },
     "check": {
-      "at": 1795607772684,
+      "at": 1795607833799,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795607712273,
+      "at": 1795607833643,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795607793376,
+        "at": 1795607853383,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "ollama",
             "status": "Running",
@@ -784,21 +799,6 @@
           },
           {
             "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
             "status": "Running",
             "paused": false
           }
