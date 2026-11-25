@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T15:13:39.207Z",
-  "changedAt": "2026-11-25T15:13:39.207Z",
-  "rev": 3741,
-  "sig": "6ff7cdf596e0b2ee7a62df1648f2224202edce65dec6a4759e4e4313341c0d3e",
+  "at": "2026-11-25T15:15:39.213Z",
+  "changedAt": "2026-11-25T15:15:39.213Z",
+  "rev": 3742,
+  "sig": "65164d9ebfd6b0afec606695de2461f3f2dd759e827240b8e531dfa114604e33",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795619606743
+      "at": 1795619729334
     },
     "check": {
-      "at": 1795619606864,
+      "at": 1795619729511,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795619606737,
-      "error": null,
+      "at": 1795619729326,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795619614186,
+        "at": 1795619734197,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,36 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "shutterworth",
             "status": "Running",
@@ -801,6 +771,36 @@
             "name": "port-master",
             "status": "Paused",
             "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795619683218,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795618843180,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "ok",
         "appId": "joolay-joolztv",
         "message": "umbrelOS now sees JoolzTV 1.18.0"
-      },
-      {
-        "t": 1795554846045,
-        "level": "warn",
-        "appId": "joolay-joolztv",
-        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.0 (umbrelOS lists 1.17.0)"
       }
     ],
     "diagnose": [
