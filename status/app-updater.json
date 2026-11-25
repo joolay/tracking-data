@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T21:53:03.123Z",
-  "changedAt": "2026-11-25T21:53:03.123Z",
-  "rev": 4081,
-  "sig": "51f0b8b5eafc523672198669baa9cae4b80b01d18ebb3c8caac25dccce4dd1d0",
+  "at": "2026-11-25T21:55:03.158Z",
+  "changedAt": "2026-11-25T21:55:03.158Z",
+  "rev": 4082,
+  "sig": "edeb3be62cc82926766279d8f0bdf7888430ba6eed9ab6491abc066e1aea2af3",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -559,23 +559,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795643576285
+      "at": 1795643653895
     },
     "check": {
-      "at": 1795643576447,
+      "at": 1795643654077,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795643530251,
-      "error": null,
+      "at": 1795643653884,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795643576313,
+        "at": 1795643696319,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,56 +599,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -708,6 +658,56 @@
             "name": "webcheck",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -729,6 +729,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795643647159,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795643403106,
         "level": "ok",
@@ -1082,12 +1088,6 @@
         "level": "warn",
         "appId": "joolay-routing-reporter",
         "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.1 (umbrelOS lists 1.10.0)"
-      },
-      {
-        "t": 1795642762749,
-        "level": "warn",
-        "appId": "joolay-listify",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.2.0 (umbrelOS lists 1.1.2)"
       }
     ],
     "diagnose": [
