@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T21:45:54.820Z",
-  "changedAt": "2026-11-25T21:45:54.820Z",
-  "rev": 4038,
-  "sig": "e7bd371f4596daa94ccb0a28b3eb45c9027155f462816029c5d4974e0d0348fc",
+  "at": "2026-11-25T21:47:19.558Z",
+  "changedAt": "2026-11-25T21:47:19.558Z",
+  "rev": 4039,
+  "sig": "d49205bd4603f185e53ebc6628be8ed6cacb42c97410b214b6f242e7ef2d3905",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,38 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
         {
           "name": "tailscale",
           "status": "Running"
@@ -106,6 +74,38 @@
         {
           "name": "gatekeeper",
           "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
         }
       ]
     },
@@ -155,59 +155,9 @@
       "tailscaleIp": "100.118.10.62",
       "tailnet": "macaw-chroma.ts.net"
     },
-    "reportedToPortalAdmin": true,
-    "reportError": "",
-    "routesDown": [
-      {
-        "app": "joolay-cctv",
-        "route": "name",
-        "url": "https://cctv.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795634002625
-      },
-      {
-        "app": "joolay-diner-bell",
-        "route": "name",
-        "url": "https://diner-bell.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795635242596
-      },
-      {
-        "app": "joolay-jolly-grocer",
-        "route": "name",
-        "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795634009849
-      },
-      {
-        "app": "joolay-joolztv",
-        "route": "name",
-        "url": "https://joolztv.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795640232902
-      },
-      {
-        "app": "joolay-portal",
-        "route": "name",
-        "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
-        "since": 1795633993838
-      },
-      {
-        "app": "joolay-portal-admin",
-        "route": "name",
-        "url": "https://portaladmin.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795634631866
-      },
-      {
-        "app": "joolay-shutterworth",
-        "route": "public",
-        "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795634624430
-      }
-    ],
+    "reportedToPortalAdmin": false,
+    "reportError": "fetch failed",
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -235,28 +185,28 @@
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3882,
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3885,
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3886,
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3887,
@@ -270,7 +220,7 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3891,
@@ -284,14 +234,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3895,
@@ -305,14 +255,14 @@
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3897,
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3898,
@@ -326,35 +276,35 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3900,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3902,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3904,
@@ -389,7 +339,7 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "down"
+        "state": "checking"
       },
       {
         "port": 3915,
@@ -515,7 +465,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977236
+            "since": 1795643224616
           },
           {
             "key": "local",
@@ -524,7 +474,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977243
+            "since": 1795643224614
           },
           {
             "key": "tailscale",
@@ -533,7 +483,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977237
+            "since": 1795643224614
           },
           {
             "key": "name",
@@ -542,7 +492,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977437
+            "since": 1795643224639
           }
         ]
       },
@@ -563,7 +513,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977241
+            "since": 1795643224611
           },
           {
             "key": "local",
@@ -572,7 +522,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977246
+            "since": 1795643224616
           },
           {
             "key": "tailscale",
@@ -581,7 +531,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977244
+            "since": 1795643224633
           },
           {
             "key": "name",
@@ -590,7 +540,7 @@
             "ignored": false,
             "status": 400,
             "error": "",
-            "since": 1795633977285
+            "since": 1795643224693
           }
         ]
       },
@@ -611,7 +561,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977254
+            "since": 1795643224637
           },
           {
             "key": "local",
@@ -620,7 +570,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977260
+            "since": 1795643224642
           },
           {
             "key": "tailscale",
@@ -629,7 +579,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977255
+            "since": 1795643224635
           },
           {
             "key": "name",
@@ -638,7 +588,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977290
+            "since": 1795643224696
           }
         ]
       },
@@ -659,7 +609,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977261
+            "since": 1795643224642
           },
           {
             "key": "local",
@@ -668,7 +618,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977266
+            "since": 1795643224651
           },
           {
             "key": "tailscale",
@@ -677,7 +627,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977264
+            "since": 1795643224645
           },
           {
             "key": "name",
@@ -686,7 +636,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977305
+            "since": 1795643224694
           }
         ]
       },
@@ -709,7 +659,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977286
+            "since": 1795643224652
           },
           {
             "key": "local",
@@ -718,7 +668,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977303
+            "since": 1795643224660
           },
           {
             "key": "tailscale",
@@ -727,16 +677,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977303
+            "since": 1795643224661
           },
           {
             "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795634002625
+            "since": 1795643232658
           }
         ]
       },
@@ -759,7 +709,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977305
+            "since": 1795643224686
           },
           {
             "key": "local",
@@ -768,7 +718,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977312
+            "since": 1795643224692
           },
           {
             "key": "tailscale",
@@ -777,16 +727,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977309
+            "since": 1795643224699
           },
           {
             "key": "name",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795635242596
+            "since": 1795643225058
           }
         ]
       },
@@ -809,7 +759,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977320
+            "since": 1795643224700
           },
           {
             "key": "local",
@@ -818,7 +768,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977322
+            "since": 1795643224710
           },
           {
             "key": "tailscale",
@@ -827,7 +777,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977316
+            "since": 1795643224703
           },
           {
             "key": "name",
@@ -836,14 +786,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977340
+            "since": 1795643224761
           }
         ]
       },
       {
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
-        "version": "1.4.3",
+        "version": "1.5.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3897,
@@ -859,7 +809,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977326
+            "since": 1795643224755
           },
           {
             "key": "local",
@@ -868,7 +818,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977335
+            "since": 1795643224758
           },
           {
             "key": "tailscale",
@@ -877,16 +827,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977334
+            "since": 1795643224759
           },
           {
             "key": "name",
             "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795634009849
+            "since": 1795643225107
           }
         ]
       },
@@ -909,7 +859,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977345
+            "since": 1795643224775
           },
           {
             "key": "local",
@@ -918,7 +868,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977350
+            "since": 1795643224777
           },
           {
             "key": "tailscale",
@@ -927,23 +877,23 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977350
+            "since": 1795643224776
           },
           {
             "key": "name",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795640232902
+            "since": 1795643225138
           }
         ]
       },
       {
         "id": "joolay-kiosk-manager",
         "name": "Kiosk Manager",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "joolzapp": true,
         "portal": "locked",
         "port": 3920,
@@ -957,7 +907,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977356
+            "since": 1795643224778
           },
           {
             "key": "local",
@@ -966,7 +916,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977360
+            "since": 1795643224785
           },
           {
             "key": "tailscale",
@@ -975,7 +925,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977373
+            "since": 1795643224780
           },
           {
             "key": "name",
@@ -984,14 +934,14 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977396
+            "since": 1795643224807
           }
         ]
       },
       {
         "id": "joolay-listify",
         "name": "Listify",
-        "version": "1.1.2",
+        "version": "1.2.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3895,
@@ -1007,7 +957,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977410
+            "since": 1795643224794
           },
           {
             "key": "local",
@@ -1016,7 +966,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977418
+            "since": 1795643224804
           },
           {
             "key": "tailscale",
@@ -1025,7 +975,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977425
+            "since": 1795643224809
           },
           {
             "key": "public",
@@ -1034,14 +984,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795634279770
+            "since": 1795643226250
           }
         ]
       },
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
-        "version": "0.42.3",
+        "version": "0.43.0",
         "joolzapp": true,
         "portal": "auto",
         "port": 3885,
@@ -1057,7 +1007,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977435
+            "since": 1795643224812
           },
           {
             "key": "local",
@@ -1066,7 +1016,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977446
+            "since": 1795643224819
           },
           {
             "key": "tailscale",
@@ -1075,16 +1025,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977440
+            "since": 1795643224822
           },
           {
             "key": "name",
             "url": "https://portal.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "name not found (DNS)",
-            "since": 1795633993838
+            "since": 1795643224832
           }
         ]
       },
@@ -1108,7 +1058,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977449
+            "since": 1795643224835
           },
           {
             "key": "local",
@@ -1117,7 +1067,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977455
+            "since": 1795643224839
           },
           {
             "key": "tailscale",
@@ -1126,16 +1076,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977457
+            "since": 1795643224841
           },
           {
             "key": "name",
             "url": "https://portaladmin.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795634631866
+            "since": 1795643233046
           }
         ]
       },
@@ -1158,7 +1108,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977503
+            "since": 1795643225071
           },
           {
             "key": "local",
@@ -1167,7 +1117,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977519
+            "since": 1795643225080
           },
           {
             "key": "tailscale",
@@ -1176,7 +1126,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633977527
+            "since": 1795643225084
           },
           {
             "key": "public",
@@ -1185,14 +1135,14 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978782
+            "since": 1795643226546
           }
         ]
       },
       {
         "id": "joolay-routing-reporter",
         "name": "Port Master",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "joolzapp": true,
         "portal": "locked",
         "port": 3906,
@@ -1208,7 +1158,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977847
+            "since": 1795643225111
           },
           {
             "key": "local",
@@ -1217,7 +1167,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977864
+            "since": 1795643225117
           },
           {
             "key": "tailscale",
@@ -1226,16 +1176,16 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977865
+            "since": 1795643225119
           },
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": true,
             "status": 0,
             "error": "timed out",
-            "since": 1795634286539
+            "since": 1795643233124
           }
         ]
       },
@@ -1256,7 +1206,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977867
+            "since": 1795643225146
           },
           {
             "key": "local",
@@ -1265,7 +1215,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977873
+            "since": 1795643225156
           },
           {
             "key": "tailscale",
@@ -1274,7 +1224,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633977875
+            "since": 1795643225158
           },
           {
             "key": "name",
@@ -1283,7 +1233,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978107
+            "since": 1795643225182
           }
         ]
       },
@@ -1306,7 +1256,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978120
+            "since": 1795643225194
           },
           {
             "key": "local",
@@ -1315,7 +1265,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978127
+            "since": 1795643225202
           },
           {
             "key": "tailscale",
@@ -1324,16 +1274,16 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978130
+            "since": 1795643225205
           },
           {
             "key": "public",
             "url": "https://shutterworth.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "checking",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795634624430
+            "since": 1795643225553
           }
         ]
       },
@@ -1356,7 +1306,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978785
+            "since": 1795643225557
           },
           {
             "key": "local",
@@ -1365,7 +1315,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978839
+            "since": 1795643225562
           },
           {
             "key": "tailscale",
@@ -1374,7 +1324,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978852
+            "since": 1795643225564
           },
           {
             "key": "name",
@@ -1383,7 +1333,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978873
+            "since": 1795643225644
           }
         ]
       },
@@ -1404,7 +1354,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978875
+            "since": 1795643225656
           },
           {
             "key": "local",
@@ -1413,7 +1363,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978880
+            "since": 1795643225664
           },
           {
             "key": "tailscale",
@@ -1422,7 +1372,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978882
+            "since": 1795643225666
           },
           {
             "key": "name",
@@ -1431,7 +1381,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633978904
+            "since": 1795643225689
           }
         ]
       },
@@ -1452,7 +1402,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978907
+            "since": 1795643225692
           },
           {
             "key": "local",
@@ -1461,7 +1411,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978913
+            "since": 1795643225700
           },
           {
             "key": "tailscale",
@@ -1470,7 +1420,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978915
+            "since": 1795643225702
           },
           {
             "key": "name",
@@ -1479,7 +1429,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978938
+            "since": 1795643225736
           }
         ]
       },
@@ -1500,7 +1450,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978943
+            "since": 1795643225741
           },
           {
             "key": "local",
@@ -1509,7 +1459,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978951
+            "since": 1795643225750
           },
           {
             "key": "tailscale",
@@ -1518,7 +1468,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978956
+            "since": 1795643225756
           },
           {
             "key": "name",
@@ -1527,7 +1477,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633978985
+            "since": 1795643225783
           }
         ]
       },
@@ -1548,7 +1498,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979022
+            "since": 1795643225801
           },
           {
             "key": "local",
@@ -1557,7 +1507,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979047
+            "since": 1795643225823
           },
           {
             "key": "tailscale",
@@ -1566,7 +1516,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979065
+            "since": 1795643225841
           },
           {
             "key": "name",
@@ -1575,7 +1525,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979137
+            "since": 1795643225920
           }
         ]
       },
@@ -1596,7 +1546,7 @@
             "ignored": false,
             "status": 403,
             "error": "",
-            "since": 1795633979141
+            "since": 1795643225924
           },
           {
             "key": "local",
@@ -1605,7 +1555,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979149
+            "since": 1795643225931
           },
           {
             "key": "tailscale",
@@ -1614,7 +1564,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979153
+            "since": 1795643225934
           },
           {
             "key": "name",
@@ -1623,7 +1573,7 @@
             "ignored": false,
             "status": 403,
             "error": "",
-            "since": 1795633979174
+            "since": 1795643225956
           }
         ]
       },
@@ -1644,7 +1594,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795633979178
+            "since": 1795643225959
           },
           {
             "key": "local",
@@ -1653,7 +1603,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795633979187
+            "since": 1795643225966
           },
           {
             "key": "tailscale",
@@ -1662,7 +1612,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795633979189
+            "since": 1795643225968
           },
           {
             "key": "name",
@@ -1671,7 +1621,7 @@
             "ignored": false,
             "status": 404,
             "error": "",
-            "since": 1795633979212
+            "since": 1795643225992
           }
         ]
       },
@@ -1692,7 +1642,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979215
+            "since": 1795643225993
           },
           {
             "key": "local",
@@ -1701,7 +1651,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979227
+            "since": 1795643225998
           },
           {
             "key": "tailscale",
@@ -1710,7 +1660,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979235
+            "since": 1795643226000
           },
           {
             "key": "name",
@@ -1719,7 +1669,7 @@
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795633979259
+            "since": 1795643226027
           }
         ]
       },
@@ -1740,7 +1690,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979261
+            "since": 1795643226030
           },
           {
             "key": "local",
@@ -1749,7 +1699,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979278
+            "since": 1795643226036
           },
           {
             "key": "tailscale",
@@ -1758,7 +1708,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979279
+            "since": 1795643226038
           },
           {
             "key": "name",
@@ -1767,7 +1717,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979305
+            "since": 1795643226060
           }
         ]
       },
@@ -1788,7 +1738,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979308
+            "since": 1795643226062
           },
           {
             "key": "local",
@@ -1797,7 +1747,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979323
+            "since": 1795643226068
           },
           {
             "key": "tailscale",
@@ -1806,7 +1756,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979325
+            "since": 1795643226071
           },
           {
             "key": "name",
@@ -1815,7 +1765,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979398
+            "since": 1795643226092
           }
         ]
       },
@@ -1836,7 +1786,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979412
+            "since": 1795643226095
           },
           {
             "key": "local",
@@ -1845,7 +1795,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979413
+            "since": 1795643226100
           },
           {
             "key": "tailscale",
@@ -1854,7 +1804,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979414
+            "since": 1795643226101
           },
           {
             "key": "name",
@@ -1863,7 +1813,7 @@
             "ignored": false,
             "status": 302,
             "error": "",
-            "since": 1795633979444
+            "since": 1795643226128
           }
         ]
       }
