@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:21:52.409Z",
-  "changedAt": "2026-11-25T19:21:52.409Z",
-  "rev": 3911,
-  "sig": "6ca44090a79d9d016d08dfee25a457a0e43dfa0b2052a090ba434e0cec41ed3e",
+  "at": "2026-11-25T19:23:52.432Z",
+  "changedAt": "2026-11-25T19:23:52.432Z",
+  "rev": 3912,
+  "sig": "cd056382f4af4026bb8c1a165cec291c7ef22a193f0c4d123fe52975d7893eb2",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -166,17 +166,10 @@
         "since": 1795634002625
       },
       {
-        "app": "joolay-diner-bell",
-        "route": "name",
-        "url": "https://diner-bell.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795634009830
-      },
-      {
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "connection reset",
+        "error": "timed out",
         "since": 1795634009849
       },
       {
@@ -192,6 +185,20 @@
         "url": "https://portal.macaw-chroma.ts.net/",
         "error": "name not found (DNS)",
         "since": 1795633993838
+      },
+      {
+        "app": "joolay-portal-admin",
+        "route": "name",
+        "url": "https://portaladmin.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795634631866
+      },
+      {
+        "app": "joolay-shutterworth",
+        "route": "public",
+        "url": "https://shutterworth.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795634624430
       }
     ],
     "portConflicts": [],
@@ -221,14 +228,14 @@
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3882,
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3885,
@@ -256,7 +263,7 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3891,
@@ -270,14 +277,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3895,
@@ -312,7 +319,7 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3900,
@@ -375,7 +382,7 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3915,
@@ -768,11 +775,11 @@
           {
             "key": "name",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795634009830
+            "status": 200,
+            "error": "",
+            "since": 1795634613125
           }
         ]
       },
@@ -871,7 +878,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
+            "error": "timed out",
             "since": 1795634009849
           }
         ]
@@ -1117,11 +1124,11 @@
           {
             "key": "name",
             "url": "https://portaladmin.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "timed out",
-            "since": 1795633977495
+            "since": 1795634631866
           }
         ]
       },
@@ -1315,11 +1322,11 @@
           {
             "key": "public",
             "url": "https://shutterworth.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
-            "since": 1795633979397
+            "error": "connection reset",
+            "since": 1795634624430
           }
         ]
       },
