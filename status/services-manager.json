@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T00:38:11.480Z",
-  "changedAt": "2026-11-25T00:38:11.480Z",
-  "rev": 3128,
-  "sig": "f1dd0a835c287659328d8bb1f38f2cc27e4be271a8f2076a4fbbdfac1644fc97",
+  "at": "2026-11-25T00:39:12.159Z",
+  "changedAt": "2026-11-25T00:39:12.159Z",
+  "rev": 3129,
+  "sig": "9d8b6f7cf72c222d4a12cc21f5795db0cf7eb21fc9f99bf8859418df730b56f2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795567079091,
+      "at": 1795567139097,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -154,26 +174,6 @@
         },
         {
           "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
           "status": "Running",
           "paused": false
         }
@@ -727,7 +727,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.0",
             "state": "running",
-            "status": "Up 22 hours (healthy)",
+            "status": "Up 23 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1156,7 +1156,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.0",
         "state": "running",
-        "status": "Up 22 hours (healthy)",
+        "status": "Up 23 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
