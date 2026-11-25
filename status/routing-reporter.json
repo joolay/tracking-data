@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T13:52:58.417Z",
-  "changedAt": "2026-11-25T13:52:58.417Z",
-  "rev": 3635,
-  "sig": "63ff37c1f7f87c3152e5a3bd3bd5ab90da8e3913828e06c0ac3512df0b448d91",
+  "at": "2026-11-25T13:54:58.421Z",
+  "changedAt": "2026-11-25T13:54:58.421Z",
+  "rev": 3636,
+  "sig": "0d3c0a99d3f6a2a364fcc8e4079d46634047ec7132664cd6c7fd22542e11b0b5",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,10 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
         {
           "name": "joolztv",
           "status": "Running"
@@ -126,10 +130,6 @@
         {
           "name": "kiosk-manager",
           "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
         }
       ]
     },
@@ -150,15 +150,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "joolay-cctv",
-        "route": "name",
-        "url": "https://cctv.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795606624945
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -298,14 +290,14 @@
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3904,
@@ -683,11 +675,11 @@
           {
             "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795606624945
+            "status": 200,
+            "error": "",
+            "since": 1795614859546
           }
         ]
       },
