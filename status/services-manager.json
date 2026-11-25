@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T11:40:12.952Z",
-  "changedAt": "2026-11-25T11:40:12.952Z",
-  "rev": 3753,
-  "sig": "a60b4620c1f130410d873e9bda1664bd83ffbcafd4b5bf66207c086e9dc10aee",
+  "at": "2026-11-25T11:42:12.978Z",
+  "changedAt": "2026-11-25T11:42:12.978Z",
+  "rev": 3754,
+  "sig": "0272b91fb38a3467606f7ec37fed73ae287157a39facdc7e00b57aa6cfc71ca0",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795606803273,
+      "at": 1795606923290,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,41 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -141,41 +176,6 @@
           "name": "gatekeeper",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
@@ -238,7 +238,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.0",
             "state": "running",
-            "status": "Up 33 hours (healthy)",
+            "status": "Up 34 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
             "state": "running",
-            "status": "Up 6 minutes",
+            "status": "Up 8 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -406,7 +406,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.3",
             "state": "running",
-            "status": "Up 6 minutes",
+            "status": "Up 8 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.3",
         "state": "running",
-        "status": "Up 6 minutes",
+        "status": "Up 8 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
         "state": "running",
-        "status": "Up 6 minutes",
+        "status": "Up 8 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1155,7 +1155,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.0",
         "state": "running",
-        "status": "Up 33 hours (healthy)",
+        "status": "Up 34 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
