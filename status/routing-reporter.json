@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:28:52.773Z",
-  "changedAt": "2026-11-25T19:28:52.773Z",
-  "rev": 3916,
-  "sig": "e7d18739d6d8c8c901984570e0c4a22ce29f84ea446257416ce226c58f08f7c7",
+  "at": "2026-11-25T19:29:52.549Z",
+  "changedAt": "2026-11-25T19:29:52.549Z",
+  "rev": 3917,
+  "sig": "5c92c937325733ee1d5bcea2b5c16ec372cfb25d17c4621bb357cd08d604c1be",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,50 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
         {
           "name": "pocketbase",
           "status": "Running"
@@ -105,6 +61,50 @@
         },
         {
           "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
           "status": "Running"
         }
       ]
@@ -169,7 +169,7 @@
         "app": "joolay-jolly-grocer",
         "route": "name",
         "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795634009849
       },
       {
@@ -777,8 +777,8 @@
             "url": "https://diner-bell.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795634613125
           }
         ]
@@ -878,7 +878,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795634009849
           }
         ]
