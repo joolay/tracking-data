@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:33:52.646Z",
-  "changedAt": "2026-11-25T19:33:52.646Z",
-  "rev": 3921,
-  "sig": "06dbf46a7dde73e181970ebb39fb9aca3cfae4799f3f69aa1b3b762464884806",
+  "at": "2026-11-25T19:34:52.651Z",
+  "changedAt": "2026-11-25T19:34:52.651Z",
+  "rev": 3922,
+  "sig": "23cbc63a5d9f9209a464b84b89071208a5215081e98772949479ebfc3ef6179e",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,42 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
         {
           "name": "open-webui",
           "status": "Running"
@@ -105,6 +69,42 @@
         },
         {
           "name": "app-updater",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
           "status": "Running"
         }
       ]
@@ -164,6 +164,13 @@
         "url": "https://cctv.macaw-chroma.ts.net/",
         "error": "timed out",
         "since": 1795634002625
+      },
+      {
+        "app": "joolay-diner-bell",
+        "route": "name",
+        "url": "https://diner-bell.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795635242596
       },
       {
         "app": "joolay-jolly-grocer",
@@ -277,14 +284,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3895,
@@ -775,11 +782,11 @@
           {
             "key": "name",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795634613125
+            "since": 1795635242596
           }
         ]
       },
