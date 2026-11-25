@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T12:39:13.095Z",
-  "changedAt": "2026-11-25T12:39:13.095Z",
-  "rev": 3808,
-  "sig": "3f8965b261432329ca1aaaff2ff0b769376e6b99dfcb43513dd7ce6a9a43b088",
+  "at": "2026-11-25T12:41:13.102Z",
+  "changedAt": "2026-11-25T12:41:13.102Z",
+  "rev": 3809,
+  "sig": "12a78caa88b831d51cfd1c0c15980ba0d26e80b2a58278bd82034f8a27fd38f7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795610343604,
+      "at": 1795610463607,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -176,6 +171,11 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -238,7 +238,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.0",
             "state": "running",
-            "status": "Up 34 hours (healthy)",
+            "status": "Up 35 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 34 hours (healthy)",
+            "status": "Up 35 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1155,7 +1155,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.0",
         "state": "running",
-        "status": "Up 34 hours (healthy)",
+        "status": "Up 35 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1171,7 +1171,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 34 hours (healthy)",
+        "status": "Up 35 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
