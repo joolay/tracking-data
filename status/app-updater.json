@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T14:41:39.088Z",
-  "changedAt": "2026-11-25T14:41:39.088Z",
-  "rev": 3711,
-  "sig": "8665bf3b9b71701ceae3125b4fbe3fc0d99b3b7a353586c577a4946931850d2d",
+  "at": "2026-11-25T14:43:39.100Z",
+  "changedAt": "2026-11-25T14:43:39.100Z",
+  "rev": 3712,
+  "sig": "57091ef393a4c929dff8d1dd33895a12f5144f4878828229351373370a8d9f5f",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795617665758
+      "at": 1795617788340
     },
     "check": {
-      "at": 1795617665895,
+      "at": 1795617788486,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795617665748,
-      "error": null,
+      "at": 1795617788331,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795617694062,
+        "at": 1795617814063,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,71 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tailscale",
             "status": "Running",
@@ -736,71 +801,6 @@
             "name": "home-assistant",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795617763107,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795617583076,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "ok",
         "appId": "joolay-shutterworth",
         "message": "ShutterWorth updated to 1.8.1 (state: ready)"
-      },
-      {
-        "t": 1795499002925,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Project Pilot (2 s)"
       }
     ],
     "diagnose": [
