@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T08:31:36.643Z",
-  "changedAt": "2026-11-25T08:31:36.643Z",
-  "rev": 3382,
-  "sig": "5724f381dc1241c67ddd66a9af3475e89a3cee2a90788bc6e2d37d40f8cb2f4a",
+  "at": "2026-11-25T08:33:36.660Z",
+  "changedAt": "2026-11-25T08:33:36.660Z",
+  "rev": 3383,
+  "sig": "6d6f02d7171dfeef4f1e3cfdcd7bfbdbf687fe8f756cb3d1199cc28d9895222e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795595483249
+      "at": 1795595604383
     },
     "check": {
-      "at": 1795595483370,
+      "at": 1795595604566,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795595422969,
+      "at": 1795595544021,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795595491855,
+        "at": 1795595611855,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,41 +657,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "tv-remote",
             "status": "Running",
@@ -796,6 +761,41 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795595560064,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795595200617,
         "level": "warn",
@@ -1170,12 +1176,6 @@
         "level": "ok",
         "appId": "joolay-project-tracker",
         "message": "Project Pilot updated to 1.9.0 (state: ready)"
-      },
-      {
-        "t": 1795493230598,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Pilot (detected, updating straight away)…"
       }
     ],
     "diagnose": [
