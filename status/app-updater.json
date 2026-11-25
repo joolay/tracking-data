@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T04:06:34.640Z",
-  "changedAt": "2026-11-25T04:06:34.640Z",
-  "rev": 3140,
-  "sig": "b9118cd1de9913949da628c1d28ca1e02d5a2b0e0ceae2332b98f8749c5774cc",
+  "at": "2026-11-25T04:07:34.820Z",
+  "changedAt": "2026-11-25T04:07:34.820Z",
+  "rev": 3141,
+  "sig": "07a120714a1cd976b8a2e4d0962ff4b03448aa28f22db7ea7a92db31aaa7b9ae",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,6 +51,30 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-joolztv",
+        "name": "JoolzTV",
+        "version": "1.18.0",
+        "latest": "1.18.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795579648597,
+        "result": {
+          "ok": true,
+          "at": 1795555125541,
+          "from": "1.17.0",
+          "to": "1.18.0"
+        },
+        "waiting": false
+      },
       {
         "id": "ollama",
         "name": "Ollama",
@@ -268,30 +292,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-joolztv",
-        "name": "JoolzTV",
-        "version": "1.18.0",
-        "latest": "1.18.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795555125541,
-          "from": "1.17.0",
-          "to": "1.18.0"
-        },
         "waiting": false
       },
       {
@@ -615,10 +615,10 @@
       "at": 1795579588331
     },
     "check": {
-      "at": 1795579588456,
+      "at": 1795579648597,
       "error": null,
       "registryProc": "appStore.registry",
-      "registryCount": 394
+      "registryCount": 395
     },
     "repo": {
       "at": 1795579588325,
@@ -628,7 +628,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795579590221,
+        "at": 1795579650229,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -653,41 +653,6 @@
         },
         "proxies": [
           {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "joolzapp",
             "status": "Running",
             "paused": false
@@ -704,11 +669,6 @@
           },
           {
             "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
             "status": "Running",
             "paused": false
           },
@@ -791,6 +751,41 @@
             "name": "webcheck",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +807,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795579648598,
+        "level": "info",
+        "appId": "joolay-joolztv",
+        "message": "Updating JoolzTV (detected, updating straight away)…"
+      },
+      {
+        "t": 1795579648597,
+        "level": "info",
+        "appId": "joolay-joolztv",
+        "message": "Update available: JoolzTV 1.18.0 → 1.18.1"
+      },
       {
         "t": 1795576312050,
         "level": "info",
@@ -1159,18 +1166,6 @@
         "level": "info",
         "appId": "joolay-project-tracker",
         "message": "Updating Project Pilot (detected, updating straight away)…"
-      },
-      {
-        "t": 1795486042956,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.42.1 (state: ready)"
-      },
-      {
-        "t": 1795486031689,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Listify (3 s)"
       }
     ],
     "diagnose": [
@@ -1197,7 +1192,7 @@
       {
         "proc": "versions found in registry",
         "ok": true,
-        "shape": "393"
+        "shape": "395"
       }
     ]
   }
