@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T02:09:12.189Z",
-  "changedAt": "2026-11-25T02:09:12.189Z",
-  "rev": 3213,
-  "sig": "323cc1ef159f8f59103e50a49ac67a30123a2ce34d776152273518f87cafafe8",
+  "at": "2026-11-25T02:10:11.909Z",
+  "changedAt": "2026-11-25T02:10:11.909Z",
+  "rev": 3214,
+  "sig": "156d9664e0293c43f2896da6c31c4ced4fbc3effcdf0e82d08d6184810069b38",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795572539531,
+      "at": 1795572599533,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "atvloadly",
           "status": "Running",
@@ -136,53 +176,13 @@
           "name": "tailscale",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [
         "port-master"
       ],
       "update": {
-        "checkedAt": 1795529368378,
+        "checkedAt": 1795572571854,
         "latestImage": "33631a10f74b",
         "latestVersion": "2.3.4",
         "available": false,
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
             "state": "running",
-            "status": "Up 20 hours",
+            "status": "Up 21 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1063,7 +1063,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.1",
         "state": "running",
-        "status": "Up 20 hours",
+        "status": "Up 21 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
