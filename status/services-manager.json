@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T18:39:14.082Z",
-  "changedAt": "2026-11-25T18:39:14.082Z",
-  "rev": 4108,
-  "sig": "7f9370005c683bd5d8665c0e12aeeaeebcf15561c700b0e479e6f8c0c82f65e2",
+  "at": "2026-11-25T18:40:14.085Z",
+  "changedAt": "2026-11-25T18:40:14.085Z",
+  "rev": 4109,
+  "sig": "bf2f576a4486081e317c167f07901768890c3e85ee3cde3844ff9b600bf3f7b5",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795631945638,
+      "at": 1795632005641,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -159,21 +174,6 @@
         },
         {
           "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
           "status": "Running",
           "paused": false
         }
@@ -799,7 +799,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.0",
             "state": "running",
-            "status": "Up 40 hours (healthy)",
+            "status": "Up 41 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1171,7 +1171,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.0",
         "state": "running",
-        "status": "Up 40 hours (healthy)",
+        "status": "Up 41 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
