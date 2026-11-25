@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T04:59:34.802Z",
-  "changedAt": "2026-11-25T04:59:34.802Z",
-  "rev": 3186,
-  "sig": "20ee4318681a8ec1a737cec866a12b1df4d0ff238f6bbfb8b1c622c29e14a182",
+  "at": "2026-11-25T05:00:34.806Z",
+  "changedAt": "2026-11-25T05:00:34.806Z",
+  "rev": 3187,
+  "sig": "e8983709556271dd7fef7710e294703cc73ced80f9a605f3e70277b11f92be45",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795582739784
+      "at": 1795582800841
     },
     "check": {
-      "at": 1795582739928,
+      "at": 1795582800975,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795582679450,
+      "at": 1795582800833,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795582770681,
+        "at": 1795582830689,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,6 +657,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "webcheck",
             "status": "Running",
@@ -779,21 +794,6 @@
           },
           {
             "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
             "status": "Running",
             "paused": false
           }
