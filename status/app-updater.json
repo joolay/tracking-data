@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T04:07:34.820Z",
-  "changedAt": "2026-11-25T04:07:34.820Z",
-  "rev": 3141,
-  "sig": "07a120714a1cd976b8a2e4d0962ff4b03448aa28f22db7ea7a92db31aaa7b9ae",
+  "at": "2026-11-25T04:08:34.639Z",
+  "changedAt": "2026-11-25T04:08:34.639Z",
+  "rev": 3142,
+  "sig": "6d350734f276084a5f0b488149af35b2fa21aeec4be23b87bbef8bf1f25c2a3b",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -51,30 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-joolztv",
-        "name": "JoolzTV",
-        "version": "1.18.0",
-        "latest": "1.18.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795579648597,
-        "result": {
-          "ok": true,
-          "at": 1795555125541,
-          "from": "1.17.0",
-          "to": "1.18.0"
-        },
-        "waiting": false
-      },
       {
         "id": "ollama",
         "name": "Ollama",
@@ -292,6 +268,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-joolztv",
+        "name": "JoolzTV",
+        "version": "1.18.1",
+        "latest": "1.18.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795579682876,
+          "from": "1.18.0",
+          "to": "1.18.1"
+        },
         "waiting": false
       },
       {
@@ -612,10 +612,10 @@
         }
       ],
       "error": null,
-      "at": 1795579588331
+      "at": 1795579699064
     },
     "check": {
-      "at": 1795579648597,
+      "at": 1795579699189,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -628,7 +628,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795579650229,
+        "at": 1795579710237,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -653,11 +653,6 @@
         },
         "proxies": [
           {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "yuvomi",
             "status": "Running",
             "paused": false
@@ -669,6 +664,11 @@
           },
           {
             "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
             "status": "Running",
             "paused": false
           },
@@ -786,6 +786,11 @@
             "name": "tailscale",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -807,6 +812,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795579683172,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzTV (0 s)"
+      },
+      {
+        "t": 1795579682876,
+        "level": "ok",
+        "appId": "joolay-joolztv",
+        "message": "JoolzTV updated to 1.18.1 (state: ready)"
+      },
       {
         "t": 1795579648598,
         "level": "info",
@@ -1154,18 +1171,6 @@
         "level": "info",
         "appId": "joolay-services-manager",
         "message": "Updating Services Manager (detected, updating straight away)…"
-      },
-      {
-        "t": 1795486121553,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Pilot updated to 1.8.0 (state: ready)"
-      },
-      {
-        "t": 1795486043240,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Updating Project Pilot (detected, updating straight away)…"
       }
     ],
     "diagnose": [
