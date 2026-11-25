@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T14:08:58.504Z",
-  "changedAt": "2026-11-25T14:08:58.504Z",
-  "rev": 3649,
-  "sig": "7d435da47b128e93ae30f764ad021a1a25f56ddb5bc84b234c9ce81e56bef586",
+  "at": "2026-11-25T14:10:58.505Z",
+  "changedAt": "2026-11-25T14:10:58.505Z",
+  "rev": 3650,
+  "sig": "b0234b5fbc8a0e565e3f761bde4de9c3a5e345ac6ead631488a685f60c62faec",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,14 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
         {
           "name": "wallos",
           "status": "Running"
@@ -130,6 +122,14 @@
         {
           "name": "services-manager",
           "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
         }
       ]
     },
@@ -150,15 +150,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "joolay-cctv",
-        "route": "name",
-        "url": "https://cctv.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795615485335
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -298,14 +290,14 @@
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3904,
@@ -683,11 +675,11 @@
           {
             "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795615485335
+            "status": 200,
+            "error": "",
+            "since": 1795615796518
           }
         ]
       },
