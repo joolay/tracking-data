@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T09:52:37.236Z",
-  "changedAt": "2026-11-25T09:52:37.236Z",
-  "rev": 3457,
-  "sig": "132ca72d3f3f3382a71314c74aa67a78d6ec2253ab5aa25713f4966d170ea4e9",
+  "at": "2026-11-25T09:54:37.240Z",
+  "changedAt": "2026-11-25T09:54:37.240Z",
+  "rev": 3458,
+  "sig": "1581aa16edf5fbd06d10683ad6dfe3857f4a94b5b04122ae1b98c7e7d3f9c7ef",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795600332941
+      "at": 1795600455590
     },
     "check": {
-      "at": 1795600333119,
+      "at": 1795600455772,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795600272633,
-      "error": null,
+      "at": 1795600395288,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795600352626,
+        "at": 1795600472640,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795600421248,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795597539269,
         "level": "warn",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": "joolay-diner-bell",
         "message": "Update available: Diner Bell 2.1.0 → 2.1.1"
-      },
-      {
-        "t": 1795493305125,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Project Pilot (2 s)"
       }
     ],
     "diagnose": [
