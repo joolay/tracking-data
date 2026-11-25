@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T14:38:39.058Z",
-  "changedAt": "2026-11-25T14:38:39.058Z",
-  "rev": 3709,
-  "sig": "bd81d25815c5d27b2fcc858352814f4afd6962c5f5c49ef435c6e9de94fbecd3",
+  "at": "2026-11-25T14:40:39.080Z",
+  "changedAt": "2026-11-25T14:40:39.080Z",
+  "rev": 3710,
+  "sig": "d188e436f245511d117386fcf2bd48c805dfa4b9cc55b072caff3d213885f439",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795617481942
+      "at": 1795617604634
     },
     "check": {
-      "at": 1795617482160,
+      "at": 1795617604847,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795617421638,
-      "error": null,
+      "at": 1795617544304,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795617514055,
+        "at": 1795617634060,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "yuvomi",
             "status": "Running",
@@ -781,26 +801,6 @@
             "name": "shutterworth",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795617583076,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795616322907,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Project Pilot (2 s)"
-      },
-      {
-        "t": 1795499000586,
-        "level": "info",
-        "appId": "joolay-shutterworth",
-        "message": "Updating ShutterWorth (detected, updating straight away)…"
       }
     ],
     "diagnose": [
