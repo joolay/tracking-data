@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T09:22:12.493Z",
-  "changedAt": "2026-11-25T09:22:12.493Z",
-  "rev": 3620,
-  "sig": "a98b30016749fd4176786ba42e0eeced721fa8e7db4d472e972f4cedd622671a",
+  "at": "2026-11-25T09:23:12.492Z",
+  "changedAt": "2026-11-25T09:23:12.492Z",
+  "rev": 3621,
+  "sig": "b5eb6dd5e72edc660c5a272c06a158ceb83aadc9c25be58c1134fa66b25d1ea8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795598522369,
+      "at": 1795598582378,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.1",
             "state": "running",
-            "status": "Up 4 hours (healthy)",
+            "status": "Up 5 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
         "state": "running",
-        "status": "Up 4 hours (healthy)",
+        "status": "Up 5 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
