@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T05:44:34.916Z",
-  "changedAt": "2026-11-25T05:44:34.916Z",
-  "rev": 3227,
-  "sig": "24edbd80486e64c8915f593f79b6e8deabfd9d7e9d9a2b5a0bb83d2b4763ba89",
+  "at": "2026-11-25T05:46:34.926Z",
+  "changedAt": "2026-11-25T05:46:34.926Z",
+  "rev": 3228,
+  "sig": "f29e5627a53df4b301ca0a0e2d09a58a4356c1504b879f86482f44559606e8db",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795585469923
+      "at": 1795585591111
     },
     "check": {
-      "at": 1795585470067,
+      "at": 1795585591243,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795585469915,
+      "at": 1795585591032,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795585471017,
+        "at": 1795585591030,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,51 +657,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "portaladmin",
             "status": "Running",
@@ -796,6 +751,51 @@
             "name": "kokoro",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795585538928,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795584218887,
         "level": "warn",
@@ -1170,12 +1176,6 @@
         "level": "info",
         "appId": "joolay-gatekeeper",
         "message": "Install started for joolay-gatekeeper"
-      },
-      {
-        "t": 1795486960538,
-        "level": "info",
-        "appId": "home-assistant",
-        "message": "Update available: Home Assistant 2026.11.2 → 2026.11.3"
       }
     ],
     "diagnose": [
