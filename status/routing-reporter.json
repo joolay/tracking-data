@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T22:05:59.926Z",
-  "changedAt": "2026-11-25T22:05:59.926Z",
-  "rev": 4057,
-  "sig": "def187ee880d6d1d2e133cc16bb7156c62b96b3ec8d12342638fa13fc0bfbb59",
+  "at": "2026-11-25T22:06:59.928Z",
+  "changedAt": "2026-11-25T22:06:59.928Z",
+  "rev": 4058,
+  "sig": "4ae6d2347da842816920980b1034ba466d74696da66d7c52d8b7843ef86dbef9",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -14,9 +14,7 @@
       "image": "almeidapaulopt/tsdproxy:2",
       "updateAvailable": false,
       "lastUpdate": null,
-      "pausedByPortMaster": [
-        "port-master"
-      ],
+      "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
         {
@@ -209,6 +207,13 @@
         "since": 1795644303805
       },
       {
+        "app": "joolay-routing-reporter",
+        "route": "name",
+        "url": "https://port-master.macaw-chroma.ts.net/",
+        "error": "timed out",
+        "since": 1795643534195
+      },
+      {
         "app": "joolay-shutterworth",
         "route": "public",
         "url": "https://shutterworth.macaw-chroma.ts.net/",
@@ -383,14 +388,14 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3907,
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3909,
@@ -1240,7 +1245,7 @@
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
             "state": "down",
-            "ignored": true,
+            "ignored": false,
             "status": 0,
             "error": "timed out",
             "since": 1795643534195
