@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:13:52.212Z",
-  "changedAt": "2026-11-25T19:13:52.212Z",
-  "rev": 3904,
-  "sig": "d375e76bbf4c8f9770df6d29fec33d69e6af19a9a361c3aec92470cf558d6038",
+  "at": "2026-11-25T19:14:52.232Z",
+  "changedAt": "2026-11-25T19:14:52.232Z",
+  "rev": 3905,
+  "sig": "3358e4f67bee3058df6547afbbe83389dcc2cd3e19800ac53047abc9e327386a",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,10 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
         {
           "name": "open-webui",
           "status": "Running"
@@ -45,14 +41,6 @@
         },
         {
           "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
           "status": "Running"
         },
         {
@@ -110,6 +98,10 @@
         {
           "name": "openclaw",
           "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running"
         }
       ]
     },
@@ -134,8 +126,18 @@
           "state": "unregistered"
         },
         {
+          "app": "joolay-project-tracker",
+          "name": "project-tracker",
+          "state": "unregistered"
+        },
+        {
           "app": "joolay-routing-reporter",
           "name": "port-master",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-shutterworth",
+          "name": "shutterworth",
           "state": "unregistered"
         }
       ],
