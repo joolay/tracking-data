@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T00:48:11.598Z",
-  "changedAt": "2026-11-25T00:48:11.598Z",
-  "rev": 3138,
-  "sig": "e79a32553aa44b2f7bb748f74225eee705871be520197428f9ce328ac80556e5",
+  "at": "2026-11-25T00:49:11.660Z",
+  "changedAt": "2026-11-25T00:49:11.660Z",
+  "rev": 3139,
+  "sig": "1d23e583142e7fd57f90fdbee84538c22ee2732af24060afd3e6092c166aa527",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795567679138,
+      "at": 1795567739141,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,31 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "kokoro",
           "status": "Running",
@@ -176,6 +151,31 @@
           "name": "port-master",
           "status": "Paused",
           "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 3 hours",
+            "status": "Up 4 hours",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.0",
             "state": "running",
-            "status": "Up 3 hours",
+            "status": "Up 4 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 3 hours",
+        "status": "Up 4 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.0",
         "state": "running",
-        "status": "Up 3 hours",
+        "status": "Up 4 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
