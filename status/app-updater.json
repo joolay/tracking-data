@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T15:21:39.235Z",
-  "changedAt": "2026-11-25T15:21:39.235Z",
-  "rev": 3748,
-  "sig": "99f73fdb8ada9f658d10ac6a46e56b6130f949fb09123bb778824d0c2c27e8f9",
+  "at": "2026-11-25T15:24:39.232Z",
+  "changedAt": "2026-11-25T15:24:39.232Z",
+  "rev": 3749,
+  "sig": "9ffc5285401989a9a4e2fc8ca875b81d2d1b5506bbe4904e729ef6af796cc824",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795620093170
+      "at": 1795620276132
     },
     "check": {
-      "at": 1795620093315,
+      "at": 1795620276254,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795620093165,
-      "error": null,
+      "at": 1795620215811,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795620094240,
+        "at": 1795620274261,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,21 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "wallos",
             "status": "Running",
@@ -801,6 +786,21 @@
             "name": "portaladmin",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +822,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795620163239,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795619683218,
         "level": "warn",
@@ -1175,12 +1181,6 @@
         "level": "info",
         "appId": "joolay-joolztv",
         "message": "Update available: JoolzTV 1.17.0 → 1.18.0"
-      },
-      {
-        "t": 1795555031941,
-        "level": "ok",
-        "appId": "joolay-joolztv",
-        "message": "umbrelOS now sees JoolzTV 1.18.0"
       }
     ],
     "diagnose": [
