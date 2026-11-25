@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T19:10:01.961Z",
-  "changedAt": "2026-11-25T19:10:01.961Z",
-  "rev": 3900,
-  "sig": "8f688647b58426b3996b3774e741c216db3da04ed5748e214a3a5a6700484ced",
+  "at": "2026-11-25T19:11:01.968Z",
+  "changedAt": "2026-11-25T19:11:01.968Z",
+  "rev": 3901,
+  "sig": "c144fcbb4dd8d4a962ff5b4a3791e86321c8c1840b4605f60180ac6c1bf3518f",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,14 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
         {
           "name": "webcheck",
           "status": "Running"
@@ -64,10 +72,6 @@
           "status": "Running"
         },
         {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
           "name": "portaladmin",
           "status": "Running"
         },
@@ -85,10 +89,6 @@
         },
         {
           "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "cctv",
           "status": "Running"
         },
         {
@@ -110,14 +110,6 @@
         {
           "name": "port-master",
           "status": "Paused"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
         }
       ]
     },
@@ -127,6 +119,11 @@
       "withoutName": 0,
       "problems": [
         {
+          "app": "joolay-cctv",
+          "name": "cctv",
+          "state": "unregistered"
+        },
+        {
           "app": "joolay-diner-bell",
           "name": "diner-bell",
           "state": "unregistered"
@@ -134,6 +131,11 @@
         {
           "app": "joolay-jolly-grocer",
           "name": "jolly-grocer",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-joolztv",
+          "name": "joolztv",
           "state": "unregistered"
         },
         {
