@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T23:19:56.703Z",
-  "changedAt": "2026-11-25T23:19:56.703Z",
-  "rev": 4366,
-  "sig": "54a900b1eb93698aa9003426e2835bb555a162128070be3aac9b301a242b0373",
+  "at": "2026-11-25T23:20:56.684Z",
+  "changedAt": "2026-11-25T23:20:56.684Z",
+  "rev": 4367,
+  "sig": "d865a95125f4f2d56fd615cce7ee01fd27aef5f5ccefa61276654f0f78d6b27c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795648796642,
+      "at": 1795648856643,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "listify",
           "status": "Running",
@@ -126,21 +141,6 @@
           "name": "services-manager",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -201,7 +201,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up About an hour (healthy)",
+            "status": "Up 2 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -919,7 +919,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up About an hour (healthy)",
+        "status": "Up 2 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
