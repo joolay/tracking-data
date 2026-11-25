@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T22:22:00.228Z",
-  "changedAt": "2026-11-25T22:22:00.228Z",
-  "rev": 4070,
-  "sig": "85d41150aa0d2a33cdddc736b413a6360772eb6f5b37be41f76cc1765f820efe",
+  "at": "2026-11-25T22:24:00.249Z",
+  "changedAt": "2026-11-25T22:24:00.249Z",
+  "rev": 4071,
+  "sig": "c68910b1d612a1c6dd947e8d04c552ef3c45db8b76419c1ac1d62bdbdf584bb5",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,46 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
         {
           "name": "tv-remote",
           "status": "Running"
@@ -59,46 +99,6 @@
         },
         {
           "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
           "status": "Running"
         }
       ]
@@ -175,7 +175,7 @@
         "app": "joolay-portal",
         "route": "name",
         "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
+        "error": "name not found (DNS)",
         "since": 1795643525996
       },
       {
@@ -203,7 +203,7 @@
         "app": "joolay-shutterworth",
         "route": "public",
         "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795643526991
       }
     ],
@@ -783,8 +783,8 @@
             "url": "https://diner-bell.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795645082681
           }
         ]
@@ -933,8 +933,8 @@
             "url": "https://joolztv.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795645087878
           }
         ]
@@ -1082,7 +1082,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
+            "error": "name not found (DNS)",
             "since": 1795643525996
           }
         ]
@@ -1331,7 +1331,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795643526991
           }
         ]
