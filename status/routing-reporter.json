@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T22:03:59.923Z",
-  "changedAt": "2026-11-25T22:03:59.923Z",
-  "rev": 4055,
-  "sig": "9b08154e9ee9656b9d2b62ac9f71f29eda104e7c3d8312ef1771a2b559a239c2",
+  "at": "2026-11-25T22:04:59.921Z",
+  "changedAt": "2026-11-25T22:04:59.921Z",
+  "rev": 4056,
+  "sig": "8af1609a8c2fd9ea4ee3ad7ca367c05977755f998ba110ae6ecc6c9057b1f251",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,10 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
         {
           "name": "app-updater",
           "status": "Running"
@@ -84,10 +88,6 @@
           "status": "Running"
         },
         {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
           "name": "tv-remote",
           "status": "Running"
         },
@@ -101,10 +101,6 @@
         },
         {
           "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
           "status": "Running"
         }
       ]
@@ -132,6 +128,11 @@
         {
           "app": "joolay-portal-admin",
           "name": "portaladmin",
+          "state": "unregistered"
+        },
+        {
+          "app": "joolay-project-tracker",
+          "name": "project-pilot",
           "state": "unregistered"
         },
         {
@@ -180,17 +181,10 @@
         "since": 1795643525739
       },
       {
-        "app": "joolay-joolztv",
-        "route": "name",
-        "url": "https://joolztv.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795643525917
-      },
-      {
         "app": "joolay-portal",
         "route": "name",
         "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
+        "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
         "since": 1795643525996
       },
       {
@@ -204,7 +198,7 @@
         "app": "joolay-shutterworth",
         "route": "public",
         "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "connection reset",
+        "error": "timed out",
         "since": 1795643526991
       }
     ],
@@ -333,14 +327,14 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3902,
@@ -932,11 +926,11 @@
           {
             "key": "name",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795643525917
+            "status": 200,
+            "error": "",
+            "since": 1795644259161
           }
         ]
       },
@@ -1083,7 +1077,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "getaddrinfo EAI_AGAIN portal.macaw-chroma.ts.net",
             "since": 1795643525996
           }
         ]
@@ -1180,11 +1174,11 @@
           },
           {
             "key": "public",
-            "url": "https://project-tracker.macaw-chroma.ts.net/",
+            "url": "https://project-pilot.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "getaddrinfo EAI_AGAIN project-pilot.macaw-chroma.ts.net",
             "since": 1795643226546
           }
         ]
@@ -1332,7 +1326,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
+            "error": "timed out",
             "since": 1795643526991
           }
         ]
