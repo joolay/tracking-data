@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T22:48:56.596Z",
-  "changedAt": "2026-11-25T22:48:56.596Z",
-  "rev": 4335,
-  "sig": "d4f715c3e677a994c29325618f8afbd8d8b9ce81232872a47c930f59e8a19eef",
+  "at": "2026-11-25T22:49:56.627Z",
+  "changedAt": "2026-11-25T22:49:56.627Z",
+  "rev": 4336,
+  "sig": "c118e594d24d254ae2cf49835fd685f4b40bfbc1e67519262528d76ee4221d0c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795646936529,
+      "at": 1795646996534,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,51 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -94,51 +139,6 @@
         },
         {
           "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
           "status": "Running",
           "paused": false
         }
@@ -201,7 +201,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 58 minutes (healthy)",
+            "status": "Up 59 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -714,7 +714,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.9.0",
             "state": "running",
-            "status": "Up 59 minutes",
+            "status": "Up About an hour",
             "policy": "on-failure",
             "self": false
           }
@@ -762,7 +762,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.1",
             "state": "running",
-            "status": "Up 59 minutes (healthy)",
+            "status": "Up About an hour (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -919,7 +919,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 58 minutes (healthy)",
+        "status": "Up 59 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -935,7 +935,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.1",
         "state": "running",
-        "status": "Up 59 minutes (healthy)",
+        "status": "Up About an hour (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -951,7 +951,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.9.0",
         "state": "running",
-        "status": "Up 59 minutes",
+        "status": "Up About an hour",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
