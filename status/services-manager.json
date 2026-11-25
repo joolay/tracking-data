@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T05:44:12.040Z",
-  "changedAt": "2026-11-25T05:44:12.040Z",
-  "rev": 3415,
-  "sig": "7edfa31aa4f28c115b752e3dfa00cacc993149cb9c41c2856ffeab509fbffc72",
+  "at": "2026-11-25T05:46:12.051Z",
+  "changedAt": "2026-11-25T05:46:12.051Z",
+  "rev": 3416,
+  "sig": "ba20b714422d854d4da80153fbfb632fc15883bd703dfa571257e375ec98f497",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795585441017,
+      "at": 1795585561029,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "paperclip",
           "status": "Running",
@@ -174,6 +164,16 @@
         },
         {
           "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
           "status": "Running",
           "paused": false
         }
@@ -655,7 +655,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.9.1",
             "state": "running",
-            "status": "Up 51 minutes (healthy)",
+            "status": "Up 53 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.9.1",
         "state": "running",
-        "status": "Up 51 minutes (healthy)",
+        "status": "Up 53 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
