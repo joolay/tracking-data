@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:03:41.006Z",
-  "changedAt": "2026-11-25T19:03:41.006Z",
-  "rev": 3923,
-  "sig": "c05c4629091629fbb62069ceab75c84e77746163ab35c44f3319918af9c7db45",
+  "at": "2026-11-25T19:04:41.014Z",
+  "changedAt": "2026-11-25T19:04:41.014Z",
+  "rev": 3924,
+  "sig": "401972265d17540cf52a23f8bc3314c705a53f92d4dc3e56cf56487905749f3c",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,101 @@
         }
       ],
       "error": null,
-      "at": 1795633391278
+      "at": 1795633452554
     },
     "check": {
-      "at": 1795633391419,
+      "at": 1795633452701,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795633330896,
+      "at": 1795633452534,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-diner-bell",
+          "name": "Diner Bell",
+          "repo": "2.1.2",
+          "umbrel": "2.1.1",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-gatekeeper",
+          "name": "Gatekeeper",
+          "repo": "1.0.1",
+          "umbrel": "1.0.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-jolly-grocer",
+          "name": "Jolly Grocer",
+          "repo": "1.4.3",
+          "umbrel": "1.4.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-portal",
+          "name": "JoolzApp Dashboard",
+          "repo": "0.42.3",
+          "umbrel": "0.42.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-cctv",
+          "name": "JoolzCCTV",
+          "repo": "1.0.4",
+          "umbrel": "1.0.3",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-joolztv",
+          "name": "JoolzTV",
+          "repo": "1.18.2",
+          "umbrel": "1.18.1",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-listify",
+          "name": "Listify",
+          "repo": "1.1.2",
+          "umbrel": "1.1.1",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-routing-reporter",
+          "name": "Port Master",
+          "repo": "1.10.0",
+          "umbrel": "1.9.1",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-portal-admin",
+          "name": "Portal Admin",
+          "repo": "0.42.3",
+          "umbrel": "0.42.2",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-project-tracker",
+          "name": "Project Pilot",
+          "repo": "1.9.2",
+          "umbrel": "1.9.1",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-shutterworth",
+          "name": "ShutterWorth",
+          "repo": "1.8.2",
+          "umbrel": "1.8.1",
+          "kind": "update"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633415823,
+        "at": 1795633475827,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +740,36 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "shutterworth",
             "status": "Running",
@@ -771,36 +879,6 @@
             "name": "port-master",
             "status": "Paused",
             "paused": true
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -822,6 +900,72 @@
       }
     },
     "log": [
+      {
+        "t": 1795633452544,
+        "level": "warn",
+        "appId": "joolay-shutterworth",
+        "message": "New version on the repo, umbrelOS has not seen it yet: ShutterWorth 1.8.2 (umbrelOS lists 1.8.1)"
+      },
+      {
+        "t": 1795633452543,
+        "level": "warn",
+        "appId": "joolay-project-tracker",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Project Pilot 1.9.2 (umbrelOS lists 1.9.1)"
+      },
+      {
+        "t": 1795633452542,
+        "level": "warn",
+        "appId": "joolay-portal-admin",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.42.3 (umbrelOS lists 0.42.2)"
+      },
+      {
+        "t": 1795633452541,
+        "level": "warn",
+        "appId": "joolay-routing-reporter",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.0 (umbrelOS lists 1.9.1)"
+      },
+      {
+        "t": 1795633452540,
+        "level": "warn",
+        "appId": "joolay-listify",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.1.2 (umbrelOS lists 1.1.1)"
+      },
+      {
+        "t": 1795633452539,
+        "level": "warn",
+        "appId": "joolay-joolztv",
+        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.2 (umbrelOS lists 1.18.1)"
+      },
+      {
+        "t": 1795633452538,
+        "level": "warn",
+        "appId": "joolay-cctv",
+        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzCCTV 1.0.4 (umbrelOS lists 1.0.3)"
+      },
+      {
+        "t": 1795633452537,
+        "level": "warn",
+        "appId": "joolay-portal",
+        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.42.3 (umbrelOS lists 0.42.2)"
+      },
+      {
+        "t": 1795633452536,
+        "level": "warn",
+        "appId": "joolay-jolly-grocer",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Jolly Grocer 1.4.3 (umbrelOS lists 1.4.2)"
+      },
+      {
+        "t": 1795633452536,
+        "level": "warn",
+        "appId": "joolay-gatekeeper",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Gatekeeper 1.0.1 (umbrelOS lists 1.0.0)"
+      },
+      {
+        "t": 1795633452535,
+        "level": "warn",
+        "appId": "joolay-diner-bell",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Diner Bell 2.1.2 (umbrelOS lists 2.1.1)"
+      },
       {
         "t": 1795632644868,
         "level": "warn",
@@ -1112,72 +1256,6 @@
       },
       {
         "t": 1795592260286,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795587639338,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795586378937,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795585538928,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795584218887,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795583978881,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795583498213,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795582373031,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Port Master (0 s)"
-      },
-      {
-        "t": 1795582372723,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "Port Master updated to 1.9.1 (state: ready)"
-      },
-      {
-        "t": 1795582354664,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
-      },
-      {
-        "t": 1795582354664,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Port Master 1.9.0 → 1.9.1"
-      },
-      {
-        "t": 1795581878777,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
