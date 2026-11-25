@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T12:10:13.050Z",
-  "changedAt": "2026-11-25T12:10:13.050Z",
-  "rev": 3780,
-  "sig": "31fc63e94d37f046009f0edb5fabe26937dd0dace4a58d42959601fc02c193a5",
+  "at": "2026-11-25T12:11:13.054Z",
+  "changedAt": "2026-11-25T12:11:13.054Z",
+  "rev": 3781,
+  "sig": "57c9ee576dfd522c81a727efc40dd88f2b45613629a3587ab103e0704acab70f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795608603457,
+      "at": 1795608663465,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,31 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -176,6 +151,31 @@
           "name": "cctv",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
         }
       ],
       "wanted": [
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
             "state": "running",
-            "status": "Up 36 minutes",
+            "status": "Up 37 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -382,7 +382,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 30 hours (healthy)",
+            "status": "Up 31 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -406,7 +406,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.3",
             "state": "running",
-            "status": "Up 36 minutes",
+            "status": "Up 37 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.3",
         "state": "running",
-        "status": "Up 36 minutes",
+        "status": "Up 37 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
         "state": "running",
-        "status": "Up 36 minutes",
+        "status": "Up 37 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1093,7 +1093,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 30 hours (healthy)",
+        "status": "Up 31 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
