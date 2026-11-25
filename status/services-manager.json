@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T12:03:13.031Z",
-  "changedAt": "2026-11-25T12:03:13.031Z",
-  "rev": 3774,
-  "sig": "1cd4c9e338864915ee2437f36c5c2d5d98cd2051351bcf90c6d375a113f92bba",
+  "at": "2026-11-25T12:04:13.018Z",
+  "changedAt": "2026-11-25T12:04:13.018Z",
+  "rev": 3775,
+  "sig": "65ed04133d764f85c99c6d4a188e827f6d0805d4ca7398a170289df469c13f10",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795608183417,
+      "at": 1795608243424,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -149,31 +174,6 @@
         },
         {
           "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
           "status": "Running",
           "paused": false
         }
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
             "state": "running",
-            "status": "Up 29 minutes",
+            "status": "Up 30 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -406,7 +406,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.3",
             "state": "running",
-            "status": "Up 29 minutes",
+            "status": "Up 30 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.3",
         "state": "running",
-        "status": "Up 29 minutes",
+        "status": "Up 30 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
         "state": "running",
-        "status": "Up 29 minutes",
+        "status": "Up 30 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
