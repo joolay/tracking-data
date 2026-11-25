@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T18:47:40.947Z",
-  "changedAt": "2026-11-25T18:47:40.947Z",
-  "rev": 3908,
-  "sig": "c63e5d7595a2964c1a2c44833a684a940322248b925289aa424bc147e65b2264",
+  "at": "2026-11-25T18:48:40.835Z",
+  "changedAt": "2026-11-25T18:48:40.835Z",
+  "rev": 3909,
+  "sig": "5b4b994ee03c48a40094a31ce6e049e9f4d02341806f0c4cdfc74df7e24e83d9",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795632418832
+      "at": 1795632479766
     },
     "check": {
-      "at": 1795632418997,
+      "at": 1795632479926,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795632358544,
-      "error": "fetch failed",
+      "at": 1795632479760,
+      "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795632455695,
+        "at": 1795632515704,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -786,21 +801,6 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
