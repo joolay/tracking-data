@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:26:41.150Z",
-  "changedAt": "2026-11-25T19:26:41.150Z",
-  "rev": 3948,
-  "sig": "88205556945b0230b2b7402f836595a3869e2edbc6291b3889455561808abc30",
+  "at": "2026-11-25T19:28:41.163Z",
+  "changedAt": "2026-11-25T19:28:41.163Z",
+  "rev": 3949,
+  "sig": "ea0bd2b7d58df71cf8b3372b8b5881236b695475cf2490fe1e6e51d6f3b3dd56",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795634750729
+      "at": 1795634873348
     },
     "check": {
-      "at": 1795634750855,
+      "at": 1795634873569,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795634750723,
-      "error": null,
+      "at": 1795634873339,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795634795983,
+        "at": 1795634915997,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,16 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "adguard-home",
             "status": "Running",
@@ -771,6 +761,16 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795634865318,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795634563478,
         "level": "warn",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-cctv",
         "message": "New version on the repo, umbrelOS has not seen it yet: JoolzCCTV 1.0.4 (umbrelOS lists 1.0.3)"
-      },
-      {
-        "t": 1795633452537,
-        "level": "warn",
-        "appId": "joolay-portal",
-        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.42.3 (umbrelOS lists 0.42.2)"
       }
     ],
     "diagnose": [
