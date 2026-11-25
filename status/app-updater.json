@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T05:00:34.806Z",
-  "changedAt": "2026-11-25T05:00:34.806Z",
-  "rev": 3187,
-  "sig": "e8983709556271dd7fef7710e294703cc73ced80f9a605f3e70277b11f92be45",
+  "at": "2026-11-25T05:01:34.810Z",
+  "changedAt": "2026-11-25T05:01:34.810Z",
+  "rev": 3188,
+  "sig": "6a6d14886d1058ae884b2313a2077d207e1ecffd97112a5e195af0ec7760fd67",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,10 +617,10 @@
         }
       ],
       "error": null,
-      "at": 1795582800841
+      "at": 1795582861130
     },
     "check": {
-      "at": 1795582800975,
+      "at": 1795582861252,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -633,7 +633,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795582830689,
+        "at": 1795582890697,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,6 +657,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "port-master",
             "status": "Paused",
@@ -784,16 +794,6 @@
           },
           {
             "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
             "status": "Running",
             "paused": false
           }
