@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T05:03:52.254Z",
-  "changedAt": "2026-11-25T05:03:52.254Z",
-  "rev": 3149,
-  "sig": "6b2f30a11c02ac92ce21fa0f5ee75a2a9a75961bebbe1506a42da5b473f79655",
+  "at": "2026-11-25T05:04:52.267Z",
+  "changedAt": "2026-11-25T05:04:52.267Z",
+  "rev": 3150,
+  "sig": "6e839b7f2bf08250dd7afdd8d91840388a4d0b30e690dde22ad74843050cca5f",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,10 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
         {
           "name": "portaladmin",
           "status": "Running"
@@ -130,6 +126,10 @@
         {
           "name": "app-updater",
           "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
         }
       ]
     },
@@ -152,24 +152,10 @@
     "reportError": "",
     "routesDown": [
       {
-        "app": "home-assistant",
-        "route": "name",
-        "url": "https://home-assistant.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795582683825
-      },
-      {
-        "app": "joolay-app-updater",
-        "route": "name",
-        "url": "https://app-updater.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795582693460
-      },
-      {
         "app": "joolay-atvloadly",
         "route": "name",
         "url": "https://atvloadly.macaw-chroma.ts.net/",
-        "error": "timed out",
+        "error": "connection reset",
         "since": 1795582693463
       },
       {
@@ -361,7 +347,7 @@
         "app": "joolay-app-updater",
         "name": "App Updater",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3899,
@@ -487,7 +473,7 @@
         "app": "home-assistant",
         "name": "Home Assistant",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 8180,
@@ -628,11 +614,11 @@
           {
             "key": "name",
             "url": "https://home-assistant.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795582683825
+            "status": 400,
+            "error": "",
+            "since": 1795583027616
           }
         ]
       },
@@ -676,11 +662,11 @@
           {
             "key": "name",
             "url": "https://app-updater.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795582693460
+            "status": 302,
+            "error": "",
+            "since": 1795583028263
           }
         ]
       },
@@ -727,7 +713,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "timed out",
+            "error": "connection reset",
             "since": 1795582693463
           }
         ]
