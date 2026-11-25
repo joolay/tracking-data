@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T14:20:38.916Z",
-  "changedAt": "2026-11-25T14:20:38.916Z",
-  "rev": 3695,
-  "sig": "ef4c7e2c264022142246e9944446421726055d54a20f495517f3a197dd91ad5e",
+  "at": "2026-11-25T14:21:38.922Z",
+  "changedAt": "2026-11-25T14:21:38.922Z",
+  "rev": 3696,
+  "sig": "24c3ee719057dc8ca1c295a099b5c4d82253ca7114ad11ca4fa41513a181ca1b",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795616390812
+      "at": 1795616451562
     },
     "check": {
-      "at": 1795616390936,
+      "at": 1795616451693,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795616330494,
-      "error": "fetch failed",
+      "at": 1795616451557,
+      "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795616434016,
+        "at": 1795616494019,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,31 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Paused",
+            "paused": true
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -776,31 +801,6 @@
             "name": "cctv",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Paused",
-            "paused": true
           }
         ],
         "wanted": [
