@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T15:10:13.440Z",
-  "changedAt": "2026-11-25T15:10:13.440Z",
-  "rev": 3943,
-  "sig": "2f745fd888780737b699929ccd3580d2cef6901280dbe87e93c6ca91b7ac10dc",
+  "at": "2026-11-25T15:11:13.458Z",
+  "changedAt": "2026-11-25T15:11:13.458Z",
+  "rev": 3944,
+  "sig": "45ca4eb96ede639bc2be53f3d6df91b9964a6d6d34fd22cd839e24fd9e8385b4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795619404173,
+      "at": 1795619464177,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,31 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "paperclip",
           "status": "Running",
@@ -174,6 +149,31 @@
         },
         {
           "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
           "status": "Running",
           "paused": false
         }
@@ -382,7 +382,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.2",
             "state": "running",
-            "status": "Up 33 hours (healthy)",
+            "status": "Up 34 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1093,7 +1093,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.42.2",
         "state": "running",
-        "status": "Up 33 hours (healthy)",
+        "status": "Up 34 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
