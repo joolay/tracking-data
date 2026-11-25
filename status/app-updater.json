@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T20:41:41.448Z",
-  "changedAt": "2026-11-25T20:41:41.448Z",
-  "rev": 4016,
-  "sig": "4b09cf873d637f26d1b0342adc4f3d651495c5a7d6ab4750a3545c0bcf15df9f",
+  "at": "2026-11-25T20:43:41.451Z",
+  "changedAt": "2026-11-25T20:43:41.451Z",
+  "rev": 4017,
+  "sig": "e91fdcc23ee613b79667847994a002d5fb10923227f376df374b32c0d7c89fd3",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795639298109
+      "at": 1795639421366
     },
     "check": {
-      "at": 1795639298267,
+      "at": 1795639421353,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795639237824,
-      "error": null,
+      "at": 1795639360436,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795639296433,
+        "at": 1795639416445,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,26 +662,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -771,6 +751,26 @@
             "name": "listify",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +792,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795639365459,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795635405228,
         "level": "warn",
@@ -1145,12 +1151,6 @@
         "level": "warn",
         "appId": "joolay-listify",
         "message": "New version on the repo, umbrelOS has not seen it yet: Listify 1.1.2 (umbrelOS lists 1.1.1)"
-      },
-      {
-        "t": 1795633452539,
-        "level": "warn",
-        "appId": "joolay-joolztv",
-        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.2 (umbrelOS lists 1.18.1)"
       }
     ],
     "diagnose": [
