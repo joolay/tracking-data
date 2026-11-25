@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T11:35:56.802Z",
-  "changedAt": "2026-11-25T11:35:56.802Z",
-  "rev": 3513,
-  "sig": "68e8622811aca62d2b7e052c6e4307edddc38a3b30996a7d56151dbb0aa3eb6a",
+  "at": "2026-11-25T11:36:56.796Z",
+  "changedAt": "2026-11-25T11:36:56.796Z",
+  "rev": 3514,
+  "sig": "6d0810a789b88cbe6ed75c33e5b0a2f020981d37c02dc654b2ffa41cec91984f",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,6 +19,34 @@
       ],
       "writeError": "",
       "proxies": [
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
         {
           "name": "app-updater",
           "status": "Running"
@@ -102,44 +130,18 @@
         {
           "name": "kokoro",
           "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
         }
       ]
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 17,
+      "keptByPortMaster": 16,
       "withoutName": 0,
       "problems": [],
       "lastError": "",
-      "fixed": []
+      "fixed": [
+        "Dropped the name jolly-grocer: Jolly Grocer now has its own name (jolly-grocer)."
+      ]
     },
     "intervalMin": 5,
     "config": {
@@ -244,6 +246,13 @@
         "state": "up"
       },
       {
+        "port": 3896,
+        "app": "joolay-jolly-grocer",
+        "name": "Jolly Grocer",
+        "kind": "published",
+        "state": "up"
+      },
+      {
         "port": 3897,
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
@@ -283,14 +292,14 @@
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "up"
+        "state": "checking"
       },
       {
         "port": 3904,
@@ -629,14 +638,14 @@
       {
         "id": "joolay-cctv",
         "name": "JoolzCCTV",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "joolzapp": true,
-        "portal": "auto",
+        "portal": "locked",
         "port": 3902,
         "hostPorts": [
           3903
         ],
-        "published": "public",
+        "published": "tailnet",
         "routes": [
           {
             "key": "lan",
@@ -666,13 +675,13 @@
             "since": 1795582377163
           },
           {
-            "key": "public",
+            "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "checking",
             "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795582379101
+            "status": 0,
+            "error": "timed out",
+            "since": 1795606608719
           }
         ]
       },
@@ -779,12 +788,14 @@
       {
         "id": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "joolzapp": true,
         "portal": "auto",
         "port": 3897,
-        "hostPorts": [],
-        "published": "tailnet",
+        "hostPorts": [
+          3896
+        ],
+        "published": "public",
         "routes": [
           {
             "key": "lan",
@@ -814,13 +825,13 @@
             "since": 1795582378774
           },
           {
-            "key": "name",
+            "key": "public",
             "url": "https://jolly-grocer.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
             "status": 200,
             "error": "",
-            "since": 1795583366888
+            "since": 1795606594186
           }
         ]
       },
