@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T19:10:14.126Z",
-  "changedAt": "2026-11-25T19:10:14.126Z",
-  "rev": 4137,
-  "sig": "26a938b40b5480388c6073fcc2006aa460253776d7792252d508be4b061dafd6",
+  "at": "2026-11-25T19:11:14.163Z",
+  "changedAt": "2026-11-25T19:11:14.163Z",
+  "rev": 4138,
+  "sig": "353b832a50160a9958af182e9039bcc3761a7eeb941e409b6171814349cd845a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795633805865,
+      "at": 1795633865877,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -143,17 +128,27 @@
           "paused": false
         },
         {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
           "name": "portaladmin",
           "status": "Running",
           "paused": false
         },
         {
           "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -171,8 +166,8 @@
       }
     },
     "summary": {
-      "containers": 31,
-      "running": 30,
+      "containers": 32,
+      "running": 31,
       "problems": []
     },
     "services": [
@@ -266,7 +261,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.1.2",
             "state": "running",
-            "status": "Up About a minute",
+            "status": "Up 2 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -338,7 +333,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.3",
             "state": "running",
-            "status": "Up 37 seconds",
+            "status": "Up About a minute",
             "policy": "on-failure",
             "self": false
           }
@@ -362,7 +357,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.42.3",
             "state": "running",
-            "status": "Up 21 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -373,14 +368,24 @@
         "kind": "umbrel",
         "id": "joolay-cctv",
         "name": "JoolzCCTV",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "bb3f8cc3bcdd",
+            "name": "joolay-cctv_web_1",
+            "image": "ghcr.io/joolay/cctv:1.0.4",
+            "state": "running",
+            "status": "Up 49 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "umbrel:joolay-joolztv",
@@ -396,20 +401,20 @@
         "protected": false,
         "containers": [
           {
-            "id": "db02609f675c",
-            "name": "joolay-joolztv_server_1",
-            "image": "tsaridas/stremio-docker:latest",
+            "id": "e05fe164cbff",
+            "name": "joolay-joolztv_web_1",
+            "image": "ghcr.io/joolay/joolztv:1.18.2",
             "state": "running",
-            "status": "Up 15 hours",
+            "status": "Up 6 seconds",
             "policy": "on-failure",
             "self": false
           },
           {
-            "id": "c377347ea015",
-            "name": "joolay-joolztv_web_1",
-            "image": "ghcr.io/joolay/joolztv:1.18.1",
+            "id": "98e4080cce3e",
+            "name": "joolay-joolztv_server_1",
+            "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 15 hours",
+            "status": "Up 7 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -922,16 +927,61 @@
     ],
     "containers": [
       {
-        "id": "53b0e079f913",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.42.3",
+        "id": "e05fe164cbff",
+        "name": "joolay-joolztv_web_1",
+        "image": "ghcr.io/joolay/joolztv:1.18.2",
         "state": "running",
-        "status": "Up 21 seconds (health: starting)",
+        "status": "Up 6 seconds",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "startedAt": "2026-11-25T19:11:07.35338615Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "98e4080cce3e",
+        "name": "joolay-joolztv_server_1",
+        "image": "tsaridas/stremio-docker:latest",
+        "state": "running",
+        "status": "Up 7 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-25T19:11:06.879336358Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "bb3f8cc3bcdd",
+        "name": "joolay-cctv_web_1",
+        "image": "ghcr.io/joolay/cctv:1.0.4",
+        "state": "running",
+        "status": "Up 49 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-25T19:10:24.965856454Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "53b0e079f913",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.42.3",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
         "startedAt": "2026-11-25T19:09:52.904798715Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
@@ -942,7 +992,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.3",
         "state": "running",
-        "status": "Up 37 seconds",
+        "status": "Up About a minute",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -957,7 +1007,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.1.2",
         "state": "running",
-        "status": "Up About a minute",
+        "status": "Up 2 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -979,36 +1029,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-25T04:52:51.640537329Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "db02609f675c",
-        "name": "joolay-joolztv_server_1",
-        "image": "tsaridas/stremio-docker:latest",
-        "state": "running",
-        "status": "Up 15 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-25T04:08:00.710642615Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "c377347ea015",
-        "name": "joolay-joolztv_web_1",
-        "image": "ghcr.io/joolay/joolztv:1.18.1",
-        "state": "running",
-        "status": "Up 15 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-25T04:08:01.454575484Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
