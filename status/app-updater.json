@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T06:19:35.314Z",
-  "changedAt": "2026-11-25T06:19:35.314Z",
-  "rev": 3258,
-  "sig": "3ed018f511814a8729265facd4c7df33b418ad487014f42b7b92740d92df7b37",
+  "at": "2026-11-25T06:21:35.351Z",
+  "changedAt": "2026-11-25T06:21:35.351Z",
+  "rev": 3259,
+  "sig": "b829853a1c7277f3aa9dad82589d2fccb815f8d1ddbb15543899a34626648a0e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -617,23 +617,23 @@
         }
       ],
       "error": null,
-      "at": 1795587531680
+      "at": 1795587653080
     },
     "check": {
-      "at": 1795587531810,
+      "at": 1795587653257,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795587531672,
+      "at": 1795587653070,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795587571277,
+        "at": 1795587691291,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -657,6 +657,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "kokoro",
             "status": "Running",
@@ -786,16 +796,6 @@
             "name": "webcheck",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -817,6 +817,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795587639338,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795586378937,
         "level": "warn",
@@ -1167,12 +1173,6 @@
       },
       {
         "t": 1795487575120,
-        "level": "info",
-        "appId": "joolay-gatekeeper",
-        "message": "Installed joolay-gatekeeper"
-      },
-      {
-        "t": 1795487459653,
         "level": "info",
         "appId": "joolay-gatekeeper",
         "message": "Installed joolay-gatekeeper"
