@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T04:38:11.860Z",
-  "changedAt": "2026-11-25T04:38:11.860Z",
-  "rev": 3354,
-  "sig": "3d757685325cb60f56555613a9b8005203a9d56a6005d9162d6417c0185343f7",
+  "at": "2026-11-25T04:39:11.893Z",
+  "changedAt": "2026-11-25T04:39:11.893Z",
+  "rev": 3355,
+  "sig": "087dabbda2f3217ee9a4474e646087b29e19b4395254a80373b9e4b32209aba2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795581480489,
+      "at": 1795581540497,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -174,6 +154,26 @@
         },
         {
           "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
           "status": "Running",
           "paused": false
         }
@@ -430,7 +430,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 30 minutes",
+            "status": "Up 31 minutes",
             "policy": "on-failure",
             "self": false
           },
@@ -439,7 +439,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.1",
             "state": "running",
-            "status": "Up 30 minutes",
+            "status": "Up 31 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -727,7 +727,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.0",
             "state": "running",
-            "status": "Up 26 hours (healthy)",
+            "status": "Up 27 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -956,7 +956,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 30 minutes",
+        "status": "Up 31 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.1",
         "state": "running",
-        "status": "Up 30 minutes",
+        "status": "Up 31 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1156,7 +1156,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.0",
         "state": "running",
-        "status": "Up 26 hours (healthy)",
+        "status": "Up 27 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
