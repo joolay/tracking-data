@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T02:59:11.962Z",
-  "changedAt": "2026-11-25T02:59:11.962Z",
-  "rev": 3260,
-  "sig": "20a0344859a03aa9e2fb5a0dedd5b207b1da7be5308cc8a1f0098595daa013c2",
+  "at": "2026-11-25T03:00:12.459Z",
+  "changedAt": "2026-11-25T03:00:12.459Z",
+  "rev": 3261,
+  "sig": "3bca208ade11444dc1a5f4269040685500975d24b6378840e521034575d645ec",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795575539659,
+      "at": 1795575599658,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "home-assistant",
           "status": "Running",
@@ -174,6 +159,21 @@
         },
         {
           "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -310,7 +310,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 24 hours (healthy)",
+            "status": "Up 25 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1108,7 +1108,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 24 hours (healthy)",
+        "status": "Up 25 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
