@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T02:32:12.352Z",
-  "changedAt": "2026-11-25T02:32:12.352Z",
-  "rev": 3236,
-  "sig": "14ac011ab55dc61b3bcd90d48ee1306e30a743a6f6f53b49d8de8762c4532ad1",
+  "at": "2026-11-25T02:33:12.225Z",
+  "changedAt": "2026-11-25T02:33:12.225Z",
+  "rev": 3237,
+  "sig": "922f6fb9a6c365278daa4cdf42389a6375faa145a632b98c9eaf3ff8be1aca35",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795573919604,
+      "at": 1795573979608,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -171,11 +176,6 @@
           "name": "gatekeeper",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
         }
       ],
       "wanted": [
