@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T12:06:13.019Z",
-  "changedAt": "2026-11-25T12:06:13.019Z",
-  "rev": 3776,
-  "sig": "a90f073e3d21ce5bf27c2c5901d84f91b5c6aa7812a65f2544ffe0fed3597f69",
+  "at": "2026-11-25T12:07:13.039Z",
+  "changedAt": "2026-11-25T12:07:13.039Z",
+  "rev": 3777,
+  "sig": "bfc4918beed8a537877d40e2ecf55c2735d0464ce760485c29c1729bec18fa3a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795608363433,
+      "at": 1795608423437,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Paused",
-          "paused": true
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -174,6 +144,36 @@
         },
         {
           "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Paused",
+          "paused": true
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -334,7 +334,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 33 hours",
+            "status": "Up 34 hours",
             "policy": "no",
             "self": false
           }
@@ -358,7 +358,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
             "state": "running",
-            "status": "Up 32 minutes",
+            "status": "Up 33 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -406,7 +406,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.3",
             "state": "running",
-            "status": "Up 32 minutes",
+            "status": "Up 33 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -956,7 +956,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.3",
         "state": "running",
-        "status": "Up 32 minutes",
+        "status": "Up 33 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -971,7 +971,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.4.2",
         "state": "running",
-        "status": "Up 32 minutes",
+        "status": "Up 33 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1124,7 +1124,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 33 hours",
+        "status": "Up 34 hours",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
