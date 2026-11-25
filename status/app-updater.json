@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:14:22.548Z",
-  "changedAt": "2026-11-25T19:14:22.548Z",
-  "rev": 3937,
-  "sig": "055452422a4fc742706640eb2b99776a12a2f71bc41016f6a67b1f3056f7061f",
+  "at": "2026-11-25T19:15:00.242Z",
+  "changedAt": "2026-11-25T19:15:00.242Z",
+  "rev": 3938,
+  "sig": "6ce27641d897bb7098d777676a661c6f4b2a456cd3bb3c8ab80308f4d98f6024",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -104,30 +104,6 @@
         "busy": false,
         "detectedAt": 1795571238527,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-shutterworth",
-        "name": "ShutterWorth",
-        "version": "1.8.1",
-        "latest": "1.8.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795633633895,
-        "result": {
-          "ok": true,
-          "at": 1795499019783,
-          "from": "1.8.0",
-          "to": "1.8.1"
-        },
         "waiting": false
       },
       {
@@ -500,7 +476,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -527,6 +503,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-shutterworth",
+        "name": "ShutterWorth",
+        "version": "1.8.2",
+        "latest": "1.8.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795634078581,
+          "from": "1.8.1",
+          "to": "1.8.2"
+        },
         "waiting": false
       },
       {
@@ -622,23 +622,23 @@
         }
       ],
       "error": null,
-      "at": 1795633573612
+      "at": 1795634094632
     },
     "check": {
-      "at": 1795634062533,
+      "at": 1795634094763,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795633973752,
+      "at": 1795634094626,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795634060902,
+        "at": 1795634090905,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,46 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "joolztv",
             "status": "Running",
@@ -726,51 +766,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -792,6 +787,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795634078581,
+        "level": "ok",
+        "appId": "joolay-shutterworth",
+        "message": "ShutterWorth updated to 1.8.2 (state: ready)"
+      },
+      {
+        "t": 1795634065235,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Project Pilot (3 s)"
+      },
+      {
+        "t": 1795634062539,
+        "level": "info",
+        "appId": "joolay-shutterworth",
+        "message": "Updating ShutterWorth (detected, updating straight away)…"
+      },
       {
         "t": 1795634062319,
         "level": "ok",
@@ -1133,24 +1146,6 @@
         "level": "warn",
         "appId": "joolay-gatekeeper",
         "message": "New version on the repo, umbrelOS has not seen it yet: Gatekeeper 1.0.1 (umbrelOS lists 1.0.0)"
-      },
-      {
-        "t": 1795633452535,
-        "level": "warn",
-        "appId": "joolay-diner-bell",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Diner Bell 2.1.2 (umbrelOS lists 2.1.1)"
-      },
-      {
-        "t": 1795632644868,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795632346247,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
       }
     ],
     "diagnose": [
