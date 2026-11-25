@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-25T14:03:58.478Z",
-  "changedAt": "2026-11-25T14:03:58.478Z",
-  "rev": 3645,
-  "sig": "e7e61c3395f718691ab5410701dc1099a2ada72d778ea5b96453b8a6fab56cb6",
+  "at": "2026-11-25T14:04:58.475Z",
+  "changedAt": "2026-11-25T14:04:58.475Z",
+  "rev": 3646,
+  "sig": "4496c136c70c50dbc5dc68be38d96098537e5d593ae5721ff7b33a9382686f31",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -19,10 +19,6 @@
       ],
       "writeError": "",
       "proxies": [
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
         {
           "name": "app-updater",
           "status": "Running"
@@ -130,6 +126,10 @@
         {
           "name": "yuvomi",
           "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
         }
       ]
     },
@@ -150,7 +150,15 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-cctv",
+        "route": "name",
+        "url": "https://cctv.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795615485335
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -290,14 +298,14 @@
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3904,
@@ -675,11 +683,11 @@
           {
             "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795614859546
+            "since": 1795615485335
           }
         ]
       },
