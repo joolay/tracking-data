@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-25T19:09:38.326Z",
-  "changedAt": "2026-11-25T19:09:38.326Z",
-  "rev": 3930,
-  "sig": "81c639a5a2b7142c4cf5bae6370a0c8d2e79e116ab6338a2005929d4c5ff84bd",
+  "at": "2026-11-25T19:10:15.803Z",
+  "changedAt": "2026-11-25T19:10:15.803Z",
+  "rev": 3931,
+  "sig": "0db91129611c80e106200c0f54751677b732dc6d339247b4d8938f016862cdb3",
   "seenClaude": 0,
   "data": {
     "version": "1.10.0",
@@ -71,30 +71,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-portal",
-        "name": "JoolzApp Dashboard",
-        "version": "0.42.2",
-        "latest": "0.42.3",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795633633891,
-        "result": {
-          "ok": true,
-          "at": 1795498824324,
-          "from": "0.42.1",
-          "to": "0.42.2"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-cctv",
         "name": "JoolzCCTV",
         "version": "1.0.3",
@@ -108,7 +84,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": 1795633633891,
         "result": {
           "ok": true,
@@ -409,13 +385,37 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
           "at": 1795633778031,
           "from": "1.4.2",
           "to": "1.4.3"
+        },
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal",
+        "name": "JoolzApp Dashboard",
+        "version": "0.42.3",
+        "latest": "0.42.3",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795633794814,
+          "from": "0.42.2",
+          "to": "0.42.3"
         },
         "waiting": false
       },
@@ -625,7 +625,7 @@
       "at": 1795633573612
     },
     "check": {
-      "at": 1795633778321,
+      "at": 1795633795025,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -638,7 +638,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795633775863,
+        "at": 1795633805865,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -662,6 +662,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "pocketbase",
             "status": "Running",
@@ -733,11 +753,6 @@
             "paused": false
           },
           {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
             "name": "yuvomi",
             "status": "Running",
             "paused": false
@@ -766,31 +781,6 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [
@@ -812,6 +802,30 @@
       }
     },
     "log": [
+      {
+        "t": 1795633795025,
+        "level": "info",
+        "appId": "joolay-cctv",
+        "message": "Updating JoolzCCTV (detected, updating straight away)…"
+      },
+      {
+        "t": 1795633794814,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Dashboard updated to 0.42.3 (state: ready)"
+      },
+      {
+        "t": 1795633780792,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Jolly Grocer (2 s)"
+      },
+      {
+        "t": 1795633778323,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
+      },
       {
         "t": 1795633778031,
         "level": "ok",
@@ -1144,30 +1158,6 @@
       },
       {
         "t": 1795620163239,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795619683218,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795618843180,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795617763107,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795617583076,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
