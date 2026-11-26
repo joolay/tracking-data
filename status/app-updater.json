@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T08:22:07.806Z",
-  "changedAt": "2026-11-26T08:22:07.806Z",
-  "rev": 4657,
-  "sig": "c90df6568206b18439d37689eacdbc36e9a401d46d6f77bc780355a319814c7a",
+  "at": "2026-11-26T08:22:45.505Z",
+  "changedAt": "2026-11-26T08:22:45.505Z",
+  "rev": 4658,
+  "sig": "7723e5b0e5f0948e83d0995f1af492faad69b3b7af7d7d23e3177f1c637b5558",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -122,30 +122,6 @@
         "busy": false,
         "detectedAt": 1795652212535,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.43.3",
-        "latest": "0.43.4",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795681319135,
-        "result": {
-          "ok": true,
-          "at": 1795678969541,
-          "from": "0.43.2",
-          "to": "0.43.3"
-        },
         "waiting": false
       },
       {
@@ -292,7 +268,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -457,6 +433,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.43.4",
+        "latest": "0.43.4",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795681341024,
+          "from": "0.43.3",
+          "to": "0.43.4"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.10.0",
@@ -606,10 +606,10 @@
         }
       ],
       "error": null,
-      "at": 1795681258040
+      "at": 1795681357239
     },
     "check": {
-      "at": 1795681327801,
+      "at": 1795681357423,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
@@ -622,7 +622,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795681318567,
+        "at": 1795681363570,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,6 +646,11 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "atvloadly",
             "status": "Running",
@@ -785,11 +790,6 @@
             "name": "pocketbase",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -809,6 +809,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795681341024,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.43.4 (state: ready)"
+      },
+      {
+        "t": 1795681330490,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzApp Dashboard (3 s)"
+      },
+      {
+        "t": 1795681327802,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
       {
         "t": 1795681327603,
         "level": "ok",
@@ -1150,24 +1168,6 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795659308050,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795652212535,
-        "level": "info",
-        "appId": "openclaw",
-        "message": "Update available: OpenClaw 2026.11.4 → 2026.11.10"
-      },
-      {
-        "t": 1795652212535,
-        "level": "info",
-        "appId": "open-webui",
-        "message": "Update available: Open WebUI 0.13.4 → 0.13.5"
       }
     ],
     "diagnose": [
