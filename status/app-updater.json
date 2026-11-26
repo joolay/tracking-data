@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T07:59:05.708Z",
-  "changedAt": "2026-11-26T07:59:05.708Z",
-  "rev": 4638,
-  "sig": "bd2316d61dbe344195bd25fbe6b2db8130cf44ec468dbe29ffdbef498ac59ce9",
+  "at": "2026-11-26T08:01:05.862Z",
+  "changedAt": "2026-11-26T08:01:05.862Z",
+  "rev": 4639,
+  "sig": "6d0deb5a975833b0b24e0bb4da54c0197916213bde17e9d080462fa86bd1ea5a",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -574,23 +574,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795679902962
+      "at": 1795680025593
     },
     "check": {
-      "at": 1795679903087,
+      "at": 1795680025715,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795679842657,
-      "error": null,
+      "at": 1795679965250,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795679938495,
+        "at": 1795680058502,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,6 +614,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "joolztv",
             "status": "Running",
@@ -743,16 +753,6 @@
             "name": "atvloadly",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +772,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795680009722,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795679889716,
         "level": "warn",
@@ -1125,12 +1131,6 @@
         "level": "info",
         "appId": "joolay-shutterworth",
         "message": "Updating ShutterWorth (detected, updating straight away)…"
-      },
-      {
-        "t": 1795643336991,
-        "level": "ok",
-        "appId": "joolay-services-manager",
-        "message": "Services Manager updated to 1.4.1 (state: ready)"
       }
     ],
     "diagnose": [
