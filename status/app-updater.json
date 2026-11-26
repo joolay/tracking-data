@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T07:30:05.654Z",
-  "changedAt": "2026-11-26T07:30:05.654Z",
-  "rev": 4612,
-  "sig": "4ac2be13b48028b0f366b8d3476ee79cd4a10967be2e3820677e6a8bd19090fb",
+  "at": "2026-11-26T07:32:05.654Z",
+  "changedAt": "2026-11-26T07:32:05.654Z",
+  "rev": 4613,
+  "sig": "675034db528dd0ec5afb73ae1e124b377a19913db64b1b9dd38bb2ae84ffb632",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -574,23 +574,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795678157301
+      "at": 1795678278652
     },
     "check": {
-      "at": 1795678157426,
+      "at": 1795678278825,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 398
     },
     "repo": {
-      "at": 1795678096985,
+      "at": 1795678218312,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795678198389,
+        "at": 1795678318397,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,6 +614,56 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "joolzapp",
             "status": "Running",
@@ -703,56 +753,6 @@
             "name": "cctv",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +772,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795678269809,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795677789518,
         "level": "ok",
@@ -1125,12 +1131,6 @@
         "level": "ok",
         "appId": "joolay-kiosk-manager",
         "message": "Kiosk Manager updated to 1.2.1 (state: ready)"
-      },
-      {
-        "t": 1795643103755,
-        "level": "info",
-        "appId": "joolay-kiosk-manager",
-        "message": "Updating Kiosk Manager (detected, updating straight away)…"
       }
     ],
     "diagnose": [
