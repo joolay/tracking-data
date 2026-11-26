@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T01:17:56.920Z",
-  "changedAt": "2026-11-26T01:17:56.920Z",
-  "rev": 4472,
-  "sig": "8e4624ad78d7e0793501a8b16716eae1118b87a4ea89af6d348f38eb9fd2b76b",
+  "at": "2026-11-26T01:18:56.922Z",
+  "changedAt": "2026-11-26T01:18:56.922Z",
+  "rev": 4473,
+  "sig": "5db5ad94bdb3755a2f089007501592268d433b4cc1dc19259f57984fe6ed7fa9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795655876878,
+      "at": 1795655936879,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "pocketbase",
           "status": "Running",
@@ -99,46 +139,6 @@
         },
         {
           "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
           "status": "Running",
           "paused": false
         }
@@ -666,7 +666,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 3 hours",
+            "status": "Up 4 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -690,7 +690,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 3 hours (healthy)",
+            "status": "Up 4 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -882,7 +882,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 47 hours (healthy)",
+            "status": "Up 2 days (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -966,7 +966,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 3 hours (healthy)",
+        "status": "Up 4 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -982,7 +982,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 3 hours",
+        "status": "Up 4 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1304,7 +1304,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 47 hours (healthy)",
+        "status": "Up 2 days (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
