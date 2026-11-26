@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T12:13:58.395Z",
-  "changedAt": "2026-11-26T12:13:58.395Z",
-  "rev": 5089,
-  "sig": "1d9121a786fdf5aa0f621168e12582fc330cd96a080de2b997f042b3d8d991a0",
+  "at": "2026-11-26T12:14:58.417Z",
+  "changedAt": "2026-11-26T12:14:58.417Z",
+  "rev": 5090,
+  "sig": "47baae50243eea35fd1aea43e62a80193ca2bd0efad13770b5f5ad55f9914a43",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795695224460,
+      "at": 1795695284464,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -179,6 +164,21 @@
         },
         {
           "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -385,7 +385,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 14 hours",
+            "status": "Up 15 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1155,7 +1155,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 14 hours",
+        "status": "Up 15 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
