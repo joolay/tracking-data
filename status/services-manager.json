@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T04:49:57.405Z",
-  "changedAt": "2026-11-26T04:49:57.405Z",
-  "rev": 4669,
-  "sig": "44cedb2d0852f2286a3e43c3af4e761394095d7d73b8f9e805a318d102944da5",
+  "at": "2026-11-26T04:50:57.370Z",
+  "changedAt": "2026-11-26T04:50:57.370Z",
+  "rev": 4670,
+  "sig": "6a7e1628a201e38fa2a022ec2b41d8ff94152c02ed39ade8a0671bb248455f5e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795668582670,
+      "at": 1795668642669,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,41 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -139,41 +174,6 @@
         },
         {
           "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 27 minutes (healthy)",
+            "status": "Up 28 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 27 minutes (healthy)",
+            "status": "Up 28 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 27 minutes (healthy)",
+        "status": "Up 28 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -970,7 +970,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 27 minutes (healthy)",
+        "status": "Up 28 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
