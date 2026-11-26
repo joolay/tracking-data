@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T02:14:05.090Z",
-  "changedAt": "2026-11-26T02:14:05.090Z",
-  "rev": 4319,
-  "sig": "85988fe8e3ccd76b57bdbe2171346adca38386de3e8a1b4c82a9f0e14d8de14a",
+  "at": "2026-11-26T02:16:05.075Z",
+  "changedAt": "2026-11-26T02:16:05.075Z",
+  "rev": 4320,
+  "sig": "e649ceabb3686b1c8796f5571d4e151cd90149a6cd9e154c88e9c864784f9206",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -559,23 +559,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795659195560
+      "at": 1795659333608
     },
     "check": {
-      "at": 1795659195687,
+      "at": 1795659333745,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795659195529,
-      "error": null,
+      "at": 1795659327628,
+      "error": "no apps found on joolay/umbrel-apps",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795659237065,
+        "at": 1795659357076,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,21 +599,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "wallos",
             "status": "Running",
@@ -703,6 +688,21 @@
             "name": "app-updater",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -722,6 +722,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795659308050,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795652212535,
         "level": "info",
@@ -1075,12 +1081,6 @@
         "level": "warn",
         "appId": "joolay-tv-remote",
         "message": "New version on the repo, umbrelOS has not seen it yet: TV Remote 0.3.1 (umbrelOS lists 0.3.0)"
-      },
-      {
-        "t": 1795642762754,
-        "level": "warn",
-        "appId": "joolay-theme-editor",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Theme Editor 1.1.1 (umbrelOS lists 1.1.0)"
       }
     ],
     "diagnose": [
