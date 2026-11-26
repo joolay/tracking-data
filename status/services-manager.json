@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T08:02:57.867Z",
-  "changedAt": "2026-11-26T08:02:57.867Z",
-  "rev": 4850,
-  "sig": "865855899cc77bf7e8854c90a086cd832bec7e2f98c2dad5bad7bbd5797fdd53",
+  "at": "2026-11-26T08:03:57.866Z",
+  "changedAt": "2026-11-26T08:03:57.866Z",
+  "rev": 4851,
+  "sig": "add13106ec05733f397ce10f681ef8fde3d3883d661ac09e82522ef033a4b924",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795680163507,
+      "at": 1795680223513,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "sha256:[hidden]",
             "state": "running",
-            "status": "Up 20 minutes (healthy)",
+            "status": "Up 21 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -653,7 +653,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.3",
             "state": "running",
-            "status": "Up 15 minutes (healthy)",
+            "status": "Up 16 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.3",
             "state": "running",
-            "status": "Up 20 minutes (healthy)",
+            "status": "Up 21 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.3",
         "state": "running",
-        "status": "Up 15 minutes (healthy)",
+        "status": "Up 16 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -970,7 +970,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.3",
         "state": "running",
-        "status": "Up 20 minutes (healthy)",
+        "status": "Up 21 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -986,7 +986,7 @@
         "name": "joolay-portal_web_1",
         "image": "sha256:[hidden]",
         "state": "running",
-        "status": "Up 20 minutes (healthy)",
+        "status": "Up 21 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
