@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T05:55:05.472Z",
-  "changedAt": "2026-11-26T05:55:05.472Z",
-  "rev": 4524,
-  "sig": "af7a732999df0322b27c0e026d88d7fc55520d5b944ce34ed676d00cfcda1c18",
+  "at": "2026-11-26T05:57:05.472Z",
+  "changedAt": "2026-11-26T05:57:05.472Z",
+  "rev": 4525,
+  "sig": "3e73db3f921b055ac16b1aa879e340746f1f61c374d2f20d3eae123a5efc3eae",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -574,23 +574,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795672489557
+      "at": 1795672610905
     },
     "check": {
-      "at": 1795672489675,
+      "at": 1795672611042,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 398
     },
     "repo": {
-      "at": 1795672489552,
-      "error": "GitHub answered 403",
+      "at": 1795672610900,
+      "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795672497911,
+        "at": 1795672617918,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,21 +614,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "diner-bell",
             "status": "Running",
@@ -753,6 +738,21 @@
             "name": "openclaw",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +772,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795672569480,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795666965572,
         "level": "ok",
@@ -1125,12 +1131,6 @@
         "level": "info",
         "appId": "joolay-shutterworth",
         "message": "Update available: ShutterWorth 1.8.2 → 1.9.0"
-      },
-      {
-        "t": 1795642944153,
-        "level": "info",
-        "appId": "joolay-services-manager",
-        "message": "Update available: Services Manager 1.4.0 → 1.4.1"
       }
     ],
     "diagnose": [
