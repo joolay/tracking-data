@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T01:16:56.907Z",
-  "changedAt": "2026-11-26T01:16:56.907Z",
-  "rev": 4471,
-  "sig": "42bd1e60acf82abda5d6a9bd5d9fec4e8e447340ce7de5e3c13f3f03dce62397",
+  "at": "2026-11-26T01:17:56.920Z",
+  "changedAt": "2026-11-26T01:17:56.920Z",
+  "rev": 4472,
+  "sig": "8e4624ad78d7e0793501a8b16716eae1118b87a4ea89af6d348f38eb9fd2b76b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795655816878,
+      "at": 1795655876878,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -124,21 +139,6 @@
         },
         {
           "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         }
@@ -618,7 +618,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.1",
             "state": "running",
-            "status": "Up 3 hours (healthy)",
+            "status": "Up 4 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -642,7 +642,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.0",
             "state": "running",
-            "status": "Up 3 hours (healthy)",
+            "status": "Up 4 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -997,7 +997,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.0",
         "state": "running",
-        "status": "Up 3 hours (healthy)",
+        "status": "Up 4 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1013,7 +1013,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.1",
         "state": "running",
-        "status": "Up 3 hours (healthy)",
+        "status": "Up 4 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
