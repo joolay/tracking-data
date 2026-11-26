@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T07:41:57.857Z",
-  "changedAt": "2026-11-26T07:41:57.857Z",
-  "rev": 4832,
-  "sig": "b1395f4d214ba3b7c171dd43f50041669a4844949166a4a815746f955ee60e84",
+  "at": "2026-11-26T07:42:57.896Z",
+  "changedAt": "2026-11-26T07:42:57.896Z",
+  "rev": 4833,
+  "sig": "928f6f20c24cf3b19c08f5c7d34957cdeca94ee7e488051da2120ec0b9c49b8b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795678903437,
+      "at": 1795678963444,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,56 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -174,6 +124,56 @@
         },
         {
           "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -376,11 +376,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "fc76ab00a93a",
+            "id": "0306a8f0a3fd",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.2",
+            "image": "sha256:[hidden]",
             "state": "running",
-            "status": "Up 19 minutes (healthy)",
+            "status": "Up 24 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -673,11 +673,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "25f27d9c709b",
+            "id": "0a42c1583952",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.2",
+            "image": "ghcr.io/joolay/portal-admin:0.43.3",
             "state": "running",
-            "status": "Up 18 minutes (healthy)",
+            "status": "Up 9 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 4 hours (healthy)",
+            "status": "Up 5 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -950,33 +950,33 @@
     ],
     "containers": [
       {
-        "id": "25f27d9c709b",
+        "id": "0a42c1583952",
         "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.2",
+        "image": "ghcr.io/joolay/portal-admin:0.43.3",
         "state": "running",
-        "status": "Up 18 minutes (healthy)",
+        "status": "Up 9 seconds (health: starting)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T07:23:08.476931472Z",
+        "health": "starting",
+        "startedAt": "2026-11-26T07:42:48.494212499Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
       },
       {
-        "id": "fc76ab00a93a",
+        "id": "0306a8f0a3fd",
         "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.2",
+        "image": "sha256:[hidden]",
         "state": "running",
-        "status": "Up 19 minutes (healthy)",
+        "status": "Up 25 seconds (health: starting)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T07:22:55.27378425Z",
+        "health": "starting",
+        "startedAt": "2026-11-26T07:42:32.837484116Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 4 hours (healthy)",
+        "status": "Up 5 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
