@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T07:12:57.771Z",
-  "changedAt": "2026-11-26T07:12:57.771Z",
-  "rev": 4804,
-  "sig": "eaf9d5af4b8a9119fd4e783b93ff215f663923806caa79cc0f4d41797981eb17",
+  "at": "2026-11-26T07:13:57.791Z",
+  "changedAt": "2026-11-26T07:13:57.791Z",
+  "rev": 4805,
+  "sig": "d42cd4b88b9127c935a2ef3aec4fdece967d7274c0b237c20289af89fc6fbce1",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795677163325,
+      "at": 1795677223329,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -151,31 +176,6 @@
           "name": "kokoro",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -284,7 +284,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 9 hours",
+            "status": "Up 10 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1126,7 +1126,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 9 hours",
+        "status": "Up 10 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
