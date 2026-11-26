@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T03:08:05.169Z",
-  "changedAt": "2026-11-26T03:08:05.169Z",
-  "rev": 4365,
-  "sig": "17a5012e33e1c00982615fc0d55a38e380bf6201508a7566cefeefde7adfd076",
+  "at": "2026-11-26T03:10:05.174Z",
+  "changedAt": "2026-11-26T03:10:05.174Z",
+  "rev": 4366,
+  "sig": "dec0330dc1603cda25ad3591c8d236170e15cf66ac433151d3a1d1ebee267f2b",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -564,23 +564,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795662450420
+      "at": 1795662573005
     },
     "check": {
-      "at": 1795662450582,
+      "at": 1795662573151,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795662390090,
-      "error": null,
+      "at": 1795662512717,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795662477353,
+        "at": 1795662597362,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -604,6 +604,51 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "cctv",
             "status": "Running",
@@ -693,51 +738,6 @@
             "name": "wallos",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -757,6 +757,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795662549179,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795661839968,
         "level": "info",
@@ -1110,12 +1116,6 @@
         "level": "ok",
         "appId": "joolay-services-manager",
         "message": "umbrelOS now sees Services Manager 1.4.1"
-      },
-      {
-        "t": 1795642944145,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "umbrelOS now sees Project Pilot 1.10.0"
       }
     ],
     "diagnose": [
