@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T09:03:58.006Z",
-  "changedAt": "2026-11-26T09:03:58.006Z",
-  "rev": 4908,
-  "sig": "472612bc4f92fe2702e2d8cb7092e92869cd42686cf0cc1c132cc03042213adf",
+  "at": "2026-11-26T09:06:57.983Z",
+  "changedAt": "2026-11-26T09:06:57.983Z",
+  "rev": 4909,
+  "sig": "cae72794cc0291f8a2aa0b51b706b3b633060a2238fbf15d67304bd68025783c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795683823657,
+      "at": 1795684003659,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "cctv",
           "status": "Running",
@@ -179,6 +164,21 @@
         },
         {
           "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -337,7 +337,7 @@
             "name": "joolay-gym-guru_web_1",
             "image": "ghcr.io/joolay/gym-guru:1.0.0",
             "state": "running",
-            "status": "Up 48 minutes",
+            "status": "Up 51 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 41 minutes (healthy)",
+            "status": "Up 44 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -706,7 +706,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 41 minutes (healthy)",
+            "status": "Up 44 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.4",
         "state": "running",
-        "status": "Up 41 minutes (healthy)",
+        "status": "Up 44 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -999,7 +999,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.4",
         "state": "running",
-        "status": "Up 41 minutes (healthy)",
+        "status": "Up 44 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1015,7 +1015,7 @@
         "name": "joolay-gym-guru_web_1",
         "image": "ghcr.io/joolay/gym-guru:1.0.0",
         "state": "running",
-        "status": "Up 48 minutes",
+        "status": "Up 51 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
