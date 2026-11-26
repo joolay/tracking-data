@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T05:20:57.449Z",
-  "changedAt": "2026-11-26T05:20:57.449Z",
-  "rev": 4700,
-  "sig": "50b25cead97753b7e0cd177bd55da70191c1124e7a8696f931d9a645575ada20",
+  "at": "2026-11-26T05:21:57.460Z",
+  "changedAt": "2026-11-26T05:21:57.460Z",
+  "rev": 4701,
+  "sig": "31e8dabaa6666dcbe6e73a78ad6f218ae1a8979985a7565215b35ed65409ceb9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795670442709,
+      "at": 1795670502719,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kokoro",
           "status": "Running",
@@ -134,46 +174,6 @@
         },
         {
           "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 58 minutes (healthy)",
+            "status": "Up 59 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 58 minutes (healthy)",
+            "status": "Up 59 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 58 minutes (healthy)",
+        "status": "Up 59 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -970,7 +970,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 58 minutes (healthy)",
+        "status": "Up 59 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
