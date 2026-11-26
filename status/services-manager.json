@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T20:38:59.518Z",
-  "changedAt": "2026-11-26T20:38:59.518Z",
-  "rev": 5584,
-  "sig": "d072d0c7eff47590f60839a9a9e40bc3d583dd7b421da70ef1695594db2704b0",
+  "at": "2026-11-26T20:39:59.523Z",
+  "changedAt": "2026-11-26T20:39:59.523Z",
+  "rev": 5585,
+  "sig": "805ddd61045e8f841afae18392135d4171dc5f26a869229ee351dfc133f4bc77",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795725526669,
+      "at": 1795725586671,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "pocketbase",
           "status": "Running",
@@ -179,6 +169,16 @@
         },
         {
           "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
           "status": "Running",
           "paused": false
         }
@@ -610,7 +610,7 @@
             "name": "joolay-openclaw_web_1",
             "image": "ghcr.io/joolay/openclaw:2026.11.10",
             "state": "running",
-            "status": "Up 58 minutes (healthy)",
+            "status": "Up 59 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-openclaw_web_1",
         "image": "ghcr.io/joolay/openclaw:2026.11.10",
         "state": "running",
-        "status": "Up 58 minutes (healthy)",
+        "status": "Up 59 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
