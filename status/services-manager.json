@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T20:41:59.517Z",
-  "changedAt": "2026-11-26T20:41:59.517Z",
-  "rev": 5587,
-  "sig": "bc281a6c185369215c05fc61fd9104b2e5a96671c62db21364fa5010d5c609ba",
+  "at": "2026-11-26T20:42:59.516Z",
+  "changedAt": "2026-11-26T20:42:59.516Z",
+  "rev": 5588,
+  "sig": "89a0a34de27851e7dd9b0ef0f8d60287d482adce428aabb2cc1a21c83cb65295",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795725706680,
+      "at": 1795725766683,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -149,36 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         }
@@ -946,7 +946,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 17 hours (healthy)",
+            "status": "Up 18 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1384,7 +1384,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 17 hours (healthy)",
+        "status": "Up 18 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
