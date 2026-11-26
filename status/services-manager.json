@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T12:12:58.393Z",
-  "changedAt": "2026-11-26T12:12:58.393Z",
-  "rev": 5088,
-  "sig": "9b6debc87c7fe1b42bdca8202c0b2449cda968ac36bf44ecb064e12c077467e3",
+  "at": "2026-11-26T12:13:58.395Z",
+  "changedAt": "2026-11-26T12:13:58.395Z",
+  "rev": 5089,
+  "sig": "1d9121a786fdf5aa0f621168e12582fc330cd96a080de2b997f042b3d8d991a0",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795695164459,
+      "at": 1795695224460,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -171,16 +181,6 @@
           "name": "gatekeeper",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -289,7 +289,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 14 hours",
+            "status": "Up 15 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1170,7 +1170,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 14 hours",
+        "status": "Up 15 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
