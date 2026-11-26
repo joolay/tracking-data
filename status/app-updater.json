@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T16:38:06.689Z",
-  "changedAt": "2026-11-26T16:38:06.689Z",
-  "rev": 5093,
-  "sig": "d0deb33853280d20e24024723bb4a8338debcba7bdb59657bfe562e2aec089f0",
+  "at": "2026-11-26T16:39:06.664Z",
+  "changedAt": "2026-11-26T16:39:06.664Z",
+  "rev": 5094,
+  "sig": "d11da5e1afe6b656f2beba58dff32370808541ecde805adda66a7e2e690b8c0a",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -306,14 +306,14 @@
         "version": "0.40.18",
         "latest": "0.40.18",
         "update": false,
-        "state": "updating",
+        "state": "ready",
         "store": {
           "id": "umbrel",
           "name": "Umbrel"
         },
         "mode": "nightly",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": null,
         "waiting": false
@@ -606,10 +606,10 @@
         }
       ],
       "error": null,
-      "at": 1795711086028
+      "at": 1795711146361
     },
     "check": {
-      "at": 1795711086178,
+      "at": 1795711146542,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
@@ -622,7 +622,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795711080560,
+        "at": 1795711140563,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,21 +646,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "cctv",
             "status": "Running",
@@ -788,6 +773,21 @@
           },
           {
             "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
             "status": "Running",
             "paused": false
           }
