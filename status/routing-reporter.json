@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T02:16:03.134Z",
-  "changedAt": "2026-11-26T02:16:03.134Z",
-  "rev": 4283,
-  "sig": "180a417a5dd951a26ca4170eea5006cdb0dad542191bf54fb62eca23841f47c8",
+  "at": "2026-11-26T02:17:03.079Z",
+  "changedAt": "2026-11-26T02:17:03.079Z",
+  "rev": 4284,
+  "sig": "87d0e7884263b453f91d056703c5cb255300862f86d1ef55e52262657531167a",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,22 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
-        },
         {
           "name": "openclaw",
           "status": "Running"
@@ -100,6 +84,22 @@
         {
           "name": "atvloadly",
           "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running"
         }
       ]
     },
@@ -163,13 +163,6 @@
         "url": "https://cctv.macaw-chroma.ts.net/",
         "error": "timed out",
         "since": 1795643533170
-      },
-      {
-        "app": "joolay-diner-bell",
-        "route": "name",
-        "url": "https://diner-bell.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795645722697
       },
       {
         "app": "joolay-jolly-grocer",
@@ -297,14 +290,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3895,
@@ -795,11 +788,11 @@
           {
             "key": "name",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795645722697
+            "status": 200,
+            "error": "",
+            "since": 1795659359052
           }
         ]
       },
