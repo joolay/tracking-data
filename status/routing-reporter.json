@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T19:04:13.702Z",
-  "changedAt": "2026-11-26T19:04:13.702Z",
-  "rev": 5182,
-  "sig": "1dcd14aad4e7b5245a5adbb7f9fe19fa7f4ba93e58134f58099ab62364727046",
+  "at": "2026-11-26T19:05:13.708Z",
+  "changedAt": "2026-11-26T19:05:13.708Z",
+  "rev": 5183,
+  "sig": "608cc931c662d21ed937a85fb721a9738c57c65cfbfbc61ff9bd2b285e4967ee",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -446,13 +446,6 @@
         "port": 11434,
         "app": "ollama",
         "name": "Ollama",
-        "kind": "app",
-        "state": "up"
-      },
-      {
-        "port": 18789,
-        "app": "openclaw",
-        "name": "OpenClaw",
         "kind": "app",
         "state": "up"
       }
@@ -1538,54 +1531,6 @@
             "status": 200,
             "error": "",
             "since": 1795711947931
-          }
-        ]
-      },
-      {
-        "id": "openclaw",
-        "name": "OpenClaw",
-        "version": "2026.11.10",
-        "joolzapp": false,
-        "portal": "off",
-        "port": 18789,
-        "hostPorts": [],
-        "published": "tailnet",
-        "routes": [
-          {
-            "key": "lan",
-            "url": "http://host.docker.internal:18789/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795717430497
-          },
-          {
-            "key": "local",
-            "url": "http://umbrel.local:18789/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795717431221
-          },
-          {
-            "key": "tailscale",
-            "url": "http://100.118.10.62:18789/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795717430502
-          },
-          {
-            "key": "name",
-            "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "up",
-            "ignored": false,
-            "status": 200,
-            "error": "",
-            "since": 1795717430727
           }
         ]
       },
