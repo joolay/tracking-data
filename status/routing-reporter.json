@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T19:44:13.809Z",
-  "changedAt": "2026-11-26T19:44:13.809Z",
-  "rev": 5217,
-  "sig": "56f02b1541b41ccc7086ffc76263009efaf968c2eea59d35d9b8f973e821ee57",
+  "at": "2026-11-26T19:45:13.808Z",
+  "changedAt": "2026-11-26T19:45:13.808Z",
+  "rev": 5218,
+  "sig": "2d26540b0dce1bac188e94dc412eebef89d89742753246067f6f1d15916ca428",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,38 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "cctv",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
         {
           "name": "port-master",
           "status": "Running"
@@ -131,6 +99,38 @@
         },
         {
           "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "cctv",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
           "status": "Running"
         }
       ]
@@ -384,7 +384,7 @@
         "app": "joolay-openclaw",
         "name": "OpenClaw",
         "kind": "app",
-        "state": "checking"
+        "state": "up"
       },
       {
         "port": 5400,
@@ -1061,38 +1061,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:3927/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795722002866
+            "status": 403,
+            "error": "",
+            "since": 1795722307275
           },
           {
             "key": "local",
             "url": "http://umbrel.local:3927/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795722002869
+            "status": 403,
+            "error": "",
+            "since": 1795722307288
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:3927/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795722002869
+            "status": 403,
+            "error": "",
+            "since": 1795722307292
           },
           {
             "key": "name",
             "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "up",
             "ignored": false,
-            "status": 502,
-            "error": "the app behind it is not answering (502)",
-            "since": 1795722003138
+            "status": 403,
+            "error": "",
+            "since": 1795722307516
           }
         ]
       },
