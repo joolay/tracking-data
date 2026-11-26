@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T04:07:57.340Z",
-  "changedAt": "2026-11-26T04:07:57.340Z",
-  "rev": 4627,
-  "sig": "581e7657f7d6d5b70a8474fcd7eaad9dbee7d9cddb3238a444704153c1a0e6a7",
+  "at": "2026-11-26T04:08:57.337Z",
+  "changedAt": "2026-11-26T04:08:57.337Z",
+  "rev": 4628,
+  "sig": "cce97adc594f4d6d805179c85c9be753369757aa65ef2a82a4da77068f520225",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795666062561,
+      "at": 1795666122561,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,61 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kiosk-manager",
           "status": "Running",
@@ -119,61 +174,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 55 minutes (healthy)",
+            "status": "Up 56 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 55 minutes (healthy)",
+        "status": "Up 56 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
