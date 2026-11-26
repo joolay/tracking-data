@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T16:25:58.975Z",
-  "changedAt": "2026-11-26T16:25:58.975Z",
-  "rev": 5332,
-  "sig": "4342254efe836ef7d2d58802a3e7247675f369472ec7b2db1e22154099f4a043",
+  "at": "2026-11-26T16:26:58.943Z",
+  "changedAt": "2026-11-26T16:26:58.943Z",
+  "rev": 5333,
+  "sig": "1a6761cc107f1d5f101d6a5fedef9da0d1ef1ebc77edb9c4e0e192231107a118",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795710345536,
+      "at": 1795710405538,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "port-master",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -853,7 +853,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 minutes",
+            "status": "Up 3 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -938,7 +938,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 minutes",
+        "status": "Up 3 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
