@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T19:26:07.897Z",
-  "changedAt": "2026-11-26T19:26:07.897Z",
-  "rev": 5240,
-  "sig": "e931607ab54ef524457013ebd272112547fcc978ae041b255a0f7ec1300d0d82",
+  "at": "2026-11-26T19:27:07.917Z",
+  "changedAt": "2026-11-26T19:27:07.917Z",
+  "rev": 5241,
+  "sig": "f7bcbe4e78700a54c88e7a4cb48119ca42d6606449375e2365c403fd155e734c",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -588,23 +588,38 @@
         }
       ],
       "error": null,
-      "at": 1795721118467
+      "at": 1795721179632
     },
     "check": {
-      "at": 1795721118607,
+      "at": 1795721179770,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795721058101,
+      "at": 1795721179619,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-portal",
+          "name": "JoolzApp Dashboard",
+          "repo": "0.43.5",
+          "umbrel": "0.43.4",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-openclaw",
+          "name": "OpenClaw",
+          "repo": "2026.11.10",
+          "umbrel": null,
+          "kind": "new"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795721161356,
+        "at": 1795721221361,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -791,6 +806,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795721179622,
+        "level": "warn",
+        "appId": "joolay-openclaw",
+        "message": "New app on the repo, umbrelOS has not seen it yet: OpenClaw 2026.11.10"
+      },
+      {
+        "t": 1795721179619,
+        "level": "warn",
+        "appId": "joolay-portal",
+        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.43.5 (umbrelOS lists 0.43.4)"
+      },
       {
         "t": 1795683909845,
         "level": "warn",
@@ -1138,18 +1165,6 @@
         "level": "info",
         "appId": "joolay-routing-reporter",
         "message": "Update available: Port Master 1.10.1 → 1.10.2"
-      },
-      {
-        "t": 1795661821574,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "umbrelOS now sees Port Master 1.10.2"
-      },
-      {
-        "t": 1795661639812,
-        "level": "warn",
-        "appId": "joolay-routing-reporter",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.2 (umbrelOS lists 1.10.1)"
       }
     ],
     "diagnose": [
