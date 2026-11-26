@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T04:21:05.490Z",
-  "changedAt": "2026-11-26T04:21:05.490Z",
-  "rev": 4433,
-  "sig": "aa81d909679eaa3a85dcccafbc3ff985fbc650aafd4256ac71daff84434293b4",
+  "at": "2026-11-26T04:22:05.321Z",
+  "changedAt": "2026-11-26T04:22:05.321Z",
+  "rev": 4434,
+  "sig": "d6a467d20728c46373af8a2402eaa09c497cc1783e291192a8cabc00c88eebf0",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -564,21 +564,28 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795666822870
+      "at": 1795666883939
     },
     "check": {
-      "at": 1795666822995,
+      "at": 1795666884108,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795666762536,
+      "at": 1795666883927,
       "error": null,
       "pending": [
         {
           "id": "joolay-portal",
           "name": "JoolzApp Dashboard",
+          "repo": "0.43.1",
+          "umbrel": "0.43.0",
+          "kind": "update"
+        },
+        {
+          "id": "joolay-portal-admin",
+          "name": "Portal Admin",
           "repo": "0.43.1",
           "umbrel": "0.43.0",
           "kind": "update"
@@ -588,7 +595,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795666857596,
+        "at": 1795666917601,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -612,51 +619,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "wallos",
             "status": "Running",
@@ -751,6 +713,51 @@
             "name": "diner-bell",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -770,6 +777,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795666883927,
+        "level": "warn",
+        "appId": "joolay-portal-admin",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.43.1 (umbrelOS lists 0.43.0)"
+      },
       {
         "t": 1795666762537,
         "level": "warn",
@@ -1123,12 +1136,6 @@
         "level": "info",
         "appId": "joolay-diner-bell",
         "message": "Update available: Diner Bell 2.1.2 → 2.2.0"
-      },
-      {
-        "t": 1795642944147,
-        "level": "ok",
-        "appId": "joolay-tv-remote",
-        "message": "umbrelOS now sees TV Remote 0.3.1"
       }
     ],
     "diagnose": [
