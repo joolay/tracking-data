@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T14:14:58.754Z",
-  "changedAt": "2026-11-26T14:14:58.754Z",
-  "rev": 5204,
-  "sig": "e6d6938e0537a61574ba63e7d4d457622acdab84cef8c66f925672e4dc455f86",
+  "at": "2026-11-26T14:15:58.754Z",
+  "changedAt": "2026-11-26T14:15:58.754Z",
+  "rev": 5205,
+  "sig": "55a76e5a10441a0df1918aa49b91dacf6598a0f4ff568ccda5a77d78105dc370",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795702484955,
+      "at": 1795702544957,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -149,36 +179,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -490,7 +490,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
             "state": "running",
-            "status": "Up 16 hours (healthy)",
+            "status": "Up 17 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1139,7 +1139,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 16 hours (healthy)",
+        "status": "Up 17 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
