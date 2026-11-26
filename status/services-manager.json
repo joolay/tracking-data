@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T08:21:57.885Z",
-  "changedAt": "2026-11-26T08:21:57.885Z",
-  "rev": 4867,
-  "sig": "aa52132308ee6becb4cdb088fa49957770a554144fcdbcbec9e5cfca74c66891",
+  "at": "2026-11-26T08:22:57.907Z",
+  "changedAt": "2026-11-26T08:22:57.907Z",
+  "rev": 4868,
+  "sig": "00845a09885458a2d8747eef293e9d776d8c275466c2bee60e26809d7c58bc21",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795681303568,
+      "at": 1795681363570,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,56 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -179,6 +129,56 @@
         },
         {
           "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
           "status": "Running",
           "paused": false
         }
@@ -337,7 +337,7 @@
             "name": "joolay-gym-guru_web_1",
             "image": "ghcr.io/joolay/gym-guru:1.0.0",
             "state": "running",
-            "status": "Up 6 minutes",
+            "status": "Up 7 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -405,11 +405,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "0306a8f0a3fd",
+            "id": "4223683316b5",
             "name": "joolay-portal_web_1",
-            "image": "sha256:[hidden]",
+            "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 39 minutes (healthy)",
+            "status": "Up 51 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -682,7 +682,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.3",
             "state": "running",
-            "status": "Up 34 minutes (healthy)",
+            "status": "Up 35 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -702,11 +702,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "0a42c1583952",
+            "id": "d0c717a52270",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.3",
+            "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 39 minutes (healthy)",
+            "status": "Up 37 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -979,11 +979,43 @@
     ],
     "containers": [
       {
+        "id": "d0c717a52270",
+        "name": "joolay-portal-admin_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.4",
+        "state": "running",
+        "status": "Up 37 seconds (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-26T08:22:19.930720942Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "4223683316b5",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.4",
+        "state": "running",
+        "status": "Up 51 seconds (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-26T08:22:06.484862629Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "6a254d7a25e6",
         "name": "joolay-gym-guru_web_1",
         "image": "ghcr.io/joolay/gym-guru:1.0.0",
         "state": "running",
-        "status": "Up 6 minutes",
+        "status": "Up 7 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -998,45 +1030,13 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.3",
         "state": "running",
-        "status": "Up 34 minutes (healthy)",
+        "status": "Up 35 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-26T07:47:11.936047037Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "0a42c1583952",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.3",
-        "state": "running",
-        "status": "Up 39 minutes (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T07:42:48.494212499Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "0306a8f0a3fd",
-        "name": "joolay-portal_web_1",
-        "image": "sha256:[hidden]",
-        "state": "running",
-        "status": "Up 39 minutes (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T07:42:32.837484116Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
