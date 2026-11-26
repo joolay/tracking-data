@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T04:22:05.321Z",
-  "changedAt": "2026-11-26T04:22:05.321Z",
-  "rev": 4434,
-  "sig": "d6a467d20728c46373af8a2402eaa09c497cc1783e291192a8cabc00c88eebf0",
+  "at": "2026-11-26T04:23:05.326Z",
+  "changedAt": "2026-11-26T04:23:05.326Z",
+  "rev": 4435,
+  "sig": "4c6381cd47ccf665f3ad7a9dcd32dd861fd9d0b62209b49fc44ed86fbd3f5efe",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -238,8 +238,8 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
-        "version": "0.43.0",
-        "latest": "0.43.0",
+        "version": "0.43.1",
+        "latest": "0.43.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -251,7 +251,12 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": null,
+        "result": {
+          "ok": true,
+          "at": 1795666952055,
+          "from": "0.43.0",
+          "to": "0.43.1"
+        },
         "waiting": false
       },
       {
@@ -411,8 +416,8 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.43.0",
-        "latest": "0.43.0",
+        "version": "0.43.1",
+        "latest": "0.43.1",
         "update": false,
         "state": "ready",
         "store": {
@@ -424,7 +429,12 @@
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": null,
+        "result": {
+          "ok": true,
+          "at": 1795666965572,
+          "from": "0.43.0",
+          "to": "0.43.1"
+        },
         "waiting": false
       },
       {
@@ -564,10 +574,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795666883939
+      "at": 1795666981655
     },
     "check": {
-      "at": 1795666884108,
+      "at": 1795666981776,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -575,27 +585,12 @@
     "repo": {
       "at": 1795666883927,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-portal",
-          "name": "JoolzApp Dashboard",
-          "repo": "0.43.1",
-          "umbrel": "0.43.0",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-portal-admin",
-          "name": "Portal Admin",
-          "repo": "0.43.1",
-          "umbrel": "0.43.0",
-          "kind": "update"
-        }
-      ]
+      "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795666917601,
+        "at": 1795666977603,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -619,6 +614,36 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "wallos",
             "status": "Running",
@@ -728,36 +753,6 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -777,6 +772,60 @@
       }
     },
     "log": [
+      {
+        "t": 1795666965572,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.43.1 (state: ready)"
+      },
+      {
+        "t": 1795666952270,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzApp Dashboard (0 s)"
+      },
+      {
+        "t": 1795666952265,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795666952055,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Dashboard updated to 0.43.1 (state: ready)"
+      },
+      {
+        "t": 1795666944266,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
+      },
+      {
+        "t": 1795666944265,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.43.0 → 0.43.1"
+      },
+      {
+        "t": 1795666944264,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Dashboard 0.43.0 → 0.43.1"
+      },
+      {
+        "t": 1795666944263,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "umbrelOS now sees Portal Admin 0.43.1"
+      },
+      {
+        "t": 1795666944263,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "umbrelOS now sees JoolzApp Dashboard 0.43.1"
+      },
       {
         "t": 1795666883927,
         "level": "warn",
@@ -1082,60 +1131,6 @@
         "level": "info",
         "appId": "joolay-services-manager",
         "message": "Update available: Services Manager 1.4.0 → 1.4.1"
-      },
-      {
-        "t": 1795642944152,
-        "level": "info",
-        "appId": "joolay-project-tracker",
-        "message": "Update available: Project Pilot 1.9.2 → 1.10.0"
-      },
-      {
-        "t": 1795642944152,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.42.3 → 0.43.0"
-      },
-      {
-        "t": 1795642944151,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Port Master 1.10.0 → 1.10.1"
-      },
-      {
-        "t": 1795642944151,
-        "level": "info",
-        "appId": "joolay-listify",
-        "message": "Update available: Listify 1.1.2 → 1.2.0"
-      },
-      {
-        "t": 1795642944150,
-        "level": "info",
-        "appId": "joolay-kiosk-manager",
-        "message": "Update available: Kiosk Manager 1.2.0 → 1.2.1"
-      },
-      {
-        "t": 1795642944150,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Dashboard 0.42.3 → 0.43.0"
-      },
-      {
-        "t": 1795642944149,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Update available: Jolly Grocer 1.4.3 → 1.5.0"
-      },
-      {
-        "t": 1795642944149,
-        "level": "info",
-        "appId": "joolay-gatekeeper",
-        "message": "Update available: Gatekeeper 1.0.0 → 1.0.2"
-      },
-      {
-        "t": 1795642944148,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Update available: Diner Bell 2.1.2 → 2.2.0"
       }
     ],
     "diagnose": [
