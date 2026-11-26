@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T02:53:57.164Z",
-  "changedAt": "2026-11-26T02:53:57.164Z",
-  "rev": 4556,
-  "sig": "b0dd80a481c3d7dab98d11d641ae48188955f2f6efc81f8ab319fefa02fd69bf",
+  "at": "2026-11-26T02:54:57.186Z",
+  "changedAt": "2026-11-26T02:54:57.186Z",
+  "rev": 4557,
+  "sig": "cf8bdd6f66c423021360e491d5838394a9d7f1db18f6b07ea70039216659dc53",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795661622278,
+      "at": 1795661682285,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "atvloadly",
           "status": "Running",
@@ -144,36 +174,6 @@
         },
         {
           "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
           "status": "Running",
           "paused": false
         }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 7 minutes (healthy)",
+            "status": "Up 8 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 7 minutes (healthy)",
+        "status": "Up 8 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
