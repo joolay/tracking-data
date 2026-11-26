@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T04:09:57.345Z",
-  "changedAt": "2026-11-26T04:09:57.345Z",
-  "rev": 4629,
-  "sig": "e97b06b8035c6cc38e23137f215bda8d5eeb35361aef03851793837523820855",
+  "at": "2026-11-26T04:10:57.328Z",
+  "changedAt": "2026-11-26T04:10:57.328Z",
+  "rev": 4630,
+  "sig": "4520d3208436c29c35bc5fa175f6271d61f5fee6a96134234a17d0a019f0b085",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795666182565,
+      "at": 1795666242568,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
           "status": "Running",
           "paused": false
         }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 57 minutes (healthy)",
+            "status": "Up 58 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 57 minutes (healthy)",
+        "status": "Up 58 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
