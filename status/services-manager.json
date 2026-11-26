@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T02:46:57.160Z",
-  "changedAt": "2026-11-26T02:46:57.160Z",
-  "rev": 4549,
-  "sig": "89239033f241973b6e0907bc31d9deda37d4ce56942bfac924e289f698f36372",
+  "at": "2026-11-26T02:47:57.170Z",
+  "changedAt": "2026-11-26T02:47:57.170Z",
+  "rev": 4550,
+  "sig": "98396382e29b74386540f094f20da4bcc1914be37111f73d86e6ade8e5ebdd52",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795661202241,
+      "at": 1795661262245,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "gatekeeper",
           "status": "Running",
@@ -174,6 +154,26 @@
         },
         {
           "name": "project-pilot",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 33 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1339,12 +1339,12 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 33 seconds (health: starting)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
         "startedAt": "2026-11-26T02:46:23.866401269Z",
         "finishedAt": "2026-11-26T02:46:23.309367443Z",
         "error": "",
