@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T20:03:59.373Z",
-  "changedAt": "2026-11-26T20:03:59.373Z",
-  "rev": 5549,
-  "sig": "b8d6ba9a6672e077d0d0a06cdad5603f96602fb4d7343640ff1c942bf0451fc1",
+  "at": "2026-11-26T20:04:59.377Z",
+  "changedAt": "2026-11-26T20:04:59.377Z",
+  "rev": 5550,
+  "sig": "3cd5ebe22e85fe3602096ee10254537d655f50c55792ae07fa5d201cb63ad70c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795723426520,
+      "at": 1795723486526,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -164,21 +179,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 36 minutes (healthy)",
+            "status": "Up 37 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -610,7 +610,7 @@
             "name": "joolay-openclaw_web_1",
             "image": "ghcr.io/joolay/openclaw:2026.11.10",
             "state": "running",
-            "status": "Up 23 minutes (healthy)",
+            "status": "Up 24 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -706,7 +706,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 36 minutes (healthy)",
+            "status": "Up 37 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-openclaw_web_1",
         "image": "ghcr.io/joolay/openclaw:2026.11.10",
         "state": "running",
-        "status": "Up 23 minutes (healthy)",
+        "status": "Up 24 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -999,7 +999,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 36 minutes (healthy)",
+        "status": "Up 37 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1015,7 +1015,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 36 minutes (healthy)",
+        "status": "Up 37 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
