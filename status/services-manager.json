@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T10:41:58.290Z",
-  "changedAt": "2026-11-26T10:41:58.290Z",
-  "rev": 5002,
-  "sig": "aba5ab1dfafcb417a486e61b47347e2038e32a02297c2ab00f27361392100661",
+  "at": "2026-11-26T10:42:58.294Z",
+  "changedAt": "2026-11-26T10:42:58.294Z",
+  "rev": 5003,
+  "sig": "0815ca676dc45851acc13891ce5571b788fbefc97814c28a0e8908233debbc62",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795689704066,
+      "at": 1795689764073,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -164,21 +179,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -946,7 +946,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1383,7 +1383,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
