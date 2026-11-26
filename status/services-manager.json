@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T02:44:57.161Z",
-  "changedAt": "2026-11-26T02:44:57.161Z",
-  "rev": 4548,
-  "sig": "795095cc60780df232f91a6013527fa48ddaec94fbb1ae45f250ddf9b67e00e9",
+  "at": "2026-11-26T02:46:57.160Z",
+  "changedAt": "2026-11-26T02:46:57.160Z",
+  "rev": 4549,
+  "sig": "89239033f241973b6e0907bc31d9deda37d4ce56942bfac924e289f698f36372",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795661082230,
+      "at": 1795661202241,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -32,23 +32,38 @@
         "image": "almeidapaulopt/tsdproxy:2",
         "imageId": "33631a10f74b",
         "running": true,
-        "startedAt": "2026-11-24T01:48:49.472003439Z",
+        "startedAt": "2026-11-26T02:46:23.866401269Z",
         "version": "",
         "created": ""
       },
       "proxies": [
         {
-          "name": "services-manager",
+          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "diner-bell",
+          "name": "kokoro",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "atvloadly",
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
           "status": "Running",
           "paused": false
         },
@@ -58,12 +73,32 @@
           "paused": false
         },
         {
-          "name": "listify",
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portal",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
           "status": "Running",
           "paused": false
         },
         {
           "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
           "status": "Running",
           "paused": false
         },
@@ -78,12 +113,32 @@
           "paused": false
         },
         {
-          "name": "gatekeeper",
+          "name": "yuvomi",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "open-webui",
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
           "status": "Running",
           "paused": false
         },
@@ -98,47 +153,27 @@
           "paused": false
         },
         {
-          "name": "adguard-home",
+          "name": "atvloadly",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "paperclip",
+          "name": "services-manager",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "kokoro",
+          "name": "diner-bell",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "tv-remote",
+          "name": "port-master",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
+          "name": "project-pilot",
           "status": "Running",
           "paused": false
         }
@@ -882,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 2 days (healthy)",
+            "status": "Up 33 seconds (health: starting)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1304,14 +1339,14 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 2 days (healthy)",
+        "status": "Up 33 seconds (health: starting)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-24T01:48:49.472003439Z",
-        "finishedAt": "2026-11-24T01:48:48.795139781Z",
+        "health": "starting",
+        "startedAt": "2026-11-26T02:46:23.866401269Z",
+        "finishedAt": "2026-11-26T02:46:23.309367443Z",
         "error": "",
         "problem": false
       },
