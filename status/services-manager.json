@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T14:43:58.827Z",
-  "changedAt": "2026-11-26T14:43:58.827Z",
-  "rev": 5232,
-  "sig": "33e29139a02168a057d2bd312587bdbbe40c23a645dc7d116aa67937d304dae7",
+  "at": "2026-11-26T14:44:58.823Z",
+  "changedAt": "2026-11-26T14:44:58.823Z",
+  "rev": 5233,
+  "sig": "b9e9a38f5da3f4d3541c7692cd522a35ad47a381ebd7d92ba49f80571a2300ac",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795704225069,
+      "at": 1795704285075,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,56 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -129,56 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
           "status": "Running",
           "paused": false
         }
@@ -802,7 +802,7 @@
             "name": "tailscale_web_1",
             "image": "tailscale/tailscale:v1.104.7@sha256:[hidden]",
             "state": "running",
-            "status": "Up 5 days",
+            "status": "Up 6 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1322,7 +1322,7 @@
         "name": "tailscale_web_1",
         "image": "tailscale/tailscale:v1.104.7@sha256:[hidden]",
         "state": "running",
-        "status": "Up 5 days",
+        "status": "Up 6 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
