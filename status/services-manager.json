@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T03:56:57.334Z",
-  "changedAt": "2026-11-26T03:56:57.334Z",
-  "rev": 4616,
-  "sig": "a6332ab10a81f54d684dc96e8497737516afbb3ce5ca4e641197a5b74d02e492",
+  "at": "2026-11-26T03:57:57.316Z",
+  "changedAt": "2026-11-26T03:57:57.316Z",
+  "rev": 4617,
+  "sig": "ce12bf0f0899bc1f74892383a24d47fd768110994fcb2e86ce94076e9518eb5c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795665402529,
+      "at": 1795665462533,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,51 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "wallos",
           "status": "Running",
@@ -174,6 +129,51 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -653,7 +653,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.2",
             "state": "running",
-            "status": "Up 59 minutes (healthy)",
+            "status": "Up About an hour (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 44 minutes (healthy)",
+            "status": "Up 45 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.2",
         "state": "running",
-        "status": "Up 59 minutes (healthy)",
+        "status": "Up About an hour (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 44 minutes (healthy)",
+        "status": "Up 45 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
