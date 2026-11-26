@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T08:45:57.901Z",
-  "changedAt": "2026-11-26T08:45:57.901Z",
-  "rev": 4891,
-  "sig": "12874b9c3a9626732876e0b6fda3cc89b7aa3b513c69353f5c339600a5f3d9c6",
+  "at": "2026-11-26T08:46:57.908Z",
+  "changedAt": "2026-11-26T08:46:57.908Z",
+  "rev": 4892,
+  "sig": "0ce8209648bc374eccfadf8643d4fdef2acfc284652b5944090ed9321fee7ed8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795682743623,
+      "at": 1795682803625,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kiosk-manager",
           "status": "Running",
@@ -174,11 +179,6 @@
         },
         {
           "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -337,7 +337,7 @@
             "name": "joolay-gym-guru_web_1",
             "image": "ghcr.io/joolay/gym-guru:1.0.0",
             "state": "running",
-            "status": "Up 30 minutes",
+            "status": "Up 31 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 23 minutes (healthy)",
+            "status": "Up 24 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -682,7 +682,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.3",
             "state": "running",
-            "status": "Up 58 minutes (healthy)",
+            "status": "Up 59 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -706,7 +706,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 23 minutes (healthy)",
+            "status": "Up 24 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.4",
         "state": "running",
-        "status": "Up 23 minutes (healthy)",
+        "status": "Up 24 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -999,7 +999,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.4",
         "state": "running",
-        "status": "Up 23 minutes (healthy)",
+        "status": "Up 24 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1015,7 +1015,7 @@
         "name": "joolay-gym-guru_web_1",
         "image": "ghcr.io/joolay/gym-guru:1.0.0",
         "state": "running",
-        "status": "Up 30 minutes",
+        "status": "Up 31 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1030,7 +1030,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.3",
         "state": "running",
-        "status": "Up 58 minutes (healthy)",
+        "status": "Up 59 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
