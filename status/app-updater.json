@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T19:27:07.917Z",
-  "changedAt": "2026-11-26T19:27:07.917Z",
-  "rev": 5241,
-  "sig": "f7bcbe4e78700a54c88e7a4cb48119ca42d6606449375e2365c403fd155e734c",
+  "at": "2026-11-26T19:28:04.073Z",
+  "changedAt": "2026-11-26T19:28:04.073Z",
+  "rev": 5242,
+  "sig": "8a87581c86168e62a6967eea40f298cc5dc12c2cfb626a3a2b8066762315e72e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -185,8 +185,8 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
-        "version": "0.43.4",
-        "latest": "0.43.4",
+        "version": "0.43.5",
+        "latest": "0.43.5",
         "update": false,
         "state": "ready",
         "store": {
@@ -200,9 +200,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795681327603,
-          "from": "0.43.3",
-          "to": "0.43.4"
+          "at": 1795721248858,
+          "from": "0.43.4",
+          "to": "0.43.5"
         },
         "waiting": false
       },
@@ -399,8 +399,8 @@
       {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
-        "version": "0.43.4",
-        "latest": "0.43.4",
+        "version": "0.43.5",
+        "latest": "0.43.5",
         "update": false,
         "state": "ready",
         "store": {
@@ -414,9 +414,9 @@
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795681341024,
-          "from": "0.43.3",
-          "to": "0.43.4"
+          "at": 1795721262867,
+          "from": "0.43.4",
+          "to": "0.43.5"
         },
         "waiting": false
       },
@@ -588,38 +588,23 @@
         }
       ],
       "error": null,
-      "at": 1795721179632
+      "at": 1795721278640
     },
     "check": {
-      "at": 1795721179770,
+      "at": 1795721278772,
       "error": null,
       "registryProc": "appStore.registry",
-      "registryCount": 399
+      "registryCount": 400
     },
     "repo": {
       "at": 1795721179619,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-portal",
-          "name": "JoolzApp Dashboard",
-          "repo": "0.43.5",
-          "umbrel": "0.43.4",
-          "kind": "update"
-        },
-        {
-          "id": "joolay-openclaw",
-          "name": "OpenClaw",
-          "repo": "2026.11.10",
-          "umbrel": null,
-          "kind": "new"
-        }
-      ]
+      "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795721221361,
+        "at": 1795721281368,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -806,6 +791,60 @@
       }
     },
     "log": [
+      {
+        "t": 1795721262867,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.43.5 (state: ready)"
+      },
+      {
+        "t": 1795721249066,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzApp Dashboard (0 s)"
+      },
+      {
+        "t": 1795721249060,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
+      {
+        "t": 1795721248858,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Dashboard updated to 0.43.5 (state: ready)"
+      },
+      {
+        "t": 1795721239939,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
+      },
+      {
+        "t": 1795721239938,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.43.4 → 0.43.5"
+      },
+      {
+        "t": 1795721239937,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Dashboard 0.43.4 → 0.43.5"
+      },
+      {
+        "t": 1795721239936,
+        "level": "ok",
+        "appId": "joolay-openclaw",
+        "message": "umbrelOS now sees OpenClaw 2026.11.10"
+      },
+      {
+        "t": 1795721239936,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "umbrelOS now sees JoolzApp Dashboard 0.43.5"
+      },
       {
         "t": 1795721179622,
         "level": "warn",
@@ -1111,60 +1150,6 @@
         "level": "ok",
         "appId": "joolay-portal",
         "message": "umbrelOS now sees JoolzApp Dashboard 0.43.1"
-      },
-      {
-        "t": 1795666883927,
-        "level": "warn",
-        "appId": "joolay-portal-admin",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Portal Admin 0.43.1 (umbrelOS lists 0.43.0)"
-      },
-      {
-        "t": 1795666762537,
-        "level": "warn",
-        "appId": "joolay-portal",
-        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.43.1 (umbrelOS lists 0.43.0)"
-      },
-      {
-        "t": 1795665369283,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795664529251,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795662549179,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795661839968,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Port Master (0 s)"
-      },
-      {
-        "t": 1795661839764,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "Port Master updated to 1.10.2 (state: ready)"
-      },
-      {
-        "t": 1795661821577,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Updating Port Master (detected, updating straight away)…"
-      },
-      {
-        "t": 1795661821576,
-        "level": "info",
-        "appId": "joolay-routing-reporter",
-        "message": "Update available: Port Master 1.10.1 → 1.10.2"
       }
     ],
     "diagnose": [
