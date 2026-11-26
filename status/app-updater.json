@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T03:55:05.237Z",
-  "changedAt": "2026-11-26T03:55:05.237Z",
-  "rev": 4410,
-  "sig": "236f47c4d4b13b78fc4dc0696c49496e094938c92407551ff3adf8c61cc40e63",
+  "at": "2026-11-26T03:57:05.265Z",
+  "changedAt": "2026-11-26T03:57:05.265Z",
+  "rev": 4411,
+  "sig": "eb251f001cfdbdb5c89942d1caa8770c7dc2c895e3fbd94fbf39c696eae997b5",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -564,23 +564,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795665244616
+      "at": 1795665366157
     },
     "check": {
-      "at": 1795665244818,
+      "at": 1795665366287,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795665184285,
+      "at": 1795665305820,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795665297526,
+        "at": 1795665417530,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -604,6 +604,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "kokoro",
             "status": "Running",
@@ -733,16 +743,6 @@
             "name": "port-master",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -762,6 +762,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795665369283,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795664529251,
         "level": "warn",
@@ -1115,12 +1121,6 @@
         "level": "ok",
         "appId": "joolay-theme-editor",
         "message": "umbrelOS now sees Theme Editor 1.1.1"
-      },
-      {
-        "t": 1795642944146,
-        "level": "ok",
-        "appId": "joolay-shutterworth",
-        "message": "umbrelOS now sees ShutterWorth 1.9.0"
       }
     ],
     "diagnose": [
