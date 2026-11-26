@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T04:27:57.371Z",
-  "changedAt": "2026-11-26T04:27:57.371Z",
-  "rev": 4647,
-  "sig": "4e9ce43d456a2bb23c5821cda992ef1ee02fd8b26ba075c1bf6f827323d6dddb",
+  "at": "2026-11-26T04:28:57.373Z",
+  "changedAt": "2026-11-26T04:28:57.373Z",
+  "rev": 4648,
+  "sig": "b774c6188dee5522ddd1cfeb84eded134b4bedcf493a1564bebb51576308cd53",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795667262617,
+      "at": 1795667322620,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -144,36 +174,6 @@
         },
         {
           "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 5 minutes (healthy)",
+            "status": "Up 6 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 5 minutes (healthy)",
+            "status": "Up 6 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 5 minutes (healthy)",
+        "status": "Up 6 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -970,7 +970,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 5 minutes (healthy)",
+        "status": "Up 6 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
