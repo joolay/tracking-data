@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T05:15:57.434Z",
-  "changedAt": "2026-11-26T05:15:57.434Z",
-  "rev": 4695,
-  "sig": "87e1797762838d3e7f58f6066aa90b650e6e87f300bede40fc1246b90bd8d214",
+  "at": "2026-11-26T05:16:57.414Z",
+  "changedAt": "2026-11-26T05:16:57.414Z",
+  "rev": 4696,
+  "sig": "c88c94076af29b8683a35a903e86769957697ce247b113d3f30df58aea715718",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795670142702,
+      "at": 1795670202702,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 53 minutes (healthy)",
+            "status": "Up 54 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -509,7 +509,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.2.0",
             "state": "running",
-            "status": "Up 7 hours",
+            "status": "Up 8 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 53 minutes (healthy)",
+            "status": "Up 54 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 53 minutes (healthy)",
+        "status": "Up 54 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -970,7 +970,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 53 minutes (healthy)",
+        "status": "Up 54 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1080,7 +1080,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.2.0",
         "state": "running",
-        "status": "Up 7 hours",
+        "status": "Up 8 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
