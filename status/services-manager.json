@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T10:13:58.207Z",
-  "changedAt": "2026-11-26T10:13:58.207Z",
-  "rev": 4974,
-  "sig": "fb27edbe44517b2c7c8900af0071001d258a8fc98447f11b24d6c69ea1651226",
+  "at": "2026-11-26T10:14:58.226Z",
+  "changedAt": "2026-11-26T10:14:58.226Z",
+  "rev": 4975,
+  "sig": "f4bc51601c700dd2d6e8ea5acb1ad8086c980aea9b32b942982a6574c363d768",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795688023910,
+      "at": 1795688083915,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -169,16 +179,6 @@
         },
         {
           "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -385,7 +385,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 12 hours",
+            "status": "Up 13 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1155,7 +1155,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 12 hours",
+        "status": "Up 13 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
