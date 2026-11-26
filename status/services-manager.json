@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T14:39:58.818Z",
-  "changedAt": "2026-11-26T14:39:58.818Z",
-  "rev": 5228,
-  "sig": "8981ce66c9e0c1d903d5d3827d2811d4ae7e9d8e9c082208920aa610c51ac9e9",
+  "at": "2026-11-26T14:40:58.815Z",
+  "changedAt": "2026-11-26T14:40:58.815Z",
+  "rev": 5229,
+  "sig": "b7d078c3e56dbf0ac08f2d65328aa9f87aa9aaceb779545b2548b13283b078cf",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795703985050,
+      "at": 1795704045056,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "gym-guru",
           "status": "Running",
@@ -149,36 +179,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
           "status": "Running",
           "paused": false
         }
@@ -433,7 +433,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 19 hours",
+            "status": "Up 20 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1215,7 +1215,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 19 hours",
+        "status": "Up 20 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
