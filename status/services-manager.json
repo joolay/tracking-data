@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T16:38:59.138Z",
-  "changedAt": "2026-11-26T16:38:59.138Z",
-  "rev": 5345,
-  "sig": "3e3b2622266a125d416ef7f64974683106212c88afda96df8b80516960bd2bac",
+  "at": "2026-11-26T16:40:05.078Z",
+  "changedAt": "2026-11-26T16:40:05.078Z",
+  "rev": 5346,
+  "sig": "2a5a93bdc8097e3ed3c6d07eb47c1d7a5268754d2a360c53b333a9359f5934d3",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795711125563,
+      "at": 1795711200563,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -194,8 +194,8 @@
       }
     },
     "summary": {
-      "containers": 30,
-      "running": 29,
+      "containers": 31,
+      "running": 30,
       "problems": []
     },
     "services": [
@@ -304,10 +304,20 @@
         "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "0b81c4f6d3b8",
+            "name": "joolay-gatekeeper_web_1",
+            "image": "ghcr.io/joolay/gatekeeper:1.0.2",
+            "state": "created",
+            "status": "Created",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "umbrel:joolay-gym-guru",
@@ -552,7 +562,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 5 seconds",
+            "status": "Up About a minute",
             "policy": "on-failure",
             "self": false
           }
@@ -868,7 +878,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 15 minutes",
+            "status": "Up 16 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -949,11 +959,27 @@
     ],
     "containers": [
       {
+        "id": "0b81c4f6d3b8",
+        "name": "joolay-gatekeeper_web_1",
+        "image": "ghcr.io/joolay/gatekeeper:1.0.2",
+        "state": "running",
+        "status": "Up 3 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-26T16:40:01.165171343Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "abf26609fccf",
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 5 seconds",
+        "status": "Up About a minute",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -968,7 +994,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 15 minutes",
+        "status": "Up 16 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
