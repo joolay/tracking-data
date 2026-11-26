@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T17:02:13.418Z",
-  "changedAt": "2026-11-26T17:02:13.418Z",
-  "rev": 5078,
-  "sig": "d656019bde29f22bc0df0ac8888df3873827e5d87758150a2264c6b9b406e720",
+  "at": "2026-11-26T17:03:13.413Z",
+  "changedAt": "2026-11-26T17:03:13.413Z",
+  "rev": 5079,
+  "sig": "833b787881144f1b321965ef19d7315a0e2699fca624cb46f736a90484cac569",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,62 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "cctv",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running"
+        },
+        {
+          "name": "port-master",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
         {
           "name": "ollama",
           "status": "Running"
@@ -76,62 +132,6 @@
         {
           "name": "listify",
           "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "cctv",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "port-master",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
         }
       ]
     },
@@ -153,7 +153,36 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "openclaw",
+        "route": "lan",
+        "url": "http://host.docker.internal:18789/",
+        "error": "the app behind it is not answering (503)",
+        "since": 1795712556747
+      },
+      {
+        "app": "openclaw",
+        "route": "local",
+        "url": "http://umbrel.local:18789/",
+        "error": "the app behind it is not answering (503)",
+        "since": 1795712556752
+      },
+      {
+        "app": "openclaw",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:18789/",
+        "error": "the app behind it is not answering (503)",
+        "since": 1795712556754
+      },
+      {
+        "app": "openclaw",
+        "route": "name",
+        "url": "https://openclaw.macaw-chroma.ts.net/",
+        "error": "the app behind it is not answering (503)",
+        "since": 1795712556976
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -454,7 +483,7 @@
         "app": "openclaw",
         "name": "OpenClaw",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       }
     ],
     "apps": [
@@ -1554,38 +1583,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:18789/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 503,
             "error": "the app behind it is not answering (503)",
-            "since": 1795711338531
+            "since": 1795712556747
           },
           {
             "key": "local",
             "url": "http://umbrel.local:18789/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 503,
             "error": "the app behind it is not answering (503)",
-            "since": 1795711338539
+            "since": 1795712556752
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:18789/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 503,
             "error": "the app behind it is not answering (503)",
-            "since": 1795711338540
+            "since": 1795712556754
           },
           {
             "key": "name",
             "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 503,
             "error": "the app behind it is not answering (503)",
-            "since": 1795711338765
+            "since": 1795712556976
           }
         ]
       },
