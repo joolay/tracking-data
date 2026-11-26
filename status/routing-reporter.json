@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T18:23:13.595Z",
-  "changedAt": "2026-11-26T18:23:13.595Z",
-  "rev": 5148,
-  "sig": "eb7909844a8cddba495ec117943b3f2d3d7c9720c238fa40aae456a7805b89bf",
+  "at": "2026-11-26T18:24:13.595Z",
+  "changedAt": "2026-11-26T18:24:13.595Z",
+  "rev": 5149,
+  "sig": "b2dd256b14b65f05bc5a48e794f52b76f6d21711aac74c6d8949e7ec369d9089",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,50 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running"
+        },
+        {
+          "name": "port-master",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "ollama",
+          "status": "Running"
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running"
+        },
         {
           "name": "app-updater",
           "status": "Running"
@@ -88,50 +132,6 @@
         {
           "name": "kiosk-manager",
           "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "port-master",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
         }
       ]
     },
@@ -153,36 +153,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "openclaw",
-        "route": "lan",
-        "url": "http://host.docker.internal:18789/",
-        "error": "the app behind it is not answering (503)",
-        "since": 1795712556747
-      },
-      {
-        "app": "openclaw",
-        "route": "local",
-        "url": "http://umbrel.local:18789/",
-        "error": "the app behind it is not answering (503)",
-        "since": 1795712556752
-      },
-      {
-        "app": "openclaw",
-        "route": "tailscale",
-        "url": "http://100.118.10.62:18789/",
-        "error": "the app behind it is not answering (503)",
-        "since": 1795712556754
-      },
-      {
-        "app": "openclaw",
-        "route": "name",
-        "url": "https://openclaw.macaw-chroma.ts.net/",
-        "error": "the app behind it is not answering (503)",
-        "since": 1795712556976
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -483,7 +454,7 @@
         "app": "openclaw",
         "name": "OpenClaw",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       }
     ],
     "apps": [
@@ -1583,38 +1554,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:18789/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 503,
-            "error": "the app behind it is not answering (503)",
-            "since": 1795712556747
+            "status": 200,
+            "error": "",
+            "since": 1795717430497
           },
           {
             "key": "local",
             "url": "http://umbrel.local:18789/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 503,
-            "error": "the app behind it is not answering (503)",
-            "since": 1795712556752
+            "status": 200,
+            "error": "",
+            "since": 1795717431221
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:18789/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 503,
-            "error": "the app behind it is not answering (503)",
-            "since": 1795712556754
+            "status": 200,
+            "error": "",
+            "since": 1795717430502
           },
           {
             "key": "name",
             "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 503,
-            "error": "the app behind it is not answering (503)",
-            "since": 1795712556976
+            "status": 200,
+            "error": "",
+            "since": 1795717430727
           }
         ]
       },
