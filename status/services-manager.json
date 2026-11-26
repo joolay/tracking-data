@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T19:37:59.355Z",
-  "changedAt": "2026-11-26T19:37:59.355Z",
-  "rev": 5523,
-  "sig": "d73a3f6baccb165eb88b39a0c87cab48ff570a77104c4b4bc76ed2a577f7b6cf",
+  "at": "2026-11-26T19:38:59.335Z",
+  "changedAt": "2026-11-26T19:38:59.335Z",
+  "rev": 5524,
+  "sig": "d60f386b025accd6afd8ed633b537344b65ad79e3b64d208ae8dff74c286ff3f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795721866417,
+      "at": 1795721926419,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 10 minutes (healthy)",
+            "status": "Up 11 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -593,6 +593,20 @@
         ]
       },
       {
+        "key": "umbrel:joolay-openclaw",
+        "kind": "umbrel",
+        "id": "joolay-openclaw",
+        "name": "OpenClaw",
+        "state": "installing",
+        "busy": true,
+        "on": false,
+        "autoStart": true,
+        "policy": null,
+        "pinned": null,
+        "protected": false,
+        "containers": []
+      },
+      {
         "key": "umbrel:paperclip",
         "kind": "umbrel",
         "id": "paperclip",
@@ -682,7 +696,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 10 minutes (healthy)",
+            "status": "Up 11 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -959,7 +973,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 10 minutes (healthy)",
+        "status": "Up 11 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -975,7 +989,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 10 minutes (healthy)",
+        "status": "Up 11 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
