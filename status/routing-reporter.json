@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T03:02:19.116Z",
-  "changedAt": "2026-11-26T03:02:19.116Z",
-  "rev": 4324,
-  "sig": "041e2c95c81675ab7875ac7ee550a150c3c3fd3f1c94a8176f39249c2e6a51e0",
+  "at": "2026-11-26T03:03:19.125Z",
+  "changedAt": "2026-11-26T03:03:19.125Z",
+  "rev": 4325,
+  "sig": "05053dd20398cf073ea6ce5a33b69938e96b381198498037888007e4e9f11734",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,58 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "wallos",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running"
-        },
         {
           "name": "cctv",
           "status": "Running"
@@ -124,6 +72,58 @@
         {
           "name": "adguard-home",
           "status": "Running"
+        },
+        {
+          "name": "tailscale",
+          "status": "Running"
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
         }
       ]
     },
@@ -156,7 +156,43 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-diner-bell",
+        "route": "public",
+        "url": "https://diner-bell.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795662145031
+      },
+      {
+        "app": "joolay-jolly-grocer",
+        "route": "public",
+        "url": "https://jolly-grocer.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795662145204
+      },
+      {
+        "app": "joolay-joolztv",
+        "route": "public",
+        "url": "https://joolztv.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795662145354
+      },
+      {
+        "app": "joolay-portal",
+        "route": "public",
+        "url": "https://joolzapp.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795662145572
+      },
+      {
+        "app": "joolay-project-tracker",
+        "route": "public",
+        "url": "https://project-tracker.macaw-chroma.ts.net/",
+        "error": "connection reset",
+        "since": 1795662145762
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -198,14 +234,14 @@
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3886,
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3887,
@@ -233,14 +269,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3895,
@@ -254,14 +290,14 @@
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3897,
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3898,
@@ -282,14 +318,14 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "checking"
+        "state": "down"
       },
       {
         "port": 3902,
@@ -345,14 +381,14 @@
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3916,
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "published",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3920,
@@ -731,11 +767,11 @@
           {
             "key": "public",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795661846249
+            "since": 1795662145031
           }
         ]
       },
@@ -831,11 +867,11 @@
           {
             "key": "public",
             "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795661846248
+            "since": 1795662145204
           }
         ]
       },
@@ -881,11 +917,11 @@
           {
             "key": "public",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795661846264
+            "since": 1795662145354
           }
         ]
       },
@@ -1029,11 +1065,11 @@
           {
             "key": "public",
             "url": "https://joolzapp.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795661846487
+            "since": 1795662145572
           }
         ]
       },
@@ -1130,11 +1166,11 @@
           {
             "key": "public",
             "url": "https://project-tracker.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection reset",
-            "since": 1795661845718
+            "since": 1795662145762
           }
         ]
       },
