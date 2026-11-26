@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T07:18:57.784Z",
-  "changedAt": "2026-11-26T07:18:57.784Z",
-  "rev": 4810,
-  "sig": "68180e8b67e57fbdcf3de8ab5f11661eb0d257c494bfc8d30bbf459644611703",
+  "at": "2026-11-26T07:19:57.813Z",
+  "changedAt": "2026-11-26T07:19:57.813Z",
+  "rev": 4811,
+  "sig": "c5407ea9c1ea997e4457b09c96e13d8dabf94aebccc30f7f748166b991313fe0",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795677523349,
+      "at": 1795677583353,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -164,16 +174,6 @@
         },
         {
           "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -749,7 +749,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.9.0",
             "state": "running",
-            "status": "Up 9 hours",
+            "status": "Up 10 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -797,7 +797,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.1",
             "state": "running",
-            "status": "Up 9 hours (healthy)",
+            "status": "Up 10 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1018,7 +1018,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.1",
         "state": "running",
-        "status": "Up 9 hours (healthy)",
+        "status": "Up 10 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1034,7 +1034,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.9.0",
         "state": "running",
-        "status": "Up 9 hours",
+        "status": "Up 10 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
