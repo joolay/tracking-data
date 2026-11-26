@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T19:55:59.368Z",
-  "changedAt": "2026-11-26T19:55:59.368Z",
-  "rev": 5541,
-  "sig": "a3e7080c66de74dc625dbb9613a48f9cf2a666857c917421f02b648d59147c28",
+  "at": "2026-11-26T19:56:59.369Z",
+  "changedAt": "2026-11-26T19:56:59.369Z",
+  "rev": 5542,
+  "sig": "8852405f87db82cc32bb8a45cb1683a36a0ecb87c9c572f5298e6386db456122",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795722946488,
+      "at": 1795723006491,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "cctv",
           "status": "Running",
@@ -179,6 +174,11 @@
         },
         {
           "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 28 minutes (healthy)",
+            "status": "Up 29 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -610,7 +610,7 @@
             "name": "joolay-openclaw_web_1",
             "image": "ghcr.io/joolay/openclaw:2026.11.10",
             "state": "running",
-            "status": "Up 15 minutes (healthy)",
+            "status": "Up 16 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -706,7 +706,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 28 minutes (healthy)",
+            "status": "Up 29 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-openclaw_web_1",
         "image": "ghcr.io/joolay/openclaw:2026.11.10",
         "state": "running",
-        "status": "Up 15 minutes (healthy)",
+        "status": "Up 16 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -999,7 +999,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 28 minutes (healthy)",
+        "status": "Up 29 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1015,7 +1015,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 28 minutes (healthy)",
+        "status": "Up 29 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
