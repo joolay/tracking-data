@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T02:52:03.148Z",
-  "changedAt": "2026-11-26T02:52:03.148Z",
-  "rev": 4313,
-  "sig": "2958aa1ff4800f07f0ddcb0c4b9f6d9a324e32c0eb00451c120fe16c5f9e8960",
+  "at": "2026-11-26T02:53:03.142Z",
+  "changedAt": "2026-11-26T02:53:03.142Z",
+  "rev": 4314,
+  "sig": "ed318bd5ad61241d6bfbe684a7542a0d36fb10fd3d5a9be793e9f89c3c611f20",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,14 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
+        },
         {
           "name": "cctv",
           "status": "Running"
@@ -120,14 +128,6 @@
         {
           "name": "openclaw",
           "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running"
         }
       ]
     },
@@ -169,20 +169,6 @@
         "url": "https://joolztv.macaw-chroma.ts.net/",
         "error": "connection reset",
         "since": 1795645723069
-      },
-      {
-        "app": "joolay-portal",
-        "route": "name",
-        "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795643525996
-      },
-      {
-        "app": "joolay-project-tracker",
-        "route": "public",
-        "url": "https://project-pilot.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795644303805
       }
     ],
     "portConflicts": [],
@@ -226,14 +212,14 @@
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3886,
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3887,
@@ -373,14 +359,14 @@
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3916,
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3920,
@@ -1057,11 +1043,11 @@
           {
             "key": "name",
             "url": "https://portal.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795643525996
+            "status": 200,
+            "error": "",
+            "since": 1795661527501
           }
         ]
       },
@@ -1158,11 +1144,11 @@
           {
             "key": "public",
             "url": "https://project-pilot.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795644303805
+            "status": 200,
+            "error": "",
+            "since": 1795661528899
           }
         ]
       },
