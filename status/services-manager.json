@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T21:14:59.571Z",
-  "changedAt": "2026-11-26T21:14:59.571Z",
-  "rev": 5618,
-  "sig": "92eb69db4d1ec8a6711a61c9c1396c94d0a0e4f143e61e66400fcb447c36b09d",
+  "at": "2026-11-26T21:15:59.564Z",
+  "changedAt": "2026-11-26T21:15:59.564Z",
+  "rev": 5619,
+  "sig": "26baaa77e8ffc5f19b804f6c5ecdaa3abe9bd54dd6ce3187a01220f472acc098",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795727686755,
+      "at": 1795727746756,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -149,36 +179,6 @@
         },
         {
           "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
           "status": "Running",
           "paused": false
         }
@@ -490,7 +490,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
             "state": "running",
-            "status": "Up 23 hours (healthy)",
+            "status": "Up 24 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1217,7 +1217,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 23 hours (healthy)",
+        "status": "Up 24 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
