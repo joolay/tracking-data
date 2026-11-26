@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T03:36:57.309Z",
-  "changedAt": "2026-11-26T03:36:57.309Z",
-  "rev": 4598,
-  "sig": "f174d2ab7148cbd4f87c56a17b21dafb5bd10214dcbfed3681d200c7a88c528f",
+  "at": "2026-11-26T03:37:57.276Z",
+  "changedAt": "2026-11-26T03:37:57.276Z",
+  "rev": 4599,
+  "sig": "f35f277f1f389710b52a8f039275a0416a3a5306df0949665177b7fdceff65db",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795664202464,
+      "at": 1795664262468,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,46 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -174,6 +134,46 @@
         },
         {
           "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -653,7 +653,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.2",
             "state": "running",
-            "status": "Up 39 minutes (healthy)",
+            "status": "Up 40 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 24 minutes (healthy)",
+            "status": "Up 25 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.2",
         "state": "running",
-        "status": "Up 39 minutes (healthy)",
+        "status": "Up 40 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 24 minutes (healthy)",
+        "status": "Up 25 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
