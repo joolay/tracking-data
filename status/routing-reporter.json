@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T02:47:03.145Z",
-  "changedAt": "2026-11-26T02:47:03.145Z",
-  "rev": 4309,
-  "sig": "5e1b958d151dcaa99d09d183555510c759b424c8f018f7526ac7cf400e04fe81",
+  "at": "2026-11-26T02:48:03.140Z",
+  "changedAt": "2026-11-26T02:48:03.140Z",
+  "rev": 4310,
+  "sig": "da04cef1b5cc6fa8b111dd90de9712b97cd2d9e77c796b6e2f26c93441d520ca",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,14 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "yuvomi",
+          "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
+        },
         {
           "name": "cctv",
           "status": "Running"
@@ -120,14 +128,6 @@
         {
           "name": "openclaw",
           "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running"
         }
       ]
     },
@@ -149,13 +149,6 @@
     "reportedToPortalAdmin": true,
     "reportError": "",
     "routesDown": [
-      {
-        "app": "joolay-cctv",
-        "route": "name",
-        "url": "https://cctv.macaw-chroma.ts.net/",
-        "error": "timed out",
-        "since": 1795643533170
-      },
       {
         "app": "joolay-diner-bell",
         "route": "name",
@@ -181,36 +174,15 @@
         "app": "joolay-portal",
         "route": "name",
         "url": "https://portal.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
-        "since": 1795643525996
-      },
-      {
-        "app": "joolay-portal-admin",
-        "route": "name",
-        "url": "https://portaladmin.macaw-chroma.ts.net/",
         "error": "timed out",
-        "since": 1795643533972
+        "since": 1795643525996
       },
       {
         "app": "joolay-project-tracker",
         "route": "public",
         "url": "https://project-pilot.macaw-chroma.ts.net/",
-        "error": "name not found (DNS)",
-        "since": 1795644303805
-      },
-      {
-        "app": "joolay-routing-reporter",
-        "route": "name",
-        "url": "https://port-master.macaw-chroma.ts.net/",
         "error": "timed out",
-        "since": 1795643534195
-      },
-      {
-        "app": "joolay-shutterworth",
-        "route": "public",
-        "url": "https://shutterworth.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795643526991
+        "since": 1795644303805
       }
     ],
     "portConflicts": [],
@@ -240,14 +212,14 @@
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3882,
         "app": "joolay-shutterworth",
         "name": "ShutterWorth",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3885,
@@ -275,7 +247,7 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3891,
@@ -331,7 +303,7 @@
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3900,
@@ -352,14 +324,14 @@
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3903,
         "app": "joolay-cctv",
         "name": "JoolzCCTV",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3904,
@@ -380,21 +352,21 @@
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3907,
         "app": "joolay-routing-reporter",
         "name": "Port Master",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3909,
         "app": "joolay-portal-admin",
         "name": "Portal Admin",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3915,
@@ -737,11 +709,11 @@
           {
             "key": "name",
             "url": "https://cctv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795643533170
+            "status": 200,
+            "error": "",
+            "since": 1795661210267
           }
         ]
       },
@@ -1088,7 +1060,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "timed out",
             "since": 1795643525996
           }
         ]
@@ -1136,11 +1108,11 @@
           {
             "key": "name",
             "url": "https://portaladmin.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795643533972
+            "status": 200,
+            "error": "",
+            "since": 1795661210880
           }
         ]
       },
@@ -1189,7 +1161,7 @@
             "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "name not found (DNS)",
+            "error": "timed out",
             "since": 1795644303805
           }
         ]
@@ -1236,11 +1208,11 @@
           {
             "key": "name",
             "url": "https://port-master.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795643534195
+            "status": 200,
+            "error": "",
+            "since": 1795661211975
           }
         ]
       },
@@ -1334,11 +1306,11 @@
           {
             "key": "public",
             "url": "https://shutterworth.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795643526991
+            "status": 200,
+            "error": "",
+            "since": 1795661213075
           }
         ]
       },
