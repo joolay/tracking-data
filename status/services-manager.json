@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T20:36:59.509Z",
-  "changedAt": "2026-11-26T20:36:59.509Z",
-  "rev": 5582,
-  "sig": "1453b8ccca73f0fccbd1707d1c4afc648ff72f693cffc94c4ac4aadb88d74471",
+  "at": "2026-11-26T20:37:59.510Z",
+  "changedAt": "2026-11-26T20:37:59.510Z",
+  "rev": 5583,
+  "sig": "adc38e4ef6d36e3278d99ef51659a1e686f2c7dbc4841af001f5a26042b6320f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795725406662,
+      "at": 1795725466666,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "port-master",
           "status": "Running",
@@ -139,46 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         }
@@ -610,7 +610,7 @@
             "name": "joolay-openclaw_web_1",
             "image": "ghcr.io/joolay/openclaw:2026.11.10",
             "state": "running",
-            "status": "Up 56 minutes (healthy)",
+            "status": "Up 57 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-openclaw_web_1",
         "image": "ghcr.io/joolay/openclaw:2026.11.10",
         "state": "running",
-        "status": "Up 56 minutes (healthy)",
+        "status": "Up 57 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
