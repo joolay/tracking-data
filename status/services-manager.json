@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T22:41:59.734Z",
-  "changedAt": "2026-11-26T22:41:59.734Z",
-  "rev": 5700,
-  "sig": "d1369e6db908c695da9013329bea125727911335b10e1eb68e16287fce685bbe",
+  "at": "2026-11-26T22:42:59.699Z",
+  "changedAt": "2026-11-26T22:42:59.699Z",
+  "rev": 5701,
+  "sig": "3d16da07b1cedd3b9d852bc1444a327a63b67b2675b7796258b2b5092b97603d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795732907269,
+      "at": 1795732967274,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tv-remote",
           "status": "Running",
@@ -169,16 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -946,7 +946,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 19 hours (healthy)",
+            "status": "Up 20 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1384,7 +1384,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 19 hours (healthy)",
+        "status": "Up 20 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
