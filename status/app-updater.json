@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T09:04:05.826Z",
-  "changedAt": "2026-11-26T09:04:05.826Z",
-  "rev": 4691,
-  "sig": "8118aad05206827ddcd27bf8c839b79a75c78d0a5a73eb50cbc1a38d05ffeb05",
+  "at": "2026-11-26T09:06:05.841Z",
+  "changedAt": "2026-11-26T09:06:05.841Z",
+  "rev": 4692,
+  "sig": "85582d1b3f2ea4bf03f788dcd38b24ff41fea6b80551f5e67c69c20698acd050",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -606,23 +606,23 @@
         }
       ],
       "error": null,
-      "at": 1795683830927
+      "at": 1795683953590
     },
     "check": {
-      "at": 1795683831059,
+      "at": 1795683953731,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795683770455,
-      "error": null,
+      "at": 1795683893197,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795683838657,
+        "at": 1795683958659,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,76 +646,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gym-guru",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "joolztv",
             "status": "Running",
@@ -790,6 +720,76 @@
             "name": "shutterworth",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gym-guru",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -809,6 +809,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795683909845,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795682889820,
         "level": "warn",
@@ -1162,12 +1168,6 @@
         "level": "warn",
         "appId": "joolay-routing-reporter",
         "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.2 (umbrelOS lists 1.10.1)"
-      },
-      {
-        "t": 1795660809145,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
       }
     ],
     "diagnose": [
