@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T19:41:59.380Z",
-  "changedAt": "2026-11-26T19:41:59.380Z",
-  "rev": 5527,
-  "sig": "cdeb09fa363b303b2be7be94520e9513cd35cf039aea03801470adb6da982842",
+  "at": "2026-11-26T19:42:59.343Z",
+  "changedAt": "2026-11-26T19:42:59.343Z",
+  "rev": 5528,
+  "sig": "474ecccc1f364979d00c1b56d80595e3029cd973a27dc325a919ea91bfbedcda",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795722106426,
+      "at": 1795722166433,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -164,21 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -610,7 +610,7 @@
             "name": "joolay-openclaw_web_1",
             "image": "ghcr.io/joolay/openclaw:2026.11.10",
             "state": "running",
-            "status": "Up About a minute (health: starting)",
+            "status": "Up 2 minutes (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -706,7 +706,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -946,7 +946,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 16 hours (healthy)",
+            "status": "Up 17 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-openclaw_web_1",
         "image": "ghcr.io/joolay/openclaw:2026.11.10",
         "state": "running",
-        "status": "Up About a minute (health: starting)",
+        "status": "Up 2 minutes (health: starting)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -999,7 +999,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1015,7 +1015,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1384,7 +1384,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 16 hours (healthy)",
+        "status": "Up 17 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
