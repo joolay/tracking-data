@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T06:17:57.652Z",
-  "changedAt": "2026-11-26T06:17:57.652Z",
-  "rev": 4752,
-  "sig": "cc031da7c9954812179c9c1c3615789f3bcbd1e7f1cee4a7f0905071468f33c2",
+  "at": "2026-11-26T06:18:57.661Z",
+  "changedAt": "2026-11-26T06:18:57.661Z",
+  "rev": 4753,
+  "sig": "8d7820d7dce67413c31831a46b6e28e8b94e2ec56a14bc2bfe42f06a402ac3e3",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795673863041,
+      "at": 1795673923049,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "listify",
           "status": "Running",
@@ -174,6 +159,21 @@
         },
         {
           "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
           "status": "Running",
           "paused": false
         }
@@ -701,7 +701,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 8 hours",
+            "status": "Up 9 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -725,7 +725,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 8 hours (healthy)",
+            "status": "Up 9 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1049,7 +1049,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 8 hours (healthy)",
+        "status": "Up 9 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1065,7 +1065,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 8 hours",
+        "status": "Up 9 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
