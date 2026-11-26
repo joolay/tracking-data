@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T02:17:57.084Z",
-  "changedAt": "2026-11-26T02:17:57.084Z",
-  "rev": 4527,
-  "sig": "eda0974ce320d3d3d54c6f9aba23c9de038d1881d1a1c7d959931c33c4195552",
+  "at": "2026-11-26T02:18:57.086Z",
+  "changedAt": "2026-11-26T02:18:57.086Z",
+  "rev": 4528,
+  "sig": "b2954704b9bd19d7715d51b62dd41dbb5612176fd77b9f56aa70b8e5ec19c164",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795659462082,
+      "at": 1795659522089,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "pocketbase",
           "status": "Running",
@@ -139,6 +109,36 @@
         },
         {
           "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
           "status": "Running",
           "paused": false
         }
@@ -666,7 +666,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 4 hours",
+            "status": "Up 5 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -690,7 +690,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 4 hours (healthy)",
+            "status": "Up 5 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -966,7 +966,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 4 hours (healthy)",
+        "status": "Up 5 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -982,7 +982,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 4 hours",
+        "status": "Up 5 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
