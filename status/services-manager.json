@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T03:07:57.207Z",
-  "changedAt": "2026-11-26T03:07:57.207Z",
-  "rev": 4570,
-  "sig": "650bbe52fc9718529754da7e31bb1f02084a843624279bdd9e3276e5f804ceb6",
+  "at": "2026-11-26T03:09:57.238Z",
+  "changedAt": "2026-11-26T03:09:57.238Z",
+  "rev": 4571,
+  "sig": "91cbb1597c81e4a394b98c4b46195bef0ff42aaf1f5cb9bf317846db869f6b90",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795662462352,
+      "at": 1795662582361,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "ollama",
           "status": "Running",
@@ -169,6 +159,16 @@
         },
         {
           "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
           "status": "Running",
           "paused": false
         }
@@ -648,7 +648,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.2",
             "state": "running",
-            "status": "Up 10 minutes (healthy)",
+            "status": "Up 12 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -912,7 +912,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 21 minutes (healthy)",
+            "status": "Up 23 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -949,7 +949,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.2",
         "state": "running",
-        "status": "Up 10 minutes (healthy)",
+        "status": "Up 12 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1334,7 +1334,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 21 minutes (healthy)",
+        "status": "Up 23 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
