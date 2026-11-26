@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T08:17:12.395Z",
-  "changedAt": "2026-11-26T08:17:12.395Z",
-  "rev": 4618,
-  "sig": "606fd3aefaad457b4169ca58a1dc5e4fb9e2f496c15024b8cb08914f7627b505",
+  "at": "2026-11-26T08:18:12.400Z",
+  "changedAt": "2026-11-26T08:18:12.400Z",
+  "rev": 4619,
+  "sig": "7ba46cfd8a17016d90f24293fe1c599699f08cb84078366e460fcb19b3594257",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -18,15 +18,27 @@
       "writeError": "",
       "proxies": [
         {
+          "name": "joolzapp",
+          "status": "Running"
+        },
+        {
+          "name": "paperclip",
+          "status": "Running"
+        },
+        {
+          "name": "wallos",
+          "status": "Running"
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running"
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running"
+        },
+        {
           "name": "app-updater",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
           "status": "Running"
         },
         {
@@ -38,11 +50,51 @@
           "status": "Running"
         },
         {
-          "name": "tv-remote",
+          "name": "gym-guru",
           "status": "Running"
         },
         {
           "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
           "status": "Running"
         },
         {
@@ -58,39 +110,7 @@
           "status": "Running"
         },
         {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
           "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "tailscale",
-          "status": "Running"
-        },
-        {
-          "name": "ollama",
-          "status": "Running"
-        },
-        {
-          "name": "joolzapp",
           "status": "Running"
         },
         {
@@ -102,38 +122,22 @@
           "status": "Running"
         },
         {
-          "name": "listify",
+          "name": "yuvomi",
           "status": "Running"
         },
         {
-          "name": "wallos",
+          "name": "tailscale",
           "status": "Running"
         },
         {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running"
-        },
-        {
-          "name": "paperclip",
+          "name": "ollama",
           "status": "Running"
         }
       ]
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 26,
+      "keptByPortMaster": 27,
       "withoutName": 0,
       "problems": [],
       "lastError": "",
@@ -360,6 +364,20 @@
         "name": "Gatekeeper",
         "kind": "app",
         "state": "up"
+      },
+      {
+        "port": 3925,
+        "app": "joolay-gym-guru",
+        "name": "Gym Guru",
+        "kind": "app",
+        "state": "checking"
+      },
+      {
+        "port": 3926,
+        "app": "joolay-gym-guru",
+        "name": "Gym Guru",
+        "kind": "published",
+        "state": "checking"
       },
       {
         "port": 5400,
@@ -779,6 +797,56 @@
             "status": 200,
             "error": "",
             "since": 1795679237513
+          }
+        ]
+      },
+      {
+        "id": "joolay-gym-guru",
+        "name": "Gym Guru",
+        "version": "1.0.0",
+        "joolzapp": true,
+        "portal": "auto",
+        "port": 3925,
+        "hostPorts": [
+          3926
+        ],
+        "published": "public",
+        "routes": [
+          {
+            "key": "lan",
+            "url": "http://host.docker.internal:3925/",
+            "state": "up",
+            "ignored": false,
+            "status": 200,
+            "error": "",
+            "since": 1795681058812
+          },
+          {
+            "key": "local",
+            "url": "http://umbrel.local:3925/",
+            "state": "up",
+            "ignored": false,
+            "status": 200,
+            "error": "",
+            "since": 1795681058820
+          },
+          {
+            "key": "tailscale",
+            "url": "http://100.118.10.62:3925/",
+            "state": "up",
+            "ignored": false,
+            "status": 200,
+            "error": "",
+            "since": 1795681058792
+          },
+          {
+            "key": "public",
+            "url": "https://gym-guru.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795681062638
           }
         ]
       },
