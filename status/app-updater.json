@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T00:16:04.548Z",
-  "changedAt": "2026-11-26T00:16:04.548Z",
-  "rev": 4213,
-  "sig": "7a4681396914e57ee046abff55054a8c80e6390fbd109ea5b99ac330b1d7387e",
+  "at": "2026-11-26T00:17:04.553Z",
+  "changedAt": "2026-11-26T00:17:04.553Z",
+  "rev": 4214,
+  "sig": "f264100092b8c9ca5466c819d9f39d8e8b32e2e1336d628778a26adfbf1c8afa",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -89,10 +89,10 @@
         "waiting": false
       },
       {
-        "id": "openclaw",
-        "name": "OpenClaw",
-        "version": "2026.11.4",
-        "latest": "2026.11.7",
+        "id": "open-webui",
+        "name": "Open WebUI",
+        "version": "0.13.4",
+        "latest": "0.13.5",
         "update": true,
         "state": "ready",
         "store": {
@@ -102,7 +102,25 @@
         "mode": "off",
         "hidden": false,
         "busy": false,
-        "detectedAt": 1795643406894,
+        "detectedAt": 1795652212533,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "version": "2026.11.4",
+        "latest": "2026.11.10",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795652212535,
         "result": null,
         "waiting": false
       },
@@ -331,24 +349,6 @@
         "waiting": false
       },
       {
-        "id": "open-webui",
-        "name": "Open WebUI",
-        "version": "0.13.4",
-        "latest": "0.13.4",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "paperclip",
         "name": "Paperclip",
         "version": "2026.1106.0",
@@ -559,10 +559,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795652152223
+      "at": 1795652212545
     },
     "check": {
-      "at": 1795652152362,
+      "at": 1795652212671,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -575,7 +575,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795652156790,
+        "at": 1795652216793,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,41 +599,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "ollama",
             "status": "Running",
@@ -703,6 +668,41 @@
             "name": "atvloadly",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -722,6 +722,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795652212535,
+        "level": "info",
+        "appId": "openclaw",
+        "message": "Update available: OpenClaw 2026.11.4 → 2026.11.10"
+      },
+      {
+        "t": 1795652212535,
+        "level": "info",
+        "appId": "open-webui",
+        "message": "Update available: Open WebUI 0.13.4 → 0.13.5"
+      },
       {
         "t": 1795645207581,
         "level": "warn",
@@ -1069,18 +1081,6 @@
         "level": "warn",
         "appId": "joolay-theme-editor",
         "message": "New version on the repo, umbrelOS has not seen it yet: Theme Editor 1.1.1 (umbrelOS lists 1.1.0)"
-      },
-      {
-        "t": 1795642762753,
-        "level": "warn",
-        "appId": "joolay-shutterworth",
-        "message": "New version on the repo, umbrelOS has not seen it yet: ShutterWorth 1.9.0 (umbrelOS lists 1.8.2)"
-      },
-      {
-        "t": 1795642762752,
-        "level": "warn",
-        "appId": "joolay-services-manager",
-        "message": "New version on the repo, umbrelOS has not seen it yet: Services Manager 1.4.1 (umbrelOS lists 1.4.0)"
       }
     ],
     "diagnose": [
