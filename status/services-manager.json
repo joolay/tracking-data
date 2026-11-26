@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T13:15:58.597Z",
-  "changedAt": "2026-11-26T13:15:58.597Z",
-  "rev": 5147,
-  "sig": "bc74a49a630f6a028f2e8104a58d5bdbc05e9248eb753a44dde103520553c0ce",
+  "at": "2026-11-26T13:16:58.623Z",
+  "changedAt": "2026-11-26T13:16:58.623Z",
+  "rev": 5148,
+  "sig": "4608ca98410c0db158bd8aa196e5ea943d0e3d606913c7020785cfe1f650ca5f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795698944629,
+      "at": 1795699004635,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -174,11 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
           "status": "Running",
           "paused": false
         }
@@ -538,7 +538,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.2.0",
             "state": "running",
-            "status": "Up 15 hours",
+            "status": "Up 16 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1124,7 +1124,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.2.0",
         "state": "running",
-        "status": "Up 15 hours",
+        "status": "Up 16 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
