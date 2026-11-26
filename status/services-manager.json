@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T18:18:59.244Z",
-  "changedAt": "2026-11-26T18:18:59.244Z",
-  "rev": 5445,
-  "sig": "d8833d97b13b85f35d571639ac7a6a9f60b0cf0018493bdf647594e6c553c670",
+  "at": "2026-11-26T18:19:59.235Z",
+  "changedAt": "2026-11-26T18:19:59.235Z",
+  "rev": 5446,
+  "sig": "7a8dffe106f559ddc4524e589e8bc4a506c12270025ef9cf4b4da21f3fdf7f21",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795717126049,
+      "at": 1795717186055,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -179,6 +169,16 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -778,7 +778,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.9.0",
             "state": "running",
-            "status": "Up 20 hours",
+            "status": "Up 21 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -826,7 +826,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.1",
             "state": "running",
-            "status": "Up 20 hours (healthy)",
+            "status": "Up 21 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1139,7 +1139,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.1",
         "state": "running",
-        "status": "Up 20 hours (healthy)",
+        "status": "Up 21 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1155,7 +1155,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.9.0",
         "state": "running",
-        "status": "Up 20 hours",
+        "status": "Up 21 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
