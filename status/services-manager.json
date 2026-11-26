@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T18:22:59.244Z",
-  "changedAt": "2026-11-26T18:22:59.244Z",
-  "rev": 5449,
-  "sig": "4b43c6dcc7c5b31f51a06698b83aaf59498ec06f09ecc682a977d803b874c6fb",
+  "at": "2026-11-26T18:23:59.235Z",
+  "changedAt": "2026-11-26T18:23:59.235Z",
+  "rev": 5450,
+  "sig": "f537c176577855ec2124fc9e77589a16d0e9c161b9ef8cbcf7f72b028477d138",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795717366069,
+      "at": 1795717426074,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,41 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -144,41 +179,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
           "status": "Running",
           "paused": false
         }
@@ -610,7 +610,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up About a minute",
+            "status": "Up 2 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up About a minute",
+        "status": "Up 2 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
