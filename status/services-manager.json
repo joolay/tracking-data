@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T16:37:58.955Z",
-  "changedAt": "2026-11-26T16:37:58.955Z",
-  "rev": 5344,
-  "sig": "f500854b6ba7c2d2f0f87dd8a489a1e69385c55949568f461432cd7fb8abcf27",
+  "at": "2026-11-26T16:38:59.138Z",
+  "changedAt": "2026-11-26T16:38:59.138Z",
+  "rev": 5345,
+  "sig": "3e3b2622266a125d416ef7f64974683106212c88afda96df8b80516960bd2bac",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795711065560,
+      "at": 1795711125563,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -194,8 +194,8 @@
       }
     },
     "summary": {
-      "containers": 29,
-      "running": 28,
+      "containers": 30,
+      "running": 29,
       "problems": []
     },
     "services": [
@@ -539,14 +539,24 @@
         "kind": "umbrel",
         "id": "ollama",
         "name": "Ollama",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "abf26609fccf",
+            "name": "ollama_ollama_1",
+            "image": "ollama/ollama:0.40.18@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 5 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "umbrel:open-webui",
@@ -858,7 +868,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 14 minutes",
+            "status": "Up 15 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -939,11 +949,26 @@
     ],
     "containers": [
       {
+        "id": "abf26609fccf",
+        "name": "ollama_ollama_1",
+        "image": "ollama/ollama:0.40.18@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 5 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-26T16:38:53.626840882Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "73ba28cc20df",
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 14 minutes",
+        "status": "Up 15 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
