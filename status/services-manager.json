@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T17:05:59.067Z",
-  "changedAt": "2026-11-26T17:05:59.067Z",
-  "rev": 5372,
-  "sig": "d677d5fbffb6ddfc72bfcd76cf9b0c93adda3b2d476e5149ced81c4c397ae9f9",
+  "at": "2026-11-26T17:06:59.072Z",
+  "changedAt": "2026-11-26T17:06:59.072Z",
+  "rev": 5373,
+  "sig": "e30bef9f54beea79cb2f5edacdcd13256ac6bbaa3e6866a84ebe19342adb1867",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795712745590,
+      "at": 1795712805590,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -159,26 +179,6 @@
         },
         {
           "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
           "status": "Running",
           "paused": false
         }
@@ -313,7 +313,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 25 minutes (healthy)",
+            "status": "Up 26 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -562,7 +562,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 27 minutes",
+            "status": "Up 28 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -586,7 +586,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 18 minutes (healthy)",
+            "status": "Up 19 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -610,7 +610,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 25 minutes",
+            "status": "Up 26 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -898,7 +898,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 42 minutes",
+            "status": "Up 43 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 18 minutes (healthy)",
+        "status": "Up 19 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -999,7 +999,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 25 minutes",
+        "status": "Up 26 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1014,7 +1014,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 25 minutes (healthy)",
+        "status": "Up 26 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1030,7 +1030,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 27 minutes",
+        "status": "Up 28 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1045,7 +1045,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 42 minutes",
+        "status": "Up 43 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
