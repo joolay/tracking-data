@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T04:21:57.340Z",
-  "changedAt": "2026-11-26T04:21:57.340Z",
-  "rev": 4641,
-  "sig": "2cca753404003de00192e00b33dc053df68eeb490291b2593a874aae9a49700a",
+  "at": "2026-11-26T04:22:57.362Z",
+  "changedAt": "2026-11-26T04:22:57.362Z",
+  "rev": 4642,
+  "sig": "05c4281337f49bc7396a9078709114d2987ceb7b29bd6cdacde1d5889ef607c2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795666902601,
+      "at": 1795666962602,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,41 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -174,6 +139,41 @@
         },
         {
           "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -376,11 +376,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "6f4e1104365c",
+            "id": "1ff66facc178",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.0",
+            "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 26 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -673,11 +673,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "20c104a1c35d",
+            "id": "8ab99ca82233",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.0",
+            "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 12 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -950,6 +950,38 @@
     ],
     "containers": [
       {
+        "id": "8ab99ca82233",
+        "name": "joolay-portal-admin_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.1",
+        "state": "running",
+        "status": "Up 12 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-26T04:22:44.471319987Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "1ff66facc178",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.1",
+        "state": "running",
+        "status": "Up 26 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-26T04:22:31.050476728Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "57d87397c134",
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.2",
@@ -1044,22 +1076,6 @@
         "problem": false
       },
       {
-        "id": "20c104a1c35d",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.0",
-        "state": "running",
-        "status": "Up 7 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-25T21:47:13.025166641Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "4069ce2c72d3",
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.2.0",
@@ -1086,22 +1102,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-25T21:45:17.860643651Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "6f4e1104365c",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.0",
-        "state": "running",
-        "status": "Up 7 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-25T21:45:02.597221074Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
