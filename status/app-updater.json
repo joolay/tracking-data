@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T16:23:06.689Z",
-  "changedAt": "2026-11-26T16:23:06.689Z",
-  "rev": 5079,
-  "sig": "19627423f4e4eb6f008dd9a13e11570c65564eada2a24d39fa642701aa9f69ee",
+  "at": "2026-11-26T16:24:06.638Z",
+  "changedAt": "2026-11-26T16:24:06.638Z",
+  "rev": 5080,
+  "sig": "b23e6af3a11da69338481b949710859f33257c18da3df824331e5be32dfe422e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -574,14 +574,14 @@
         "version": "2.95.0",
         "latest": "2.95.0",
         "update": false,
-        "state": "updating",
+        "state": "ready",
         "store": {
           "id": "umbrel",
           "name": "Umbrel"
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": null,
         "waiting": false
@@ -606,23 +606,23 @@
         }
       ],
       "error": null,
-      "at": 1795710174364
+      "at": 1795710235427
     },
     "check": {
-      "at": 1795710174485,
+      "at": 1795710235602,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795710114070,
+      "at": 1795710235418,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795710180528,
+        "at": 1795710240530,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,21 +646,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -783,6 +768,21 @@
           },
           {
             "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
             "status": "Running",
             "paused": false
           }
