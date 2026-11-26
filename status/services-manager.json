@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T06:19:57.667Z",
-  "changedAt": "2026-11-26T06:19:57.667Z",
-  "rev": 4754,
-  "sig": "e22049647be02fc58d8e5602c368aba8669aa293df2d4dc1781fc28fd4fdfd4a",
+  "at": "2026-11-26T06:20:57.695Z",
+  "changedAt": "2026-11-26T06:20:57.695Z",
+  "rev": 4755,
+  "sig": "7b8d8afb280f1c72359fa52ab2cdaf99670161438d5468a9cb1a6ffc53aaa22a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795673983053,
+      "at": 1795674043057,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -146,36 +176,6 @@
           "name": "paperclip",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -236,7 +236,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 8 hours (healthy)",
+            "status": "Up 9 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1002,7 +1002,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 8 hours (healthy)",
+        "status": "Up 9 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
