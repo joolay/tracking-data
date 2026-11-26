@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T16:21:06.804Z",
-  "changedAt": "2026-11-26T16:21:06.804Z",
-  "rev": 5077,
-  "sig": "acf6bd52b2e5b11b5fa98a18c79687ab2af19a6905c077a3ddc596407eeb6113",
+  "at": "2026-11-26T16:22:06.636Z",
+  "changedAt": "2026-11-26T16:22:06.636Z",
+  "rev": 5078,
+  "sig": "96d5a4c3e21193f0297348b9ac13d3d0e3c4a197e89a9f6607565d92f1dbce22",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -26,7 +26,7 @@
       "pollSeconds": 60,
       "groupOpen": {
         "other": true,
-        "umbrel": false,
+        "umbrel": true,
         "joolzapp": false
       },
       "ticker": {
@@ -52,97 +52,6 @@
     },
     "apps": [
       {
-        "id": "joolay-gatekeeper",
-        "name": "Gatekeeper",
-        "version": "1.0.0",
-        "latest": "1.0.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795643406894,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "ollama",
-        "name": "Ollama",
-        "version": "0.40.17",
-        "latest": "0.40.18",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795643406894,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "open-webui",
-        "name": "Open WebUI",
-        "version": "0.13.4",
-        "latest": "0.13.5",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795652212533,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "openclaw",
-        "name": "OpenClaw",
-        "version": "2026.11.4",
-        "latest": "2026.11.10",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795652212535,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "yuvomi",
-        "name": "Yuvomi",
-        "version": "2.94.0",
-        "latest": "2.95.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "off",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795643406894,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "adguard-home",
         "name": "AdGuard Home",
         "version": "1.0.0",
@@ -153,7 +62,7 @@
           "id": "umbrel",
           "name": "Umbrel"
         },
-        "mode": "off",
+        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -194,6 +103,25 @@
         "mode": "immediate",
         "hidden": false,
         "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-gatekeeper",
+        "name": "Gatekeeper",
+        "version": "1.0.2",
+        "latest": "1.0.2",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
         "detectedAt": null,
         "result": null,
         "waiting": false
@@ -368,6 +296,60 @@
         "mode": "immediate",
         "hidden": false,
         "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "ollama",
+        "name": "Ollama",
+        "version": "0.40.18",
+        "latest": "0.40.18",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "open-webui",
+        "name": "Open WebUI",
+        "version": "0.13.5",
+        "latest": "0.13.5",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "version": "2026.11.10",
+        "latest": "2026.11.10",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
         "detectedAt": null,
         "result": null,
         "waiting": false
@@ -585,6 +567,24 @@
         "detectedAt": null,
         "result": null,
         "waiting": false
+      },
+      {
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "version": "2.95.0",
+        "latest": "2.95.0",
+        "update": false,
+        "state": "updating",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "off",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
       }
     ],
     "install": {
@@ -606,23 +606,23 @@
         }
       ],
       "error": null,
-      "at": 1795710052936
+      "at": 1795710126353
     },
     "check": {
-      "at": 1795710053126,
+      "at": 1795710126485,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795709992544,
+      "at": 1795710114070,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795710060523,
+        "at": 1795710120526,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,31 +646,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "port-master",
             "status": "Running",
@@ -788,6 +763,26 @@
           },
           {
             "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
             "status": "Running",
             "paused": false
           }
