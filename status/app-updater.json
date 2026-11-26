@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T19:40:07.958Z",
-  "changedAt": "2026-11-26T19:40:07.958Z",
-  "rev": 5253,
-  "sig": "79a3abbf1e8f1d67167d74927f65b748629a6db9ed53c0ec0a2a8d388d413abe",
+  "at": "2026-11-26T19:41:08.223Z",
+  "changedAt": "2026-11-26T19:41:08.223Z",
+  "rev": 5254,
+  "sig": "8a0c1183946040dd22cf16a4d5b097e478bb1e99a03da417e6ea1c72ea74252a",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -342,7 +342,7 @@
         "version": "2026.11.10",
         "latest": "2026.11.10",
         "update": false,
-        "state": "installing",
+        "state": "ready",
         "store": {
           "id": "joolzapp",
           "name": "JoolzApp",
@@ -590,9 +590,31 @@
     ],
     "install": {
       "enabled": true,
-      "queue": [],
+      "queue": [
+        "joolay-gatekeeper",
+        "joolay-gym-guru",
+        "joolay-openclaw"
+      ],
       "waiting": {},
       "last": [
+        {
+          "id": "joolay-openclaw",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795722056931
+        },
+        {
+          "id": "joolay-gym-guru",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795722056930
+        },
+        {
+          "id": "joolay-gatekeeper",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795722056930
+        },
         {
           "id": "joolay-gym-guru",
           "ok": true,
@@ -607,23 +629,23 @@
         }
       ],
       "error": null,
-      "at": 1795721994929
+      "at": 1795722056874
     },
     "check": {
-      "at": 1795721995157,
+      "at": 1795722057221,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 400
     },
     "repo": {
-      "at": 1795721934622,
+      "at": 1795722056864,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795722001423,
+        "at": 1795722061426,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -647,6 +669,76 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gym-guru",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -721,76 +813,6 @@
             "name": "ollama",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gym-guru",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -810,6 +832,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795722056931,
+        "level": "info",
+        "appId": "joolay-openclaw",
+        "message": "Installed joolay-openclaw"
+      },
+      {
+        "t": 1795722056930,
+        "level": "info",
+        "appId": "joolay-gym-guru",
+        "message": "Installed joolay-gym-guru"
+      },
+      {
+        "t": 1795722056930,
+        "level": "info",
+        "appId": "joolay-gatekeeper",
+        "message": "Installed joolay-gatekeeper"
+      },
       {
         "t": 1795721262867,
         "level": "ok",
@@ -1151,31 +1191,13 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Update available: Portal Admin 0.43.0 → 0.43.1"
-      },
-      {
-        "t": 1795666944264,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Dashboard 0.43.0 → 0.43.1"
-      },
-      {
-        "t": 1795666944263,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "umbrelOS now sees Portal Admin 0.43.1"
-      },
-      {
-        "t": 1795666944263,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "umbrelOS now sees JoolzApp Dashboard 0.43.1"
       }
     ],
     "diagnose": [
       {
         "proc": "apps.list",
         "ok": true,
-        "shape": "array(28)"
+        "shape": "array(29)"
       },
       {
         "proc": "apps.list item fields",
