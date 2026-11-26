@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T02:39:05.096Z",
-  "changedAt": "2026-11-26T02:39:05.096Z",
-  "rev": 4338,
-  "sig": "0e694ed334e55fdfe79984239e94852538505b1eead93d8a9954f3109c987ad1",
+  "at": "2026-11-26T02:41:05.262Z",
+  "changedAt": "2026-11-26T02:41:05.262Z",
+  "rev": 4339,
+  "sig": "74df15c4dbb8cdde4e9ba26ff7a69169fff7ce566520dc5e41a00290ca181af4",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -559,23 +559,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795660728203
+      "at": 1795660850883
     },
     "check": {
-      "at": 1795660728393,
+      "at": 1795660851015,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795660667852,
-      "error": null,
+      "at": 1795660790564,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795660737199,
+        "at": 1795660857210,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,11 +599,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -703,6 +698,11 @@
             "name": "openclaw",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -722,6 +722,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795660809145,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795660449135,
         "level": "warn",
@@ -1075,12 +1081,6 @@
         "level": "ok",
         "appId": "joolay-diner-bell",
         "message": "umbrelOS now sees Diner Bell 2.2.0"
-      },
-      {
-        "t": 1795642944141,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "umbrelOS now sees App Updater 1.10.1"
       }
     ],
     "diagnose": [
