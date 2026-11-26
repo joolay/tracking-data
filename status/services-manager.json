@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T16:22:58.960Z",
-  "changedAt": "2026-11-26T16:22:58.960Z",
-  "rev": 5329,
-  "sig": "cb4d84fe80e4d8f5a31c5b7dc3637b08589dc1500904956ae31202dba6a15da8",
+  "at": "2026-11-26T16:23:58.955Z",
+  "changedAt": "2026-11-26T16:23:58.955Z",
+  "rev": 5330,
+  "sig": "bbbc3514147bc41a3ab4cbd73e90cf6303256fb2f8ed667ba014a6f69de39d06",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795710165527,
+      "at": 1795710225530,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -176,6 +156,26 @@
           "name": "listify",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -189,8 +189,8 @@
       }
     },
     "summary": {
-      "containers": 28,
-      "running": 27,
+      "containers": 29,
+      "running": 28,
       "problems": []
     },
     "services": [
@@ -840,14 +840,24 @@
         "kind": "umbrel",
         "id": "yuvomi",
         "name": "Yuvomi",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "73ba28cc20df",
+            "name": "yuvomi_web_1",
+            "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 46 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "docker:app-proxy",
@@ -923,6 +933,21 @@
       }
     ],
     "containers": [
+      {
+        "id": "73ba28cc20df",
+        "name": "yuvomi_web_1",
+        "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 46 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-26T16:23:12.416985475Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "d0c717a52270",
         "name": "joolay-portal-admin_web_1",
