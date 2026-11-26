@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T07:21:57.793Z",
-  "changedAt": "2026-11-26T07:21:57.793Z",
-  "rev": 4813,
-  "sig": "b74ad8a2d304d5bfe6c1ca83f5c4a1821d700306803e7cf1d62b99b3a61dab1d",
+  "at": "2026-11-26T07:22:57.802Z",
+  "changedAt": "2026-11-26T07:22:57.802Z",
+  "rev": 4814,
+  "sig": "c940aae586e8561f5f25229380d43250eb7eb8f3b916e6a38e6f8400e345afba",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795677703357,
+      "at": 1795677763361,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,71 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "wallos",
           "status": "Running",
@@ -109,71 +174,6 @@
         },
         {
           "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -376,11 +376,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "1ff66facc178",
+            "id": "fc76ab00a93a",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.1",
+            "image": "ghcr.io/joolay/portal-admin:0.43.2",
             "state": "running",
-            "status": "Up 3 hours (healthy)",
+            "status": "Up 2 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -533,7 +533,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.17@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -950,6 +950,22 @@
     ],
     "containers": [
       {
+        "id": "fc76ab00a93a",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.2",
+        "state": "running",
+        "status": "Up 2 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-26T07:22:55.27378425Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "8ab99ca82233",
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
@@ -961,22 +977,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-26T04:22:44.471319987Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "1ff66facc178",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.1",
-        "state": "running",
-        "status": "Up 3 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T04:22:31.050476728Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
@@ -1217,7 +1217,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.17@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
