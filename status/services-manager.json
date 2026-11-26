@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T09:14:58.035Z",
-  "changedAt": "2026-11-26T09:14:58.035Z",
-  "rev": 4917,
-  "sig": "97d9d984600efc3668cf67799c26cc2787ed676a3c8b13b7195944570c7f1ec5",
+  "at": "2026-11-26T09:15:58.016Z",
+  "changedAt": "2026-11-26T09:15:58.016Z",
+  "rev": 4918,
+  "sig": "1f4b0197fb87650cf098aff0b5f7dfe7d745becb90fce33e6a1a27d635ea2597",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795684483674,
+      "at": 1795684543681,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -179,6 +164,21 @@
         },
         {
           "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -337,7 +337,7 @@
             "name": "joolay-gym-guru_web_1",
             "image": "ghcr.io/joolay/gym-guru:1.0.0",
             "state": "running",
-            "status": "Up 59 minutes",
+            "status": "Up About an hour",
             "policy": "on-failure",
             "self": false
           }
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 52 minutes (healthy)",
+            "status": "Up 53 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -490,7 +490,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 12 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -706,7 +706,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.4",
             "state": "running",
-            "status": "Up 52 minutes (healthy)",
+            "status": "Up 53 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.4",
         "state": "running",
-        "status": "Up 52 minutes (healthy)",
+        "status": "Up 53 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -999,7 +999,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.4",
         "state": "running",
-        "status": "Up 52 minutes (healthy)",
+        "status": "Up 53 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1015,7 +1015,7 @@
         "name": "joolay-gym-guru_web_1",
         "image": "ghcr.io/joolay/gym-guru:1.0.0",
         "state": "running",
-        "status": "Up 59 minutes",
+        "status": "Up About an hour",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1139,7 +1139,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 11 hours (healthy)",
+        "status": "Up 12 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
