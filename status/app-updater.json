@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T16:40:06.657Z",
-  "changedAt": "2026-11-26T16:40:06.657Z",
-  "rev": 5095,
-  "sig": "cd7a9bce7b7aadf7037f693d02c524161af9275cd79fcfbb9b10681f0012c1b5",
+  "at": "2026-11-26T16:41:06.912Z",
+  "changedAt": "2026-11-26T16:41:06.912Z",
+  "rev": 5096,
+  "sig": "7352fbf53891fa17df9a3527023ac214af43242126c7a6512d717bb143aa58ed",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -113,7 +113,7 @@
         "version": "1.0.2",
         "latest": "1.0.2",
         "update": false,
-        "state": "updating",
+        "state": "ready",
         "store": {
           "id": "joolzapp",
           "name": "JoolzApp",
@@ -121,7 +121,7 @@
         },
         "mode": "off",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": null,
         "waiting": false
@@ -606,23 +606,23 @@
         }
       ],
       "error": null,
-      "at": 1795711146361
+      "at": 1795711207672
     },
     "check": {
-      "at": 1795711146542,
+      "at": 1795711208012,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795711086021,
+      "at": 1795711207662,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795711200563,
+        "at": 1795711260565,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,21 +646,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "gym-guru",
             "status": "Running",
@@ -788,6 +773,21 @@
           },
           {
             "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
             "status": "Running",
             "paused": false
           }
