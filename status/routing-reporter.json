@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T03:16:19.239Z",
-  "changedAt": "2026-11-26T03:16:19.239Z",
-  "rev": 4337,
-  "sig": "c1b053ce98a8a86f5d35ccb52517e169c2eb155011d32eff34050a4318dbca13",
+  "at": "2026-11-26T03:18:19.254Z",
+  "changedAt": "2026-11-26T03:18:19.254Z",
+  "rev": 4338,
+  "sig": "27a68a9642876422223d97931d1f29f73e49f29a97827ca43dc430c20cf5501c",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,14 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
         {
           "name": "cctv",
           "status": "Running"
@@ -128,6 +120,14 @@
         {
           "name": "portaladmin",
           "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
         }
       ]
     },
@@ -137,7 +137,7 @@
       "withoutName": 0,
       "problems": [],
       "lastError": "",
-      "note": "Restarted TSDProxy automatically (try 1) because 2 name(s) were not registered: joolzapp, project-tracker",
+      "note": "",
       "fixed": []
     },
     "intervalMin": 5,
@@ -149,43 +149,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "joolay-diner-bell",
-        "route": "public",
-        "url": "https://diner-bell.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795662145031
-      },
-      {
-        "app": "joolay-jolly-grocer",
-        "route": "public",
-        "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795662145204
-      },
-      {
-        "app": "joolay-joolztv",
-        "route": "public",
-        "url": "https://joolztv.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795662145354
-      },
-      {
-        "app": "joolay-portal",
-        "route": "public",
-        "url": "https://joolzapp.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795662145572
-      },
-      {
-        "app": "joolay-project-tracker",
-        "route": "public",
-        "url": "https://project-tracker.macaw-chroma.ts.net/",
-        "error": "connection reset",
-        "since": 1795662145762
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -227,14 +191,14 @@
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3886,
         "app": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3887,
@@ -262,14 +226,14 @@
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3894,
         "app": "joolay-diner-bell",
         "name": "Diner Bell",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3895,
@@ -283,14 +247,14 @@
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3897,
         "app": "joolay-jolly-grocer",
         "name": "Jolly Grocer",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3898,
@@ -311,14 +275,14 @@
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3901,
         "app": "joolay-joolztv",
         "name": "JoolzTV",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3902,
@@ -374,14 +338,14 @@
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3916,
         "app": "joolay-project-tracker",
         "name": "Project Pilot",
         "kind": "published",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3920,
@@ -760,11 +724,11 @@
           {
             "key": "public",
             "url": "https://diner-bell.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795662145031
+            "status": 200,
+            "error": "",
+            "since": 1795663055760
           }
         ]
       },
@@ -860,11 +824,11 @@
           {
             "key": "public",
             "url": "https://jolly-grocer.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795662145204
+            "status": 200,
+            "error": "",
+            "since": 1795663055933
           }
         ]
       },
@@ -910,11 +874,11 @@
           {
             "key": "public",
             "url": "https://joolztv.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795662145354
+            "status": 200,
+            "error": "",
+            "since": 1795663056113
           }
         ]
       },
@@ -1058,11 +1022,11 @@
           {
             "key": "public",
             "url": "https://joolzapp.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795662145572
+            "status": 200,
+            "error": "",
+            "since": 1795663056353
           }
         ]
       },
@@ -1159,11 +1123,11 @@
           {
             "key": "public",
             "url": "https://project-tracker.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection reset",
-            "since": 1795662145762
+            "status": 200,
+            "error": "",
+            "since": 1795663056732
           }
         ]
       },
