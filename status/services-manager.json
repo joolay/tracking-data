@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T03:26:57.250Z",
-  "changedAt": "2026-11-26T03:26:57.250Z",
-  "rev": 4588,
-  "sig": "6254bb0e160f36b2187577d615d647414ea79851ad7eafd050ef7873f5a693e3",
+  "at": "2026-11-26T03:27:57.251Z",
+  "changedAt": "2026-11-26T03:27:57.251Z",
+  "rev": 4589,
+  "sig": "f8bdaf024df673849ad7e52be6008171259c21786d7b7d422c5c48a7d98d738a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795663602432,
+      "at": 1795663662434,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,31 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -174,6 +149,31 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -653,7 +653,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.2",
             "state": "running",
-            "status": "Up 29 minutes (healthy)",
+            "status": "Up 30 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.2",
         "state": "running",
-        "status": "Up 29 minutes (healthy)",
+        "status": "Up 30 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
