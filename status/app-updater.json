@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T08:19:05.745Z",
-  "changedAt": "2026-11-26T08:19:05.745Z",
-  "rev": 4655,
-  "sig": "b2eab1ae68d21a57130816c86cb7fc287cb49f1ffa00d8ffa25aae07efd3c418",
+  "at": "2026-11-26T08:22:05.787Z",
+  "changedAt": "2026-11-26T08:22:05.787Z",
+  "rev": 4656,
+  "sig": "42170992a9af8581513850e8ae2dc88214b82e3811d1cb4f3241836fd07230f2",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -71,6 +71,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal",
+        "name": "JoolzApp Dashboard",
+        "version": "0.43.3",
+        "latest": "0.43.4",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795681319134,
+        "result": {
+          "ok": true,
+          "at": 1795678953937,
+          "from": "0.43.2",
+          "to": "0.43.3"
+        },
+        "waiting": false
+      },
+      {
         "id": "ollama",
         "name": "Ollama",
         "version": "0.40.17",
@@ -122,6 +146,30 @@
         "busy": false,
         "detectedAt": 1795652212535,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.43.3",
+        "latest": "0.43.4",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795681319135,
+        "result": {
+          "ok": true,
+          "at": 1795678969541,
+          "from": "0.43.2",
+          "to": "0.43.3"
+        },
         "waiting": false
       },
       {
@@ -252,30 +300,6 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal",
-        "name": "JoolzApp Dashboard",
-        "version": "0.43.3",
-        "latest": "0.43.3",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795678953937,
-          "from": "0.43.2",
-          "to": "0.43.3"
-        },
         "waiting": false
       },
       {
@@ -433,30 +457,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.43.3",
-        "latest": "0.43.3",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795678969541,
-          "from": "0.43.2",
-          "to": "0.43.3"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.10.0",
@@ -606,23 +606,23 @@
         }
       ],
       "error": null,
-      "at": 1795681136849
+      "at": 1795681258040
     },
     "check": {
-      "at": 1795681137043,
+      "at": 1795681319136,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795681060295,
+      "at": 1795681319133,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795681138563,
+        "at": 1795681318567,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,6 +646,61 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gym-guru",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -735,61 +790,6 @@
             "name": "app-updater",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gym-guru",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -809,6 +809,30 @@
       }
     },
     "log": [
+      {
+        "t": 1795681319137,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
+      },
+      {
+        "t": 1795681319135,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.43.3 → 0.43.4"
+      },
+      {
+        "t": 1795681319134,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Dashboard 0.43.3 → 0.43.4"
+      },
+      {
+        "t": 1795681269899,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795680952435,
         "level": "info",
@@ -1144,37 +1168,13 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795645087567,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795643647159,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795643403106,
-        "level": "ok",
-        "appId": "joolay-app-updater",
-        "message": "App Updater updated itself: 1.10.0 → 1.10.1. Checking has resumed."
-      },
-      {
-        "t": 1795643378471,
-        "level": "info",
-        "appId": "joolay-app-updater",
-        "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.10.0 → 1.10.1…"
       }
     ],
     "diagnose": [
       {
         "proc": "apps.list",
         "ok": true,
-        "shape": "array(28)"
+        "shape": "array(29)"
       },
       {
         "proc": "apps.list item fields",
