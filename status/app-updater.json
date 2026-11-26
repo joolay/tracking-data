@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T07:22:05.616Z",
-  "changedAt": "2026-11-26T07:22:05.616Z",
-  "rev": 4603,
-  "sig": "ed97a539eec058867dc3f37f451bd6dc2c3b34e182f6761761bf587da4eb84ce",
+  "at": "2026-11-26T07:22:56.528Z",
+  "changedAt": "2026-11-26T07:22:56.528Z",
+  "rev": 4604,
+  "sig": "ef3bc84a51222f84b1f79ed2dcd0f392d4ba6e0a65fb748bf55331ca20a59e30",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -125,6 +125,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.43.1",
+        "latest": "0.43.2",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795677768257,
+        "result": {
+          "ok": true,
+          "at": 1795666965572,
+          "from": "0.43.0",
+          "to": "0.43.1"
+        },
+        "waiting": false
+      },
+      {
         "id": "yuvomi",
         "name": "Yuvomi",
         "version": "2.94.0",
@@ -238,8 +262,8 @@
       {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
-        "version": "0.43.1",
-        "latest": "0.43.1",
+        "version": "0.43.2",
+        "latest": "0.43.2",
         "update": false,
         "state": "ready",
         "store": {
@@ -249,13 +273,13 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": false,
+        "busy": true,
         "detectedAt": null,
         "result": {
           "ok": true,
-          "at": 1795666952055,
-          "from": "0.43.0",
-          "to": "0.43.1"
+          "at": 1795677776326,
+          "from": "0.43.1",
+          "to": "0.43.2"
         },
         "waiting": false
       },
@@ -414,30 +438,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.43.1",
-        "latest": "0.43.1",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795666965572,
-          "from": "0.43.0",
-          "to": "0.43.1"
-        },
-        "waiting": false
-      },
-      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.10.0",
@@ -577,7 +577,7 @@
       "at": 1795677707928
     },
     "check": {
-      "at": 1795677708099,
+      "at": 1795677776523,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 398
@@ -585,20 +585,12 @@
     "repo": {
       "at": 1795677707889,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-portal",
-          "name": "JoolzApp Dashboard",
-          "repo": "0.43.2",
-          "umbrel": "0.43.1",
-          "kind": "update"
-        }
-      ]
+      "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795677718357,
+        "at": 1795677763361,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -622,6 +614,26 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "home-assistant",
             "status": "Running",
@@ -741,26 +753,6 @@
             "name": "openclaw",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -780,6 +772,36 @@
       }
     },
     "log": [
+      {
+        "t": 1795677776326,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Dashboard updated to 0.43.2 (state: ready)"
+      },
+      {
+        "t": 1795677768258,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
+      },
+      {
+        "t": 1795677768257,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Update available: Portal Admin 0.43.1 → 0.43.2"
+      },
+      {
+        "t": 1795677768256,
+        "level": "info",
+        "appId": "joolay-portal",
+        "message": "Update available: JoolzApp Dashboard 0.43.1 → 0.43.2"
+      },
+      {
+        "t": 1795677768255,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "umbrelOS now sees JoolzApp Dashboard 0.43.2"
+      },
       {
         "t": 1795677707890,
         "level": "warn",
@@ -1109,36 +1131,6 @@
         "level": "ok",
         "appId": "joolay-jolly-grocer",
         "message": "Jolly Grocer updated to 1.5.0 (state: ready)"
-      },
-      {
-        "t": 1795643015554,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Diner Bell (2 s)"
-      },
-      {
-        "t": 1795643013171,
-        "level": "info",
-        "appId": "joolay-jolly-grocer",
-        "message": "Updating Jolly Grocer (detected, updating straight away)…"
-      },
-      {
-        "t": 1795643012101,
-        "level": "ok",
-        "appId": "joolay-diner-bell",
-        "message": "Diner Bell updated to 2.2.0 (state: ready)"
-      },
-      {
-        "t": 1795642944155,
-        "level": "info",
-        "appId": "joolay-diner-bell",
-        "message": "Updating Diner Bell (detected, updating straight away)…"
-      },
-      {
-        "t": 1795642944154,
-        "level": "info",
-        "appId": "joolay-tv-remote",
-        "message": "Update available: TV Remote 0.3.0 → 0.3.1"
       }
     ],
     "diagnose": [
