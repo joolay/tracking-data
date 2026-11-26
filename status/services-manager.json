@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T07:42:57.896Z",
-  "changedAt": "2026-11-26T07:42:57.896Z",
-  "rev": 4833,
-  "sig": "928f6f20c24cf3b19c08f5c7d34957cdeca94ee7e488051da2120ec0b9c49b8b",
+  "at": "2026-11-26T07:43:57.832Z",
+  "changedAt": "2026-11-26T07:43:57.832Z",
+  "rev": 4834,
+  "sig": "f6637f00e9896e6ccc03e6ef2d62b007b8ac6a3e07dc06c00a17f54abbbc59a6",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795678963444,
+      "at": 1795679023446,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -149,31 +174,6 @@
         },
         {
           "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "sha256:[hidden]",
             "state": "running",
-            "status": "Up 24 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.3",
             "state": "running",
-            "status": "Up 9 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,12 +954,12 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.3",
         "state": "running",
-        "status": "Up 9 seconds (health: starting)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
         "startedAt": "2026-11-26T07:42:48.494212499Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
@@ -970,12 +970,12 @@
         "name": "joolay-portal_web_1",
         "image": "sha256:[hidden]",
         "state": "running",
-        "status": "Up 25 seconds (health: starting)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
         "startedAt": "2026-11-26T07:42:32.837484116Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
