@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T02:33:05.092Z",
-  "changedAt": "2026-11-26T02:33:05.092Z",
-  "rev": 4334,
-  "sig": "e58c9302e89e7f77736777c4768a76c557599dade939919db00eb75221906a76",
+  "at": "2026-11-26T02:35:05.121Z",
+  "changedAt": "2026-11-26T02:35:05.121Z",
+  "rev": 4335,
+  "sig": "9b6d1e233780ebd532b4a44916f0a2615d432f338bcf7e759a15ccb4f4817641",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -559,23 +559,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795660364056
+      "at": 1795660485465
     },
     "check": {
-      "at": 1795660364211,
+      "at": 1795660485588,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795660303666,
+      "at": 1795660425132,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795660377166,
+        "at": 1795660497178,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,26 +599,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "paperclip",
             "status": "Running",
@@ -703,6 +683,26 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -722,6 +722,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795660449135,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795659308050,
         "level": "warn",
@@ -1075,12 +1081,6 @@
         "level": "ok",
         "appId": "joolay-app-updater",
         "message": "umbrelOS now sees App Updater 1.10.1"
-      },
-      {
-        "t": 1795642762755,
-        "level": "warn",
-        "appId": "joolay-tv-remote",
-        "message": "New version on the repo, umbrelOS has not seen it yet: TV Remote 0.3.1 (umbrelOS lists 0.3.0)"
       }
     ],
     "diagnose": [
