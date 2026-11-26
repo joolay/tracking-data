@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T05:41:57.523Z",
-  "changedAt": "2026-11-26T05:41:57.523Z",
-  "rev": 4720,
-  "sig": "9bc095d0396128c75374f0d40c040b5dcd501f34dea0c933c4d4360519c6d566",
+  "at": "2026-11-26T05:42:57.519Z",
+  "changedAt": "2026-11-26T05:42:57.519Z",
+  "rev": 4721,
+  "sig": "265b7c3b468f91ea0a9e4af0d834250b9a760f33fdc49bb9dbe292655bd5f1fe",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795671702834,
+      "at": 1795671762845,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -174,6 +164,16 @@
         },
         {
           "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 2 hours (healthy)",
+            "status": "Up 3 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 2 hours (healthy)",
+        "status": "Up 3 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
