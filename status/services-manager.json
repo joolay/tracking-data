@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T18:17:59.241Z",
-  "changedAt": "2026-11-26T18:17:59.241Z",
-  "rev": 5444,
-  "sig": "9b7abb732131526f365df431f2864339d7d819d9fa0c2c94f633ebfdc08df22f",
+  "at": "2026-11-26T18:18:59.244Z",
+  "changedAt": "2026-11-26T18:18:59.244Z",
+  "rev": 5445,
+  "sig": "d8833d97b13b85f35d571639ac7a6a9f60b0cf0018493bdf647594e6c553c670",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795717066043,
+      "at": 1795717126049,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -154,31 +179,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -730,7 +730,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 20 hours",
+            "status": "Up 21 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -754,7 +754,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 20 hours (healthy)",
+            "status": "Up 21 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1170,7 +1170,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 20 hours (healthy)",
+        "status": "Up 21 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1186,7 +1186,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 20 hours",
+        "status": "Up 21 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
