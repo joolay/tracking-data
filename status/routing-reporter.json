@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T16:21:13.343Z",
-  "changedAt": "2026-11-26T16:21:13.343Z",
-  "rev": 5039,
-  "sig": "4dbc6235fe5738b9b5dc0350cc1fca82e90ce23866898a7362ac8a5849be5515",
+  "at": "2026-11-26T16:22:13.345Z",
+  "changedAt": "2026-11-26T16:22:13.345Z",
+  "rev": 5040,
+  "sig": "6b1dfd331c65b8f1e27f74ba0bc3a1cbb0470c2c1a8b7488edb30a2622aa1191",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,26 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running"
-        },
         {
           "name": "port-master",
           "status": "Running"
@@ -132,6 +112,22 @@
         {
           "name": "tv-remote",
           "status": "Running"
+        },
+        {
+          "name": "cctv",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
         }
       ]
     },
@@ -139,7 +135,13 @@
       "auto": true,
       "keptByPortMaster": 27,
       "withoutName": 0,
-      "problems": [],
+      "problems": [
+        {
+          "app": "joolay-gatekeeper",
+          "name": "gatekeeper",
+          "state": "unregistered"
+        }
+      ],
       "lastError": "",
       "note": "",
       "fixed": []
@@ -767,8 +769,8 @@
             "url": "http://host.docker.internal:3921/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795679237447
           },
           {
@@ -776,8 +778,8 @@
             "url": "http://umbrel.local:3921/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795679237501
           },
           {
@@ -785,8 +787,8 @@
             "url": "http://100.118.10.62:3921/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection reset",
             "since": 1795679237500
           },
           {
@@ -794,8 +796,8 @@
             "url": "https://gatekeeper.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "timed out",
             "since": 1795679237513
           }
         ]
@@ -1448,7 +1450,7 @@
       {
         "id": "ollama",
         "name": "Ollama",
-        "version": "0.40.17",
+        "version": "0.40.18",
         "joolzapp": false,
         "portal": "off",
         "port": 11434,
@@ -1460,8 +1462,8 @@
             "url": "http://host.docker.internal:11434/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679238969
           },
           {
@@ -1469,8 +1471,8 @@
             "url": "http://umbrel.local:11434/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679238973
           },
           {
@@ -1478,8 +1480,8 @@
             "url": "http://100.118.10.62:11434/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679238971
           },
           {
@@ -1487,8 +1489,8 @@
             "url": "https://ollama.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 502,
+            "error": "the app behind it is not answering (502)",
             "since": 1795679238996
           }
         ]
@@ -1508,8 +1510,8 @@
             "url": "http://host.docker.internal:2876/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679238981
           },
           {
@@ -1517,8 +1519,8 @@
             "url": "http://umbrel.local:2876/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239000
           },
           {
@@ -1526,8 +1528,8 @@
             "url": "http://100.118.10.62:2876/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239002
           },
           {
@@ -1535,8 +1537,8 @@
             "url": "https://open-webui.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 502,
+            "error": "the app behind it is not answering (502)",
             "since": 1795679239031
           }
         ]
@@ -1556,8 +1558,8 @@
             "url": "http://host.docker.internal:18789/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239022
           },
           {
@@ -1565,8 +1567,8 @@
             "url": "http://umbrel.local:18789/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239058
           },
           {
@@ -1574,8 +1576,8 @@
             "url": "http://100.118.10.62:18789/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239045
           },
           {
@@ -1583,8 +1585,8 @@
             "url": "https://openclaw.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 200,
-            "error": "",
+            "status": 502,
+            "error": "the app behind it is not answering (502)",
             "since": 1795679239092
           }
         ]
@@ -1832,7 +1834,7 @@
       {
         "id": "yuvomi",
         "name": "Yuvomi",
-        "version": "2.94.0",
+        "version": "2.95.0",
         "joolzapp": false,
         "portal": "off",
         "port": 8180,
@@ -1844,8 +1846,8 @@
             "url": "http://host.docker.internal:8180/",
             "state": "up",
             "ignored": false,
-            "status": 302,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239191
           },
           {
@@ -1853,8 +1855,8 @@
             "url": "http://umbrel.local:8180/",
             "state": "up",
             "ignored": false,
-            "status": 302,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239203
           },
           {
@@ -1862,8 +1864,8 @@
             "url": "http://100.118.10.62:8180/",
             "state": "up",
             "ignored": false,
-            "status": 302,
-            "error": "",
+            "status": 0,
+            "error": "connection refused (nothing listening)",
             "since": 1795679239201
           },
           {
@@ -1871,8 +1873,8 @@
             "url": "https://yuvomi.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 302,
-            "error": "",
+            "status": 502,
+            "error": "the app behind it is not answering (502)",
             "since": 1795679239224
           }
         ]
