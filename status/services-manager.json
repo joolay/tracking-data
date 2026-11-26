@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T19:17:59.315Z",
-  "changedAt": "2026-11-26T19:17:59.315Z",
-  "rev": 5504,
-  "sig": "fa740ad722cbb8e08b81352aa5b3731dbc241ebbb780173b29fa95774bab0ee7",
+  "at": "2026-11-26T19:18:59.331Z",
+  "changedAt": "2026-11-26T19:18:59.331Z",
+  "rev": 5505,
+  "sig": "f3bed55d59063d5359a7f0e58d3d5467a0d6c8f9acaa311e25afeb684d7e5b20",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795720666314,
+      "at": 1795720726323,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -169,16 +179,6 @@
         },
         {
           "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -706,7 +706,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 21 hours",
+            "status": "Up 22 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -730,7 +730,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 21 hours (healthy)",
+            "status": "Up 22 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1131,7 +1131,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 21 hours (healthy)",
+        "status": "Up 22 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1147,7 +1147,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 21 hours",
+        "status": "Up 22 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
