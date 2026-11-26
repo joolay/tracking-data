@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T16:26:13.358Z",
-  "changedAt": "2026-11-26T16:26:13.358Z",
-  "rev": 5044,
-  "sig": "1663761f8c8f8e9818f65b47742a545be57ceb09fdb4c0aa7ce29e4afd950c06",
+  "at": "2026-11-26T16:27:13.362Z",
+  "changedAt": "2026-11-26T16:27:13.362Z",
+  "rev": 5045,
+  "sig": "9aaf564aae112b7ce5433f100c4e8c2cee07aea3952bf629081cd8f7280cbfed",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,30 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running"
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running"
-        },
         {
           "name": "cctv",
           "status": "Running"
@@ -128,12 +104,36 @@
         {
           "name": "listify",
           "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running"
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running"
         }
       ]
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 27,
+      "keptByPortMaster": 28,
       "withoutName": 0,
       "problems": [
         {
@@ -155,7 +155,120 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "joolay-gatekeeper",
+        "route": "lan",
+        "url": "http://host.docker.internal:3921/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710417291
+      },
+      {
+        "app": "joolay-gatekeeper",
+        "route": "local",
+        "url": "http://umbrel.local:3921/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710417297
+      },
+      {
+        "app": "joolay-gatekeeper",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:3921/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710417162
+      },
+      {
+        "app": "joolay-gatekeeper",
+        "route": "name",
+        "url": "https://gatekeeper.macaw-chroma.ts.net/",
+        "error": "the app behind it is not answering (502)",
+        "since": 1795710426367
+      },
+      {
+        "app": "ollama",
+        "route": "lan",
+        "url": "http://host.docker.internal:11434/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419564
+      },
+      {
+        "app": "ollama",
+        "route": "local",
+        "url": "http://umbrel.local:11434/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419570
+      },
+      {
+        "app": "ollama",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:11434/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419570
+      },
+      {
+        "app": "ollama",
+        "route": "name",
+        "url": "https://ollama.macaw-chroma.ts.net/",
+        "error": "the app behind it is not answering (502)",
+        "since": 1795710419782
+      },
+      {
+        "app": "open-webui",
+        "route": "lan",
+        "url": "http://host.docker.internal:2876/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419737
+      },
+      {
+        "app": "open-webui",
+        "route": "local",
+        "url": "http://umbrel.local:2876/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419740
+      },
+      {
+        "app": "open-webui",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:2876/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419737
+      },
+      {
+        "app": "open-webui",
+        "route": "name",
+        "url": "https://open-webui.macaw-chroma.ts.net/",
+        "error": "the app behind it is not answering (502)",
+        "since": 1795710419964
+      },
+      {
+        "app": "openclaw",
+        "route": "lan",
+        "url": "http://host.docker.internal:18789/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419764
+      },
+      {
+        "app": "openclaw",
+        "route": "local",
+        "url": "http://umbrel.local:18789/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419768
+      },
+      {
+        "app": "openclaw",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:18789/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795710419767
+      },
+      {
+        "app": "openclaw",
+        "route": "name",
+        "url": "https://openclaw.macaw-chroma.ts.net/",
+        "error": "the app behind it is not answering (502)",
+        "since": 1795710419987
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -169,7 +282,7 @@
         "app": "open-webui",
         "name": "Open WebUI",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3093,
@@ -365,7 +478,7 @@
         "app": "joolay-gatekeeper",
         "name": "Gatekeeper",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 3925,
@@ -449,14 +562,14 @@
         "app": "ollama",
         "name": "Ollama",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       },
       {
         "port": 18789,
         "app": "openclaw",
         "name": "OpenClaw",
         "kind": "app",
-        "state": "up"
+        "state": "down"
       }
     ],
     "apps": [
@@ -755,7 +868,7 @@
       {
         "id": "joolay-gatekeeper",
         "name": "Gatekeeper",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "joolzapp": true,
         "portal": "locked",
         "port": 3921,
@@ -767,38 +880,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:3921/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
-            "since": 1795679237447
+            "error": "connection refused (nothing listening)",
+            "since": 1795710417291
           },
           {
             "key": "local",
             "url": "http://umbrel.local:3921/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
-            "since": 1795679237501
+            "error": "connection refused (nothing listening)",
+            "since": 1795710417297
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:3921/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
-            "error": "connection reset",
-            "since": 1795679237500
+            "error": "connection refused (nothing listening)",
+            "since": 1795710417162
           },
           {
             "key": "name",
             "url": "https://gatekeeper.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
-            "status": 0,
-            "error": "timed out",
-            "since": 1795679237513
+            "status": 502,
+            "error": "the app behind it is not answering (502)",
+            "since": 1795710426367
           }
         ]
       },
@@ -1460,45 +1573,45 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:11434/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679238969
+            "since": 1795710419564
           },
           {
             "key": "local",
             "url": "http://umbrel.local:11434/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679238973
+            "since": 1795710419570
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:11434/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679238971
+            "since": 1795710419570
           },
           {
             "key": "name",
             "url": "https://ollama.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 502,
             "error": "the app behind it is not answering (502)",
-            "since": 1795679238996
+            "since": 1795710419782
           }
         ]
       },
       {
         "id": "open-webui",
         "name": "Open WebUI",
-        "version": "0.13.4",
+        "version": "0.13.5",
         "joolzapp": false,
         "portal": "off",
         "port": 2876,
@@ -1508,45 +1621,45 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:2876/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679238981
+            "since": 1795710419737
           },
           {
             "key": "local",
             "url": "http://umbrel.local:2876/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679239000
+            "since": 1795710419740
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:2876/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679239002
+            "since": 1795710419737
           },
           {
             "key": "name",
             "url": "https://open-webui.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 502,
             "error": "the app behind it is not answering (502)",
-            "since": 1795679239031
+            "since": 1795710419964
           }
         ]
       },
       {
         "id": "openclaw",
         "name": "OpenClaw",
-        "version": "2026.11.4",
+        "version": "2026.11.10",
         "joolzapp": false,
         "portal": "off",
         "port": 18789,
@@ -1556,38 +1669,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:18789/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679239022
+            "since": 1795710419764
           },
           {
             "key": "local",
             "url": "http://umbrel.local:18789/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679239058
+            "since": 1795710419768
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:18789/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 0,
             "error": "connection refused (nothing listening)",
-            "since": 1795679239045
+            "since": 1795710419767
           },
           {
             "key": "name",
             "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 502,
             "error": "the app behind it is not answering (502)",
-            "since": 1795679239092
+            "since": 1795710419987
           }
         ]
       },
@@ -1846,8 +1959,8 @@
             "url": "http://host.docker.internal:8180/",
             "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
+            "status": 302,
+            "error": "",
             "since": 1795679239191
           },
           {
@@ -1855,8 +1968,8 @@
             "url": "http://umbrel.local:8180/",
             "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
+            "status": 302,
+            "error": "",
             "since": 1795679239203
           },
           {
@@ -1864,8 +1977,8 @@
             "url": "http://100.118.10.62:8180/",
             "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
+            "status": 302,
+            "error": "",
             "since": 1795679239201
           },
           {
@@ -1873,8 +1986,8 @@
             "url": "https://yuvomi.macaw-chroma.ts.net/",
             "state": "up",
             "ignored": false,
-            "status": 502,
-            "error": "the app behind it is not answering (502)",
+            "status": 302,
+            "error": "",
             "since": 1795679239224
           }
         ]
