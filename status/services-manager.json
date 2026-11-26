@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T17:37:59.141Z",
-  "changedAt": "2026-11-26T17:37:59.141Z",
-  "rev": 5404,
-  "sig": "b8a286cd8c5cc20c3d3e2a055330e28a28c21aa509a20a5d23d49a6c2027dd1d",
+  "at": "2026-11-26T17:38:59.145Z",
+  "changedAt": "2026-11-26T17:38:59.145Z",
+  "rev": 5405,
+  "sig": "41a920b84cfcce71cd5156e8753e0357843122ef2d6f1f3d6d909eead9d7ba53",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795714665797,
+      "at": 1795714725805,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -179,6 +149,36 @@
         },
         {
           "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         }
@@ -313,7 +313,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 57 minutes (healthy)",
+            "status": "Up 58 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -562,7 +562,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 59 minutes",
+            "status": "Up About an hour",
             "policy": "on-failure",
             "self": false
           }
@@ -586,7 +586,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 50 minutes (healthy)",
+            "status": "Up 51 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -610,7 +610,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 25 minutes",
+            "status": "Up 26 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 25 minutes",
+        "status": "Up 26 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -998,7 +998,7 @@
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 50 minutes (healthy)",
+        "status": "Up 51 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1014,7 +1014,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 57 minutes (healthy)",
+        "status": "Up 58 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1030,7 +1030,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 59 minutes",
+        "status": "Up About an hour",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
