@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T19:41:08.223Z",
-  "changedAt": "2026-11-26T19:41:08.223Z",
-  "rev": 5254,
-  "sig": "8a0c1183946040dd22cf16a4d5b097e478bb1e99a03da417e6ea1c72ea74252a",
+  "at": "2026-11-26T19:42:07.968Z",
+  "changedAt": "2026-11-26T19:42:07.968Z",
+  "rev": 5255,
+  "sig": "aa189d896599807a67a50842df97de6c8d92c0984935e42e6c816a7c19ceac3d",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -592,11 +592,29 @@
       "enabled": true,
       "queue": [
         "joolay-gatekeeper",
-        "joolay-gym-guru",
-        "joolay-openclaw"
+        "joolay-openclaw",
+        "joolay-gym-guru"
       ],
       "waiting": {},
       "last": [
+        {
+          "id": "joolay-gym-guru",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795722118344
+        },
+        {
+          "id": "joolay-openclaw",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795722118343
+        },
+        {
+          "id": "joolay-gatekeeper",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795722118343
+        },
         {
           "id": "joolay-openclaw",
           "ok": true,
@@ -629,10 +647,10 @@
         }
       ],
       "error": null,
-      "at": 1795722056874
+      "at": 1795722118300
     },
     "check": {
-      "at": 1795722057221,
+      "at": 1795722118479,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 400
@@ -645,7 +663,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795722061426,
+        "at": 1795722121427,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -669,6 +687,11 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "joolzapp",
             "status": "Running",
@@ -808,11 +831,6 @@
             "name": "tailscale",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -832,6 +850,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795722118344,
+        "level": "info",
+        "appId": "joolay-gym-guru",
+        "message": "Installed joolay-gym-guru"
+      },
+      {
+        "t": 1795722118343,
+        "level": "info",
+        "appId": "joolay-openclaw",
+        "message": "Installed joolay-openclaw"
+      },
+      {
+        "t": 1795722118343,
+        "level": "info",
+        "appId": "joolay-gatekeeper",
+        "message": "Installed joolay-gatekeeper"
+      },
       {
         "t": 1795722056931,
         "level": "info",
@@ -1173,24 +1209,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795666952055,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Dashboard updated to 0.43.1 (state: ready)"
-      },
-      {
-        "t": 1795666944266,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
-      },
-      {
-        "t": 1795666944265,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Update available: Portal Admin 0.43.0 → 0.43.1"
       }
     ],
     "diagnose": [
