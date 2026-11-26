@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T19:48:07.981Z",
-  "changedAt": "2026-11-26T19:48:07.981Z",
-  "rev": 5261,
-  "sig": "b5fd004d2f74ce9a421c97dd20d6b1288b6478c9c01e4816e921e497856d9f49",
+  "at": "2026-11-26T19:49:07.976Z",
+  "changedAt": "2026-11-26T19:49:07.976Z",
+  "rev": 5262,
+  "sig": "c2978ff3c220d3793d8c9b7cd2f5b6fd5f2093aaa0467522945bb4a547f48158",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -26,8 +26,8 @@
       "pollSeconds": 60,
       "groupOpen": {
         "other": true,
-        "umbrel": true,
-        "joolzapp": false
+        "umbrel": false,
+        "joolzapp": true
       },
       "ticker": {
         "enabled": false,
@@ -119,7 +119,7 @@
           "name": "JoolzApp",
           "raw": "joolay"
         },
-        "mode": "off",
+        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -138,7 +138,7 @@
           "name": "JoolzApp",
           "raw": "joolay"
         },
-        "mode": "off",
+        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -348,7 +348,7 @@
           "name": "JoolzApp",
           "raw": "joolay"
         },
-        "mode": "off",
+        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -643,23 +643,23 @@
         }
       ],
       "error": null,
-      "at": 1795722485969
+      "at": 1795722547006
     },
     "check": {
-      "at": 1795722486126,
+      "at": 1795722547225,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 400
     },
     "repo": {
-      "at": 1795722425697,
+      "at": 1795722546999,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795722481454,
+        "at": 1795722541457,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -683,6 +683,36 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "shutterworth",
             "status": "Running",
@@ -795,36 +825,6 @@
           },
           {
             "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
             "status": "Running",
             "paused": false
           }
