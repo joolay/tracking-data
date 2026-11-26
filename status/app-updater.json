@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T08:47:05.811Z",
-  "changedAt": "2026-11-26T08:47:05.811Z",
-  "rev": 4678,
-  "sig": "ccd8e4e4a5f596e4f5d227292788a3ee655cd2f49e1a357ca73327eee8a4226d",
+  "at": "2026-11-26T08:49:05.816Z",
+  "changedAt": "2026-11-26T08:49:05.816Z",
+  "rev": 4679,
+  "sig": "72be4329f637d6a39b71b7e22089ed5a39f130028729a7b3213752cf37929d3e",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -606,23 +606,23 @@
         }
       ],
       "error": null,
-      "at": 1795682799463
+      "at": 1795682922050
     },
     "check": {
-      "at": 1795682799613,
+      "at": 1795682922195,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795682799454,
-      "error": null,
+      "at": 1795682922040,
+      "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795682818626,
+        "at": 1795682938629,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -646,6 +646,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -780,16 +790,6 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -809,6 +809,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795682889820,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795681341024,
         "level": "ok",
@@ -1159,12 +1165,6 @@
       },
       {
         "t": 1795660809145,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795660449135,
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
