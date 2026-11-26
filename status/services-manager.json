@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T08:07:57.892Z",
-  "changedAt": "2026-11-26T08:07:57.892Z",
-  "rev": 4855,
-  "sig": "08aaab73a1914dcd202753cb53cbd204cbc9f1bbb870fa75af546d2ae18e4787",
+  "at": "2026-11-26T08:08:57.868Z",
+  "changedAt": "2026-11-26T08:08:57.868Z",
+  "rev": 4856,
+  "sig": "cfe9c88670e91c135aad113be430e141a869637265bec6f6fa6212ebee78f3fe",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795680463526,
+      "at": 1795680523529,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -149,31 +174,6 @@
         },
         {
           "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "sha256:[hidden]",
             "state": "running",
-            "status": "Up 25 minutes (healthy)",
+            "status": "Up 26 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -653,7 +653,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.3",
             "state": "running",
-            "status": "Up 20 minutes (healthy)",
+            "status": "Up 21 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.3",
             "state": "running",
-            "status": "Up 25 minutes (healthy)",
+            "status": "Up 26 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.3",
         "state": "running",
-        "status": "Up 20 minutes (healthy)",
+        "status": "Up 21 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -970,7 +970,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.3",
         "state": "running",
-        "status": "Up 25 minutes (healthy)",
+        "status": "Up 26 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -986,7 +986,7 @@
         "name": "joolay-portal_web_1",
         "image": "sha256:[hidden]",
         "state": "running",
-        "status": "Up 25 minutes (healthy)",
+        "status": "Up 26 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
