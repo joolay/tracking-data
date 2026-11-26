@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T18:07:59.207Z",
-  "changedAt": "2026-11-26T18:07:59.207Z",
-  "rev": 5434,
-  "sig": "1ca8df398daeaaf2b188282f83bca2bd70b484fa0ee1222523e3a976f90d0d48",
+  "at": "2026-11-26T18:08:59.226Z",
+  "changedAt": "2026-11-26T18:08:59.226Z",
+  "rev": 5435,
+  "sig": "2e433924ff2cfbf63ab49d6ef4d91578dd3c418918f2b6c907c1ded553b7a942",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795716465979,
+      "at": 1795716525983,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -179,6 +169,16 @@
         },
         {
           "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
           "status": "Running",
           "paused": false
         }
@@ -562,7 +562,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up About an hour",
+            "status": "Up 2 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -610,7 +610,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 55 minutes",
+            "status": "Up 56 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 55 minutes",
+        "status": "Up 56 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1030,7 +1030,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up About an hour",
+        "status": "Up 2 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
