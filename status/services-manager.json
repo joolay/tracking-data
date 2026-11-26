@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T22:15:59.668Z",
-  "changedAt": "2026-11-26T22:15:59.668Z",
-  "rev": 5674,
-  "sig": "a892372f2a6bf6f8dbbe0a708f7dcf1e71e807cb8822a4fbc2cdf30335fc5890",
+  "at": "2026-11-26T22:16:59.657Z",
+  "changedAt": "2026-11-26T22:16:59.657Z",
+  "rev": 5675,
+  "sig": "e324d98b413be150f9ac838d5b664f77d50df443266eff4466bbbad335450758",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795731347101,
+      "at": 1795731407105,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tv-remote",
           "status": "Running",
@@ -169,16 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -538,7 +538,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.2.0",
             "state": "running",
-            "status": "Up 24 hours",
+            "status": "Up 25 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1202,7 +1202,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.2.0",
         "state": "running",
-        "status": "Up 24 hours",
+        "status": "Up 25 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
