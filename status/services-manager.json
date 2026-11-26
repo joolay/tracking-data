@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T01:15:56.924Z",
-  "changedAt": "2026-11-26T01:15:56.924Z",
-  "rev": 4470,
-  "sig": "193e3f6586052d43bcdc3c4729e82fe8dd0ec64602dfc449c26b97edbebd35eb",
+  "at": "2026-11-26T01:16:56.907Z",
+  "changedAt": "2026-11-26T01:16:56.907Z",
+  "rev": 4471,
+  "sig": "42bd1e60acf82abda5d6a9bd5d9fec4e8e447340ce7de5e3c13f3f03dce62397",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795655756876,
+      "at": 1795655816878,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -139,6 +134,11 @@
         },
         {
           "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         }
@@ -474,7 +474,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.2.0",
             "state": "running",
-            "status": "Up 3 hours",
+            "status": "Up 4 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1029,7 +1029,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.2.0",
         "state": "running",
-        "status": "Up 3 hours",
+        "status": "Up 4 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
