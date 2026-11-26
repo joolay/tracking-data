@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T02:57:05.127Z",
-  "changedAt": "2026-11-26T02:57:05.127Z",
-  "rev": 4354,
-  "sig": "76a0dc0ece421503d61ee5d7d9ac630402152dc5bd3eec34a4c7d1e127c2da1b",
+  "at": "2026-11-26T02:57:54.976Z",
+  "changedAt": "2026-11-26T02:57:54.976Z",
+  "rev": 4355,
+  "sig": "9abe3fbe8120922970a6b77a0a6abe01f0e9d19da121ab8e541154053756e9f5",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -121,25 +121,6 @@
         "hidden": false,
         "busy": false,
         "detectedAt": 1795652212535,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.10.1",
-        "latest": "1.10.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795661821576,
         "result": null,
         "waiting": false
       },
@@ -404,6 +385,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.10.2",
+        "latest": "1.10.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795661839764,
+          "from": "1.10.1",
+          "to": "1.10.2"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.43.0",
@@ -559,10 +564,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795661761266
+      "at": 1795661870907
     },
     "check": {
-      "at": 1795661821577,
+      "at": 1795661871034,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -575,7 +580,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795661817294,
+        "at": 1795661862301,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,11 +604,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "port-master",
             "status": "Running",
@@ -651,11 +651,6 @@
           },
           {
             "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portal",
             "status": "Running",
             "paused": false
           },
@@ -738,6 +733,11 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -757,6 +757,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795661839968,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (0 s)"
+      },
+      {
+        "t": 1795661839764,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.10.2 (state: ready)"
+      },
       {
         "t": 1795661821577,
         "level": "info",
@@ -1104,18 +1116,6 @@
         "level": "ok",
         "appId": "joolay-project-tracker",
         "message": "umbrelOS now sees Project Pilot 1.10.0"
-      },
-      {
-        "t": 1795642944145,
-        "level": "ok",
-        "appId": "joolay-routing-reporter",
-        "message": "umbrelOS now sees Port Master 1.10.1"
-      },
-      {
-        "t": 1795642944145,
-        "level": "ok",
-        "appId": "joolay-listify",
-        "message": "umbrelOS now sees Listify 1.2.0"
       }
     ],
     "diagnose": [
