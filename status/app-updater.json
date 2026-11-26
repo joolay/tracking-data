@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T08:01:05.862Z",
-  "changedAt": "2026-11-26T08:01:05.862Z",
-  "rev": 4639,
-  "sig": "6d0deb5a975833b0b24e0bb4da54c0197916213bde17e9d080462fa86bd1ea5a",
+  "at": "2026-11-26T08:03:05.809Z",
+  "changedAt": "2026-11-26T08:03:05.809Z",
+  "rev": 4640,
+  "sig": "e8f303c4b471f322f66536ab72f3cc134a063cfbc539a85ac3ee263dd8ce38de",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -574,23 +574,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795680025593
+      "at": 1795680148216
     },
     "check": {
-      "at": 1795680025715,
+      "at": 1795680148340,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795679965250,
+      "at": 1795680087847,
       "error": "fetch failed",
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795680058502,
+        "at": 1795680178507,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,51 +614,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "home-assistant",
             "status": "Running",
@@ -753,6 +708,51 @@
             "name": "atvloadly",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +772,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795680129720,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795680009722,
         "level": "warn",
@@ -1125,12 +1131,6 @@
         "level": "ok",
         "appId": "joolay-shutterworth",
         "message": "ShutterWorth updated to 1.9.0 (state: ready)"
-      },
-      {
-        "t": 1795643337957,
-        "level": "info",
-        "appId": "joolay-shutterworth",
-        "message": "Updating ShutterWorth (detected, updating straight away)…"
       }
     ],
     "diagnose": [
