@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T02:56:57.198Z",
-  "changedAt": "2026-11-26T02:56:57.198Z",
-  "rev": 4559,
-  "sig": "79b732b39edc61e19850455a9c2ef10c8a4c6453a80bbd7e931f04b6b12c947c",
+  "at": "2026-11-26T02:57:57.185Z",
+  "changedAt": "2026-11-26T02:57:57.185Z",
+  "rev": 4560,
+  "sig": "5e3a534eb2442f63afc4edb441c5ae53aa1a1b67e59b2c402d364edb9f73bb0d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795661802293,
+      "at": 1795661862301,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -84,11 +84,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portal",
           "status": "Running",
           "paused": false
         },
@@ -649,11 +644,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "007cc6ace793",
+            "id": "57d87397c134",
             "name": "joolay-routing-reporter_web_1",
-            "image": "ghcr.io/joolay/routing-reporter:1.10.1",
+            "image": "ghcr.io/joolay/routing-reporter:1.10.2",
             "state": "running",
-            "status": "Up 5 hours (healthy)",
+            "status": "Up 38 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -917,7 +912,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 10 minutes (healthy)",
+            "status": "Up 11 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -949,6 +944,22 @@
       }
     ],
     "containers": [
+      {
+        "id": "57d87397c134",
+        "name": "joolay-routing-reporter_web_1",
+        "image": "ghcr.io/joolay/routing-reporter:1.10.2",
+        "state": "running",
+        "status": "Up 38 seconds (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-26T02:57:18.612028737Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "b7532d86796e",
         "name": "joolay-app-updater_web_1",
@@ -1039,22 +1050,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-25T21:47:13.025166641Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "007cc6ace793",
-        "name": "joolay-routing-reporter_web_1",
-        "image": "ghcr.io/joolay/routing-reporter:1.10.1",
-        "state": "running",
-        "status": "Up 5 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-25T21:46:58.869885656Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
@@ -1339,7 +1334,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 10 minutes (healthy)",
+        "status": "Up 11 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
