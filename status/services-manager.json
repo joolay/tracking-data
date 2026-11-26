@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T07:22:57.802Z",
-  "changedAt": "2026-11-26T07:22:57.802Z",
-  "rev": 4814,
-  "sig": "c940aae586e8561f5f25229380d43250eb7eb8f3b916e6a38e6f8400e345afba",
+  "at": "2026-11-26T07:23:57.814Z",
+  "changedAt": "2026-11-26T07:23:57.814Z",
+  "rev": 4815,
+  "sig": "f50be1366db99af96b13f4acce985a163acb5f3a519ed51e2ad691f25beb50d9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795677763361,
+      "at": 1795677823364,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,51 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -174,6 +129,51 @@
         },
         {
           "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.2",
             "state": "running",
-            "status": "Up 2 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -673,11 +673,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "8ab99ca82233",
+            "id": "25f27d9c709b",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.1",
+            "image": "ghcr.io/joolay/portal-admin:0.43.2",
             "state": "running",
-            "status": "Up 3 hours (healthy)",
+            "status": "Up 49 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -950,33 +950,33 @@
     ],
     "containers": [
       {
-        "id": "fc76ab00a93a",
-        "name": "joolay-portal_web_1",
+        "id": "25f27d9c709b",
+        "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.2",
         "state": "running",
-        "status": "Up 2 seconds (health: starting)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "starting",
-        "startedAt": "2026-11-26T07:22:55.27378425Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "8ab99ca82233",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.1",
-        "state": "running",
-        "status": "Up 3 hours (healthy)",
+        "status": "Up 49 seconds (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
         "health": "healthy",
-        "startedAt": "2026-11-26T04:22:44.471319987Z",
+        "startedAt": "2026-11-26T07:23:08.476931472Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "fc76ab00a93a",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.2",
+        "state": "running",
+        "status": "Up About a minute (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-26T07:22:55.27378425Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
