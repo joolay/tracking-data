@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T02:53:05.142Z",
-  "changedAt": "2026-11-26T02:53:05.142Z",
-  "rev": 4350,
-  "sig": "a98ccdb69568f53c3cd6fd20bbf84a7651268ced33f1798e97e4785a90b54821",
+  "at": "2026-11-26T02:54:05.123Z",
+  "changedAt": "2026-11-26T02:54:05.123Z",
+  "rev": 4351,
+  "sig": "8fa33b8a90a3c8137cfb97567711967ccd3e708011949d5f05b2a4c6542c79c0",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -559,23 +559,31 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795661578718
+      "at": 1795661639823
     },
     "check": {
-      "at": 1795661578842,
+      "at": 1795661639974,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795661518420,
+      "at": 1795661639812,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-routing-reporter",
+          "name": "Port Master",
+          "repo": "1.10.2",
+          "umbrel": "1.10.1",
+          "kind": "update"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795661577274,
+        "at": 1795661637279,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -599,16 +607,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "cctv",
             "status": "Running",
@@ -738,6 +736,16 @@
             "name": "openclaw",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -757,6 +765,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795661639812,
+        "level": "warn",
+        "appId": "joolay-routing-reporter",
+        "message": "New version on the repo, umbrelOS has not seen it yet: Port Master 1.10.2 (umbrelOS lists 1.10.1)"
+      },
       {
         "t": 1795660809145,
         "level": "warn",
@@ -1110,12 +1124,6 @@
         "level": "ok",
         "appId": "joolay-gatekeeper",
         "message": "umbrelOS now sees Gatekeeper 1.0.2"
-      },
-      {
-        "t": 1795642944142,
-        "level": "ok",
-        "appId": "joolay-diner-bell",
-        "message": "umbrelOS now sees Diner Bell 2.2.0"
       }
     ],
     "diagnose": [
