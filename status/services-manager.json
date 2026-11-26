@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T17:11:59.082Z",
-  "changedAt": "2026-11-26T17:11:59.082Z",
-  "rev": 5378,
-  "sig": "92fd4370de52cfb87435571e5ea46593c45c6d5837bafa19e4ef9dfc49a6cb32",
+  "at": "2026-11-26T17:12:59.089Z",
+  "changedAt": "2026-11-26T17:12:59.089Z",
+  "rev": 5379,
+  "sig": "317f6a89229551b58bb969660f9890676997ccb3610dc185b1acab5f53b06a78",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795713105619,
+      "at": 1795713165629,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -313,7 +313,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 31 minutes (healthy)",
+            "status": "Up 32 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -562,7 +562,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 33 minutes",
+            "status": "Up 34 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -586,7 +586,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 24 minutes (healthy)",
+            "status": "Up 25 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -606,11 +606,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "c07fa106ea48",
+            "id": "bc3b4933540e",
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 31 minutes",
+            "status": "Up 2 seconds",
             "policy": "on-failure",
             "self": false
           }
@@ -898,7 +898,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 48 minutes",
+            "status": "Up 49 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -979,11 +979,26 @@
     ],
     "containers": [
       {
+        "id": "bc3b4933540e",
+        "name": "openclaw_gateway_1",
+        "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 2 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-26T17:12:56.334392446Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "a3cc92068d5a",
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 24 minutes (healthy)",
+        "status": "Up 25 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -995,26 +1010,11 @@
         "problem": false
       },
       {
-        "id": "c07fa106ea48",
-        "name": "openclaw_gateway_1",
-        "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 31 minutes",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-26T16:40:48.291267872Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "0b81c4f6d3b8",
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 31 minutes (healthy)",
+        "status": "Up 32 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1030,7 +1030,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 33 minutes",
+        "status": "Up 34 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1045,7 +1045,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 48 minutes",
+        "status": "Up 49 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
