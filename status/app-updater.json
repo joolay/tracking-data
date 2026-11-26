@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T03:41:05.406Z",
-  "changedAt": "2026-11-26T03:41:05.406Z",
-  "rev": 4397,
-  "sig": "cd47d0481fbb8ba5003a603d87ba28cf7220fae3a67e61b64fac05542c050a26",
+  "at": "2026-11-26T03:43:05.227Z",
+  "changedAt": "2026-11-26T03:43:05.227Z",
+  "rev": 4398,
+  "sig": "b2d53dfc3051d423175873b6b301ecfe210f39f7dab83b9bac4fe19efe730797",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -564,23 +564,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795664454840
+      "at": 1795664576230
     },
     "check": {
-      "at": 1795664454990,
+      "at": 1795664576464,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
     },
     "repo": {
-      "at": 1795664454829,
+      "at": 1795664576217,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795664457478,
+        "at": 1795664577486,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -604,11 +604,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "diner-bell",
             "status": "Running",
@@ -743,6 +738,11 @@
             "name": "webcheck",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -762,6 +762,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795664529251,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795662549179,
         "level": "warn",
@@ -1115,12 +1121,6 @@
         "level": "ok",
         "appId": "joolay-shutterworth",
         "message": "umbrelOS now sees ShutterWorth 1.9.0"
-      },
-      {
-        "t": 1795642944146,
-        "level": "ok",
-        "appId": "joolay-services-manager",
-        "message": "umbrelOS now sees Services Manager 1.4.1"
       }
     ],
     "diagnose": [
