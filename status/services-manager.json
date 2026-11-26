@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T02:38:57.113Z",
-  "changedAt": "2026-11-26T02:38:57.113Z",
-  "rev": 4543,
-  "sig": "e57c32170a45128ad8cd524afeb59c3304f88ce09e761f0dc56bf4f2cb56bcd3",
+  "at": "2026-11-26T02:40:57.121Z",
+  "changedAt": "2026-11-26T02:40:57.121Z",
+  "rev": 4544,
+  "sig": "20a7de38c631f63fd5681c170dd3c0574ef3de19d54d6b23a433a35e6d8e4f1e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795660722199,
+      "at": 1795660842210,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "adguard-home",
           "status": "Running",
@@ -124,21 +139,6 @@
         },
         {
           "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
           "status": "Running",
           "paused": false
         }
@@ -369,7 +369,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 7 hours",
+            "status": "Up 8 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1136,7 +1136,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 7 hours",
+        "status": "Up 8 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
