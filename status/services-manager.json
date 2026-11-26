@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T04:22:57.362Z",
-  "changedAt": "2026-11-26T04:22:57.362Z",
-  "rev": 4642,
-  "sig": "05c4281337f49bc7396a9078709114d2987ceb7b29bd6cdacde1d5889ef607c2",
+  "at": "2026-11-26T04:23:57.370Z",
+  "changedAt": "2026-11-26T04:23:57.370Z",
+  "rev": 4643,
+  "sig": "a86d212b3ea750d4fe60f3ec523d5c496d729e63b40064e262d23d76bd18615e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795666962602,
+      "at": 1795667022606,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -169,11 +174,6 @@
         },
         {
           "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -380,7 +380,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 26 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -677,7 +677,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.1",
             "state": "running",
-            "status": "Up 12 seconds (health: starting)",
+            "status": "Up About a minute (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -954,12 +954,12 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 12 seconds (health: starting)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
         "startedAt": "2026-11-26T04:22:44.471319987Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
@@ -970,12 +970,12 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.1",
         "state": "running",
-        "status": "Up 26 seconds (health: starting)",
+        "status": "Up About a minute (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "healthy",
         "startedAt": "2026-11-26T04:22:31.050476728Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
