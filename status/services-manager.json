@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T14:17:58.767Z",
-  "changedAt": "2026-11-26T14:17:58.767Z",
-  "rev": 5207,
-  "sig": "dafb9f17edd97aa070d920a3328fd66fb6c680dd510695db7c6ff5065f84f478",
+  "at": "2026-11-26T14:18:58.787Z",
+  "changedAt": "2026-11-26T14:18:58.787Z",
+  "rev": 5208,
+  "sig": "6629388c9a5d3e3d23df25d30ad9e6b121679f895579d7ecfc59dd08bbf7fba5",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795702664964,
+      "at": 1795702724967,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -139,46 +179,6 @@
         },
         {
           "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -730,7 +730,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 16 hours",
+            "status": "Up 17 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -754,7 +754,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 16 hours (healthy)",
+            "status": "Up 17 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1093,7 +1093,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 16 hours (healthy)",
+        "status": "Up 17 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1109,7 +1109,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 16 hours",
+        "status": "Up 17 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
