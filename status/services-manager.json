@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T05:24:57.467Z",
-  "changedAt": "2026-11-26T05:24:57.467Z",
-  "rev": 4704,
-  "sig": "67f21c63fd88aca0f2d5d060ffc8ccb34a3effdb7d06e0388682524e6f008ef5",
+  "at": "2026-11-26T05:25:57.462Z",
+  "changedAt": "2026-11-26T05:25:57.462Z",
+  "rev": 4705,
+  "sig": "6a998114f0dd5ea93aee236bd2f8264d3057275b390bb2d469f1e727d28af19a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795670682740,
+      "at": 1795670742747,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,36 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -176,6 +146,36 @@
           "name": "wallos",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -260,7 +260,7 @@
             "name": "joolay-atvloadly_web_1",
             "image": "bitxeno/atvloadly:v0.3.7",
             "state": "running",
-            "status": "Up 7 days",
+            "status": "Up 8 days",
             "policy": "on-failure",
             "self": false
           }
@@ -485,7 +485,7 @@
             "name": "kokoro_web_1",
             "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 7 days",
+            "status": "Up 8 days",
             "policy": "on-failure",
             "self": false
           }
@@ -581,7 +581,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
             "state": "running",
-            "status": "Up 7 days",
+            "status": "Up 8 days",
             "policy": "on-failure",
             "self": false
           }
@@ -629,7 +629,7 @@
             "name": "pocketbase_app_1",
             "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
             "state": "running",
-            "status": "Up 7 days",
+            "status": "Up 8 days",
             "policy": "on-failure",
             "self": false
           }
@@ -845,7 +845,7 @@
             "name": "webcheck_server_1",
             "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 7 days (healthy)",
+            "status": "Up 8 days (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -941,7 +941,7 @@
             "name": "tor_proxy",
             "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
             "state": "running",
-            "status": "Up 7 days",
+            "status": "Up 8 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1324,7 +1324,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
         "state": "running",
-        "status": "Up 7 days",
+        "status": "Up 8 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1355,7 +1355,7 @@
         "name": "joolay-atvloadly_web_1",
         "image": "bitxeno/atvloadly:v0.3.7",
         "state": "running",
-        "status": "Up 7 days",
+        "status": "Up 8 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1370,7 +1370,7 @@
         "name": "webcheck_server_1",
         "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 7 days (healthy)",
+        "status": "Up 8 days (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1386,7 +1386,7 @@
         "name": "kokoro_web_1",
         "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 7 days",
+        "status": "Up 8 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1416,7 +1416,7 @@
         "name": "pocketbase_app_1",
         "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
         "state": "running",
-        "status": "Up 7 days",
+        "status": "Up 8 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1431,7 +1431,7 @@
         "name": "tor_proxy",
         "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
         "state": "running",
-        "status": "Up 7 days",
+        "status": "Up 8 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
