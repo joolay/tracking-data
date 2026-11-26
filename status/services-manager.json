@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T16:47:59.016Z",
-  "changedAt": "2026-11-26T16:47:59.016Z",
-  "rev": 5354,
-  "sig": "39727cfb0ef475e7f333f632b83d0fc5e0656ab4f39a7bdc53266d8d694e483b",
+  "at": "2026-11-26T16:48:59.350Z",
+  "changedAt": "2026-11-26T16:48:59.350Z",
+  "rev": 5355,
+  "sig": "20529c4c7cf1c9e074b279fb7e4e03e43571aec4bc2304814e3cff016e2e01eb",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795711665577,
+      "at": 1795711725578,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,66 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -181,6 +121,66 @@
           "name": "listify",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -196,7 +196,9 @@
     "summary": {
       "containers": 33,
       "running": 32,
-      "problems": []
+      "problems": [
+        "open-webui_web_1"
+      ]
     },
     "services": [
       {
@@ -313,7 +315,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 7 minutes (healthy)",
+            "status": "Up 8 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -562,7 +564,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 9 minutes",
+            "status": "Up 10 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -586,7 +588,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 34 seconds (health: starting)",
+            "status": "Up About a minute (unhealthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -610,7 +612,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 7 minutes",
+            "status": "Up 8 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -898,7 +900,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 24 minutes",
+            "status": "Up 25 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,23 +985,39 @@
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 34 seconds (health: starting)",
+        "status": "Up About a minute (unhealthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "starting",
+        "health": "unhealthy",
         "startedAt": "2026-11-26T16:47:24.328612903Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
-        "problem": false
+        "problem": true,
+        "logTail": [
+          "No WEBUI_SECRET_KEY environment variable set, loading from file.",
+          "Generating new WEBUI_SECRET_KEY...",
+          "Loading WEBUI_SECRET_KEY from .webui_secret_key",
+          "INFO  [alembic.runtime.migration] Context impl SQLiteImpl.",
+          "INFO  [alembic.runtime.migration] Will assume non-transactional DDL.",
+          "INFO  [alembic.runtime.migration] Running upgrade 9f6c2a8d1b43 -> c4e1a7d93b20, Rename the 'terminal' access grant type to 'machine' (Terminals became Machines).",
+          "INFO  [alembic.runtime.migration] Running upgrade c4e1a7d93b20 -> b7d4f1a2c960, Add resource_tag, one table linking tags to chats and notes in place of meta.tags, and note.folder_id.",
+          "INFO  [alembic.runtime.migration] Running upgrade b7d4f1a2c960 -> d2f86c0b41ae, Add private per-user folder working views.",
+          "INFO  [alembic.runtime.migration] Running upgrade d2f86c0b41ae -> 5e7a2c9d4b13, Keep chat messages only in chat_message rows",
+          "INFO  [5e7a2c9d4b13_move_chat_history_to_chat_message_py] Migration progress: moved the messages of 6 chats into chat_message",
+          "INFO  [open_webui.env] VECTOR_DB: chroma",
+          "INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2",
+          "WARNI [open_webui.env] ",
+          "WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS."
+        ]
       },
       {
         "id": "c07fa106ea48",
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 7 minutes",
+        "status": "Up 8 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1014,7 +1032,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 7 minutes (healthy)",
+        "status": "Up 8 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1030,7 +1048,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 9 minutes",
+        "status": "Up 10 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1045,7 +1063,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 24 minutes",
+        "status": "Up 25 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
