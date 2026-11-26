@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T13:12:58.597Z",
-  "changedAt": "2026-11-26T13:12:58.597Z",
-  "rev": 5144,
-  "sig": "b53a39471090d9715206498383ad39a9384f25095c76aa935e73ae4f217e37d3",
+  "at": "2026-11-26T13:13:58.592Z",
+  "changedAt": "2026-11-26T13:13:58.592Z",
+  "rev": 5145,
+  "sig": "c1fe73ed6be9eb6c56b4465ffe4e0e82850ee9e039633299529e6e65f6371da6",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795698764607,
+      "at": 1795698824614,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -166,21 +181,6 @@
           "name": "jolly-grocer",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -289,7 +289,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 15 hours",
+            "status": "Up 16 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1170,7 +1170,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 15 hours",
+        "status": "Up 16 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
