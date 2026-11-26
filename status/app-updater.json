@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T07:47:05.682Z",
-  "changedAt": "2026-11-26T07:47:05.682Z",
-  "rev": 4628,
-  "sig": "2f48ea6429a3c581cec60dd5125349f7dc4fe182d8d913372af36af77ce0816f",
+  "at": "2026-11-26T07:47:48.237Z",
+  "changedAt": "2026-11-26T07:47:48.237Z",
+  "rev": 4629,
+  "sig": "8c7c4f80ac09e2fb357d249ef7ead0ecaca365fe80a24edc48ca8fd575d43244",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -122,30 +122,6 @@
         "busy": false,
         "detectedAt": 1795652212535,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.10.2",
-        "latest": "1.10.3",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795679215370,
-        "result": {
-          "ok": true,
-          "at": 1795661839764,
-          "from": "1.10.1",
-          "to": "1.10.2"
-        },
         "waiting": false
       },
       {
@@ -414,6 +390,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.10.3",
+        "latest": "1.10.3",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795679233012,
+          "from": "1.10.2",
+          "to": "1.10.3"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.43.3",
@@ -574,10 +574,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795679154247
+      "at": 1795679264260
     },
     "check": {
-      "at": 1795679215372,
+      "at": 1795679264384,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
@@ -590,7 +590,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795679218461,
+        "at": 1795679263465,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,6 +614,66 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tv-remote",
             "status": "Running",
@@ -693,66 +753,6 @@
             "name": "port-master",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +772,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795679233229,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Port Master (0 s)"
+      },
+      {
+        "t": 1795679233012,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "Port Master updated to 1.10.3 (state: ready)"
+      },
       {
         "t": 1795679215373,
         "level": "info",
@@ -1119,18 +1131,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating Project Pilot (3 s)"
-      },
-      {
-        "t": 1795643310597,
-        "level": "info",
-        "appId": "joolay-services-manager",
-        "message": "Updating Services Manager (detected, updating straight away)…"
-      },
-      {
-        "t": 1795643310242,
-        "level": "ok",
-        "appId": "joolay-project-tracker",
-        "message": "Project Pilot updated to 1.10.0 (state: ready)"
       }
     ],
     "diagnose": [
