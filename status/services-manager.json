@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T03:11:57.233Z",
-  "changedAt": "2026-11-26T03:11:57.233Z",
-  "rev": 4573,
-  "sig": "255b856722910d25e14fcaef7a6a179e7114561072970e47f3de1f11587f9ccc",
+  "at": "2026-11-26T03:12:57.222Z",
+  "changedAt": "2026-11-26T03:12:57.222Z",
+  "rev": 4574,
+  "sig": "c4fdd45e67d6002c1b2e0d95a9fdd8213613b7ba4e0f698ba1705186e85c05c0",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795662702367,
+      "at": 1795662762373,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -32,23 +32,23 @@
         "image": "almeidapaulopt/tsdproxy:2",
         "imageId": "33631a10f74b",
         "running": true,
-        "startedAt": "2026-11-26T02:46:23.866401269Z",
+        "startedAt": "2026-11-26T03:12:34.535579601Z",
         "version": "",
         "created": ""
       },
       "proxies": [
         {
-          "name": "atvloadly",
+          "name": "ollama",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "services-manager",
+          "name": "joolzapp",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "diner-bell",
+          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         },
@@ -58,12 +58,12 @@
           "paused": false
         },
         {
-          "name": "project-pilot",
+          "name": "listify",
           "status": "Running",
           "paused": false
         },
         {
-          "name": "kiosk-manager",
+          "name": "wallos",
           "status": "Running",
           "paused": false
         },
@@ -78,47 +78,7 @@
           "paused": false
         },
         {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
+          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         },
@@ -128,32 +88,7 @@
           "paused": false
         },
         {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
+          "name": "paperclip",
           "status": "Running",
           "paused": false
         },
@@ -163,12 +98,82 @@
           "paused": false
         },
         {
-          "name": "ollama",
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         },
         {
           "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -648,7 +653,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.2",
             "state": "running",
-            "status": "Up 14 minutes (healthy)",
+            "status": "Up 15 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -912,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 25 minutes (healthy)",
+            "status": "Up 22 seconds (health: starting)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -949,7 +954,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.2",
         "state": "running",
-        "status": "Up 14 minutes (healthy)",
+        "status": "Up 15 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1334,14 +1339,14 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 25 minutes (healthy)",
+        "status": "Up 22 seconds (health: starting)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
         "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T02:46:23.866401269Z",
-        "finishedAt": "2026-11-26T02:46:23.309367443Z",
+        "health": "starting",
+        "startedAt": "2026-11-26T03:12:34.535579601Z",
+        "finishedAt": "2026-11-26T03:12:34.031604592Z",
         "error": "",
         "problem": false
       },
