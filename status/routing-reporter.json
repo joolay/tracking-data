@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-26T16:52:13.400Z",
-  "changedAt": "2026-11-26T16:52:13.400Z",
-  "rev": 5069,
-  "sig": "90c411e2ad272c6066d5dd3f3c012e987871172043ba9d7004ba2438f6f86d1e",
+  "at": "2026-11-26T16:53:13.399Z",
+  "changedAt": "2026-11-26T16:53:13.399Z",
+  "rev": 5070,
+  "sig": "9c7623c80a683ecafbaf7f9cc7d84339af5ff561b4dd6c92a5ac9b76036bc405",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,22 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running"
-        },
-        {
-          "name": "openclaw",
-          "status": "Running"
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running"
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running"
-        },
         {
           "name": "gatekeeper",
           "status": "Running"
@@ -132,6 +116,22 @@
         {
           "name": "tv-remote",
           "status": "Running"
+        },
+        {
+          "name": "cctv",
+          "status": "Running"
+        },
+        {
+          "name": "openclaw",
+          "status": "Running"
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running"
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running"
         }
       ]
     },
@@ -153,36 +153,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "open-webui",
-        "route": "lan",
-        "url": "http://host.docker.internal:2876/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795710419737
-      },
-      {
-        "app": "open-webui",
-        "route": "local",
-        "url": "http://umbrel.local:2876/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795710419740
-      },
-      {
-        "app": "open-webui",
-        "route": "tailscale",
-        "url": "http://100.118.10.62:2876/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795710419737
-      },
-      {
-        "app": "open-webui",
-        "route": "name",
-        "url": "https://open-webui.macaw-chroma.ts.net/",
-        "error": "the app behind it is not answering (502)",
-        "since": 1795710419964
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -196,7 +167,7 @@
         "app": "open-webui",
         "name": "Open WebUI",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3093,
@@ -1535,38 +1506,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:2876/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795710419737
+            "status": 200,
+            "error": "",
+            "since": 1795711947682
           },
           {
             "key": "local",
             "url": "http://umbrel.local:2876/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795710419740
+            "status": 200,
+            "error": "",
+            "since": 1795711947693
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:2876/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795710419737
+            "status": 200,
+            "error": "",
+            "since": 1795711947694
           },
           {
             "key": "name",
             "url": "https://open-webui.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 502,
-            "error": "the app behind it is not answering (502)",
-            "since": 1795710419964
+            "status": 200,
+            "error": "",
+            "since": 1795711947931
           }
         ]
       },
