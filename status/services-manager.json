@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T06:14:57.663Z",
-  "changedAt": "2026-11-26T06:14:57.663Z",
-  "rev": 4749,
-  "sig": "e025c02fb3de7b7cab28a4e6d9ce1811c05c9e5c6b37a0a872f7e4656ea8288d",
+  "at": "2026-11-26T06:15:57.657Z",
+  "changedAt": "2026-11-26T06:15:57.657Z",
+  "rev": 4750,
+  "sig": "9b2f06923555cb021482feabb2b3778a3b3e3cc0aaa655864a0696b4aa73c6c4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795673683026,
+      "at": 1795673743033,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -174,6 +164,16 @@
         },
         {
           "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -461,7 +461,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
             "state": "running",
-            "status": "Up 8 hours (healthy)",
+            "status": "Up 9 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1095,7 +1095,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 8 hours (healthy)",
+        "status": "Up 9 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
