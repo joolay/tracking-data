@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T07:22:56.528Z",
-  "changedAt": "2026-11-26T07:22:56.528Z",
-  "rev": 4604,
-  "sig": "ef3bc84a51222f84b1f79ed2dcd0f392d4ba6e0a65fb748bf55331ca20a59e30",
+  "at": "2026-11-26T07:23:34.016Z",
+  "changedAt": "2026-11-26T07:23:34.016Z",
+  "rev": 4605,
+  "sig": "f36368783001b5822aa0558e3340f018a31e54d8a19be3d23037e71a24ff8ee6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -122,30 +122,6 @@
         "busy": false,
         "detectedAt": 1795652212535,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal-admin",
-        "name": "Portal Admin",
-        "version": "0.43.1",
-        "latest": "0.43.2",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": 1795677768257,
-        "result": {
-          "ok": true,
-          "at": 1795666965572,
-          "from": "0.43.0",
-          "to": "0.43.1"
-        },
         "waiting": false
       },
       {
@@ -273,7 +249,7 @@
         },
         "mode": "immediate",
         "hidden": false,
-        "busy": true,
+        "busy": false,
         "detectedAt": null,
         "result": {
           "ok": true,
@@ -438,6 +414,30 @@
         "waiting": false
       },
       {
+        "id": "joolay-portal-admin",
+        "name": "Portal Admin",
+        "version": "0.43.2",
+        "latest": "0.43.2",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795677789518,
+          "from": "0.43.1",
+          "to": "0.43.2"
+        },
+        "waiting": false
+      },
+      {
         "id": "joolay-project-tracker",
         "name": "Project Pilot",
         "version": "1.10.0",
@@ -574,10 +574,10 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795677707928
+      "at": 1795677805694
     },
     "check": {
-      "at": 1795677776523,
+      "at": 1795677805844,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 398
@@ -590,7 +590,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795677763361,
+        "at": 1795677808365,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,6 +614,36 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "kiosk-manager",
             "status": "Running",
@@ -723,36 +753,6 @@
             "name": "project-tracker",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +772,30 @@
       }
     },
     "log": [
+      {
+        "t": 1795677789518,
+        "level": "ok",
+        "appId": "joolay-portal-admin",
+        "message": "Portal Admin updated to 0.43.2 (state: ready)"
+      },
+      {
+        "t": 1795677785612,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
+      {
+        "t": 1795677779005,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating JoolzApp Dashboard (2 s)"
+      },
+      {
+        "t": 1795677776524,
+        "level": "info",
+        "appId": "joolay-portal-admin",
+        "message": "Updating Portal Admin (detected, updating straight away)…"
+      },
       {
         "t": 1795677776326,
         "level": "ok",
@@ -1107,30 +1131,6 @@
         "level": "info",
         "appId": "joolay-kiosk-manager",
         "message": "Updating Kiosk Manager (detected, updating straight away)…"
-      },
-      {
-        "t": 1795643103561,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Dashboard updated to 0.43.0 (state: ready)"
-      },
-      {
-        "t": 1795643088745,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating Jolly Grocer (0 s)"
-      },
-      {
-        "t": 1795643088731,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
-      },
-      {
-        "t": 1795643088493,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "Jolly Grocer updated to 1.5.0 (state: ready)"
       }
     ],
     "diagnose": [
