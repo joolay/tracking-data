@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T16:20:58.940Z",
-  "changedAt": "2026-11-26T16:20:58.940Z",
-  "rev": 5327,
-  "sig": "cba5259f0e6fd01fc00741b9f2f930a2b2053bb21b7ce6003a1a23c895bdee28",
+  "at": "2026-11-26T16:21:58.968Z",
+  "changedAt": "2026-11-26T16:21:58.968Z",
+  "rev": 5328,
+  "sig": "b51668886d91e911915fa060540521150d3aee4d38b46ddf557d45c619764868",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795710045522,
+      "at": 1795710105525,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -141,46 +181,6 @@
           "name": "app-updater",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -194,8 +194,8 @@
       }
     },
     "summary": {
-      "containers": 33,
-      "running": 32,
+      "containers": 28,
+      "running": 27,
       "problems": []
     },
     "services": [
@@ -300,24 +300,14 @@
         "kind": "umbrel",
         "id": "joolay-gatekeeper",
         "name": "Gatekeeper",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "93a2384b4f01",
-            "name": "joolay-gatekeeper_web_1",
-            "image": "ghcr.io/joolay/gatekeeper:1.0.0",
-            "state": "running",
-            "status": "Up 2 days (healthy)",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "umbrel:joolay-gym-guru",
@@ -549,72 +539,42 @@
         "kind": "umbrel",
         "id": "ollama",
         "name": "Ollama",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "05f51ad68157",
-            "name": "ollama_ollama_1",
-            "image": "ollama/ollama:0.40.17@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 3 days",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "umbrel:open-webui",
         "kind": "umbrel",
         "id": "open-webui",
         "name": "Open WebUI",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "9d08436f817c",
-            "name": "open-webui_web_1",
-            "image": "ghcr.io/open-webui/open-webui:v0.13.4@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 8 days (healthy)",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "umbrel:openclaw",
         "kind": "umbrel",
         "id": "openclaw",
         "name": "OpenClaw",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "9e95d5866de5",
-            "name": "openclaw_gateway_1",
-            "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 8 days",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "umbrel:paperclip",
@@ -885,24 +845,14 @@
         "kind": "umbrel",
         "id": "yuvomi",
         "name": "Yuvomi",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "c8ad1e9e74dc",
-            "name": "yuvomi_web_1",
-            "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 3 days",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "docker:app-proxy",
@@ -1241,37 +1191,6 @@
         "problem": false
       },
       {
-        "id": "93a2384b4f01",
-        "name": "joolay-gatekeeper_web_1",
-        "image": "ghcr.io/joolay/gatekeeper:1.0.0",
-        "state": "running",
-        "status": "Up 2 days (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-24T02:30:05.689917358Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "05f51ad68157",
-        "name": "ollama_ollama_1",
-        "image": "ollama/ollama:0.40.17@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 3 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-23T07:51:58.583753907Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "0d55625bdbf7",
         "name": "wallos_server_1",
         "image": "bellamy/wallos:5.11.3@sha256:[hidden]",
@@ -1283,21 +1202,6 @@
         "oomKilled": false,
         "health": "healthy",
         "startedAt": "2026-11-23T07:37:47.296900129Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "c8ad1e9e74dc",
-        "name": "yuvomi_web_1",
-        "image": "ghcr.io/ulsklyc/yuvomi:2.94.0@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 3 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-23T07:37:26.129473872Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
@@ -1333,22 +1237,6 @@
         "problem": false
       },
       {
-        "id": "9d08436f817c",
-        "name": "open-webui_web_1",
-        "image": "ghcr.io/open-webui/open-webui:v0.13.4@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 8 days (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-18T06:14:10.973867654Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
         "id": "181305614cd1",
         "name": "paperclip_server_1",
         "image": "ghcr.io/paperclipai/paperclip:2026.1106.0@sha256:[hidden]",
@@ -1360,21 +1248,6 @@
         "oomKilled": false,
         "startedAt": "2026-11-18T05:57:01.697655626Z",
         "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "9e95d5866de5",
-        "name": "openclaw_gateway_1",
-        "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.4@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 8 days",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-18T05:55:34.397121679Z",
-        "finishedAt": "2026-11-18T05:55:12.690195235Z",
         "error": "",
         "problem": false
       },
