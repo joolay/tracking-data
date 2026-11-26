@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T03:17:57.252Z",
-  "changedAt": "2026-11-26T03:17:57.252Z",
-  "rev": 4579,
-  "sig": "614540c9176c02a98a78d604c16274306d92c68b4ff96d335241fea7a9a745be",
+  "at": "2026-11-26T03:18:57.242Z",
+  "changedAt": "2026-11-26T03:18:57.242Z",
+  "rev": 4580,
+  "sig": "eb8952bba75b5d927feb218593493ca319e403a001cb1f2080390e6d131dec2c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795663062397,
+      "at": 1795663122401,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -174,6 +164,16 @@
         },
         {
           "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
           "status": "Running",
           "paused": false
         }
@@ -653,7 +653,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.2",
             "state": "running",
-            "status": "Up 20 minutes (healthy)",
+            "status": "Up 21 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -701,7 +701,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 5 hours",
+            "status": "Up 6 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -725,7 +725,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 5 hours (healthy)",
+            "status": "Up 6 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -917,7 +917,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 5 minutes (healthy)",
+            "status": "Up 6 minutes (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -954,7 +954,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.2",
         "state": "running",
-        "status": "Up 20 minutes (healthy)",
+        "status": "Up 21 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1017,7 +1017,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 5 hours (healthy)",
+        "status": "Up 6 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1033,7 +1033,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 5 hours",
+        "status": "Up 6 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1339,7 +1339,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 5 minutes (healthy)",
+        "status": "Up 6 minutes (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
