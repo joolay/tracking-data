@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T23:19:59.766Z",
-  "changedAt": "2026-11-26T23:19:59.766Z",
-  "rev": 5736,
-  "sig": "f907752a5cb335cd9484611064be80d3418790383555152a3c60e3e898ccdfd4",
+  "at": "2026-11-26T23:20:59.763Z",
+  "changedAt": "2026-11-26T23:20:59.763Z",
+  "rev": 5737,
+  "sig": "f31f22e2ce76d795f2b9cf3b7d25c0f85ba54e1bae61efe2196a966669c6ab4f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795735187505,
+      "at": 1795735247514,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -171,16 +181,6 @@
           "name": "wallos",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -241,7 +241,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 25 hours (healthy)",
+            "status": "Up 26 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1124,7 +1124,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 25 hours (healthy)",
+        "status": "Up 26 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
