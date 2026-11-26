@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T16:41:58.969Z",
-  "changedAt": "2026-11-26T16:41:58.969Z",
-  "rev": 5348,
-  "sig": "84524b804fbe00fb040d3d06255aaaeb867db31caf17681d01b00d1cbfa1ea6f",
+  "at": "2026-11-26T16:42:59.059Z",
+  "changedAt": "2026-11-26T16:42:59.059Z",
+  "rev": 5349,
+  "sig": "11b14bb3265aaf166b4fef046582279960aa4e3f11866b47ef61bd469dc210f7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795711305567,
+      "at": 1795711365569,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -164,21 +179,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -313,7 +313,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up About a minute (healthy)",
+            "status": "Up 2 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -562,7 +562,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 3 minutes",
+            "status": "Up 4 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -600,7 +600,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up About a minute",
+            "status": "Up 2 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -888,7 +888,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 18 minutes",
+            "status": "Up 19 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -936,7 +936,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 13 hours (healthy)",
+            "status": "Up 14 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -973,7 +973,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up About a minute",
+        "status": "Up 2 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -988,7 +988,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up About a minute (healthy)",
+        "status": "Up 2 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1004,7 +1004,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 3 minutes",
+        "status": "Up 4 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1019,7 +1019,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 18 minutes",
+        "status": "Up 19 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1357,7 +1357,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 13 hours (healthy)",
+        "status": "Up 14 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
