@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T08:10:05.727Z",
-  "changedAt": "2026-11-26T08:10:05.727Z",
-  "rev": 4647,
-  "sig": "17c3048fe18615fa116285a4b6384e302865aec9a7a3ba3ab30c2649384de733",
+  "at": "2026-11-26T08:12:05.738Z",
+  "changedAt": "2026-11-26T08:12:05.738Z",
+  "rev": 4648,
+  "sig": "22b6b6757bc1c15cca8a8061d0d6beb2fc4566e22b0ccda77ff20077fb33e888",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -574,23 +574,23 @@
       "waiting": {},
       "last": [],
       "error": null,
-      "at": 1795680572993
+      "at": 1795680694175
     },
     "check": {
-      "at": 1795680573139,
+      "at": 1795680694310,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795680572984,
+      "at": 1795680694169,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795680598534,
+        "at": 1795680718540,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,41 +614,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "kokoro",
             "status": "Running",
@@ -753,6 +718,41 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +772,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795680669884,
+        "level": "warn",
+        "appId": null,
+        "message": "Status feed: fetch failed"
+      },
       {
         "t": 1795680129720,
         "level": "warn",
@@ -1125,12 +1131,6 @@
         "level": "info",
         "appId": "joolay-tv-remote",
         "message": "Updating TV Remote (detected, updating straight away)…"
-      },
-      {
-        "t": 1795643352090,
-        "level": "ok",
-        "appId": "joolay-shutterworth",
-        "message": "ShutterWorth updated to 1.9.0 (state: ready)"
       }
     ],
     "diagnose": [
