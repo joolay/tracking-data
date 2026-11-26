@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T11:18:58.355Z",
-  "changedAt": "2026-11-26T11:18:58.355Z",
-  "rev": 5037,
-  "sig": "7765979b63a56c10f1ab435bc53abc8809aecac01a3f7c077794dfc56277f0ca",
+  "at": "2026-11-26T11:19:58.360Z",
+  "changedAt": "2026-11-26T11:19:58.360Z",
+  "rev": 5038,
+  "sig": "2a750c35bb979451737697b15bfa21fcd50db4da5e71817ed4c7db52d0212b40",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795691924253,
+      "at": 1795691984257,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "listify",
           "status": "Running",
@@ -149,36 +179,6 @@
         },
         {
           "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
           "status": "Running",
           "paused": false
         }
@@ -778,7 +778,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.9.0",
             "state": "running",
-            "status": "Up 13 hours",
+            "status": "Up 14 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -826,7 +826,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.1",
             "state": "running",
-            "status": "Up 13 hours (healthy)",
+            "status": "Up 14 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1062,7 +1062,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.1",
         "state": "running",
-        "status": "Up 13 hours (healthy)",
+        "status": "Up 14 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1078,7 +1078,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.9.0",
         "state": "running",
-        "status": "Up 13 hours",
+        "status": "Up 14 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
