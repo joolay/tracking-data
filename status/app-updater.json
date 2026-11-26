@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T08:22:05.787Z",
-  "changedAt": "2026-11-26T08:22:05.787Z",
-  "rev": 4656,
-  "sig": "42170992a9af8581513850e8ae2dc88214b82e3811d1cb4f3241836fd07230f2",
+  "at": "2026-11-26T08:22:07.806Z",
+  "changedAt": "2026-11-26T08:22:07.806Z",
+  "rev": 4657,
+  "sig": "c90df6568206b18439d37689eacdbc36e9a401d46d6f77bc780355a319814c7a",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -68,30 +68,6 @@
         "busy": false,
         "detectedAt": 1795643406894,
         "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-portal",
-        "name": "JoolzApp Dashboard",
-        "version": "0.43.3",
-        "latest": "0.43.4",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795681319134,
-        "result": {
-          "ok": true,
-          "at": 1795678953937,
-          "from": "0.43.2",
-          "to": "0.43.3"
-        },
         "waiting": false
       },
       {
@@ -300,6 +276,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-portal",
+        "name": "JoolzApp Dashboard",
+        "version": "0.43.4",
+        "latest": "0.43.4",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795681327603,
+          "from": "0.43.3",
+          "to": "0.43.4"
+        },
         "waiting": false
       },
       {
@@ -609,7 +609,7 @@
       "at": 1795681258040
     },
     "check": {
-      "at": 1795681319136,
+      "at": 1795681327801,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
@@ -809,6 +809,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795681327603,
+        "level": "ok",
+        "appId": "joolay-portal",
+        "message": "JoolzApp Dashboard updated to 0.43.4 (state: ready)"
+      },
       {
         "t": 1795681319137,
         "level": "info",
@@ -1162,12 +1168,6 @@
         "level": "info",
         "appId": "open-webui",
         "message": "Update available: Open WebUI 0.13.4 → 0.13.5"
-      },
-      {
-        "t": 1795645207581,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
       }
     ],
     "diagnose": [
