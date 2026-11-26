@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-25T23:59:56.791Z",
-  "changedAt": "2026-11-25T23:59:56.791Z",
-  "rev": 4402,
-  "sig": "09d9651f263f8096f7ebc021e2ac1114988dda86db5c875e37646880d1dab325",
+  "at": "2026-11-26T00:00:56.797Z",
+  "changedAt": "2026-11-26T00:00:56.797Z",
+  "rev": 4403,
+  "sig": "c8dfc74ff68fd2150e6878912a89098700412d96974f34a5f162e6988905f673",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795651196760,
+      "at": 1795651256761,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -124,21 +139,6 @@
         },
         {
           "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         }
@@ -273,7 +273,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.0",
             "state": "running",
-            "status": "Up 45 hours (healthy)",
+            "status": "Up 46 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1166,7 +1166,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.0",
         "state": "running",
-        "status": "Up 45 hours (healthy)",
+        "status": "Up 46 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
