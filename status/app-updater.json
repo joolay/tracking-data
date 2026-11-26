@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T02:56:05.125Z",
-  "changedAt": "2026-11-26T02:56:05.125Z",
-  "rev": 4353,
-  "sig": "0896abaf102b9ba702df3114818a6cdc701446b5522d03fbe38dada39ac8b2ac",
+  "at": "2026-11-26T02:57:05.127Z",
+  "changedAt": "2026-11-26T02:57:05.127Z",
+  "rev": 4354,
+  "sig": "76a0dc0ece421503d61ee5d7d9ac630402152dc5bd3eec34a4c7d1e127c2da1b",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -121,6 +121,25 @@
         "hidden": false,
         "busy": false,
         "detectedAt": 1795652212535,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-routing-reporter",
+        "name": "Port Master",
+        "version": "1.10.1",
+        "latest": "1.10.2",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795661821576,
         "result": null,
         "waiting": false
       },
@@ -385,25 +404,6 @@
         "waiting": false
       },
       {
-        "id": "joolay-routing-reporter",
-        "name": "Port Master",
-        "version": "1.10.1",
-        "latest": "1.10.1",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
         "id": "joolay-portal-admin",
         "name": "Portal Admin",
         "version": "0.43.0",
@@ -562,7 +562,7 @@
       "at": 1795661761266
     },
     "check": {
-      "at": 1795661761398,
+      "at": 1795661821577,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 395
@@ -570,20 +570,12 @@
     "repo": {
       "at": 1795661761259,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-routing-reporter",
-          "name": "Port Master",
-          "repo": "1.10.2",
-          "umbrel": "1.10.1",
-          "kind": "update"
-        }
-      ]
+      "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795661757289,
+        "at": 1795661817294,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -607,76 +599,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "diner-bell",
             "status": "Running",
@@ -746,6 +668,76 @@
             "name": "open-webui",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -765,6 +757,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795661821577,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Updating Port Master (detected, updating straight away)…"
+      },
+      {
+        "t": 1795661821576,
+        "level": "info",
+        "appId": "joolay-routing-reporter",
+        "message": "Update available: Port Master 1.10.1 → 1.10.2"
+      },
+      {
+        "t": 1795661821574,
+        "level": "ok",
+        "appId": "joolay-routing-reporter",
+        "message": "umbrelOS now sees Port Master 1.10.2"
+      },
       {
         "t": 1795661639812,
         "level": "warn",
@@ -1106,24 +1116,6 @@
         "level": "ok",
         "appId": "joolay-listify",
         "message": "umbrelOS now sees Listify 1.2.0"
-      },
-      {
-        "t": 1795642944144,
-        "level": "ok",
-        "appId": "joolay-kiosk-manager",
-        "message": "umbrelOS now sees Kiosk Manager 1.2.1"
-      },
-      {
-        "t": 1795642944144,
-        "level": "ok",
-        "appId": "joolay-jolly-grocer",
-        "message": "umbrelOS now sees Jolly Grocer 1.5.0"
-      },
-      {
-        "t": 1795642944143,
-        "level": "ok",
-        "appId": "joolay-gatekeeper",
-        "message": "umbrelOS now sees Gatekeeper 1.0.2"
       }
     ],
     "diagnose": [
