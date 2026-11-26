@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T18:28:59.262Z",
-  "changedAt": "2026-11-26T18:28:59.262Z",
-  "rev": 5455,
-  "sig": "e98dca9bd4b53d8c15bbf13836a7257e658237c9064e4288e24c2334fdf49222",
+  "at": "2026-11-26T18:29:59.275Z",
+  "changedAt": "2026-11-26T18:29:59.275Z",
+  "rev": 5456,
+  "sig": "678ea4606533807b8c5ca0971e05bd3818e4510156d6a6fa439ed02d4b4e58b6",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795717726105,
+      "at": 1795717786110,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -179,6 +164,21 @@
         },
         {
           "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
           "status": "Running",
           "paused": false
         }
@@ -610,7 +610,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 7 minutes",
+            "status": "Up 8 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 7 minutes",
+        "status": "Up 8 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
