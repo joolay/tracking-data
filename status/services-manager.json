@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T15:14:58.877Z",
-  "changedAt": "2026-11-26T15:14:58.877Z",
-  "rev": 5263,
-  "sig": "bcdaa6d2324b1af4d010b77664426da78b1cd315c67618f07e0047bf2a4c2806",
+  "at": "2026-11-26T15:15:58.894Z",
+  "changedAt": "2026-11-26T15:15:58.894Z",
+  "rev": 5264,
+  "sig": "6954485b619581b31932c4ec4cf78cdb3539879ddaecc102a7a243e251652461",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795706085242,
+      "at": 1795706145249,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,46 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -139,46 +179,6 @@
         },
         {
           "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
           "status": "Running",
           "paused": false
         }
@@ -490,7 +490,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
             "state": "running",
-            "status": "Up 17 hours (healthy)",
+            "status": "Up 18 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1139,7 +1139,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 17 hours (healthy)",
+        "status": "Up 18 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
