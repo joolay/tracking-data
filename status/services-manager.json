@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T04:19:57.360Z",
-  "changedAt": "2026-11-26T04:19:57.360Z",
-  "rev": 4639,
-  "sig": "fc63ef103eaf5298d0344fef45d021c9b3f3df088f9d7ed7e637da9476a26c1c",
+  "at": "2026-11-26T04:20:57.359Z",
+  "changedAt": "2026-11-26T04:20:57.359Z",
+  "rev": 4640,
+  "sig": "add122b2abd734203b736dbc8aca5097a29062a58ad46edb615fed0ae98cdc5d",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795666782594,
+      "at": 1795666842597,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "atvloadly",
           "status": "Running",
@@ -176,6 +166,16 @@
           "name": "app-updater",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -236,7 +236,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 6 hours (healthy)",
+            "status": "Up 7 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -970,7 +970,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 6 hours (healthy)",
+        "status": "Up 7 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
