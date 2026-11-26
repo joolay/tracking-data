@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-26T19:25:59.357Z",
-  "changedAt": "2026-11-26T19:25:59.357Z",
-  "rev": 5512,
-  "sig": "26c42663ed173723060f25c58dbbffd2a69b2743e97de3cebc834d1f6c0081a2",
+  "at": "2026-11-26T19:27:59.340Z",
+  "changedAt": "2026-11-26T19:27:59.340Z",
+  "rev": 5513,
+  "sig": "a7b12f62ba9a5c6f0bbd997d1a19337268dfdc94a681e5b89b5f36002909fb83",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795721146356,
+      "at": 1795721266369,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -179,6 +174,11 @@
         },
         {
           "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
           "status": "Running",
           "paused": false
         }
@@ -405,11 +405,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "4223683316b5",
+            "id": "e8fe0e5f7653",
             "name": "joolay-portal_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.4",
+            "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 31 seconds (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -678,11 +678,11 @@
         "protected": false,
         "containers": [
           {
-            "id": "d0c717a52270",
+            "id": "50231c8f8421",
             "name": "joolay-portal-admin_web_1",
-            "image": "ghcr.io/joolay/portal-admin:0.43.4",
+            "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 18 seconds (health: starting)",
             "policy": "on-failure",
             "self": false
           }
@@ -955,6 +955,38 @@
     ],
     "containers": [
       {
+        "id": "50231c8f8421",
+        "name": "joolay-portal-admin_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.5",
+        "state": "running",
+        "status": "Up 18 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-26T19:27:41.030708864Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "e8fe0e5f7653",
+        "name": "joolay-portal_web_1",
+        "image": "ghcr.io/joolay/portal-admin:0.43.5",
+        "state": "running",
+        "status": "Up 31 seconds (healthy)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "healthy",
+        "startedAt": "2026-11-26T19:27:27.759375894Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
         "id": "a3cc92068d5a",
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
@@ -1012,38 +1044,6 @@
         "exitCode": 0,
         "oomKilled": false,
         "startedAt": "2026-11-26T16:23:12.416985475Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "d0c717a52270",
-        "name": "joolay-portal-admin_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.4",
-        "state": "running",
-        "status": "Up 11 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T08:22:19.930720942Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "4223683316b5",
-        "name": "joolay-portal_web_1",
-        "image": "ghcr.io/joolay/portal-admin:0.43.4",
-        "state": "running",
-        "status": "Up 11 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T08:22:06.484862629Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
