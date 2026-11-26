@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-26T08:15:05.741Z",
-  "changedAt": "2026-11-26T08:15:05.741Z",
-  "rev": 4651,
-  "sig": "16d4b29ba4a2b44d798607da8710d2dad641c6d35cefbdba1f1e996abd68ae0d",
+  "at": "2026-11-26T08:16:05.737Z",
+  "changedAt": "2026-11-26T08:16:05.737Z",
+  "rev": 4652,
+  "sig": "5674535178249b3e682b8b4b430444658a3ff97679eed6167145b0a024e00ccb",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -192,6 +192,25 @@
           "raw": "joolay"
         },
         "mode": "immediate",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-gym-guru",
+        "name": "Gym Guru",
+        "version": "1.0.0",
+        "latest": "1.0.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "off",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -570,27 +589,42 @@
     ],
     "install": {
       "enabled": true,
-      "queue": [],
+      "queue": [
+        "joolay-gym-guru"
+      ],
       "waiting": {},
-      "last": [],
+      "last": [
+        {
+          "id": "joolay-gym-guru",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795680952435
+        },
+        {
+          "id": "joolay-gatekeeper",
+          "ok": true,
+          "note": "Installed",
+          "at": 1795680936915
+        }
+      ],
       "error": null,
-      "at": 1795680875800
+      "at": 1795680952380
     },
     "check": {
-      "at": 1795680875917,
+      "at": 1795680952649,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 399
     },
     "repo": {
-      "at": 1795680815363,
+      "at": 1795680936868,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795680898549,
+        "at": 1795680958554,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -614,6 +648,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "pocketbase",
             "status": "Running",
@@ -743,16 +787,6 @@
             "name": "kokoro",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -772,6 +806,24 @@
       }
     },
     "log": [
+      {
+        "t": 1795680952435,
+        "level": "info",
+        "appId": "joolay-gym-guru",
+        "message": "Installed joolay-gym-guru"
+      },
+      {
+        "t": 1795680949209,
+        "level": "info",
+        "appId": "joolay-gym-guru",
+        "message": "Install started for joolay-gym-guru"
+      },
+      {
+        "t": 1795680936915,
+        "level": "info",
+        "appId": "joolay-gatekeeper",
+        "message": "Installed joolay-gatekeeper"
+      },
       {
         "t": 1795680669884,
         "level": "warn",
@@ -1113,24 +1165,6 @@
         "level": "info",
         "appId": "joolay-app-updater",
         "message": "Every other update is done. Pausing checks and updating App Updater itself: 1.10.0 → 1.10.1…"
-      },
-      {
-        "t": 1795643377601,
-        "level": "ok",
-        "appId": "joolay-tv-remote",
-        "message": "TV Remote updated to 0.3.1 (state: ready)"
-      },
-      {
-        "t": 1795643352305,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating ShutterWorth (0 s)"
-      },
-      {
-        "t": 1795643352300,
-        "level": "info",
-        "appId": "joolay-tv-remote",
-        "message": "Updating TV Remote (detected, updating straight away)…"
       }
     ],
     "diagnose": [
