@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T08:20:00.945Z",
-  "changedAt": "2026-11-27T08:20:00.945Z",
-  "rev": 6254,
-  "sig": "737d20cc34df56a76b74da60e37365182130b9ba324f724a4b5accd0cf9373e8",
+  "at": "2026-11-27T08:21:01.004Z",
+  "changedAt": "2026-11-27T08:21:01.004Z",
+  "rev": 6255,
+  "sig": "c2aa3d134941387b0c787f1c566dd9f94562247cc7fdf4054ee6379ce403f3b4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795767590669,
+      "at": 1795767650678,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -181,11 +186,6 @@
           "name": "gym-guru",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -270,7 +270,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 34 hours (healthy)",
+            "status": "Up 35 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1168,7 +1168,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 34 hours (healthy)",
+        "status": "Up 35 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
