@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T02:57:00.194Z",
-  "changedAt": "2026-11-27T02:57:00.194Z",
-  "rev": 5941,
-  "sig": "8c2f54039875950cf956a8a6d675ff044ac4453da94174621e04e05722bcce94",
+  "at": "2026-11-27T02:58:00.200Z",
+  "changedAt": "2026-11-27T02:58:00.200Z",
+  "rev": 5942,
+  "sig": "89f1816d32e0da52239fcc8a41c6b334d008e2ac5e39fefe4b2dce0b636d56cc",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795748208562,
+      "at": 1795748268570,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,51 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kiosk-manager",
           "status": "Running",
@@ -134,51 +179,6 @@
         },
         {
           "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -409,7 +409,7 @@
             "name": "joolay-portal_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -706,7 +706,7 @@
             "name": "joolay-portal-admin_web_1",
             "image": "ghcr.io/joolay/portal-admin:0.43.5",
             "state": "running",
-            "status": "Up 7 hours (healthy)",
+            "status": "Up 8 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1014,7 +1014,7 @@
         "name": "joolay-portal-admin_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1030,7 +1030,7 @@
         "name": "joolay-portal_web_1",
         "image": "ghcr.io/joolay/portal-admin:0.43.5",
         "state": "running",
-        "status": "Up 7 hours (healthy)",
+        "status": "Up 8 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
