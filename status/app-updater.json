@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T06:20:12.567Z",
-  "changedAt": "2026-11-27T06:20:12.567Z",
-  "rev": 5851,
-  "sig": "e7a6b650b63b69783f0282a2bf839a8443a9cccbe74cbc2b7108222aeb866564",
+  "at": "2026-11-27T06:21:12.717Z",
+  "changedAt": "2026-11-27T06:21:12.717Z",
+  "rev": 5852,
+  "sig": "64c710c3c73b18f52bfe9aeb149e89fe441dfdf41a8c26585adea6aa6fd16cfe",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -665,10 +665,10 @@
         }
       ],
       "error": null,
-      "at": 1795760396806
+      "at": 1795760457181
     },
     "check": {
-      "at": 1795760396999,
+      "at": 1795760457339,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 404
@@ -681,7 +681,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795760404880,
+        "at": 1795760464884,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -705,6 +705,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tailscale",
             "status": "Running",
@@ -842,16 +852,6 @@
           },
           {
             "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
             "status": "Running",
             "paused": false
           }
@@ -1258,7 +1258,7 @@
       {
         "proc": "versions found in registry",
         "ok": true,
-        "shape": "403"
+        "shape": "404"
       }
     ]
   }
