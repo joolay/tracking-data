@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T09:19:01.201Z",
-  "changedAt": "2026-11-27T09:19:01.201Z",
-  "rev": 6312,
-  "sig": "18238132c486d92c06e1e024dc73232b3ddc0ae8c93b5fa201405925ded83151",
+  "at": "2026-11-27T09:20:01.172Z",
+  "changedAt": "2026-11-27T09:20:01.172Z",
+  "rev": 6313,
+  "sig": "cd78f9e03879af0b6c3d36c78c09b54146ac512eb70f1b54b6d22eafa8b71016",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795771131206,
+      "at": 1795771191212,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -169,21 +184,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -807,7 +807,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.9.0",
             "state": "running",
-            "status": "Up 35 hours",
+            "status": "Up 36 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -855,7 +855,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.1",
             "state": "running",
-            "status": "Up 35 hours (healthy)",
+            "status": "Up 36 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1184,7 +1184,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.1",
         "state": "running",
-        "status": "Up 35 hours (healthy)",
+        "status": "Up 36 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1200,7 +1200,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.9.0",
         "state": "running",
-        "status": "Up 35 hours",
+        "status": "Up 36 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
