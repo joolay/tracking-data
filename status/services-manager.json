@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T03:14:00.212Z",
-  "changedAt": "2026-11-27T03:14:00.212Z",
-  "rev": 5958,
-  "sig": "770b3f3fb945dcf6d42ecf7ef6221d16694c4054badae2abddb9f14e057df83d",
+  "at": "2026-11-27T03:15:00.216Z",
+  "changedAt": "2026-11-27T03:15:00.216Z",
+  "rev": 5959,
+  "sig": "ff7190c291e2b030f4ccf30d926b2124ce404795ad565d46f81b8eda96a48044",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795749228673,
+      "at": 1795749288677,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "jolly-grocer",
           "status": "Running",
@@ -179,6 +169,16 @@
         },
         {
           "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
           "status": "Running",
           "paused": false
         }
@@ -385,7 +385,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 29 hours",
+            "status": "Up 30 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1233,7 +1233,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 29 hours",
+        "status": "Up 30 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
