@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T12:17:02.237Z",
-  "changedAt": "2026-11-27T12:17:02.237Z",
-  "rev": 6484,
-  "sig": "c1b2b290812819307457538cd77b8aa7242d352e64aa6cf7d2aa641606897b75",
+  "at": "2026-11-27T12:18:02.119Z",
+  "changedAt": "2026-11-27T12:18:02.119Z",
+  "rev": 6485,
+  "sig": "56d8d09d0bc4e3e3aff68407b11e4174c944178414638aeaca738e237af4e436",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795781812113,
+      "at": 1795781872116,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -154,36 +184,6 @@
         },
         {
           "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
           "status": "Running",
           "paused": false
         }
@@ -615,7 +615,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 19 hours (healthy)",
+            "status": "Up 20 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -711,7 +711,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.3",
             "state": "running",
-            "status": "Up 28 hours (healthy)",
+            "status": "Up 29 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1090,7 +1090,7 @@
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 19 hours (healthy)",
+        "status": "Up 20 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1152,7 +1152,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.3",
         "state": "running",
-        "status": "Up 28 hours (healthy)",
+        "status": "Up 29 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
