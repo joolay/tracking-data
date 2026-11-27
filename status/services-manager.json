@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T07:40:00.795Z",
-  "changedAt": "2026-11-27T07:40:00.795Z",
-  "rev": 6214,
-  "sig": "20894625faa48370385eddc87aa9e86e4d80aaa46717409469b2c35f6c511e12",
+  "at": "2026-11-27T07:41:00.798Z",
+  "changedAt": "2026-11-27T07:41:00.798Z",
+  "rev": 6215,
+  "sig": "9486857ec2151c07a42fb38944f292ca5f59116b5d7660b95a86702fd1c67ac8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795765190277,
+      "at": 1795765250286,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -154,36 +184,6 @@
         },
         {
           "name": "anything-llm",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
           "status": "Running",
           "paused": false
         }
@@ -462,7 +462,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 36 hours",
+            "status": "Up 37 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1337,7 +1337,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 36 hours",
+        "status": "Up 37 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
