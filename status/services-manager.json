@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T01:07:00.086Z",
-  "changedAt": "2026-11-27T01:07:00.086Z",
-  "rev": 5833,
-  "sig": "bff5367b090f1266a6e940cb00d5a8d7afe1fea8784517e62a6de524fff9a4cb",
+  "at": "2026-11-27T01:08:00.083Z",
+  "changedAt": "2026-11-27T01:08:00.083Z",
+  "rev": 5834,
+  "sig": "5885e45e1b5972fca98b53671e5d0c953a6e41a6f334078fff4dd102a21df3ee",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795741608043,
+      "at": 1795741668047,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,61 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "wallos",
           "status": "Running",
@@ -181,6 +126,61 @@
           "name": "tv-remote",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -194,8 +194,8 @@
       }
     },
     "summary": {
-      "containers": 33,
-      "running": 32,
+      "containers": 32,
+      "running": 31,
       "problems": []
     },
     "services": [
@@ -885,24 +885,14 @@
         "kind": "umbrel",
         "id": "yuvomi",
         "name": "Yuvomi",
-        "state": "ready",
-        "busy": false,
+        "state": "updating",
+        "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "73ba28cc20df",
-            "name": "yuvomi_web_1",
-            "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
-            "state": "running",
-            "status": "Up 9 hours",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "docker:app-proxy",
@@ -1069,21 +1059,6 @@
         "exitCode": 0,
         "oomKilled": false,
         "startedAt": "2026-11-26T16:38:53.626840882Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "73ba28cc20df",
-        "name": "yuvomi_web_1",
-        "image": "ghcr.io/ulsklyc/yuvomi:2.95.0@sha256:[hidden]",
-        "state": "running",
-        "status": "Up 9 hours",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "startedAt": "2026-11-26T16:23:12.416985475Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
