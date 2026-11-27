@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T06:08:00.756Z",
-  "changedAt": "2026-11-27T06:08:00.756Z",
-  "rev": 6127,
-  "sig": "5065b60d17a54349eb4d702dcf21c6bdee2b9970db1cbc27f183ecb075ea274f",
+  "at": "2026-11-27T06:09:00.722Z",
+  "changedAt": "2026-11-27T06:09:00.722Z",
+  "rev": 6128,
+  "sig": "071473703b389583fa6e071d0e836e8da4fcb49e9b29cbb88857be59a758b424",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795759669820,
+      "at": 1795759729824,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -164,26 +184,6 @@
         },
         {
           "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -591,7 +591,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 13 hours",
+            "status": "Up 14 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1122,7 +1122,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 13 hours",
+        "status": "Up 14 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
