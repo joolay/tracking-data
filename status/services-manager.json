@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T03:18:00.214Z",
-  "changedAt": "2026-11-27T03:18:00.214Z",
-  "rev": 5962,
-  "sig": "912b368fdf69ad1c3351b7919cc401389e5b6afd808008e02368e6caf69195af",
+  "at": "2026-11-27T03:19:00.210Z",
+  "changedAt": "2026-11-27T03:19:00.210Z",
+  "rev": 5963,
+  "sig": "356d9f2196c22e16657752293af1fad17a8b4d2875f85fb0e198c12c7801aa02",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795749468700,
+      "at": 1795749528712,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -169,16 +179,6 @@
         },
         {
           "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -730,7 +730,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 29 hours",
+            "status": "Up 30 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -754,7 +754,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 29 hours (healthy)",
+            "status": "Up 30 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1171,7 +1171,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 29 hours (healthy)",
+        "status": "Up 30 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1187,7 +1187,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 29 hours",
+        "status": "Up 30 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
