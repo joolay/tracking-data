@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T05:20:00.634Z",
-  "changedAt": "2026-11-27T05:20:00.634Z",
-  "rev": 6080,
-  "sig": "dc096d6156d772609d34b4e640a82732d09fec87db6067ebc331754345c0beef",
+  "at": "2026-11-27T05:21:00.602Z",
+  "changedAt": "2026-11-27T05:21:00.602Z",
+  "rev": 6081,
+  "sig": "9d4e4dc7916ed3f1566f97c27b53cb6464dee3e033373a4a5cf1190c4726b45c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795756789552,
+      "at": 1795756849556,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -181,11 +186,6 @@
           "name": "project-tracker",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -270,7 +270,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 31 hours (healthy)",
+            "status": "Up 32 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1168,7 +1168,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 31 hours (healthy)",
+        "status": "Up 32 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
