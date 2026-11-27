@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T10:15:01.388Z",
-  "changedAt": "2026-11-27T10:15:01.388Z",
-  "rev": 6364,
-  "sig": "e9308367fcc89bb3b80ca5494562065a0e47dfd876e965de91bca2d8f68c0abd",
+  "at": "2026-11-27T10:16:01.404Z",
+  "changedAt": "2026-11-27T10:16:01.404Z",
+  "rev": 6365,
+  "sig": "1140d27d4fbc119ca405896a0690ff659f65e27a32438c7433736dc1ff350768",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795774491522,
+      "at": 1795774551529,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -164,26 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -519,7 +519,7 @@
             "name": "joolay-kiosk-manager_web_1",
             "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
             "state": "running",
-            "status": "Up 36 hours (healthy)",
+            "status": "Up 37 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1261,7 +1261,7 @@
         "name": "joolay-kiosk-manager_web_1",
         "image": "ghcr.io/joolay/kiosk-manager:1.2.1",
         "state": "running",
-        "status": "Up 36 hours (healthy)",
+        "status": "Up 37 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
