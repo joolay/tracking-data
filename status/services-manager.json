@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T15:38:02.232Z",
-  "changedAt": "2026-11-27T15:38:02.232Z",
-  "rev": 6676,
-  "sig": "2d550e429c8b51fc0788af067abd97f20af8cfc6d653b873dcb6086c2f8546ab",
+  "at": "2026-11-27T15:39:02.238Z",
+  "changedAt": "2026-11-27T15:39:02.238Z",
+  "rev": 6677,
+  "sig": "78c4965d6ab24621d4d013af75cd2f83da3c0a0c9e563c6f122bcfd67194acd9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795793873193,
+      "at": 1795793933201,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "wallos",
           "status": "Running",
@@ -154,36 +184,6 @@
         },
         {
           "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
           "status": "Running",
           "paused": false
         }
@@ -927,7 +927,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 14 hours",
+            "status": "Up 15 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1043,7 +1043,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 14 hours",
+        "status": "Up 15 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
