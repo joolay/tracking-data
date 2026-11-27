@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T19:20:02.578Z",
-  "changedAt": "2026-11-27T19:20:02.578Z",
-  "rev": 6890,
-  "sig": "dcd7fd186d3480a97d13cc04cd84fc40ba302a425a35512018b60a12ae027b2f",
+  "at": "2026-11-27T19:21:02.596Z",
+  "changedAt": "2026-11-27T19:21:02.596Z",
+  "rev": 6891,
+  "sig": "828081fa90d9f309340d90272a141d8e4f11bc48d226c50f085c32126c8873b0",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795807194498,
+      "at": 1795807254502,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "port-master",
           "status": "Running",
@@ -161,31 +186,6 @@
           "name": "tv-remote",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -270,7 +270,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 45 hours (healthy)",
+            "status": "Up 46 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1168,7 +1168,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 45 hours (healthy)",
+        "status": "Up 46 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
