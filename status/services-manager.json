@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T13:14:01.711Z",
-  "changedAt": "2026-11-27T13:14:01.711Z",
-  "rev": 6537,
-  "sig": "c6b7ed85994d63fadd55ea52b1e952d06e62d03ead1a6fb9c4c9963be4adc11e",
+  "at": "2026-11-27T13:15:01.722Z",
+  "changedAt": "2026-11-27T13:15:01.722Z",
+  "rev": 6538,
+  "sig": "c71e2dfeabcb5f3e4019e4bddcf6ca2282026465eccf7858a8c20bd7f0c412a2",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795785232295,
+      "at": 1795785292297,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,51 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "ollama",
           "status": "Running",
@@ -139,51 +184,6 @@
         },
         {
           "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
           "status": "Running",
           "paused": false
         }
@@ -414,7 +414,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 39 hours",
+            "status": "Up 40 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1277,7 +1277,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 39 hours",
+        "status": "Up 40 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
