@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T03:46:00.231Z",
-  "changedAt": "2026-11-27T03:46:00.231Z",
-  "rev": 5987,
-  "sig": "d3e6f2229e8ca0dc13ae96093eb1f93f536edfd172a2a8b4577baca2d5407cfa",
+  "at": "2026-11-27T03:47:00.328Z",
+  "changedAt": "2026-11-27T03:47:00.328Z",
+  "rev": 5988,
+  "sig": "55695485e85cf161fa2e96acefc6299ba0b82a24811ae84e84ece6a82f3a49af",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795751148929,
+      "at": 1795751208935,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -199,8 +199,8 @@
       }
     },
     "summary": {
-      "containers": 32,
-      "running": 31,
+      "containers": 34,
+      "running": 33,
       "problems": []
     },
     "services": [
@@ -233,14 +233,24 @@
         "kind": "umbrel",
         "id": "anything-llm",
         "name": "AnythingLLM",
-        "state": "installing",
-        "busy": true,
-        "on": false,
+        "state": "ready",
+        "busy": false,
+        "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "cf586fbea545",
+            "name": "anything-llm_app_1",
+            "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 20 seconds (health: starting)",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "umbrel:joolay-app-updater",
@@ -616,14 +626,24 @@
         "kind": "umbrel",
         "id": "openclaw",
         "name": "OpenClaw",
-        "state": "installing",
-        "busy": true,
-        "on": false,
+        "state": "ready",
+        "busy": false,
+        "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "04feaef300db",
+            "name": "openclaw_gateway_1",
+            "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 16 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "umbrel:paperclip",
@@ -987,6 +1007,37 @@
       }
     ],
     "containers": [
+      {
+        "id": "04feaef300db",
+        "name": "openclaw_gateway_1",
+        "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 16 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-27T03:46:44.070669265Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
+      {
+        "id": "cf586fbea545",
+        "name": "anything-llm_app_1",
+        "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 20 seconds (health: starting)",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "health": "starting",
+        "startedAt": "2026-11-27T03:46:39.940769607Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "5dc333b7b55b",
         "name": "yuvomi_web_1",
