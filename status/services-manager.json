@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T13:13:01.731Z",
-  "changedAt": "2026-11-27T13:13:01.731Z",
-  "rev": 6536,
-  "sig": "c40bdc0db0800f4ab2357f6b4480a762d88278e3127e5f7828cee57813d2fe1d",
+  "at": "2026-11-27T13:14:01.711Z",
+  "changedAt": "2026-11-27T13:14:01.711Z",
+  "rev": 6537,
+  "sig": "c6b7ed85994d63fadd55ea52b1e952d06e62d03ead1a6fb9c4c9963be4adc11e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795785172294,
+      "at": 1795785232295,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "wallos",
           "status": "Running",
@@ -171,21 +186,6 @@
           "name": "tailscale",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -318,7 +318,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 39 hours",
+            "status": "Up 40 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1292,7 +1292,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 39 hours",
+        "status": "Up 40 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
