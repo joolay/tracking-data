@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T03:33:11.068Z",
-  "changedAt": "2026-11-27T03:33:11.068Z",
-  "rev": 5690,
-  "sig": "8793674468b314f4f50b9b7114f4d511a234b3d525a77f1cacc269cfeda2519d",
+  "at": "2026-11-27T03:33:58.637Z",
+  "changedAt": "2026-11-27T03:33:58.637Z",
+  "rev": 5691,
+  "sig": "f801b317dc22f5995e08b38c811438673e7ee0a2e7171b8060b20b0c52c8331f",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -51,25 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "joolay-openclaw",
-        "name": "OpenClaw",
-        "version": "2026.11.10",
-        "latest": "2026.1110.1",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795750320046,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -353,6 +334,30 @@
         "busy": false,
         "detectedAt": null,
         "result": null,
+        "waiting": false
+      },
+      {
+        "id": "joolay-openclaw",
+        "name": "OpenClaw",
+        "version": "2026.1110.1",
+        "latest": "2026.1110.1",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795750437543,
+          "from": "2026.11.10",
+          "to": "2026.1110.1"
+        },
         "waiting": false
       },
       {
@@ -651,20 +656,20 @@
       "at": 1795750259734
     },
     "check": {
-      "at": 1795750320047,
+      "at": 1795750438627,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 401
     },
     "repo": {
-      "at": 1795750259725,
+      "at": 1795750438627,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795750383817,
+        "at": 1795750428828,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -688,76 +693,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "app-updater",
             "status": "Running",
@@ -832,6 +767,76 @@
             "name": "tv-remote",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -851,6 +856,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795750437543,
+        "level": "ok",
+        "appId": "joolay-openclaw",
+        "message": "OpenClaw updated to 2026.1110.1 (state: ready)"
+      },
       {
         "t": 1795750320048,
         "level": "info",
@@ -1204,12 +1215,6 @@
         "level": "info",
         "appId": "joolay-portal-admin",
         "message": "Update available: Portal Admin 0.43.1 → 0.43.2"
-      },
-      {
-        "t": 1795677768256,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Update available: JoolzApp Dashboard 0.43.1 → 0.43.2"
       }
     ],
     "diagnose": [
