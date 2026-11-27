@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T01:40:00.128Z",
-  "changedAt": "2026-11-27T01:40:00.128Z",
-  "rev": 5866,
-  "sig": "cc4d7257783748c9b27d42d0c4877cf56d687282e3f27467f2df33392389abfe",
+  "at": "2026-11-27T01:41:00.120Z",
+  "changedAt": "2026-11-27T01:41:00.120Z",
+  "rev": 5867,
+  "sig": "ff9e497047a65516556e4a6fd8d1ee84546ef9ce57c722a7ad6f4234a7f13dae",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795743588135,
+      "at": 1795743648136,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,56 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -129,56 +179,6 @@
         },
         {
           "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -433,7 +433,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 30 hours",
+            "status": "Up 31 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -898,7 +898,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 31 minutes",
+            "status": "Up 32 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 31 minutes",
+        "status": "Up 32 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1293,7 +1293,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 30 hours",
+        "status": "Up 31 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
