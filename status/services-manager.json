@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T12:16:02.245Z",
-  "changedAt": "2026-11-27T12:16:02.245Z",
-  "rev": 6483,
-  "sig": "a8b985ad6123aeaad01c62aca979416f93773a6dff97c3cd9ea9b49629e56907",
+  "at": "2026-11-27T12:17:02.237Z",
+  "changedAt": "2026-11-27T12:17:02.237Z",
+  "rev": 6484,
+  "sig": "c1b2b290812819307457538cd77b8aa7242d352e64aa6cf7d2aa641606897b75",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795781752109,
+      "at": 1795781812113,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,51 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "anything-llm",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -141,51 +186,6 @@
           "name": "port-master",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "anything-llm",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -246,7 +246,7 @@
             "name": "anything-llm_app_1",
             "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 hours (healthy)",
+            "status": "Up 9 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -567,7 +567,7 @@
             "name": "joolay-listify_web_1",
             "image": "ghcr.io/joolay/listify:1.2.0",
             "state": "running",
-            "status": "Up 38 hours",
+            "status": "Up 39 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -639,7 +639,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 hours",
+            "status": "Up 9 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1012,7 +1012,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 hours",
+        "status": "Up 9 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1027,7 +1027,7 @@
         "name": "anything-llm_app_1",
         "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 hours (healthy)",
+        "status": "Up 9 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1246,7 +1246,7 @@
         "name": "joolay-listify_web_1",
         "image": "ghcr.io/joolay/listify:1.2.0",
         "state": "running",
-        "status": "Up 38 hours",
+        "status": "Up 39 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
