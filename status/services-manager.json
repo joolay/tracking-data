@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T01:08:00.083Z",
-  "changedAt": "2026-11-27T01:08:00.083Z",
-  "rev": 5834,
-  "sig": "5885e45e1b5972fca98b53671e5d0c953a6e41a6f334078fff4dd102a21df3ee",
+  "at": "2026-11-27T01:09:00.137Z",
+  "changedAt": "2026-11-27T01:09:00.137Z",
+  "rev": 5835,
+  "sig": "0eec4cd1283bdd42a11c035c3c5940c334e0d129cd94b6889a2d79312b786d92",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795741668047,
+      "at": 1795741728049,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,71 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "wallos",
           "status": "Running",
@@ -116,71 +181,6 @@
           "name": "services-manager",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -194,8 +194,8 @@
       }
     },
     "summary": {
-      "containers": 32,
-      "running": 31,
+      "containers": 33,
+      "running": 32,
       "problems": []
     },
     "services": [
@@ -562,7 +562,7 @@
             "name": "ollama_ollama_1",
             "image": "ollama/ollama:0.40.18@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 hours",
+            "status": "Up 9 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -885,14 +885,24 @@
         "kind": "umbrel",
         "id": "yuvomi",
         "name": "Yuvomi",
-        "state": "updating",
-        "busy": true,
+        "state": "ready",
+        "busy": false,
         "on": true,
         "autoStart": true,
-        "policy": null,
+        "policy": "on-failure",
         "pinned": null,
         "protected": false,
-        "containers": []
+        "containers": [
+          {
+            "id": "5dc333b7b55b",
+            "name": "yuvomi_web_1",
+            "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
+            "state": "running",
+            "status": "Up 43 seconds",
+            "policy": "on-failure",
+            "self": false
+          }
+        ]
       },
       {
         "key": "docker:app-proxy",
@@ -968,6 +978,21 @@
       }
     ],
     "containers": [
+      {
+        "id": "5dc333b7b55b",
+        "name": "yuvomi_web_1",
+        "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
+        "state": "running",
+        "status": "Up 44 seconds",
+        "restartPolicy": "on-failure",
+        "restarts": 0,
+        "exitCode": 0,
+        "oomKilled": false,
+        "startedAt": "2026-11-27T01:08:16.059450235Z",
+        "finishedAt": "0001-01-01T00:00:00Z",
+        "error": "",
+        "problem": false
+      },
       {
         "id": "04a70701cde6",
         "name": "joolay-openclaw_web_1",
@@ -1053,7 +1078,7 @@
         "name": "ollama_ollama_1",
         "image": "ollama/ollama:0.40.18@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 hours",
+        "status": "Up 9 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
