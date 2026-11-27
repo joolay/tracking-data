@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T04:14:00.363Z",
-  "changedAt": "2026-11-27T04:14:00.363Z",
-  "rev": 6015,
-  "sig": "d5a43c86b09076b96a6afcfc436b127bf380cacc54b2771d43315ca77d172988",
+  "at": "2026-11-27T04:15:00.347Z",
+  "changedAt": "2026-11-27T04:15:00.347Z",
+  "rev": 6016,
+  "sig": "50a5f6e90da423308adc979e800517b0345ab1ce96c1f83e9e862a2228b798dc",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795752829145,
+      "at": 1795752889153,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,66 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tailscale",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "anything-llm",
           "status": "Running",
@@ -126,66 +186,6 @@
           "name": "openclaw",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -246,7 +246,7 @@
             "name": "anything-llm_app_1",
             "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 27 minutes (healthy)",
+            "status": "Up 28 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -414,7 +414,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 30 hours",
+            "status": "Up 31 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -639,7 +639,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 27 minutes",
+            "status": "Up 28 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -1012,7 +1012,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 27 minutes",
+        "status": "Up 28 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1027,7 +1027,7 @@
         "name": "anything-llm_app_1",
         "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 27 minutes (healthy)",
+        "status": "Up 28 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1277,7 +1277,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 30 hours",
+        "status": "Up 31 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
