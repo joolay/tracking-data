@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T01:14:00.076Z",
-  "changedAt": "2026-11-27T01:14:00.076Z",
-  "rev": 5840,
-  "sig": "c89342bfddc69124ef22f37b5f05307a91a364d73b6e3c7df513973aedb8cf0f",
+  "at": "2026-11-27T01:15:00.073Z",
+  "changedAt": "2026-11-27T01:15:00.073Z",
+  "rev": 5841,
+  "sig": "e5f35426f52f7e435b2a8f722fcf195a9f74e6e7b9c3bdc70d6c842e88aa2a6f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795742028068,
+      "at": 1795742088069,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,31 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -179,6 +154,31 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
           "status": "Running",
           "paused": false
         }
@@ -385,7 +385,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 27 hours",
+            "status": "Up 28 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -898,7 +898,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 5 minutes",
+            "status": "Up 6 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 5 minutes",
+        "status": "Up 6 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1233,7 +1233,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 27 hours",
+        "status": "Up 28 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
