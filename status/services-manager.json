@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T17:41:02.445Z",
-  "changedAt": "2026-11-27T17:41:02.445Z",
-  "rev": 6795,
-  "sig": "9c9cd6985ac821e88f72f41d8527e2fc7d069adcc97068e1ece9f3f3832170ea",
+  "at": "2026-11-27T17:42:02.456Z",
+  "changedAt": "2026-11-27T17:42:02.456Z",
+  "rev": 6796,
+  "sig": "fb8fdb28c12c7c9812f72c66769e91be997f9c4ed8230ef2821aa3e18158e75e",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795801253970,
+      "at": 1795801313974,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -159,31 +184,6 @@
         },
         {
           "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -486,7 +486,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.2",
             "state": "running",
-            "status": "Up 46 hours",
+            "status": "Up 47 hours",
             "policy": "on-failure",
             "self": false
           },
@@ -495,7 +495,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 46 hours",
+            "status": "Up 47 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1307,7 +1307,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.2",
         "state": "running",
-        "status": "Up 46 hours",
+        "status": "Up 47 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1322,7 +1322,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 46 hours",
+        "status": "Up 47 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
