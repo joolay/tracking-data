@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-27T03:51:15.208Z",
-  "changedAt": "2026-11-27T03:51:15.208Z",
-  "rev": 5668,
-  "sig": "733b40ee2aade758c7f270ae9b4acf1ee33b9e9466b8519845c7231dfaff62fa",
+  "at": "2026-11-27T03:52:15.215Z",
+  "changedAt": "2026-11-27T03:52:15.215Z",
+  "rev": 5669,
+  "sig": "803302d799ec2fca5b2987b4ded6cc52042d5ee926a813969818224caa5d9fa4",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,42 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "gym-guru",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
         {
           "name": "services-manager",
           "status": "Running"
@@ -100,42 +136,6 @@
         {
           "name": "portaladmin",
           "status": "Running"
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
         }
       ]
     },
@@ -157,64 +157,7 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [
-      {
-        "app": "anything-llm",
-        "route": "lan",
-        "url": "http://host.docker.internal:3031/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795750905478
-      },
-      {
-        "app": "anything-llm",
-        "route": "local",
-        "url": "http://umbrel.local:3031/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795750905481
-      },
-      {
-        "app": "anything-llm",
-        "route": "tailscale",
-        "url": "http://100.118.10.62:3031/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795750905477
-      },
-      {
-        "app": "anything-llm",
-        "route": "name",
-        "url": "https://anything-llm.macaw-chroma.ts.net/",
-        "error": "the app behind it is not answering (502)",
-        "since": 1795751209931
-      },
-      {
-        "app": "openclaw",
-        "route": "lan",
-        "url": "http://host.docker.internal:18789/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795750599840
-      },
-      {
-        "app": "openclaw",
-        "route": "local",
-        "url": "http://umbrel.local:18789/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795750599844
-      },
-      {
-        "app": "openclaw",
-        "route": "tailscale",
-        "url": "http://100.118.10.62:18789/",
-        "error": "connection refused (nothing listening)",
-        "since": 1795750599842
-      },
-      {
-        "app": "openclaw",
-        "route": "name",
-        "url": "https://openclaw.macaw-chroma.ts.net/",
-        "error": "the app behind it is not answering (502)",
-        "since": 1795750904554
-      }
-    ],
+    "routesDown": [],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -235,7 +178,7 @@
         "app": "anything-llm",
         "name": "AnythingLLM",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       },
       {
         "port": 3093,
@@ -522,7 +465,7 @@
         "app": "openclaw",
         "name": "OpenClaw",
         "kind": "app",
-        "state": "down"
+        "state": "up"
       }
     ],
     "apps": [
@@ -587,38 +530,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:3031/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795750905478
+            "status": 302,
+            "error": "",
+            "since": 1795751513366
           },
           {
             "key": "local",
             "url": "http://umbrel.local:3031/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795750905481
+            "status": 302,
+            "error": "",
+            "since": 1795751513371
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:3031/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795750905477
+            "status": 302,
+            "error": "",
+            "since": 1795751513362
           },
           {
             "key": "name",
             "url": "https://anything-llm.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 502,
-            "error": "the app behind it is not answering (502)",
-            "since": 1795751209931
+            "status": 302,
+            "error": "",
+            "since": 1795751513579
           }
         ]
       },
@@ -1670,38 +1613,38 @@
           {
             "key": "lan",
             "url": "http://host.docker.internal:18789/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795750599840
+            "status": 302,
+            "error": "",
+            "since": 1795751516565
           },
           {
             "key": "local",
             "url": "http://umbrel.local:18789/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795750599844
+            "status": 302,
+            "error": "",
+            "since": 1795751516570
           },
           {
             "key": "tailscale",
             "url": "http://100.118.10.62:18789/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 0,
-            "error": "connection refused (nothing listening)",
-            "since": 1795750599842
+            "status": 302,
+            "error": "",
+            "since": 1795751516568
           },
           {
             "key": "name",
             "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "down",
+            "state": "up",
             "ignored": false,
-            "status": 502,
-            "error": "the app behind it is not answering (502)",
-            "since": 1795750904554
+            "status": 302,
+            "error": "",
+            "since": 1795751516809
           }
         ]
       },
