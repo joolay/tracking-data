@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T03:35:00.372Z",
-  "changedAt": "2026-11-27T03:35:00.372Z",
-  "rev": 5976,
-  "sig": "6db7952e63d34dcb0e1ef28c7974507ed96fea77b03a22a395ae992ebccb80eb",
+  "at": "2026-11-27T03:36:00.216Z",
+  "changedAt": "2026-11-27T03:36:00.216Z",
+  "rev": 5977,
+  "sig": "a838f1919adc91b7ca9286cf3a13fe81c40d9021de71367a2c65cdd8c43e318b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795750488837,
+      "at": 1795750548846,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,61 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -126,61 +181,6 @@
           "name": "gym-guru",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -194,8 +194,8 @@
       }
     },
     "summary": {
-      "containers": 33,
-      "running": 32,
+      "containers": 32,
+      "running": 31,
       "problems": []
     },
     "services": [
@@ -593,28 +593,18 @@
         ]
       },
       {
-        "key": "umbrel:joolay-openclaw",
+        "key": "umbrel:openclaw",
         "kind": "umbrel",
-        "id": "joolay-openclaw",
+        "id": "openclaw",
         "name": "OpenClaw",
-        "state": "ready",
-        "busy": false,
-        "on": true,
+        "state": "installing",
+        "busy": true,
+        "on": false,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "49fa708b6106",
-            "name": "joolay-openclaw_web_1",
-            "image": "ghcr.io/joolay/openclaw:2026.1110.1",
-            "state": "running",
-            "status": "Up About a minute (health: starting)",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "umbrel:paperclip",
@@ -978,22 +968,6 @@
       }
     ],
     "containers": [
-      {
-        "id": "49fa708b6106",
-        "name": "joolay-openclaw_web_1",
-        "image": "ghcr.io/joolay/openclaw:2026.1110.1",
-        "state": "running",
-        "status": "Up About a minute (health: starting)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "starting",
-        "startedAt": "2026-11-27T03:33:56.232376384Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
       {
         "id": "5dc333b7b55b",
         "name": "yuvomi_web_1",
