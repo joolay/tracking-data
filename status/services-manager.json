@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T15:40:02.218Z",
-  "changedAt": "2026-11-27T15:40:02.218Z",
-  "rev": 6678,
-  "sig": "9a9c170d05f48ebc6db39473b0f5f6ab7324ec3e7df94807647a9196b2a4c433",
+  "at": "2026-11-27T15:41:02.237Z",
+  "changedAt": "2026-11-27T15:41:02.237Z",
+  "rev": 6679,
+  "sig": "2bc136a710a484f9e0c533189ea63b32aa3f5f1a3bf4c112290fad26bbcbe86c",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795793993210,
+      "at": 1795794053219,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "project-tracker",
           "status": "Running",
@@ -179,11 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
           "status": "Running",
           "paused": false
         }
@@ -462,7 +462,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 44 hours",
+            "status": "Up 45 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1337,7 +1337,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 44 hours",
+        "status": "Up 45 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
