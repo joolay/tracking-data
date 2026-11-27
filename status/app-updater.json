@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T20:08:18.807Z",
-  "changedAt": "2026-11-27T20:08:18.807Z",
-  "rev": 6602,
-  "sig": "3f6dff9a576b7908eda43de936120ca6121351ef44120b37863ba27ec53ed7c9",
+  "at": "2026-11-27T20:09:18.816Z",
+  "changedAt": "2026-11-27T20:09:18.816Z",
+  "rev": 6603,
+  "sig": "895a22a478097de58e6c4399ba2a67f772aa067208066185b13b3400e58514e6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -665,10 +665,10 @@
         }
       ],
       "error": null,
-      "at": 1795810063161
+      "at": 1795810123592
     },
     "check": {
-      "at": 1795810063431,
+      "at": 1795810123775,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 407
@@ -681,7 +681,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795810089611,
+        "at": 1795810149611,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -705,6 +705,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "yuvomi",
             "status": "Running",
@@ -842,16 +852,6 @@
           },
           {
             "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
             "status": "Running",
             "paused": false
           }
