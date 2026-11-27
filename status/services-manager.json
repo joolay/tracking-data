@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T14:13:01.930Z",
-  "changedAt": "2026-11-27T14:13:01.930Z",
-  "rev": 6594,
-  "sig": "d9bda2816c6777d1f03992c43a7033a1e9f5961555bf6e63c2631da7e60dc63c",
+  "at": "2026-11-27T14:14:01.933Z",
+  "changedAt": "2026-11-27T14:14:01.933Z",
+  "rev": 6595,
+  "sig": "41441f7198fa5ddcc6dd3c4e99d8c47c4d41fe6b5ae946b8dfb846345141483b",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795788772626,
+      "at": 1795788832633,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,51 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -139,51 +184,6 @@
         },
         {
           "name": "anything-llm",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -318,7 +318,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 40 hours",
+            "status": "Up 41 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1292,7 +1292,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 40 hours",
+        "status": "Up 41 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
