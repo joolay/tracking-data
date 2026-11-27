@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T03:37:00.222Z",
-  "changedAt": "2026-11-27T03:37:00.222Z",
-  "rev": 5978,
-  "sig": "f1aab2e82e1b40af4462900d6d63d5f7cf881de9e4df4794a77cc36b4f812713",
+  "at": "2026-11-27T03:38:00.217Z",
+  "changedAt": "2026-11-27T03:38:00.217Z",
+  "rev": 5979,
+  "sig": "3b707293d0ff2e5f79579c38fd270a18e9991464a764189bba7590adcb4dbc95",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795750608857,
+      "at": 1795750668862,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,56 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -131,56 +181,6 @@
           "name": "jolly-grocer",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -222,6 +222,20 @@
             "self": false
           }
         ]
+      },
+      {
+        "key": "umbrel:anything-llm",
+        "kind": "umbrel",
+        "id": "anything-llm",
+        "name": "AnythingLLM",
+        "state": "installing",
+        "busy": true,
+        "on": false,
+        "autoStart": true,
+        "policy": null,
+        "pinned": null,
+        "protected": false,
+        "containers": []
       },
       {
         "key": "umbrel:joolay-app-updater",
