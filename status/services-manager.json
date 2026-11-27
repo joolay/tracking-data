@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T05:18:00.593Z",
-  "changedAt": "2026-11-27T05:18:00.593Z",
-  "rev": 6078,
-  "sig": "3054e6cc62dd51ca50da30a1c176ffc286546bc4945713f3b5a26051207f60ef",
+  "at": "2026-11-27T05:19:00.597Z",
+  "changedAt": "2026-11-27T05:19:00.597Z",
+  "rev": 6079,
+  "sig": "0c60732e283db4a71250e424e71c6c8e3abbb5b683a83973e6155b81882318df",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795756669539,
+      "at": 1795756729547,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "gatekeeper",
           "status": "Running",
@@ -164,26 +184,6 @@
         },
         {
           "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
           "status": "Running",
           "paused": false
         }
@@ -759,7 +759,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 31 hours",
+            "status": "Up 32 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -783,7 +783,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 31 hours (healthy)",
+            "status": "Up 32 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1215,7 +1215,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 31 hours (healthy)",
+        "status": "Up 32 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1231,7 +1231,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 31 hours",
+        "status": "Up 32 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
