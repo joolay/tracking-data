@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T13:41:01.812Z",
-  "changedAt": "2026-11-27T13:41:01.812Z",
-  "rev": 6563,
-  "sig": "6cbdc8c453d6923b170542ad5cd8341c534a585e7ccdcd448a9cd2c0fdaa99f8",
+  "at": "2026-11-27T13:42:01.819Z",
+  "changedAt": "2026-11-27T13:42:01.819Z",
+  "rev": 6564,
+  "sig": "20a029e8fd491a0e6560a625d180d119afbc5e36e80140467d06b226df2fe969",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795786852399,
+      "at": 1795786912406,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,56 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "yuvomi",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tailscale",
           "status": "Running",
@@ -134,56 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "yuvomi",
           "status": "Running",
           "paused": false
         }
@@ -486,7 +486,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.2",
             "state": "running",
-            "status": "Up 42 hours",
+            "status": "Up 43 hours",
             "policy": "on-failure",
             "self": false
           },
@@ -495,7 +495,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 42 hours",
+            "status": "Up 43 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1307,7 +1307,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.2",
         "state": "running",
-        "status": "Up 42 hours",
+        "status": "Up 43 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1322,7 +1322,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 42 hours",
+        "status": "Up 43 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
