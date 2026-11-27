@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T19:09:02.664Z",
-  "changedAt": "2026-11-27T19:09:02.664Z",
-  "rev": 6879,
-  "sig": "e36576b16f78e98754efd30c50c8fd7b68a4b924d6ca076632a6a31fb90155d2",
+  "at": "2026-11-27T19:10:02.540Z",
+  "changedAt": "2026-11-27T19:10:02.540Z",
+  "rev": 6880,
+  "sig": "4d48ec324c49c85db922dee296901819cca3f46c0a7ed5917f88783d53b26e00",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795806534453,
+      "at": 1795806594460,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolztv",
           "status": "Running",
@@ -164,26 +184,6 @@
         },
         {
           "name": "anything-llm",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
           "status": "Running",
           "paused": false
         }
@@ -342,7 +342,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 26 hours (healthy)",
+            "status": "Up 27 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1106,7 +1106,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 26 hours (healthy)",
+        "status": "Up 27 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
