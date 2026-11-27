@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T23:09:02.960Z",
-  "changedAt": "2026-11-27T23:09:02.960Z",
-  "rev": 7112,
-  "sig": "7e2e891fe9f533d2e2edd8b92a524c1bbe026c17a2c2b896daafae59653b2d7b",
+  "at": "2026-11-27T23:10:02.980Z",
+  "changedAt": "2026-11-27T23:10:02.980Z",
+  "rev": 7113,
+  "sig": "8335a54db52dd0ebc83f624058eab81d3e9054773d6601f14e27bfaf2a1e07bf",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795820936173,
+      "at": 1795820996187,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,16 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "kiosk-manager",
           "status": "Running",
@@ -184,6 +174,16 @@
         },
         {
           "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -342,7 +342,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 30 hours (healthy)",
+            "status": "Up 31 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1106,7 +1106,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 30 hours (healthy)",
+        "status": "Up 31 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
