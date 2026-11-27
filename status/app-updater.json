@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T08:08:12.846Z",
-  "changedAt": "2026-11-27T08:08:12.846Z",
-  "rev": 5948,
-  "sig": "43372ecd7eeb9b478612a06b6f1ded6d2c71dad556ea367cbacb841de2c499be",
+  "at": "2026-11-27T08:09:12.846Z",
+  "changedAt": "2026-11-27T08:09:12.846Z",
+  "rev": 5949,
+  "sig": "aaa9047e237b6ac7cf9953b29230a2ac9ee484156ea85f01528cea8c72f55bb9",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -665,23 +665,23 @@
         }
       ],
       "error": null,
-      "at": 1795766889450
+      "at": 1795766950555
     },
     "check": {
-      "at": 1795766889616,
+      "at": 1795766950767,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 407
     },
     "repo": {
-      "at": 1795766829098,
+      "at": 1795766950549,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795766885551,
+        "at": 1795766945560,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -705,6 +705,16 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "services-manager",
             "status": "Running",
@@ -842,16 +852,6 @@
           },
           {
             "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
             "status": "Running",
             "paused": false
           }
