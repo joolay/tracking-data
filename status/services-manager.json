@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T14:20:01.991Z",
-  "changedAt": "2026-11-27T14:20:01.991Z",
-  "rev": 6601,
-  "sig": "69de66b4867ff6ee1d873c98a9f5c102d6212e1c3df6dc5c294d1a197aafa583",
+  "at": "2026-11-27T14:21:01.977Z",
+  "changedAt": "2026-11-27T14:21:01.977Z",
+  "rev": 6602,
+  "sig": "7b5f9a33b9d5c6c4921c976d25beffe226486c5e19301d2b8fa27cb1323ef6e9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795789192671,
+      "at": 1795789252677,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolzapp",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "paperclip",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "wallos",
           "status": "Running",
@@ -176,16 +186,6 @@
           "name": "ollama",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "joolzapp",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "paperclip",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -270,7 +270,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 40 hours (healthy)",
+            "status": "Up 41 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1168,7 +1168,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 40 hours (healthy)",
+        "status": "Up 41 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
