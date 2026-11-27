@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T05:25:00.625Z",
-  "changedAt": "2026-11-27T05:25:00.625Z",
-  "rev": 6085,
-  "sig": "656d13163998671a343717ea261675eed4525bf93bc19ac40a07c9be64d0732f",
+  "at": "2026-11-27T05:26:00.619Z",
+  "changedAt": "2026-11-27T05:26:00.619Z",
+  "rev": 6086,
+  "sig": "3e36673c28bebc97bbb69fa62402228a062bf537b4656114a0ec91e5518d8708",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795757089580,
+      "at": 1795757149585,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "jolly-grocer",
           "status": "Running",
@@ -181,11 +186,6 @@
           "name": "open-webui",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -294,7 +294,7 @@
             "name": "joolay-atvloadly_web_1",
             "image": "bitxeno/atvloadly:v0.3.7",
             "state": "running",
-            "status": "Up 8 days",
+            "status": "Up 9 days",
             "policy": "on-failure",
             "self": false
           }
@@ -543,7 +543,7 @@
             "name": "kokoro_web_1",
             "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 days",
+            "status": "Up 9 days",
             "policy": "on-failure",
             "self": false
           }
@@ -687,7 +687,7 @@
             "name": "pocketbase_app_1",
             "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 days",
+            "status": "Up 9 days",
             "policy": "on-failure",
             "self": false
           }
@@ -903,7 +903,7 @@
             "name": "webcheck_server_1",
             "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 days (healthy)",
+            "status": "Up 9 days (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -999,7 +999,7 @@
             "name": "tor_proxy",
             "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 days",
+            "status": "Up 9 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1444,7 +1444,7 @@
         "name": "joolay-atvloadly_web_1",
         "image": "bitxeno/atvloadly:v0.3.7",
         "state": "running",
-        "status": "Up 8 days",
+        "status": "Up 9 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1459,7 +1459,7 @@
         "name": "webcheck_server_1",
         "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 days (healthy)",
+        "status": "Up 9 days (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1475,7 +1475,7 @@
         "name": "kokoro_web_1",
         "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 days",
+        "status": "Up 9 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1505,7 +1505,7 @@
         "name": "pocketbase_app_1",
         "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 days",
+        "status": "Up 9 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1520,7 +1520,7 @@
         "name": "tor_proxy",
         "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 days",
+        "status": "Up 9 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
