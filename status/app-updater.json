@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T03:34:35.980Z",
-  "changedAt": "2026-11-27T03:34:35.980Z",
-  "rev": 5692,
-  "sig": "8ccaff4e72b9b1b221714acac97087cf78bbdb0f5c23c1f498cef27498098e00",
+  "at": "2026-11-27T03:36:11.093Z",
+  "changedAt": "2026-11-27T03:36:11.093Z",
+  "rev": 5693,
+  "sig": "aac2008f0b21fd536e597c83ac8e6dfba2a7da2f89e408c7a2de9a0a9c081123",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -337,27 +337,21 @@
         "waiting": false
       },
       {
-        "id": "joolay-openclaw",
+        "id": "openclaw",
         "name": "OpenClaw",
-        "version": "2026.1110.1",
-        "latest": "2026.1110.1",
+        "version": "2026.11.10",
+        "latest": "2026.11.10",
         "update": false,
-        "state": "ready",
+        "state": "installing",
         "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
+          "id": "umbrel",
+          "name": "Umbrel"
         },
-        "mode": "immediate",
+        "mode": "nightly",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
-        "result": {
-          "ok": true,
-          "at": 1795750437543,
-          "from": "2026.11.10",
-          "to": "2026.1110.1"
-        },
+        "result": null,
         "waiting": false
       },
       {
@@ -653,23 +647,23 @@
         }
       ],
       "error": null,
-      "at": 1795750469329
+      "at": 1795750562174
     },
     "check": {
-      "at": 1795750469477,
+      "at": 1795750562310,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 401
     },
     "repo": {
-      "at": 1795750438627,
+      "at": 1795750562166,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795750473833,
+        "at": 1795750563847,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -693,6 +687,41 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gym-guru",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "open-webui",
             "status": "Running",
@@ -800,41 +829,6 @@
           },
           {
             "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gym-guru",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
             "status": "Running",
             "paused": false
           }
