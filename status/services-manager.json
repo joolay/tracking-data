@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T02:06:00.132Z",
-  "changedAt": "2026-11-27T02:06:00.132Z",
-  "rev": 5892,
-  "sig": "cd15aa0b0739be86badab91393bb41d1c2a4326b5f0d30bbcab521fe3575b6fa",
+  "at": "2026-11-27T02:07:00.122Z",
+  "changedAt": "2026-11-27T02:07:00.122Z",
+  "rev": 5893,
+  "sig": "19d361d64b94f176e22e2daa7cfcfd2324374cb2aa152118769f8f9b1dfabca6",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795745148190,
+      "at": 1795745208197,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -159,26 +179,6 @@
         },
         {
           "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
           "status": "Running",
           "paused": false
         }
@@ -361,7 +361,7 @@
             "name": "home-assistant_server_1",
             "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "no",
             "self": false
           }
@@ -898,7 +898,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 57 minutes",
+            "status": "Up 58 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 57 minutes",
+        "status": "Up 58 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1308,7 +1308,7 @@
         "name": "home-assistant_server_1",
         "image": "homeassistant/home-assistant:2026.11.3@sha256:[hidden]",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "no",
         "restarts": 0,
         "exitCode": 0,
