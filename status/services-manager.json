@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T05:27:00.615Z",
-  "changedAt": "2026-11-27T05:27:00.615Z",
-  "rev": 6087,
-  "sig": "27d39a5d4ba7e8c6d99c32439d0f0b3d91d3b163274a9eb9e5c275d14242f222",
+  "at": "2026-11-27T05:28:00.644Z",
+  "changedAt": "2026-11-27T05:28:00.644Z",
+  "rev": 6088,
+  "sig": "d5275767f9414813facd0315e0f8837e9a3106851bfd29e8e3557920a3ebf4de",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795757209590,
+      "at": 1795757269599,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -169,21 +184,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -663,7 +663,7 @@
             "name": "paperclip_server_1",
             "image": "ghcr.io/paperclipai/paperclip:2026.1106.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 8 days",
+            "status": "Up 9 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1413,7 +1413,7 @@
         "name": "paperclip_server_1",
         "image": "ghcr.io/paperclipai/paperclip:2026.1106.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 8 days",
+        "status": "Up 9 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
