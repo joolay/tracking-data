@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T04:17:00.356Z",
-  "changedAt": "2026-11-27T04:17:00.356Z",
-  "rev": 6018,
-  "sig": "fb34239a09369efa5c0e9cbe0451641a54dd0a20a638b900c72077eb6da44c6b",
+  "at": "2026-11-27T04:18:00.382Z",
+  "changedAt": "2026-11-27T04:18:00.382Z",
+  "rev": 6019,
+  "sig": "04ec77e909b97f35e7bbceb3a7b5419e73c67bc9429ff08fb3a93793753c8ea8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795753009169,
+      "at": 1795753069177,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "anything-llm",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -186,6 +181,11 @@
           "name": "pocketbase",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "anything-llm",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -246,7 +246,7 @@
             "name": "anything-llm_app_1",
             "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 30 minutes (healthy)",
+            "status": "Up 31 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -615,7 +615,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 11 hours (healthy)",
+            "status": "Up 12 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -639,7 +639,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 30 minutes",
+            "status": "Up 31 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -711,7 +711,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.3",
             "state": "running",
-            "status": "Up 20 hours (healthy)",
+            "status": "Up 21 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1012,7 +1012,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 30 minutes",
+        "status": "Up 31 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1027,7 +1027,7 @@
         "name": "anything-llm_app_1",
         "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 30 minutes (healthy)",
+        "status": "Up 31 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1090,7 +1090,7 @@
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 11 hours (healthy)",
+        "status": "Up 12 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1152,7 +1152,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.3",
         "state": "running",
-        "status": "Up 20 hours (healthy)",
+        "status": "Up 21 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
