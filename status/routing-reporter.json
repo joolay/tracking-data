@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-27T03:41:15.161Z",
-  "changedAt": "2026-11-27T03:41:15.161Z",
-  "rev": 5658,
-  "sig": "9b3005f26267c3cc10b3ded116834be03b61b29fcd82c800d1e5de29b7fbafac",
+  "at": "2026-11-27T03:42:15.167Z",
+  "changedAt": "2026-11-27T03:42:15.167Z",
+  "rev": 5659,
+  "sig": "15ba3518bca69cd160c4f1abe1dd2ad99270fdf6221ad7ca8502fac653449ccd",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,10 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "anything-llm",
+          "status": "Running"
+        },
         {
           "name": "app-updater",
           "status": "Running"
@@ -137,7 +141,7 @@
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 29,
+      "keptByPortMaster": 30,
       "withoutName": 0,
       "problems": [],
       "lastError": "",
@@ -154,6 +158,27 @@
     "reportedToPortalAdmin": true,
     "reportError": "",
     "routesDown": [
+      {
+        "app": "anything-llm",
+        "route": "lan",
+        "url": "http://host.docker.internal:3031/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795750905478
+      },
+      {
+        "app": "anything-llm",
+        "route": "local",
+        "url": "http://umbrel.local:3031/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795750905481
+      },
+      {
+        "app": "anything-llm",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:3031/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795750905477
+      },
       {
         "app": "openclaw",
         "route": "lan",
@@ -174,6 +199,13 @@
         "url": "http://100.118.10.62:18789/",
         "error": "connection refused (nothing listening)",
         "since": 1795750599842
+      },
+      {
+        "app": "openclaw",
+        "route": "name",
+        "url": "https://openclaw.macaw-chroma.ts.net/",
+        "error": "the app behind it is not answering (502)",
+        "since": 1795750904554
       }
     ],
     "portConflicts": [],
@@ -190,6 +222,13 @@
         "name": "Open WebUI",
         "kind": "app",
         "state": "up"
+      },
+      {
+        "port": 3031,
+        "app": "anything-llm",
+        "name": "AnythingLLM",
+        "kind": "app",
+        "state": "down"
       },
       {
         "port": 3093,
@@ -525,6 +564,54 @@
             "status": 302,
             "error": "",
             "since": 1795679237404
+          }
+        ]
+      },
+      {
+        "id": "anything-llm",
+        "name": "AnythingLLM",
+        "version": "1.20.0",
+        "joolzapp": false,
+        "portal": "off",
+        "port": 3031,
+        "hostPorts": [],
+        "published": "tailnet",
+        "routes": [
+          {
+            "key": "lan",
+            "url": "http://host.docker.internal:3031/",
+            "state": "down",
+            "ignored": false,
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795750905478
+          },
+          {
+            "key": "local",
+            "url": "http://umbrel.local:3031/",
+            "state": "down",
+            "ignored": false,
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795750905481
+          },
+          {
+            "key": "tailscale",
+            "url": "http://100.118.10.62:3031/",
+            "state": "down",
+            "ignored": false,
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795750905477
+          },
+          {
+            "key": "name",
+            "url": "https://anything-llm.macaw-chroma.ts.net/",
+            "state": "checking",
+            "ignored": false,
+            "status": 0,
+            "error": "name not found (DNS)",
+            "since": 1795750905874
           }
         ]
       },
@@ -1603,11 +1690,11 @@
           {
             "key": "name",
             "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "up",
+            "state": "down",
             "ignored": false,
             "status": 502,
             "error": "the app behind it is not answering (502)",
-            "since": 1795717430727
+            "since": 1795750904554
           }
         ]
       },
