@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T04:22:00.395Z",
-  "changedAt": "2026-11-27T04:22:00.395Z",
-  "rev": 6023,
-  "sig": "12953a3170e0ee9c5add216f81a580a8c6d72c0e1011d6a3733591b5e12e64c8",
+  "at": "2026-11-27T04:23:00.381Z",
+  "changedAt": "2026-11-27T04:23:00.381Z",
+  "rev": 6024,
+  "sig": "58912179cbbada6c3b84b57fa9743c2d6af3e75e8b61aa678ae02297dcb71ec7",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795753309201,
+      "at": 1795753369206,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "gatekeeper",
           "status": "Running",
@@ -186,6 +166,26 @@
           "name": "tv-remote",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -246,7 +246,7 @@
             "name": "anything-llm_app_1",
             "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 35 minutes (healthy)",
+            "status": "Up 36 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -639,7 +639,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 35 minutes",
+            "status": "Up 36 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -1012,7 +1012,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 35 minutes",
+        "status": "Up 36 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1027,7 +1027,7 @@
         "name": "anything-llm_app_1",
         "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 35 minutes (healthy)",
+        "status": "Up 36 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
