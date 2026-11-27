@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T18:20:02.505Z",
-  "changedAt": "2026-11-27T18:20:02.505Z",
-  "rev": 6833,
-  "sig": "6bacc2418d1b489906f797a7ae2c679a5b2be6a97c3963237ef953abc802ef93",
+  "at": "2026-11-27T18:21:02.504Z",
+  "changedAt": "2026-11-27T18:21:02.504Z",
+  "rev": 6834,
+  "sig": "1a6c5c2c128df7a7ddbc1b2b7eaa228207899acb064c898af65a944453ea5079",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795803594205,
+      "at": 1795803654210,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -171,21 +186,6 @@
           "name": "jolly-grocer",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -270,7 +270,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 44 hours (healthy)",
+            "status": "Up 45 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1168,7 +1168,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 44 hours (healthy)",
+        "status": "Up 45 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
