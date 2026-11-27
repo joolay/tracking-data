@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T01:08:10.357Z",
-  "changedAt": "2026-11-27T01:08:10.357Z",
-  "rev": 5557,
-  "sig": "9ed285bcd5a0cc668c112cea59a756d55126ea76fbc2ebf4197b918da8a2f252",
+  "at": "2026-11-27T01:08:52.560Z",
+  "changedAt": "2026-11-27T01:08:52.560Z",
+  "rev": 5558,
+  "sig": "811f967e6b259da8751b26a3549dace01db48248aa04cc0b286d3ce4642f5ac5",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -51,24 +51,6 @@
       "retryAt": null
     },
     "apps": [
-      {
-        "id": "yuvomi",
-        "name": "Yuvomi",
-        "version": "2.95.0",
-        "latest": "2.96.0",
-        "update": true,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "nightly",
-        "hidden": false,
-        "busy": true,
-        "detectedAt": 1795741665462,
-        "result": null,
-        "waiting": false
-      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -586,6 +568,29 @@
         "detectedAt": null,
         "result": null,
         "waiting": false
+      },
+      {
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "version": "2.96.0",
+        "latest": "2.96.0",
+        "update": false,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "nightly",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": null,
+        "result": {
+          "ok": true,
+          "at": 1795741697326,
+          "from": "2.95.0",
+          "to": "2.96.0"
+        },
+        "waiting": false
       }
     ],
     "install": {
@@ -643,23 +648,23 @@
         }
       ],
       "error": null,
-      "at": 1795741605160
+      "at": 1795741728719
     },
     "check": {
-      "at": 1795741665463,
+      "at": 1795741728842,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 400
     },
     "repo": {
-      "at": 1795741605151,
+      "at": 1795741728714,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795741683048,
+        "at": 1795741728049,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -683,6 +688,66 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "paperclip",
             "status": "Running",
@@ -767,66 +832,6 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -846,6 +851,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795741697547,
+        "level": "info",
+        "appId": null,
+        "message": "Status feed sent after updating Yuvomi (0 s)"
+      },
+      {
+        "t": 1795741697326,
+        "level": "ok",
+        "appId": "yuvomi",
+        "message": "Yuvomi updated to 2.96.0 (state: ready)"
+      },
       {
         "t": 1795741665559,
         "level": "info",
@@ -1193,18 +1210,6 @@
         "level": "warn",
         "appId": "joolay-portal",
         "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.43.2 (umbrelOS lists 0.43.1)"
-      },
-      {
-        "t": 1795672569480,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795666965572,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.43.1 (state: ready)"
       }
     ],
     "diagnose": [
