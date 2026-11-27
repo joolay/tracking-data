@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T08:14:00.939Z",
-  "changedAt": "2026-11-27T08:14:00.939Z",
-  "rev": 6248,
-  "sig": "90908216c9fd875ccd1bad7e6ee7f30f6b8dd367509055588ee3996b318f3811",
+  "at": "2026-11-27T08:15:00.945Z",
+  "changedAt": "2026-11-27T08:15:00.945Z",
+  "rev": 6249,
+  "sig": "96203dfae04890e61116cc1719e431e057016d21bc13edc5e6c12599740f5eb5",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795767230610,
+      "at": 1795767290617,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "ollama",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "joolzapp",
           "status": "Running",
@@ -179,11 +184,6 @@
         },
         {
           "name": "tailscale",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "ollama",
           "status": "Running",
           "paused": false
         }
@@ -414,7 +414,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 34 hours",
+            "status": "Up 35 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1277,7 +1277,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 34 hours",
+        "status": "Up 35 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
