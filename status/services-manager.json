@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T02:01:00.157Z",
-  "changedAt": "2026-11-27T02:01:00.157Z",
-  "rev": 5887,
-  "sig": "cdfd067f9113cfd9b75241d0804b721678f8c1f791ed3f4f03e146509854be7d",
+  "at": "2026-11-27T02:02:00.145Z",
+  "changedAt": "2026-11-27T02:02:00.145Z",
+  "rev": 5888,
+  "sig": "79035ea66e5a82712331b6ae5bb12d48832a7dffc4c37b47abf730bc32525175",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795744848161,
+      "at": 1795744908169,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tv-remote",
           "status": "Running",
@@ -169,16 +179,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -898,7 +898,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 52 minutes",
+            "status": "Up 53 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 52 minutes",
+        "status": "Up 53 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
