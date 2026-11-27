@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T12:45:01.675Z",
-  "changedAt": "2026-11-27T12:45:01.675Z",
-  "rev": 6511,
-  "sig": "501deb1648c9cf9569c35c1fe45e078f290adf475c8db68a32e708e290b7edce",
+  "at": "2026-11-27T12:46:01.678Z",
+  "changedAt": "2026-11-27T12:46:01.678Z",
+  "rev": 6512,
+  "sig": "3f9e4c6d7365b73b3c5fd60b4cc0a8ce86eb6497816365315eaf6b50ae3e8c49",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795783492222,
+      "at": 1795783552225,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -169,21 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -366,7 +366,7 @@
             "name": "joolay-gym-guru_web_1",
             "image": "ghcr.io/joolay/gym-guru:1.0.0",
             "state": "running",
-            "status": "Up 28 hours",
+            "status": "Up 29 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1137,7 +1137,7 @@
         "name": "joolay-gym-guru_web_1",
         "image": "ghcr.io/joolay/gym-guru:1.0.0",
         "state": "running",
-        "status": "Up 28 hours",
+        "status": "Up 29 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
