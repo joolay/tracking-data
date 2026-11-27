@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T11:40:01.588Z",
-  "changedAt": "2026-11-27T11:40:01.588Z",
-  "rev": 6449,
-  "sig": "a3f46be9315d317ef9ad7ec7440a75aeb5d5bd4c56c0b03b36d8fbd082338ae6",
+  "at": "2026-11-27T11:41:01.622Z",
+  "changedAt": "2026-11-27T11:41:01.622Z",
+  "rev": 6450,
+  "sig": "28c06b90f18c2fc4d54e48953251e91d863558325b98f17ae28850caef92dd3f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795779591989,
+      "at": 1795779651993,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -184,6 +169,21 @@
         },
         {
           "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         }
@@ -462,7 +462,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 40 hours",
+            "status": "Up 41 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1337,7 +1337,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 40 hours",
+        "status": "Up 41 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
