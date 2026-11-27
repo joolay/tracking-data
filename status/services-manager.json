@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T04:29:00.410Z",
-  "changedAt": "2026-11-27T04:29:00.410Z",
-  "rev": 6030,
-  "sig": "6a83d8dc82d8ab8075e0dc74e0bd0804e9f56a13e61fb121ab9f524ded389999",
+  "at": "2026-11-27T04:30:00.409Z",
+  "changedAt": "2026-11-27T04:30:00.409Z",
+  "rev": 6031,
+  "sig": "46349850b8d2fc8e015c909f1a3f25abd5a113c65ce9159cf2150ede0b8e28dc",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795753729245,
+      "at": 1795753789251,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -171,21 +186,6 @@
           "name": "listify",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -246,7 +246,7 @@
             "name": "anything-llm_app_1",
             "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 42 minutes (healthy)",
+            "status": "Up 43 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -639,7 +639,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 42 minutes",
+            "status": "Up 43 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -1012,7 +1012,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 42 minutes",
+        "status": "Up 43 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1027,7 +1027,7 @@
         "name": "anything-llm_app_1",
         "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 42 minutes (healthy)",
+        "status": "Up 43 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
