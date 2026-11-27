@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T00:12:59.833Z",
-  "changedAt": "2026-11-27T00:12:59.833Z",
-  "rev": 5781,
-  "sig": "7e70e9e73df3a778c4ade8b5b1f0dfdab2535653803c62d4a9df82409f9bc7f3",
+  "at": "2026-11-27T00:13:59.861Z",
+  "changedAt": "2026-11-27T00:13:59.861Z",
+  "rev": 5782,
+  "sig": "ee40dd8536f2f1e51c02a636550cb1fa01d2359101ec23e604785e15badcf023",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795738367788,
+      "at": 1795738427792,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kiosk-manager",
           "status": "Running",
@@ -156,31 +181,6 @@
           "name": "jolly-grocer",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -289,7 +289,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 26 hours",
+            "status": "Up 27 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1248,7 +1248,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 26 hours",
+        "status": "Up 27 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
