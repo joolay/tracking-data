@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T02:20:00.147Z",
-  "changedAt": "2026-11-27T02:20:00.147Z",
-  "rev": 5906,
-  "sig": "6383de593e9bda964a1642aa99fe2ef2ba72a688e9cdf3f7a6f6b37261d8f515",
+  "at": "2026-11-27T02:21:00.134Z",
+  "changedAt": "2026-11-27T02:21:00.134Z",
+  "rev": 5907,
+  "sig": "78f22bfae014ca1ad29568f611bced664335ab3c092a27acf7215d87307ed254",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795745988265,
+      "at": 1795746048269,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -166,21 +181,6 @@
           "name": "portaladmin",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -241,7 +241,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 28 hours (healthy)",
+            "status": "Up 29 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1124,7 +1124,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 28 hours (healthy)",
+        "status": "Up 29 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
