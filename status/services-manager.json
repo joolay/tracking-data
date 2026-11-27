@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T11:18:01.559Z",
-  "changedAt": "2026-11-27T11:18:01.559Z",
-  "rev": 6427,
-  "sig": "08c88621c7cc62f5dc249c8f37321e7254db93317353aaaddd0f253fbfad5b1b",
+  "at": "2026-11-27T11:19:01.536Z",
+  "changedAt": "2026-11-27T11:19:01.536Z",
+  "rev": 6428,
+  "sig": "f0e6681640a8349a6018f167d1f33e1dc45e855a0735e44819f1b773a9d35ec3",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795778271881,
+      "at": 1795778331889,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -169,21 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -759,7 +759,7 @@
             "name": "joolay-project-tracker_web_1",
             "image": "ghcr.io/joolay/project-tracker:1.10.0",
             "state": "running",
-            "status": "Up 37 hours",
+            "status": "Up 38 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -783,7 +783,7 @@
             "name": "joolay-services-manager_web_1",
             "image": "ghcr.io/joolay/services-manager:1.4.1",
             "state": "running",
-            "status": "Up 37 hours (healthy)",
+            "status": "Up 38 hours (healthy)",
             "policy": "on-failure",
             "self": true
           }
@@ -1215,7 +1215,7 @@
         "name": "joolay-services-manager_web_1",
         "image": "ghcr.io/joolay/services-manager:1.4.1",
         "state": "running",
-        "status": "Up 37 hours (healthy)",
+        "status": "Up 38 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1231,7 +1231,7 @@
         "name": "joolay-project-tracker_web_1",
         "image": "ghcr.io/joolay/project-tracker:1.10.0",
         "state": "running",
-        "status": "Up 37 hours",
+        "status": "Up 38 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
