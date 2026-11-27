@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T12:12:01.728Z",
-  "changedAt": "2026-11-27T12:12:01.728Z",
-  "rev": 6480,
-  "sig": "c0e5fd0595ec27cb598e54bfc0a6ad5d90b2346e0b9ec9008876deb02cc9429b",
+  "at": "2026-11-27T12:14:01.710Z",
+  "changedAt": "2026-11-27T12:14:01.710Z",
+  "rev": 6481,
+  "sig": "3431ed38507a954e350c91b0c20c0ce386be6272f205595a018781a38bd42254",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795781512099,
+      "at": 1795781632103,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "anything-llm",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -181,11 +186,6 @@
           "name": "pocketbase",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "anything-llm",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -318,7 +318,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 38 hours",
+            "status": "Up 39 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1292,7 +1292,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 38 hours",
+        "status": "Up 39 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
