@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T01:42:00.112Z",
-  "changedAt": "2026-11-27T01:42:00.112Z",
-  "rev": 5868,
-  "sig": "093579c74a0ce2b9852011e2608a1318b6409894eeef8a2474e301ceed1f3a16",
+  "at": "2026-11-27T01:43:00.103Z",
+  "changedAt": "2026-11-27T01:43:00.103Z",
+  "rev": 5869,
+  "sig": "f0f03caf633098a04d04a8f899ab8e906d287bfa1c768448ea1b0ac93843e98f",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795743708139,
+      "at": 1795743768140,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -179,6 +174,11 @@
         },
         {
           "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -898,7 +898,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 33 minutes",
+            "status": "Up 34 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -946,7 +946,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 22 hours (healthy)",
+            "status": "Up 23 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -983,7 +983,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 33 minutes",
+        "status": "Up 34 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1384,7 +1384,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 22 hours (healthy)",
+        "status": "Up 23 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
