@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T04:42:00.453Z",
-  "changedAt": "2026-11-27T04:42:00.453Z",
-  "rev": 6043,
-  "sig": "cb10dd5b078eca360a2e2c5b662e1ae3e2e4c28d24bbf54a0dcf4a946f5f4d27",
+  "at": "2026-11-27T04:43:00.458Z",
+  "changedAt": "2026-11-27T04:43:00.458Z",
+  "rev": 6044,
+  "sig": "280109931f864270235d5b036d078c2c655ff7d3130a96cd29ba38571b5a9f53",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795754509314,
+      "at": 1795754569319,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,71 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "port-master",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "yuvomi",
           "status": "Running",
@@ -121,71 +186,6 @@
           "name": "home-assistant",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "port-master",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -246,7 +246,7 @@
             "name": "anything-llm_app_1",
             "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 55 minutes (healthy)",
+            "status": "Up 56 minutes (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -639,7 +639,7 @@
             "name": "openclaw_gateway_1",
             "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
             "state": "running",
-            "status": "Up 55 minutes",
+            "status": "Up 56 minutes",
             "policy": "on-failure",
             "self": false
           }
@@ -975,7 +975,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 25 hours (healthy)",
+            "status": "Up 26 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1012,7 +1012,7 @@
         "name": "openclaw_gateway_1",
         "image": "ghcr.io/getumbrel/openclaw-umbrel:2026.11.10@sha256:[hidden]",
         "state": "running",
-        "status": "Up 55 minutes",
+        "status": "Up 56 minutes",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1027,7 +1027,7 @@
         "name": "anything-llm_app_1",
         "image": "mintplexlabs/anythingllm:1.20.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 55 minutes (healthy)",
+        "status": "Up 56 minutes (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1428,7 +1428,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 25 hours (healthy)",
+        "status": "Up 26 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
