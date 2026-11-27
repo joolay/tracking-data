@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T06:14:00.746Z",
-  "changedAt": "2026-11-27T06:14:00.746Z",
-  "rev": 6133,
-  "sig": "965a54900be7518ec64e319b930e7f63c71d37a8ea733fc0a3d62148c4c00c24",
+  "at": "2026-11-27T06:15:00.740Z",
+  "changedAt": "2026-11-27T06:15:00.740Z",
+  "rev": 6134,
+  "sig": "03c94b44a961f4097d3f823f18f3e4ca6c189fd8910db40029cf812f25710ab3",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795760029849,
+      "at": 1795760089853,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "tv-remote",
           "status": "Running",
@@ -174,16 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
           "status": "Running",
           "paused": false
         }
@@ -414,7 +414,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 32 hours",
+            "status": "Up 33 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1277,7 +1277,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 32 hours",
+        "status": "Up 33 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
