@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T08:40:01.018Z",
-  "changedAt": "2026-11-27T08:40:01.018Z",
-  "rev": 6274,
-  "sig": "dfe096ab399f32ff65e45f02aa5493e19cc1a105a2f7021722c6b7b4223aac16",
+  "at": "2026-11-27T08:41:01.030Z",
+  "changedAt": "2026-11-27T08:41:01.030Z",
+  "rev": 6275,
+  "sig": "1ddc0288b1b282585ad9381429e3ed9968699a373b0b43e6631ccfb758b3fb3a",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795768790865,
+      "at": 1795768850873,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -184,6 +164,26 @@
         },
         {
           "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -462,7 +462,7 @@
             "name": "joolay-cctv_web_1",
             "image": "ghcr.io/joolay/cctv:1.0.4",
             "state": "running",
-            "status": "Up 37 hours",
+            "status": "Up 38 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1337,7 +1337,7 @@
         "name": "joolay-cctv_web_1",
         "image": "ghcr.io/joolay/cctv:1.0.4",
         "state": "running",
-        "status": "Up 37 hours",
+        "status": "Up 38 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
