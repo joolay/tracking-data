@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T17:14:02.430Z",
-  "changedAt": "2026-11-27T17:14:02.430Z",
-  "rev": 6768,
-  "sig": "ee960f33a19885470a774f290e80aae6f60094719d40496000a2f3420a3c2189",
+  "at": "2026-11-27T17:15:02.420Z",
+  "changedAt": "2026-11-27T17:15:02.420Z",
+  "rev": 6769,
+  "sig": "b4ff469851ec8ba67d91d8d545e7cd260a2f7a2d3253a022ac6ed94441959a19",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795799633792,
+      "at": 1795799693798,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -159,31 +184,6 @@
         },
         {
           "name": "anything-llm",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -414,7 +414,7 @@
             "name": "joolay-jolly-grocer_web_1",
             "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
             "state": "running",
-            "status": "Up 43 hours",
+            "status": "Up 44 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1277,7 +1277,7 @@
         "name": "joolay-jolly-grocer_web_1",
         "image": "ghcr.io/joolay/jolly-grocer:1.5.0",
         "state": "running",
-        "status": "Up 43 hours",
+        "status": "Up 44 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
