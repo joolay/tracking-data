@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T01:07:10.346Z",
-  "changedAt": "2026-11-27T01:07:10.346Z",
-  "rev": 5556,
-  "sig": "4452829b5e37f0999d12c838ee7a06bace1f9c0ad878d8ca2b657a2569e3ef04",
+  "at": "2026-11-27T01:08:10.357Z",
+  "changedAt": "2026-11-27T01:08:10.357Z",
+  "rev": 5557,
+  "sig": "9ed285bcd5a0cc668c112cea59a756d55126ea76fbc2ebf4197b918da8a2f252",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -51,6 +51,24 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "yuvomi",
+        "name": "Yuvomi",
+        "version": "2.95.0",
+        "latest": "2.96.0",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "nightly",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795741665462,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -568,24 +586,6 @@
         "detectedAt": null,
         "result": null,
         "waiting": false
-      },
-      {
-        "id": "yuvomi",
-        "name": "Yuvomi",
-        "version": "2.95.0",
-        "latest": "2.95.0",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "nightly",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
       }
     ],
     "install": {
@@ -646,7 +646,7 @@
       "at": 1795741605160
     },
     "check": {
-      "at": 1795741605314,
+      "at": 1795741665463,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 400
@@ -659,7 +659,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795741623045,
+        "at": 1795741683048,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -683,6 +683,61 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gym-guru",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "home-assistant",
             "status": "Running",
@@ -772,61 +827,6 @@
             "name": "joolzapp",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gym-guru",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -846,6 +846,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795741665559,
+        "level": "info",
+        "appId": "yuvomi",
+        "message": "Updating Yuvomi (nightly window)…"
+      },
+      {
+        "t": 1795741665462,
+        "level": "info",
+        "appId": "yuvomi",
+        "message": "Update available: Yuvomi 2.95.0 → 2.96.0"
+      },
       {
         "t": 1795722118344,
         "level": "info",
@@ -1193,18 +1205,6 @@
         "level": "ok",
         "appId": "joolay-portal-admin",
         "message": "Portal Admin updated to 0.43.1 (state: ready)"
-      },
-      {
-        "t": 1795666952270,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Dashboard (0 s)"
-      },
-      {
-        "t": 1795666952265,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
       }
     ],
     "diagnose": [
