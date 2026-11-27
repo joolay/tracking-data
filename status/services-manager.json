@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T03:32:00.212Z",
-  "changedAt": "2026-11-27T03:32:00.212Z",
-  "rev": 5973,
-  "sig": "4075a203847dfdc2bffac3aded38ed18d94611882621c848755f57b8625c3769",
+  "at": "2026-11-27T03:33:00.214Z",
+  "changedAt": "2026-11-27T03:33:00.214Z",
+  "rev": 5974,
+  "sig": "aab17712f5d32dc21ffa20dc88552e3755b06db76215f825ea1c250925d0e3b9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795750308811,
+      "at": 1795750368817,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,51 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "cctv",
           "status": "Running",
@@ -181,6 +136,51 @@
           "name": "webcheck",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -194,8 +194,8 @@
       }
     },
     "summary": {
-      "containers": 33,
-      "running": 32,
+      "containers": 32,
+      "running": 31,
       "problems": []
     },
     "services": [
@@ -601,20 +601,10 @@
         "busy": true,
         "on": true,
         "autoStart": true,
-        "policy": "on-failure",
+        "policy": null,
         "pinned": null,
         "protected": false,
-        "containers": [
-          {
-            "id": "04a70701cde6",
-            "name": "joolay-openclaw_web_1",
-            "image": "ghcr.io/joolay/openclaw:2026.11.10",
-            "state": "running",
-            "status": "Up 8 hours (healthy)",
-            "policy": "on-failure",
-            "self": false
-          }
-        ]
+        "containers": []
       },
       {
         "key": "umbrel:paperclip",
@@ -989,22 +979,6 @@
         "exitCode": 0,
         "oomKilled": false,
         "startedAt": "2026-11-27T01:08:16.059450235Z",
-        "finishedAt": "0001-01-01T00:00:00Z",
-        "error": "",
-        "problem": false
-      },
-      {
-        "id": "04a70701cde6",
-        "name": "joolay-openclaw_web_1",
-        "image": "ghcr.io/joolay/openclaw:2026.11.10",
-        "state": "running",
-        "status": "Up 8 hours (healthy)",
-        "restartPolicy": "on-failure",
-        "restarts": 0,
-        "exitCode": 0,
-        "oomKilled": false,
-        "health": "healthy",
-        "startedAt": "2026-11-26T19:40:52.598920754Z",
         "finishedAt": "0001-01-01T00:00:00Z",
         "error": "",
         "problem": false
