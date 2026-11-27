@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T02:19:00.164Z",
-  "changedAt": "2026-11-27T02:19:00.164Z",
-  "rev": 5905,
-  "sig": "6db1b99fa8a6d51339b8425b7b0dded2a10da52b63055ea91aa9fc551b5ad071",
+  "at": "2026-11-27T02:20:00.147Z",
+  "changedAt": "2026-11-27T02:20:00.147Z",
+  "rev": 5906,
+  "sig": "6383de593e9bda964a1642aa99fe2ef2ba72a688e9cdf3f7a6f6b37261d8f515",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795745928261,
+      "at": 1795745988265,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -149,36 +179,6 @@
         },
         {
           "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -778,7 +778,7 @@
             "name": "joolay-shutterworth_web_1",
             "image": "ghcr.io/joolay/shutterworth:1.9.0",
             "state": "running",
-            "status": "Up 28 hours",
+            "status": "Up 29 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -826,7 +826,7 @@
             "name": "joolay-tv-remote_web_1",
             "image": "ghcr.io/joolay/tv-remote:0.3.1",
             "state": "running",
-            "status": "Up 28 hours (healthy)",
+            "status": "Up 29 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1140,7 +1140,7 @@
         "name": "joolay-tv-remote_web_1",
         "image": "ghcr.io/joolay/tv-remote:0.3.1",
         "state": "running",
-        "status": "Up 28 hours (healthy)",
+        "status": "Up 29 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1156,7 +1156,7 @@
         "name": "joolay-shutterworth_web_1",
         "image": "ghcr.io/joolay/shutterworth:1.9.0",
         "state": "running",
-        "status": "Up 28 hours",
+        "status": "Up 29 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
