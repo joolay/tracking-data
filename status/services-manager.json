@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T06:10:00.728Z",
-  "changedAt": "2026-11-27T06:10:00.728Z",
-  "rev": 6129,
-  "sig": "378fc7868b7bd91e5dcfc16302618d658a0ab6d23556ede96504c00a38ee22db",
+  "at": "2026-11-27T06:11:00.724Z",
+  "changedAt": "2026-11-27T06:11:00.724Z",
+  "rev": 6130,
+  "sig": "56ddf6d3e74f435f631246f544d1d96548f0f57d335cbe2de6b3eb12ce71e214",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795759789831,
+      "at": 1795759849835,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -159,31 +184,6 @@
         },
         {
           "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -342,7 +342,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 13 hours (healthy)",
+            "status": "Up 14 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1106,7 +1106,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 13 hours (healthy)",
+        "status": "Up 14 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
