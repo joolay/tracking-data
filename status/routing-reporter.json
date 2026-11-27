@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-27T03:36:15.147Z",
-  "changedAt": "2026-11-27T03:36:15.147Z",
-  "rev": 5653,
-  "sig": "3765082841f08c4679ec328900230c2a29d5bfba4f087ae6ee31612b8e102951",
+  "at": "2026-11-27T03:37:15.160Z",
+  "changedAt": "2026-11-27T03:37:15.160Z",
+  "rev": 5654,
+  "sig": "0f7835b597d5ed3fcbe08c2b487033698d8acaef59403407c2067311e586fec9",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,46 +17,6 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
-        {
-          "name": "portaladmin",
-          "status": "Running"
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
         {
           "name": "services-manager",
           "status": "Running"
@@ -132,12 +92,52 @@
         {
           "name": "atvloadly",
           "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
         }
       ]
     },
     "names": {
       "auto": true,
-      "keptByPortMaster": 28,
+      "keptByPortMaster": 29,
       "withoutName": 0,
       "problems": [],
       "lastError": "",
@@ -153,7 +153,29 @@
     },
     "reportedToPortalAdmin": true,
     "reportError": "",
-    "routesDown": [],
+    "routesDown": [
+      {
+        "app": "openclaw",
+        "route": "lan",
+        "url": "http://host.docker.internal:18789/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795750599840
+      },
+      {
+        "app": "openclaw",
+        "route": "local",
+        "url": "http://umbrel.local:18789/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795750599844
+      },
+      {
+        "app": "openclaw",
+        "route": "tailscale",
+        "url": "http://100.118.10.62:18789/",
+        "error": "connection refused (nothing listening)",
+        "since": 1795750599842
+      }
+    ],
     "portConflicts": [],
     "portClashes": [],
     "officialPorts": {
@@ -380,13 +402,6 @@
         "state": "up"
       },
       {
-        "port": 3927,
-        "app": "joolay-openclaw",
-        "name": "OpenClaw",
-        "kind": "app",
-        "state": "up"
-      },
-      {
         "port": 5400,
         "app": "pocketbase",
         "name": "PocketBase",
@@ -455,6 +470,13 @@
         "name": "Ollama",
         "kind": "app",
         "state": "up"
+      },
+      {
+        "port": 18789,
+        "app": "openclaw",
+        "name": "OpenClaw",
+        "kind": "app",
+        "state": "down"
       }
     ],
     "apps": [
@@ -1049,54 +1071,6 @@
         ]
       },
       {
-        "id": "joolay-openclaw",
-        "name": "OpenClaw",
-        "version": "2026.11.10",
-        "joolzapp": true,
-        "portal": "locked",
-        "port": 3927,
-        "hostPorts": [],
-        "published": "tailnet",
-        "routes": [
-          {
-            "key": "lan",
-            "url": "http://host.docker.internal:3927/",
-            "state": "up",
-            "ignored": false,
-            "status": 403,
-            "error": "",
-            "since": 1795722307275
-          },
-          {
-            "key": "local",
-            "url": "http://umbrel.local:3927/",
-            "state": "up",
-            "ignored": false,
-            "status": 403,
-            "error": "",
-            "since": 1795722307288
-          },
-          {
-            "key": "tailscale",
-            "url": "http://100.118.10.62:3927/",
-            "state": "up",
-            "ignored": false,
-            "status": 403,
-            "error": "",
-            "since": 1795722307292
-          },
-          {
-            "key": "name",
-            "url": "https://openclaw.macaw-chroma.ts.net/",
-            "state": "up",
-            "ignored": false,
-            "status": 403,
-            "error": "",
-            "since": 1795722307516
-          }
-        ]
-      },
-      {
         "id": "joolay-portal",
         "name": "JoolzApp Dashboard",
         "version": "0.43.5",
@@ -1586,6 +1560,54 @@
             "status": 200,
             "error": "",
             "since": 1795711947931
+          }
+        ]
+      },
+      {
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "version": "2026.11.10",
+        "joolzapp": false,
+        "portal": "off",
+        "port": 18789,
+        "hostPorts": [],
+        "published": "tailnet",
+        "routes": [
+          {
+            "key": "lan",
+            "url": "http://host.docker.internal:18789/",
+            "state": "down",
+            "ignored": false,
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795750599840
+          },
+          {
+            "key": "local",
+            "url": "http://umbrel.local:18789/",
+            "state": "down",
+            "ignored": false,
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795750599844
+          },
+          {
+            "key": "tailscale",
+            "url": "http://100.118.10.62:18789/",
+            "state": "down",
+            "ignored": false,
+            "status": 0,
+            "error": "connection refused (nothing listening)",
+            "since": 1795750599842
+          },
+          {
+            "key": "name",
+            "url": "https://openclaw.macaw-chroma.ts.net/",
+            "state": "up",
+            "ignored": false,
+            "status": 502,
+            "error": "the app behind it is not answering (502)",
+            "since": 1795717430727
           }
         ]
       },
