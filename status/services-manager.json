@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T08:10:00.978Z",
-  "changedAt": "2026-11-27T08:10:00.978Z",
-  "rev": 6244,
-  "sig": "bf0593a8e4275c55e413aa9865df14b5df52fc179618c1bbdcc368c75e82fae3",
+  "at": "2026-11-27T08:11:00.901Z",
+  "changedAt": "2026-11-27T08:11:00.901Z",
+  "rev": 6245,
+  "sig": "e8e4bc6ca668f3150ba5781c7f50ea53302105ee97406fc704a0c16f001b7d27",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795766990573,
+      "at": 1795767050582,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,26 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "shutterworth",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gatekeeper",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "port-master",
           "status": "Running",
@@ -184,6 +164,26 @@
         },
         {
           "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "shutterworth",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gatekeeper",
           "status": "Running",
           "paused": false
         }
@@ -342,7 +342,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 15 hours (healthy)",
+            "status": "Up 16 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1106,7 +1106,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 15 hours (healthy)",
+        "status": "Up 16 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
