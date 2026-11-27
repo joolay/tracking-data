@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T21:20:02.788Z",
-  "changedAt": "2026-11-27T21:20:02.788Z",
-  "rev": 7007,
-  "sig": "cfb6addb7bdfb3625f2386c908ec5625c1dd4194a406225eb75a3058f1b19303",
+  "at": "2026-11-27T21:21:02.807Z",
+  "changedAt": "2026-11-27T21:21:02.807Z",
+  "rev": 7008,
+  "sig": "c1f6a4fee65aa56ee95b03691c28136a38708654efbec42680aaa4b4fbb440cb",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795814395241,
+      "at": 1795814455248,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,41 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -151,41 +186,6 @@
           "name": "joolztv",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -270,7 +270,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 47 hours (healthy)",
+            "status": "Up 2 days (healthy)",
             "policy": "on-failure",
             "self": false
           }
