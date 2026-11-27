@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-27T03:31:11.234Z",
-  "changedAt": "2026-11-27T03:31:11.234Z",
-  "rev": 5688,
-  "sig": "8e2acce98d0c8b64af41b15e2d997c8c6038d9c504349d81803ff1420467c0d4",
+  "at": "2026-11-27T03:32:11.057Z",
+  "changedAt": "2026-11-27T03:32:11.057Z",
+  "rev": 5689,
+  "sig": "9762c3ae9833bb84b729a9be973623028fe4715210de5cb26b883344637827c1",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -51,6 +51,25 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "joolay-openclaw",
+        "name": "OpenClaw",
+        "version": "2026.11.10",
+        "latest": "2026.1110.1",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "joolzapp",
+          "name": "JoolzApp",
+          "raw": "joolay"
+        },
+        "mode": "immediate",
+        "hidden": false,
+        "busy": true,
+        "detectedAt": 1795750320046,
+        "result": null,
+        "waiting": false
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -330,25 +349,6 @@
           "name": "Umbrel"
         },
         "mode": "nightly",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "joolay-openclaw",
-        "name": "OpenClaw",
-        "version": "2026.11.10",
-        "latest": "2026.11.10",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
-        },
-        "mode": "immediate",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -651,7 +651,7 @@
       "at": 1795750259734
     },
     "check": {
-      "at": 1795750259876,
+      "at": 1795750320047,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 401
@@ -664,7 +664,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795750263806,
+        "at": 1795750323812,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -688,6 +688,71 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gym-guru",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolztv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "webcheck",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "diner-bell",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "cctv",
             "status": "Running",
@@ -767,71 +832,6 @@
             "name": "atvloadly",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gym-guru",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolztv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "webcheck",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "diner-bell",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -851,6 +851,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795750320048,
+        "level": "info",
+        "appId": "joolay-openclaw",
+        "message": "Updating OpenClaw (detected, updating straight away)…"
+      },
+      {
+        "t": 1795750320047,
+        "level": "info",
+        "appId": "joolay-openclaw",
+        "message": "Update available: OpenClaw 2026.11.10 → 2026.1110.1"
+      },
       {
         "t": 1795741697547,
         "level": "info",
@@ -1198,18 +1210,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Update available: JoolzApp Dashboard 0.43.1 → 0.43.2"
-      },
-      {
-        "t": 1795677768255,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "umbrelOS now sees JoolzApp Dashboard 0.43.2"
-      },
-      {
-        "t": 1795677707890,
-        "level": "warn",
-        "appId": "joolay-portal",
-        "message": "New version on the repo, umbrelOS has not seen it yet: JoolzApp Dashboard 0.43.2 (umbrelOS lists 0.43.1)"
       }
     ],
     "diagnose": [
