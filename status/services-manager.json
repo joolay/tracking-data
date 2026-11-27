@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T11:20:01.541Z",
-  "changedAt": "2026-11-27T11:20:01.541Z",
-  "rev": 6429,
-  "sig": "16ed6c763791e54aa1e53bd3cb0ff44313143c4a2691a1024a81c88f000c77f0",
+  "at": "2026-11-27T11:21:01.543Z",
+  "changedAt": "2026-11-27T11:21:01.543Z",
+  "rev": 6430,
+  "sig": "3a46cd08dbc2e595a970c06a8ece836cba7a7fbd05b0b6f02bd8722e47891687",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795778391893,
+      "at": 1795778451898,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,21 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -186,6 +171,21 @@
           "name": "listify",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -270,7 +270,7 @@
             "name": "joolay-app-updater_web_1",
             "image": "ghcr.io/joolay/app-updater:1.10.1",
             "state": "running",
-            "status": "Up 37 hours (healthy)",
+            "status": "Up 38 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1168,7 +1168,7 @@
         "name": "joolay-app-updater_web_1",
         "image": "ghcr.io/joolay/app-updater:1.10.1",
         "state": "running",
-        "status": "Up 37 hours (healthy)",
+        "status": "Up 38 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
