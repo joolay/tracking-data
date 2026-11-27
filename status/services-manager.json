@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T11:41:01.622Z",
-  "changedAt": "2026-11-27T11:41:01.622Z",
-  "rev": 6450,
-  "sig": "28c06b90f18c2fc4d54e48953251e91d863558325b98f17ae28850caef92dd3f",
+  "at": "2026-11-27T11:42:01.577Z",
+  "changedAt": "2026-11-27T11:42:01.577Z",
+  "rev": 6451,
+  "sig": "8301765e05b6a712eceb2493936718de564a4bb86b0bb5e2f44159d16bb441e8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795779651993,
+      "at": 1795779711998,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,36 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kiosk-manager",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "shutterworth",
           "status": "Running",
@@ -154,36 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kiosk-manager",
           "status": "Running",
           "paused": false
         }
@@ -486,7 +486,7 @@
             "name": "joolay-joolztv_web_1",
             "image": "ghcr.io/joolay/joolztv:1.18.2",
             "state": "running",
-            "status": "Up 40 hours",
+            "status": "Up 41 hours",
             "policy": "on-failure",
             "self": false
           },
@@ -495,7 +495,7 @@
             "name": "joolay-joolztv_server_1",
             "image": "tsaridas/stremio-docker:latest",
             "state": "running",
-            "status": "Up 40 hours",
+            "status": "Up 41 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1307,7 +1307,7 @@
         "name": "joolay-joolztv_web_1",
         "image": "ghcr.io/joolay/joolztv:1.18.2",
         "state": "running",
-        "status": "Up 40 hours",
+        "status": "Up 41 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1322,7 +1322,7 @@
         "name": "joolay-joolztv_server_1",
         "image": "tsaridas/stremio-docker:latest",
         "state": "running",
-        "status": "Up 40 hours",
+        "status": "Up 41 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
