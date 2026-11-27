@@ -1,9 +1,9 @@
 {
   "app": "routing-reporter",
-  "at": "2026-11-27T03:46:15.190Z",
-  "changedAt": "2026-11-27T03:46:15.190Z",
-  "rev": 5663,
-  "sig": "6008f6dda7c9c731a6110b7fc7a09cd74872688cb937eeeb475cb8ebb42bcf27",
+  "at": "2026-11-27T03:47:15.198Z",
+  "changedAt": "2026-11-27T03:47:15.198Z",
+  "rev": 5664,
+  "sig": "53f9acc93481d1b44aa6d17772b8e408e5d043da6eeea956fb605af6acf73c31",
   "seenClaude": 0,
   "data": {
     "tsdproxy": {
@@ -17,6 +17,58 @@
       "pausedByPortMaster": [],
       "writeError": "",
       "proxies": [
+        {
+          "name": "app-updater",
+          "status": "Running"
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running"
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running"
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running"
+        },
+        {
+          "name": "joolztv",
+          "status": "Running"
+        },
+        {
+          "name": "webcheck",
+          "status": "Running"
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running"
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running"
+        },
+        {
+          "name": "listify",
+          "status": "Running"
+        },
+        {
+          "name": "open-webui",
+          "status": "Running"
+        },
+        {
+          "name": "kokoro",
+          "status": "Running"
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running"
+        },
+        {
+          "name": "services-manager",
+          "status": "Running"
+        },
         {
           "name": "project-tracker",
           "status": "Running"
@@ -84,58 +136,6 @@
         {
           "name": "anything-llm",
           "status": "Running"
-        },
-        {
-          "name": "app-updater",
-          "status": "Running"
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running"
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running"
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running"
-        },
-        {
-          "name": "joolztv",
-          "status": "Running"
-        },
-        {
-          "name": "webcheck",
-          "status": "Running"
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running"
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running"
-        },
-        {
-          "name": "listify",
-          "status": "Running"
-        },
-        {
-          "name": "open-webui",
-          "status": "Running"
-        },
-        {
-          "name": "kokoro",
-          "status": "Running"
-        },
-        {
-          "name": "jolly-grocer",
-          "status": "Running"
-        },
-        {
-          "name": "services-manager",
-          "status": "Running"
         }
       ]
     },
@@ -178,6 +178,13 @@
         "url": "http://100.118.10.62:3031/",
         "error": "connection refused (nothing listening)",
         "since": 1795750905477
+      },
+      {
+        "app": "anything-llm",
+        "route": "name",
+        "url": "https://anything-llm.macaw-chroma.ts.net/",
+        "error": "the app behind it is not answering (502)",
+        "since": 1795751209931
       },
       {
         "app": "openclaw",
@@ -607,11 +614,11 @@
           {
             "key": "name",
             "url": "https://anything-llm.macaw-chroma.ts.net/",
-            "state": "checking",
+            "state": "down",
             "ignored": false,
-            "status": 0,
-            "error": "name not found (DNS)",
-            "since": 1795750905874
+            "status": 502,
+            "error": "the app behind it is not answering (502)",
+            "since": 1795751209931
           }
         ]
       },
