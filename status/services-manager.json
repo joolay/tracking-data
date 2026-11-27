@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T14:09:01.937Z",
-  "changedAt": "2026-11-27T14:09:01.937Z",
-  "rev": 6590,
-  "sig": "db718523d09ca7aab97bb281deef105aa1cfc102763bd31f55bdbd407858ec36",
+  "at": "2026-11-27T14:10:01.943Z",
+  "changedAt": "2026-11-27T14:10:01.943Z",
+  "rev": 6591,
+  "sig": "02feeae0be9c8484cf680a9aa4c931fab6af44d91ea3a90aaeaeac7ee8bf52cf",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795788532608,
+      "at": 1795788592614,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "anything-llm",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -184,6 +179,11 @@
         },
         {
           "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "anything-llm",
           "status": "Running",
           "paused": false
         }
@@ -342,7 +342,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 21 hours (healthy)",
+            "status": "Up 22 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1106,7 +1106,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 21 hours (healthy)",
+        "status": "Up 22 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
