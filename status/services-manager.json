@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-27T18:45:02.687Z",
-  "changedAt": "2026-11-27T18:45:02.687Z",
-  "rev": 6856,
-  "sig": "c66f218f7a9a16c221b92df3ee78b33e0a8d2538ef25a7c6ed6034d73e9990ab",
+  "at": "2026-11-27T18:46:02.550Z",
+  "changedAt": "2026-11-27T18:46:02.550Z",
+  "rev": 6857,
+  "sig": "f2036d56159967d2cdcf3e4b5a68bfa0957f8a9e2c31a1b4102f2877eb8b6ca4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795805094335,
+      "at": 1795805154341,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "webcheck",
           "status": "Running",
@@ -169,21 +184,6 @@
         },
         {
           "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
           "status": "Running",
           "paused": false
         }
@@ -366,7 +366,7 @@
             "name": "joolay-gym-guru_web_1",
             "image": "ghcr.io/joolay/gym-guru:1.0.0",
             "state": "running",
-            "status": "Up 34 hours",
+            "status": "Up 35 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1137,7 +1137,7 @@
         "name": "joolay-gym-guru_web_1",
         "image": "ghcr.io/joolay/gym-guru:1.0.0",
         "state": "running",
-        "status": "Up 34 hours",
+        "status": "Up 35 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
