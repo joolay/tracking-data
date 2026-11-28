@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-28T06:04:23.185Z",
-  "changedAt": "2026-11-28T06:04:23.185Z",
-  "rev": 7147,
-  "sig": "31e01f5fd7c056d5b8af8a0002bede0f1e9f77841af4ed23dfaafef7ff505ec1",
+  "at": "2026-11-28T06:05:23.203Z",
+  "changedAt": "2026-11-28T06:05:23.203Z",
+  "rev": 7148,
+  "sig": "087caa143eb106c71d2ce1004c388e8eb4b6a4493e288ad8d2970fffd31fe5d7",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -665,23 +665,38 @@
         }
       ],
       "error": null,
-      "at": 1795845829752
+      "at": 1795845891052
     },
     "check": {
-      "at": 1795845829974,
+      "at": 1795845891319,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 407
     },
     "repo": {
-      "at": 1795845769296,
+      "at": 1795845891036,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-jab-admin",
+          "name": "JAB Admin",
+          "repo": "1.1.0",
+          "umbrel": null,
+          "kind": "new"
+        },
+        {
+          "id": "joolay-jab",
+          "name": "JoolzApp Biz",
+          "repo": "1.1.0",
+          "umbrel": null,
+          "kind": "new"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795845854762,
+        "at": 1795845914776,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -705,46 +720,6 @@
           "created": ""
         },
         "proxies": [
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
           {
             "name": "yuvomi",
             "status": "Running",
@@ -854,6 +829,46 @@
             "name": "services-manager",
             "status": "Running",
             "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
           }
         ],
         "wanted": [],
@@ -873,6 +888,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795845891039,
+        "level": "warn",
+        "appId": "joolay-jab",
+        "message": "New app on the repo, umbrelOS has not seen it yet: JoolzApp Biz 1.1.0"
+      },
+      {
+        "t": 1795845891037,
+        "level": "warn",
+        "appId": "joolay-jab-admin",
+        "message": "New app on the repo, umbrelOS has not seen it yet: JAB Admin 1.1.0"
+      },
       {
         "t": 1795831613663,
         "level": "info",
@@ -1220,18 +1247,6 @@
         "level": "info",
         "appId": null,
         "message": "Status feed sent after updating JoolzApp Dashboard (2 s)"
-      },
-      {
-        "t": 1795677776524,
-        "level": "info",
-        "appId": "joolay-portal-admin",
-        "message": "Updating Portal Admin (detected, updating straight away)…"
-      },
-      {
-        "t": 1795677776326,
-        "level": "ok",
-        "appId": "joolay-portal",
-        "message": "JoolzApp Dashboard updated to 0.43.2 (state: ready)"
       }
     ],
     "diagnose": [
