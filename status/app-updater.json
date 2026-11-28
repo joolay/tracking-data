@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-28T06:06:23.212Z",
-  "changedAt": "2026-11-28T06:06:23.212Z",
-  "rev": 7149,
-  "sig": "4b1ee8c673eb3bbc80bb80a3b314c05cc9f934b7a2054e2d4f3bdcbdd4a93f45",
+  "at": "2026-11-28T06:07:23.223Z",
+  "changedAt": "2026-11-28T06:07:23.223Z",
+  "rev": 7150,
+  "sig": "62a68ad649604f76d174d6fcec63f1e35a63fb285c56baaf1e6129532ae2cff6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -665,38 +665,23 @@
         }
       ],
       "error": null,
-      "at": 1795845951635
+      "at": 1795846012866
     },
     "check": {
-      "at": 1795845951850,
+      "at": 1795846013042,
       "error": null,
       "registryProc": "appStore.registry",
-      "registryCount": 407
+      "registryCount": 409
     },
     "repo": {
-      "at": 1795845891036,
+      "at": 1795846012818,
       "error": null,
-      "pending": [
-        {
-          "id": "joolay-jab-admin",
-          "name": "JAB Admin",
-          "repo": "1.1.0",
-          "umbrel": null,
-          "kind": "new"
-        },
-        {
-          "id": "joolay-jab",
-          "name": "JoolzApp Biz",
-          "repo": "1.1.0",
-          "umbrel": null,
-          "kind": "new"
-        }
-      ]
+      "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795845974787,
+        "at": 1795846034797,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -888,6 +873,18 @@
       }
     },
     "log": [
+      {
+        "t": 1795846012852,
+        "level": "ok",
+        "appId": "joolay-jab",
+        "message": "umbrelOS now sees JoolzApp Biz 1.1.0"
+      },
+      {
+        "t": 1795846012818,
+        "level": "ok",
+        "appId": "joolay-jab-admin",
+        "message": "umbrelOS now sees JAB Admin 1.1.0"
+      },
       {
         "t": 1795845891039,
         "level": "warn",
@@ -1235,18 +1232,6 @@
         "level": "ok",
         "appId": "joolay-portal-admin",
         "message": "Portal Admin updated to 0.43.2 (state: ready)"
-      },
-      {
-        "t": 1795677785612,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795677779005,
-        "level": "info",
-        "appId": null,
-        "message": "Status feed sent after updating JoolzApp Dashboard (2 s)"
       }
     ],
     "diagnose": [
