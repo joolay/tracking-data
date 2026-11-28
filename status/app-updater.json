@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-28T13:51:26.583Z",
-  "changedAt": "2026-11-28T13:51:26.583Z",
-  "rev": 7576,
-  "sig": "0ac4255856215a27966be28e6062c0dc6353cf64484fc0d2d3f21cd106316adf",
+  "at": "2026-11-28T13:52:26.486Z",
+  "changedAt": "2026-11-28T13:52:26.486Z",
+  "rev": 7577,
+  "sig": "866f13700fe004173d3f77c6daf8062d1a4b8fce6475ba5463b430716b970b0f",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -265,13 +265,12 @@
         "id": "joolay-joolztv",
         "name": "JoolzTV",
         "version": "1.18.2",
-        "latest": "1.18.2",
+        "latest": null,
         "update": false,
         "state": "ready",
         "store": {
           "id": "joolzapp",
-          "name": "JoolzApp",
-          "raw": "joolay"
+          "name": "JoolzApp"
         },
         "mode": "immediate",
         "hidden": false,
@@ -665,23 +664,31 @@
         }
       ],
       "error": null,
-      "at": 1795873850783
+      "at": 1795873911512
     },
     "check": {
-      "at": 1795873850937,
+      "at": 1795873911696,
       "error": null,
       "registryProc": "appStore.registry",
-      "registryCount": 409
+      "registryCount": 408
     },
     "repo": {
       "at": 1795873850765,
       "error": null,
-      "pending": []
+      "pending": [
+        {
+          "id": "joolay-joolztv",
+          "name": "JoolzTV",
+          "repo": "1.18.2",
+          "umbrel": null,
+          "kind": "new"
+        }
+      ]
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795873879801,
+        "at": 1795873939807,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -705,6 +712,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gym-guru",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "joolztv",
             "status": "Running",
@@ -839,21 +861,6 @@
             "name": "app-updater",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gym-guru",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -873,6 +880,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795873911454,
+        "level": "warn",
+        "appId": "joolay-joolztv",
+        "message": "New app on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.2"
+      },
       {
         "t": 1795846012852,
         "level": "ok",
@@ -1226,12 +1239,6 @@
         "level": "warn",
         "appId": null,
         "message": "Status feed: fetch failed"
-      },
-      {
-        "t": 1795677789518,
-        "level": "ok",
-        "appId": "joolay-portal-admin",
-        "message": "Portal Admin updated to 0.43.2 (state: ready)"
       }
     ],
     "diagnose": [
