@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T21:13:05.192Z",
-  "changedAt": "2026-11-28T21:13:05.192Z",
-  "rev": 8334,
-  "sig": "2bb9db05134291881ce720904ee9f9e0887bda4454681819a900d21cae4af724",
+  "at": "2026-11-28T21:14:05.217Z",
+  "changedAt": "2026-11-28T21:14:05.217Z",
+  "rev": 8335,
+  "sig": "4fc7d5714c5e96558908a25a7a2d734efff6e27484ddd91689b82b904e61a2ac",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795900372349,
+      "at": 1795900432357,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "jolly-grocer",
           "status": "Running",
@@ -176,16 +186,6 @@
           "name": "listify",
           "status": "Running",
           "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
         }
       ],
       "wanted": [],
@@ -318,7 +318,7 @@
             "name": "joolay-diner-bell_web_1",
             "image": "ghcr.io/joolay/diner-bell:2.2.0",
             "state": "running",
-            "status": "Up 2 days",
+            "status": "Up 3 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1292,7 +1292,7 @@
         "name": "joolay-diner-bell_web_1",
         "image": "ghcr.io/joolay/diner-bell:2.2.0",
         "state": "running",
-        "status": "Up 2 days",
+        "status": "Up 3 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
