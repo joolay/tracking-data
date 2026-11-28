@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T00:42:03.020Z",
-  "changedAt": "2026-11-28T00:42:03.020Z",
-  "rev": 7200,
-  "sig": "4c1312761803f0ee1c00d744b28cd8deddc561eefaf71a0ce3510c8f4587cca8",
+  "at": "2026-11-28T00:43:03.026Z",
+  "changedAt": "2026-11-28T00:43:03.026Z",
+  "rev": 7201,
+  "sig": "8725a924d791f7815c7db2a62897d5d91b7ac858a95557c04e2ff4cf147e78d4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795826517046,
+      "at": 1795826577057,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "cctv",
           "status": "Running",
@@ -169,21 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -975,7 +975,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 45 hours (healthy)",
+            "status": "Up 46 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1428,7 +1428,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 45 hours (healthy)",
+        "status": "Up 46 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
