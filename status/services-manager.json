@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T02:09:03.102Z",
-  "changedAt": "2026-11-28T02:09:03.102Z",
-  "rev": 7281,
-  "sig": "872ffddc47cfe1c48d4a6fa042b9b46ef906fba3ccd7414110fdaf019426e475",
+  "at": "2026-11-28T02:10:03.135Z",
+  "changedAt": "2026-11-28T02:10:03.135Z",
+  "rev": 7282,
+  "sig": "8dc562341164bd2d44145b8e2ff61f72b5dfc3ec2586fb229c2911736acae269",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795831738077,
+      "at": 1795831798086,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "wallos",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "adguard-home",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "pocketbase",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "anything-llm",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "app-updater",
           "status": "Running",
@@ -164,26 +184,6 @@
         },
         {
           "name": "paperclip",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "wallos",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "adguard-home",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "pocketbase",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "anything-llm",
           "status": "Running",
           "paused": false
         }
@@ -342,7 +342,7 @@
             "name": "joolay-gatekeeper_web_1",
             "image": "ghcr.io/joolay/gatekeeper:1.0.2",
             "state": "running",
-            "status": "Up 33 hours (healthy)",
+            "status": "Up 34 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1106,7 +1106,7 @@
         "name": "joolay-gatekeeper_web_1",
         "image": "ghcr.io/joolay/gatekeeper:1.0.2",
         "state": "running",
-        "status": "Up 33 hours (healthy)",
+        "status": "Up 34 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
