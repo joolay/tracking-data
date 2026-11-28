@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T02:38:03.172Z",
-  "changedAt": "2026-11-28T02:38:03.172Z",
-  "rev": 7309,
-  "sig": "b2e2c97f18da5efa5d12ab75495adf23c5789bd69f589af41d89eb3453ff6ab5",
+  "at": "2026-11-28T02:39:03.192Z",
+  "changedAt": "2026-11-28T02:39:03.192Z",
+  "rev": 7310,
+  "sig": "18e676269b4778e8cb3d8e84cc3c30054ed17fe34b918e4172f3be279357fa41",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795833478313,
+      "at": 1795833538319,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,21 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "open-webui",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "kokoro",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "jolly-grocer",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "services-manager",
           "status": "Running",
@@ -169,21 +184,6 @@
         },
         {
           "name": "listify",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "open-webui",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "kokoro",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "jolly-grocer",
           "status": "Running",
           "paused": false
         }
@@ -927,7 +927,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 25 hours",
+            "status": "Up 26 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1043,7 +1043,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 25 hours",
+        "status": "Up 26 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
