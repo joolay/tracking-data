@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-28T02:25:21.456Z",
-  "changedAt": "2026-11-28T02:25:21.456Z",
-  "rev": 6941,
-  "sig": "0b8fce3bf76259454f73a321d57cd4faca2bbabf2cc90e9b709ded337cb9da94",
+  "at": "2026-11-28T02:26:21.461Z",
+  "changedAt": "2026-11-28T02:26:21.461Z",
+  "rev": 6942,
+  "sig": "1dc04a5f3779d3996e2f03950ca2352bd21dc9f710d0c32970e54dc1a67fcf76",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -665,23 +665,23 @@
         }
       ],
       "error": null,
-      "at": 1795832709617
+      "at": 1795832770703
     },
     "check": {
-      "at": 1795832709740,
+      "at": 1795832770860,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 407
     },
     "repo": {
-      "at": 1795832649266,
+      "at": 1795832770693,
       "error": null,
       "pending": []
     },
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795832713235,
+        "at": 1795832773238,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -705,6 +705,21 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "tailscale",
             "status": "Running",
@@ -837,21 +852,6 @@
           },
           {
             "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
             "status": "Running",
             "paused": false
           }
