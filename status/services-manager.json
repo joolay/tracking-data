@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T05:25:03.693Z",
-  "changedAt": "2026-11-28T05:25:03.693Z",
-  "rev": 7458,
-  "sig": "42f3f1dc0f72a3d487b6c46a0f22c3f5e239707e97f09cd5744d0d021e1bac92",
+  "at": "2026-11-28T05:26:03.610Z",
+  "changedAt": "2026-11-28T05:26:03.610Z",
+  "rev": 7459,
+  "sig": "758c9e1c35c0e3ec6f4d68a3150c1a58cca97e70ae86cb04173cf791b61e33f1",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795843499226,
+      "at": 1795843559237,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,41 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "anything-llm",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "app-updater",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "atvloadly",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "portaladmin",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "diner-bell",
           "status": "Running",
@@ -186,6 +151,41 @@
           "name": "pocketbase",
           "status": "Running",
           "paused": false
+        },
+        {
+          "name": "anything-llm",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "app-updater",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "atvloadly",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "portaladmin",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "gym-guru",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
         }
       ],
       "wanted": [],
@@ -294,7 +294,7 @@
             "name": "joolay-atvloadly_web_1",
             "image": "bitxeno/atvloadly:v0.3.7",
             "state": "running",
-            "status": "Up 9 days",
+            "status": "Up 10 days",
             "policy": "on-failure",
             "self": false
           }
@@ -543,7 +543,7 @@
             "name": "kokoro_web_1",
             "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 9 days",
+            "status": "Up 10 days",
             "policy": "on-failure",
             "self": false
           }
@@ -687,7 +687,7 @@
             "name": "pocketbase_app_1",
             "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
             "state": "running",
-            "status": "Up 9 days",
+            "status": "Up 10 days",
             "policy": "on-failure",
             "self": false
           }
@@ -903,7 +903,7 @@
             "name": "webcheck_server_1",
             "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 9 days (healthy)",
+            "status": "Up 10 days (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -999,7 +999,7 @@
             "name": "tor_proxy",
             "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
             "state": "running",
-            "status": "Up 9 days",
+            "status": "Up 10 days",
             "policy": "on-failure",
             "self": false
           }
@@ -1444,7 +1444,7 @@
         "name": "joolay-atvloadly_web_1",
         "image": "bitxeno/atvloadly:v0.3.7",
         "state": "running",
-        "status": "Up 9 days",
+        "status": "Up 10 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1459,7 +1459,7 @@
         "name": "webcheck_server_1",
         "image": "ghcr.io/lissy93/web-check:2.4.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 9 days (healthy)",
+        "status": "Up 10 days (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1475,7 +1475,7 @@
         "name": "kokoro_web_1",
         "image": "ghcr.io/remsky/kokoro-fastapi-cpu:v0.10.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 9 days",
+        "status": "Up 10 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1505,7 +1505,7 @@
         "name": "pocketbase_app_1",
         "image": "ghcr.io/muchobien/pocketbase:0.40.6@sha256:[hidden]",
         "state": "running",
-        "status": "Up 9 days",
+        "status": "Up 10 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1520,7 +1520,7 @@
         "name": "tor_proxy",
         "image": "ghcr.io/getumbrel/tor:0.4.9.11@sha256:[hidden]",
         "state": "running",
-        "status": "Up 9 days",
+        "status": "Up 10 days",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
