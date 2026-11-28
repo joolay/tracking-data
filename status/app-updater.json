@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-28T02:06:21.391Z",
-  "changedAt": "2026-11-28T02:06:21.391Z",
-  "rev": 6923,
-  "sig": "9e864a867a852ba751ccd55a78e2ca5f15ae200375a6957cda725bed3aa291da",
+  "at": "2026-11-28T02:07:21.398Z",
+  "changedAt": "2026-11-28T02:07:21.398Z",
+  "rev": 6924,
+  "sig": "7faf1330323c3517a595be56b586db7eae060444059944f4c35245e28e947ba6",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -51,6 +51,24 @@
       "retryAt": null
     },
     "apps": [
+      {
+        "id": "ollama",
+        "name": "Ollama",
+        "version": "0.40.18",
+        "latest": "0.40.19",
+        "update": true,
+        "state": "ready",
+        "store": {
+          "id": "umbrel",
+          "name": "Umbrel"
+        },
+        "mode": "nightly",
+        "hidden": false,
+        "busy": false,
+        "detectedAt": 1795831613662,
+        "result": null,
+        "waiting": true
+      },
       {
         "id": "adguard-home",
         "name": "AdGuard Home",
@@ -312,24 +330,6 @@
           "raw": "joolay"
         },
         "mode": "immediate",
-        "hidden": false,
-        "busy": false,
-        "detectedAt": null,
-        "result": null,
-        "waiting": false
-      },
-      {
-        "id": "ollama",
-        "name": "Ollama",
-        "version": "0.40.18",
-        "latest": "0.40.18",
-        "update": false,
-        "state": "ready",
-        "store": {
-          "id": "umbrel",
-          "name": "Umbrel"
-        },
-        "mode": "nightly",
         "hidden": false,
         "busy": false,
         "detectedAt": null,
@@ -665,10 +665,10 @@
         }
       ],
       "error": null,
-      "at": 1795831553196
+      "at": 1795831629139
     },
     "check": {
-      "at": 1795831553439,
+      "at": 1795831629259,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 407
@@ -681,7 +681,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795831573054,
+        "at": 1795831633065,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -705,6 +705,71 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "port-master",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "yuvomi",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tailscale",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "ollama",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "joolzapp",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "paperclip",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "wallos",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "adguard-home",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "pocketbase",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "anything-llm",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "app-updater",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "atvloadly",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "portaladmin",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "gym-guru",
             "status": "Running",
@@ -789,71 +854,6 @@
             "name": "gatekeeper",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "port-master",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "yuvomi",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tailscale",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "ollama",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "joolzapp",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "paperclip",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "wallos",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "adguard-home",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "pocketbase",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "anything-llm",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "app-updater",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "atvloadly",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "portaladmin",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -873,6 +873,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795831613663,
+        "level": "info",
+        "appId": "ollama",
+        "message": "Update available: Ollama 0.40.18 → 0.40.19"
+      },
       {
         "t": 1795750440976,
         "level": "info",
@@ -1226,12 +1232,6 @@
         "level": "ok",
         "appId": "joolay-portal",
         "message": "JoolzApp Dashboard updated to 0.43.2 (state: ready)"
-      },
-      {
-        "t": 1795677768258,
-        "level": "info",
-        "appId": "joolay-portal",
-        "message": "Updating JoolzApp Dashboard (detected, updating straight away)…"
       }
     ],
     "diagnose": [
