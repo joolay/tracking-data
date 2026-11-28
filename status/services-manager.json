@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T02:42:03.195Z",
-  "changedAt": "2026-11-28T02:42:03.195Z",
-  "rev": 7313,
-  "sig": "351a9ac9d36fea7a015d3136522c691fc969e7be5cd332c60884f83931bd3945",
+  "at": "2026-11-28T02:43:03.711Z",
+  "changedAt": "2026-11-28T02:43:03.711Z",
+  "rev": 7314,
+  "sig": "0d4d061e466ad0d2d462cda3f15996156e91b7387f5ccc976dc0d3989a471aa8",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795833718337,
+      "at": 1795833778345,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,16 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "openclaw",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "kiosk-manager",
           "status": "Running",
@@ -174,16 +184,6 @@
         },
         {
           "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "openclaw",
           "status": "Running",
           "paused": false
         }
@@ -975,7 +975,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 47 hours (healthy)",
+            "status": "Up 2 days (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1428,7 +1428,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 47 hours (healthy)",
+        "status": "Up 2 days (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
