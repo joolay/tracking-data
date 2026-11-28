@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T07:38:03.790Z",
-  "changedAt": "2026-11-28T07:38:03.790Z",
-  "rev": 7579,
-  "sig": "ffa3cc0e94f6ba29819e3ab37b5eb932160ad70432a98b2ca8f92765ad689985",
+  "at": "2026-11-28T07:39:03.777Z",
+  "changedAt": "2026-11-28T07:39:03.777Z",
+  "rev": 7580,
+  "sig": "358a7d1e4192628e27fd1ccdf10163168e6adb2c3464df57e1ca852652d982e9",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795851480953,
+      "at": 1795851540960,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,26 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "services-manager",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "cctv",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "openclaw",
           "status": "Running",
@@ -164,26 +184,6 @@
         },
         {
           "name": "jolly-grocer",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "services-manager",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "project-tracker",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "cctv",
           "status": "Running",
           "paused": false
         }
@@ -927,7 +927,7 @@
             "name": "yuvomi_web_1",
             "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
             "state": "running",
-            "status": "Up 30 hours",
+            "status": "Up 31 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1043,7 +1043,7 @@
         "name": "yuvomi_web_1",
         "image": "ghcr.io/ulsklyc/yuvomi:2.96.0@sha256:[hidden]",
         "state": "running",
-        "status": "Up 30 hours",
+        "status": "Up 31 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
