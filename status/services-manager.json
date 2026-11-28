@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T01:42:03.060Z",
-  "changedAt": "2026-11-28T01:42:03.060Z",
-  "rev": 7257,
-  "sig": "8487b79e4e2e116c52cb36a955a50a17d78871a9ba4b5bfbe3ce413fea2edc3e",
+  "at": "2026-11-28T01:43:03.049Z",
+  "changedAt": "2026-11-28T01:43:03.049Z",
+  "rev": 7258,
+  "sig": "fbfef6469f2308d047b53c432160b8c4563e808c86557f35ba5029f9f73a1dae",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795830117773,
+      "at": 1795830177790,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,11 +37,6 @@
         "created": ""
       },
       "proxies": [
-        {
-          "name": "tv-remote",
-          "status": "Running",
-          "paused": false
-        },
         {
           "name": "cctv",
           "status": "Running",
@@ -184,6 +179,11 @@
         },
         {
           "name": "project-tracker",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "tv-remote",
           "status": "Running",
           "paused": false
         }
@@ -975,7 +975,7 @@
             "name": "tsdproxy-tsdproxy-1",
             "image": "almeidapaulopt/tsdproxy:2",
             "state": "running",
-            "status": "Up 46 hours (healthy)",
+            "status": "Up 47 hours (healthy)",
             "policy": "unless-stopped",
             "self": false
           }
@@ -1428,7 +1428,7 @@
         "name": "tsdproxy-tsdproxy-1",
         "image": "almeidapaulopt/tsdproxy:2",
         "state": "running",
-        "status": "Up 46 hours (healthy)",
+        "status": "Up 47 hours (healthy)",
         "restartPolicy": "unless-stopped",
         "restarts": 0,
         "exitCode": 0,
