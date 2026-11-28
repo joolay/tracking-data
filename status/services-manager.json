@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T02:17:03.115Z",
-  "changedAt": "2026-11-28T02:17:03.115Z",
-  "rev": 7289,
-  "sig": "956416372512a039b79949cdf38631269f73786926b49406d5a174ccb690a58b",
+  "at": "2026-11-28T02:18:03.127Z",
+  "changedAt": "2026-11-28T02:18:03.127Z",
+  "rev": 7290,
+  "sig": "bd2cf18da86a1cd32e60f5d61c8c5cf23edebc8cd734bf5f6c4083da57e5eaa4",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795832218162,
+      "at": 1795832278170,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,11 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -179,11 +184,6 @@
         },
         {
           "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -615,7 +615,7 @@
             "name": "open-webui_web_1",
             "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
             "state": "running",
-            "status": "Up 33 hours (healthy)",
+            "status": "Up 34 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -711,7 +711,7 @@
             "name": "joolay-routing-reporter_web_1",
             "image": "ghcr.io/joolay/routing-reporter:1.10.3",
             "state": "running",
-            "status": "Up 42 hours (healthy)",
+            "status": "Up 43 hours (healthy)",
             "policy": "on-failure",
             "self": false
           }
@@ -1090,7 +1090,7 @@
         "name": "open-webui_web_1",
         "image": "ghcr.io/open-webui/open-webui:v0.13.5@sha256:[hidden]",
         "state": "running",
-        "status": "Up 33 hours (healthy)",
+        "status": "Up 34 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
@@ -1152,7 +1152,7 @@
         "name": "joolay-routing-reporter_web_1",
         "image": "ghcr.io/joolay/routing-reporter:1.10.3",
         "state": "running",
-        "status": "Up 42 hours (healthy)",
+        "status": "Up 43 hours (healthy)",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
