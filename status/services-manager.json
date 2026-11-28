@@ -1,9 +1,9 @@
 {
   "app": "services-manager",
-  "at": "2026-11-28T03:45:03.386Z",
-  "changedAt": "2026-11-28T03:45:03.386Z",
-  "rev": 7369,
-  "sig": "8d0b5f01405af4ac79ca774c1476a95cba5926fc3f278820b40516a59bf4d77f",
+  "at": "2026-11-28T03:46:03.379Z",
+  "changedAt": "2026-11-28T03:46:03.379Z",
+  "rev": 7370,
+  "sig": "e3ab101720342398cfc8c4ad70166b1b40191255da840985b9cbd79766eb1b17",
   "seenClaude": 0,
   "data": {
     "umbrel": {
@@ -13,7 +13,7 @@
     },
     "tsdproxy": {
       "v": 1,
-      "at": 1795837498753,
+      "at": 1795837558760,
       "settings": {
         "autoUpdate": true,
         "time": "03:30"
@@ -37,6 +37,31 @@
         "created": ""
       },
       "proxies": [
+        {
+          "name": "joolztv",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "webcheck",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "diner-bell",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "home-assistant",
+          "status": "Running",
+          "paused": false
+        },
+        {
+          "name": "listify",
+          "status": "Running",
+          "paused": false
+        },
         {
           "name": "open-webui",
           "status": "Running",
@@ -159,31 +184,6 @@
         },
         {
           "name": "gym-guru",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "joolztv",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "webcheck",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "diner-bell",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "home-assistant",
-          "status": "Running",
-          "paused": false
-        },
-        {
-          "name": "listify",
           "status": "Running",
           "paused": false
         }
@@ -366,7 +366,7 @@
             "name": "joolay-gym-guru_web_1",
             "image": "ghcr.io/joolay/gym-guru:1.0.0",
             "state": "running",
-            "status": "Up 43 hours",
+            "status": "Up 44 hours",
             "policy": "on-failure",
             "self": false
           }
@@ -1137,7 +1137,7 @@
         "name": "joolay-gym-guru_web_1",
         "image": "ghcr.io/joolay/gym-guru:1.0.0",
         "state": "running",
-        "status": "Up 43 hours",
+        "status": "Up 44 hours",
         "restartPolicy": "on-failure",
         "restarts": 0,
         "exitCode": 0,
