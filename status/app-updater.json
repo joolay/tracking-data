@@ -1,9 +1,9 @@
 {
   "app": "app-updater",
-  "at": "2026-11-28T13:53:27.436Z",
-  "changedAt": "2026-11-28T13:53:27.436Z",
-  "rev": 7578,
-  "sig": "fb6533852e282418dfeba344499f7380896e58f4759e63ac1cc74b4a432f2cc1",
+  "at": "2026-11-28T13:55:26.578Z",
+  "changedAt": "2026-11-28T13:55:26.578Z",
+  "rev": 7579,
+  "sig": "28fbb5675d560d9c8d1fd0d6b679b2467fe7439431ffb8eb77759c40821d345d",
   "seenClaude": 0,
   "data": {
     "version": "1.10.1",
@@ -664,22 +664,22 @@
         }
       ],
       "error": null,
-      "at": 1795873973164
+      "at": 1795874095464
     },
     "check": {
-      "at": 1795873973402,
+      "at": 1795874095621,
       "error": null,
       "registryProc": "appStore.registry",
       "registryCount": 408
     },
     "repo": {
-      "at": 1795873973110,
+      "at": 1795874095409,
       "error": null,
       "pending": [
         {
           "id": "joolay-joolztv",
           "name": "JoolzTV",
-          "repo": "1.18.2",
+          "repo": "1.18.3",
           "umbrel": null,
           "kind": "new"
         }
@@ -688,7 +688,7 @@
     "tsdproxy": {
       "status": {
         "v": 1,
-        "at": 1795873999811,
+        "at": 1795874119821,
         "settings": {
           "autoUpdate": true,
           "time": "03:30"
@@ -712,6 +712,71 @@
           "created": ""
         },
         "proxies": [
+          {
+            "name": "home-assistant",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "listify",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "open-webui",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kokoro",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "jolly-grocer",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "services-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "project-tracker",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "tv-remote",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "cctv",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "openclaw",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "kiosk-manager",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "shutterworth",
+            "status": "Running",
+            "paused": false
+          },
+          {
+            "name": "gatekeeper",
+            "status": "Running",
+            "paused": false
+          },
           {
             "name": "port-master",
             "status": "Running",
@@ -796,71 +861,6 @@
             "name": "diner-bell",
             "status": "Running",
             "paused": false
-          },
-          {
-            "name": "home-assistant",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "listify",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "open-webui",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kokoro",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "jolly-grocer",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "services-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "project-tracker",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "tv-remote",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "cctv",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "openclaw",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "kiosk-manager",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "shutterworth",
-            "status": "Running",
-            "paused": false
-          },
-          {
-            "name": "gatekeeper",
-            "status": "Running",
-            "paused": false
           }
         ],
         "wanted": [],
@@ -880,6 +880,12 @@
       }
     },
     "log": [
+      {
+        "t": 1795874095409,
+        "level": "warn",
+        "appId": "joolay-joolztv",
+        "message": "New app on the repo, umbrelOS has not seen it yet: JoolzTV 1.18.3"
+      },
       {
         "t": 1795873911454,
         "level": "warn",
@@ -1233,12 +1239,6 @@
         "level": "info",
         "appId": "joolay-portal",
         "message": "Update available: JoolzApp Dashboard 0.43.2 → 0.43.3"
-      },
-      {
-        "t": 1795678269809,
-        "level": "warn",
-        "appId": null,
-        "message": "Status feed: fetch failed"
       }
     ],
     "diagnose": [
